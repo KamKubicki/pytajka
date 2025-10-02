@@ -1,0 +1,139 @@
+{
+  "categories": {
+    "historia": {
+      "name": "Historia",
+      "color": "#8B4513",
+      "icon": "🏛️",
+      "questions": [
+        {
+          "id": "hist_001",
+          "question": "W którym roku wybuchła II wojna światowa?",
+          "answers": ["1937", "1939", "1940", "1941"],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "II wojna światowa rozpoczęła się 1 września 1939 roku wraz z atakiem Niemiec na Polskę."
+        },
+        {
+          "id": "hist_002", 
+          "question": "Kto był pierwszym prezydentem Polski po 1989 roku?",
+          "answers": ["Lech Wałęsa", "Wojciech Jaruzelski", "Tadeusz Mazowiecki", "Aleksander Kwaśniewski"],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Lech Wałęsa został pierwszym prezydentem III RP, wybranym w wyborach w 1990 roku."
+        }
+      ]
+    },
+    "nauka": {
+      "name": "Nauka",
+      "color": "#4169E1", 
+      "icon": "🔬",
+      "questions": [
+        {
+          "id": "sci_001",
+          "question": "Która planeta jest najbliżej Słońca?",
+          "answers": ["Wenus", "Merkury", "Ziemia", "Mars"],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Merkury jest najbliższą planetą Słońcu, przeciętna odległość to 58 mln km."
+        },
+        {
+          "id": "sci_002",
+          "question": "Jaki pierwiastek ma symbol chemiczny 'Au'?",
+          "answers": ["Srebro", "Złoto", "Aluminium", "Argon"], 
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Au to symbol złota (łac. aurum)."
+        }
+      ]
+    },
+    "sport": {
+      "name": "Sport",
+      "color": "#FF6347",
+      "icon": "⚽",
+      "questions": [
+        {
+          "id": "sport_001",
+          "question": "Która drużyna wygrała Mistrzostwa Świata 2022 w piłce nożnej?",
+          "answers": ["Francja", "Argentyna", "Brazylia", "Niemcy"],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Argentyna pokonała Francję w finale MŚ 2022 w Katarze."
+        }
+      ]
+    },
+    "geografia": {
+      "name": "Geografia", 
+      "color": "#32CD32",
+      "icon": "🌍",
+      "questions": [
+        {
+          "id": "geo_001",
+          "question": "Stolica Australii to:",
+          "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Canberra jest stolicą Australii, choć Sydney i Melbourne są większe."
+        }
+      ]
+    },
+    "rozrywka": {
+      "name": "Rozrywka",
+      "color": "#FF1493", 
+      "icon": "🎬",
+      "questions": [
+        {
+          "id": "ent_001",
+          "question": "Kto wyreżyserował film 'Pulp Fiction'?",
+          "answers": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "David Fincher"],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Quentin Tarantino wyreżyserował 'Pulp Fiction' w 1994 roku."
+        }
+      ]
+    },
+    "literatura": {
+      "name": "Literatura",
+      "color": "#8A2BE2",
+      "icon": "📚", 
+      "questions": [
+        {
+          "id": "lit_001",
+          "question": "Kto napisał 'Lalka'?",
+          "answers": ["Adam Mickiewicz", "Bolesław Prus", "Henryk Sienkiewicz", "Juliusz Słowacki"],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Bolesław Prus napisał powieść 'Lalka' w 1890 roku."
+        }
+      ]
+    }
+  },
+  
+  "difficulties": {
+    "easy": {
+      "name": "Łatwe",
+      "timeLimit": 20,
+      "basePoints": 100,
+      "maxTimeBonus": 50
+    },
+    "medium": {
+      "name": "Średnie", 
+      "timeLimit": 15,
+      "basePoints": 150,
+      "maxTimeBonus": 75
+    },
+    "hard": {
+      "name": "Trudne",
+      "timeLimit": 10, 
+      "basePoints": 200,
+      "maxTimeBonus": 100
+    }
+  },
+
+  "gameSettings": {
+    "questionsPerGame": 5,
+    "categoriesPerGame": 3,
+    "enableCategoryVoting": true,
+    "enableTimeBonus": true,
+    "showExplanations": true
+  }
+}

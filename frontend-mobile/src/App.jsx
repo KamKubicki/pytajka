@@ -246,7 +246,9 @@ function Game() {
         setLastResult({
           correct: updatedPlayer.lastCorrect,
           correctAnswer: data.correctAnswer,
-          pointsEarned: updatedPlayer.lastCorrect ? 100 : 0
+          pointsEarned: updatedPlayer.lastPoints || 0,
+          timeBonus: updatedPlayer.lastTimeBonus || 0,
+          responseTime: updatedPlayer.lastResponseTime || 0
         });
         
         console.log('Setting showFeedback to true');
@@ -476,6 +478,19 @@ function Game() {
         <div className="feedback-points">
           +{lastResult.pointsEarned} punktów
         </div>
+        
+        {lastResult.correct && lastResult.timeBonus > 0 && (
+          <div className="time-bonus">
+            ⚡ Bonus za czas: +{lastResult.timeBonus} pkt
+          </div>
+        )}
+        
+        {lastResult.responseTime && (
+          <div className="response-time">
+            ⏱️ Czas odpowiedzi: {(lastResult.responseTime / 1000).toFixed(1)}s
+          </div>
+        )}
+        
         <div style={{
           fontSize: '1.5rem', 
           marginTop: '1rem', 

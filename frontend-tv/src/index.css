@@ -189,6 +189,13 @@ body {
   font-weight: bold;
 }
 
+.response-time-display {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.8);
+  margin-top: 0.3rem;
+  font-weight: normal;
+}
+
 @keyframes slideIn {
   from {
     opacity: 0;

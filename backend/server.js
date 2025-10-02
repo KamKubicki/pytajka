@@ -73,7 +73,7 @@ class GameSession {
     this.hostSocket = null;
     this.questionIndex = 0;
     this.timer = null;
-    this.playerAnswers = new Map();
+    this.playerAnswers = new Map(); // playerId -> {answer, timestamp}
   }
 
   addPlayer(playerId, playerData) {
@@ -97,6 +97,7 @@ class GameSession {
       const question = sampleQuestions[this.questionIndex];
       this.currentQuestion = question;
       this.playerAnswers.clear();
+      this.questionStartTime = null; // Will be set when question actually starts
       
       console.log(`Starting question ${this.questionIndex + 1}:`, question.question);
       
@@ -108,6 +109,9 @@ class GameSession {
       
       // Wait 5 seconds, then send actual question
       setTimeout(() => {
+        // Set question start time for time-based scoring
+        this.questionStartTime = Date.now();
+        
         io.to(this.id).emit('new-question', {
           question: {
             ...question,
@@ -136,15 +140,47 @@ class GameSession {
   endQuestion() {
     console.log('Question ended for session:', this.id);
     
-    // Calculate scores
+    // Calculate time-based scores
     const updatedPlayers = Array.from(this.players.values()).map(player => {
-      const playerAnswer = this.playerAnswers.get(player.id);
-      const isCorrect = playerAnswer === this.currentQuestion.correct;
+      const playerAnswerData = this.playerAnswers.get(player.id);
+      
+      if (!playerAnswerData) {
+        // No answer provided
+        return {
+          ...player,
+          lastAnswer: null,
+          lastCorrect: false,
+          lastResponseTime: null,
+          lastPoints: 0,
+          lastTimeBonus: 0
+        };
+      }
+      
+      const isCorrect = playerAnswerData.answer === this.currentQuestion.correct;
+      let points = 0;
+      let timeBonus = 0;
+      
+      if (isCorrect) {
+        // Base points for correct answer
+        const basePoints = 100;
+        
+        // Time bonus calculation (max 100 points for instant answer)
+        const maxResponseTime = 15000; // 15 seconds in ms
+        const responseTime = playerAnswerData.responseTime;
+        const timeBonusPercentage = Math.max(0, (maxResponseTime - responseTime) / maxResponseTime);
+        timeBonus = Math.round(100 * timeBonusPercentage);
+        
+        points = basePoints + timeBonus;
+      }
+      
       return {
         ...player,
-        score: player.score + (isCorrect ? 100 : 0),
-        lastAnswer: playerAnswer,
-        lastCorrect: isCorrect
+        score: player.score + points,
+        lastAnswer: playerAnswerData.answer,
+        lastCorrect: isCorrect,
+        lastResponseTime: playerAnswerData.responseTime,
+        lastPoints: points,
+        lastTimeBonus: timeBonus
       };
     });
     
@@ -319,9 +355,17 @@ io.on('connection', (socket) => {
     console.log('Player answer:', { sessionId, playerId, answer });
     
     if (session) {
-      // Store answer
-      session.playerAnswers.set(playerId, answer);
-      console.log(`Player ${playerId} answered ${answer}. Total answers: ${session.playerAnswers.size}/${session.players.size}`);
+      const answerTimestamp = Date.now();
+      const responseTime = session.questionStartTime ? answerTimestamp - session.questionStartTime : 0;
+      
+      // Store answer with timestamp for time-based scoring
+      session.playerAnswers.set(playerId, {
+        answer,
+        timestamp: answerTimestamp,
+        responseTime
+      });
+      
+      console.log(`Player ${playerId} answered ${answer} in ${responseTime}ms. Total answers: ${session.playerAnswers.size}/${session.players.size}`);
       
       // Get player info for TV visualization
       const player = session.players.get(playerId);
@@ -332,7 +376,8 @@ io.on('connection', (socket) => {
         playerName: player?.name,
         playerAvatar: player?.avatar,
         answer,
-        timestamp: Date.now(),
+        timestamp: answerTimestamp,
+        responseTime,
         totalAnswers: session.playerAnswers.size,
         totalPlayers: session.players.size
       });

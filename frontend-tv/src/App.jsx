@@ -332,6 +332,11 @@ function App() {
                       >
                         <div className="player-avatar">{playerAnswer.playerAvatar}</div>
                         <div className="player-name">{playerAnswer.playerName}</div>
+                        {playerAnswer.responseTime && (
+                          <div className="response-time-display">
+                            ⏱️ {(playerAnswer.responseTime / 1000).toFixed(1)}s
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
