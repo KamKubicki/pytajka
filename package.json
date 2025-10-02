@@ -1,0 +1,15 @@
+{
+  "name": "wiedza-to-potega",
+  "version": "1.0.0",
+  "description": "Multiplayer quiz game like 'Wiedza to Potęga'",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:tv\" \"npm run dev:mobile\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:tv": "cd frontend-tv && npm run dev",
+    "dev:mobile": "cd frontend-mobile && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend-tv && npm install && cd ../frontend-mobile && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
