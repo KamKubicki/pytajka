@@ -339,10 +339,18 @@ function Game() {
 
   const renderQuestion = () => (
     <div className="mobile-container">
-      <div className="question-screen">
-        <div className="question-header">
+      <div className="controller-screen">
+        <div className="controller-header">
+          <div className="player-info-mini">
+            <span className="player-avatar-mini">{playerData.avatar}</span>
+            <span className="player-name-mini">{playerData.name}</span>
+            <span className="player-score-mini">{playerData.score} pkt</span>
+          </div>
           <div className="question-timer">{timer}s</div>
-          <div className="question-text">{currentQuestion.question}</div>
+        </div>
+        
+        <div className="controller-instruction">
+          📺 Patrzcie na główny ekran!
         </div>
         
         <div className="answers-container">

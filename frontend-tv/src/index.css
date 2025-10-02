@@ -108,11 +108,151 @@ body {
   line-height: 1.4;
 }
 
+/* Old grid layout - keeping for compatibility */
 .answers-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-bottom: 2rem;
+}
+
+/* New show-style arena layout */
+.answers-arena {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  min-height: 400px;
+}
+
+.answer-column {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.answer-column.correct {
+  background: rgba(40, 167, 69, 0.3);
+  border: 3px solid #28a745;
+  transform: scale(1.02);
+}
+
+.answer-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+}
+
+.answer-letter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFD700;
+  margin-right: 1rem;
+}
+
+.answer-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.players-for-answer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-height: 200px;
+}
+
+.player-choice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  animation: slideIn 0.3s ease-out;
+  transition: all 0.3s ease;
+}
+
+/* Animated styles moved to bottom of file */
+
+.player-choice .player-avatar {
+  font-size: 2rem;
+  min-width: 3rem;
+}
+
+.player-choice .player-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes correctReveal {
+  0% { 
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(40, 167, 69, 0.6);
+  }
+  50% { 
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(40, 167, 69, 0.8);
+  }
+  100% { 
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(40, 167, 69, 0.6);
+  }
+}
+
+@keyframes wrongReveal {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-10px); }
+  20% { transform: translateX(10px); }
+  30% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  50% { transform: translateX(-5px); }
+  60% { transform: translateX(5px); }
+  70% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+  90% { transform: translateX(-1px); }
+  100% { transform: translateX(0); }
+}
+
+.answer-column.correct {
+  animation: correctReveal 0.6s ease-out;
+}
+
+.player-choice.correct-choice {
+  background: rgba(40, 167, 69, 0.4);
+  border: 2px solid #28a745;
+  animation: correctReveal 0.4s ease-out;
+}
+
+.player-choice.wrong-choice {
+  background: rgba(220, 53, 69, 0.4);
+  border: 2px solid #dc3545;
+  animation: wrongReveal 0.5s ease-out;
+}
+
+.game-stats {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255,255,255,0.1);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .answer-option {

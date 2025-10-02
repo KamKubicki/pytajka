@@ -63,6 +63,7 @@ function App() {
   const [timer, setTimer] = useState(15);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [playerAnswers, setPlayerAnswers] = useState(new Map());
+  const [realTimeAnswers, setRealTimeAnswers] = useState(new Map()); // Track answers as they come in
   const [prepareTimer, setPrepareTimer] = useState(5);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [totalQuestions, setTotalQuestions] = useState(5);
@@ -100,6 +101,17 @@ function App() {
       setPlayerAnswers(prev => new Map(prev.set(data.playerId, data.answer)));
     });
 
+    newSocket.on('player-answer-realtime', (data) => {
+      console.log('Real-time player answer:', data);
+      setRealTimeAnswers(prev => new Map(prev.set(data.playerId, {
+        playerId: data.playerId,
+        playerName: data.playerName,
+        playerAvatar: data.playerAvatar,
+        answer: data.answer,
+        timestamp: data.timestamp
+      })));
+    });
+
     newSocket.on('game-started', () => {
       console.log('Game started event received');
       setGameState('playing');
@@ -131,6 +143,7 @@ function App() {
       setTimer(15);
       setShowCorrectAnswer(false);
       setPlayerAnswers(new Map());
+      setRealTimeAnswers(new Map()); // Reset real-time answers for new question
       
       // Start countdown
       const timerInterval = setInterval(() => {
@@ -295,18 +308,42 @@ function App() {
           <div className="timer">{timer}</div>
           <div className="question-text">{currentQuestion.question}</div>
           
-          <div className="answers-grid">
-            {currentQuestion.answers.map((answer, index) => (
-              <div 
-                key={index}
-                className={`answer-option ${showCorrectAnswer && index === currentQuestion.correct ? 'correct' : ''}`}
-              >
-                {String.fromCharCode(65 + index)}. {answer}
-              </div>
-            ))}
+          <div className="answers-arena">
+            {currentQuestion.answers.map((answer, index) => {
+              // Get players who chose this answer
+              const playersForThisAnswer = Array.from(realTimeAnswers.values())
+                .filter(playerAnswer => playerAnswer.answer === index);
+              
+              return (
+                <div 
+                  key={index}
+                  className={`answer-column ${showCorrectAnswer && index === currentQuestion.correct ? 'correct' : ''}`}
+                >
+                  <div className="answer-header">
+                    <span className="answer-letter">{String.fromCharCode(65 + index)}</span>
+                    <span className="answer-text">{answer}</span>
+                  </div>
+                  
+                  <div className="players-for-answer">
+                    {playersForThisAnswer.map(playerAnswer => (
+                      <div 
+                        key={playerAnswer.playerId} 
+                        className={`player-choice ${showCorrectAnswer ? (index === currentQuestion.correct ? 'correct-choice' : 'wrong-choice') : ''}`}
+                      >
+                        <div className="player-avatar">{playerAnswer.playerAvatar}</div>
+                        <div className="player-name">{playerAnswer.playerName}</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </div>
 
-          <div>Odpowiedzi: {playerAnswers.size}/{players.length}</div>
+          <div className="game-stats">
+            <div>Odpowiedzi: {realTimeAnswers.size}/{players.length}</div>
+            <div>Pozostało: {timer}s</div>
+          </div>
         </div>
       </div>
     );

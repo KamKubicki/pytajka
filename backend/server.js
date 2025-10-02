@@ -323,15 +323,19 @@ io.on('connection', (socket) => {
       session.playerAnswers.set(playerId, answer);
       console.log(`Player ${playerId} answered ${answer}. Total answers: ${session.playerAnswers.size}/${session.players.size}`);
       
-      // Notify host about answer count
-      if (session.hostSocket) {
-        io.to(session.hostSocket).emit('player-answer', {
-          playerId,
-          answer,
-          totalAnswers: session.playerAnswers.size,
-          totalPlayers: session.players.size
-        });
-      }
+      // Get player info for TV visualization
+      const player = session.players.get(playerId);
+      
+      // Emit real-time answer event to entire room for TV visualization
+      io.to(sessionId).emit('player-answer-realtime', {
+        playerId,
+        playerName: player?.name,
+        playerAvatar: player?.avatar,
+        answer,
+        timestamp: Date.now(),
+        totalAnswers: session.playerAnswers.size,
+        totalPlayers: session.players.size
+      });
       
       // If all players answered, end question early
       if (session.playerAnswers.size >= session.players.size) {
