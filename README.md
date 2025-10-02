@@ -15,7 +15,7 @@ npm run dev
 ```
 
 To uruchomi:
-- Backend (port 3001)
+- Backend (port 8001)
 - Frontend TV (port 3000) 
 - Frontend Mobile (port 3002)
 
@@ -34,23 +34,36 @@ frontend-mobile/  - React (dla telefonów)
 shared/           - Współdzielone typy i utils
 ```
 
-## ✨ Funkcje MVP
+## ✨ Funkcje - Stan obecny
 
-- ✅ Dołączanie przez QR kod
+### MVP ✅ (Ukończone)
+- ✅ Dołączanie przez QR kod i kod sesji
 - ✅ Real-time komunikacja (WebSockets)
-- ✅ Lobby graczy
-- ✅ Quiz z wielokrotnym wyborem
+- ✅ Lobby graczy z avatarami
+- ✅ Quiz z wielokrotnym wyborem (5 pytań)
 - ✅ Punktacja w czasie rzeczywistym
-- ✅ Podium zwycięzców
+- ✅ Podium zwycięzców na TV
+- ✅ Countdown timery (15s na odpowiedź)
+- ✅ Feedback o poprawnych/błędnych odpowiedziach
+- ✅ Możliwość poprawiania odpowiedzi
+- ✅ Przerwy między pytaniami (5s)
+- ✅ Ekran zakończenia gry na telefonie
+- ✅ Responsywne UI dla mobile i TV
 
-## 🛣️ Roadmap
+### Core Game Features 🚧 (Do zrobienia)
+- [ ] **Rozgrywka turowa** - gracze wybierają kolejność
+- [ ] **Głosowanie nad kategoriami** - wybór kategorii pytań
+- [ ] **System utrudniaczy** - power-upy i przeszkody
+- [ ] **Różne typy pytań** - prawda/fałsz, otwarte, obrazkowe
+- [ ] **Tryb drużynowy** - współpraca w zespołach
 
-- [ ] Kategorie pytań i głosowanie
-- [ ] Utrudniacze i power-upy  
-- [ ] Tryb drużynowy
-- [ ] Własne pytania
-- [ ] Animacje i efekty
+### Extended Features 📋 (Przyszłość)  
+- [ ] Własne zestawy pytań (upload JSON/CSV)
+- [ ] Statystyki graczy i historie gier
+- [ ] Różne poziomy trudności
 - [ ] Progressive Web App (PWA)
+- [ ] Animacje i efekty dźwiękowe
+- [ ] Admin panel do zarządzania grami
 
 ## 🔧 Stack technologiczny
 
