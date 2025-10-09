@@ -56,7 +56,7 @@ cd pytajka
 
 2. **Zainstaluj zależności i uruchom**
 
-**Backend** (port 8001):
+**Backend** (port 3001):
 ```bash
 cd backend
 npm install
@@ -80,7 +80,7 @@ npm run dev
 ### Dostęp do aplikacji:
 - **TV Interface**: http://localhost:5173
 - **Mobile App**: http://localhost:3002  
-- **Backend API**: http://localhost:8001
+- **Backend API**: http://localhost:3001
 
 ## 🎮 Jak grać
 

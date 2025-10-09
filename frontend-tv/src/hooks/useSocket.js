@@ -5,9 +5,9 @@ import { GameContext } from '../contexts/GameContext.jsx';
 const getBackendURL = () => {
   const currentHost = window.location.hostname;
   if (currentHost !== 'localhost' && currentHost !== '127.0.0.1') {
-    return `http://${currentHost}:8001`;
+    return `http://${currentHost}:3001`;
   }
-  return 'http://localhost:8001';
+  return 'http://localhost:3001';
 };
 
 const SOCKET_URL = getBackendURL();

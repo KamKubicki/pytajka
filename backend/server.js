@@ -4,12 +4,12 @@ const initializeSocket = require('./socket');
 const routes = require('./routes');
 const { getLocalIP } = require('./utils');
 
+app.use('/api', routes);
+
 const server = http.createServer(app);
 initializeSocket(server);
 
-app.use('/api', routes);
-
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 3001;
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 HTTP Server running on port ${PORT}`);
   console.log(`Local: http://localhost:${PORT}`);

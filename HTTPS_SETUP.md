@@ -46,7 +46,7 @@ cd frontend-tv && npm run dev
 
 ## 🔧 Porty
 
-- **HTTP Backend**: 8001
+- **HTTP Backend**: 3001
 - **HTTPS Backend**: 8443
 - **HTTPS Frontend**: 3000 (lub kolejny dostępny)
 
