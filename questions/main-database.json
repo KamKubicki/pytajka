@@ -1,0 +1,2189 @@
+{
+  "categories": {
+    "historia_polski": {
+      "name": "Historia Polski",
+      "color": "#8B4513",
+      "icon": "🏛️",
+      "questions": [
+        {
+          "id": "hist_pl_001",
+          "question": "W którym roku Polska odzyskała niepodległość?",
+          "answers": [
+            "1916",
+            "1918",
+            "1919",
+            "1920"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Polska odzyskała niepodległość 11 listopada 1918 roku."
+        },
+        {
+          "id": "hist_pl_002",
+          "question": "Kto był pierwszym królem Polski?",
+          "answers": [
+            "Mieszko I",
+            "Bolesław Chrobry",
+            "Kazimierz Wielki",
+            "Władysław Łokietek"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Bolesław Chrobry został koronowany na pierwszego króla Polski w 1025 roku."
+        },
+        {
+          "id": "hist_pl_003",
+          "question": "W którym roku rozpoczęła się II wojna światowa atakiem na Polskę?",
+          "answers": [
+            "1938",
+            "1939",
+            "1940",
+            "1941"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "II wojna światowa rozpoczęła się 1 września 1939 roku atakiem Niemiec na Polskę."
+        },
+        {
+          "id": "hist_pl_004",
+          "question": "Która bitwa była zwana 'cudem nad Wisłą'?",
+          "answers": [
+            "Bitwa pod Grunwaldem",
+            "Bitwa Warszawska 1920",
+            "Bitwa pod Wiedniem",
+            "Bitwa pod Racławicami"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Bitwa Warszawska z 1920 roku, w której Polacy pokonali Armię Czerwoną, została nazwana 'cudem nad Wisłą'."
+        },
+        {
+          "id": "hist_pl_005",
+          "question": "W którym roku Polska wstąpiła do NATO?",
+          "answers": [
+            "1997",
+            "1999",
+            "2001",
+            "2004"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Polska wstąpiła do NATO 12 marca 1999 roku."
+        },
+        {
+          "id": "hist_pl_006",
+          "question": "Kto był pierwszym królem elekcyjnym Polski?",
+          "answers": [
+            "Jan Kazimierz Waza",
+            "Henryk Walezy",
+            "Stefan Batory",
+            "Zygmunt III Waza"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Pierwszym królem wybranym w drodze wolnej elekcji był Henryk Walezy, który panował w latach 1573–1574."
+        },
+        {
+          "id": "hist_pl_007",
+          "question": "W którym roku założono drugi, po krakowskim, uniwersytet w Rzeczypospolitej Obojga Narodów?",
+          "answers": [
+            "1579",
+            "1601",
+            "1455",
+            "1623"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Uniwersytet w Wilnie został założony w 1579 roku przez króla Stefana Batorego."
+        },
+        {
+          "id": "hist_pl_008",
+          "question": "Jak nazywano bitwę pod Wizną z września 1939 roku?",
+          "answers": [
+            "Cudem nad Wisłą",
+            "Krwawą niedzielą",
+            "Polskimi Termopilami",
+            "Bitwą o Anglię"
+          ],
+          "correct": 2,
+          "difficulty": "hard",
+          "explanation": "Bitwa pod Wizną z września 1939 roku jest nazywana 'polskimi Termopilami' ze względu na bohaterską obronę polskich żołnierzy przed znacznie liczniejszymi siłami niemieckimi."
+        },
+        {
+          "id": "hist_pl_009",
+          "question": "Który polski władca jako pierwszy ogłosił Matkę Boską Królową Korony Polskiej?",
+          "answers": [
+            "Jan III Sobieski",
+            "Zygmunt III Waza",
+            "Władysław IV Waza",
+            "Jan Kazimierz Waza"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Jan Kazimierz Waza podczas potopu szwedzkiego, 1 kwietnia 1656 roku w katedrze we Lwowie, złożył śluby lwowskie, ogłaszając Matkę Bożą Królową Korony Polskiej."
+        },
+        {
+          "id": "hist_pl_0010",
+          "question": "Gdzie w 1934 roku utworzono obóz dla więźniów politycznych w przedwojennej Polsce?",
+          "answers": [
+            "w Warszawie",
+            "w Berezie Kartuskiej",
+            "w Krakowie",
+            "w Gdańsku"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "W 1934 roku w Berezie Kartuskiej utworzono Miejsce Odosobnienia, które było obozem dla więźniów politycznych."
+        },
+        {
+          "id": "hist_001",
+          "question": "W którym roku upadł Mur Berliński?",
+          "answers": [
+            "1987",
+            "1989",
+            "1990",
+            "1991"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Mur Berliński upadł 9 listopada 1989 roku."
+        },
+        {
+          "id": "hist_002",
+          "question": "Kto był pierwszym człowiekiem w kosmosie?",
+          "answers": [
+            "Neil Armstrong",
+            "Jurij Gagarin",
+            "John Glenn",
+            "Alan Shepard"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Jurij Gagarin jako pierwszy człowiek poleciał w kosmos 12 kwietnia 1961 roku."
+        },
+        {
+          "id": "hist_003",
+          "question": "W którym roku zakończyła się II wojna światowa?",
+          "answers": [
+            "1944",
+            "1945",
+            "1946",
+            "1947"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "II wojna światowa zakończyła się w 1945 roku."
+        },
+        {
+          "id": "hist_004",
+          "question": "Kto był prezydentem USA podczas II wojny światowej?",
+          "answers": [
+            "Harry Truman",
+            "Franklin D. Roosevelt",
+            "Dwight Eisenhower",
+            "John F. Kennedy"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Franklin D. Roosevelt był prezydentem USA przez większość II wojny światowej."
+        },
+        {
+          "id": "hist_005",
+          "question": "W którym roku nastąpiło lądowanie na Księżycu?",
+          "answers": [
+            "1968",
+            "1969",
+            "1970",
+            "1971"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Pierwsze lądowanie na Księżycu nastąpiło 20 lipca 1969 roku."
+        },
+        {
+          "id": "hist_006",
+          "question": "Jak nazywasipierwszy prezydent Polski po II wojnie wiatowej?",
+          "answers": [
+            "Ignacy Mocicki",
+            "Bolesaw Bierut",
+            "Lech Wasa",
+            "Gabriel Narutowicz"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Bolesaw Bierut bypierwszym prezydentem Polski po II wojnie wiatowej."
+        },
+        {
+          "id": "hist_007",
+          "question": "Co wydarzyo si3 maja 1791 roku?",
+          "answers": [
+            "Rozpoczcie powstania listopadowego",
+            "Uchwalenie Konstytucji 3 maja",
+            "Bitwa Warszawska",
+            "Podpisanie Traktatu Wersalskiego"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "3 maja 1791 roku uchwalono pierwsznowoczesnkonstytucjw Europie."
+        },
+        {
+          "id": "hist_008",
+          "question": "Kto dowodzipowstaniem warszawskim w 1944 roku?",
+          "answers": [
+            "Tadeusz Komorowski",
+            "Stanisaw Sosabowski",
+            "Marek Edelman",
+            "Wadysaw Anders"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Tadeusz Komorowski, pseudonim 'Bór', dowodziPowstaniem Warszawskim."
+        },
+        {
+          "id": "hist_009",
+          "question": "Co byo przyczynwybuchu II wojny wiatowej?",
+          "answers": [
+            "Atak Niemiec na Polsk",
+            "Zamach w Sarajewie",
+            "Atak na Pearl Harbor",
+            "Upadek Berlin Wall"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "II wojna wiatowa rozpocza siatakiem Niemiec na Polsk1 wrzenia 1939."
+        },
+        {
+          "id": "hist_010",
+          "question": "W którym miecie podpisano akt koczcy II wojnwiatoww Europie?",
+          "answers": [
+            "Berlin",
+            "Pary",
+            "Poczdam",
+            "Reims"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Kapitulacja Niemiec zostaa podpisana w Reims 7 maja 1945 roku."
+        },
+        {
+          "id": "hist_011",
+          "question": "Kto byliderem Solidarnoci?",
+          "answers": [
+            "Lech Wasa",
+            "Tadeusz Mazowiecki",
+            "Wojciech Jaruzelski",
+            "Adam Michnik"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Lech Wasa byliderem NSZZ Solidarnoi póniejszym prezydentem Polski."
+        },
+        {
+          "id": "hist_012",
+          "question": "W jakim roku Polska przyja konstytucjmarcow?",
+          "answers": [
+            "1921",
+            "1918",
+            "1947",
+            "1935"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Konstytucjmarcowuchwalono w 1921 roku."
+        },
+        {
+          "id": "hist_013",
+          "question": "Kto bypierwszym marszałkiem Polski?",
+          "answers": [
+            "Józef Piłsudzki",
+            "Wincenty Witos",
+            "Ignacy Paderewski",
+            "Roman Dmowski"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Józef piłsudzki zostł pierwszym marsałkiem Polski w 1920 roku."
+        }
+      ]
+    },
+    "geografia_polski": {
+      "name": "Geografia Polski",
+      "color": "#32CD32",
+      "icon": "🗺️",
+      "questions": [
+        {
+          "id": "geo_pl_001",
+          "question": "Która rzeka jest najdłuższa w Polsce?",
+          "answers": [
+            "Odra",
+            "Wisła",
+            "Warta",
+            "Biały Dunajec"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Wisła ma długość 1047 km i jest najdłuższą rzeką w Polsce."
+        },
+        {
+          "id": "geo_pl_002",
+          "question": "Jak nazywa się najwyższy szczyt w Polsce?",
+          "answers": [
+            "Kasprowy Wierch",
+            "Rysy",
+            "Gerlach",
+            "Śnieżka"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Rysy (2499 m n.p.m.) to najwyższy szczyt w Polsce, znajdujący się w Tatrach."
+        },
+        {
+          "id": "geo_pl_003",
+          "question": "Które miasto jest stolicą województwa śląskiego?",
+          "answers": [
+            "Kraków",
+            "Katowice",
+            "Częstochowa",
+            "Gliwice"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Katowice to stolica województwa śląskiego."
+        },
+        {
+          "id": "geo_pl_004",
+          "question": "Nad którym morzem leży Polska?",
+          "answers": [
+            "Morze Czarne",
+            "Morze Bałtyckie",
+            "Morze Północne",
+            "Morze Adriatyckie"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Polska ma dostęp do Morza Bałtyckiego."
+        },
+        {
+          "id": "geo_pl_005",
+          "question": "W którym województwie znajdują się Bieszczady?",
+          "answers": [
+            "małopolskie",
+            "podkarpackie",
+            "lubelskie",
+            "świętokrzyskie"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Bieszczady znajdują się w województwie podkarpackim."
+        },
+        {
+          "id": "geo_pl_006",
+          "question": "Jakie jest największe i najgłębsze jezioro w Polsce?",
+          "answers": [
+            "Śniardwy i Hańcza",
+            "Mamry i Wigry",
+            "Jeziorak i Gopło",
+            "Dąbie i Miedwie"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Największym jeziorem w Polsce pod względem powierzchni jest Śniardwy, a najgłębszym jeziorem jest Hańcza."
+        },
+        {
+          "id": "geo_pl_007",
+          "question": "Gdzie w Polsce znajduje się pustynia?",
+          "answers": [
+            "Pustynia Błędowska",
+            "Pustynia Siedlecka",
+            "Pustynia Kozłowska",
+            "Pustynia Staropolskie"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Największym obszarem pustynnym w Polsce jest Pustynia Błędowska, nazywana \"Polską Saharą\"."
+        },
+        {
+          "id": "geo_pl_008",
+          "question": "Który park narodowy słynie z ruchomych wydm?",
+          "answers": [
+            "Białowieski Park Narodowy",
+            "Tatrzański Park Narodowy",
+            "Słowiński Park Narodowy",
+            "Bieszczadzki Park Narodowy"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Słowiński Park Narodowy jest znany z największego w Europie pasa ruchomych wydm."
+        },
+        {
+          "id": "geo_pl_009",
+          "question": "W jakich górach znajdują się Błędne Skały?",
+          "answers": [
+            "w Tatrach",
+            "w Bieszczadach",
+            "w Karkonoszach",
+            "w Górach Stołowych"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Błędne Skały, malowniczy labirynt skalny, to jedna z największych atrakcji Gór Stołowych."
+        },
+        {
+          "id": "geo_pl_0010",
+          "question": "Jaka jest najdłuższa rzeka w Polsce?",
+          "answers": [
+            "Odra",
+            "Warta",
+            "Wisła",
+            "Bug"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Najdłuższą rzeką w Polsce jest Wisła, której długość wynosi 1047 km."
+        },
+        {
+          "id": "geo_001",
+          "question": "Która rzeka jest najdłuższa na świecie?",
+          "answers": [
+            "Amazon",
+            "Nil",
+            "Jangcy",
+            "Missisipi"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Nil o długości około 6650 km jest najdłuższą rzeką na świecie."
+        },
+        {
+          "id": "geo_002",
+          "question": "Który ocean jest największy?",
+          "answers": [
+            "Atlantycki",
+            "Indyjski",
+            "Spokojny",
+            "Arktyczny"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Ocean Spokojny jest największym oceanem na Ziemi."
+        },
+        {
+          "id": "geo_003",
+          "question": "Która stolica leży najwyżej nad poziomem morza?",
+          "answers": [
+            "Quito",
+            "La Paz",
+            "Bogota",
+            "Addis Abeba"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "La Paz w Boliwii leży na wysokości około 3500 metrów nad poziomem morza."
+        },
+        {
+          "id": "geo_004",
+          "question": "Które państwo ma najwięcej stref czasowych?",
+          "answers": [
+            "Rosja",
+            "USA",
+            "Chiny",
+            "Francja"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Francja ma 12 stref czasowych ze względu na swoje terytoria zamorskie."
+        },
+        {
+          "id": "geo_005",
+          "question": "Jaka jest stolica Australii?",
+          "answers": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Canberra jest stolicą Australii."
+        },
+        {
+          "id": "geo_006",
+          "question": "Na którym kontynencie leży Egipt?",
+          "answers": [
+            "Azja",
+            "Afryka",
+            "Europa",
+            "Ameryka Południowa"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Egipt leży w północno-wschodniej części Afryki."
+        },
+        {
+          "id": "geo_007",
+          "question": "Która pustynia jest największa na świecie?",
+          "answers": [
+            "Sahara",
+            "Gobi",
+            "Atacama",
+            "Antarktyda"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Antarktyda jest technicznie największą pustynią na świecie (pustynia lodowa)."
+        },
+        {
+          "id": "geo_008",
+          "question": "Które jezioro jest najgłębsze na świecie?",
+          "answers": [
+            "Jezioro Bajkał",
+            "Wielkie Jeziora",
+            "Jezioro Tanganika",
+            "Jezioro Wiktorii"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Jezioro Bajkał w Rosji jest najgłębsze na świecie - do 1642 m głębokości."
+        },
+        {
+          "id": "geo_009",
+          "question": "Jaka jest stolica Kanady?",
+          "answers": [
+            "Toronto",
+            "Vancouver",
+            "Ottawa",
+            "Montreal"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Ottawa jest stolicą Kanady."
+        },
+        {
+          "id": "geo_010",
+          "question": "Który kraj ma kształt buta?",
+          "answers": [
+            "Hiszpania",
+            "Włochy",
+            "Grecja",
+            "Portugalia"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Włochy mają charakterystyczny kształt przypominający but."
+        }
+      ]
+    },
+    "kultura_polska": {
+      "name": "Kultura Polska",
+      "color": "#FF1493",
+      "icon": "🎭",
+      "questions": [
+        {
+          "id": "kult_pl_001",
+          "question": "Kto napisał 'Pan Tadeusz'?",
+          "answers": [
+            "Henryk Sienkiewicz",
+            "Adam Mickiewicz",
+            "Juliusz Słowacki",
+            "Cyprian Kamil Norwid"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Adam Mickiewicz napisał 'Pan Tadeusz' - narodowy epos polski."
+        },
+        {
+          "id": "kult_pl_002",
+          "question": "Za które dzieło Henryk Sienkiewicz otrzymał Nagrodę Nobla?",
+          "answers": [
+            "Trylogia",
+            "Quo Vadis",
+            "Krzyżacy",
+            "Ogniem i mieczem"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Henryk Sienkiewicz otrzymał Nagrodę Nobla w 1905 roku za powieść 'Quo Vadis'."
+        },
+        {
+          "id": "kult_pl_003",
+          "question": "Jak nazywa się tradycyjny polski taniec ludowy?",
+          "answers": [
+            "mazurek",
+            "polonez",
+            "oberek",
+            "wszystkie odpowiedzi są poprawne"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Mazurek, polonez i oberek to wszystkie tradycyjne polskie tańce ludowe."
+        },
+        {
+          "id": "kult_pl_004",
+          "question": "Które miasto nazywane jest 'Stolicą Kultury' w Polsce?",
+          "answers": [
+            "Warszawa",
+            "Kraków",
+            "Wrocław",
+            "Gdańsk"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Kraków jest często nazywany stolicą kultury Polski ze względu na bogactwo zabytków i tradycji."
+        },
+        {
+          "id": "kult_pl_005",
+          "question": "Kto skomponował 'Mazurka' i 'Polonezy'?",
+          "answers": [
+            "Ignacy Jan Paderewski",
+            "Fryderyk Chopin",
+            "Stanisław Moniuszko",
+            "Karol Szymanowski"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Fryderyk Chopin skomponował słynne mazurki i polonezy."
+        },
+        {
+          "id": "kult_pl_006",
+          "question": "Które z poniższych znalezisk archeologicznych, potwierdzających tradycje wielkanocne na ziemiach polskich, datuje się na X wiek?",
+          "answers": [
+            "Śmigus-dyngus",
+            "Pisanki",
+            "Święconka",
+            "Topienie Marzanny"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Najstarsze pisanki, znalezione podczas wykopalisk w Opolu, datowane są na X wiek, co potwierdza długą historię tego zwyczaju na ziemiach polskich."
+        },
+        {
+          "id": "kult_pl_007",
+          "question": "Co symbolizuje pusty talerz pozostawiony na wigilijnym stole?",
+          "answers": [
+            "Dla zmarłych członków rodziny",
+            "Dla niespodziewanego gościa",
+            "Na szczęście",
+            "Symbolizuje ubóstwo"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Jest to znak pamięci o osobach samotnych i bezdomnych oraz wyraz gotowości do podzielenia się z nimi posiłkiem."
+        },
+        {
+          "id": "kult_pl_008",
+          "question": "Jakie trzy utwory wchodzą w skład słynnej \"Trylogii\" Henryka Sienkiewicza?",
+          "answers": [
+            "\"Ogniem i mieczem\", \"Potop\" i \"Pan Wołodyjowski\"",
+            "\"Lalka\", \"Emancypantki\" i \"Placówka\"",
+            "\"Noce i dnie\", \"Wierna rzeka\" i \"Uciekła mi przepióreczka\"",
+            "\"Chłopi\", \"Ziemia obiecana\" i \"Popioły\""
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "\"Ogniem i mieczem\", \"Potop\" i \"Pan Wołodyjowski\" to trzy powieści historyczne wchodzące w skład \"Trylogii\" Henryka Sienkiewicza."
+        },
+        {
+          "id": "kult_pl_009",
+          "question": "Który polski reżyser zdobył międzynarodowe uznanie za film \"Nóż w wodzie\"?",
+          "answers": [
+            "Andrzej Wajda",
+            "Krzysztof Kieślowski",
+            "Roman Polański",
+            "Agnieszka Holland"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Roman Polański zdobył międzynarodowe uznanie za swój pełnometrażowy debiut \"Nóż w wodzie\" z 1962 roku."
+        },
+        {
+          "id": "kult_pl_0010",
+          "question": "Który polski astronom jako pierwszy opracował mapę Księżyca?",
+          "answers": [
+            "Mikołaj Kopernik",
+            "Jan Heweliusz",
+            "Aleksander Wolszczan",
+            "Bohdan Paczyński"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Jan Heweliusz, astronom z Gdańska, jako pierwszy opracował szczegółowe mapy Księżyca w XVII wieku."
+        },
+        {
+          "id": "lit_world_001",
+          "question": "Kto napisał 'Sto lat samotności'?",
+          "answers": [
+            "Pablo Neruda",
+            "Gabriel García Márquez",
+            "Jorge Luis Borges",
+            "Mario Vargas Llosa"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "'Sto lat samotności' to powieść autorstwa kolumbijskiego pisarza Gabriela García Márqueza."
+        }
+      ]
+    },
+    "sport_polski": {
+      "name": "Sport Polski",
+      "color": "#FF6347",
+      "icon": "⚽",
+      "questions": [
+        {
+          "id": "sport_pl_001",
+          "question": "Kto był nazywany 'Orłem z Zakopanego'?",
+          "answers": [
+            "Adam Małysz",
+            "Kamil Stoch",
+            "Dawid Kubacki",
+            "Piotr Żyła"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Adam Małysz był nazywany 'Orłem z Zakopanego' - legendarny skoczek narciarski."
+        },
+        {
+          "id": "sport_pl_002",
+          "question": "Na którym turnieju Polska piłkarska reprezentacja zdobyła brązowy medal w 1974 roku?",
+          "answers": [
+            "Mistrzostwa Europy",
+            "Mistrzostwa Świata",
+            "Igrzyska Olimpijskie",
+            "Puchar Konfederacji"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Polska zdobyła brązowy medal na Mistrzostwach Świata w RFN w 1974 roku."
+        },
+        {
+          "id": "sport_pl_003",
+          "question": "Która polska tenisistka wygrała Wimbledon w 2012 roku?",
+          "answers": [
+            "Agnieszka Radwańska",
+            "Iga Świątek",
+            "Magda Linette",
+            "Żadna z powyższych"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Żadna polska tenisistka nie wygrała Wimbledonu w 2012 roku. Iga Świątek wygrała French Open w 2020."
+        },
+        {
+          "id": "sport_pl_004",
+          "question": "Robert Lewandowski zdobył Złotą Piłkę w którym roku?",
+          "answers": [
+            "2019",
+            "2020",
+            "2021",
+            "Nie zdobył"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Robert Lewandowski nie zdobył Złotej Piłki, choć był blisko w 2020 i 2021 roku."
+        },
+        {
+          "id": "sport_pl_005",
+          "question": "W jakim sporcie Justyna Kowalczyk odnosiła sukcesy?",
+          "answers": [
+            "biegi narciarskie",
+            "skoki narciarskie",
+            "łyżwiarstwo szybkie",
+            "snowboard"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Justyna Kowalczyk to mistrzyni olimpijska w biegach narciarskich."
+        },
+        {
+          "id": "sport_pl_006",
+          "question": "Kto zdobył pierwszy w historii złoty medal olimpijski dla Polski?",
+          "answers": [
+            "Halina Konopacka",
+            "Robert Korzeniowski",
+            "Adam Małysz",
+            "Irena Szewińska"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Pierwszy złoty medal olimpijski dla Polski zdobyła Halina Konopacka w rzucie dyskiem na Igrzyskach Olimpijskich w Amsterdamie w 1928 roku."
+        },
+        {
+          "id": "sport_pl_007",
+          "question": "W której dyscyplinie sportu Polacy odnieśli jedne z największych sukcesów w latach 70., zdobywając medale na Igrzyskach Olimpijskich i Mistrzostwach Świata?",
+          "answers": [
+            "Siatkówka",
+            "Piłka nożna",
+            "Lekkoatletyka",
+            "Boks"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "W latach 70. polska reprezentacja w piłce nożnej, prowadzona przez legendarnego trenera Kazimierza Górskiego, odnosiła spektakularne sukcesy, m.in. złoty medal olimpijski w 1972 i trzecie miejsce na świecie w 1974."
+        },
+        {
+          "id": "sport_pl_008",
+          "question": "Który polski sportowiec jest czterokrotnym złotym medalistą olimpijskim w chodzie sportowym?",
+          "answers": [
+            "Dawid Tomala",
+            "Matej Tóth",
+            "Robert Korzeniowski",
+            "Jefferson Pérez"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Robert Korzeniowski jest czterokrotnym złotym medalistą olimpijskim w chodzie sportowym, co czyni go jednym z najwybitniejszych chodziarzy w historii."
+        },
+        {
+          "id": "sport_pl_009",
+          "question": "W którym roku polscy siatkarze zdobyli mistrzostwo świata po raz ostatni?",
+          "answers": [
+            "2014",
+            "2018",
+            "2022",
+            "Nie zdobyli"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Polska reprezentacja mężczyzn w siatkówce zdobyła mistrzostwo świata w 2018 roku, pokonując w finale Brazylię."
+        },
+        {
+          "id": "sport_pl_0010",
+          "question": "Kiedy odbył się pierwszy udokumentowany mecz piłki nożnej na ziemiach polskich?",
+          "answers": [
+            "1905 w Warszawie",
+            "1894 we Lwowie",
+            "1918 w Krakowie",
+            "1888 w Gdańsku"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Pierwszy udokumentowany mecz piłkarski na ziemiach polskich rozegrano 14 lipca 1894 roku we Lwowie, pomiędzy drużynami Sokoła lwowskiego i krakowskiego."
+        },
+        {
+          "id": "sport_001",
+          "question": "W którym mieście odbyły się Letnie Igrzyska Olimpijskie w 2020 roku?",
+          "answers": [
+            "Tokio",
+            "Rio de Janeiro",
+            "Londyn",
+            "Pekin"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Igrzyska Olimpijskie 2020 odbyły się w Tokio w 2021 roku z powodu pandemii COVID-19."
+        },
+        {
+          "id": "sport_002",
+          "question": "Ile graczy gra w drużynie piłkarskiej na boisku?",
+          "answers": [
+            "10",
+            "11",
+            "12",
+            "9"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "W piłce nożnej na boisku gra 11 zawodników z każdej drużyny."
+        },
+        {
+          "id": "sport_003",
+          "question": "Kto wygrał najwięcej turniejów tenisa ziemnego Roland Garros?",
+          "answers": [
+            "Roger Federer",
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Bjorn Borg"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Rafael Nadal wygrał Roland Garros rekordowe 14 razy."
+        }
+      ]
+    },
+    "nauka_polska": {
+      "name": "Nauka i Wynalazki",
+      "color": "#4169E1",
+      "icon": "🔬",
+      "questions": [
+        {
+          "id": "nauka_pl_001",
+          "question": "Kto odkrył pierwiastki rad i polon?",
+          "answers": [
+            "Ignacy Łukasiewicz",
+            "Maria Skłodowska-Curie",
+            "Marian Rejewski",
+            "Jan Czochralski"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Maria Skłodowska-Curie odkryła rad i polon, za co otrzymała Nagrodę Nobla."
+        },
+        {
+          "id": "nauka_pl_002",
+          "question": "Kto wynalazł lampę naftową?",
+          "answers": [
+            "Ignacy Łukasiewicz",
+            "Jan Szczepanik",
+            "Ernest Malinowski",
+            "Kazimierz Funk"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Ignacy Łukasiewicz wynalazł lampę naftową w 1853 roku."
+        },
+        {
+          "id": "nauka_pl_003",
+          "question": "Którzy polscy matematycy złamali kod Enigmy?",
+          "answers": [
+            "Marian Rejewski, Jerzy Różycki, Henryk Zygalski",
+            "Stefan Banach, Hugo Steinhaus",
+            "Stanisław Ulam, Mark Kac",
+            "Kazimierz Kuratowski, Wacław Sierpiński"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Marian Rejewski, Jerzy Różycki i Henryk Zygalski złamali kod niemieckiej Enigmy."
+        },
+        {
+          "id": "nauka_pl_004",
+          "question": "Kto odkrył witaminę B1 (tiaminę)?",
+          "answers": [
+            "Kazimierz Funk",
+            "Ludwik Hirszfeld",
+            "Rudolf Weigl",
+            "Hilary Koprowski"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Kazimierz Funk odkrył witaminę B1 i ukuł termin 'witamina'."
+        },
+        {
+          "id": "nauka_pl_005",
+          "question": "Który Polak był współtwórcą teorii gier?",
+          "answers": [
+            "Stanisław Ulam",
+            "Hugo Steinhaus",
+            "Stefan Banach",
+            "Kazimierz Kuratowski"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Hugo Steinhaus był jednym ze współtwórców teorii gier matematycznych."
+        },
+        {
+          "id": "nauka_pl_006",
+          "question": "Który polski wynalazek, odkryty przez przypadek, stał się podstawą współczesnej elektroniki?",
+          "answers": [
+            "Metoda Czochralskiego",
+            "Grafen",
+            "Lampa naftowa",
+            "Walkie-talkie"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Metoda Czochralskiego, czyli technika otrzymywania monokryształów, która jest kluczowa w produkcji mikroprocesorów. Odkrył ją Jan Czochralski w 1916 roku."
+        },
+        {
+          "id": "nauka_pl_007",
+          "question": "Kto opracował pierwszą na świecie skuteczną szczepionkę przeciwko wirusowi polio?",
+          "answers": [
+            "Ludwik Hirszfeld",
+            "Rudolf Weigl",
+            "Hilary Koprowski",
+            "Kazimierz Funk"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Hilary Koprowski, polski wirusolog i immunolog, w latach 50. XX wieku opracował pierwszą na świecie skuteczną szczepionkę przeciwko wirusowi polio."
+        },
+        {
+          "id": "nauka_pl_008",
+          "question": "Jaki wynalazek, stworzony przez Kazimierza Żeglenia i Jana Szczepanika, zrewolucjonizował bezpieczeństwo osobiste?",
+          "answers": [
+            "Pasy bezpieczeństwa",
+            "Poduszka powietrzna",
+            "Kamizelka kuloodporna",
+            "Gaśnica proszkowa"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Kamizelka kuloodporna, wynaleziona przez Kazimierza Żeglenia i udoskonalona przez Jana Szczepanika, opierała się na warstwach gęsto tkanego jedwabiu."
+        },
+        {
+          "id": "nauka_pl_009",
+          "question": "Jak nazywało się przenośne urządzenie do komunikacji radiowej, wynalezione przez polskiego inżyniera Henryka Magnuskiego?",
+          "answers": [
+            "Pager",
+            "Walkie-talkie",
+            "Telefon komórkowy",
+            "GPS"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Walkie-talkie (radiostacja SCR-300) zostało wynalezione przez Henryka Magnuskiego pracującego dla Motoroli i miało kluczowe znaczenie podczas II wojny światowej."
+        },
+        {
+          "id": "nauka_pl_0010",
+          "question": "Gdzie na świecie znajduje się pierwszy spawany most drogowy i kto był jego twórcą?",
+          "answers": [
+            "W Maurzycach, Stefan Bryła",
+            "W Nowym Jorku, Ralph Modjeski",
+            "W Londynie, William Fairbairn",
+            "W Paryżu, Gustave Eiffel"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Pierwszy na świecie spawany most drogowy znajduje się w Maurzycach na rzece Słudwi, a jego projektantem był polski inżynier Stefan Bryła."
+        },
+        {
+          "id": "sci_001",
+          "question": "Co jest podstawowym składnikiem powietrza?",
+          "answers": [
+            "Tlen",
+            "Azot",
+            "Dwutlenek węgla",
+            "Parafina"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Azot stanowi około 78% składu powietrza atmosferycznego."
+        },
+        {
+          "id": "sci_002",
+          "question": "Jak nazywa się proces przekształcania się cieczy w gaz?",
+          "answers": [
+            "Kondensacja",
+            "Parowanie",
+            "Sublimacja",
+            "Kriogenezja"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Parowanie to proces, w którym ciecz przekształca się w gaz."
+        },
+        {
+          "id": "sci_003",
+          "question": "Ile kości ma dorosły człowiek?",
+          "answers": [
+            "206",
+            "208",
+            "210",
+            "212"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Dorosły człowiek ma 206 kości w szkielecie."
+        },
+        {
+          "id": "sci_004",
+          "question": "Co to jest fotosynteza?",
+          "answers": [
+            "Proces oddychania roślin",
+            "Proces zamiany światła w energię",
+            "Proces wzrostu roślin",
+            "Proces rozmnażania"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne w energię chemiczną."
+        },
+        {
+          "id": "sci_005",
+          "question": "Jaki jest symbol chemiczny złota?",
+          "answers": [
+            "Go",
+            "Gd",
+            "Au",
+            "Ag"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Symbol chemiczny złota to Au, od łacińskiej nazwy aurum."
+        },
+        {
+          "id": "sci_006",
+          "question": "Ile wynosi prędkość światła w próżni?",
+          "answers": [
+            "300 000 km/s",
+            "150 000 km/s",
+            "450 000 km/s",
+            "600 000 km/s"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Prędkość światła w próżni wynosi około 300 000 km/s."
+        },
+        {
+          "id": "sci_007",
+          "question": "Która substancja ma wzór chemiczny H2O?",
+          "answers": [
+            "Wodór",
+            "Woda",
+            "Alkohol",
+            "Amoniak"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "H2O to wzór chemiczny wody - składa się z dwóch atomów wodoru i jednego tlenu."
+        },
+        {
+          "id": "sci_008",
+          "question": "Co to jest DNA?",
+          "answers": [
+            "Kwas deoksyrybonukleinowy",
+            "Kwas rybonukleinowy",
+            "Białko",
+            "Enzym"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "DNA to kwas deoksyrybonukleinowy, nośnik informacji genetycznej."
+        },
+        {
+          "id": "sci_009",
+          "question": "Która planeta jest największa w Układzie Słonecznym?",
+          "answers": [
+            "Saturn",
+            "Jowisz",
+            "Mars",
+            "Neptun"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Jowisz jest największą planetą Układu Słonecznego."
+        },
+        {
+          "id": "sci_010",
+          "question": "Co bada ekologia?",
+          "answers": [
+            "Skały",
+            "Związki między organizmami a środowiskiem",
+            "Gwiazdy",
+            "Komórki"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Ekologia bada relacje między organizmami a ich środowiskiem."
+        },
+        {
+          "id": "sci_011",
+          "question": "Ile planet jest w Układzie Słonecznym?",
+          "answers": [
+            "7",
+            "8",
+            "9",
+            "10"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "W Układzie Słonecznym jest 8 planet."
+        },
+        {
+          "id": "sci_012",
+          "question": "Jak nazywa się najjaśniejsza gwiazda na niebie?",
+          "answers": [
+            "Polaris",
+            "Syriusz",
+            "Słońce",
+            "Wega"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Syriusz jest najjaśniejszą gwiazdą na nocnym niebie."
+        },
+        {
+          "id": "sci_013",
+          "question": "Co powoduje pory roku na Ziemi?",
+          "answers": [
+            "Odległość od Słońca",
+            "Nachylenie osi Ziemi",
+            "Prędkość obrotowa",
+            "Aktywność słoneczna"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Pory roku powoduje nachylenie osi Ziemi o 23,5°."
+        },
+        {
+          "id": "sci_014",
+          "question": "Która grupa krwi jest dawcą uniwersalnym?",
+          "answers": [
+            "A",
+            "B",
+            "AB",
+            "0"
+          ],
+          "correct": 3,
+          "difficulty": "easy",
+          "explanation": "Grupa krwi 0 Rh- to dawca uniwersalny."
+        },
+        {
+          "id": "sci_015",
+          "question": "Jak nazywa się największy organ w ludzkim ciele?",
+          "answers": [
+            "Wątroba",
+            "Płuca",
+            "Skóra",
+            "Serce"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Skóra jest największym organem człowieka."
+        },
+        {
+          "id": "math_001",
+          "question": "Ile wynosi pierwiastek kwadratowy z 144?",
+          "answers": [
+            "12",
+            "14",
+            "16",
+            "18"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Pierwiastek kwadratowy z 144 wynosi 12, ponieważ 12 × 12 = 144."
+        },
+        {
+          "id": "math_002",
+          "question": "Ile wynosi 2³ (2 do potęgi trzeciej)?",
+          "answers": [
+            "6",
+            "8",
+            "9",
+            "12"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "2³ = 2 × 2 × 2 = 8"
+        },
+        {
+          "id": "math_003",
+          "question": "Ile stopni ma kąt prosty?",
+          "answers": [
+            "45°",
+            "90°",
+            "180°",
+            "360°"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Kąt prosty ma 90 stopni."
+        },
+        {
+          "id": "tech_001",
+          "question": "Kto jest twórcą systemu operacyjnego Linux?",
+          "answers": [
+            "Bill Gates",
+            "Linus Torvalds",
+            "Steve Jobs",
+            "Mark Zuckerberg"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Linus Torvalds stworzył jądro Linux w 1991 roku."
+        },
+        {
+          "id": "tech_002",
+          "question": "Co oznacza skrót 'WWW'?",
+          "answers": [
+            "World Wide Web",
+            "World Web Working",
+            "Wide World Web",
+            "Web World Wide"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "WWW to skrót od World Wide Web - system dokumentów hipertekstowych."
+        },
+        {
+          "id": "tech_003",
+          "question": "W którym roku została założona firma Google?",
+          "answers": [
+            "1996",
+            "1998",
+            "2000",
+            "2002"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Google zostało założone we wrześniu 1998 roku przez Larry'ego Page'a i Sergeya Brina."
+        },
+        {
+          "id": "bio_001",
+          "question": "Które zwierzę ma najdłuższą szyję?",
+          "answers": [
+            "Słoń",
+            "Żyrafa",
+            "Struś",
+            "Lama"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Żyrafa ma najdłuższą szyję ze wszystkich zwierząt, może mieć nawet 2 metry długości."
+        },
+        {
+          "id": "nature_001",
+          "question": "Które drzewo żyje najdłużej?",
+          "answers": [
+            "Dąb",
+            "Sosna",
+            "Sekwoja",
+            "Baobab"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Sekwoje gigantyczne mogą żyć ponad 3000 lat i są jednymi z najdłużej żyjących drzew."
+        },
+        {
+          "id": "anim_001",
+          "question": "Które zwierzę może latać do tyłu?",
+          "answers": [
+            "Nietoperz",
+            "Koliber",
+            "Ważka",
+            "Motyl"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Koliber jest jedynym ptakiem, który potrafi latać do tyłu dzięki unikalnej budowie skrzydeł."
+        },
+        {
+          "id": "lang_001",
+          "question": "Który język ma najwięcej native speakerów na świecie?",
+          "answers": [
+            "Angielski",
+            "Hiszpański",
+            "Chiński mandaryński",
+            "Hindi"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Chiński mandaryński ma największą liczbę native speakerów - około 918 milionów."
+        },
+        {
+          "id": "nat_004",
+          "question": "Jak nazywa się największe zwierzę na Ziemi?",
+          "answers": [
+            "Słoń afrykański",
+            "Płetwal błękitny",
+            "Żyrafa",
+            "Nosorożec"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Płetwal błękitny to największe zwierzę na Ziemi, może mieć do 30 metrów długości."
+        },
+        {
+          "id": "nat_005",
+          "question": "Ile serc ma ośmiornica?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 2,
+          "difficulty": "hard",
+          "explanation": "Ośmiornica ma 3 serca - dwa pompują krew do skrzeli, a jedno do reszty ciała."
+        },
+        {
+          "id": "nat_006",
+          "question": "Które zwierzę nigdy nie śpi?",
+          "answers": [
+            "Delfin",
+            "Rekin",
+            "Żaba ropucha",
+            "Żadne z powyższych"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Wszystkie zwierzęta w jakiejś formie odpoczywają lub śpią, choć niektóre robią to w nietypowy sposób."
+        },
+        {
+          "id": "nat_007",
+          "question": "Jak nazywa się najszybsze zwierzę na lądzie?",
+          "answers": [
+            "Gepard",
+            "Antylopa",
+            "Koń",
+            "Struś"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Gepard może osiągnąć prędkość do 120 km/h i jest najszybszym zwierzętem lądowym."
+        },
+        {
+          "id": "nat_008",
+          "question": "Ile nóg ma pająk?",
+          "answers": [
+            "6",
+            "8",
+            "10",
+            "12"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Pająki mają 8 nóg, co odróżnia je od owadów, które mają 6 nóg."
+        },
+        {
+          "id": "nat_009",
+          "question": "Które zwierzę może zmieniać kolor?",
+          "answers": [
+            "Iguana",
+            "Kameleon",
+            "Jaszczurka",
+            "Salamandra"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Kameleon potrafi zmieniać kolor skóry w zależności od nastroju i otoczenia."
+        },
+        {
+          "id": "nat_010",
+          "question": "Jak długo może żyć żółw?",
+          "answers": [
+            "50 lat",
+            "100 lat",
+            "200 lat",
+            "300+ lat"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Niektóre gatunki żółwi mogą żyć ponad 300 lat, są to jedne z najdłużej żyjących zwierząt."
+        },
+        {
+          "id": "food_002",
+          "question": "Które warzywo ma najwięcej witaminy C?",
+          "answers": [
+            "Pomarańcza",
+            "Papryka",
+            "Cytryna",
+            "Brokuły"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Papryka czerwona zawiera więcej witaminy C niż cytrusy."
+        },
+        {
+          "id": "food_003",
+          "question": "Z czego robi się guacamole?",
+          "answers": [
+            "Awokado",
+            "Pomidor",
+            "Ogórek",
+            "Papryka"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Guacamole to meksykańska pasta przygotowana głównie z awokado."
+        },
+        {
+          "id": "food_005",
+          "question": "Co to jest wasabi?",
+          "answers": [
+            "Ryba",
+            "Ostry korzeń",
+            "Rodzaj sałaty",
+            "Sos sojowy"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Wasabi to ostry korzeń używany w kuchni japońskiej."
+        },
+        {
+          "id": "food_006",
+          "question": "Który owoc ma najwięcej potasu?",
+          "answers": [
+            "Banan",
+            "Jabłko",
+            "Pomarańcza",
+            "Gruszka"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Banany są bogate w potas, który jest ważny dla funkcjonowania mięśni."
+        },
+        {
+          "id": "food_008",
+          "question": "Ile kalorii ma gram tłuszczu?",
+          "answers": [
+            "4",
+            "7",
+            "9",
+            "12"
+          ],
+          "correct": 2,
+          "difficulty": "hard",
+          "explanation": "Gram tłuszczu zawiera 9 kalorii, więcej niż węglowodany czy białka (4 kalorie)."
+        },
+        {
+          "id": "food_009",
+          "question": "Który ser jest używany w tradycyjnej pizzy Margherita?",
+          "answers": [
+            "Parmezan",
+            "Mozzarella",
+            "Gorgonzola",
+            "Ricotta"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Pizza Margherita zawiera mozzarellę, pomidory i bazylię."
+        },
+        {
+          "id": "food_010",
+          "question": "Co to jest quinoa?",
+          "answers": [
+            "Rodzaj ryżu",
+            "Pseudozboże",
+            "Warzywo",
+            "Nasiono"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Quinoa to pseudozboże pochodzące z Ameryki Południowej, bogate w białko."
+        },
+        {
+          "id": "mus_002",
+          "question": "Która grupa wykonała 'Bohemian Rhapsody'?",
+          "answers": [
+            "The Beatles",
+            "Queen",
+            "Led Zeppelin",
+            "The Rolling Stones"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "'Bohemian Rhapsody' to kultowa piosenka zespołu Queen z 1975 roku."
+        },
+        {
+          "id": "mus_003",
+          "question": "Ile strun ma standardowa gitara?",
+          "answers": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Standardowa gitara ma 6 strun."
+        },
+        {
+          "id": "mus_004",
+          "question": "Kto napisał 'Dla Elizy'?",
+          "answers": [
+            "Mozart",
+            "Beethoven",
+            "Bach",
+            "Chopin"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "'Dla Elizy' to kompozycja Ludwiga van Beethovena."
+        },
+        {
+          "id": "mus_005",
+          "question": "W jakiej tonacji jest napisana większość utworów smutnych?",
+          "answers": [
+            "Dur",
+            "Moll",
+            "Atonalność",
+            "Pentatonika"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Tonacje molowe są zwykle kojarzone z nastrojem smutnym lub melancholijnym."
+        },
+        {
+          "id": "mus_006",
+          "question": "Ile klawiszy ma standardowe piano?",
+          "answers": [
+            "76",
+            "88",
+            "96",
+            "104"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Standardowe piano ma 88 klawiszy (52 białe i 36 czarne)."
+        },
+        {
+          "id": "mus_007",
+          "question": "Jak nazywa się najwyższa kobieca partia głosowa?",
+          "answers": [
+            "Alt",
+            "Sopran",
+            "Mezzosopran",
+            "Kontralt"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Sopran to najwyższa kobieca partia głosowa."
+        },
+        {
+          "id": "mus_008",
+          "question": "Który instrument ma pedały?",
+          "answers": [
+            "Skrzypce",
+            "Fortepian",
+            "Flet",
+            "Klarnet"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Fortepian ma pedały do modulacji dźwięku."
+        },
+        {
+          "id": "mus_009",
+          "question": "Ile nut ma skala diatoniczna?",
+          "answers": [
+            "5",
+            "7",
+            "8",
+            "12"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Skala diatoniczna ma 7 różnych nut (do, re, mi, fa, sol, la, si)."
+        },
+        {
+          "id": "med_001",
+          "question": "Ile litrów krwi ma przeciętny dorosły człowiek?",
+          "answers": [
+            "3-4 litry",
+            "5-6 litrów",
+            "7-8 litrów",
+            "9-10 litrów"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Przeciętny dorosły człowiek ma około 5-6 litrów krwi."
+        },
+        {
+          "id": "med_002",
+          "question": "Które witaminy są rozpuszczalne w tłuszczach?",
+          "answers": [
+            "A, D, E, K",
+            "B, C",
+            "A, B, C",
+            "Wszystkie"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Witaminy A, D, E, K są rozpuszczalne w tłuszczach."
+        },
+        {
+          "id": "med_003",
+          "question": "Ile uderzeń na minutę ma zdrowe serce w spoczynku?",
+          "answers": [
+            "40-50",
+            "60-100",
+            "120-140",
+            "150-200"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Zdrowe serce bije 60-100 razy na minutę w spoczynku."
+        },
+        {
+          "id": "med_004",
+          "question": "Który organ produkuje insulinę?",
+          "answers": [
+            "Wątroba",
+            "Trzustka",
+            "Nerki",
+            "Śledziona"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Trzustka produkuje insulinę, hormon regulujący poziom cukru we krwi."
+        },
+        {
+          "id": "med_005",
+          "question": "Ile procent wody zawiera ludzki organizm?",
+          "answers": [
+            "40%",
+            "50%",
+            "60%",
+            "70%"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Ludzki organizm składa się w około 60% z wody."
+        },
+        {
+          "id": "med_006",
+          "question": "Który mineral jest najważniejszy dla kości?",
+          "answers": [
+            "Żelazo",
+            "Wapń",
+            "Magnez",
+            "Cynk"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Wapń jest kluczowy dla budowy i utrzymania zdrowych kości."
+        },
+        {
+          "id": "med_007",
+          "question": "Ile godzin snu potrzebuje dorosły człowiek?",
+          "answers": [
+            "4-5 godzin",
+            "6-7 godzin",
+            "7-9 godzin",
+            "10-12 godzin"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Dorośli potrzebują 7-9 godzin snu na dobę dla optymalnego zdrowia."
+        },
+        {
+          "id": "med_008",
+          "question": "Który organ filtruje krew?",
+          "answers": [
+            "Wątroba",
+            "Płuca",
+            "Nerki",
+            "Serce"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Nerki filtrują krew, usuwając z niej toksyny i nadmiar wody."
+        },
+        {
+          "id": "med_009",
+          "question": "Co to jest hemoglobina?",
+          "answers": [
+            "Hormon",
+            "Białko przenoszące tlen",
+            "Enzym",
+            "Witamina"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Hemoglobina to białko w czerwonych krwinkach, które przenosi tlen."
+        },
+        {
+          "id": "med_010",
+          "question": "Ile zębów ma dorosły człowiek?",
+          "answers": [
+            "28",
+            "30",
+            "32",
+            "34"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Dorosły człowiek ma 32 zęby, włączając zęby mądrości."
+        },
+        {
+          "id": "biz_001",
+          "question": "Co oznacza skrót 'CEO'?",
+          "answers": [
+            "Chief Executive Officer",
+            "Central Executive Officer",
+            "Corporate Executive Officer",
+            "Chief Economic Officer"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "CEO to Chief Executive Officer - naczelny dyrektor wykonawczy."
+        },
+        {
+          "id": "biz_002",
+          "question": "Która waluta jest najczęściej używana w handlu międzynarodowym?",
+          "answers": [
+            "Euro",
+            "Dolar amerykański",
+            "Jen japoński",
+            "Funt brytyjski"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Dolar amerykański dominuje w międzynarodowych transakcjach handlowych."
+        },
+        {
+          "id": "biz_003",
+          "question": "Co to jest inflacja?",
+          "answers": [
+            "Spadek cen",
+            "Wzrost cen",
+            "Stały poziom cen",
+            "Wymiana walut"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Inflacja to wzrost ogólnego poziomu cen towarów i usług."
+        },
+        {
+          "id": "biz_004",
+          "question": "Która giełda jest największa na świecie?",
+          "answers": [
+            "NASDAQ",
+            "NYSE",
+            "LSE",
+            "TSE"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "New York Stock Exchange (NYSE) to największa giełda papierów wartościowych."
+        },
+        {
+          "id": "biz_005",
+          "question": "Co oznacza skrót 'GDP'?",
+          "answers": [
+            "Gross Domestic Product",
+            "General Domestic Product",
+            "Global Domestic Product",
+            "Government Domestic Product"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "GDP to Gross Domestic Product - Produkt Krajowy Brutto."
+        },
+        {
+          "id": "biz_006",
+          "question": "Kto założył firmę Amazon?",
+          "answers": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Jeff Bezos",
+            "Elon Musk"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Amazon zostało założone przez Jeffa Bezosa w 1994 roku."
+        },
+        {
+          "id": "biz_007",
+          "question": "Co to jest startup?",
+          "answers": [
+            "Duża korporacja",
+            "Młoda, innowacyjna firma",
+            "Instytucja rządowa",
+            "Organizacja non-profit"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Startup to młoda firma poszukująca skalowalnego modelu biznesowego."
+        },
+        {
+          "id": "biz_009",
+          "question": "Co to jest kryptowaluta?",
+          "answers": [
+            "Tradycyjna waluta",
+            "Cyfrowa waluta",
+            "Waluta papierowa",
+            "Waluta złota"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Kryptowaluta to cyfrowa waluta zabezpieczona kryptograficznie."
+        },
+        {
+          "id": "biz_010",
+          "question": "Która firma produkuje iPhone?",
+          "answers": [
+            "Google",
+            "Microsoft",
+            "Apple",
+            "Samsung"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "iPhone jest produkowany przez firmę Apple."
+        }
+      ]
+    },
+    "rozrywka_polska": {
+      "name": "Rozrywka Polska",
+      "color": "#9370DB",
+      "icon": "🎬",
+      "questions": [
+        {
+          "id": "rozr_pl_001",
+          "question": "Który polski film zdobył Oscara za najlepszy film obcojęzyczny?",
+          "answers": [
+            "Ida",
+            "Katyń",
+            "Zimna wojna",
+            "Korpus oficerski"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "'Ida' Pawła Pawlikowskiego zdobyła Oscara w 2015 roku."
+        },
+        {
+          "id": "rozr_pl_002",
+          "question": "Kto zagrał główną rolę w filmie 'Miś'?",
+          "answers": [
+            "Stanisław Tym",
+            "Krzysztof Kowalewski",
+            "Jan Kobuszewski",
+            "Wiesław Michnikowski"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Stanisław Tym zagrał główną rolę Ryśka Sołtyska w kultowym filmie 'Miś'."
+        },
+        {
+          "id": "rozr_pl_003",
+          "question": "Która polska piosenkarka reprezentowała kraj na Eurowizji w 2014 roku?",
+          "answers": [
+            "Edyta Górniak",
+            "Doda",
+            "Donatan i Cleo",
+            "Margaret"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Donatan i Cleo z piosenką 'My Słowianie' reprezentowali Polskę na Eurowizji 2014."
+        },
+        {
+          "id": "rozr_pl_004",
+          "question": "Jak nazywa się najdłużej emitowany polski serial telewizyjny?",
+          "answers": [
+            "Klan",
+            "M jak miłość",
+            "Na dobre i na złe",
+            "Pierwsza miłość"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "'M jak miłość' to najdłużej emitowany polski serial, który rozpoczął się w 2000 roku."
+        },
+        {
+          "id": "rozr_pl_005",
+          "question": "Która grupa muzyczna wykonuje piosenkę 'Autobiografia'?",
+          "answers": [
+            "Perfect",
+            "Lady Pank",
+            "Budka Suflera",
+            "Czerwone Gitary"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "'Autobiografia' to hit zespołu Perfect z 1982 roku."
+        },
+        {
+          "id": "rozr_pl_006",
+          "question": "W jakim mieście rozgrywa się akcja filmu \"Vabank\"?",
+          "answers": [
+            "w Warszawie",
+            "w Krakowie",
+            "w Łodzi",
+            "we Lwowie"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Akcja filmu \"Vabank\" w reżyserii Juliusza Machulskiego rozgrywa się w Warszawie w latach 30. XX wieku."
+        },
+        {
+          "id": "rozr_pl_007",
+          "question": "Jakie imiona nosili główni bohaterowie filmu \"Seksmisja\"?",
+          "answers": [
+            "Albert i Maksymilian",
+            "Jerzy i Max",
+            "Stefan i Maks",
+            "Adaś i Albert"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Główni bohaterowie filmu \"Seksmisja\" to Albert (Olgierd Łukaszewicz) i Maksymilian (Jerzy Stuhr)."
+        },
+        {
+          "id": "rozr_pl_008",
+          "question": "Z którego filmu pochodzi słynny cytat: \"Sąd sądem, a sprawiedliwość musi być po naszej stronie\"?",
+          "answers": [
+            "Miś",
+            "Sami swoi",
+            "Rejs",
+            "Nic śmiesznego"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Cytat pochodzi z filmu \"Sami swoi\" i jest wypowiadany przez Kazimierza Pawlaka (Wacław Kowalski)."
+        },
+        {
+          "id": "rozr_pl_009",
+          "question": "Kto jest wokalistą zespołu Kult?",
+          "answers": [
+            "Kazik Staszewski",
+            "Muniek Staszczyk",
+            "Krzysztof Grabowski",
+            "Artur Rojek"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Wokalistą i liderem zespołu Kult od początku jego istnienia jest Kazimierz \"Kazik\" Staszewski."
+        },
+        {
+          "id": "rozr_pl_0010",
+          "question": "Z jakiego zespołu znana jest Agnieszka Chylińska?",
+          "answers": [
+            "Hey",
+            "Kult",
+            "O.N.A.",
+            "Republika"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Agnieszka Chylińska zdobyła popularność jako wokalistka zespołu O.N.A. w latach 1994-2003."
+        },
+        {
+          "id": "roz_001",
+          "question": "Kto jest autorem piosenki \"Sen o Warszawie\"?",
+          "answers": [
+            "Czesław Niemen",
+            "Krzysztof Krawczyk",
+            "Marek Grechuta",
+            "Czesław Mozil"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Autorem słów do piosenki \"Sen o Warszawie\" jest Marek Gaszyński, a muzykę skomponował Czesław Niemen."
+        },
+        {
+          "id": "ent_001",
+          "question": "Kto namalował 'Gwiaździstą noc'?",
+          "answers": [
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Claude Monet",
+            "Leonardo da Vinci"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "'Gwiaździsta noc' to słynny obraz Vincenta van Gogha z 1889 roku."
+        },
+        {
+          "id": "ent_002",
+          "question": "Ilu muzyków gra w kwartecie?",
+          "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "W kwartecie gra czterech muzyków."
+        },
+        {
+          "id": "ent_003",
+          "question": "Kto wyreżyserował film 'Titanic'?",
+          "answers": [
+            "Steven Spielberg",
+            "James Cameron",
+            "Martin Scorsese",
+            "Christopher Nolan"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "'Titanic' został wyreżyserowany przez Jamesa Camerona w 1997 roku."
+        }
+      ]
+    },
+    "geografia_swiata": {
+      "name": "Geografia Świata",
+      "color": "#228B22",
+      "icon": "🌍",
+      "questions": [
+        {
+          "id": "food_001",
+          "question": "Z jakiego kraju pochodzi pizza?",
+          "answers": [
+            "Francja",
+            "Hiszpania",
+            "Włochy",
+            "Grecja"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Pizza pochodzi z Włoch, konkretnie z Neapolu."
+        },
+        {
+          "id": "food_004",
+          "question": "Który kraj jest największym producentem kawy?",
+          "answers": [
+            "Kolumbia",
+            "Brazylia",
+            "Wietnam",
+            "Etiopia"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Brazylia jest największym producentem kawy na świecie."
+        },
+        {
+          "id": "food_007",
+          "question": "Z jakiego kraju pochodzi sushi?",
+          "answers": [
+            "Chiny",
+            "Japonia",
+            "Korea",
+            "Tajlandia"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Sushi pochodzi z Japonii, choć jego korzenie sięgają Chin."
+        },
+        {
+          "id": "mus_010",
+          "question": "Który kraj wymyślił jazz?",
+          "answers": [
+            "Francja",
+            "USA",
+            "Wielka Brytania",
+            "Brazylia"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Jazz powstał w USA na początku XX wieku."
+        },
+        {
+          "id": "biz_008",
+          "question": "Który kraj ma największą gospodarkę świata?",
+          "answers": [
+            "Chiny",
+            "USA",
+            "Japonia",
+            "Niemcy"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "USA mają największą gospodarkę świata mierzoną PKB."
+        }
+      ]
+    }
+  },
+  "difficulties": {
+    "easy": {
+      "name": "Łatwe",
+      "timeLimit": 20,
+      "basePoints": 100,
+      "maxTimeBonus": 50
+    },
+    "medium": {
+      "name": "Średnie",
+      "timeLimit": 15,
+      "basePoints": 150,
+      "maxTimeBonus": 75
+    },
+    "hard": {
+      "name": "Trudne",
+      "timeLimit": 10,
+      "basePoints": 200,
+      "maxTimeBonus": 100
+    }
+  },
+  "gameSettings": {
+    "rounds": 5,
+    "questionsPerRound": 5,
+    "categoriesPerGame": 4,
+    "enableCategoryVoting": true,
+    "enableTimeBonus": true,
+    "showExplanations": true,
+    "enableTurnSystem": false,
+    "showQuestionCountOnStartScreen": true
+  }
+}

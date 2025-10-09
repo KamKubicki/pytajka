@@ -1,69 +1,122 @@
-# 🧠 Wiedza to Potęga - Multiplayer Quiz Game
+# 🎯 Pytajka - Multiplayer Quiz Game
 
-Gra quizowa w stylu "Wiedza to Potęga" dla wielu graczy. Gracze dołączają przez QR kod i odpowiadają na pytania za pomocą telefonów.
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-green)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-4.7-black)](https://socket.io/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Nowoczesna aplikacja quizowa w stylu telewizyjnego show, umożliwiająca rozgrywkę dla wielu graczy jednocześnie. Gra składa się z dwóch interfejsów - głównego ekranu wyświetlanego na TV oraz aplikacji mobilnej dla graczy.
+
+## 🎮 Funkcjonalności
+
+### 🖥️ Interfejs TV (Host)
+- **Elegancki interfejs główny** - nowoczesny design z gradientami i animacjami
+- **System sesji** - generowanie kodów QR do łatwego dołączania graczy
+- **Real-time gameplay** - natychmiastowe wyświetlanie odpowiedzi graczy
+- **Show-style layout** - kolumny odpowiedzi z wyświetlaniem graczy w czasie rzeczywistym
+- **System punktacji** - punkty za poprawność + bonus za szybkość odpowiedzi
+- **Statystyki na żywo** - liczba odpowiedzi, pozostały czas, wyniki
+
+### 📱 Aplikacja Mobilna (Gracze)
+- **Łatwe dołączanie** - skanowanie QR kodu lub wpisanie kodu sesji
+- **Personalizacja** - wybór nicku i awatara (emoji)
+- **Intuicyjny interfejs** - duże przyciski odpowiedzi, czytelny design
+- **Podgląd wyników** - natychmiastowe informacje o poprawności odpowiedzi
+- **Responsive design** - działa na wszystkich urządzeniach mobilnych
+
+### 🧠 System Pytań
+- **Baza 339+ pytań** w 7 kategoriach:
+  - 🏛️ Historia Polski (38 pytań)
+  - 🗺️ Geografia Polski (30 pytań)
+  - 🎭 Kultura Polska (10 pytań)
+  - ⚽ Sport Polski (16 pytań)
+  - 🔬 Nauka i Wynalazki (219 pytań)
+  - 🎬 Rozrywka Polska (25 pytań)
+  - 🌍 Geografia Świata (1 pytanie)
+
+- **Pytania wizualne** - mapy geograficzne, zdjęcia
+- **Wyjaśnienia** - dodatkowe informacje po każdej odpowiedzi
+- **Automatyczne ładowanie** - system automatycznie wykrywa nowe pliki z pytaniami
 
 ## 🚀 Szybki start
 
-### Instalacja
+### Wymagania
+- Node.js 18+ 
+- npm lub yarn
+- Nowoczesna przeglądarka
+- Sieć lokalna (dla gry wieloosobowej)
+
+### Instalacja i uruchomienie
+
+1. **Sklonuj repozytorium**
 ```bash
-npm run install:all
+git clone https://github.com/your-username/pytajka.git
+cd pytajka
 ```
 
-### Uruchomienie
+2. **Zainstaluj zależności i uruchom**
+
+**Backend** (port 8001):
 ```bash
+cd backend
+npm install
 npm run dev
 ```
 
-To uruchomi:
-- Backend (port 8001)
-- Frontend TV (port 3000) 
-- Frontend Mobile (port 3002)
+**Interfejs TV** (port 5173):
+```bash
+cd frontend-tv
+npm install
+npm run dev
+```
 
-### Jak grać
-1. Otwórz http://localhost:3000 na TV/komputerze
-2. Zeskanuj QR kod telefonem lub wejdź na http://localhost:3002
-3. Wprowadź kod gry i swoje dane
-4. Rozpocznij grę gdy wszyscy dołączą!
+**Aplikacja Mobilna** (port 3002):
+```bash
+cd frontend-mobile
+npm install
+npm run dev
+```
+
+### Dostęp do aplikacji:
+- **TV Interface**: http://localhost:5173
+- **Mobile App**: http://localhost:3002  
+- **Backend API**: http://localhost:8001
+
+## 🎮 Jak grać
+
+1. **Host** otwiera interfejs TV w przeglądarce
+2. **Tworzy nową sesję** - generuje się kod QR i kod sesji  
+3. **Gracze** skanują QR kod lub wchodzą na adres mobilny i wpisują kod
+4. **Wybierają nick i awatar** (emoji)
+5. **Host startuje grę** gdy wszyscy są gotowi
+6. **Gracze odpowiadają** na pytania na swoich telefonach
+7. **Wyniki** wyświetlają się na głównym ekranie w czasie rzeczywistym
+8. **Punktacja** - 100 pkt za poprawną odpowiedź + bonus za szybkość (max 100 pkt)
 
 ## 🏗️ Architektura
 
 ```
-backend/          - Node.js + Express + Socket.io
-frontend-tv/      - React (dla TV/dużego ekranu)
-frontend-mobile/  - React (dla telefonów)
-shared/           - Współdzielone typy i utils
+pytajka/
+├── backend/              # Serwer Node.js + Socket.io
+│   ├── server.js        # Główny plik serwera
+│   ├── game.js          # Logika gry i sesji
+│   ├── socket.js        # Obsługa WebSocket
+│   ├── routes.js        # API routes
+│   └── utils.js         # Narzędzia pomocnicze
+├── frontend-tv/         # Interfejs dla TV/projektora  
+│   ├── src/
+│   │   ├── components/  # Komponenty React
+│   │   ├── index.css    # Style CSS
+│   │   └── App.jsx      # Główny komponent
+├── frontend-mobile/     # Aplikacja mobilna
+│   ├── src/
+│   │   ├── components/  # Komponenty React
+│   │   └── App.jsx      # Główny komponent
+└── questions/           # Baza pytań (JSON)
+    ├── baza-pytan-500plus.json
+    ├── natural_earth_geography.json
+    └── ...
 ```
-
-## ✨ Funkcje - Stan obecny
-
-### MVP ✅ (Ukończone)
-- ✅ Dołączanie przez QR kod i kod sesji
-- ✅ Real-time komunikacja (WebSockets)
-- ✅ Lobby graczy z avatarami
-- ✅ Quiz z wielokrotnym wyborem (5 pytań)
-- ✅ Punktacja w czasie rzeczywistym
-- ✅ Podium zwycięzców na TV
-- ✅ Countdown timery (15s na odpowiedź)
-- ✅ Feedback o poprawnych/błędnych odpowiedziach
-- ✅ Możliwość poprawiania odpowiedzi
-- ✅ Przerwy między pytaniami (5s)
-- ✅ Ekran zakończenia gry na telefonie
-- ✅ Responsywne UI dla mobile i TV
-
-### Core Game Features 🚧 (Do zrobienia)
-- [ ] **Rozgrywka turowa** - gracze wybierają kolejność
-- [ ] **Głosowanie nad kategoriami** - wybór kategorii pytań
-- [ ] **System utrudniaczy** - power-upy i przeszkody
-- [ ] **Różne typy pytań** - prawda/fałsz, otwarte, obrazkowe
-- [ ] **Tryb drużynowy** - współpraca w zespołach
-
-### Extended Features 📋 (Przyszłość)  
-- [ ] Własne zestawy pytań (upload JSON/CSV)
-- [ ] Statystyki graczy i historie gier
-- [ ] Różne poziomy trudności
-- [ ] Progressive Web App (PWA)
-- [ ] Animacje i efekty dźwiękowe
-- [ ] Admin panel do zarządzania grami
 
 ## 🔧 Stack technologiczny
 

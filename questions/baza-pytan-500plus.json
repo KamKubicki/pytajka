@@ -1,0 +1,338 @@
+[
+  {
+    "id": "sci_001",
+    "question": "Ile chromosomów ma człowiek?",
+    "answers": ["44", "46", "48", "50"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Człowiek ma 46 chromosomów ułożonych w 23 pary."
+  },
+  {
+    "id": "sci_002",
+    "question": "Która planeta jest najbliżej Słońca?",
+    "answers": ["Wenus", "Mars", "Merkury", "Ziemia"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Merkury jest planetą najbliższą Słońcu w Układzie Słonecznym."
+  },
+  {
+    "id": "sci_003",
+    "question": "Ile kości ma dorosły człowiek?",
+    "answers": ["206", "208", "210", "212"],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dorosły człowiek ma 206 kości w szkielecie."
+  },
+  {
+    "id": "sci_004",
+    "question": "Co to jest fotosynteza?",
+    "answers": ["Proces oddychania roślin", "Proces zamiany światła w energię", "Proces wzrostu roślin", "Proces rozmnażania"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne w energię chemiczną."
+  },
+  {
+    "id": "sci_005",
+    "question": "Jaki jest symbol chemiczny złota?",
+    "answers": ["Go", "Gd", "Au", "Ag"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Symbol chemiczny złota to Au, od łacińskiej nazwy aurum."
+  },
+  {
+    "id": "sci_006",
+    "question": "Ile wynosi prędkość światła w próżni?",
+    "answers": ["300 000 km/s", "150 000 km/s", "450 000 km/s", "600 000 km/s"],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Prędkość światła w próżni wynosi około 300 000 km/s."
+  },
+  {
+    "id": "sci_007",
+    "question": "Która substancja ma wzór chemiczny H2O?",
+    "answers": ["Wodór", "Woda", "Alkohol", "Amoniak"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "H2O to wzór chemiczny wody - składa się z dwóch atomów wodoru i jednego tlenu."
+  },
+  {
+    "id": "sci_008",
+    "question": "Co to jest DNA?",
+    "answers": ["Kwas deoksyrybonukleinowy", "Kwas rybonukleinowy", "Białko", "Enzym"],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "DNA to kwas deoksyrybonukleinowy, nośnik informacji genetycznej."
+  },
+  {
+    "id": "sci_009",
+    "question": "Która planeta jest największa w Układzie Słonecznym?",
+    "answers": ["Saturn", "Jowisz", "Mars", "Neptun"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Jowisz jest największą planetą Układu Słonecznego."
+  },
+  {
+    "id": "sci_010",
+    "question": "Co bada ekologia?",
+    "answers": ["Skały", "Związki między organizmami a środowiskiem", "Gwiazdy", "Komórki"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Ekologia bada relacje między organizmami a ich środowiskiem."
+  },
+  {
+    "id": "sci_011",
+    "question": "Ile planet jest w Układzie Słonecznym?",
+    "answers": ["7", "8", "9", "10"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W Układzie Słonecznym jest 8 planet."
+  },
+  {
+    "id": "sci_012",
+    "question": "Jak nazywa się najjaśniejsza gwiazda na niebie?",
+    "answers": ["Polaris", "Syriusz", "Słońce", "Wega"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Syriusz jest najjaśniejszą gwiazdą na nocnym niebie."
+  },
+  {
+    "id": "sci_013",
+    "question": "Co powoduje pory roku na Ziemi?",
+    "answers": ["Odległość od Słońca", "Nachylenie osi Ziemi", "Prędkość obrotowa", "Aktywność słoneczna"],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pory roku powoduje nachylenie osi Ziemi o 23,5°."
+  },
+  {
+    "id": "sci_014",
+    "question": "Która grupa krwi jest dawcą uniwersalnym?",
+    "answers": ["A", "B", "AB", "0"],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Grupa krwi 0 Rh- to dawca uniwersalny."
+  },
+  {
+    "id": "sci_015",
+    "question": "Jak nazywa się największy organ w ludzkim ciele?",
+    "answers": ["Wątroba", "Płuca", "Skóra", "Serce"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Skóra jest największym organem człowieka."
+  },
+  {
+    "id": "geo_001",
+    "question": "Która rzeka jest najdłuższa na świecie?",
+    "answers": ["Amazon", "Nil", "Jangcy", "Missisipi"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nil o długości około 6650 km jest najdłuższą rzeką na świecie."
+  },
+  {
+    "id": "geo_002",
+    "question": "Który ocean jest największy?",
+    "answers": ["Atlantycki", "Indyjski", "Spokojny", "Arktyczny"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ocean Spokojny jest największym oceanem na Ziemi."
+  },
+  {
+    "id": "geo_003",
+    "question": "Która stolica leży najwyżej nad poziomem morza?",
+    "answers": ["Quito", "La Paz", "Bogota", "Addis Abeba"],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "La Paz w Boliwii leży na wysokości około 3500 metrów nad poziomem morza."
+  },
+  {
+    "id": "geo_004",
+    "question": "Które państwo ma najwięcej stref czasowych?",
+    "answers": ["Rosja", "USA", "Chiny", "Francja"],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Francja ma 12 stref czasowych ze względu na swoje terytoria zamorskie."
+  },
+  {
+    "id": "geo_005",
+    "question": "Jaka jest stolica Australii?",
+    "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Canberra jest stolicą Australii."
+  },
+  {
+    "id": "geo_006",
+    "question": "Na którym kontynencie leży Egipt?",
+    "answers": ["Azja", "Afryka", "Europa", "Ameryka Południowa"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Egipt leży w północno-wschodniej części Afryki."
+  },
+  {
+    "id": "geo_007",
+    "question": "Która pustynia jest największa na świecie?",
+    "answers": ["Sahara", "Gobi", "Atacama", "Antarktyda"],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Antarktyda jest technicznie największą pustynią na świecie (pustynia lodowa)."
+  },
+  {
+    "id": "geo_008",
+    "question": "Które jezioro jest najgłębsze na świecie?",
+    "answers": ["Jezioro Bajkał", "Wielkie Jeziora", "Jezioro Tanganika", "Jezioro Wiktorii"],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Jezioro Bajkał w Rosji jest najgłębsze na świecie - do 1642 m głębokości."
+  },
+  {
+    "id": "geo_009",
+    "question": "Jaka jest stolica Kanady?",
+    "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ottawa jest stolicą Kanady."
+  },
+  {
+    "id": "geo_010",
+    "question": "Który kraj ma kształt buta?",
+    "answers": ["Hiszpania", "Włochy", "Grecja", "Portugalia"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Włochy mają charakterystyczny kształt przypominający but."
+  },
+  {
+    "id": "hist_001",
+    "question": "W którym roku upadł Mur Berliński?",
+    "answers": ["1987", "1989", "1990", "1991"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Mur Berliński upadł 9 listopada 1989 roku."
+  },
+  {
+    "id": "hist_002",
+    "question": "Kto był pierwszym człowiekiem w kosmosie?",
+    "answers": ["Neil Armstrong", "Jurij Gagarin", "John Glenn", "Alan Shepard"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Jurij Gagarin jako pierwszy człowiek poleciał w kosmos 12 kwietnia 1961 roku."
+  },
+  {
+    "id": "hist_003",
+    "question": "W którym roku zakończyła się II wojna światowa?",
+    "answers": ["1944", "1945", "1946", "1947"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "II wojna światowa zakończyła się w 1945 roku."
+  },
+  {
+    "id": "hist_004",
+    "question": "Kto był prezydentem USA podczas II wojny światowej?",
+    "answers": ["Harry Truman", "Franklin D. Roosevelt", "Dwight Eisenhower", "John F. Kennedy"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Franklin D. Roosevelt był prezydentem USA przez większość II wojny światowej."
+  },
+  {
+    "id": "hist_005",
+    "question": "W którym roku nastąpiło lądowanie na Księżycu?",
+    "answers": ["1968", "1969", "1970", "1971"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pierwsze lądowanie na Księżycu nastąpiło 20 lipca 1969 roku."
+  },
+  {
+    "id": "sport_001",
+    "question": "W którym mieście odbyły się Letnie Igrzyska Olimpijskie w 2020 roku?",
+    "answers": ["Tokio", "Rio de Janeiro", "Londyn", "Pekin"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Igrzyska Olimpijskie 2020 odbyły się w Tokio w 2021 roku z powodu pandemii COVID-19."
+  },
+  {
+    "id": "sport_002",
+    "question": "Ile graczy gra w drużynie piłkarskiej na boisku?",
+    "answers": ["10", "11", "12", "9"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W piłce nożnej na boisku gra 11 zawodników z każdej drużyny."
+  },
+  {
+    "id": "sport_003",
+    "question": "Kto wygrał najwięcej turniejów tenisa ziemnego Roland Garros?",
+    "answers": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Bjorn Borg"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Rafael Nadal wygrał Roland Garros rekordowe 14 razy."
+  },
+  {
+    "id": "ent_001",
+    "question": "Kto namalował 'Gwiaździstą noc'?",
+    "answers": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "'Gwiaździsta noc' to słynny obraz Vincenta van Gogha z 1889 roku."
+  },
+  {
+    "id": "ent_002",
+    "question": "Ilu muzyków gra w kwartecie?",
+    "answers": ["3", "4", "5", "6"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W kwartecie gra czterech muzyków."
+  },
+  {
+    "id": "ent_003",
+    "question": "Kto wyreżyserował film 'Titanic'?",
+    "answers": ["Steven Spielberg", "James Cameron", "Martin Scorsese", "Christopher Nolan"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "'Titanic' został wyreżyserowany przez Jamesa Camerona w 1997 roku."
+  },
+  {
+    "id": "math_001",
+    "question": "Ile wynosi pierwiastek kwadratowy z 144?",
+    "answers": ["12", "14", "16", "18"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pierwiastek kwadratowy z 144 wynosi 12, ponieważ 12 × 12 = 144."
+  },
+  {
+    "id": "math_002",
+    "question": "Ile wynosi 2³ (2 do potęgi trzeciej)?",
+    "answers": ["6", "8", "9", "12"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "2³ = 2 × 2 × 2 = 8"
+  },
+  {
+    "id": "math_003",
+    "question": "Ile stopni ma kąt prosty?",
+    "answers": ["45°", "90°", "180°", "360°"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kąt prosty ma 90 stopni."
+  },
+  {
+    "id": "tech_001",
+    "question": "Kto jest twórcą systemu operacyjnego Linux?",
+    "answers": ["Bill Gates", "Linus Torvalds", "Steve Jobs", "Mark Zuckerberg"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Linus Torvalds stworzył jądro Linux w 1991 roku."
+  },
+  {
+    "id": "tech_002",
+    "question": "Co oznacza skrót 'WWW'?",
+    "answers": ["World Wide Web", "World Web Working", "Wide World Web", "Web World Wide"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "WWW to skrót od World Wide Web - system dokumentów hipertekstowych."
+  },
+  {
+    "id": "tech_003",
+    "question": "W którym roku została założona firma Google?",
+    "answers": ["1996", "1998", "2000", "2002"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Google zostało założone we wrześniu 1998 roku przez Larry'ego Page'a i Sergeya Brina."
+  }
+]

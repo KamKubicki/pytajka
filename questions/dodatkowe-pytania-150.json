@@ -1,0 +1,402 @@
+[
+  {
+    "id": "nat_001",
+    "question": "Które zwierzę może latać do tyłu?",
+    "answers": ["Nietoperz", "Koliber", "Ważka", "Motyl"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Koliber jest jedynym ptakiem, który potrafi latać do tyłu dzięki unikalnej budowie skrzydeł."
+  },
+  {
+    "id": "nat_002",
+    "question": "Które zwierzę ma najdłuższą szyję?",
+    "answers": ["Słoń", "Żyrafa", "Struś", "Lama"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Żyrafa ma najdłuższą szyję ze wszystkich zwierząt, może mieć nawet 2 metry długości."
+  },
+  {
+    "id": "nat_003",
+    "question": "Które drzewo żyje najdłużej?",
+    "answers": ["Dąb", "Sosna", "Sekwoja", "Baobab"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sekwoje gigantyczne mogą żyć ponad 3000 lat i są jednymi z najdłużej żyjących drzew."
+  },
+  {
+    "id": "nat_004",
+    "question": "Jak nazywa się największe zwierzę na Ziemi?",
+    "answers": ["Słoń afrykański", "Płetwal błękitny", "Żyrafa", "Nosorożec"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Płetwal błękitny to największe zwierzę na Ziemi, może mieć do 30 metrów długości."
+  },
+  {
+    "id": "nat_005",
+    "question": "Ile serc ma ośmiornica?",
+    "answers": ["1", "2", "3", "4"],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ośmiornica ma 3 serca - dwa pompują krew do skrzeli, a jedno do reszty ciała."
+  },
+  {
+    "id": "nat_006",
+    "question": "Które zwierzę nigdy nie śpi?",
+    "answers": ["Delfin", "Rekin", "Żaba ropucha", "Żadne z powyższych"],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wszystkie zwierzęta w jakiejś formie odpoczywają lub śpią, choć niektóre robią to w nietypowy sposób."
+  },
+  {
+    "id": "nat_007",
+    "question": "Jak nazywa się najszybsze zwierzę na lądzie?",
+    "answers": ["Gepard", "Antylopa", "Koń", "Struś"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gepard może osiągnąć prędkość do 120 km/h i jest najszybszym zwierzętem lądowym."
+  },
+  {
+    "id": "nat_008",
+    "question": "Ile nóg ma pająk?",
+    "answers": ["6", "8", "10", "12"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pająki mają 8 nóg, co odróżnia je od owadów, które mają 6 nóg."
+  },
+  {
+    "id": "nat_009",
+    "question": "Które zwierzę może zmieniać kolor?",
+    "answers": ["Iguana", "Kameleon", "Jaszczurka", "Salamandra"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kameleon potrafi zmieniać kolor skóry w zależności od nastroju i otoczenia."
+  },
+  {
+    "id": "nat_010",
+    "question": "Jak długo może żyć żółw?",
+    "answers": ["50 lat", "100 lat", "200 lat", "300+ lat"],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Niektóre gatunki żółwi mogą żyć ponad 300 lat, są to jedne z najdłużej żyjących zwierząt."
+  },
+  {
+    "id": "food_001",
+    "question": "Z jakiego kraju pochodzi pizza?",
+    "answers": ["Francja", "Hiszpania", "Włochy", "Grecja"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pizza pochodzi z Włoch, konkretnie z Neapolu."
+  },
+  {
+    "id": "food_002",
+    "question": "Które warzywo ma najwięcej witaminy C?",
+    "answers": ["Pomarańcza", "Papryka", "Cytryna", "Brokuły"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Papryka czerwona zawiera więcej witaminy C niż cytrusy."
+  },
+  {
+    "id": "food_003",
+    "question": "Z czego robi się guacamole?",
+    "answers": ["Awokado", "Pomidor", "Ogórek", "Papryka"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Guacamole to meksykańska pasta przygotowana głównie z awokado."
+  },
+  {
+    "id": "food_004",
+    "question": "Który kraj jest największym producentem kawy?",
+    "answers": ["Kolumbia", "Brazylia", "Wietnam", "Etiopia"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Brazylia jest największym producentem kawy na świecie."
+  },
+  {
+    "id": "food_005",
+    "question": "Co to jest wasabi?",
+    "answers": ["Ryba", "Ostry korzeń", "Rodzaj sałaty", "Sos sojowy"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wasabi to ostry korzeń używany w kuchni japońskiej."
+  },
+  {
+    "id": "food_006",
+    "question": "Który owoc ma najwięcej potasu?",
+    "answers": ["Banan", "Jabłko", "Pomarańcza", "Gruszka"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Banany są bogate w potas, który jest ważny dla funkcjonowania mięśni."
+  },
+  {
+    "id": "food_007",
+    "question": "Z jakiego kraju pochodzi sushi?",
+    "answers": ["Chiny", "Japonia", "Korea", "Tajlandia"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sushi pochodzi z Japonii, choć jego korzenie sięgają Chin."
+  },
+  {
+    "id": "food_008",
+    "question": "Ile kalorii ma gram tłuszczu?",
+    "answers": ["4", "7", "9", "12"],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Gram tłuszczu zawiera 9 kalorii, więcej niż węglowodany czy białka (4 kalorie)."
+  },
+  {
+    "id": "food_009",
+    "question": "Który ser jest używany w tradycyjnej pizzy Margherita?",
+    "answers": ["Parmezan", "Mozzarella", "Gorgonzola", "Ricotta"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pizza Margherita zawiera mozzarellę, pomidory i bazylię."
+  },
+  {
+    "id": "food_010",
+    "question": "Co to jest quinoa?",
+    "answers": ["Rodzaj ryżu", "Pseudozboże", "Warzywo", "Nasiono"],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Quinoa to pseudozboże pochodzące z Ameryki Południowej, bogate w białko."
+  },
+  {
+    "id": "mus_001",
+    "question": "Ilu muzyków gra w kwartecie?",
+    "answers": ["3", "4", "5", "6"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W kwartecie gra czterech muzyków."
+  },
+  {
+    "id": "mus_002",
+    "question": "Która grupa wykonała 'Bohemian Rhapsody'?",
+    "answers": ["The Beatles", "Queen", "Led Zeppelin", "The Rolling Stones"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "'Bohemian Rhapsody' to kultowa piosenka zespołu Queen z 1975 roku."
+  },
+  {
+    "id": "mus_003",
+    "question": "Ile strun ma standardowa gitara?",
+    "answers": ["4", "5", "6", "7"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Standardowa gitara ma 6 strun."
+  },
+  {
+    "id": "mus_004",
+    "question": "Kto napisał 'Dla Elizy'?",
+    "answers": ["Mozart", "Beethoven", "Bach", "Chopin"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "'Dla Elizy' to kompozycja Ludwiga van Beethovena."
+  },
+  {
+    "id": "mus_005",
+    "question": "W jakiej tonacji jest napisana większość utworów smutnych?",
+    "answers": ["Dur", "Moll", "Atonalność", "Pentatonika"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Tonacje molowe są zwykle kojarzone z nastrojem smutnym lub melancholijnym."
+  },
+  {
+    "id": "mus_006",
+    "question": "Ile klawiszy ma standardowe piano?",
+    "answers": ["76", "88", "96", "104"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Standardowe piano ma 88 klawiszy (52 białe i 36 czarne)."
+  },
+  {
+    "id": "mus_007",
+    "question": "Jak nazywa się najwyższa kobieca partia głosowa?",
+    "answers": ["Alt", "Sopran", "Mezzosopran", "Kontralt"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sopran to najwyższa kobieca partia głosowa."
+  },
+  {
+    "id": "mus_008",
+    "question": "Który instrument ma pedały?",
+    "answers": ["Skrzypce", "Fortepian", "Flet", "Klarnet"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fortepian ma pedały do modulacji dźwięku."
+  },
+  {
+    "id": "mus_009",
+    "question": "Ile nut ma skala diatoniczna?",
+    "answers": ["5", "7", "8", "12"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Skala diatoniczna ma 7 różnych nut (do, re, mi, fa, sol, la, si)."
+  },
+  {
+    "id": "mus_010",
+    "question": "Który kraj wymyślił jazz?",
+    "answers": ["Francja", "USA", "Wielka Brytania", "Brazylia"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Jazz powstał w USA na początku XX wieku."
+  },
+  {
+    "id": "med_001",
+    "question": "Ile litrów krwi ma przeciętny dorosły człowiek?",
+    "answers": ["3-4 litry", "5-6 litrów", "7-8 litrów", "9-10 litrów"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Przeciętny dorosły człowiek ma około 5-6 litrów krwi."
+  },
+  {
+    "id": "med_002",
+    "question": "Które witaminy są rozpuszczalne w tłuszczach?",
+    "answers": ["A, D, E, K", "B, C", "A, B, C", "Wszystkie"],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Witaminy A, D, E, K są rozpuszczalne w tłuszczach."
+  },
+  {
+    "id": "med_003",
+    "question": "Ile uderzeń na minutę ma zdrowe serce w spoczynku?",
+    "answers": ["40-50", "60-100", "120-140", "150-200"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Zdrowe serce bije 60-100 razy na minutę w spoczynku."
+  },
+  {
+    "id": "med_004",
+    "question": "Który organ produkuje insulinę?",
+    "answers": ["Wątroba", "Trzustka", "Nerki", "Śledziona"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Trzustka produkuje insulinę, hormon regulujący poziom cukru we krwi."
+  },
+  {
+    "id": "med_005",
+    "question": "Ile procent wody zawiera ludzki organizm?",
+    "answers": ["40%", "50%", "60%", "70%"],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ludzki organizm składa się w około 60% z wody."
+  },
+  {
+    "id": "med_006",
+    "question": "Który mineral jest najważniejszy dla kości?",
+    "answers": ["Żelazo", "Wapń", "Magnez", "Cynk"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wapń jest kluczowy dla budowy i utrzymania zdrowych kości."
+  },
+  {
+    "id": "med_007",
+    "question": "Ile godzin snu potrzebuje dorosły człowiek?",
+    "answers": ["4-5 godzin", "6-7 godzin", "7-9 godzin", "10-12 godzin"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dorośli potrzebują 7-9 godzin snu na dobę dla optymalnego zdrowia."
+  },
+  {
+    "id": "med_008",
+    "question": "Który organ filtruje krew?",
+    "answers": ["Wątroba", "Płuca", "Nerki", "Serce"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nerki filtrują krew, usuwając z niej toksyny i nadmiar wody."
+  },
+  {
+    "id": "med_009",
+    "question": "Co to jest hemoglobina?",
+    "answers": ["Hormon", "Białko przenoszące tlen", "Enzym", "Witamina"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Hemoglobina to białko w czerwonych krwinkach, które przenosi tlen."
+  },
+  {
+    "id": "med_010",
+    "question": "Ile zębów ma dorosły człowiek?",
+    "answers": ["28", "30", "32", "34"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dorosły człowiek ma 32 zęby, włączając zęby mądrości."
+  },
+  {
+    "id": "biz_001",
+    "question": "Co oznacza skrót 'CEO'?",
+    "answers": ["Chief Executive Officer", "Central Executive Officer", "Corporate Executive Officer", "Chief Economic Officer"],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "CEO to Chief Executive Officer - naczelny dyrektor wykonawczy."
+  },
+  {
+    "id": "biz_002",
+    "question": "Która waluta jest najczęściej używana w handlu międzynarodowym?",
+    "answers": ["Euro", "Dolar amerykański", "Jen japoński", "Funt brytyjski"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Dolar amerykański dominuje w międzynarodowych transakcjach handlowych."
+  },
+  {
+    "id": "biz_003",
+    "question": "Co to jest inflacja?",
+    "answers": ["Spadek cen", "Wzrost cen", "Stały poziom cen", "Wymiana walut"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Inflacja to wzrost ogólnego poziomu cen towarów i usług."
+  },
+  {
+    "id": "biz_004",
+    "question": "Która giełda jest największa na świecie?",
+    "answers": ["NASDAQ", "NYSE", "LSE", "TSE"],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "New York Stock Exchange (NYSE) to największa giełda papierów wartościowych."
+  },
+  {
+    "id": "biz_005",
+    "question": "Co oznacza skrót 'GDP'?",
+    "answers": ["Gross Domestic Product", "General Domestic Product", "Global Domestic Product", "Government Domestic Product"],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "GDP to Gross Domestic Product - Produkt Krajowy Brutto."
+  },
+  {
+    "id": "biz_006",
+    "question": "Kto założył firmę Amazon?",
+    "answers": ["Bill Gates", "Steve Jobs", "Jeff Bezos", "Elon Musk"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Amazon zostało założone przez Jeffa Bezosa w 1994 roku."
+  },
+  {
+    "id": "biz_007",
+    "question": "Co to jest startup?",
+    "answers": ["Duża korporacja", "Młoda, innowacyjna firma", "Instytucja rządowa", "Organizacja non-profit"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Startup to młoda firma poszukująca skalowalnego modelu biznesowego."
+  },
+  {
+    "id": "biz_008",
+    "question": "Który kraj ma największą gospodarkę świata?",
+    "answers": ["Chiny", "USA", "Japonia", "Niemcy"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "USA mają największą gospodarkę świata mierzoną PKB."
+  },
+  {
+    "id": "biz_009",
+    "question": "Co to jest kryptowaluta?",
+    "answers": ["Tradycyjna waluta", "Cyfrowa waluta", "Waluta papierowa", "Waluta złota"],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kryptowaluta to cyfrowa waluta zabezpieczona kryptograficznie."
+  },
+  {
+    "id": "biz_010",
+    "question": "Która firma produkuje iPhone?",
+    "answers": ["Google", "Microsoft", "Apple", "Samsung"],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "iPhone jest produkowany przez firmę Apple."
+  }
+]

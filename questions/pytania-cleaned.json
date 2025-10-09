@@ -1,0 +1,132 @@
+[
+  {
+    "id": "hist_004",
+    "question": "Kto bykrólem Polski podczas Bitwy pod Grunwaldem?",
+    "answers": [
+      "Kazimierz Wielki",
+      "Wadysaw Jagieo",
+      "Mieszko I",
+      "Bolesaw Chrobry"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wadysaw Jagieo bykrólem Polski podczas Bitwy pod Grunwaldem w 1410 roku."
+  },
+  {
+    "id": "hist_005",
+    "question": "W którym roku odzyskaa niepodlegoPolska po I wojnie wiatowej?",
+    "answers": [
+      "1917",
+      "1918",
+      "1920",
+      "1921"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Polska odzyskaa niepodlego11 listopada 1918 roku."
+  },
+  {
+    "id": "hist_006",
+    "question": "Jak nazywasipierwszy prezydent Polski po II wojnie wiatowej?",
+    "answers": [
+      "Ignacy Mocicki",
+      "Bolesaw Bierut",
+      "Lech Wasa",
+      "Gabriel Narutowicz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bolesaw Bierut bypierwszym prezydentem Polski po II wojnie wiatowej."
+  },
+  {
+    "id": "hist_007",
+    "question": "Co wydarzyo si3 maja 1791 roku?",
+    "answers": [
+      "Rozpoczcie powstania listopadowego",
+      "Uchwalenie Konstytucji 3 maja",
+      "Bitwa Warszawska",
+      "Podpisanie Traktatu Wersalskiego"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "3 maja 1791 roku uchwalono pierwsznowoczesnkonstytucjw Europie."
+  },
+  {
+    "id": "hist_008",
+    "question": "Kto dowodzipowstaniem warszawskim w 1944 roku?",
+    "answers": [
+      "Tadeusz Komorowski",
+      "Stanisaw Sosabowski",
+      "Marek Edelman",
+      "Wadysaw Anders"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tadeusz Komorowski, pseudonim 'Bór', dowodziPowstaniem Warszawskim."
+  },
+  {
+    "id": "hist_009",
+    "question": "Co byo przyczynwybuchu II wojny wiatowej?",
+    "answers": [
+      "Atak Niemiec na Polsk",
+      "Zamach w Sarajewie",
+      "Atak na Pearl Harbor",
+      "Upadek Berlin Wall"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "II wojna wiatowa rozpocza siatakiem Niemiec na Polsk1 wrzenia 1939."
+  },
+  {
+    "id": "hist_010",
+    "question": "W którym miecie podpisano akt koczcy II wojnwiatoww Europie?",
+    "answers": [
+      "Berlin",
+      "Pary",
+      "Poczdam",
+      "Reims"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kapitulacja Niemiec zostaa podpisana w Reims 7 maja 1945 roku."
+  },
+  {
+    "id": "hist_011",
+    "question": "Kto byliderem Solidarnoci?",
+    "answers": [
+      "Lech Wasa",
+      "Tadeusz Mazowiecki",
+      "Wojciech Jaruzelski",
+      "Adam Michnik"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lech Wasa byliderem NSZZ Solidarnoi póniejszym prezydentem Polski."
+  },
+  {
+    "id": "hist_012",
+    "question": "W jakim roku Polska przyja konstytucjmarcow?",
+    "answers": [
+      "1921",
+      "1918",
+      "1947",
+      "1935"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Konstytucjmarcowuchwalono w 1921 roku."
+  },
+  {
+    "id": "hist_013",
+    "question": "Kto bypierwszym marszakiem Polski?",
+    "answers": [
+      "Józef Pisudski",
+      "Wincenty Witos",
+      "Ignacy Paderewski",
+      "Roman Dmowski"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Józef Pisudski zostapierwszym marszakiem Polski w 1920 roku."
+  }
+]

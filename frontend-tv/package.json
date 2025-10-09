@@ -1,7 +1,7 @@
 {
-  "name": "frontend-tv",
+  "name": "pytajka-tv",
   "version": "1.0.0",
-  "description": "TV frontend for quiz game",
+  "description": "TV frontend for Pytajka quiz game",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

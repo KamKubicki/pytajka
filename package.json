@@ -1,7 +1,7 @@
 {
-  "name": "wiedza-to-potega",
+  "name": "pytajka",
   "version": "1.0.0",
-  "description": "Multiplayer quiz game like 'Wiedza to Potęga'",
+  "description": "Multiplayer quiz game 'Pytajka'",
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:tv\" \"npm run dev:mobile\"",
     "dev:backend": "cd backend && npm run dev",

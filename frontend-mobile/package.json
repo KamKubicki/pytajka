@@ -1,7 +1,7 @@
 {
-  "name": "frontend-mobile",
+  "name": "pytajka-mobile",
   "version": "1.0.0",
-  "description": "Mobile frontend for quiz game",
+  "description": "Mobile frontend for Pytajka quiz game",
   "scripts": {
     "dev": "vite --port 3002",
     "build": "vite build",

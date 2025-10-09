@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "pytajka-backend",
   "version": "1.0.0",
-  "description": "Backend server for quiz game",
+  "description": "Backend server for Pytajka quiz game",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
