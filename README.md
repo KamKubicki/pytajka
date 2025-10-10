@@ -63,7 +63,7 @@ npm install
 npm run dev
 ```
 
-**Interfejs TV** (port 5173):
+**Interfejs TV** (port 3000):
 ```bash
 cd frontend-tv
 npm install
@@ -78,7 +78,7 @@ npm run dev
 ```
 
 ### Dostęp do aplikacji:
-- **TV Interface**: http://localhost:5173
+- **TV Interface**: http://localhost:3000
 - **Mobile App**: http://localhost:3002  
 - **Backend API**: http://localhost:3001
 
