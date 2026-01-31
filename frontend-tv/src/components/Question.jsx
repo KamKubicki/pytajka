@@ -57,20 +57,27 @@ function Question({ currentQuestion, timer, players, realTimeAnswers, showCorrec
                 };
               });
             
+            const isCorrect = showCorrectAnswer && index === currentQuestion.correct;
+
             return (
-              <div 
+              <div
                 key={index}
-                className={`answer-column ${showCorrectAnswer && index === currentQuestion.correct ? 'correct' : ''}`}
+                className={`answer-column ${isCorrect ? 'correct' : ''}`}
               >
+                {isCorrect && (
+                  <div className="correct-answer-badge">
+                    ✅ POPRAWNA ODPOWIEDŹ
+                  </div>
+                )}
                 <div className="answer-header">
                   <span className="answer-letter">{String.fromCharCode(65 + index)}</span>
                   <span className="answer-text">{answer}</span>
                 </div>
-                
+
                 <div className="players-for-answer">
                   {playersForThisAnswer.map(playerData => (
-                    <div 
-                      key={playerData.playerId} 
+                    <div
+                      key={playerData.playerId}
                       className={`player-choice ${showCorrectAnswer ? (index === currentQuestion.correct ? 'correct-choice' : 'wrong-choice') : ''}`}
                     >
                       <div className="player-avatar">{playerData.playerAvatar}</div>

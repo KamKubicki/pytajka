@@ -7,6 +7,7 @@ import Results from './components/Results';
 import FinalResults from './components/FinalResults';
 import Preparing from './components/Preparing';
 import Break from './components/Break';
+import RoundSummary from './components/RoundSummary';
 
 function AppContent() {
   const {
@@ -27,7 +28,8 @@ function AppContent() {
     totalQuestions,
     prepareTimer,
     breakTimer,
-    socket
+    socket,
+    roundSummaryData
   } = React.useContext(GameContext);
 
   useSocket();
@@ -71,6 +73,12 @@ function AppContent() {
         />
       )}
       {gameState === 'results-summary' && <Results resultsData={resultsData} />}
+      {gameState === 'round-end' && roundSummaryData && (
+        <RoundSummary
+          round={roundSummaryData.round}
+          players={roundSummaryData.players}
+        />
+      )}
       {(gameState === 'playing' || gameState === 'question') && (
         <Question
           currentQuestion={currentQuestion}

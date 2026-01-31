@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, useParams, useNavigate, useLocation } from 'react-router-dom';
 import io from 'socket.io-client';
+import useSound from './hooks/useSound';
 
 // Get backend URL from environment or detect IP
 const getBackendURL = () => {
@@ -494,6 +495,8 @@ function Game() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [breakTimer, setBreakTimer] = useState(5);
   const [nextQuestionNumber, setNextQuestionNumber] = useState(2);
+
+  const { playSound } = useSound();
   
   // Turn system states
   const [playerScores, setPlayerScores] = useState([]);
@@ -607,13 +610,13 @@ function Game() {
     newSocket.on('question-ended', (data) => {
       console.log('Question ended event received:', data);
       console.log('Current playerData in closure:', playerData);
-      
+
       // Find player by socket ID since playerData might not be set yet
       const socketId = newSocket.id;
       const updatedPlayer = data.updatedPlayers.find(p => p.socketId === socketId);
-      
+
       console.log('Found updated player:', updatedPlayer);
-      
+
       if (updatedPlayer) {
         setPlayerData(prev => ({ ...prev, score: updatedPlayer.score }));
         setLastResult({
@@ -623,7 +626,14 @@ function Game() {
           timeBonus: updatedPlayer.lastTimeBonus || 0,
           responseTime: updatedPlayer.lastResponseTime || 0
         });
-        
+
+        // Play sound based on correctness
+        if (updatedPlayer.lastCorrect) {
+          playSound('correct');
+        } else {
+          playSound('incorrect');
+        }
+
         console.log('Setting showFeedback to true');
         // Show full-screen feedback
         setShowFeedback(true);
@@ -733,7 +743,8 @@ function Game() {
     if (gameState === 'playing') {
       // Allow changing answer until time runs out
       setSelectedAnswer(answerIndex);
-      
+      playSound('answer-submit');
+
       socket.emit('player-answer', {
         sessionId,
         playerId: playerData.id,

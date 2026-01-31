@@ -22,6 +22,7 @@ const GameProvider = ({ children }) => {
   const [totalQuestionCount, setTotalQuestionCount] = useState(0);
   const [gameSettings, setGameSettings] = useState(null);
   const [resultsData, setResultsData] = useState(null);
+  const [roundSummaryData, setRoundSummaryData] = useState(null);
   const [socket, setSocket] = useState(null);
 
   const value = {
@@ -44,6 +45,7 @@ const GameProvider = ({ children }) => {
     totalQuestionCount, setTotalQuestionCount,
     gameSettings, setGameSettings,
     resultsData, setResultsData,
+    roundSummaryData, setRoundSummaryData,
     socket, setSocket
   };
 

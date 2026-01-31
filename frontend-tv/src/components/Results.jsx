@@ -52,44 +52,33 @@ function Results({ resultsData }) {
         </div>
 
         <div className="players-results">
-          <div className="results-title">Wyniki graczy:</div>
-          <div className="players-grid">
+          <div className="players-grid-compact">
             {updatedPlayers
-              .sort((a, b) => (b.lastPoints || 0) - (a.lastPoints || 0))
+              .sort((a, b) => b.score - a.score)
               .map((player, index) => (
-              <div key={player.id} className={`player-result ${player.lastCorrect ? 'correct' : 'incorrect'}`}>
-                <div className="result-rank">#{index + 1}</div>
-                <div className="player-info-result">
-                  <div className="player-avatar-result">{player.avatar}</div>
-                  <div className="player-name-result">{player.name}</div>
+              <div key={player.id} className={`player-result-compact ${player.lastCorrect ? 'correct' : 'incorrect'}`}>
+                <div className="result-rank-compact">#{index + 1}</div>
+                <div className="player-info-compact">
+                  <div className="player-avatar-compact">{player.avatar}</div>
+                  <div className="player-name-compact">{player.name}</div>
                 </div>
-                <div className="player-answer-result">
-                  {player.lastAnswer !== null ? (
-                    <>
-                      <div className="answer-chosen">
-                        Odpowiedź: <strong>{String.fromCharCode(65 + player.lastAnswer)}</strong>
-                      </div>
-                      <div className={`answer-status ${player.lastCorrect ? 'correct' : 'wrong'}`}>
-                        {player.lastCorrect ? '✅ Poprawna' : '❌ Błędna'}
-                      </div>
-                    </>
-                  ) : (
-                    <div className="no-answer">⏱️ Brak odpowiedzi</div>
-                  )}
-                </div>
-                <div className="points-earned">
-                  <div className="points-main">+{player.lastPoints || 0} pkt</div>
-                  {player.lastTimeBonus > 0 && (
-                    <div className="time-bonus">⚡ +{player.lastTimeBonus} za czas</div>
-                  )}
-                  {player.lastResponseTime && (
-                    <div className="response-time">
-                      ⏱️ {(player.lastResponseTime / 1000).toFixed(1)}s
+                <div className="scores-display">
+                  <div className="total-score-large">{player.score}</div>
+                  <div className="score-details">
+                    <div className="points-earned-compact">
+                      {player.lastPoints > 0 ? `+${player.lastPoints}` : '0'}
+                      {player.lastTimeBonus > 0 && <span className="bonus-inline">⚡+{player.lastTimeBonus}</span>}
                     </div>
-                  )}
+                  </div>
                 </div>
-                <div className="total-score">
-                  Łącznie: <strong>{player.score} pkt</strong>
+                <div className="answer-mini">
+                  {player.lastAnswer !== null ? (
+                    <span className={`answer-indicator ${player.lastCorrect ? 'correct' : 'wrong'}`}>
+                      {player.lastCorrect ? '✅' : '❌'} {String.fromCharCode(65 + player.lastAnswer)}
+                    </span>
+                  ) : (
+                    <span className="answer-indicator no-answer">⏱️</span>
+                  )}
                 </div>
               </div>
             ))}

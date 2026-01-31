@@ -32,7 +32,8 @@ const CATEGORY_TEMPLATES = {
   'sport_polski': { name: 'Sport Polski', color: '#FF4500', icon: '⚽', questions: [] },
   'nauka_polska': { name: 'Nauka i Wynalazki', color: '#4169E1', icon: '🔬', questions: [] },
   'rozrywka_polska': { name: 'Rozrywka Polska', color: '#FF1493', icon: '🎬', questions: [] },
-  'geografia_swiata': { name: 'Geografia Świata', color: '#228B22', icon: '🌍', questions: [] }
+  'geografia_swiata': { name: 'Geografia Świata', color: '#228B22', icon: '🌍', questions: [] },
+  'historia_swiata': { name: 'Historia Świata', color: '#CD853F', icon: '🌎', questions: [] }
 };
 
 function determineCategory(question) {
@@ -82,53 +83,22 @@ function loadQuestionsFromDirectory() {
         const filePath = path.join(questionsDir, file);
         const fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
         
+        console.log(`  🔍 Processing ${file}: ${Array.isArray(fileData) ? 'Array' : 'Object'} with ${Array.isArray(fileData) ? fileData.length : Object.keys(fileData).length} items`);
+        
         // Handle array of questions (most files)
         if (Array.isArray(fileData)) {
           fileData.forEach((question, index) => {
-            if (question.question && question.answers && question.correct !== undefined) {
-              const category = determineCategory(question);
-              question.source = file;
-              
-              // Generate truly unique ID
-              let uniqueId = question.id;
-              
-              // If no ID or empty, generate one
-              if (!uniqueId || !uniqueId.trim()) {
-                uniqueId = `${file.replace('.json', '')}_${index}`;
-              }
-              
-              // Ensure global uniqueness by adding suffix if needed
-              let finalId = uniqueId;
-              let suffix = 1;
-              while (usedIds.has(finalId)) {
-                finalId = `${uniqueId}_${suffix}`;
-                suffix++;
-              }
-              
-              question.id = finalId;
-              usedIds.add(finalId);
-              
-              questionsDatabase.categories[category].questions.push(question);
-              gameQuestions.push({
-                ...question,
-                category: questionsDatabase.categories[category].name
-              });
-            }
-          });
-        } 
-        // Handle structured object with categories (if any)
-        else if (fileData.categories) {
-          Object.values(fileData.categories).forEach(category => {
-            if (category.questions) {
-              category.questions.forEach((question, index) => {
+            try {
+              if (question.question && question.answers && question.correct !== undefined) {
+                const category = determineCategory(question);
                 question.source = file;
                 
-                // Generate truly unique ID for structured format too
+                // Generate truly unique ID
                 let uniqueId = question.id;
                 
                 // If no ID or empty, generate one
                 if (!uniqueId || !uniqueId.trim()) {
-                  uniqueId = `${file.replace('.json', '')}_struct_${index}`;
+                  uniqueId = `${file.replace('.json', '')}_${index}`;
                 }
                 
                 // Ensure global uniqueness by adding suffix if needed
@@ -142,15 +112,79 @@ function loadQuestionsFromDirectory() {
                 question.id = finalId;
                 usedIds.add(finalId);
                 
-                const categoryKey = determineCategory(question);
-                questionsDatabase.categories[categoryKey].questions.push(question);
+                // Ensure category exists
+                if (!questionsDatabase.categories[category]) {
+                  console.warn(`  ⚠️  Category ${category} doesn't exist for question ${finalId}, using nauka_polska instead`);
+                  category = 'nauka_polska';
+                }
+                
+                questionsDatabase.categories[category].questions.push(question);
                 gameQuestions.push({
                   ...question,
-                  category: questionsDatabase.categories[categoryKey].name
+                  category: questionsDatabase.categories[category].name
                 });
-              });
+              }
+            } catch (questionError) {
+              console.error(`  ❌ Error processing question ${index} in ${file}:`, questionError.message);
+              console.error(`     Question data:`, JSON.stringify(question, null, 2));
             }
           });
+        } 
+        // Handle structured object with categories (if any)
+        else if (fileData.categories) {
+          Object.entries(fileData.categories).forEach(([categoryName, category]) => {
+            try {
+              if (category && category.questions) {
+                category.questions.forEach((question, index) => {
+                  try {
+                    question.source = file;
+                    
+                    // Generate truly unique ID for structured format too
+                    let uniqueId = question.id;
+                    
+                    // If no ID or empty, generate one
+                    if (!uniqueId || !uniqueId.trim()) {
+                      uniqueId = `${file.replace('.json', '')}_struct_${index}`;
+                    }
+                    
+                    // Ensure global uniqueness by adding suffix if needed
+                    let finalId = uniqueId;
+                    let suffix = 1;
+                    while (usedIds.has(finalId)) {
+                      finalId = `${uniqueId}_${suffix}`;
+                      suffix++;
+                    }
+                    
+                    question.id = finalId;
+                    usedIds.add(finalId);
+                    
+                    let categoryKey = determineCategory(question);
+                    // Ensure category exists
+                    if (!questionsDatabase.categories[categoryKey]) {
+                      console.warn(`  ⚠️  Category ${categoryKey} doesn't exist for question ${finalId}, using nauka_polska instead`);
+                      categoryKey = 'nauka_polska';
+                    }
+                    
+                    questionsDatabase.categories[categoryKey].questions.push(question);
+                    gameQuestions.push({
+                      ...question,
+                      category: questionsDatabase.categories[categoryKey].name
+                    });
+                  } catch (questionError) {
+                    console.error(`  ❌ Error processing structured question ${index} in category ${categoryName} of ${file}:`, questionError.message);
+                  }
+                });
+              } else {
+                console.error(`  ❌ Category ${categoryName} in ${file} has no questions or is undefined`);
+              }
+            } catch (categoryError) {
+              console.error(`  ❌ Error processing category ${categoryName} in ${file}:`, categoryError.message);
+            }
+          });
+        }
+        // Handle other object formats that might not have categories
+        else if (typeof fileData === 'object' && !Array.isArray(fileData)) {
+          console.log(`  ⚠️  Skipping ${file}: Unknown object format (not array, no categories)`);
         }
         
         console.log(`  ✅ Loaded ${file}: ${Array.isArray(fileData) ? fileData.length : 'structured'} questions`);
@@ -240,26 +274,47 @@ function saveQuestionHistory() {
 // Smart question selection avoiding recently used questions
 function selectFreshQuestions(requestedCount) {
   const availableQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
-  
+
   console.log(`Question pool status: ${availableQuestions.length}/${gameQuestions.length} fresh questions available`);
-  
+
   // If we don't have enough fresh questions, reset history but keep some recent ones
   if (availableQuestions.length < Math.max(requestedCount, MIN_QUESTIONS_POOL)) {
     console.log('⚠️  Low fresh questions! Resetting history but keeping most recent 50 questions');
-    
+
     // Convert Set to Array, keep last 50, clear and re-add them
     const recentQuestions = Array.from(usedQuestionsHistory).slice(-50);
     usedQuestionsHistory.clear();
     recentQuestions.forEach(qId => usedQuestionsHistory.add(qId));
-    
+
     // Recalculate available questions
     const freshQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
     console.log(`After reset: ${freshQuestions.length}/${gameQuestions.length} fresh questions available`);
-    
-    return shuffleArray(freshQuestions).slice(0, requestedCount);
+
+    return ensureUniqueQuestions(shuffleArray(freshQuestions).slice(0, requestedCount));
   }
-  
-  return shuffleArray(availableQuestions).slice(0, requestedCount);
+
+  return ensureUniqueQuestions(shuffleArray(availableQuestions).slice(0, requestedCount));
+}
+
+// Ensure all questions in the array are unique by ID
+function ensureUniqueQuestions(questions) {
+  const seen = new Set();
+  const uniqueQuestions = [];
+
+  for (const question of questions) {
+    if (!seen.has(question.id)) {
+      seen.add(question.id);
+      uniqueQuestions.push(question);
+    } else {
+      console.warn(`⚠️  Duplicate question detected and removed: ${question.id}`);
+    }
+  }
+
+  if (uniqueQuestions.length !== questions.length) {
+    console.warn(`⚠️  Removed ${questions.length - uniqueQuestions.length} duplicate questions from selection`);
+  }
+
+  return uniqueQuestions;
 }
 
 // Standalone shuffle function
@@ -312,12 +367,21 @@ class GameSession {
     this.rounds = this.gameSettings.rounds || 5;
     this.questionsPerRound = this.gameSettings.questionsPerRound || 5;
     this.totalQuestions = this.rounds * this.questionsPerRound;
-    
+
     // Use smart question selection to avoid recently used questions
     this.shuffledQuestions = selectFreshQuestions(this.totalQuestions);
+
+    // Track question IDs used in this session to ensure uniqueness
+    this.usedQuestionIds = new Set(this.shuffledQuestions.map(q => q.id));
+
     this.startInactivityTimer();
-    
-    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh questions`);
+
+    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh unique questions`);
+
+    // Verify all questions in session are unique
+    if (this.shuffledQuestions.length !== this.usedQuestionIds.size) {
+      console.warn(`⚠️  Session ${id}: Found duplicate questions! Expected ${this.shuffledQuestions.length}, got ${this.usedQuestionIds.size} unique`);
+    }
   }
 
   addPlayer(playerId, playerData) {
@@ -393,23 +457,33 @@ class GameSession {
   endQuestion(io) {
     clearTimeout(this.timer);
     this.updateActivity();
-    
+
     const updatedPlayers = Array.from(this.players.values()).map(player => {
       const playerAnswerData = this.playerAnswers.get(player.id);
-      
+
       if (!playerAnswerData) {
-        return { ...player, lastPoints: 0, lastCorrect: false };
+        return { ...player, lastPoints: 0, lastCorrect: false, lastAnswer: null, lastResponseTime: null, lastTimeBonus: 0 };
       }
-      
+
       const isCorrect = playerAnswerData.answer === this.currentQuestion.correct;
+      const responseTime = playerAnswerData.timestamp - this.questionStartTime;
       let points = 0;
+      let timeBonus = 0;
+
       if (isCorrect) {
-        const responseTime = playerAnswerData.timestamp - this.questionStartTime;
-        const timeBonus = Math.max(0, 100 - Math.floor(responseTime / 150));
+        timeBonus = Math.max(0, 100 - Math.floor(responseTime / 150));
         points = 100 + timeBonus;
       }
-      
-      return { ...player, score: player.score + points, lastPoints: points, lastCorrect: isCorrect };
+
+      return {
+        ...player,
+        score: player.score + points,
+        lastPoints: points,
+        lastCorrect: isCorrect,
+        lastAnswer: playerAnswerData.answer,
+        lastResponseTime: responseTime,
+        lastTimeBonus: timeBonus
+      };
     });
 
     updatedPlayers.forEach(player => {
@@ -421,31 +495,51 @@ class GameSession {
       updatedPlayers
     });
 
+    // Show results summary screen with all details
+    setTimeout(() => {
+      io.to(this.id).emit('show-results-summary', {
+        correctAnswer: this.currentQuestion.correct,
+        updatedPlayers: updatedPlayers,
+        questionData: this.currentQuestion
+      });
+    }, 1500); // Wait 1.5s for question-ended effects
+
     this.questionIndex++;
-    
+
     const isRoundEnd = this.questionIndex % this.questionsPerRound === 0;
 
     if (isRoundEnd && this.questionIndex < this.totalQuestions) {
-      io.to(this.id).emit('round-end', { round: this.questionIndex / this.questionsPerRound });
+      // Show results for 5 seconds, then round summary for 10 seconds
+      setTimeout(() => {
+        io.to(this.id).emit('round-end', {
+          round: this.questionIndex / this.questionsPerRound,
+          players: updatedPlayers
+        });
+      }, 6500); // 1.5s + 5s for results
+
       setTimeout(() => {
         this.startQuestion(io);
-      }, 10000);
+      }, 16500); // 1.5s + 5s + 10s
     } else if (this.questionIndex >= this.totalQuestions) {
       this.status = 'finished';
-      
+
       // Mark all questions from this session as used
       markQuestionsAsUsed(this.shuffledQuestions);
-      
-      io.to(this.id).emit('game-finished');
+
+      setTimeout(() => {
+        io.to(this.id).emit('game-finished');
+      }, 6500); // Show results for 5 seconds before final screen
+
       setTimeout(() => {
         console.log(`Cleaning up finished session ${this.id}`);
         this.cleanup();
         gameSessions.delete(this.id);
       }, 5 * 60 * 1000); // Clean up 5 minutes after game ends
     } else {
+      // Normal question transition - show results for 5 seconds
       setTimeout(() => {
         this.startQuestion(io);
-      }, 3000);
+      }, 6500); // 1.5s + 5s
     }
   }
 }

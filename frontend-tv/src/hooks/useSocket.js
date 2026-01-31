@@ -1,6 +1,7 @@
-import { useEffect, useContext } from 'react';
+import { useEffect, useContext, useRef } from 'react';
 import io from 'socket.io-client';
 import { GameContext } from '../contexts/GameContext.jsx';
+import useSound from './useSound';
 
 const getBackendURL = () => {
   const currentHost = window.location.hostname;
@@ -30,10 +31,16 @@ function useSocket() {
     setRealTimeAnswers,
     setBreakTimer,
     setResultsData,
+    setRoundSummaryData,
     setSocket,
     setTotalQuestionCount,
     setGameSettings
   } = useContext(GameContext);
+
+  const { playSound } = useSound();
+  const timerIntervalRef = useRef(null);
+  const prepareIntervalRef = useRef(null);
+  const breakIntervalRef = useRef(null);
 
   useEffect(() => {
     const socket = io(SOCKET_URL, {
@@ -77,6 +84,7 @@ function useSocket() {
 
     socket.on('game-started', () => {
       setGameState('playing');
+      playSound('game-start');
     });
 
     socket.on('question-prepare', (data) => {
@@ -84,11 +92,17 @@ function useSocket() {
       setQuestionNumber(data.questionNumber);
       setTotalQuestions(data.totalQuestions);
       setPrepareTimer(5);
-      
-      const prepareInterval = setInterval(() => {
+
+      // Clear previous interval if exists
+      if (prepareIntervalRef.current) {
+        clearInterval(prepareIntervalRef.current);
+      }
+
+      prepareIntervalRef.current = setInterval(() => {
         setPrepareTimer(prev => {
           if (prev <= 1) {
-            clearInterval(prepareInterval);
+            clearInterval(prepareIntervalRef.current);
+            prepareIntervalRef.current = null;
             return 0;
           }
           return prev - 1;
@@ -103,11 +117,25 @@ function useSocket() {
       setShowCorrectAnswer(false);
       setPlayerAnswers(new Map());
       setRealTimeAnswers(new Map());
-      
-      const timerInterval = setInterval(() => {
+
+      // Clear previous timer interval if exists
+      if (timerIntervalRef.current) {
+        clearInterval(timerIntervalRef.current);
+      }
+
+      timerIntervalRef.current = setInterval(() => {
         setTimer(prev => {
+          // Play tick sound in last 5 seconds
+          if (prev <= 5 && prev > 1) {
+            playSound('tick');
+          }
+          // Play time-up sound when timer reaches 0
+          if (prev === 1) {
+            playSound('time-up');
+          }
           if (prev <= 1) {
-            clearInterval(timerInterval);
+            clearInterval(timerIntervalRef.current);
+            timerIntervalRef.current = null;
             return 0;
           }
           return prev - 1;
@@ -116,8 +144,15 @@ function useSocket() {
     });
 
     socket.on('question-ended', (data) => {
+      // Clear timer when question ends
+      if (timerIntervalRef.current) {
+        clearInterval(timerIntervalRef.current);
+        timerIntervalRef.current = null;
+      }
+
       setShowCorrectAnswer(true);
       setPlayers(data.updatedPlayers);
+      playSound('correct'); // Play reveal sound
     });
 
     socket.on('show-results-summary', (data) => {
@@ -130,16 +165,28 @@ function useSocket() {
       setQuestionNumber(data.nextQuestionNumber);
       setTotalQuestions(data.totalQuestions);
       setBreakTimer(5);
-      
-      const breakInterval = setInterval(() => {
+      playSound('round-end');
+
+      // Clear previous break interval if exists
+      if (breakIntervalRef.current) {
+        clearInterval(breakIntervalRef.current);
+      }
+
+      breakIntervalRef.current = setInterval(() => {
         setBreakTimer(prev => {
           if (prev <= 1) {
-            clearInterval(breakInterval);
+            clearInterval(breakIntervalRef.current);
+            breakIntervalRef.current = null;
             return 0;
           }
           return prev - 1;
         });
       }, 1000);
+    });
+
+    socket.on('round-end', (data) => {
+      setGameState('round-end');
+      setRoundSummaryData(data);
     });
 
     socket.on('game-finished', () => {
@@ -180,7 +227,19 @@ function useSocket() {
       }
     };
 
-    return () => socket.close();
+    return () => {
+      // Clean up all intervals on unmount
+      if (timerIntervalRef.current) {
+        clearInterval(timerIntervalRef.current);
+      }
+      if (prepareIntervalRef.current) {
+        clearInterval(prepareIntervalRef.current);
+      }
+      if (breakIntervalRef.current) {
+        clearInterval(breakIntervalRef.current);
+      }
+      socket.close();
+    };
   }, []);
 }
 
