@@ -371,6 +371,21 @@ class GameSession {
     // Use smart question selection to avoid recently used questions
     this.shuffledQuestions = selectFreshQuestions(this.totalQuestions);
 
+    // Fallback if not enough fresh questions - use all available questions
+    if (this.shuffledQuestions.length < this.totalQuestions) {
+      console.warn(`⚠️  Not enough fresh questions (${this.shuffledQuestions.length}/${this.totalQuestions}), using all available questions`);
+      if (gameQuestions.length > 0) {
+        // Shuffle all available questions and use as many as needed
+        const shuffled = shuffleArray(gameQuestions);
+        this.shuffledQuestions = ensureUniqueQuestions(shuffled.slice(0, this.totalQuestions));
+      }
+    }
+
+    // Final validation - if still no questions, log error
+    if (this.shuffledQuestions.length === 0) {
+      console.error(`❌ Critical: No questions available for session ${id}. gameQuestions.length = ${gameQuestions.length}`);
+    }
+
     // Track question IDs used in this session to ensure uniqueness
     this.usedQuestionIds = new Set(this.shuffledQuestions.map(q => q.id));
 
@@ -402,6 +417,13 @@ class GameSession {
 
   startQuestion(io) {
     this.updateActivity();
+    if (this.questionIndex >= this.shuffledQuestions.length) {
+      console.warn(`Session ${this.id}: No more questions available (index ${this.questionIndex}/${this.shuffledQuestions.length})`);
+      this.status = 'finished';
+      io.to(this.id).emit('game-finished');
+      return;
+    }
+    
     if (this.questionIndex < this.totalQuestions) {
       const question = this.shuffledQuestions[this.questionIndex];
       this.currentQuestion = question;

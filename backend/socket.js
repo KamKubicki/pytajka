@@ -8,14 +8,19 @@ function initializeSocket(server) {
       origin: function (origin, callback) {
         if (!origin) return callback(null, true);
         
-        // Allow localhost with any port for development
-        if (/^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
+        // Allow localhost with any port for development (HTTP and HTTPS)
+        if (/^https?:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
           return callback(null, true);
         }
         
-        // Allow local network IPs with development ports
-        if (/^http:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
-            /^http:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin)) {
+        // Allow local network IPs with development ports (HTTP and HTTPS)
+        if (/^https?:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
+            /^https?:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin)) {
+          return callback(null, true);
+        }
+        
+        // Allow localhost without port (for same-origin requests)
+        if (/^https?:\/\/(localhost|127\.0\.0\.1)$/.test(origin)) {
           return callback(null, true);
         }
         
@@ -29,32 +34,35 @@ function initializeSocket(server) {
     pingInterval: 25000
   });
 
-  // Rate limiting for socket connections
+  // Rate limiting for socket connections - track requests and last activity
   const socketRequestCounts = new Map();
   const SOCKET_RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
   const SOCKET_RATE_LIMIT_MAX_REQUESTS = 50; // 50 requests per minute per socket
+  const SOCKET_CLEANUP_TIMEOUT = 10 * 60 * 1000; // Clean up sockets after 10 minutes of inactivity
 
   io.on('connection', (socket) => {
     console.log('User connected:', socket.id);
     
-    // Initialize rate limiting for this socket
-    socketRequestCounts.set(socket.id, []);
+    // Initialize rate limiting for this socket with lastActivity timestamp
+    socketRequestCounts.set(socket.id, { requests: [], lastActivity: Date.now() });
     
     // Rate limiting middleware for socket events
     const rateLimitCheck = (eventName) => {
       const now = Date.now();
-      const requests = socketRequestCounts.get(socket.id) || [];
+      const socketData = socketRequestCounts.get(socket.id);
+      if (!socketData) return false;
       
-      // Remove old requests outside the window
-      const validRequests = requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
+      const requests = socketData.requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
       
-      if (validRequests.length >= SOCKET_RATE_LIMIT_MAX_REQUESTS) {
+      if (requests.length >= SOCKET_RATE_LIMIT_MAX_REQUESTS) {
         socket.emit('rate-limit-exceeded', { message: 'Too many requests' });
         return false;
       }
       
-      validRequests.push(now);
-      socketRequestCounts.set(socket.id, validRequests);
+      requests.push(now);
+      socketData.requests = requests;
+      socketData.lastActivity = now;
+      socketRequestCounts.set(socket.id, socketData);
       return true;
     };
 
@@ -272,15 +280,26 @@ function initializeSocket(server) {
   // Clean up socket rate limiting data every 5 minutes
   setInterval(() => {
     const now = Date.now();
-    socketRequestCounts.forEach((requests, socketId) => {
-      const validRequests = requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
-      if (validRequests.length === 0) {
+    const SOCKET_CLEANUP_WINDOW = 5 * 60 * 1000; // 5 minutes for cleanup check
+    
+    socketRequestCounts.forEach((socketData, socketId) => {
+      const timeSinceActivity = now - socketData.lastActivity;
+      
+      // Remove old requests outside the window
+      const validRequests = socketData.requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
+      
+      // Clean up if no valid requests OR socket has been inactive for too long
+      if (validRequests.length === 0 || timeSinceActivity > SOCKET_CLEANUP_TIMEOUT) {
         socketRequestCounts.delete(socketId);
+        if (timeSinceActivity > SOCKET_CLEANUP_TIMEOUT) {
+          console.log(`Cleaned up stale socket rate limit data: ${socketId} (inactive for ${Math.round(timeSinceActivity/60000)} min)`);
+        }
       } else {
-        socketRequestCounts.set(socketId, validRequests);
+        socketData.requests = validRequests;
+        socketRequestCounts.set(socketId, socketData);
       }
     });
-  }, 5 * 60 * 1000);
+  }, SOCKET_CLEANUP_WINDOW);
 
   return io;
 }
