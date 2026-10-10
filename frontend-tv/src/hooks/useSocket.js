@@ -41,6 +41,8 @@ function useSocket() {
   const timerIntervalRef = useRef(null);
   const prepareIntervalRef = useRef(null);
   const breakIntervalRef = useRef(null);
+  const sessionIdRef = useRef(null);
+  const rejoinPendingRef = useRef(false);
 
   useEffect(() => {
     const socket = io(SOCKET_URL, {
@@ -52,8 +54,37 @@ function useSocket() {
     setSocket(socket);
 
     socket.on('connect', () => {
+      // On reconnect re-attach to the existing session instead of creating a new one
+      if (sessionIdRef.current) {
+        console.log('Socket reconnected, rejoining session', sessionIdRef.current);
+        rejoinPendingRef.current = true;
+        socket.emit('host-join', { sessionId: sessionIdRef.current });
+        return;
+      }
       console.log('Socket connected, creating session...');
       createGameSession(socket);
+    });
+
+    socket.on('join-error', (data) => {
+      // Session no longer exists on the backend (e.g. backend restart) - start fresh
+      console.warn('Host join error:', data?.message);
+      if (!rejoinPendingRef.current) return;
+      rejoinPendingRef.current = false;
+      sessionIdRef.current = null;
+      [timerIntervalRef, prepareIntervalRef, breakIntervalRef].forEach(ref => {
+        if (ref.current) {
+          clearInterval(ref.current);
+          ref.current = null;
+        }
+      });
+      setGameState('lobby');
+      setPlayers([]);
+      setCurrentQuestion(null);
+      createGameSession(socket);
+    });
+
+    socket.on('error', (data) => {
+      console.warn('Server error:', data?.message);
     });
 
     socket.on('disconnect', (reason) => {
@@ -62,6 +93,7 @@ function useSocket() {
 
     socket.on('host-joined', (data) => {
       console.log('Host joined:', data);
+      rejoinPendingRef.current = false;
     });
 
     socket.on('player-list-updated', (data) => {
@@ -123,23 +155,20 @@ function useSocket() {
         clearInterval(timerIntervalRef.current);
       }
 
+      // Keep the countdown in a local variable so sounds are not played
+      // from inside a state updater (StrictMode double-invokes updaters)
+      let remaining = 15;
       timerIntervalRef.current = setInterval(() => {
-        setTimer(prev => {
-          // Play tick sound in last 5 seconds
-          if (prev <= 5 && prev > 1) {
-            playSound('tick');
-          }
-          // Play time-up sound when timer reaches 0
-          if (prev === 1) {
-            playSound('time-up');
-          }
-          if (prev <= 1) {
-            clearInterval(timerIntervalRef.current);
-            timerIntervalRef.current = null;
-            return 0;
-          }
-          return prev - 1;
-        });
+        remaining -= 1;
+        if (remaining <= 0) {
+          remaining = 0;
+          clearInterval(timerIntervalRef.current);
+          timerIntervalRef.current = null;
+          playSound('time-up');
+        } else if (remaining <= 4) {
+          playSound('tick');
+        }
+        setTimer(remaining);
       }, 1000);
     });
 
@@ -150,8 +179,12 @@ function useSocket() {
         timerIntervalRef.current = null;
       }
 
+      // Backend strips `correct` from new-question, so take it from here
+      setCurrentQuestion(prev => (prev ? { ...prev, correct: data.correctAnswer } : prev));
       setShowCorrectAnswer(true);
-      setPlayers(data.updatedPlayers);
+      if (Array.isArray(data.updatedPlayers)) {
+        setPlayers(data.updatedPlayers);
+      }
       playSound('correct'); // Play reveal sound
     });
 
@@ -190,6 +223,10 @@ function useSocket() {
     });
 
     socket.on('game-finished', () => {
+      if (timerIntervalRef.current) {
+        clearInterval(timerIntervalRef.current);
+        timerIntervalRef.current = null;
+      }
       setGameState('finished');
     });
 
@@ -210,6 +247,7 @@ function useSocket() {
           method: 'POST'
         });
         const data = await response.json();
+        sessionIdRef.current = data.sessionId;
         setSessionId(data.sessionId);
         
         const qrResponse = await fetch(`${SOCKET_URL}/api/session/${data.sessionId}/qr`);

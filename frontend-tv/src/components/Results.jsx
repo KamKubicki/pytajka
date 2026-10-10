@@ -3,8 +3,9 @@ import React from 'react';
 function Results({ resultsData }) {
   if (!resultsData) return null;
 
-  const { correctAnswer, updatedPlayers, questionData } = resultsData;
-  const correctAnswerText = questionData.answers[correctAnswer];
+  const { correctAnswer, questionData = {} } = resultsData;
+  const updatedPlayers = resultsData.updatedPlayers || [];
+  const correctAnswerText = questionData.answers?.[correctAnswer];
 
   return (
     <div className="tv-container">
@@ -53,7 +54,7 @@ function Results({ resultsData }) {
 
         <div className="players-results">
           <div className="players-grid-compact">
-            {updatedPlayers
+            {[...updatedPlayers]
               .sort((a, b) => b.score - a.score)
               .map((player, index) => (
               <div key={player.id} className={`player-result-compact ${player.lastCorrect ? 'correct' : 'incorrect'}`}>
@@ -72,7 +73,7 @@ function Results({ resultsData }) {
                   </div>
                 </div>
                 <div className="answer-mini">
-                  {player.lastAnswer !== null ? (
+                  {player.lastAnswer !== null && player.lastAnswer !== undefined ? (
                     <span className={`answer-indicator ${player.lastCorrect ? 'correct' : 'wrong'}`}>
                       {player.lastCorrect ? '✅' : '❌'} {String.fromCharCode(65 + player.lastAnswer)}
                     </span>

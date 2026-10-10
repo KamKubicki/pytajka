@@ -1,11 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Lobby({ sessionId, qrCode, joinUrl, localIP, players, gameSettings, totalQuestionCount, onStartGame }) {
   const [rounds, setRounds] = useState(gameSettings?.rounds || 5);
   const [questionsPerRound, setQuestionsPerRound] = useState(gameSettings?.questionsPerRound || 5);
 
+  // gameSettings arrive asynchronously after mount - apply backend defaults once loaded
+  useEffect(() => {
+    if (gameSettings?.rounds) setRounds(gameSettings.rounds);
+    if (gameSettings?.questionsPerRound) setQuestionsPerRound(gameSettings.questionsPerRound);
+  }, [gameSettings]);
+
   const handleStartGame = () => {
-    onStartGame({ rounds, questionsPerRound });
+    // Backend rejects out-of-range values (silently for the TV), so clamp here
+    const clamp = (v, min, max) => Math.min(max, Math.max(min, Math.round(v) || min));
+    onStartGame({ rounds: clamp(rounds, 1, 10), questionsPerRound: clamp(questionsPerRound, 1, 20) });
   };
 
   return (

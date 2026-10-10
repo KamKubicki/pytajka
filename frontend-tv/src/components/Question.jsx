@@ -43,7 +43,7 @@ function Question({ currentQuestion, timer, players, realTimeAnswers, showCorrec
         )}
         
         <div className="answers-arena">
-          {currentQuestion.answers.map((answer, index) => {
+          {(currentQuestion.answers || []).map((answer, index) => {
             const playersForThisAnswer = Array.from(realTimeAnswers.entries())
               .filter(([playerId, playerAnswer]) => playerAnswer.answer === index)
               .map(([playerId, playerAnswer]) => {

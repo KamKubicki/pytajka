@@ -2,7 +2,7 @@ import React from 'react';
 
 function RoundSummary({ round, players }) {
   // Sort players by score
-  const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
+  const sortedPlayers = [...(players || [])].sort((a, b) => b.score - a.score);
   const topThree = sortedPlayers.slice(0, 3);
 
   return (
