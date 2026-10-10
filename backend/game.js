@@ -22,7 +22,8 @@ const CATEGORY_MAPPING = {
   'food_': 'nauka_polska',
   'med_': 'nauka_polska',
   'biz_': 'nauka_polska',
-  'nat_': 'nauka_polska'
+  'nat_': 'nauka_polska',
+  'ne_': 'geografia_swiata'
 };
 
 const CATEGORY_TEMPLATES = {
