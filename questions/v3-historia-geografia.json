@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "hist_k001",
+    "question": "Kto był pierwszym koronowanym królem Polski?",
+    "answers": [
+      "Mieszko I",
+      "Kazimierz Odnowiciel",
+      "Bolesław Chrobry",
+      "Władysław Łokietek"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Bolesław Chrobry koronował się na króla w 1025 roku, krótko przed śmiercią."
+  },
+  {
+    "id": "hist_k002",
+    "question": "W którym roku stoczono bitwę pod Grunwaldem?",
+    "answers": [
+      "1385",
+      "1410",
+      "1466",
+      "1525"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "15 lipca 1410 roku wojska polsko-litewskie pokonały pod Grunwaldem zakon krzyżacki."
+  },
+  {
+    "id": "hist_k003",
+    "question": "Która uczelnia, założona w 1364 roku, jest najstarszą w Polsce?",
+    "answers": [
+      "Uniwersytet Jagielloński",
+      "Uniwersytet Warszawski",
+      "Uniwersytet Wileński",
+      "Uniwersytet Wrocławski"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Akademię Krakowską, dziś Uniwersytet Jagielloński, ufundował Kazimierz Wielki w 1364 roku."
+  },
+  {
+    "id": "hist_k004",
+    "question": "Jak nazywa się najazd Szwedów na Rzeczpospolitą w latach 1655–1660?",
+    "answers": [
+      "Wojna północna",
+      "Najazd tatarski",
+      "Wojna o ujście Wisły",
+      "Potop szwedzki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Potop szwedzki to nazwa spopularyzowana m.in. przez powieść Henryka Sienkiewicza."
+  },
+  {
+    "id": "hist_k005",
+    "question": "Który klasztor obronił się przed Szwedami w 1655 roku?",
+    "answers": [
+      "Tyniec",
+      "Święty Krzyż",
+      "Jasna Góra",
+      "Kalwaria Zebrzydowska"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Obroną Jasnej Góry w Częstochowie dowodził przeor Augustyn Kordecki."
+  },
+  {
+    "id": "hist_k006",
+    "question": "Kto był ostatnim królem Polski przed rozbiorami?",
+    "answers": [
+      "Jan III Sobieski",
+      "Stanisław August Poniatowski",
+      "August III Sas",
+      "Stanisław Leszczyński"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Stanisław August Poniatowski abdykował w 1795 roku, po trzecim rozbiorze."
+  },
+  {
+    "id": "hist_k007",
+    "question": "Którego dnia w 1791 roku uchwalono pierwszą w Europie nowoczesną konstytucję?",
+    "answers": [
+      "3 maja",
+      "11 listopada",
+      "15 sierpnia",
+      "1 maja"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Konstytucja 3 maja była pierwszą w Europie i drugą na świecie, po amerykańskiej."
+  },
+  {
+    "id": "hist_k008",
+    "question": "Jakie miasto portowe zbudowano w II RP niemal od podstaw jako „okno na świat”?",
+    "answers": [
+      "Gdańsk",
+      "Szczecin",
+      "Kołobrzeg",
+      "Gdynia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Gdynia z małej wsi rybackiej stała się w dwudziestoleciu jednym z największych portów Bałtyku."
+  },
+  {
+    "id": "hist_k009",
+    "question": "W którym mieście w sierpniu 1980 roku strajk w stoczni dał początek „Solidarności”?",
+    "answers": [
+      "W Szczecinie",
+      "W Gdyni",
+      "W Gdańsku",
+      "W Radomiu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Strajk w Stoczni Gdańskiej zakończył się podpisaniem porozumień sierpniowych."
+  },
+  {
+    "id": "hist_k010",
+    "question": "W którym roku Polska wstąpiła do Unii Europejskiej?",
+    "answers": [
+      "1999",
+      "2004",
+      "2007",
+      "2001"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Polska stała się członkiem Unii Europejskiej 1 maja 2004 roku."
+  },
+  {
+    "id": "hist_k011",
+    "question": "W którym mieście w 1000 roku odbył się zjazd z udziałem cesarza Ottona III?",
+    "answers": [
+      "W Gnieźnie",
+      "W Krakowie",
+      "W Poznaniu",
+      "W Płocku"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zjazd gnieźnieński odbył się przy grobie św. Wojciecha."
+  },
+  {
+    "id": "hist_k012",
+    "question": "Który władca w testamencie z 1138 roku podzielił Polskę między synów?",
+    "answers": [
+      "Bolesław Śmiały",
+      "Mieszko II",
+      "Władysław Herman",
+      "Bolesław Krzywousty"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Testament Bolesława Krzywoustego zapoczątkował okres rozbicia dzielnicowego."
+  },
+  {
+    "id": "hist_k013",
+    "question": "Który zakon rycerski sprowadził w XIII wieku na ziemię chełmińską Konrad Mazowiecki?",
+    "answers": [
+      "Templariuszy",
+      "Joannitów",
+      "Krzyżaków",
+      "Kawalerów mieczowych"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Konrad Mazowiecki sprowadził Krzyżaków do walki z pogańskimi Prusami."
+  },
+  {
+    "id": "hist_k014",
+    "question": "Kto w 1525 roku złożył w Krakowie hołd pruski królowi Zygmuntowi Staremu?",
+    "answers": [
+      "Ulrich von Jungingen",
+      "Albrecht Hohenzollern",
+      "Fryderyk Wielki",
+      "Konrad von Wallenrod"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Albrecht Hohenzollern, ostatni wielki mistrz zakonu w Prusach, został lennikiem polskiego króla."
+  },
+  {
+    "id": "hist_k015",
+    "question": "Który król elekcyjny potajemnie uciekł z Polski, by objąć tron Francji?",
+    "answers": [
+      "Henryk Walezy",
+      "Stefan Batory",
+      "Zygmunt III Waza",
+      "Jan Kazimierz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Henryk Walezy uciekł nocą z Wawelu w 1574 roku po śmierci swojego brata, króla Francji."
+  },
+  {
+    "id": "hist_k016",
+    "question": "Który rotmistrz dobrowolnie dał się uwięzić w Auschwitz, by zorganizować tam konspirację?",
+    "answers": [
+      "Jan Karski",
+      "Stanisław Sosabowski",
+      "Władysław Anders",
+      "Witold Pilecki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Witold Pilecki uciekł z obozu w 1943 roku i przygotował raporty o jego zbrodniach."
+  },
+  {
+    "id": "hist_k017",
+    "question": "O której godzinie 1 sierpnia 1944 roku wybuchło Powstanie Warszawskie?",
+    "answers": [
+      "O 5:00",
+      "O 12:00",
+      "O 17:00",
+      "O 20:00"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Godzina „W” wybiła 1 sierpnia 1944 roku o 17:00 i co roku upamiętniają ją syreny."
+  },
+  {
+    "id": "hist_k018",
+    "question": "W którym roku Polska wstąpiła do NATO?",
+    "answers": [
+      "1989",
+      "1999",
+      "2004",
+      "1995"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Polska, Czechy i Węgry przystąpiły do NATO 12 marca 1999 roku."
+  },
+  {
+    "id": "hist_k019",
+    "question": "Jak nazywany jest autor pierwszej kroniki dziejów Polski z początku XII wieku?",
+    "answers": [
+      "Gall Anonim",
+      "Jan Długosz",
+      "Wincenty Kadłubek",
+      "Janko z Czarnkowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gall Anonim spisał kronikę na dworze Bolesława Krzywoustego."
+  },
+  {
+    "id": "hist_k020",
+    "question": "Który polski król był jednocześnie królem Szwecji?",
+    "answers": [
+      "Stefan Batory",
+      "Jan III Sobieski",
+      "August II Mocny",
+      "Zygmunt III Waza"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Zygmunt III Waza był królem Szwecji do detronizacji w 1599 roku."
+  },
+  {
+    "id": "hist_k021",
+    "question": "Kto był głównym budowniczym Centralnego Okręgu Przemysłowego w II RP?",
+    "answers": [
+      "Władysław Grabski",
+      "Roman Dmowski",
+      "Eugeniusz Kwiatkowski",
+      "Ignacy Mościcki"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Eugeniusz Kwiatkowski był też jednym z twórców portu w Gdyni."
+  },
+  {
+    "id": "hist_k022",
+    "question": "Kto przeprowadził w 1924 roku reformę walutową, wprowadzając złotego?",
+    "answers": [
+      "Eugeniusz Kwiatkowski",
+      "Władysław Grabski",
+      "Wincenty Witos",
+      "Ignacy Paderewski"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Reforma Grabskiego zastąpiła markę polską złotym i zatrzymała hiperinflację."
+  },
+  {
+    "id": "hist_k023",
+    "question": "Jak nazywał się akt z 1573 roku gwarantujący w Polsce pokój religijny?",
+    "answers": [
+      "Konfederacja warszawska",
+      "Unia brzeska",
+      "Pacta conventa",
+      "Artykuły henrykowskie"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Konfederacja warszawska zapewniała równość i tolerancję różnych wyznań chrześcijańskich."
+  },
+  {
+    "id": "hist_k024",
+    "question": "W jakim dokumencie zapisano zdanie „Day, ut ia pobrusa, a ti poziwai”, uznawane za pierwsze po polsku?",
+    "answers": [
+      "W Kronice Galla Anonima",
+      "W Bulli gnieźnieńskiej",
+      "W Psałterzu floriańskim",
+      "W Księdze henrykowskiej"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zdanie zapisano w Księdze henrykowskiej, kronice klasztoru cystersów w Henrykowie."
+  },
+  {
+    "id": "hist_k025",
+    "question": "Z jakiej krainy pochodził król Stefan Batory?",
+    "answers": [
+      "Ze Szwecji",
+      "Z Saksonii",
+      "Z Siedmiogrodu",
+      "Z Burgundii"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Przed elekcją Stefan Batory był księciem Siedmiogrodu, dziś części Rumunii."
+  },
+  {
+    "id": "hist_world_k001",
+    "question": "Kto w XV wieku wynalazł w Europie druk ruchomą czcionką?",
+    "answers": [
+      "Jan Gutenberg",
+      "Leonardo da Vinci",
+      "Galileusz",
+      "Marcin Luter"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gutenberg wydrukował w Moguncji słynną Biblię około 1455 roku."
+  },
+  {
+    "id": "hist_world_k002",
+    "question": "Które starożytne miasto zdobyto podstępem z drewnianym koniem?",
+    "answers": [
+      "Sparta",
+      "Kartagina",
+      "Ateny",
+      "Troja"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Według mitu Grecy ukryli wojowników w drewnianym koniu podarowanym Trojanom."
+  },
+  {
+    "id": "hist_world_k003",
+    "question": "Jak nazywał się pierwszy sztuczny satelita Ziemi, wystrzelony w 1957 roku?",
+    "answers": [
+      "Explorer 1",
+      "Wostok 1",
+      "Sputnik 1",
+      "Apollo 1"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Radziecki Sputnik 1 rozpoczął erę podboju kosmosu."
+  },
+  {
+    "id": "hist_world_k004",
+    "question": "Który kraj podarował Stanom Zjednoczonym Statuę Wolności?",
+    "answers": [
+      "Wielka Brytania",
+      "Francja",
+      "Hiszpania",
+      "Holandia"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Statua Wolności była prezentem od Francji na stulecie niepodległości USA."
+  },
+  {
+    "id": "hist_world_k005",
+    "question": "Kto jako pierwszy człowiek postawił stopę na Księżycu?",
+    "answers": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Jurij Gagarin"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Neil Armstrong wyszedł na powierzchnię Księżyca podczas misji Apollo 11."
+  },
+  {
+    "id": "hist_world_k006",
+    "question": "Która królowa Egiptu była związana z Juliuszem Cezarem i Markiem Antoniuszem?",
+    "answers": [
+      "Nefretete",
+      "Hatszepsut",
+      "Nefertari",
+      "Kleopatra"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kleopatra VII była ostatnią władczynią Egiptu z dynastii Ptolemeuszy."
+  },
+  {
+    "id": "hist_world_k007",
+    "question": "W którym roku wybuchła I wojna światowa?",
+    "answers": [
+      "1918",
+      "1905",
+      "1914",
+      "1912"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "I wojna światowa wybuchła latem 1914 roku i trwała do 1918 roku."
+  },
+  {
+    "id": "hist_world_k008",
+    "question": "Który angielski król miał sześć żon?",
+    "answers": [
+      "Ryszard Lwie Serce",
+      "Henryk VIII",
+      "Edward I",
+      "Jakub I"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Henryk VIII zerwał z Rzymem m.in. po to, by unieważnić pierwsze małżeństwo."
+  },
+  {
+    "id": "hist_world_k009",
+    "question": "Kto w 1517 roku ogłosił 95 tez, dając początek reformacji?",
+    "answers": [
+      "Marcin Luter",
+      "Jan Kalwin",
+      "Jan Hus",
+      "Erazm z Rotterdamu"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tezy Lutra krytykowały m.in. sprzedaż odpustów."
+  },
+  {
+    "id": "hist_world_k010",
+    "question": "Kto wynalazł dynamit, a potem ufundował słynne nagrody?",
+    "answers": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Louis Pasteur",
+      "Alfred Nobel"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Alfred Nobel przeznaczył majątek na nagrody przyznawane od 1901 roku."
+  },
+  {
+    "id": "hist_world_k011",
+    "question": "Która cywilizacja zbudowała miasto Chichén Itzá na Jukatanie?",
+    "answers": [
+      "Aztekowie",
+      "Inkowie",
+      "Majowie",
+      "Olmekowie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Chichén Itzá z piramidą Kukulkana to jeden z najsłynniejszych zabytków Majów."
+  },
+  {
+    "id": "hist_world_k012",
+    "question": "Kto w 1953 roku razem z Tenzingiem Norgayem jako pierwszy zdobył Mount Everest?",
+    "answers": [
+      "Reinhold Messner",
+      "Edmund Hillary",
+      "George Mallory",
+      "Jerzy Kukuczka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nowozelandczyk Edmund Hillary stanął na szczycie 29 maja 1953 roku."
+  },
+  {
+    "id": "hist_world_k013",
+    "question": "Kto jako pierwszy dotarł do bieguna południowego?",
+    "answers": [
+      "Roald Amundsen",
+      "Robert Scott",
+      "Ernest Shackleton",
+      "Robert Peary"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Norweg Roald Amundsen zdobył biegun w grudniu 1911 roku, o miesiąc przed Scottem."
+  },
+  {
+    "id": "hist_world_k014",
+    "question": "Który car z dynastii Romanowów abdykował w 1917 roku jako ostatni władca Rosji?",
+    "answers": [
+      "Aleksander III",
+      "Piotr I",
+      "Aleksander II",
+      "Mikołaj II"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Mikołaj II abdykował w 1917 roku, a rok później został zamordowany przez bolszewików."
+  },
+  {
+    "id": "hist_world_k015",
+    "question": "Kto razem z Karolem Marksem napisał „Manifest komunistyczny”?",
+    "answers": [
+      "Włodzimierz Lenin",
+      "Lew Trocki",
+      "Fryderyk Engels",
+      "Pierre-Joseph Proudhon"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Manifest komunistyczny” Marksa i Engelsa ukazał się w 1848 roku."
+  },
+  {
+    "id": "hist_world_k016",
+    "question": "Jak nazywa się wojna toczona w USA w latach 1861–1865?",
+    "answers": [
+      "Wojna o niepodległość",
+      "Wojna secesyjna",
+      "Wojna brytyjsko-amerykańska",
+      "Wojna meksykańska"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W wojnie secesyjnej Północ pokonała konfederację stanów Południa."
+  },
+  {
+    "id": "hist_world_k017",
+    "question": "W którym mieście w 1957 roku podpisano traktaty tworzące Europejską Wspólnotę Gospodarczą?",
+    "answers": [
+      "W Rzymie",
+      "W Paryżu",
+      "W Maastricht",
+      "W Brukseli"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Traktaty rzymskie podpisało sześć państw, w tym Francja, RFN i Włochy."
+  },
+  {
+    "id": "hist_world_k018",
+    "question": "Jak miał na imię pies, który w 1957 roku jako pierwsze zwierzę okrążył Ziemię?",
+    "answers": [
+      "Biełka",
+      "Strzałka",
+      "Zwiezdoczka",
+      "Łajka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Łajka poleciała na pokładzie Sputnika 2."
+  },
+  {
+    "id": "hist_world_k019",
+    "question": "Jak nazywała się pierwsza kobieta, która poleciała w kosmos?",
+    "answers": [
+      "Sally Ride",
+      "Swietłana Sawicka",
+      "Walentina Tierieszkowa",
+      "Mae Jemison"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Walentina Tierieszkowa poleciała w kosmos w 1963 roku na statku Wostok 6."
+  },
+  {
+    "id": "hist_world_k020",
+    "question": "Jak nazywała się operacja lądowania aliantów w Normandii w 1944 roku?",
+    "answers": [
+      "Barbarossa",
+      "Overlord",
+      "Market Garden",
+      "Torch"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Operacja Overlord rozpoczęła się 6 czerwca 1944 roku, w tzw. D-Day."
+  },
+  {
+    "id": "hist_world_k021",
+    "question": "Który sobór z XVI wieku stał się symbolem kontrreformacji?",
+    "answers": [
+      "Sobór trydencki",
+      "Sobór nicejski",
+      "Sobór watykański I",
+      "Sobór w Konstancji"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Sobór trydencki obradował z przerwami w latach 1545–1563."
+  },
+  {
+    "id": "hist_world_k022",
+    "question": "Kto był ojcem Aleksandra Wielkiego?",
+    "answers": [
+      "Dariusz III",
+      "Leonidas",
+      "Ptolemeusz I",
+      "Filip II Macedoński"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Filip II zjednoczył Grecję pod władzą Macedonii, a syn rozbudował jego państwo w imperium."
+  },
+  {
+    "id": "hist_world_k023",
+    "question": "W którym roku upadło Cesarstwo Zachodniorzymskie?",
+    "answers": [
+      "410",
+      "395",
+      "476",
+      "1453"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "W 476 roku Odoaker zdetronizował ostatniego cesarza, Romulusa Augustulusa."
+  },
+  {
+    "id": "hist_world_k024",
+    "question": "Jak nazywa się zbiór praw króla Babilonu, słynący z zasady „oko za oko”?",
+    "answers": [
+      "Prawo Drakona",
+      "Kodeks Hammurabiego",
+      "Ustawa XII tablic",
+      "Kodeks Justyniana"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kodeks Hammurabiego wyryto na kamiennej steli w XVIII wieku p.n.e."
+  },
+  {
+    "id": "hist_world_k025",
+    "question": "Jaki dokument musiał w 1215 roku przyjąć angielski król Jan bez Ziemi?",
+    "answers": [
+      "Wielka Karta Swobód",
+      "Bill of Rights",
+      "Habeas Corpus",
+      "Akt supremacji"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Magna Carta ograniczała władzę króla i jest uznawana za kamień milowy praw obywatelskich."
+  },
+  {
+    "id": "geo_k001",
+    "question": "Które miasto jest stolicą województwa podkarpackiego?",
+    "answers": [
+      "Przemyśl",
+      "Rzeszów",
+      "Krosno",
+      "Tarnów"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Rzeszów jest największym miastem i siedzibą władz Podkarpacia."
+  },
+  {
+    "id": "geo_k002",
+    "question": "Stolicą którego województwa jest Olsztyn?",
+    "answers": [
+      "Warmińsko-mazurskiego",
+      "Podlaskiego",
+      "Kujawsko-pomorskiego",
+      "Pomorskiego"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Olsztyn jest stolicą Warmii i województwa warmińsko-mazurskiego."
+  },
+  {
+    "id": "geo_k003",
+    "question": "W którym mieście urodził się Mikołaj Kopernik?",
+    "answers": [
+      "We Fromborku",
+      "W Krakowie",
+      "W Olsztynie",
+      "W Toruniu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kopernik urodził się w Toruniu w 1473 roku, a zmarł we Fromborku."
+  },
+  {
+    "id": "geo_k004",
+    "question": "Z jakich małych figurek rozsianych po ulicach słynie Wrocław?",
+    "answers": [
+      "Z koziołków",
+      "Z niedźwiadków",
+      "Z krasnali",
+      "Z aniołków"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "We Wrocławiu stoją setki brązowych krasnali, a ich liczba wciąż rośnie."
+  },
+  {
+    "id": "geo_k005",
+    "question": "Która kopalnia soli pod Krakowem trafiła na pierwszą listę UNESCO w 1978 roku?",
+    "answers": [
+      "Bochnia",
+      "Wieliczka",
+      "Kłodawa",
+      "Inowrocław"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kopalnia Soli „Wieliczka” była w gronie pierwszych dwunastu obiektów na liście UNESCO."
+  },
+  {
+    "id": "geo_k006",
+    "question": "Który park narodowy słynie z ruchomych wydm nad Bałtykiem?",
+    "answers": [
+      "Słowiński",
+      "Woliński",
+      "Kampinoski",
+      "Wigierski"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wydmy w Słowińskim Parku Narodowym przesuwają się nawet o kilka metrów rocznie."
+  },
+  {
+    "id": "geo_k007",
+    "question": "Jakie jest największe jezioro w Polsce?",
+    "answers": [
+      "Jeziorak",
+      "Hańcza",
+      "Gopło",
+      "Śniardwy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Śniardwy na Mazurach mają powierzchnię około 110 km²."
+  },
+  {
+    "id": "geo_k008",
+    "question": "W którym kurorcie stoi najdłuższe drewniane molo w Europie?",
+    "answers": [
+      "W Międzyzdrojach",
+      "W Kołobrzegu",
+      "W Sopocie",
+      "W Gdyni"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Molo w Sopocie ma ponad pół kilometra długości."
+  },
+  {
+    "id": "geo_k009",
+    "question": "Z jakich zwierząt trykających się na ratuszowej wieży słynie Poznań?",
+    "answers": [
+      "Z baranów",
+      "Z koziołków",
+      "Z jeleni",
+      "Z kogutów"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Koziołki wychodzą na wieżę poznańskiego ratusza codziennie w samo południe."
+  },
+  {
+    "id": "geo_k010",
+    "question": "Na który szczyt w Tatrach wjeżdża kolejka linowa z Kuźnic?",
+    "answers": [
+      "Kasprowy Wierch",
+      "Giewont",
+      "Rysy",
+      "Gubałówka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kolejka na Kasprowy Wierch działa od 1936 roku."
+  },
+  {
+    "id": "geo_k011",
+    "question": "Jak nazywa się piaszczysta „pustynia” w Polsce, leżąca koło Olkusza?",
+    "answers": [
+      "Pustynia Łeba",
+      "Pustynia Kozłowska",
+      "Pustynia Siedlecka",
+      "Pustynia Błędowska"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pustynia Błędowska to największy w Polsce obszar lotnych piasków w głębi lądu."
+  },
+  {
+    "id": "geo_k012",
+    "question": "Która rzeka jest najdłuższym dopływem Odry?",
+    "answers": [
+      "Nysa Łużycka",
+      "Bóbr",
+      "Warta",
+      "Noteć"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Warta przepływa m.in. przez Poznań i uchodzi do Odry w Kostrzynie."
+  },
+  {
+    "id": "geo_k013",
+    "question": "Które jezioro na Suwalszczyźnie jest najgłębszym jeziorem Polski?",
+    "answers": [
+      "Śniardwy",
+      "Hańcza",
+      "Wigry",
+      "Drawsko"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jezioro Hańcza ma ponad 100 metrów głębokości."
+  },
+  {
+    "id": "geo_k014",
+    "question": "Które miasto zaprojektowane przez Bernarda Morando nazywane jest „perłą renesansu”?",
+    "answers": [
+      "Zamość",
+      "Sandomierz",
+      "Kazimierz Dolny",
+      "Tarnów"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stare Miasto w Zamościu jest wpisane na listę UNESCO."
+  },
+  {
+    "id": "geo_k015",
+    "question": "Który park narodowy graniczy bezpośrednio z Warszawą?",
+    "answers": [
+      "Białowieski",
+      "Wigierski",
+      "Roztoczański",
+      "Kampinoski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Puszcza Kampinoska zaczyna się tuż za północno-zachodnimi granicami stolicy."
+  },
+  {
+    "id": "geo_k016",
+    "question": "Jak nazywa się najwyższy szczyt Gór Świętokrzyskich?",
+    "answers": [
+      "Łysa Góra",
+      "Ślęża",
+      "Łysica",
+      "Chełmiec"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Łysica w paśmie Łysogór jest najwyższym szczytem Gór Świętokrzyskich."
+  },
+  {
+    "id": "geo_k017",
+    "question": "Nad jakim akwenem leży Frombork, gdzie pracował Kopernik?",
+    "answers": [
+      "Nad Zatoką Pucką",
+      "Nad Zalewem Wiślanym",
+      "Nad Zalewem Szczecińskim",
+      "Nad jeziorem Jeziorak"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Frombork leży nad Zalewem Wiślanym, a Kopernik był tam kanonikiem."
+  },
+  {
+    "id": "geo_k018",
+    "question": "Na jakim szlaku leżą zamki w Ogrodzieńcu i Olsztynie pod Częstochową?",
+    "answers": [
+      "Szlak Orlich Gniazd",
+      "Szlak Piastowski",
+      "Szlak Bursztynowy",
+      "Szlak Cysterski"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szlak Orlich Gniazd prowadzi przez Jurę Krakowsko-Częstochowską."
+  },
+  {
+    "id": "geo_k019",
+    "question": "Jak nazywa się najwyższy wodospad w Polsce?",
+    "answers": [
+      "Wodogrzmoty Mickiewicza",
+      "Wodospad Kamieńczyka",
+      "Wodospad Szklarki",
+      "Wielka Siklawa"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wielka Siklawa spada z Doliny Pięciu Stawów do Doliny Roztoki."
+  },
+  {
+    "id": "geo_k020",
+    "question": "W którym mieście stoi wpisana na listę UNESCO Hala Stulecia?",
+    "answers": [
+      "W Katowicach",
+      "W Poznaniu",
+      "We Wrocławiu",
+      "W Łodzi"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Hala Stulecia z 1913 roku była pionierską konstrukcją z żelbetu."
+  },
+  {
+    "id": "geo_k021",
+    "question": "W którym mieście ma siedzibę wojewoda lubuski?",
+    "answers": [
+      "W Zielonej Górze",
+      "W Gorzowie Wielkopolskim",
+      "W Słubicach",
+      "W Żarach"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Województwo lubuskie ma dwie stolice: wojewoda urzęduje w Gorzowie, a sejmik w Zielonej Górze."
+  },
+  {
+    "id": "geo_k022",
+    "question": "W których miastach stoją drewniane Kościoły Pokoju z listy UNESCO?",
+    "answers": [
+      "W Świdnicy i Jaworze",
+      "W Legnicy i Wałbrzychu",
+      "W Kłodzku i Nysie",
+      "W Głogowie i Bolesławcu"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kościoły Pokoju zbudowano po wojnie trzydziestoletniej bez użycia kamienia i cegły."
+  },
+  {
+    "id": "geo_k023",
+    "question": "Który kanał łączy dorzecze Wisły z dorzeczem Odry przez Brdę i Noteć?",
+    "answers": [
+      "Kanał Elbląski",
+      "Kanał Augustowski",
+      "Kanał Gliwicki",
+      "Kanał Bydgoski"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kanał Bydgoski otwarto w 1774 roku, za czasów pruskich."
+  },
+  {
+    "id": "geo_k024",
+    "question": "Który szczyt, słynący z labiryntu skalnych szczelin, jest najwyższy w Górach Stołowych?",
+    "answers": [
+      "Śnieżnik",
+      "Ślęża",
+      "Szczeliniec Wielki",
+      "Błędne Skały"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Szczeliniec Wielki ma 919 m n.p.m. i jest popularnym celem wycieczek z Karłowa."
+  },
+  {
+    "id": "geo_k025",
+    "question": "Które z tych miast wojewódzkich leży najdalej na północ?",
+    "answers": [
+      "Szczecin",
+      "Gdańsk",
+      "Olsztyn",
+      "Białystok"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Gdańsk leży nad Zatoką Gdańską, wyraźnie na północ od Szczecina i Olsztyna."
+  },
+  {
+    "id": "geo_world_k001",
+    "question": "W którym kraju znajduje się kamienny krąg Stonehenge?",
+    "answers": [
+      "W Irlandii",
+      "We Francji",
+      "W Norwegii",
+      "W Wielkiej Brytanii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Stonehenge stoi na równinie Salisbury w południowej Anglii."
+  },
+  {
+    "id": "geo_world_k002",
+    "question": "W którym mieście stoi słynna Krzywa Wieża?",
+    "answers": [
+      "We Florencji",
+      "W Wenecji",
+      "W Pizie",
+      "W Bolonii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Krzywa Wieża w Pizie to dzwonnica katedry, która przechyliła się już w czasie budowy."
+  },
+  {
+    "id": "geo_world_k003",
+    "question": "W którym kraju znajduje się mauzoleum Tadż Mahal?",
+    "answers": [
+      "W Pakistanie",
+      "W Indiach",
+      "W Iranie",
+      "W Turcji"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tadż Mahal w Agrze zbudowano jako grobowiec żony szacha Dżahana."
+  },
+  {
+    "id": "geo_world_k004",
+    "question": "W którym mieście stoi bazylika Sagrada Família?",
+    "answers": [
+      "W Barcelonie",
+      "W Madrycie",
+      "W Sewilli",
+      "W Walencji"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Sagrada Família Antoniego Gaudíego jest budowana od 1882 roku."
+  },
+  {
+    "id": "geo_world_k005",
+    "question": "Jak nazywa się cieśnina oddzielająca Europę od Afryki?",
+    "answers": [
+      "Bosfor",
+      "Kaletańska",
+      "Mesyńska",
+      "Gibraltarska"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Cieśnina Gibraltarska ma w najwęższym miejscu około 14 km."
+  },
+  {
+    "id": "geo_world_k006",
+    "question": "Jak nazywa się najwyższy szczyt Alp?",
+    "answers": [
+      "Matterhorn",
+      "Zugspitze",
+      "Mont Blanc",
+      "Grossglockner"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mont Blanc leży na granicy Francji i Włoch."
+  },
+  {
+    "id": "geo_world_k007",
+    "question": "Który kontynent jest najmniejszy?",
+    "answers": [
+      "Europa",
+      "Australia",
+      "Antarktyda",
+      "Ameryka Południowa"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Australia to najmniejszy kontynent świata."
+  },
+  {
+    "id": "geo_world_k008",
+    "question": "W którym kraju leży kraina Transylwania, ojczyzna legendy o Drakuli?",
+    "answers": [
+      "W Rumunii",
+      "Na Węgrzech",
+      "W Bułgarii",
+      "W Serbii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Transylwania to historyczna kraina w środkowej Rumunii."
+  },
+  {
+    "id": "geo_world_k009",
+    "question": "Jaka jest stolica Turcji?",
+    "answers": [
+      "Stambuł",
+      "Izmir",
+      "Antalya",
+      "Ankara"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Stolicą Turcji od 1923 roku jest Ankara, a nie większy Stambuł."
+  },
+  {
+    "id": "geo_world_k010",
+    "question": "W którym mieście na wzgórzu Corcovado stoi posąg Chrystusa Odkupiciela?",
+    "answers": [
+      "W São Paulo",
+      "W Buenos Aires",
+      "W Rio de Janeiro",
+      "W Limie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Posąg Chrystusa Odkupiciela góruje nad Rio de Janeiro od 1931 roku."
+  },
+  {
+    "id": "geo_world_k011",
+    "question": "W którym kraju leży wykute w skale miasto Petra?",
+    "answers": [
+      "W Egipcie",
+      "W Jordanii",
+      "W Syrii",
+      "W Arabii Saudyjskiej"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Petrę wykuli w skale Nabatejczycy, a dziś to symbol Jordanii."
+  },
+  {
+    "id": "geo_world_k012",
+    "question": "Które państwo ma najdłuższą linię brzegową na świecie?",
+    "answers": [
+      "Kanada",
+      "Rosja",
+      "Australia",
+      "Norwegia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wybrzeże Kanady, z licznymi wyspami, ma ponad 200 tysięcy km."
+  },
+  {
+    "id": "geo_world_k013",
+    "question": "Jaka jest stolica Nowej Zelandii?",
+    "answers": [
+      "Auckland",
+      "Christchurch",
+      "Queenstown",
+      "Wellington"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wellington leży na południowym krańcu Wyspy Północnej."
+  },
+  {
+    "id": "geo_world_k014",
+    "question": "W którym kraju znajduje się kompleks świątynny Angkor Wat?",
+    "answers": [
+      "W Tajlandii",
+      "W Wietnamie",
+      "W Kambodży",
+      "W Laosie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Angkor Wat widnieje nawet na fladze Kambodży."
+  },
+  {
+    "id": "geo_world_k015",
+    "question": "Jaka jest stolica Maroka?",
+    "answers": [
+      "Casablanca",
+      "Rabat",
+      "Marrakesz",
+      "Fez"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Choć Casablanca jest większa, stolicą Maroka jest Rabat."
+  },
+  {
+    "id": "geo_world_k016",
+    "question": "Jak nazywa się cieśnina oddzielająca Azję od Ameryki Północnej?",
+    "answers": [
+      "Beringa",
+      "Magellana",
+      "Drake'a",
+      "Hudsona"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Cieśnina Beringa oddziela rosyjską Czukotkę od Alaski."
+  },
+  {
+    "id": "geo_world_k017",
+    "question": "Jak nazywa się słynne wysokogórskie jezioro na granicy Peru i Boliwii?",
+    "answers": [
+      "Bajkał",
+      "Wiktorii",
+      "Tanganika",
+      "Titicaca"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Titicaca leży na wysokości ponad 3800 m n.p.m."
+  },
+  {
+    "id": "geo_world_k018",
+    "question": "Do którego państwa należy Wyspa Wielkanocna z posągami moai?",
+    "answers": [
+      "Do Peru",
+      "Do Nowej Zelandii",
+      "Do Chile",
+      "Do Francji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wyspa Wielkanocna leży na Pacyfiku i należy do Chile."
+  },
+  {
+    "id": "geo_world_k019",
+    "question": "Która rzeka niesie do oceanu najwięcej wody na świecie?",
+    "answers": [
+      "Nil",
+      "Amazonka",
+      "Jangcy",
+      "Missisipi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Amazonka odprowadza więcej wody niż kilka kolejnych największych rzek razem wziętych."
+  },
+  {
+    "id": "geo_world_k020",
+    "question": "Które miasto, zbudowane od podstaw w latach 50. XX wieku, jest stolicą Brazylii?",
+    "answers": [
+      "Brasília",
+      "Rio de Janeiro",
+      "São Paulo",
+      "Salvador"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Brasília została ogłoszona stolicą w 1960 roku, zastępując Rio de Janeiro."
+  },
+  {
+    "id": "geo_world_k021",
+    "question": "W którym kraju leży legendarne miasto Timbuktu?",
+    "answers": [
+      "W Maroku",
+      "W Egipcie",
+      "W Sudanie",
+      "W Mali"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Timbuktu na skraju Sahary było średniowiecznym centrum handlu i nauki."
+  },
+  {
+    "id": "geo_world_k022",
+    "question": "Jaka jest stolica Mongolii?",
+    "answers": [
+      "Ałmaty",
+      "Taszkent",
+      "Ułan Bator",
+      "Biszkek"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ułan Bator uchodzi za najzimniejszą stolicę świata."
+  },
+  {
+    "id": "geo_world_k023",
+    "question": "Przez które z tych państw przebiega równik?",
+    "answers": [
+      "Nigeria",
+      "Kenia",
+      "Etiopia",
+      "Tanzania"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Równik przecina środkową Kenię, a Tanzania leży już w całości na południe od niego."
+  },
+  {
+    "id": "geo_world_k024",
+    "question": "Jak nazywa się najdłuższa rzeka Azji?",
+    "answers": [
+      "Jangcy",
+      "Mekong",
+      "Huang He",
+      "Ob"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Jangcy w Chinach ma ponad 6300 km długości."
+  },
+  {
+    "id": "geo_world_k025",
+    "question": "Które państwo leży w Pirenejach między Hiszpanią a Francją?",
+    "answers": [
+      "Monako",
+      "Liechtenstein",
+      "San Marino",
+      "Andora"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Andora to małe księstwo, którego współksięciem jest m.in. prezydent Francji."
+  }
+]
