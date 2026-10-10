@@ -10,8 +10,8 @@
   {
     "id": "sci_002",
     "question": "Która planeta jest najbliżej Słońca?",
-    "answers": ["Wenus", "Mars", "Merkury", "Ziemia"],
-    "correct": 2,
+    "answers": ["Merkury", "Ziemia", "Mars", "Wenus"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "Merkury jest planetą najbliższą Słońcu w Układzie Słonecznym."
   },
@@ -25,41 +25,41 @@
   },
   {
     "id": "sci_004",
-    "question": "Co to jest fotosynteza?",
-    "answers": ["Proces oddychania roślin", "Proces zamiany światła w energię", "Proces wzrostu roślin", "Proces rozmnażania"],
+    "question": "Na czym polega fotosynteza?",
+    "answers": ["Na oddychaniu komórkowym roślin", "Na zamianie energii światła w energię chemiczną", "Na pobieraniu wody przez korzenie", "Na rozmnażaniu się roślin"],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne w energię chemiczną."
+    "explanation": "W fotosyntezie rośliny wykorzystują energię światła do wytworzenia glukozy z dwutlenku węgla i wody, uwalniając tlen."
   },
   {
     "id": "sci_005",
     "question": "Jaki jest symbol chemiczny złota?",
-    "answers": ["Go", "Gd", "Au", "Ag"],
-    "correct": 2,
+    "answers": ["Go", "Gd", "Ag", "Au"],
+    "correct": 3,
     "difficulty": "medium",
     "explanation": "Symbol chemiczny złota to Au, od łacińskiej nazwy aurum."
   },
   {
     "id": "sci_006",
-    "question": "Ile wynosi prędkość światła w próżni?",
-    "answers": ["300 000 km/s", "150 000 km/s", "450 000 km/s", "600 000 km/s"],
-    "correct": 0,
+    "question": "Ile w przybliżeniu wynosi prędkość światła w próżni?",
+    "answers": ["450 000 km/s", "600 000 km/s", "300 000 km/s", "150 000 km/s"],
+    "correct": 2,
     "difficulty": "medium",
     "explanation": "Prędkość światła w próżni wynosi około 300 000 km/s."
   },
   {
     "id": "sci_007",
     "question": "Która substancja ma wzór chemiczny H2O?",
-    "answers": ["Wodór", "Woda", "Alkohol", "Amoniak"],
-    "correct": 1,
+    "answers": ["Woda", "Amoniak", "Alkohol", "Wodór"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "H2O to wzór chemiczny wody - składa się z dwóch atomów wodoru i jednego tlenu."
   },
   {
     "id": "sci_008",
     "question": "Co to jest DNA?",
-    "answers": ["Kwas deoksyrybonukleinowy", "Kwas rybonukleinowy", "Białko", "Enzym"],
-    "correct": 0,
+    "answers": ["Enzym", "Białko", "Kwas rybonukleinowy", "Kwas deoksyrybonukleinowy"],
+    "correct": 3,
     "difficulty": "medium",
     "explanation": "DNA to kwas deoksyrybonukleinowy, nośnik informacji genetycznej."
   },
@@ -74,8 +74,8 @@
   {
     "id": "sci_010",
     "question": "Co bada ekologia?",
-    "answers": ["Skały", "Związki między organizmami a środowiskiem", "Gwiazdy", "Komórki"],
-    "correct": 1,
+    "answers": ["Komórki", "Gwiazdy", "Związki między organizmami a środowiskiem", "Skały"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Ekologia bada relacje między organizmami a ich środowiskiem."
   },
@@ -89,11 +89,11 @@
   },
   {
     "id": "sci_012",
-    "question": "Jak nazywa się najjaśniejsza gwiazda na niebie?",
-    "answers": ["Polaris", "Syriusz", "Słońce", "Wega"],
-    "correct": 1,
+    "question": "Jak nazywa się najjaśniejsza gwiazda nocnego nieba?",
+    "answers": ["Wega", "Gwiazda Polarna", "Syriusz", "Kanopus"],
+    "correct": 2,
     "difficulty": "medium",
-    "explanation": "Syriusz jest najjaśniejszą gwiazdą na nocnym niebie."
+    "explanation": "Syriusz w gwiazdozbiorze Wielkiego Psa jest najjaśniejszą gwiazdą nocnego nieba (Słońca nie liczymy)."
   },
   {
     "id": "sci_013",
@@ -101,106 +101,106 @@
     "answers": ["Odległość od Słońca", "Nachylenie osi Ziemi", "Prędkość obrotowa", "Aktywność słoneczna"],
     "correct": 1,
     "difficulty": "hard",
-    "explanation": "Pory roku powoduje nachylenie osi Ziemi o 23,5°."
+    "explanation": "Pory roku powoduje nachylenie osi obrotu Ziemi (ok. 23,4°) względem płaszczyzny orbity, a nie zmiana odległości od Słońca."
   },
   {
     "id": "sci_014",
-    "question": "Która grupa krwi jest dawcą uniwersalnym?",
-    "answers": ["A", "B", "AB", "0"],
+    "question": "Która grupa krwi (w układzie AB0) to tzw. uniwersalny dawca?",
+    "answers": ["AB", "B", "A", "0"],
     "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Grupa krwi 0 Rh- to dawca uniwersalny."
+    "difficulty": "medium",
+    "explanation": "Uniwersalnym dawcą krwinek czerwonych jest grupa 0 (najlepiej 0 Rh-), bo jej krwinki nie mają antygenów A ani B."
   },
   {
     "id": "sci_015",
     "question": "Jak nazywa się największy organ w ludzkim ciele?",
-    "answers": ["Wątroba", "Płuca", "Skóra", "Serce"],
-    "correct": 2,
+    "answers": ["Skóra", "Wątroba", "Serce", "Płuca"],
+    "correct": 0,
     "difficulty": "medium",
     "explanation": "Skóra jest największym organem człowieka."
   },
   {
-    "id": "geo_001",
-    "question": "Która rzeka jest najdłuższa na świecie?",
-    "answers": ["Amazon", "Nil", "Jangcy", "Missisipi"],
+    "id": "geo_world_001",
+    "question": "Która rzeka jest tradycyjnie uznawana za najdłuższą na świecie?",
+    "answers": ["Missisipi", "Nil", "Jangcy", "Kongo"],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Nil o długości około 6650 km jest najdłuższą rzeką na świecie."
+    "explanation": "Nil (ok. 6650 km) jest tradycyjnie uznawany za najdłuższą rzekę świata; niektóre pomiary dają pierwszeństwo Amazonce."
   },
   {
-    "id": "geo_002",
+    "id": "geo_world_002",
     "question": "Który ocean jest największy?",
-    "answers": ["Atlantycki", "Indyjski", "Spokojny", "Arktyczny"],
+    "answers": ["Atlantycki", "Arktyczny", "Spokojny", "Indyjski"],
     "correct": 2,
     "difficulty": "easy",
     "explanation": "Ocean Spokojny jest największym oceanem na Ziemi."
   },
   {
-    "id": "geo_003",
-    "question": "Która stolica leży najwyżej nad poziomem morza?",
-    "answers": ["Quito", "La Paz", "Bogota", "Addis Abeba"],
-    "correct": 1,
-    "difficulty": "hard",
-    "explanation": "La Paz w Boliwii leży na wysokości około 3500 metrów nad poziomem morza."
-  },
-  {
-    "id": "geo_004",
-    "question": "Które państwo ma najwięcej stref czasowych?",
-    "answers": ["Rosja", "USA", "Chiny", "Francja"],
+    "id": "geo_world_003",
+    "question": "Która stolica (siedziba rządu) leży najwyżej nad poziomem morza?",
+    "answers": ["Addis Abeba", "Quito", "Bogota", "La Paz"],
     "correct": 3,
     "difficulty": "hard",
-    "explanation": "Francja ma 12 stref czasowych ze względu na swoje terytoria zamorskie."
+    "explanation": "La Paz, siedziba rządu Boliwii, leży na wysokości ok. 3600 m n.p.m. (konstytucyjną stolicą Boliwii jest Sucre)."
   },
   {
-    "id": "geo_005",
+    "id": "geo_world_004",
+    "question": "Które państwo ma najwięcej stref czasowych?",
+    "answers": ["Francja", "Rosja", "Chiny", "USA"],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Francja ma 12 stref czasowych (13 z terytorium w Antarktydzie) dzięki terytoriom zamorskim; Rosja i USA mają po 11."
+  },
+  {
+    "id": "geo_world_005",
     "question": "Jaka jest stolica Australii?",
-    "answers": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "correct": 2,
+    "answers": ["Canberra", "Sydney", "Perth", "Melbourne"],
+    "correct": 0,
     "difficulty": "medium",
     "explanation": "Canberra jest stolicą Australii."
   },
   {
-    "id": "geo_006",
+    "id": "geo_world_006",
     "question": "Na którym kontynencie leży Egipt?",
-    "answers": ["Azja", "Afryka", "Europa", "Ameryka Południowa"],
+    "answers": ["Azja", "Afryka", "Ameryka Południowa", "Europa"],
     "correct": 1,
     "difficulty": "easy",
     "explanation": "Egipt leży w północno-wschodniej części Afryki."
   },
   {
-    "id": "geo_007",
-    "question": "Która pustynia jest największa na świecie?",
-    "answers": ["Sahara", "Gobi", "Atacama", "Antarktyda"],
-    "correct": 3,
-    "difficulty": "hard",
-    "explanation": "Antarktyda jest technicznie największą pustynią na świecie (pustynia lodowa)."
-  },
-  {
-    "id": "geo_008",
-    "question": "Które jezioro jest najgłębsze na świecie?",
-    "answers": ["Jezioro Bajkał", "Wielkie Jeziora", "Jezioro Tanganika", "Jezioro Wiktorii"],
-    "correct": 0,
-    "difficulty": "medium",
-    "explanation": "Jezioro Bajkał w Rosji jest najgłębsze na świecie - do 1642 m głębokości."
-  },
-  {
-    "id": "geo_009",
-    "question": "Jaka jest stolica Kanady?",
-    "answers": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "id": "geo_world_007",
+    "question": "Która pustynia jest największa na świecie (wg definicji klimatycznej – małe opady)?",
+    "answers": ["Gobi", "Sahara", "Antarktyda", "Atacama"],
     "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pustynia to obszar o bardzo małych opadach, nie musi być gorąca – Antarktyda (ok. 14 mln km²) jest największą pustynią świata, Sahara największą gorącą."
+  },
+  {
+    "id": "geo_world_008",
+    "question": "Które jezioro jest najgłębsze na świecie?",
+    "answers": ["Jezioro Tanganika", "Jezioro Górne", "Jezioro Wiktorii", "Jezioro Bajkał"],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bajkał na Syberii jest najgłębszym jeziorem świata – ma do ok. 1642 m głębokości."
+  },
+  {
+    "id": "geo_world_009",
+    "question": "Jaka jest stolica Kanady?",
+    "answers": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+    "correct": 1,
     "difficulty": "medium",
     "explanation": "Ottawa jest stolicą Kanady."
   },
   {
-    "id": "geo_010",
+    "id": "geo_world_010",
     "question": "Który kraj ma kształt buta?",
-    "answers": ["Hiszpania", "Włochy", "Grecja", "Portugalia"],
-    "correct": 1,
+    "answers": ["Włochy", "Portugalia", "Hiszpania", "Grecja"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "Włochy mają charakterystyczny kształt przypominający but."
   },
   {
-    "id": "hist_001",
+    "id": "hist_world_001",
     "question": "W którym roku upadł Mur Berliński?",
     "answers": ["1987", "1989", "1990", "1991"],
     "correct": 1,
@@ -208,15 +208,15 @@
     "explanation": "Mur Berliński upadł 9 listopada 1989 roku."
   },
   {
-    "id": "hist_002",
+    "id": "hist_world_002",
     "question": "Kto był pierwszym człowiekiem w kosmosie?",
-    "answers": ["Neil Armstrong", "Jurij Gagarin", "John Glenn", "Alan Shepard"],
-    "correct": 1,
+    "answers": ["Alan Shepard", "Neil Armstrong", "Jurij Gagarin", "John Glenn"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Jurij Gagarin jako pierwszy człowiek poleciał w kosmos 12 kwietnia 1961 roku."
   },
   {
-    "id": "hist_003",
+    "id": "hist_world_003",
     "question": "W którym roku zakończyła się II wojna światowa?",
     "answers": ["1944", "1945", "1946", "1947"],
     "correct": 1,
@@ -224,16 +224,16 @@
     "explanation": "II wojna światowa zakończyła się w 1945 roku."
   },
   {
-    "id": "hist_004",
-    "question": "Kto był prezydentem USA podczas II wojny światowej?",
-    "answers": ["Harry Truman", "Franklin D. Roosevelt", "Dwight Eisenhower", "John F. Kennedy"],
-    "correct": 1,
+    "id": "hist_world_004",
+    "question": "Kto był prezydentem USA w chwili japońskiego ataku na Pearl Harbor (1941)?",
+    "answers": ["John F. Kennedy", "Dwight Eisenhower", "Harry Truman", "Franklin D. Roosevelt"],
+    "correct": 3,
     "difficulty": "medium",
-    "explanation": "Franklin D. Roosevelt był prezydentem USA przez większość II wojny światowej."
+    "explanation": "W grudniu 1941 r. prezydentem USA był Franklin D. Roosevelt; zmarł w kwietniu 1945 r., a wojnę kończył Harry Truman."
   },
   {
-    "id": "hist_005",
-    "question": "W którym roku nastąpiło lądowanie na Księżycu?",
+    "id": "hist_world_005",
+    "question": "W którym roku po raz pierwszy wylądował człowiek na Księżycu?",
     "answers": ["1968", "1969", "1970", "1971"],
     "correct": 1,
     "difficulty": "easy",
@@ -242,29 +242,29 @@
   {
     "id": "sport_001",
     "question": "W którym mieście odbyły się Letnie Igrzyska Olimpijskie w 2020 roku?",
-    "answers": ["Tokio", "Rio de Janeiro", "Londyn", "Pekin"],
-    "correct": 0,
+    "answers": ["Rio de Janeiro", "Londyn", "Pekin", "Tokio"],
+    "correct": 3,
     "difficulty": "easy",
     "explanation": "Igrzyska Olimpijskie 2020 odbyły się w Tokio w 2021 roku z powodu pandemii COVID-19."
   },
   {
     "id": "sport_002",
-    "question": "Ile graczy gra w drużynie piłkarskiej na boisku?",
-    "answers": ["10", "11", "12", "9"],
-    "correct": 1,
+    "question": "Ilu zawodników jednej drużyny gra jednocześnie na boisku w piłce nożnej?",
+    "answers": ["9", "10", "11", "12"],
+    "correct": 2,
     "difficulty": "easy",
-    "explanation": "W piłce nożnej na boisku gra 11 zawodników z każdej drużyny."
+    "explanation": "W piłce nożnej każda drużyna ma na boisku 11 zawodników (w tym bramkarza)."
   },
   {
     "id": "sport_003",
-    "question": "Kto wygrał najwięcej turniejów tenisa ziemnego Roland Garros?",
-    "answers": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Bjorn Borg"],
-    "correct": 1,
+    "question": "Kto wygrał najwięcej turniejów Roland Garros w grze pojedynczej mężczyzn?",
+    "answers": ["Roger Federer", "Novak Djokovic", "Rafael Nadal", "Bjorn Borg"],
+    "correct": 2,
     "difficulty": "medium",
-    "explanation": "Rafael Nadal wygrał Roland Garros rekordowe 14 razy."
+    "explanation": "Rafael Nadal wygrał Roland Garros rekordowe 14 razy (2005–2022)."
   },
   {
-    "id": "ent_001",
+    "id": "art_001",
     "question": "Kto namalował 'Gwiaździstą noc'?",
     "answers": ["Pablo Picasso", "Vincent van Gogh", "Claude Monet", "Leonardo da Vinci"],
     "correct": 1,
@@ -272,7 +272,7 @@
     "explanation": "'Gwiaździsta noc' to słynny obraz Vincenta van Gogha z 1889 roku."
   },
   {
-    "id": "ent_002",
+    "id": "mus_011",
     "question": "Ilu muzyków gra w kwartecie?",
     "answers": ["3", "4", "5", "6"],
     "correct": 1,
@@ -280,15 +280,15 @@
     "explanation": "W kwartecie gra czterech muzyków."
   },
   {
-    "id": "ent_003",
+    "id": "film_001",
     "question": "Kto wyreżyserował film 'Titanic'?",
-    "answers": ["Steven Spielberg", "James Cameron", "Martin Scorsese", "Christopher Nolan"],
-    "correct": 1,
+    "answers": ["James Cameron", "Steven Spielberg", "Christopher Nolan", "Martin Scorsese"],
+    "correct": 0,
     "difficulty": "medium",
     "explanation": "'Titanic' został wyreżyserowany przez Jamesa Camerona w 1997 roku."
   },
   {
-    "id": "math_001",
+    "id": "sci_016",
     "question": "Ile wynosi pierwiastek kwadratowy z 144?",
     "answers": ["12", "14", "16", "18"],
     "correct": 0,
@@ -296,7 +296,7 @@
     "explanation": "Pierwiastek kwadratowy z 144 wynosi 12, ponieważ 12 × 12 = 144."
   },
   {
-    "id": "math_002",
+    "id": "sci_017",
     "question": "Ile wynosi 2³ (2 do potęgi trzeciej)?",
     "answers": ["6", "8", "9", "12"],
     "correct": 1,
@@ -304,7 +304,7 @@
     "explanation": "2³ = 2 × 2 × 2 = 8"
   },
   {
-    "id": "math_003",
+    "id": "sci_018",
     "question": "Ile stopni ma kąt prosty?",
     "answers": ["45°", "90°", "180°", "360°"],
     "correct": 1,
@@ -314,7 +314,7 @@
   {
     "id": "tech_001",
     "question": "Kto jest twórcą systemu operacyjnego Linux?",
-    "answers": ["Bill Gates", "Linus Torvalds", "Steve Jobs", "Mark Zuckerberg"],
+    "answers": ["Steve Jobs", "Linus Torvalds", "Mark Zuckerberg", "Bill Gates"],
     "correct": 1,
     "difficulty": "medium",
     "explanation": "Linus Torvalds stworzył jądro Linux w 1991 roku."
@@ -322,8 +322,8 @@
   {
     "id": "tech_002",
     "question": "Co oznacza skrót 'WWW'?",
-    "answers": ["World Wide Web", "World Web Working", "Wide World Web", "Web World Wide"],
-    "correct": 0,
+    "answers": ["Web World Wide", "Wide World Web", "World Web Working", "World Wide Web"],
+    "correct": 3,
     "difficulty": "easy",
     "explanation": "WWW to skrót od World Wide Web - system dokumentów hipertekstowych."
   },
