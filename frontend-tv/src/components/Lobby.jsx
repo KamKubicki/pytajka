@@ -50,6 +50,10 @@ function HostOptions({ settings, onChange }) {
         <span className="host-option-label">Głos</span>
         <Seg label="Głos prowadzącego" disabled={off} options={[[true, 'Wł.'], [false, 'Wył.']]} value={settings.voice} onChange={v => onChange({ voice: v })} />
       </div>
+      <div className={`host-option ${off ? 'is-disabled' : ''}`}>
+        <span className="host-option-label">Humor</span>
+        <Seg label="Humor prowadzącego" disabled={off} options={[['polite', 'Grzeczny'], ['cheeky', 'Z jajem'], ['rude', 'Chamski 🌶️']]} value={settings.humor} onChange={v => onChange({ humor: v })} />
+      </div>
     </div>
   );
 }

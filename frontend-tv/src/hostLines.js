@@ -7,10 +7,17 @@
  *  - docinki lekkie, bez wulgaryzmów, bez żartów o wyglądzie, płci czy pochodzeniu.
  *
  * Zmienne: {name} {prev} {n} {round} {category} {time} {hits} {total}
- *          {leader} {last} {winner} {second} {third}
+ *          {leader} {last} {winner} {second} {third} {target}
+ * Sabotaże: {name} = atakujący, {target} = ofiara.
  */
 
+import { CHEEKY_LINES, RUDE_LINES } from './hostLinesExtra.js';
+
 export const HOST_NAME = 'Prof. Pytajek';
+
+// Poziomy humoru: 'polite' = tylko LINES, 'cheeky' = + CHEEKY_LINES, 'rude' = + RUDE_LINES
+export const HUMOR_LEVELS = ['polite', 'cheeky', 'rude'];
+const RUDE_SHARE = 0.55; // w trybie chamskim tyle losowań idzie w chamskie linijki (gdy pula je ma)
 
 export const LINES = {
   // ---------------------------------------------------------------- lobby
@@ -336,6 +343,85 @@ export const LINES = {
     'Drugie miejsce: {second}, trzecie: {third}. Do mety zabrakło tak niewiele!'
   ],
 
+  // ---------------------------------------------------------------- sabotaże
+  // {name} = atakujący, {target} = ofiara
+  sabAttack: [
+    'Uwaga, sabotaż! {name} celuje w: {target}. Fair play właśnie wyszło z budynku.',
+    '{name} kontra {target}! Tak się buduje przyjaźnie. Albo je kończy.',
+    'Ojoj! {name} wyciąga kartę i patrzy prosto na: {target}.',
+    '{target}, nie odwracaj się teraz. {name} ma coś dla Ciebie.',
+    'Sabotaż w studiu! {name} twierdzi, że to z sympatii do: {target}.',
+    'Proszę państwa, {name} gra nieczysto. I robi to z wdziękiem!',
+    'Karta poszła w ruch! {target} właśnie dostaje prezent od: {name}. Bez kokardki.'
+  ],
+  sabType_fog: [
+    'Mgła! {target} zobaczy pytanie jak przez szybę w łazience.',
+    '{name} zamawia mgłę dla: {target}. Polecam przetrzeć ekran rękawem.',
+    'Nad telefonem gracza {target} zbiera się mgła. Prognoza: widoczność kiepska, pretensje duże.',
+    'Mgiełka od: {name}. {target}, tylko nie zgub się we własnym telefonie!'
+  ],
+  sabType_bubbles: [
+    'Bąbelki! {target} najpierw robi pianę, potem odpowiada.',
+    '{name} wysyła bąbelki do: {target}. Pyk, pyk, pyk – jak folia bąbelkowa w Wigilię.',
+    '{target}, przebijaj bąbelki! Odpowiedzi czekają pod spodem. Cierpliwie. W przeciwieństwie do zegara.',
+    'Kąpiel w bąbelkach dla: {target}. Ufundowano przez: {name}.'
+  ],
+  sabType_math: [
+    'Szybka matma! {target} najpierw liczy, potem myśli. Albo odwrotnie.',
+    '{name} zadaje pracę domową graczowi {target}. Tabliczka mnożenia na start!',
+    '{target}, ile to siedem razy osiem? Pytam w imieniu: {name}.',
+    'Kalkulator schowany? Szkoda. {target} liczy na palcach, a zegar tyka.'
+  ],
+  sabType_mash: [
+    'Klikacz! {target} musi teraz stukać jak dzięcioł na kofeinie.',
+    '{name} zamawia trening kciuka dla: {target}. Klik, klik, klik!',
+    '{target}, klikaj, jakby od tego zależało życie! Bo zależą od tego punkty.',
+    'Siłownia dla palca w wykonaniu: {target}. Trener personalny: {name}.'
+  ],
+  sabType_sequence: [
+    'Kolejność! {target} musi poukładać cyferki. Jeden, dwa, trzy… a może trzy, dwa, jeden?',
+    '{name} sprawdza, czy {target} umie liczyć po kolei. Bez pośpiechu. Żartuję, z pośpiechem!',
+    'Zadanie dla gracza {target}: kliknąć po kolei. Proste? To samo mówiłem o składaniu mebli.',
+    '{target} układa liczby, a {name} układa plan zwycięstwa. Podstępnie.'
+  ],
+  sabType_catch: [
+    'Uciekinier! {target} goni przycisk jak kota po mieszkaniu.',
+    '{name} wypuszcza uciekiniera na telefon gracza {target}. Łap go!',
+    '{target}, przycisk ucieka! Zachodź go od lewej, on się tego nie spodziewa.',
+    'Berek na ekranie! Gra {target}, a uciekiniera tresuje {name}.'
+  ],
+  sabRevenge: [
+    'Zemsta! {name} oddaje cios graczowi {target}. Kto sieje wiatr, ten zbiera mgłę.',
+    'O, rewanż! {target} zaczyna, {name} kończy. Albo dopiero zaczyna.',
+    '{name} pamięta! {target} chyba liczy, że nikt nie zauważy. Wszystko widzę!',
+    'Wendeta w studiu! {name} kontra {target}, runda rewanżowa.',
+    'Karma przyszła szybciej niż kurier. {target}, to od: {name}.',
+    'Oko za oko, karta za kartę! {name} wyrównuje rachunki z: {target}.'
+  ],
+  sabPiling: [
+    '{target} znowu na celowniku! To już {n}. atak. Ktoś tu ma wielu fanów.',
+    'Wszyscy na: {target}! Chyba ktoś za dobrze grał.',
+    'Ile można? {target} zbiera sabotaże jak naklejki. Stan kolekcji: {n}.',
+    'Koalicja przeciw: {target}! Proszę się nie przejmować, to oznaka szacunku.',
+    '{target} pod ostrzałem! Licznik kart w jednego gracza: {n}. To już nie sabotaż, to fanklub.'
+  ],
+  sabSurvived: [
+    '{target} trafia mimo sabotażu! Prawdziwy twardziel. Albo twardy telefon.',
+    'Nie da się złamać! {target} przebija się przez sabotaż i trafia!',
+    'Mimo wszystko poprawnie! {target}, szacun. {name} pewnie właśnie zgrzyta zębami.',
+    'Sabotaż? Jaki sabotaż? {target} trafia, jakby nic się nie stało!',
+    '{target} odpowiada dobrze mimo przeszkód. {name}, plan chyba nie wypalił!',
+    'Brawo, {target}! Przeszkoda pokonana, odpowiedź trafiona, honor obroniony.'
+  ],
+  sabFailed: [
+    'Sabotaż zadziałał… {target} pudłuje. {name} zaciera ręce.',
+    '{target} nie trafia. Ale z taką przeszkodą to i ja bym się pogubił.',
+    'Pudło! Pół winy na: {target}, pół na kartę od: {name}.',
+    'No cóż, {target}, sabotaż zrobił swoje. Następnym razem to Ty rzucasz kartę!',
+    '{name} może być z siebie dumny. Albo dumna. {target} niestety pudłuje.',
+    'Plan wykonany! {target} błądzi we mgle… albo w bąbelkach. W każdym razie błądzi.'
+  ],
+
   // ---------------------------------------------------------------- wtrącenia
   filler: [
     'Wiecie, że ja też nie znam połowy tych odpowiedzi? Ciii.',
@@ -401,10 +487,31 @@ export const POOL_EMOTION = {
   roundEndSolo: 'laugh',
   finished: 'dance',
   podium: 'dance',
-  filler: 'laugh'
+  filler: 'laugh',
+  sabAttack: 'shock',
+  sabType_fog: 'laugh',
+  sabType_bubbles: 'laugh',
+  sabType_math: 'think',
+  sabType_mash: 'laugh',
+  sabType_sequence: 'think',
+  sabType_catch: 'laugh',
+  sabRevenge: 'shock',
+  sabPiling: 'shock',
+  sabSurvived: 'happy',
+  sabFailed: 'sad'
 };
 
-const NAME_KEYS = new Set(['name', 'prev', 'leader', 'last', 'winner', 'second', 'third']);
+// typ sabotażu -> pula tekstów
+export const SABOTAGE_POOLS = {
+  fog: 'sabType_fog',
+  bubbles: 'sabType_bubbles',
+  math: 'sabType_math',
+  mash: 'sabType_mash',
+  sequence: 'sabType_sequence',
+  catch: 'sabType_catch'
+};
+
+const NAME_KEYS = new Set(['name', 'prev', 'leader', 'last', 'winner', 'second', 'third', 'target']);
 
 /** Long names make the bubble huge – keep the first word, then cut. */
 export function shortName(raw) {
@@ -415,16 +522,33 @@ export function shortName(raw) {
   return base.length <= 16 ? base : `${base.slice(0, 15)}…`;
 }
 
-const lastUsed = new Map(); // pula -> ostatnio użyty indeks
+const lastUsed = new Map(); // pula+poziom -> ostatnio użyta linia
 
-/** Losuje linię z puli (bez powtórzenia tej samej linii pod rząd) i podstawia zmienne. */
-export function pickLine(pool, vars = {}) {
-  const list = LINES[pool];
+/** Linie puli dostępne na danym poziomie humoru. */
+export function poolLines(pool, level = 'cheeky') {
+  const base = LINES[pool] || [];
+  if (level === 'polite') return base;
+  return [...base, ...(CHEEKY_LINES[pool] || [])];
+}
+
+/**
+ * Losuje linię z puli (bez powtórzenia tej samej linii pod rząd) i podstawia zmienne.
+ * `level`: 'polite' | 'cheeky' (domyślnie) | 'rude'.
+ */
+export function pickLine(pool, vars = {}, level = 'cheeky') {
+  const rude = level === 'rude' ? (RUDE_LINES[pool] || []) : [];
+  const normal = poolLines(pool, level === 'rude' ? 'cheeky' : level);
+  let list = normal;
+  let key = `${pool}:${level}`;
+  if (rude.length && (!normal.length || Math.random() < RUDE_SHARE)) {
+    list = rude;
+    key = `${pool}:rude-only`;
+  }
   if (!list || list.length === 0) return null;
-  const prev = lastUsed.get(pool);
+  const prev = lastUsed.get(key);
   let idx = Math.floor(Math.random() * list.length);
-  if (list.length > 1 && idx === prev) idx = (idx + 1 + Math.floor(Math.random() * (list.length - 1))) % list.length;
-  lastUsed.set(pool, idx);
+  if (list.length > 1 && list[idx] === prev) idx = (idx + 1 + Math.floor(Math.random() * (list.length - 1))) % list.length;
+  lastUsed.set(key, list[idx]);
   return list[idx].replace(/\{(\w+)\}/g, (m, key) => {
     const v = vars[key];
     if (v === undefined || v === null) return '…';

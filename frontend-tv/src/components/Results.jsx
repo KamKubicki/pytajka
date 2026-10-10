@@ -1,8 +1,10 @@
 import React from 'react';
+import { sabotageMeta } from '../sabotage';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
-function Results({ resultsData, meta = {} }) {
+/** `sabotage` - Map(playerId -> [{ type, fromName }]) used when players carry no `sabotagedBy`. */
+function Results({ resultsData, meta = {}, sabotage }) {
   if (!resultsData) return null;
 
   const { correctAnswer, questionData = {} } = resultsData;
@@ -56,11 +58,22 @@ function Results({ resultsData, meta = {} }) {
         <ol className={`ranking-list ${cols}`} style={{ '--rows': cols ? Math.ceil(sorted.length / 2) : Math.max(sorted.length, 1) }}>
           {sorted.map((p, i) => {
             const answered = p.lastAnswer !== null && p.lastAnswer !== undefined;
+            const sabs = Array.isArray(p.sabotagedBy)
+              ? p.sabotagedBy
+              : (sabotage instanceof Map ? sabotage.get(p.id) : null);
+            const sabIcons = sabs?.length ? sabs.map(s => sabotageMeta(s?.type).icon).join('') : '';
             return (
               <li key={p.id} className={`ranking-row ${p.lastCorrect ? 'is-hit' : 'is-miss'}`}>
                 <span className="rank-pos">{i + 1}</span>
                 <span className="rank-avatar">{p.avatar}</span>
-                <span className="rank-name">{p.name}</span>
+                <span className={`rank-name ${sabIcons ? 'has-sab' : ''}`}>
+                  <span className="rank-name-text">{p.name}</span>
+                  {sabIcons && (
+                    <span className={`rank-sab ${p.lastCorrect ? 'is-survivor' : ''}`}>
+                      {p.lastCorrect ? `💪 mimo sabotażu ${sabIcons}` : sabIcons}
+                    </span>
+                  )}
+                </span>
                 <span className="rank-gain">
                   {p.lastPoints > 0 ? `+${p.lastPoints}` : answered ? '✗' : '—'}
                 </span>

@@ -38,7 +38,7 @@ function TimerRing({ timer, timeLimit, stopped }) {
   );
 }
 
-function Question({ question, meta = {}, timer, players = [], answeredIds, answerCount, showCorrectAnswer }) {
+function Question({ question, meta = {}, timer, players = [], answeredIds, answerCount, showCorrectAnswer, sabotage }) {
   if (!question) {
     return (
       <main className="screen screen-center">
@@ -118,7 +118,7 @@ function Question({ question, meta = {}, timer, players = [], answeredIds, answe
               {question.explanation && (
                 <div className="reveal-explanation">💡 {question.explanation}</div>
               )}
-              <PlayerStrip players={players} highlightIds={hitIds} dimOthers />
+              <PlayerStrip players={players} highlightIds={hitIds} dimOthers sabotage={sabotage} />
             </div>
           </div>
         ) : (
@@ -127,7 +127,7 @@ function Question({ question, meta = {}, timer, players = [], answeredIds, answe
               <span className="counter-label">Odpowiedzi</span>
               <span className="counter-value">{answered}<small>/{total}</small></span>
             </div>
-            <PlayerStrip players={players} doneIds={answeredIds} />
+            <PlayerStrip players={players} doneIds={answeredIds} sabotage={sabotage} />
           </div>
         )}
       </footer>

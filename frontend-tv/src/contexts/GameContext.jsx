@@ -36,6 +36,10 @@ const GameProvider = ({ children }) => {
   const [resultsData, setResultsData] = useState(null);
   const [roundSummaryData, setRoundSummaryData] = useState(null);
   const [socket, setSocket] = useState(null);
+  // Sabotage cards (see sabotage.js): feed of announced attacks (for the banner + host),
+  // victims of the current question (the queue for the next one lives in useSocket).
+  const [sabotageFeed, setSabotageFeed] = useState([]);
+  const [activeSabotage, setActiveSabotage] = useState([]); // [{ targetPlayerId, type, fromName }]
 
   const value = {
     gameState, setGameState,
@@ -55,7 +59,9 @@ const GameProvider = ({ children }) => {
     gameSettings, setGameSettings,
     resultsData, setResultsData,
     roundSummaryData, setRoundSummaryData,
-    socket, setSocket
+    socket, setSocket,
+    sabotageFeed, setSabotageFeed,
+    activeSabotage, setActiveSabotage
   };
 
   return (
