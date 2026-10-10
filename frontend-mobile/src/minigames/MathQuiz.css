@@ -1,0 +1,149 @@
+.mg-math {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3vh, 22px);
+  padding: calc(16px + env(safe-area-inset-top, 0px)) 16px
+    calc(16px + env(safe-area-inset-bottom, 0px));
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 30%, #1b2563 0%, #0a1030 55%, #050818 100%);
+  color: #f4f6ff;
+  font-family: var(--font-display, system-ui, sans-serif);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+.mg-math__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: clamp(20px, 6vw, 26px);
+  font-weight: 800;
+}
+
+.mg-math__icon {
+  font-size: 1.3em;
+}
+
+.mg-math__hint {
+  margin: 0;
+  min-height: 1.4em;
+  color: var(--text-dim, #a9b1d6);
+  font-size: clamp(15px, 4.4vw, 18px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.mg-math__card {
+  width: 100%;
+  max-width: 360px;
+  padding: clamp(18px, 5vh, 34px) 12px;
+  border-radius: 22px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.07);
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+}
+
+.mg-math__card.is-shaking {
+  animation: mg-math-shake 0.45s ease;
+  border-color: #e63946;
+  background: rgba(230, 57, 70, 0.18);
+}
+
+.mg-math__card.is-solved {
+  border-color: #2ec27e;
+  background: rgba(46, 194, 126, 0.2);
+}
+
+.mg-math__expr {
+  font-size: clamp(38px, 13vw, 58px);
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.mg-math__options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.mg-math__btn {
+  min-height: clamp(60px, 11vh, 80px);
+  border: none;
+  border-radius: 18px;
+  background: var(--btn-color);
+  color: #fff;
+  font-family: inherit;
+  font-size: clamp(30px, 10vw, 42px);
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.08s ease, opacity 0.2s ease, filter 0.2s ease;
+}
+
+.mg-math__btn:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.35);
+}
+
+.mg-math__btn:disabled {
+  opacity: 0.45;
+  filter: grayscale(0.6);
+  cursor: default;
+}
+
+.mg-math__btn.is-wrong {
+  opacity: 1;
+  filter: none;
+  outline: 4px solid #fff;
+  animation: mg-math-shake 0.45s ease;
+}
+
+.mg-math__btn.is-right {
+  opacity: 1;
+  filter: none;
+  outline: 4px solid #2ec27e;
+}
+
+.mg-math__lock {
+  position: absolute;
+  top: calc(16px + env(safe-area-inset-top, 0px));
+  right: 16px;
+  font-size: 28px;
+  animation: mg-math-pop 0.25s ease;
+}
+
+@keyframes mg-math-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-7px); }
+  80% { transform: translateX(7px); }
+}
+
+@keyframes mg-math-pop {
+  from { transform: scale(0.4); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mg-math__card.is-shaking,
+  .mg-math__btn.is-wrong {
+    animation: none;
+  }
+}
