@@ -1,5 +1,5 @@
 const { v4: uuidv4 } = require('uuid');
-const { gameSessions, gameQuestions, selectFreshQuestions } = require('./game');
+const { gameSessions } = require('./game');
 const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings, validateCategoryKey, validatePlayerId } = require('./validation');
 
 function initializeSocket(server) {
@@ -292,7 +292,7 @@ function initializeSocket(server) {
         io.to(validatedSessionId).emit('player-answer-realtime', {
           playerId,
           totalAnswers: session.playerAnswers.size,
-          totalPlayers: session.players.size
+          totalPlayers: session.getConnectedPlayerCount()
         });
         
         session.checkAllAnswered(io);
@@ -309,6 +309,11 @@ function initializeSocket(server) {
         const validatedSessionId = validateSessionId(sessionId);
         const validatedPlayerId = validatePlayerId(playerId);
         const validatedKey = validateCategoryKey(categoryKey);
+        // 🔒 A socket may only vote for its own player
+        if (socket.playerId !== validatedPlayerId || socket.sessionId !== validatedSessionId) {
+          socket.emit('error', { message: 'Player not found in session' });
+          return;
+        }
         const session = gameSessions.get(validatedSessionId);
         
         if (!session) {

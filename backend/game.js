@@ -296,26 +296,9 @@ function ensureFreshPool(requestedCount) {
 
 // Smart question selection avoiding recently used questions
 function selectFreshQuestions(requestedCount) {
+  ensureFreshPool(requestedCount);
   const availableQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
-
   console.log(`Question pool status: ${availableQuestions.length}/${gameQuestions.length} fresh questions available`);
-
-  // If we don't have enough fresh questions, reset history but keep some recent ones
-  if (availableQuestions.length < Math.max(requestedCount, MIN_QUESTIONS_POOL)) {
-    console.log('⚠️  Low fresh questions! Resetting history but keeping most recent 50 questions');
-
-    // Convert Set to Array, keep last 50, clear and re-add them
-    const recentQuestions = Array.from(usedQuestionsHistory).slice(-50);
-    usedQuestionsHistory.clear();
-    recentQuestions.forEach(qId => usedQuestionsHistory.add(qId));
-
-    // Recalculate available questions
-    const freshQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
-    console.log(`After reset: ${freshQuestions.length}/${gameQuestions.length} fresh questions available`);
-
-    return ensureUniqueQuestions(shuffleArray(freshQuestions).slice(0, requestedCount));
-  }
-
   return ensureUniqueQuestions(shuffleArray(availableQuestions).slice(0, requestedCount));
 }
 
@@ -434,12 +417,19 @@ class GameSession {
   }
 
   buildVoteOptions() {
+    const freshCounts = {};
+    const unusedCounts = {}; // not used in this game (ignores global history)
+    gameQuestions.forEach(q => {
+      if (this.usedQuestionIds.has(q.id)) return;
+      unusedCounts[q.categoryKey] = (unusedCounts[q.categoryKey] || 0) + 1;
+      if (!usedQuestionsHistory.has(q.id)) freshCounts[q.categoryKey] = (freshCounts[q.categoryKey] || 0) + 1;
+    });
     const stats = Object.entries(questionsDatabase.categories).map(([key, cat]) => ({
       key,
       name: cat.name,
       icon: cat.icon,
       color: cat.color,
-      available: this.getFreshQuestions(key).length
+      available: freshCounts[key] || 0
     }));
     const needed = this.questionsPerRound;
     const eligible = shuffleArray(stats.filter(c => c.available >= needed));
@@ -449,7 +439,7 @@ class GameSession {
     let options = [...eligible, ...rest].slice(0, 3);
     if (options.length === 0) {
       // Everything used up - still offer categories, questions will be filled from the whole pool
-      options = shuffleArray(stats).slice(0, 3);
+      options = shuffleArray(stats.filter(c => unusedCounts[c.key] > 0)).slice(0, 3);
     }
     return options;
   }
@@ -567,7 +557,6 @@ class GameSession {
       take(this.getFreshQuestions());
       take(gameQuestions);
     }
-    picked = ensureUniqueQuestions(picked);
     picked.forEach(q => this.usedQuestionIds.add(q.id));
     this.shuffledQuestions.push(...picked);
     // 🔧 Pool exhausted -> end the game after these questions
@@ -577,6 +566,7 @@ class GameSession {
   }
 
   finishGame(io) {
+    if (this.status === 'finished') return; // 🔒 idempotent
     this.status = 'finished';
     this.vote = null;
     markQuestionsAsUsed(this.shuffledQuestions);
