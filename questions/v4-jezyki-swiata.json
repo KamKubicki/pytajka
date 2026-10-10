@@ -1,0 +1,782 @@
+[
+  {
+    "id": "wlang_m001",
+    "question": "Jak jest „dziękuję” po hiszpańsku?",
+    "answers": [
+      "Obrigado",
+      "Gracias",
+      "Merci",
+      "Grazie"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hiszpańskie „gracias” oznacza „dziękuję”."
+  },
+  {
+    "id": "wlang_m002",
+    "question": "Jak jest „dziękuję” po włosku?",
+    "answers": [
+      "Gracias",
+      "Danke",
+      "Merci",
+      "Grazie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Włosi dziękują słowem „grazie”."
+  },
+  {
+    "id": "wlang_m003",
+    "question": "Jak jest „dziękuję” po niemiecku?",
+    "answers": [
+      "Danke",
+      "Prost",
+      "Tschüss",
+      "Bitte"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Danke” to po niemiecku „dziękuję”, a „bitte” – „proszę”."
+  },
+  {
+    "id": "wlang_m004",
+    "question": "Jak jest „dziękuję” po japońsku?",
+    "answers": [
+      "Konnichiwa",
+      "Kanpai",
+      "Arigatō",
+      "Sayōnara"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Japońskie „arigatō” (lub grzeczniej „arigatō gozaimasu”) znaczy „dziękuję”."
+  },
+  {
+    "id": "wlang_m005",
+    "question": "Jak powiedzieć „dzień dobry” po niemiecku?",
+    "answers": [
+      "Gute Nacht",
+      "Auf Wiedersehen",
+      "Guten Tag",
+      "Danke schön"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Guten Tag” to standardowe niemieckie „dzień dobry”."
+  },
+  {
+    "id": "wlang_m006",
+    "question": "Jak powiedzieć „dzień dobry” po hiszpańsku?",
+    "answers": [
+      "Buongiorno",
+      "Bonjour",
+      "Bom dia",
+      "Buenos días"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Buenos días” to hiszpańskie powitanie przed południem."
+  },
+  {
+    "id": "wlang_m007",
+    "question": "Jak powiedzieć „dzień dobry” po włosku?",
+    "answers": [
+      "Bonjour",
+      "Guten Morgen",
+      "Buenos días",
+      "Buongiorno"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Włosi witają się słowem „buongiorno”."
+  },
+  {
+    "id": "wlang_m008",
+    "question": "Jak brzmi niemiecki toast „na zdrowie”?",
+    "answers": [
+      "Kanpai",
+      "Prost",
+      "Skål",
+      "Salute"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Przy kuflu piwa Niemcy wołają „Prost!”."
+  },
+  {
+    "id": "wlang_m009",
+    "question": "Jak brzmi francuski toast „na zdrowie”?",
+    "answers": [
+      "Skål",
+      "Prost",
+      "Salud",
+      "Santé"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Francuzi wznoszą toast słowem „Santé!” (od „à votre santé”)."
+  },
+  {
+    "id": "wlang_m010",
+    "question": "Jak brzmi hiszpański toast „na zdrowie”?",
+    "answers": [
+      "Prost",
+      "Kippis",
+      "Santé",
+      "Salud"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hiszpanie przy kieliszku mówią „¡Salud!”."
+  },
+  {
+    "id": "wlang_m011",
+    "question": "Jakim językiem mówi się na co dzień w Brazylii?",
+    "answers": [
+      "Portugalskim",
+      "Francuskim",
+      "Brazylijskim",
+      "Hiszpańskim"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Brazylia, dawna kolonia portugalska, jest największym portugalskojęzycznym krajem świata."
+  },
+  {
+    "id": "wlang_m012",
+    "question": "Jakim językiem posługuje się większość mieszkańców Argentyny?",
+    "answers": [
+      "Portugalskim",
+      "Włoskim",
+      "Hiszpańskim",
+      "Angielskim"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Argentyna jest krajem hiszpańskojęzycznym."
+  },
+  {
+    "id": "wlang_m013",
+    "question": "Jakim językiem mówi się w Austrii?",
+    "answers": [
+      "Czeskim",
+      "Niemieckim",
+      "Austriackim",
+      "Węgierskim"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Językiem urzędowym Austrii jest niemiecki."
+  },
+  {
+    "id": "wlang_m014",
+    "question": "Który język jest jedynym urzędowym w kanadyjskiej prowincji Quebec?",
+    "answers": [
+      "Hiszpański",
+      "Francuski",
+      "Angielski",
+      "Inuktitut"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Quebec to francuskojęzyczna prowincja Kanady."
+  },
+  {
+    "id": "wlang_m015",
+    "question": "Jakim pismem zapisuje się język rosyjski?",
+    "answers": [
+      "Cyrylicą",
+      "Alfabetem łacińskim",
+      "Głagolicą",
+      "Alfabetem greckim"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rosyjski używa cyrylicy."
+  },
+  {
+    "id": "wlang_m016",
+    "question": "Jak nazywa się koreański alfabet?",
+    "answers": [
+      "Dewanagari",
+      "Kanji",
+      "Hangul",
+      "Hiragana"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Hangul to alfabet, którym zapisuje się język koreański."
+  },
+  {
+    "id": "wlang_m017",
+    "question": "Jak nazywa się pierwsza litera alfabetu greckiego?",
+    "answers": [
+      "Delta",
+      "Omega",
+      "Alfa",
+      "Beta"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Alfabet grecki zaczyna się od alfy, a kończy na omedze."
+  },
+  {
+    "id": "wlang_m018",
+    "question": "W którą stronę pisze się po arabsku?",
+    "answers": [
+      "Od lewej do prawej",
+      "Od dołu do góry",
+      "Od prawej do lewej",
+      "Od góry do dołu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pismo arabskie zapisuje się od prawej strony do lewej."
+  },
+  {
+    "id": "wlang_m019",
+    "question": "Kto stworzył język esperanto?",
+    "answers": [
+      "Noam Chomsky",
+      "Ludwik Zamenhof",
+      "J.R.R. Tolkien",
+      "Johann Martin Schleyer"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Esperanto opracował lekarz okulista Ludwik Zamenhof."
+  },
+  {
+    "id": "wlang_m020",
+    "question": "Które z tych słów pochodzi z języka fińskiego?",
+    "answers": [
+      "Sauna",
+      "Kiosk",
+      "Kajak",
+      "Fiord"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Sauna” to jedno z najbardziej znanych na świecie słów fińskich."
+  },
+  {
+    "id": "wlang_m021",
+    "question": "„Tsunami” to słowo zapożyczone z którego języka?",
+    "answers": [
+      "Z japońskiego",
+      "Z chińskiego",
+      "Z koreańskiego",
+      "Z indonezyjskiego"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Japońskie „tsunami” znaczy dosłownie „fala w porcie”."
+  },
+  {
+    "id": "wlang_m022",
+    "question": "Co oznacza hiszpańskie „adiós”?",
+    "answers": [
+      "Dziękuję",
+      "Dzień dobry",
+      "Proszę",
+      "Do widzenia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Adiós” to hiszpańskie pożegnanie."
+  },
+  {
+    "id": "wlang_m023",
+    "question": "Co oznacza francuskie „bon appétit”?",
+    "answers": [
+      "Na zdrowie",
+      "Smacznego",
+      "Do widzenia",
+      "Dobranoc"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Francuzi życzą sobie przed jedzeniem „bon appétit”."
+  },
+  {
+    "id": "wlang_m024",
+    "question": "W jakim języku mówi się „konnichiwa” na powitanie?",
+    "answers": [
+      "W japońskim",
+      "W tajskim",
+      "W chińskim",
+      "W koreańskim"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Konnichiwa” to japońskie „dzień dobry”."
+  },
+  {
+    "id": "wlang_m025",
+    "question": "Jak jest „dziękuję” po czesku?",
+    "answers": [
+      "Děkuji",
+      "Kiitos",
+      "Köszönöm",
+      "Hvala"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Czesi dziękują słowem „děkuji”."
+  },
+  {
+    "id": "wlang_m026",
+    "question": "Jak jest „dziękuję” po węgiersku?",
+    "answers": [
+      "Mulțumesc",
+      "Köszönöm",
+      "Kiitos",
+      "Ďakujem"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Węgierskie „köszönöm” znaczy „dziękuję”."
+  },
+  {
+    "id": "wlang_m027",
+    "question": "Jak jest „dziękuję” po fińsku?",
+    "answers": [
+      "Kiitos",
+      "Takk",
+      "Köszönöm",
+      "Tack"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Kiitos” to fińskie „dziękuję”."
+  },
+  {
+    "id": "wlang_m028",
+    "question": "Jak brzmi japoński toast „na zdrowie”?",
+    "answers": [
+      "Sayōnara",
+      "Banzai",
+      "Kanpai",
+      "Arigatō"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Kanpai” oznacza dosłownie „sucha czarka”, czyli „do dna”."
+  },
+  {
+    "id": "wlang_m029",
+    "question": "Jak brzmi fiński toast „na zdrowie”?",
+    "answers": [
+      "Kippis",
+      "Prost",
+      "Salud",
+      "Skål"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Finowie stukają się kieliszkami ze słowem „Kippis!”."
+  },
+  {
+    "id": "wlang_m030",
+    "question": "Jak brzmi czeski toast „na zdrowie”?",
+    "answers": [
+      "Kippis",
+      "Prost",
+      "Na zdraví",
+      "Egészségedre"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Czesi wznoszą toast słowami „Na zdraví!”."
+  },
+  {
+    "id": "wlang_m031",
+    "question": "Jak powiedzieć „dzień dobry” po węgiersku?",
+    "answers": [
+      "Guten Tag",
+      "Hyvää päivää",
+      "Jó napot",
+      "Dobrý den"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Węgrzy witają się w ciągu dnia słowami „jó napot (kívánok)”."
+  },
+  {
+    "id": "wlang_m032",
+    "question": "Co oznacza czeskie słowo „čerstvý”?",
+    "answers": [
+      "Czarny",
+      "Czerstwy",
+      "Szybki",
+      "Świeży"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Čerstvý chléb” to po czesku świeży, a nie czerstwy chleb."
+  },
+  {
+    "id": "wlang_m033",
+    "question": "Co oznacza czeskie słowo „pozor”?",
+    "answers": [
+      "Wzrok",
+      "Pozór",
+      "Pozycja",
+      "Uwaga"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Czeski napis „Pozor!” ostrzega: „Uwaga!”."
+  },
+  {
+    "id": "wlang_m034",
+    "question": "Co oznacza czeskie słowo „jahoda”?",
+    "answers": [
+      "Jagoda",
+      "Truskawka",
+      "Jeżyna",
+      "Malina"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Czeska „jahoda” to truskawka, a nie jagoda."
+  },
+  {
+    "id": "wlang_m035",
+    "question": "Do jakiej rodziny językowej należy węgierski?",
+    "answers": [
+      "Ugrofińskiej",
+      "Germańskiej",
+      "Słowiańskiej",
+      "Romańskiej"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Węgierski jest spokrewniony z fińskim i estońskim w ramach języków ugrofińskich."
+  },
+  {
+    "id": "wlang_m036",
+    "question": "Który język jest najbliżej spokrewniony z fińskim?",
+    "answers": [
+      "Litewski",
+      "Szwedzki",
+      "Łotewski",
+      "Estoński"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Fiński i estoński to bliskie sobie języki bałtycko-fińskie."
+  },
+  {
+    "id": "wlang_m037",
+    "question": "Który z tych języków NIE jest językiem romańskim?",
+    "answers": [
+      "Portugalski",
+      "Kataloński",
+      "Rumuński",
+      "Albański"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Albański tworzy osobną gałąź języków indoeuropejskich."
+  },
+  {
+    "id": "wlang_m038",
+    "question": "Do której grupy językowej należy litewski?",
+    "answers": [
+      "Słowiańskiej",
+      "Bałtyckiej",
+      "Ugrofińskiej",
+      "Germańskiej"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Litewski i łotewski to jedyne żywe języki bałtyckie."
+  },
+  {
+    "id": "wlang_m039",
+    "question": "Jak nazywają się znaki pisma japońskiego zapożyczone z Chin?",
+    "answers": [
+      "Kanji",
+      "Hiragana",
+      "Katakana",
+      "Hangul"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kanji to chińskie znaki używane w piśmie japońskim."
+  },
+  {
+    "id": "wlang_m040",
+    "question": "Którym japońskim pismem zapisuje się zwykle słowa obcego pochodzenia?",
+    "answers": [
+      "Kanji",
+      "Hangulem",
+      "Hiraganą",
+      "Katakaną"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Katakana służy głównie do zapisu zapożyczeń i obcych nazw."
+  },
+  {
+    "id": "wlang_m041",
+    "question": "Od imienia którego świętego pochodzi nazwa cyrylicy?",
+    "answers": [
+      "Metodego",
+      "Benedykta",
+      "Wojciecha",
+      "Cyryla"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Cyrylicę nazwano na cześć św. Cyryla, apostoła Słowian, choć on sam stworzył głagolicę."
+  },
+  {
+    "id": "wlang_m042",
+    "question": "Co oznacza w esperanto słowo „esperanto”?",
+    "answers": [
+      "Mający nadzieję",
+      "Przyjaciel",
+      "Cały świat",
+      "Wspólny język"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zamenhof wydał podręcznik pod pseudonimem „Doktoro Esperanto”, czyli „doktor mający nadzieję”."
+  },
+  {
+    "id": "wlang_m043",
+    "question": "W jakim mieście urodził się twórca esperanto Ludwik Zamenhof?",
+    "answers": [
+      "W Warszawie",
+      "W Krakowie",
+      "W Białymstoku",
+      "W Wilnie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zamenhof urodził się w 1859 roku w Białymstoku."
+  },
+  {
+    "id": "wlang_m044",
+    "question": "Ile języków narodowych uznaje konstytucja Szwajcarii?",
+    "answers": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Językami narodowymi Szwajcarii są niemiecki, francuski, włoski i retoromański."
+  },
+  {
+    "id": "wlang_m045",
+    "question": "Który język jest obok angielskiego językiem urzędowym Irlandii?",
+    "answers": [
+      "Szkocki gaelicki",
+      "Irlandzki",
+      "Walijski",
+      "Bretoński"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Konstytucja Irlandii uznaje irlandzki za pierwszy język urzędowy."
+  },
+  {
+    "id": "wlang_m046",
+    "question": "W którym kraju mieszka najwięcej rodzimych użytkowników hiszpańskiego?",
+    "answers": [
+      "W Meksyku",
+      "W Hiszpanii",
+      "W Kolumbii",
+      "W Argentynie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Meksyk ma ponad dwa razy więcej mieszkańców niż Hiszpania."
+  },
+  {
+    "id": "wlang_m047",
+    "question": "Co dosłownie oznacza japońskie słowo „karaoke”?",
+    "answers": [
+      "Śpiewający człowiek",
+      "Wesoły głos",
+      "Wieczorna piosenka",
+      "Pusta orkiestra"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Kara” to „pusty”, a „oke” to skrót od „ōkesutora”, czyli orkiestry."
+  },
+  {
+    "id": "wlang_m048",
+    "question": "Co dosłownie oznacza japońskie słowo „kamikaze”?",
+    "answers": [
+      "Ognisty ptak",
+      "Ostatni lot",
+      "Święty miecz",
+      "Boski wiatr"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nazwa nawiązuje do tajfunów, które w XIII wieku rozbiły flotę mongolską."
+  },
+  {
+    "id": "wlang_m049",
+    "question": "Co oznacza rosyjskie słowo „urod” (урод)?",
+    "answers": [
+      "Brzydal",
+      "Ród",
+      "Urodziny",
+      "Piękność"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Rosyjski „urod” to brzydal lub dziwoląg – klasyczny fałszywy przyjaciel."
+  },
+  {
+    "id": "wlang_m050",
+    "question": "Co oznacza rosyjskie „zapomnit'” (запомнить)?",
+    "answers": [
+      "Zapomnieć",
+      "Zapamiętać",
+      "Zapłacić",
+      "Zamknąć"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Rosyjskie „zapomnit'” znaczy dokładnie odwrotnie niż polskie „zapomnieć”."
+  },
+  {
+    "id": "wlang_m051",
+    "question": "Co oznacza czeskie słowo „chytrý”?",
+    "answers": [
+      "Szybki",
+      "Chory",
+      "Mądry",
+      "Skąpy"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Czeski „chytrý člověk” to człowiek bystry, a nie chytry."
+  },
+  {
+    "id": "wlang_m052",
+    "question": "Który władca stworzył koreański alfabet hangul?",
+    "answers": [
+      "Cesarz Meiji",
+      "Król Sejong Wielki",
+      "Czyngis-chan",
+      "Cesarz Qin Shi Huang"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Hangul opracowano w XV wieku z inicjatywy króla Sejonga Wielkiego."
+  },
+  {
+    "id": "wlang_m053",
+    "question": "Kto stworzył język klingoński ze „Star Treka”?",
+    "answers": [
+      "David J. Peterson",
+      "J.R.R. Tolkien",
+      "Marc Okrand",
+      "Gene Roddenberry"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Językoznawca Marc Okrand opracował klingoński na potrzeby filmów „Star Trek”."
+  },
+  {
+    "id": "wlang_m054",
+    "question": "Który język Europy nie jest spokrewniony z żadnym innym znanym językiem?",
+    "answers": [
+      "Kataloński",
+      "Baskijski",
+      "Bretoński",
+      "Islandzki"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Baskijski to izolat językowy – nie należy do żadnej znanej rodziny."
+  },
+  {
+    "id": "wlang_m055",
+    "question": "Który język urzędowy Unii Europejskiej należy do języków semickich?",
+    "answers": [
+      "Irlandzki",
+      "Grecki",
+      "Maltański",
+      "Estoński"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Maltański wywodzi się z arabskiego, ale zapisuje się go alfabetem łacińskim."
+  },
+  {
+    "id": "wlang_m056",
+    "question": "Ile języków urzędowych ma Unia Europejska?",
+    "answers": [
+      "27",
+      "32",
+      "24",
+      "20"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "UE ma 24 języki urzędowe, mniej niż państw członkowskich, bo niektóre kraje dzielą język."
+  },
+  {
+    "id": "wlang_m057",
+    "question": "W którym kraju Ameryki Południowej językiem urzędowym jest niderlandzki?",
+    "answers": [
+      "W Urugwaju",
+      "W Surinamie",
+      "W Gujanie",
+      "W Wenezueli"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Surinam to dawna kolonia holenderska."
+  },
+  {
+    "id": "wlang_m058",
+    "question": "Co dosłownie oznacza włoskie słowo „fiasco”, od którego pochodzi nasze „fiasko”?",
+    "answers": [
+      "Pusty talerz",
+      "Kapelusz",
+      "Butelka",
+      "Bęben"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Włoskie „fiasco” to dosłownie butelka (flaszka) – stąd m.in. pękate butelki chianti."
+  },
+  {
+    "id": "wlang_m059",
+    "question": "Z jakiego języka wywodzi się słowo „czekolada”?",
+    "answers": [
+      "Z suahili",
+      "Z nahuatl (języka Azteków)",
+      "Z keczua (języka Inków)",
+      "Z arabskiego"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Źródłem jest azteckie „xocolatl”, oznaczające napój z kakao."
+  },
+  {
+    "id": "wlang_m060",
+    "question": "Jakim pismem zapisuje się język hindi?",
+    "answers": [
+      "Dewanagari",
+      "Hangulem",
+      "Cyrylicą",
+      "Pismem arabskim"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Hindi zapisuje się alfabetem dewanagari, tym samym co sanskryt."
+  }
+]
