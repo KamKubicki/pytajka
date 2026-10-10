@@ -118,7 +118,7 @@
   },
   {
     "id": "it_b010",
-    "question": "Jakie stworzenie znalezione w 1947 roku w komputerze Mark II spopularyzowało określenie „bug” na błąd?",
+    "question": "Jakie stworzenie znalezione w 1947 roku w komputerze Mark II stało się słynną anegdotą o „bugu”, czyli błędzie?",
     "answers": [
       "Pająk",
       "Ćma",
@@ -131,7 +131,7 @@
   },
   {
     "id": "it_b011",
-    "question": "Która hollywoodzka aktorka współwynalazła technikę skakania po częstotliwościach, użytą później m.in. w Bluetooth?",
+    "question": "Która hollywoodzka aktorka współwynalazła technikę skakania po częstotliwościach, prekursorkę rozwiązań z Wi-Fi i Bluetooth?",
     "answers": [
       "Greta Garbo",
       "Hedy Lamarr",
@@ -157,7 +157,7 @@
   },
   {
     "id": "it_b013",
-    "question": "Którzy bracia w 1895 roku zorganizowali pierwszy publiczny, biletowany pokaz filmowy?",
+    "question": "Którzy bracia w 1895 roku zorganizowali w Paryżu pokaz kinematografu, uznawany za narodziny kina?",
     "answers": [
       "Bracia Lumière",
       "Bracia Wright",
@@ -166,7 +166,7 @@
     ],
     "correct": 0,
     "difficulty": "easy",
-    "explanation": "Pokaz kinematografu odbył się w Paryżu w grudniu 1895 roku."
+    "explanation": "Biletowany pokaz odbył się 28 grudnia 1895 roku w paryskiej kawiarni."
   },
   {
     "id": "it_b014",
@@ -764,7 +764,7 @@
     ],
     "correct": 3,
     "difficulty": "medium",
-    "explanation": "Techland z Wrocławia wydał „Dying Light” w 2015 roku."
+    "explanation": "Techland, studio z Wrocławia i Ostrowa Wielkopolskiego, wydał „Dying Light” w 2015 roku."
   },
   {
     "id": "it_b060",
@@ -855,7 +855,7 @@
     ],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Łukasiewicz jako pierwszy oczyścił ropę naftową do nafty oświetleniowej."
+    "explanation": "Łukasiewicz jako jeden z pierwszych opracował destylację nafty z ropy naftowej."
   },
   {
     "id": "it_b067",
@@ -898,16 +898,16 @@
   },
   {
     "id": "it_b070",
-    "question": "Pod jaką marką w PRL sprzedawano m.in. gramofony, magnetofony i radia?",
+    "question": "Pod jaką marką produkowano w PRL m.in. gramofony, magnetofony i radia?",
     "answers": [
       "Unitra",
-      "Pewex",
+      "Ruch",
       "Polam",
       "Polmos"
     ],
     "correct": 0,
     "difficulty": "medium",
-    "explanation": "Unitra zrzeszała zakłady elektroniki, np. Diora i Fonica."
+    "explanation": "Unitra zrzeszała zakłady elektroniki, np. „Diorę” i „Fonikę”."
   },
   {
     "id": "it_b071",
@@ -920,7 +920,7 @@
     ],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Spencer pracował przy magnetronie radaru i zauważył, że batonik się rozpuścił."
+    "explanation": "Spencer pracował przy magnetronie radaru i zauważył, że batonik się roztopił."
   },
   {
     "id": "it_b072",
@@ -1030,7 +1030,7 @@
     "id": "it_b080",
     "question": "Jakie produkty biurowe powstały dzięki zbyt słabemu klejowi wynalezionemu w firmie 3M?",
     "answers": [
-      "Taśma izolacyjna",
+      "Taśmy izolacyjne",
       "Koperty samoprzylepne",
       "Gumki do mazania",
       "Karteczki samoprzylepne"
