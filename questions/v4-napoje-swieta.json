@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "drink_m001",
+    "question": "Z jakiego kraju pochodzi drink Mojito?",
+    "answers": [
+      "Kuba",
+      "Meksyk",
+      "Brazylia",
+      "Hiszpania"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mojito narodziło się na Kubie, a jego bazą jest biały rum."
+  },
+  {
+    "id": "drink_m002",
+    "question": "Jakie zioło dodaje się do Mojito?",
+    "answers": [
+      "Bazylia",
+      "Mięta",
+      "Melisa",
+      "Rozmaryn"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Klasyczne Mojito to rum, limonka, cukier, mięta i woda gazowana."
+  },
+  {
+    "id": "drink_m003",
+    "question": "Z czym miesza się rum w drinku Cuba Libre?",
+    "answers": [
+      "Z tonikiem",
+      "Z sokiem pomarańczowym",
+      "Z colą",
+      "Z mlekiem kokosowym"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Cuba Libre to rum z colą i sokiem z limonki."
+  },
+  {
+    "id": "drink_m004",
+    "question": "Jaki alkohol jest bazą Margarity?",
+    "answers": [
+      "Rum",
+      "Wódka",
+      "Gin",
+      "Tequila"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Margarita to tequila, likier pomarańczowy i sok z limonki."
+  },
+  {
+    "id": "drink_m005",
+    "question": "Czym tradycyjnie obsypuje się brzeg kieliszka do Margarity?",
+    "answers": [
+      "Solą",
+      "Cukrem",
+      "Cynamonem",
+      "Kakao"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Brzeg kieliszka do Margarity zwilża się limonką i zanurza w soli."
+  },
+  {
+    "id": "drink_m006",
+    "question": "Jak nazywa się espresso rozcieńczone gorącą wodą?",
+    "answers": [
+      "Latte",
+      "Americano",
+      "Ristretto",
+      "Macchiato"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Americano to espresso dopełnione gorącą wodą."
+  },
+  {
+    "id": "drink_m007",
+    "question": "Z jakich owoców robi się klasyczny cydr?",
+    "answers": [
+      "Z winogron",
+      "Ze śliwek",
+      "Z jabłek",
+      "Z wiśni"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Cydr to napój ze sfermentowanego soku jabłkowego."
+  },
+  {
+    "id": "drink_m008",
+    "question": "Co jest podstawowym składnikiem miodu pitnego?",
+    "answers": [
+      "Syrop klonowy",
+      "Cukier trzcinowy",
+      "Słód jęczmienny",
+      "Miód"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Miód pitny powstaje z fermentacji miodu rozcieńczonego wodą."
+  },
+  {
+    "id": "drink_m009",
+    "question": "Jak nazywa się mieszanka piwa z lemoniadą?",
+    "answers": [
+      "Radler",
+      "Porter",
+      "Stout",
+      "Koźlak"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Radler to piwo zmieszane z lemoniadą lub sokiem."
+  },
+  {
+    "id": "drink_m010",
+    "question": "Z jakiego kraju pochodzi whisky typu Scotch?",
+    "answers": [
+      "Z Irlandii",
+      "Ze Szkocji",
+      "Z USA",
+      "Z Kanady"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa Scotch zastrzeżona jest dla whisky ze Szkocji."
+  },
+  {
+    "id": "drink_m011",
+    "question": "Który koktajl składa się z Aperolu, prosecco i wody gazowanej?",
+    "answers": [
+      "Negroni",
+      "Bellini",
+      "Aperol Spritz",
+      "Mimosa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Aperol Spritz to włoski aperitif o pomarańczowym kolorze."
+  },
+  {
+    "id": "drink_m012",
+    "question": "Czym aromatyzowana jest herbata Earl Grey?",
+    "answers": [
+      "Jaśminem",
+      "Wanilią",
+      "Cynamonem",
+      "Bergamotką"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Earl Grey to czarna herbata z olejkiem z bergamotki."
+  },
+  {
+    "id": "drink_m013",
+    "question": "Który napój firmy Coca-Cola ma smak cytrynowo-limonkowy?",
+    "answers": [
+      "Sprite",
+      "Fanta",
+      "Mirinda",
+      "7 Up"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Sprite to cytrynowo-limonkowa lemoniada z portfolio Coca-Coli."
+  },
+  {
+    "id": "drink_m014",
+    "question": "Jaki alkohol jest bazą drinka Bloody Mary?",
+    "answers": [
+      "Gin",
+      "Wódka",
+      "Rum",
+      "Whisky"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bloody Mary to wódka z sokiem pomidorowym i przyprawami."
+  },
+  {
+    "id": "drink_m015",
+    "question": "Z jakiego kraju pochodzi piwo Guinness?",
+    "answers": [
+      "Ze Szkocji",
+      "Z Anglii",
+      "Z Irlandii",
+      "Z Belgii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Guinness warzony jest w Dublinie od 1759 roku."
+  },
+  {
+    "id": "drink_m016",
+    "question": "Porto to wzmacniane wino z którego kraju?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Włoch",
+      "Z Grecji",
+      "Z Portugalii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Porto pochodzi z doliny Douro w Portugalii."
+  },
+  {
+    "id": "drink_m017",
+    "question": "Który włoski likier robi się ze skórek cytryn?",
+    "answers": [
+      "Limoncello",
+      "Sambuca",
+      "Amaretto",
+      "Frangelico"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Limoncello to likier cytrynowy z południa Włoch."
+  },
+  {
+    "id": "drink_m018",
+    "question": "Jaki drink zamawia James Bond, prosząc „wstrząśnięte, nie zmieszane”?",
+    "answers": [
+      "Mojito",
+      "Martini",
+      "Daiquiri",
+      "Cosmopolitan"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Agent 007 słynie z zamawiania wstrząśniętego martini."
+  },
+  {
+    "id": "drink_m019",
+    "question": "Czym jest Irish coffee?",
+    "answers": [
+      "Kawą z miętą",
+      "Herbatą z rumem",
+      "Kawą z whisky i śmietanką",
+      "Kawą z lodami"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Irish coffee to gorąca kawa z irlandzką whisky, cukrem i śmietanką."
+  },
+  {
+    "id": "drink_m020",
+    "question": "Z fermentacji czego powstaje tradycyjny kwas chlebowy?",
+    "answers": [
+      "Mleka",
+      "Buraków",
+      "Miodu",
+      "Chleba"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kwas chlebowy to lekko musujący napój ze sfermentowanego chleba żytniego."
+  },
+  {
+    "id": "drink_m021",
+    "question": "Kumys, napój stepów Azji, to sfermentowane mleko…",
+    "answers": [
+      "Klaczy",
+      "Krowiego",
+      "Koziego",
+      "Owczego"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kumys to sfermentowane mleko klaczy, popularne w stepach Azji Środkowej."
+  },
+  {
+    "id": "drink_m022",
+    "question": "Na bazie czego produkuje się polski likier Krupnik?",
+    "answers": [
+      "Wiśni",
+      "Miodu",
+      "Orzechów",
+      "Kawy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Krupnik to tradycyjny likier miodowo-korzenny."
+  },
+  {
+    "id": "drink_m023",
+    "question": "W którym kraju szczególnie popularna jest yerba mate?",
+    "answers": [
+      "W Hiszpanii",
+      "W Meksyku",
+      "W Argentynie",
+      "W Portugalii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Yerba mate pije się powszechnie w Argentynie, Urugwaju i Paragwaju."
+  },
+  {
+    "id": "drink_m024",
+    "question": "W jakim kraju powstała Fanta podczas II wojny światowej?",
+    "answers": [
+      "W USA",
+      "We Włoszech",
+      "W Wielkiej Brytanii",
+      "W Niemczech"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Fantę wymyślono w Niemczech, gdy zabrakło syropu do Coca-Coli."
+  },
+  {
+    "id": "drink_m025",
+    "question": "Co oznacza słowo „piña” w nazwie drinka Piña Colada?",
+    "answers": [
+      "Ananas",
+      "Kokos",
+      "Limonka",
+      "Banan"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Piña to po hiszpańsku ananas, główny smak tego drinka."
+  },
+  {
+    "id": "drink_m026",
+    "question": "Z jakiego kraju pochodzi herbata pu-erh?",
+    "answers": [
+      "Z Japonii",
+      "Z Chin",
+      "Z Indii",
+      "Ze Sri Lanki"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pu-erh to fermentowana herbata z chińskiej prowincji Junnan."
+  },
+  {
+    "id": "drink_m027",
+    "question": "W jakim kraju leży region herbaciany Darjeeling?",
+    "answers": [
+      "W Chinach",
+      "W Kenii",
+      "W Indiach",
+      "W Japonii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Darjeeling to region u podnóża Himalajów w Indiach."
+  },
+  {
+    "id": "drink_m028",
+    "question": "Jaka substancja nadaje tonikowi gorzki smak?",
+    "answers": [
+      "Kofeina",
+      "Tauryna",
+      "Teina",
+      "Chinina"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Chinina z kory chinowca odpowiada za gorycz toniku."
+  },
+  {
+    "id": "drink_m029",
+    "question": "Jak ogólnie nazywa się piwa dolnej fermentacji?",
+    "answers": [
+      "Lagery",
+      "Ale",
+      "Stouty",
+      "Weizeny"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Lagery fermentują w niższej temperaturze drożdżami dolnej fermentacji."
+  },
+  {
+    "id": "drink_m030",
+    "question": "W którym czeskim mieście narodził się styl piwa pils?",
+    "answers": [
+      "W Pradze",
+      "W Pilźnie",
+      "W Brnie",
+      "W Ołomuńcu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pierwszy pilzner uwarzono w Pilźnie w 1842 roku."
+  },
+  {
+    "id": "drink_m031",
+    "question": "W jakim kraju leży region winiarski Rioja?",
+    "answers": [
+      "We Włoszech",
+      "W Portugalii",
+      "W Hiszpanii",
+      "We Francji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rioja to jeden z najsłynniejszych regionów winiarskich Hiszpanii."
+  },
+  {
+    "id": "drink_m032",
+    "question": "Z jakiego regionu Włoch pochodzi wino Chianti?",
+    "answers": [
+      "Z Piemontu",
+      "Z Sycylii",
+      "Z Apulii",
+      "Z Toskanii"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Chianti produkuje się w Toskanii, głównie ze szczepu Sangiovese."
+  },
+  {
+    "id": "drink_m033",
+    "question": "Z jakiego kraju pochodzi słynne wino Tokaj?",
+    "answers": [
+      "Z Węgier",
+      "Z Rumunii",
+      "Z Austrii",
+      "Z Chorwacji"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tokaj to słodkie wino z węgierskiego regionu Tokaj-Hegyalja."
+  },
+  {
+    "id": "drink_m034",
+    "question": "Który z tych szczepów daje wino czerwone?",
+    "answers": [
+      "Chardonnay",
+      "Merlot",
+      "Sauvignon Blanc",
+      "Riesling"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Merlot to ciemny szczep, z którego robi się wina czerwone."
+  },
+  {
+    "id": "drink_m035",
+    "question": "Jak nazywa się espresso z odrobiną mlecznej pianki?",
+    "answers": [
+      "Americano",
+      "Lungo",
+      "Macchiato",
+      "Ristretto"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Macchiato po włosku znaczy „poplamione” – mlekiem."
+  },
+  {
+    "id": "drink_m036",
+    "question": "W jakim kraju rośnie krzew, z którego robi się rooibos?",
+    "answers": [
+      "W Kenii",
+      "W Indiach",
+      "W Chinach",
+      "W RPA"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rooibos to bezkofeinowy napar z krzewu z południowej Afryki."
+  },
+  {
+    "id": "drink_m037",
+    "question": "Jaki sok łączy się z musującym winem w koktajlu Mimosa?",
+    "answers": [
+      "Pomarańczowy",
+      "Brzoskwiniowy",
+      "Truskawkowy",
+      "Jabłkowy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mimosa to wino musujące z sokiem pomarańczowym."
+  },
+  {
+    "id": "drink_m038",
+    "question": "Jakie trzy składniki tworzą klasyczne Negroni?",
+    "answers": [
+      "Rum, cola, limonka",
+      "Gin, Campari, wermut",
+      "Wódka, kawa, likier",
+      "Tequila, sok, grenadyna"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Negroni to równe części ginu, Campari i czerwonego wermutu."
+  },
+  {
+    "id": "drink_m039",
+    "question": "Od czego wzięła się nazwa cappuccino?",
+    "answers": [
+      "Od wyspy Capri",
+      "Od nazwiska wynalazcy",
+      "Od habitów kapucynów",
+      "Od kształtu filiżanki"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kolor kawy z mlekiem przypominał brązowe habity zakonników kapucynów."
+  },
+  {
+    "id": "drink_m040",
+    "question": "Jak po niemiecku nazywa się piwo pszeniczne?",
+    "answers": [
+      "Bock",
+      "Kölsch",
+      "Dunkel",
+      "Weizen"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Weizen, czyli pszeniczne, to mętne piwo górnej fermentacji."
+  },
+  {
+    "id": "drink_m041",
+    "question": "W jakim kraju wymyślono kawę frappé?",
+    "answers": [
+      "W Grecji",
+      "We Włoszech",
+      "We Francji",
+      "W Hiszpanii"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Frappé powstało w 1957 roku w Salonikach z rozpuszczalnej kawy."
+  },
+  {
+    "id": "drink_m042",
+    "question": "Jak nazywa się tygielek do parzenia kawy po turecku?",
+    "answers": [
+      "Kawiarka",
+      "Dżezwa",
+      "Drip",
+      "Chemex"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kawę po turecku parzy się w małym tygielku z długą rączką – dżezwie."
+  },
+  {
+    "id": "drink_m043",
+    "question": "Z jakiej rośliny pochodzi zarówno czarna, jak i zielona herbata?",
+    "answers": [
+      "Z mięty pieprzowej",
+      "Z rumianku",
+      "Z kamelii chińskiej",
+      "Z ostrokrzewu paragwajskiego"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Czarna i zielona herbata to liście tego samego krzewu, inaczej obrabiane."
+  },
+  {
+    "id": "drink_m044",
+    "question": "W jakim mieście Jacob Schweppe założył firmę produkującą wodę gazowaną?",
+    "answers": [
+      "W Londynie",
+      "W Paryżu",
+      "W Wiedniu",
+      "W Genewie"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Schweppes powstał w Genewie w 1783 roku."
+  },
+  {
+    "id": "drink_m045",
+    "question": "Kto w 1767 roku opisał sposób nasycania wody dwutlenkiem węgla?",
+    "answers": [
+      "Joseph Priestley",
+      "Isaac Newton",
+      "Louis Pasteur",
+      "Alessandro Volta"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Priestley wynalazł wodę sodową, zawieszając naczynie nad kadzią z piwem."
+  },
+  {
+    "id": "drink_m046",
+    "question": "Jak nazywa się miód pitny o najwyższej zawartości miodu?",
+    "answers": [
+      "Dwójniak",
+      "Półtorak",
+      "Trójniak",
+      "Czwórniak"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Półtorak to jedna część miodu na pół części wody."
+  },
+  {
+    "id": "drink_m047",
+    "question": "Jaka roślina nadaje charakterystyczny smak absyntowi?",
+    "answers": [
+      "Lukrecja",
+      "Jałowiec",
+      "Piołun",
+      "Mięta"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Absynt to wysokoprocentowy trunek z bylicy piołun i anyżu."
+  },
+  {
+    "id": "drink_m048",
+    "question": "Jak nazywa się koktajl z prosecco i musu z białych brzoskwiń?",
+    "answers": [
+      "Mimosa",
+      "Rossini",
+      "Kir Royal",
+      "Bellini"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Bellini wymyślono w weneckim Harry’s Bar."
+  },
+  {
+    "id": "drink_m049",
+    "question": "Ziarna kawy kopi luwak przechodzą przez przewód pokarmowy jakiego zwierzęcia?",
+    "answers": [
+      "Łaskuna",
+      "Nietoperza",
+      "Słonia",
+      "Lemura"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kopi luwak to kawa z ziaren wydalonych przez łaskuna muzanga."
+  },
+  {
+    "id": "drink_m050",
+    "question": "W którym mieście w 1886 roku po raz pierwszy sprzedano Coca-Colę?",
+    "answers": [
+      "W Nowym Jorku",
+      "W Atlancie",
+      "W Chicago",
+      "W Bostonie"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Coca-Colę zaczęto sprzedawać w aptece w Atlancie w 1886 roku."
+  },
+  {
+    "id": "trad_m001",
+    "question": "Co leje się przez dziurkę od klucza w andrzejki?",
+    "answers": [
+      "Wosk",
+      "Miód",
+      "Mleko",
+      "Olej"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Z cienia zastygłego wosku wróży się przyszłość."
+  },
+  {
+    "id": "trad_m002",
+    "question": "Czym zajadamy się w Tłusty Czwartek?",
+    "answers": [
+      "Pierogami",
+      "Pączkami",
+      "Makowcem",
+      "Sernikiem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tłusty Czwartek to dzień jedzenia pączków i faworków."
+  },
+  {
+    "id": "trad_m003",
+    "question": "Jaką porę roku żegna się, topiąc Marzannę?",
+    "answers": [
+      "Jesień",
+      "Lato",
+      "Zimę",
+      "Wiosnę"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Topienie Marzanny to pożegnanie zimy i powitanie wiosny."
+  },
+  {
+    "id": "trad_m004",
+    "question": "Co tradycyjnie kładzie się pod obrus na Wigilię?",
+    "answers": [
+      "Mąkę",
+      "Igliwie",
+      "Pióra",
+      "Sianko"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sianko pod obrusem przypomina o żłobie, w którym urodził się Jezus."
+  },
+  {
+    "id": "trad_m005",
+    "question": "Czym dzielimy się przed wieczerzą wigilijną?",
+    "answers": [
+      "Opłatkiem",
+      "Chlebem",
+      "Jajkiem",
+      "Solą"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Łamanie się opłatkiem z życzeniami otwiera wieczerzę wigilijną."
+  },
+  {
+    "id": "trad_m006",
+    "question": "Na co według tradycji czeka się, by zacząć wieczerzę wigilijną?",
+    "answers": [
+      "Na północ",
+      "Na pierwszą gwiazdkę",
+      "Na bicie dzwonów",
+      "Na zachód słońca"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pierwsza gwiazdka nawiązuje do gwiazdy betlejemskiej."
+  },
+  {
+    "id": "trad_m007",
+    "question": "Jak nazywa się msza odprawiana o północy w Wigilię?",
+    "answers": [
+      "Rezurekcja",
+      "Roraty",
+      "Pasterka",
+      "Nieszpory"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pasterka upamiętnia pasterzy, którzy przyszli do Betlejem."
+  },
+  {
+    "id": "trad_m008",
+    "question": "Co święci się w Wielką Sobotę?",
+    "answers": [
+      "Palmy",
+      "Gromnice",
+      "Zioła",
+      "Pokarmy w koszyczku"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W Wielką Sobotę święci się koszyczek z jajkami, chlebem i solą."
+  },
+  {
+    "id": "trad_m009",
+    "question": "Co nadaje jajkom brązowy kolor w domowym farbowaniu?",
+    "answers": [
+      "Łupiny cebuli",
+      "Sok z buraków",
+      "Szpinak",
+      "Kurkuma"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gotowanie jajek w łupinach cebuli barwi je na brązowo."
+  },
+  {
+    "id": "trad_m010",
+    "question": "Jaka figurka zwierzęcia stoi w wielkanocnym koszyczku?",
+    "answers": [
+      "Kogut",
+      "Baranek",
+      "Gołąb",
+      "Kot"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Baranek z chorągiewką to symbol zmartwychwstałego Chrystusa."
+  },
+  {
+    "id": "trad_m011",
+    "question": "Czego według legendy szuka się w Noc Kupały?",
+    "answers": [
+      "Złotego runa",
+      "Czterolistnej koniczyny",
+      "Kwiatu paproci",
+      "Jemioły"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Znalezienie kwiatu paproci miało przynieść szczęście i bogactwo."
+  },
+  {
+    "id": "trad_m012",
+    "question": "Co dziewczęta puszczają na wodę w Noc Kupały?",
+    "answers": [
+      "Papierowe łódki",
+      "Pisanki",
+      "Kukły",
+      "Wianki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Puszczanie wianków na wodę było wróżbą miłosną."
+  },
+  {
+    "id": "trad_m013",
+    "question": "Którego dnia obchodzi się Halloween?",
+    "answers": [
+      "31 października",
+      "1 listopada",
+      "2 listopada",
+      "30 października"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Halloween przypada w wigilię Wszystkich Świętych."
+  },
+  {
+    "id": "trad_m014",
+    "question": "Co mówią dzieci, chodząc od drzwi do drzwi w Halloween?",
+    "answers": [
+      "Wesołych świąt",
+      "Cukierek albo psikus",
+      "Sto lat",
+      "Dzień dobry"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Angielskie „trick or treat” to po polsku „cukierek albo psikus”."
+  },
+  {
+    "id": "trad_m015",
+    "question": "Jak nazywa się hinduskie Święto Świateł?",
+    "answers": [
+      "Holi",
+      "Wesak",
+      "Diwali",
+      "Nowruz"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Podczas Diwali zapala się lampki oliwne i fajerwerki."
+  },
+  {
+    "id": "trad_m016",
+    "question": "Jaki kolor dominuje w dekoracjach Chińskiego Nowego Roku?",
+    "answers": [
+      "Biały",
+      "Czarny",
+      "Zielony",
+      "Czerwony"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Czerwień w Chinach symbolizuje szczęście i odpędza złe moce."
+  },
+  {
+    "id": "trad_m017",
+    "question": "Ile zwierząt jest w chińskim zodiaku?",
+    "answers": [
+      "12",
+      "10",
+      "8",
+      "13"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Chiński zodiak to cykl dwunastu zwierząt, po jednym na rok."
+  },
+  {
+    "id": "trad_m018",
+    "question": "Jak nazywa się meksykańskie Święto Zmarłych?",
+    "answers": [
+      "Cinco de Mayo",
+      "Día de los Muertos",
+      "La Tomatina",
+      "Semana Santa"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Día de los Muertos to radosne wspominanie zmarłych przodków."
+  },
+  {
+    "id": "trad_m019",
+    "question": "W którym mieście odbywa się Oktoberfest?",
+    "answers": [
+      "W Berlinie",
+      "W Wiedniu",
+      "W Monachium",
+      "W Kolonii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Oktoberfest to festyn ludowy na łące Theresienwiese w Monachium."
+  },
+  {
+    "id": "trad_m020",
+    "question": "Ile świec ma wieniec adwentowy?",
+    "answers": [
+      "3",
+      "5",
+      "7",
+      "4"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Cztery świece odpowiadają czterem niedzielom Adwentu."
+  },
+  {
+    "id": "trad_m021",
+    "question": "Którego dnia przypada wieczór andrzejkowy?",
+    "answers": [
+      "29 listopada",
+      "30 listopada",
+      "6 grudnia",
+      "1 grudnia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Andrzejki obchodzi się w wigilię św. Andrzeja, czyli 29 listopada."
+  },
+  {
+    "id": "trad_m022",
+    "question": "Jaki okres kończy się w Środę Popielcową?",
+    "answers": [
+      "Adwent",
+      "Karnawał",
+      "Wielki Post",
+      "Okres wielkanocny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Środa Popielcowa kończy karnawał i rozpoczyna Wielki Post."
+  },
+  {
+    "id": "trad_m023",
+    "question": "Jak nazywa się uroczysta msza poranna w Niedzielę Wielkanocną?",
+    "answers": [
+      "Pasterka",
+      "Roraty",
+      "Rezurekcja",
+      "Gorzkie żale"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rezurekcja z procesją ogłasza zmartwychwstanie."
+  },
+  {
+    "id": "trad_m024",
+    "question": "Jak nazywa się jajko ufarbowane na jeden kolor, bez wzorów?",
+    "answers": [
+      "Drapanka",
+      "Oklejanka",
+      "Wydmuszka",
+      "Kraszanka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kraszanki barwi się jednolicie, a wzory na nich można potem wydrapać."
+  },
+  {
+    "id": "trad_m025",
+    "question": "Jak nazywa się wydrążona dynia z wyciętą twarzą na Halloween?",
+    "answers": [
+      "Jack-o’-lantern",
+      "Trick-or-treat",
+      "Banshee",
+      "Poltergeist"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa pochodzi od irlandzkiej legendy o Skąpym Jacku."
+  },
+  {
+    "id": "trad_m026",
+    "question": "Podczas którego hinduskiego święta obsypuje się kolorowym proszkiem?",
+    "answers": [
+      "Diwali",
+      "Holi",
+      "Pongal",
+      "Onam"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Holi to wiosenne święto kolorów."
+  },
+  {
+    "id": "trad_m027",
+    "question": "Według jakiego kalendarza ustala się datę Chińskiego Nowego Roku?",
+    "answers": [
+      "Gregoriańskiego",
+      "Juliańskiego",
+      "Księżycowo-słonecznego",
+      "Majów"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Dlatego Chiński Nowy Rok wypada co roku innego dnia."
+  },
+  {
+    "id": "trad_m028",
+    "question": "Które zwierzę NIE należy do chińskiego zodiaku?",
+    "answers": [
+      "Szczur",
+      "Smok",
+      "Małpa",
+      "Kot"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W chińskim zodiaku jest szczur, ale nie ma kota."
+  },
+  {
+    "id": "trad_m029",
+    "question": "Z czego robi się ozdobne czaszki na meksykański Dzień Zmarłych?",
+    "answers": [
+      "Z cukru",
+      "Z wosku",
+      "Z porcelany",
+      "Z mydła"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Calaveras de azúcar to kolorowo zdobione czaszki z cukru."
+  },
+  {
+    "id": "trad_m030",
+    "question": "W którym miesiącu rozpoczyna się Oktoberfest?",
+    "answers": [
+      "W październiku",
+      "We wrześniu",
+      "W sierpniu",
+      "W listopadzie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mimo nazwy Oktoberfest startuje we wrześniu i kończy się na początku października."
+  },
+  {
+    "id": "trad_m031",
+    "question": "Którego dnia obchodzi się Dzień Świętego Patryka?",
+    "answers": [
+      "14 lutego",
+      "1 maja",
+      "17 marca",
+      "24 czerwca"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "17 marca to rocznica śmierci św. Patryka, patrona Irlandii."
+  },
+  {
+    "id": "trad_m032",
+    "question": "Z którego kraju upowszechnił się zwyczaj ubierania choinki?",
+    "answers": [
+      "Z Włoch",
+      "Ze Szwecji",
+      "Z Rosji",
+      "Z Niemiec"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Choinka przywędrowała do Polski z Niemiec na przełomie XVIII i XIX wieku."
+  },
+  {
+    "id": "trad_m033",
+    "question": "Jaka rogata postać chodzi z kolędnikami?",
+    "answers": [
+      "Turoń",
+      "Smok",
+      "Lajkonik",
+      "Jednorożec"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Turoń to kudłate zwierzę z rogami, symbol płodności i urodzaju."
+  },
+  {
+    "id": "trad_m034",
+    "question": "Wielkanoc przypada w niedzielę po pierwszej wiosennej…",
+    "answers": [
+      "Nowiu Księżyca",
+      "Pełni Księżyca",
+      "Burzy",
+      "Zaćmieniu Słońca"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wielkanoc to pierwsza niedziela po pierwszej wiosennej pełni."
+  },
+  {
+    "id": "trad_m035",
+    "question": "Jaki chrupiący przysmak, obok pączków, je się w Tłusty Czwartek?",
+    "answers": [
+      "Makowiec",
+      "Kutię",
+      "Faworki",
+      "Mazurek"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Faworki, czyli chrust, smaży się w głębokim tłuszczu."
+  },
+  {
+    "id": "trad_m036",
+    "question": "Jak nazywa się zabawa w ostatni wtorek karnawału?",
+    "answers": [
+      "Dożynki",
+      "Zaduszki",
+      "Roraty",
+      "Ostatki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Ostatki to ostatnia huczna zabawa przed Wielkim Postem."
+  },
+  {
+    "id": "trad_m037",
+    "question": "W jakim okresie odprawia się msze roratnie?",
+    "answers": [
+      "W Adwencie",
+      "W Wielkim Poście",
+      "W karnawale",
+      "W okresie wielkanocnym"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Roraty to poranne msze adwentowe przy lampionach."
+  },
+  {
+    "id": "trad_m038",
+    "question": "Ile winogron je się w Hiszpanii o północy w sylwestra?",
+    "answers": [
+      "7",
+      "12",
+      "10",
+      "3"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Każde winogrono z dwunastu uderzeń zegara to szczęście na jeden miesiąc."
+  },
+  {
+    "id": "trad_m039",
+    "question": "Jak nazywa się japoński zwyczaj podziwiania kwitnących wiśni?",
+    "answers": [
+      "Obon",
+      "Tanabata",
+      "Hanami",
+      "Setsubun"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Hanami to wiosenne pikniki pod kwitnącymi drzewami sakury."
+  },
+  {
+    "id": "trad_m040",
+    "question": "Co oznacza łacińskie słowo „vigilia”, od którego pochodzi Wigilia?",
+    "answers": [
+      "Wieczerzę",
+      "Narodziny",
+      "Gwiazdę",
+      "Czuwanie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wigilia to dzień czuwania w oczekiwaniu na święto."
+  },
+  {
+    "id": "trad_m041",
+    "question": "Z jakiego celtyckiego święta wywodzi się Halloween?",
+    "answers": [
+      "Samhain",
+      "Beltane",
+      "Imbolc",
+      "Lughnasadh"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Samhain kończył rok u Celtów, gdy granica ze światem zmarłych miała się zacierać."
+  },
+  {
+    "id": "trad_m042",
+    "question": "Jakie pomarańczowe kwiaty zdobią ołtarze w Día de los Muertos?",
+    "answers": [
+      "Tulipany",
+      "Aksamitki",
+      "Róże",
+      "Słoneczniki"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Aksamitki, zwane cempasúchil, mają zapachem prowadzić dusze do domu."
+  },
+  {
+    "id": "trad_m043",
+    "question": "Jakie wydarzenie uczcił pierwszy Oktoberfest w 1810 roku?",
+    "answers": [
+      "Koronację cesarza",
+      "Koniec wojen napoleońskich",
+      "Ślub księcia Ludwika",
+      "Otwarcie browaru"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pierwszy Oktoberfest uświetnił ślub bawarskiego księcia Ludwika z Teresą."
+  },
+  {
+    "id": "trad_m044",
+    "question": "Którego świętej dzień obchodzi się w Szwecji 13 grudnia z wieńcem świec na głowie?",
+    "answers": [
+      "Św. Barbary",
+      "Św. Agnieszki",
+      "Św. Katarzyny",
+      "Św. Łucji"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "W dzień św. Łucji dziewczęta w bieli noszą wianki ze świecami."
+  },
+  {
+    "id": "trad_m045",
+    "question": "Ile ramion ma świecznik chanukowy?",
+    "answers": [
+      "9",
+      "7",
+      "8",
+      "12"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Chanukija ma osiem ramion na kolejne dni i dziewiąte na świecę pomocniczą."
+  },
+  {
+    "id": "trad_m046",
+    "question": "W którym kraju obchodzi się Songkran, święto oblewania się wodą?",
+    "answers": [
+      "W Japonii",
+      "W Tajlandii",
+      "W Indiach",
+      "W Korei"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Songkran to tajski Nowy Rok obchodzony w kwietniu."
+  },
+  {
+    "id": "trad_m047",
+    "question": "Kiedy przypada Nowruz, perski Nowy Rok?",
+    "answers": [
+      "1 stycznia",
+      "W przesilenie zimowe",
+      "W równonoc wiosenną",
+      "1 maja"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Nowruz oznacza „nowy dzień” i rozpoczyna się z nadejściem wiosny."
+  },
+  {
+    "id": "trad_m048",
+    "question": "Kto we Włoszech przynosi dzieciom prezenty 6 stycznia?",
+    "answers": [
+      "Dziadek Mróz",
+      "Krampus",
+      "Gwiazdor",
+      "Befana"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Befana to dobra czarownica latająca na miotle w Święto Trzech Króli."
+  },
+  {
+    "id": "trad_m049",
+    "question": "Jak nazywa się rogaty demon towarzyszący św. Mikołajowi w Alpach?",
+    "answers": [
+      "Krampus",
+      "Turoń",
+      "Kobold",
+      "Golem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Krampus straszy niegrzeczne dzieci w Austrii i Bawarii."
+  },
+  {
+    "id": "trad_m050",
+    "question": "Jak nazywa się szkockie świętowanie sylwestra?",
+    "answers": [
+      "Burns Night",
+      "Hogmanay",
+      "Beltane",
+      "Ceilidh"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Hogmanay to szkocki sylwester z pochodniami i pieśnią „Auld Lang Syne”."
+  }
+]
