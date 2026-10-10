@@ -65,19 +65,6 @@
     "explanation": "Reglamentację mięsa zakończono latem 1989 r., u schyłku PRL."
   },
   {
-    "id": "prl_g006",
-    "question": "Jak potocznie nazywano Fiata 126p?",
-    "answers": [
-      "Maluch",
-      "Garbus",
-      "Ogórek",
-      "Biedronka"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Fiat 126p, produkowany w Polsce od 1973 r., to legendarny „maluch”."
-  },
-  {
     "id": "prl_g007",
     "question": "Jak nazywano autobus Jelcz z PRL o charakterystycznym, podłużnym kształcie?",
     "answers": [
@@ -429,19 +416,6 @@
     "explanation": "Miś Uszatek, bohater dobranocki Se-ma-fora, rozpoznawalny jest po klapniętym uchu."
   },
   {
-    "id": "prl_g034",
-    "question": "Który zespół disco polo śpiewał przebój „Jesteś szalona”?",
-    "answers": [
-      "Akcent",
-      "Bayer Full",
-      "Top One",
-      "Boys"
-    ],
-    "correct": 3,
-    "difficulty": "medium",
-    "explanation": "„Jesteś szalona” to największy hit zespołu Boys Marcina Millera."
-  },
-  {
     "id": "prl_g035",
     "question": "W którym teleturnieju Polsatu za bramką mógł czekać Zonk?",
     "answers": [
@@ -507,19 +481,6 @@
     "explanation": "Pierwszy Finał Wielkiej Orkiestry Świątecznej Pomocy odbył się w styczniu 1993 r."
   },
   {
-    "id": "prl_g040",
-    "question": "W którym kraju produkowano Trabanta?",
-    "answers": [
-      "Czechosłowacja",
-      "ZSRR",
-      "NRD",
-      "Węgry"
-    ],
-    "correct": 2,
-    "difficulty": "easy",
-    "explanation": "Trabant powstawał w zakładach w Zwickau w Niemczech Wschodnich."
-  },
-  {
     "id": "prl_g041",
     "question": "Pod jaką nazwą działały w PRL zakłady E. Wedel?",
     "answers": [
@@ -544,19 +505,6 @@
     "correct": 1,
     "difficulty": "hard",
     "explanation": "Rubin to radziecka marka telewizorów, także kolorowych."
-  },
-  {
-    "id": "prl_g043",
-    "question": "Z którego filmu pochodzi tekst „Bo to zła kobieta była”?",
-    "answers": [
-      "Psy",
-      "Kiler",
-      "Sara",
-      "Chłopaki nie płaczą"
-    ],
-    "correct": 0,
-    "difficulty": "medium",
-    "explanation": "Te słowa padają w „Psach” Władysława Pasikowskiego z 1992 r."
   },
   {
     "id": "prl_g044",
@@ -1272,19 +1220,6 @@
     "correct": 0,
     "difficulty": "hard",
     "explanation": "Polski alfabet ma 32 litery – bez q, v i x."
-  },
-  {
-    "id": "lang_g049",
-    "question": "Kto napisał: „Polacy nie gęsi, iż swój język mają”?",
-    "answers": [
-      "Mikołaj Rej",
-      "Jan Kochanowski",
-      "Ignacy Krasicki",
-      "Jan Długosz"
-    ],
-    "correct": 0,
-    "difficulty": "medium",
-    "explanation": "Rej, zwany ojcem literatury polskiej, pisał po polsku, a nie po łacinie."
   },
   {
     "id": "lang_g050",

@@ -468,19 +468,6 @@
     "explanation": "Dokonali tego w Krakowie w 1883 roku."
   },
   {
-    "id": "sci_l037",
-    "question": "Co skonstruował Ignacy Łukasiewicz?",
-    "answers": [
-      "Lampę naftową",
-      "Żarówkę",
-      "Telegraf",
-      "Prądnicę"
-    ],
-    "correct": 0,
-    "difficulty": "hard",
-    "explanation": "Łukasiewicz skonstruował lampę naftową w 1853 roku we Lwowie."
-  },
-  {
     "id": "sci_l038",
     "question": "Z czym kojarzy się nazwisko Jana Czochralskiego?",
     "answers": [

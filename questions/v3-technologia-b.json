@@ -286,19 +286,6 @@
     "explanation": "AlphaGo firmy DeepMind wygrał ten mecz 4:1."
   },
   {
-    "id": "it_b023",
-    "question": "Z jakiego języka pochodzi słowo „robot”, spopularyzowane przez Karela Čapka?",
-    "answers": [
-      "Z czeskiego",
-      "Z japońskiego",
-      "Z niemieckiego",
-      "Z rosyjskiego"
-    ],
-    "correct": 0,
-    "difficulty": "medium",
-    "explanation": "Słowo pochodzi od czeskiego „robota”, czyli pańszczyzna, ciężka praca."
-  },
-  {
     "id": "it_b024",
     "question": "Kto sformułował słynne trzy prawa robotyki?",
     "answers": [
@@ -544,19 +531,6 @@
     "correct": 2,
     "difficulty": "easy",
     "explanation": "Pierwszy Xbox trafił do sklepów w 2001 roku."
-  },
-  {
-    "id": "it_b043",
-    "question": "Jak nazywa się niebieski jeż, maskotka firmy Sega?",
-    "answers": [
-      "Crash",
-      "Tails",
-      "Spyro",
-      "Sonic"
-    ],
-    "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Sonic zadebiutował w 1991 roku jako rywal Mario."
   },
   {
     "id": "it_b044",

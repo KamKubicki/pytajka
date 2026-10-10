@@ -325,19 +325,6 @@
     "explanation": "Przed elekcją Stefan Batory był księciem Siedmiogrodu, dziś części Rumunii."
   },
   {
-    "id": "hist_world_k001",
-    "question": "Kto w XV wieku wynalazł w Europie druk ruchomą czcionką?",
-    "answers": [
-      "Jan Gutenberg",
-      "Leonardo da Vinci",
-      "Galileusz",
-      "Marcin Luter"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Gutenberg wydrukował w Moguncji słynną Biblię około 1455 roku."
-  },
-  {
     "id": "hist_world_k002",
     "question": "Które starożytne miasto zdobyto podstępem z drewnianym koniem?",
     "answers": [
@@ -351,19 +338,6 @@
     "explanation": "Według mitu Grecy ukryli wojowników w drewnianym koniu podarowanym Trojanom."
   },
   {
-    "id": "hist_world_k003",
-    "question": "Jak nazywał się pierwszy sztuczny satelita Ziemi, wystrzelony w 1957 roku?",
-    "answers": [
-      "Explorer 1",
-      "Wostok 1",
-      "Sputnik 1",
-      "Apollo 1"
-    ],
-    "correct": 2,
-    "difficulty": "easy",
-    "explanation": "Radziecki Sputnik 1 rozpoczął erę podboju kosmosu."
-  },
-  {
     "id": "hist_world_k004",
     "question": "Który kraj podarował Stanom Zjednoczonym Statuę Wolności?",
     "answers": [
@@ -375,19 +349,6 @@
     "correct": 1,
     "difficulty": "easy",
     "explanation": "Statua Wolności była prezentem od Francji na stulecie niepodległości USA."
-  },
-  {
-    "id": "hist_world_k005",
-    "question": "Kto jako pierwszy człowiek postawił stopę na Księżycu?",
-    "answers": [
-      "Neil Armstrong",
-      "Buzz Aldrin",
-      "Michael Collins",
-      "Jurij Gagarin"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Neil Armstrong wyszedł na powierzchnię Księżyca podczas misji Apollo 11."
   },
   {
     "id": "hist_world_k006",
@@ -557,19 +518,6 @@
     "correct": 3,
     "difficulty": "medium",
     "explanation": "Łajka poleciała na pokładzie Sputnika 2."
-  },
-  {
-    "id": "hist_world_k019",
-    "question": "Jak nazywała się pierwsza kobieta, która poleciała w kosmos?",
-    "answers": [
-      "Sally Ride",
-      "Swietłana Sawicka",
-      "Walentina Tierieszkowa",
-      "Mae Jemison"
-    ],
-    "correct": 2,
-    "difficulty": "medium",
-    "explanation": "Walentina Tierieszkowa poleciała w kosmos w 1963 roku na statku Wostok 6."
   },
   {
     "id": "hist_world_k020",

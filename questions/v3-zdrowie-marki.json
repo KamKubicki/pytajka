@@ -143,19 +143,6 @@
     "explanation": "Za odkrycie promieni X Röntgen otrzymał pierwszą w historii Nagrodę Nobla z fizyki."
   },
   {
-    "id": "med_j012",
-    "question": "W jakim mieście urodziła się Maria Skłodowska-Curie?",
-    "answers": [
-      "W Krakowie",
-      "W Paryżu",
-      "W Warszawie",
-      "W Wilnie"
-    ],
-    "correct": 2,
-    "difficulty": "easy",
-    "explanation": "Maria Skłodowska urodziła się w 1867 roku w Warszawie przy ulicy Freta."
-  },
-  {
     "id": "med_j013",
     "question": "Jaki numer ma w Polsce pogotowie ratunkowe (obok 112)?",
     "answers": [

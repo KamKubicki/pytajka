@@ -1157,19 +1157,6 @@
     "explanation": "Nori to suszone i sprasowane wodorosty."
   },
   {
-    "id": "food_d040",
-    "question": "Jak nazywa się piąty podstawowy smak, kojarzony z bulionem i sosem sojowym?",
-    "answers": [
-      "Kokumi",
-      "Umami",
-      "Miso",
-      "Wasabi"
-    ],
-    "correct": 1,
-    "difficulty": "medium",
-    "explanation": "Umami opisał japoński chemik Kikunae Ikeda – to smak glutaminianów."
-  },
-  {
     "id": "food_d041",
     "question": "Czym było garum w starożytnym Rzymie?",
     "answers": [
