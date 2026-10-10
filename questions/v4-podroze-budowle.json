@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "travel_m001",
+    "question": "W którym mieście znajduje się Koloseum?",
+    "answers": [
+      "Ateny",
+      "Neapol",
+      "Rzym",
+      "Florencja"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Koloseum to starożytny amfiteatr w centrum Rzymu."
+  },
+  {
+    "id": "travel_m002",
+    "question": "Do której fontanny turyści wrzucają monetę, by kiedyś wrócić do Rzymu?",
+    "answers": [
+      "Fontanna di Trevi",
+      "Fontanna Czterech Rzek",
+      "Fontanna Trytona",
+      "Fontanna Neptuna"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Według tradycji moneta wrzucona do Fontanny di Trevi zapewnia powrót do Rzymu."
+  },
+  {
+    "id": "travel_m003",
+    "question": "Jak nazywają się tradycyjne łodzie wiosłowe pływające po kanałach Wenecji?",
+    "answers": [
+      "Dżonki",
+      "Gondole",
+      "Feluki",
+      "Pirogi"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Gondola, prowadzona przez gondoliera jednym wiosłem, to symbol Wenecji."
+  },
+  {
+    "id": "travel_m004",
+    "question": "W którym mieście stoi figurka siusiającego chłopca Manneken Pis?",
+    "answers": [
+      "Amsterdam",
+      "Antwerpia",
+      "Kopenhaga",
+      "Bruksela"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Manneken Pis to brązowa figurka i jeden z symboli Brukseli."
+  },
+  {
+    "id": "travel_m005",
+    "question": "Na bagażu masz przywieszkę z kodem JFK. Dokąd lecisz?",
+    "answers": [
+      "Do Waszyngtonu",
+      "Do Bostonu",
+      "Do Nowego Jorku",
+      "Do Chicago"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Lotnisko im. Johna F. Kennedy'ego to główny port lotniczy Nowego Jorku."
+  },
+  {
+    "id": "travel_m006",
+    "question": "W którym kraju jeżdżą szybkie pociągi Shinkansen?",
+    "answers": [
+      "W Chinach",
+      "W Korei Południowej",
+      "We Francji",
+      "W Japonii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Shinkansen to japońska sieć kolei dużych prędkości, uruchomiona w 1964 roku."
+  },
+  {
+    "id": "travel_m007",
+    "question": "Które dwa kraje łączy Eurotunel?",
+    "answers": [
+      "Francję i Belgię",
+      "Danię i Szwecję",
+      "Holandię i Wielką Brytanię",
+      "Francję i Wielką Brytanię"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Eurotunel biegnie pod kanałem La Manche między Francją a Wielką Brytanią."
+  },
+  {
+    "id": "travel_m008",
+    "question": "W którym mieście znajduje się deptak Krupówki?",
+    "answers": [
+      "W Szczawnicy",
+      "W Karpaczu",
+      "W Zakopanem",
+      "W Wiśle"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Krupówki to główna ulica spacerowa Zakopanego."
+  },
+  {
+    "id": "travel_m009",
+    "question": "Jak nazywa się góralska laska z toporkiem, popularna pamiątka z Podhala?",
+    "answers": [
+      "Ciupaga",
+      "Buzdygan",
+      "Kostur",
+      "Pastorał"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Ciupaga to tradycyjna laska góralska zakończona małym toporkiem."
+  },
+  {
+    "id": "travel_m010",
+    "question": "Jakie zwierzęta można oglądać w słynnym fokarium na Helu?",
+    "answers": [
+      "Delfiny",
+      "Morsy",
+      "Pingwiny",
+      "Foki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Fokarium Stacji Morskiej w Helu zajmuje się ochroną fok bałtyckich."
+  },
+  {
+    "id": "travel_m011",
+    "question": "Przez którą dzielnicę Londynu przebiega południk zerowy?",
+    "answers": [
+      "Soho",
+      "Chelsea",
+      "Greenwich",
+      "Camden"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Południk zerowy wyznaczono przez obserwatorium w Greenwich."
+  },
+  {
+    "id": "travel_m012",
+    "question": "Która fontanna jest symbolem Długiego Targu w Gdańsku?",
+    "answers": [
+      "Fontanna Syreny",
+      "Fontanna Neptuna",
+      "Fontanna Posejdona",
+      "Fontanna Trytona"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fontanna Neptuna stoi przed Dworem Artusa na Długim Targu."
+  },
+  {
+    "id": "travel_m013",
+    "question": "W którym mieście odbywa się święto piwa Oktoberfest?",
+    "answers": [
+      "W Monachium",
+      "W Berlinie",
+      "W Wiedniu",
+      "W Pradze"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Oktoberfest odbywa się w Monachium od 1810 roku."
+  },
+  {
+    "id": "travel_m014",
+    "question": "Jak nazywa się popołudniowa przerwa na odpoczynek, typowa dla Hiszpanii?",
+    "answers": [
+      "Fiesta",
+      "Sjesta",
+      "Corrida",
+      "Tapas"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sjesta to tradycyjny popołudniowy odpoczynek w najgorętszej porze dnia."
+  },
+  {
+    "id": "travel_m015",
+    "question": "W którym mieście można zwiedzić Dom Anny Frank?",
+    "answers": [
+      "W Berlinie",
+      "W Brukseli",
+      "We Frankfurcie",
+      "W Amsterdamie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Anne Frank ukrywała się z rodziną w kamienicy przy kanale Prinsengracht w Amsterdamie."
+  },
+  {
+    "id": "travel_m016",
+    "question": "Do którego kraju należy wyspa Santorini?",
+    "answers": [
+      "Do Włoch",
+      "Do Cypru",
+      "Do Grecji",
+      "Do Turcji"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Santorini to grecka wyspa na Morzu Egejskim, słynąca z białych domów."
+  },
+  {
+    "id": "travel_m017",
+    "question": "W którym kraju znajduje się święta czerwona skała Uluru?",
+    "answers": [
+      "W Nowej Zelandii",
+      "W RPA",
+      "W Chile",
+      "W Australii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Uluru to monolit w środkowej Australii, święte miejsce Aborygenów."
+  },
+  {
+    "id": "travel_m018",
+    "question": "W którym mieście odbywa się słynny karnawał z paradami szkół samby?",
+    "answers": [
+      "W Rio de Janeiro",
+      "W Buenos Aires",
+      "W Limie",
+      "W Hawanie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Karnawał w Rio de Janeiro słynie z parad szkół samby na Sambodromie."
+  },
+  {
+    "id": "travel_m019",
+    "question": "W którym kraju obchodzi się Día de Muertos z kolorowymi czaszkami?",
+    "answers": [
+      "W Hiszpanii",
+      "W Brazylii",
+      "Na Kubie",
+      "W Meksyku"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Día de Muertos to meksykańskie Święto Zmarłych wpisane na listę UNESCO."
+  },
+  {
+    "id": "travel_m020",
+    "question": "Z jakich drewnianych budowli z solanką słynie uzdrowisko Ciechocinek?",
+    "answers": [
+      "Z mol",
+      "Z tężni",
+      "Z wiatraków",
+      "Z latarni"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tężnie w Ciechocinku służą do odparowywania solanki i inhalacji."
+  },
+  {
+    "id": "travel_m021",
+    "question": "Którego miasta lotnisko ma kod IATA LHR?",
+    "answers": [
+      "Los Angeles",
+      "Londynu",
+      "Lizbony",
+      "Lyonu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "LHR to kod londyńskiego lotniska Heathrow."
+  },
+  {
+    "id": "travel_m022",
+    "question": "Kod LAX na karcie pokładowej oznacza lot do…",
+    "answers": [
+      "Los Angeles",
+      "Las Vegas",
+      "Lagos",
+      "Lizbony"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "LAX to główne lotnisko Los Angeles."
+  },
+  {
+    "id": "travel_m023",
+    "question": "Które polskie lotnisko oznaczone jest kodem WRO?",
+    "answers": [
+      "Wrocław",
+      "Warszawa-Radom",
+      "Rzeszów",
+      "Olsztyn-Mazury"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "WRO to kod Portu Lotniczego Wrocław."
+  },
+  {
+    "id": "travel_m024",
+    "question": "Jaką strefę czasową ma Polska zimą?",
+    "answers": [
+      "UTC+0",
+      "UTC+2",
+      "UTC+1",
+      "UTC+3"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zimą Polska używa czasu środkowoeuropejskiego, czyli UTC+1."
+  },
+  {
+    "id": "travel_m025",
+    "question": "W którym kraju leży miejscowość, od której wziął nazwę układ z Schengen?",
+    "answers": [
+      "W Belgii",
+      "W Luksemburgu",
+      "W Szwajcarii",
+      "W Holandii"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Schengen to wioska w Luksemburgu, gdzie w 1985 roku podpisano układ."
+  },
+  {
+    "id": "travel_m026",
+    "question": "Do którego miasta prowadziła klasyczna trasa Orient Expressu z Paryża?",
+    "answers": [
+      "Do Konstantynopola",
+      "Do Moskwy",
+      "Do Aten",
+      "Do Rzymu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Orient Express od 1883 roku łączył Paryż z Konstantynopolem, dzisiejszym Stambułem."
+  },
+  {
+    "id": "travel_m027",
+    "question": "W którym mieście kończy się Kolej Transsyberyjska, biegnąca z Moskwy?",
+    "answers": [
+      "We Władywostoku",
+      "W Irkucku",
+      "W Nowosybirsku",
+      "W Chabarowsku"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kolej Transsyberyjska łączy Moskwę z Władywostokiem nad Pacyfikiem."
+  },
+  {
+    "id": "travel_m028",
+    "question": "Jak nazywają się bezleśne łąki na grzbietach Bieszczadów?",
+    "answers": [
+      "Hale",
+      "Turnie",
+      "Grapy",
+      "Połoniny"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Połoniny to charakterystyczne trawiaste piętro szczytowe Bieszczadów."
+  },
+  {
+    "id": "travel_m029",
+    "question": "Który szlak uchodzi za najtrudniejszy znakowany szlak w polskich Tatrach?",
+    "answers": [
+      "Orla Perć",
+      "Droga pod Reglami",
+      "Dolina Kościeliska",
+      "Ścieżka nad Reglami"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Orla Perć to eksponowany szlak pełen łańcuchów i klamer."
+  },
+  {
+    "id": "travel_m030",
+    "question": "Co stoi pośrodku Rynku Starego Miasta w Warszawie?",
+    "answers": [
+      "Kolumna Zygmunta",
+      "Pomnik Mickiewicza",
+      "Pomnik Syrenki",
+      "Ratusz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pomnik Syrenki to symbol Warszawy stojący na Rynku Starego Miasta."
+  },
+  {
+    "id": "travel_m031",
+    "question": "Jak nazywa się trójkołowa motoryksza, popularna taksówka w Tajlandii?",
+    "answers": [
+      "Tuk-tuk",
+      "Jeepney",
+      "Dolmusz",
+      "Matatu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tuk-tuk to charakterystyczna motoryksza, której nazwa naśladuje dźwięk silnika."
+  },
+  {
+    "id": "travel_m032",
+    "question": "W którym mieście w parku Prater kręci się zabytkowy diabelski młyn Riesenrad?",
+    "answers": [
+      "W Monachium",
+      "W Wiedniu",
+      "W Budapeszcie",
+      "W Zurychu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Riesenrad stoi w wiedeńskim Praterze od 1897 roku."
+  },
+  {
+    "id": "travel_m033",
+    "question": "W którym mieście na ratuszu działa średniowieczny zegar astronomiczny Orloj?",
+    "answers": [
+      "W Krakowie",
+      "W Brnie",
+      "W Pradze",
+      "W Bratysławie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Praski Orloj z 1410 roku to jeden z najstarszych działających zegarów astronomicznych."
+  },
+  {
+    "id": "travel_m034",
+    "question": "W którym stanie USA leży Wielki Kanion?",
+    "answers": [
+      "W Nevadzie",
+      "W Arizonie",
+      "W Utah",
+      "W Kolorado"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wielki Kanion wyżłobiony przez rzekę Kolorado leży w Arizonie."
+  },
+  {
+    "id": "travel_m035",
+    "question": "Do którego miasta prowadzi pielgrzymi szlak Camino?",
+    "answers": [
+      "Do Fatimy",
+      "Do Santiago de Compostela",
+      "Do Lourdes",
+      "Do Asyżu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Szlak św. Jakuba prowadzi do grobu apostoła w Santiago de Compostela."
+  },
+  {
+    "id": "travel_m036",
+    "question": "Wzdłuż którego południka w przybliżeniu przebiega międzynarodowa linia zmiany daty?",
+    "answers": [
+      "0°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Linia zmiany daty biegnie głównie wzdłuż południka 180°, z odchyleniami."
+  },
+  {
+    "id": "travel_m037",
+    "question": "Jak nazywa się pociąg łączący Londyn z Paryżem przez Eurotunel?",
+    "answers": [
+      "Thalys",
+      "TGV Lyria",
+      "Eurostar",
+      "Intercity Express"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Eurostar kursuje przez Eurotunel od 1994 roku."
+  },
+  {
+    "id": "travel_m038",
+    "question": "Do jakiego miasta lata się, wybierając lotnisko o kodzie IATA DXB?",
+    "answers": [
+      "Do Dublina",
+      "Do Dohy",
+      "Do Dubaju",
+      "Do Dakaru"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "DXB to kod międzynarodowego lotniska w Dubaju."
+  },
+  {
+    "id": "travel_m039",
+    "question": "W którym mieście stoi norweska Świątynia Wang?",
+    "answers": [
+      "W Szklarskiej Porębie",
+      "W Zakopanem",
+      "W Karpaczu",
+      "W Wiśle"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Drewnianą świątynię przeniesiono z Norwegii do Karpacza w XIX wieku."
+  },
+  {
+    "id": "travel_m040",
+    "question": "W którym mieście podczas fiesty San Fermín odbywa się gonitwa byków?",
+    "answers": [
+      "W Sewilli",
+      "W Madrycie",
+      "W Walencji",
+      "W Pampelunie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Encierro, czyli gonitwa byków, odbywa się co roku w lipcu w Pampelunie."
+  },
+  {
+    "id": "travel_m041",
+    "question": "Kod FCO na bilecie lotniczym oznacza przylot do…",
+    "answers": [
+      "Mediolanu",
+      "Wenecji",
+      "Rzymu",
+      "Neapolu"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "FCO to kod rzymskiego lotniska Fiumicino im. Leonarda da Vinci."
+  },
+  {
+    "id": "travel_m042",
+    "question": "Jaki kod IATA ma lotnisko Katowice-Pyrzowice?",
+    "answers": [
+      "KAT",
+      "KTW",
+      "KTO",
+      "PYR"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Port Lotniczy Katowice w Pyrzowicach ma kod KTW."
+  },
+  {
+    "id": "travel_m043",
+    "question": "Jak nazywa się elektroniczne zezwolenie na podróż do USA w ruchu bezwizowym?",
+    "answers": [
+      "ETIAS",
+      "eTA",
+      "Green Card",
+      "ESTA"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "ESTA to elektroniczny system autoryzacji podróży do USA."
+  },
+  {
+    "id": "travel_m044",
+    "question": "Jak nazywa się najdłuższy szlak w polskich górach, z Ustronia do Wołosatego?",
+    "answers": [
+      "Główny Szlak Beskidzki",
+      "Główny Szlak Sudecki",
+      "Szlak Orlich Gniazd",
+      "Szlak Karpacki"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Główny Szlak Beskidzki ma około 500 km i biegnie przez całe polskie Beskidy."
+  },
+  {
+    "id": "travel_m045",
+    "question": "Jak nazywa się słynny panoramiczny pociąg ze Zermatt do St. Moritz?",
+    "answers": [
+      "Bernina Express",
+      "Glacier Express",
+      "Orient Express",
+      "Golden Pass"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Glacier Express przejeżdża przez Alpy Szwajcarskie, ze Zermatt do St. Moritz."
+  },
+  {
+    "id": "travel_m046",
+    "question": "Która linia zabytkowego tramwaju jest atrakcją turystyczną Lizbony?",
+    "answers": [
+      "Linia 28",
+      "Linia 7",
+      "Linia 12",
+      "Linia 33"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Żółte wagony linii 28 przejeżdżają przez najstarsze dzielnice Lizbony."
+  },
+  {
+    "id": "travel_m047",
+    "question": "Jak nazywa się słynny nadmorski bulwar w Nicei?",
+    "answers": [
+      "Croisette",
+      "Promenada Anglików",
+      "Ramblas",
+      "Champs-Élysées"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Promenade des Anglais ciągnie się wzdłuż Zatoki Aniołów w Nicei."
+  },
+  {
+    "id": "travel_m048",
+    "question": "Na której wyspie leży miasto Funchal?",
+    "answers": [
+      "Na Teneryfie",
+      "Na Maderze",
+      "Na Malcie",
+      "Na Korsyce"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Funchal to stolica portugalskiej Madery."
+  },
+  {
+    "id": "travel_m049",
+    "question": "Jak nazywa się słynna dzielnica gejsz w Kioto?",
+    "answers": [
+      "Shibuya",
+      "Ginza",
+      "Akihabara",
+      "Gion"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Gion to historyczna dzielnica Kioto, znana z herbaciarni i gejsz."
+  },
+  {
+    "id": "travel_m050",
+    "question": "W którym hiszpańskim miasteczku odbywa się bitwa na pomidory La Tomatina?",
+    "answers": [
+      "W Buñol",
+      "W Pampelunie",
+      "W Toledo",
+      "W Rondzie"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "La Tomatina odbywa się w ostatnią środę sierpnia w Buñol koło Walencji."
+  },
+  {
+    "id": "build_m001",
+    "question": "Czym jest Tadż Mahal?",
+    "answers": [
+      "Pałacem królewskim",
+      "Mauzoleum",
+      "Twierdzą",
+      "Klasztorem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Szahdżahan wzniósł Tadż Mahal jako mauzoleum dla zmarłej żony Mumtaz Mahal."
+  },
+  {
+    "id": "build_m002",
+    "question": "W którym mieście stoi wieżowiec Burdż Chalifa?",
+    "answers": [
+      "W Abu Zabi",
+      "W Dosze",
+      "W Rijadzie",
+      "W Dubaju"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Burdż Chalifa, otwarty w 2010 roku, stoi w Dubaju."
+  },
+  {
+    "id": "build_m003",
+    "question": "Czyim imieniem pierwotnie nazwano Pałac Kultury i Nauki w Warszawie?",
+    "answers": [
+      "Włodzimierza Lenina",
+      "Józefa Stalina",
+      "Bolesława Bieruta",
+      "Karola Marksa"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Do 1956 roku PKiN nosił imię Józefa Stalina."
+  },
+  {
+    "id": "build_m004",
+    "question": "Który kraj podarował Warszawie Pałac Kultury i Nauki?",
+    "answers": [
+      "ZSRR",
+      "NRD",
+      "Czechosłowacja",
+      "Chiny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "PKiN był „darem narodu radzieckiego” dla Polaków."
+  },
+  {
+    "id": "build_m005",
+    "question": "Kto zbudował zamek w Malborku?",
+    "answers": [
+      "Templariusze",
+      "Joannici",
+      "Piastowie",
+      "Krzyżacy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zamek w Malborku był stolicą państwa zakonu krzyżackiego."
+  },
+  {
+    "id": "build_m006",
+    "question": "Dla którego króla zbudowano pałac w Wilanowie?",
+    "answers": [
+      "Jana III Sobieskiego",
+      "Zygmunta III Wazy",
+      "Stanisława Augusta",
+      "Augusta II Mocnego"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wilanów był letnią rezydencją króla Jana III Sobieskiego."
+  },
+  {
+    "id": "build_m007",
+    "question": "Co stoi na placu przed Zamkiem Królewskim w Warszawie?",
+    "answers": [
+      "Pomnik Syrenki",
+      "Grób Nieznanego Żołnierza",
+      "Kolumna Zygmunta",
+      "Pomnik Kopernika"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kolumna Zygmunta III Wazy stoi na placu Zamkowym od 1644 roku."
+  },
+  {
+    "id": "build_m008",
+    "question": "W którym mieście stoi Krzywy Domek?",
+    "answers": [
+      "W Gdyni",
+      "W Sopocie",
+      "W Gdańsku",
+      "W Kołobrzegu"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Krzywy Domek przy Monciaku to jedna z atrakcji Sopotu."
+  },
+  {
+    "id": "build_m009",
+    "question": "W którym mieście stoi hala widowiskowa Spodek?",
+    "answers": [
+      "W Łodzi",
+      "W Gliwicach",
+      "W Katowicach",
+      "W Krakowie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Spodek, otwarty w 1971 roku, to symbol Katowic."
+  },
+  {
+    "id": "build_m010",
+    "question": "W którym mieście stoi świątynia Hagia Sophia?",
+    "answers": [
+      "W Atenach",
+      "W Rzymie",
+      "W Stambule",
+      "W Kairze"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Hagia Sophia powstała w VI wieku w Konstantynopolu, dzisiejszym Stambule."
+  },
+  {
+    "id": "build_m011",
+    "question": "Na jakim placu w Moskwie stoi Sobór Wasyla Błogosławionego?",
+    "answers": [
+      "Na placu Puszkina",
+      "Na placu Pałacowym",
+      "Na placu Czerwonym",
+      "Na placu Zwycięstwa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kolorowy sobór z cebulastymi kopułami stoi na placu Czerwonym."
+  },
+  {
+    "id": "build_m012",
+    "question": "Nad jaką rzeką stoi Tower Bridge?",
+    "answers": [
+      "Nad Sekwaną",
+      "Nad Renem",
+      "Nad Tamizą",
+      "Nad Dunajem"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tower Bridge to zwodzony most na Tamizie w Londynie."
+  },
+  {
+    "id": "build_m013",
+    "question": "W którym mieście znajduje się Most Westchnień?",
+    "answers": [
+      "W Paryżu",
+      "W Pradze",
+      "W Wenecji",
+      "We Florencji"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Most Westchnień łączy Pałac Dożów z dawnym więzieniem w Wenecji."
+  },
+  {
+    "id": "build_m014",
+    "question": "W którym mieście stoi most Golden Gate?",
+    "answers": [
+      "W San Francisco",
+      "W Nowym Jorku",
+      "W Los Angeles",
+      "W Seattle"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Golden Gate łączy San Francisco z hrabstwem Marin."
+  },
+  {
+    "id": "build_m015",
+    "question": "Gdzie stał Kolos, jeden z siedmiu cudów świata starożytnego?",
+    "answers": [
+      "Na Rodos",
+      "Na Krecie",
+      "W Atenach",
+      "W Sparcie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kolos Rodyjski był posągiem boga Heliosa przy porcie na Rodos."
+  },
+  {
+    "id": "build_m016",
+    "question": "W którym mieście znajdowały się wiszące ogrody, cud świata starożytnego?",
+    "answers": [
+      "W Babilonie",
+      "W Atenach",
+      "W Rzymie",
+      "W Kartaginie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wiszące ogrody Semiramidy przypisuje się Babilonowi."
+  },
+  {
+    "id": "build_m017",
+    "question": "Który z siedmiu cudów świata starożytnego przetrwał do dziś?",
+    "answers": [
+      "Latarnia na Faros",
+      "Kolos Rodyjski",
+      "Piramida Cheopsa",
+      "Świątynia Artemidy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Piramida Cheopsa w Gizie to jedyny zachowany cud świata starożytnego."
+  },
+  {
+    "id": "build_m018",
+    "question": "Który styl architektury słynie z przepychu, złoceń i dynamicznych form z XVII wieku?",
+    "answers": [
+      "Gotyk",
+      "Barok",
+      "Klasycyzm",
+      "Romanizm"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Barok rozwijał się w XVII i XVIII wieku i stawiał na teatralny przepych."
+  },
+  {
+    "id": "build_m019",
+    "question": "Która budowla jest oficjalną londyńską rezydencją brytyjskiego monarchy?",
+    "answers": [
+      "Pałac Buckingham",
+      "Zamek Windsor",
+      "Tower of London",
+      "Pałac Kensington"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pałac Buckingham to oficjalna londyńska siedziba monarchy."
+  },
+  {
+    "id": "build_m020",
+    "question": "Z czego zbudowana jest piramida przed paryskim Luwrem?",
+    "answers": [
+      "Z marmuru",
+      "Z piaskowca",
+      "Z betonu",
+      "Ze szkła i metalu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Piramida Luwru to konstrukcja ze szklanych tafli na metalowym szkielecie."
+  },
+  {
+    "id": "build_m021",
+    "question": "Z okazji jakiego wydarzenia zbudowano Wieżę Eiffla?",
+    "answers": [
+      "Igrzysk olimpijskich w 1900 roku",
+      "Koronacji Napoleona III",
+      "Wystawy Światowej w 1889 roku",
+      "Zakończenia I wojny światowej"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wieżę Eiffla wzniesiono jako bramę Wystawy Światowej w Paryżu w 1889 roku."
+  },
+  {
+    "id": "build_m022",
+    "question": "Z jakiego materiału zbudowana jest Wieża Eiffla?",
+    "answers": [
+      "Z żelaza",
+      "Ze stali",
+      "Z aluminium",
+      "Z betonu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Konstrukcję Wieży Eiffla wykonano z kutego żelaza pudlarskiego."
+  },
+  {
+    "id": "build_m023",
+    "question": "W którym mieście stoi Tadż Mahal?",
+    "answers": [
+      "W Delhi",
+      "W Agrze",
+      "W Bombaju",
+      "W Dżajpurze"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Tadż Mahal stoi nad rzeką Jamuną w Agrze."
+  },
+  {
+    "id": "build_m024",
+    "question": "Której bogini poświęcony był Partenon na ateńskim Akropolu?",
+    "answers": [
+      "Herze",
+      "Afrodycie",
+      "Artemidzie",
+      "Atenie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Partenon był świątynią Ateny Partenos, opiekunki miasta."
+  },
+  {
+    "id": "build_m025",
+    "question": "Przed kim miał chronić Chiny Wielki Mur?",
+    "answers": [
+      "Przed Japończykami",
+      "Przed Hindusami",
+      "Przed Europejczykami",
+      "Przed koczownikami z północy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Mur budowano dla obrony przed najazdami ludów koczowniczych, m.in. Mongołów."
+  },
+  {
+    "id": "build_m026",
+    "question": "W którym mieście stała Latarnia Morska, jeden z siedmiu cudów świata starożytnego?",
+    "answers": [
+      "W Kartaginie",
+      "W Atenach",
+      "W Aleksandrii",
+      "W Troi"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Latarnia stała na wyspie Faros przy porcie w Aleksandrii."
+  },
+  {
+    "id": "build_m027",
+    "question": "Jak nazywa się wielki dzwon w wieży zegarowej londyńskiego parlamentu?",
+    "answers": [
+      "Great Paul",
+      "Big Ben",
+      "Big Tom",
+      "Old Bailey"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Big Ben to nazwa wielkiego dzwonu w wieży zegarowej, zwanej Wieżą Elżbiety."
+  },
+  {
+    "id": "build_m028",
+    "question": "Nad którą rzeką stoi praski Most Karola?",
+    "answers": [
+      "Nad Wełtawą",
+      "Nad Łabą",
+      "Nad Dunajem",
+      "Nad Odrą"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gotycki Most Karola od XIV wieku łączy brzegi Wełtawy w Pradze."
+  },
+  {
+    "id": "build_m029",
+    "question": "W którym mieście stoi most Ponte Vecchio, zabudowany sklepami złotników?",
+    "answers": [
+      "W Wenecji",
+      "W Rzymie",
+      "We Florencji",
+      "W Pizie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ponte Vecchio przecina rzekę Arno we Florencji."
+  },
+  {
+    "id": "build_m030",
+    "question": "Które kraje łączy most nad cieśniną Sund (Øresund)?",
+    "answers": [
+      "Danię i Niemcy",
+      "Danię i Szwecję",
+      "Szwecję i Finlandię",
+      "Norwegię i Szwecję"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Przeprawa przez Sund łączy Kopenhagę z Malmö."
+  },
+  {
+    "id": "build_m031",
+    "question": "Na której rzece zbudowano chińską Zaporę Trzech Przełomów?",
+    "answers": [
+      "Na Huang He",
+      "Na Jangcy",
+      "Na Mekongu",
+      "Na Amurze"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zapora Trzech Przełomów piętrzy wody Jangcy w prowincji Hubei."
+  },
+  {
+    "id": "build_m032",
+    "question": "Na której rzece zbudowano zaporę w Solinie?",
+    "answers": [
+      "Na Sanie",
+      "Na Bugu",
+      "Na Wisłoku",
+      "Na Dunajcu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zapora w Solinie tworzy na Sanie Jezioro Solińskie."
+  },
+  {
+    "id": "build_m033",
+    "question": "W jakim stylu przebudowano zamek na Wawelu za Zygmunta Starego?",
+    "answers": [
+      "Gotyckim",
+      "Barokowym",
+      "Klasycystycznym",
+      "Renesansowym"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Włoscy architekci nadali Wawelowi renesansowy dziedziniec arkadowy."
+  },
+  {
+    "id": "build_m034",
+    "question": "W którym mieście leży Zamek Książ?",
+    "answers": [
+      "W Jeleniej Górze",
+      "W Wałbrzychu",
+      "W Świdnicy",
+      "W Kłodzku"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Książ, jeden z największych zamków w Polsce, leży w granicach Wałbrzycha."
+  },
+  {
+    "id": "build_m035",
+    "question": "Który król stworzył warszawskie Łazienki Królewskie?",
+    "answers": [
+      "Jan III Sobieski",
+      "August II Mocny",
+      "Zygmunt III Waza",
+      "Stanisław August Poniatowski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Łazienki były letnią rezydencją Stanisława Augusta Poniatowskiego."
+  },
+  {
+    "id": "build_m036",
+    "question": "Jaki łuk jest typowy dla architektury gotyckiej?",
+    "answers": [
+      "Ostrołuk",
+      "Łuk półkolisty",
+      "Łuk podkowiasty",
+      "Łuk płaski"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ostre łuki pozwalały gotyckim budowniczym wznosić wysokie, smukłe ściany."
+  },
+  {
+    "id": "build_m037",
+    "question": "Jak we Francji nazywa się styl, który w Polsce nazywamy secesją?",
+    "answers": [
+      "Art nouveau",
+      "Art déco",
+      "Rokoko",
+      "Bauhaus"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Secesja we Francji i Belgii znana jest jako art nouveau."
+  },
+  {
+    "id": "build_m038",
+    "question": "Który król kazał zbudować bawarski zamek Neuschwanstein?",
+    "answers": [
+      "Fryderyk Wielki",
+      "Otto von Bismarck",
+      "Wilhelm II",
+      "Ludwik II Bawarski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Neuschwanstein był bajkową rezydencją króla Ludwika II Bawarskiego."
+  },
+  {
+    "id": "build_m039",
+    "question": "W którym mieście stoi mauretańska twierdza Alhambra?",
+    "answers": [
+      "W Sewilli",
+      "W Grenadzie",
+      "W Kordobie",
+      "W Toledo"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Alhambra to zespół pałacowy władców Nasrydów w Grenadzie."
+  },
+  {
+    "id": "build_m040",
+    "question": "Na który wieżowiec wspina się King Kong w filmie z 1933 roku?",
+    "answers": [
+      "Chrysler Building",
+      "World Trade Center",
+      "Empire State Building",
+      "Rockefeller Center"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Finałowa scena „King Konga” rozgrywa się na szczycie Empire State Building."
+  },
+  {
+    "id": "build_m041",
+    "question": "Jak pierwotnie nazywało się rzymskie Koloseum?",
+    "answers": [
+      "Circus Maximus",
+      "Amfiteatr Flawiuszów",
+      "Teatr Marcellusa",
+      "Amfiteatr Juliuszów"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Koloseum zbudowali cesarze z dynastii Flawiuszów."
+  },
+  {
+    "id": "build_m042",
+    "question": "Architekt z którego kraju zaprojektował Operę w Sydney?",
+    "answers": [
+      "Z Australii",
+      "Z Wielkiej Brytanii",
+      "Z Danii",
+      "Z Finlandii"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Gmach opery zaprojektował Duńczyk Jørn Utzon."
+  },
+  {
+    "id": "build_m043",
+    "question": "Na jakiej rzece stoi Zapora Hoovera?",
+    "answers": [
+      "Na Missisipi",
+      "Na Kolorado",
+      "Na Kolumbii",
+      "Na Rio Grande"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Zapora Hoovera na Kolorado tworzy jezioro Mead."
+  },
+  {
+    "id": "build_m044",
+    "question": "Który polski zamek słynie z 99 wieżyczek?",
+    "answers": [
+      "Zamek w Niedzicy",
+      "Zamek w Kórniku",
+      "Zamek w Pszczynie",
+      "Zamek w Mosznej"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zamek w Mosznej na Opolszczyźnie ma według tradycji 99 wież i wieżyczek."
+  },
+  {
+    "id": "build_m045",
+    "question": "Według legendy zamek Krzyżtopór miał tyle okien, ile…",
+    "answers": [
+      "tygodni w roku",
+      "miesięcy w roku",
+      "godzin w dobie",
+      "dni w roku"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Krzyżtopór miał mieć 365 okien, 52 komnaty, 12 sal i 4 baszty."
+  },
+  {
+    "id": "build_m046",
+    "question": "Który porządek kolumn ma głowicę zdobioną liśćmi akantu?",
+    "answers": [
+      "Koryncki",
+      "Dorycki",
+      "Joński",
+      "Toskański"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Głowica koryncka ozdobiona jest stylizowanymi liśćmi akantu."
+  },
+  {
+    "id": "build_m047",
+    "question": "Kto zaprojektował szklaną piramidę przed Luwrem?",
+    "answers": [
+      "Frank Gehry",
+      "Renzo Piano",
+      "Norman Foster",
+      "Ieoh Ming Pei"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Piramidę Luwru zaprojektował amerykański architekt chińskiego pochodzenia I.M. Pei."
+  },
+  {
+    "id": "build_m048",
+    "question": "Jak nazywa się rzeźba czterokonnego rydwanu na szczycie Bramy Brandenburskiej?",
+    "answers": [
+      "Biga",
+      "Kwadryga",
+      "Triumf",
+      "Pegaz"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kwadryga z boginią Wiktorią wieńczy Bramę Brandenburską w Berlinie."
+  },
+  {
+    "id": "build_m049",
+    "question": "Od imienia jakiego władcy pochodzi słowo „mauzoleum”?",
+    "answers": [
+      "Ramzesa",
+      "Dariusza",
+      "Krezusa",
+      "Mauzolosa"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Grobowiec Mauzolosa w Halikarnasie był jednym z cudów świata starożytnego."
+  },
+  {
+    "id": "build_m050",
+    "question": "Jak nazywa się okrągły otwór w szczycie kopuły rzymskiego Panteonu?",
+    "answers": [
+      "Okulus",
+      "Rozeta",
+      "Latarnia",
+      "Apsyda"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Okulus Panteonu ma około 9 metrów średnicy i jest jedynym źródłem światła."
+  }
+]
