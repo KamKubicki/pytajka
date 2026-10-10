@@ -24,22 +24,31 @@ function layout(w, h, d) {
       const p = { x: Math.random() * maxX, y: Math.random() * maxY };
       if (pts.every((q) => Math.hypot(q.x - p.x, q.y - p.y) >= minDist)) pts.push(p);
     }
-    if (pts.length === COUNT) return pts;
+    if (pts.length === COUNT) return { d, pts };
   }
-  // Awaryjnie: siatka z przetasowaniem (zawsze mieści się w obszarze).
+  // Awaryjnie: siatka z przetasowaniem; w bardzo małym obszarze kółka maleją,
+  // żeby nigdy na siebie nie nachodziły.
   const cols = w >= h ? 3 : 2;
   const rows = Math.ceil(COUNT / cols);
   const cw = w / cols;
   const rh = h / rows;
+  d = Math.max(24, Math.min(d, Math.floor(cw) - 4, Math.floor(rh) - 4));
+  const gx = Math.max(0, w - d);
+  const gy = Math.max(0, h - d);
   const cells = Array.from({ length: COUNT }, (_, i) => ({
-    x: Math.min(maxX, Math.max(0, (i % cols) * cw + (cw - d) / 2)),
-    y: Math.min(maxY, Math.max(0, Math.floor(i / cols) * rh + (rh - d) / 2)),
+    x: Math.min(gx, Math.max(0, (i % cols) * cw + (cw - d) / 2)),
+    y: Math.min(gy, Math.max(0, Math.floor(i / cols) * rh + (rh - d) / 2)),
   }));
   for (let i = cells.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cells[i], cells[j]] = [cells[j], cells[i]];
   }
-  return cells;
+  return { d, pts: cells };
+}
+
+// Czy dotychczasowy układ wciąż mieści się w obszarze (wtedy go nie tasujemy).
+function fits(board, w, h) {
+  return !!board && board.pts.every((p) => p.x + board.d <= w && p.y + board.d <= h);
 }
 
 export default function Sequence({ onComplete, playSound }) {
@@ -52,8 +61,7 @@ export default function Sequence({ onComplete, playSound }) {
   onCompleteRef.current = onComplete;
   playSoundRef.current = playSound;
 
-  const [size, setSize] = useState(null); // { w, h, d }
-  const [positions, setPositions] = useState([]);
+  const [board, setBoard] = useState(null); // { d, pts }
   const [next, setNextState] = useState(1);
   const nextRef = useRef(1);
   const setNext = (v) => {
@@ -79,7 +87,8 @@ export default function Sequence({ onComplete, playSound }) {
       if (w <= 0 || h <= 0) return;
       // Średnica: min. 56 px, większa gdy jest miejsce.
       const d = Math.max(56, Math.min(84, Math.floor(Math.min(w, h) / 4.2)));
-      setSize((prev) => (prev && prev.w === w && prev.h === h ? prev : { w, h, d }));
+      // Zmiana rozmiaru (pasek przeglądarki, obrót) nie tasuje kółek, chyba że przestały się mieścić.
+      setBoard((prev) => (fits(prev, w, h) ? prev : layout(w, h, d)));
     };
     measure();
     const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(measure) : null;
@@ -90,10 +99,6 @@ export default function Sequence({ onComplete, playSound }) {
       window.removeEventListener('resize', measure);
     };
   }, []);
-
-  useEffect(() => {
-    if (size) setPositions(layout(size.w, size.h, size.d));
-  }, [size]);
 
   useEffect(
     () => () => {
@@ -140,15 +145,18 @@ export default function Sequence({ onComplete, playSound }) {
           <span aria-hidden="true">{meta.icon}</span> {meta.name}
         </div>
         <div className="mg-seq__hint">{solved ? 'Gotowe!' : meta.hint}</div>
-        <div className="mg-seq__progress" aria-label={`${Math.min(next - 1, COUNT)}/${COUNT}`}>
+        <div className="mg-seq__progress">
+          <span className="mg-seq__sr" aria-live="polite">
+            {Math.min(next - 1, COUNT)}/{COUNT}
+          </span>
           {Array.from({ length: COUNT }, (_, i) => (
-            <span key={i} className={`mg-seq__pip${i + 1 < next ? ' is-on' : ''}`} />
+            <span key={i} aria-hidden="true" className={`mg-seq__pip${i + 1 < next ? ' is-on' : ''}`} />
           ))}
         </div>
       </header>
       <div className="mg-seq__area" ref={areaRef}>
-        {size &&
-          positions.map((p, i) => {
+        {board &&
+          board.pts.map((p, i) => {
             const n = i + 1;
             const gone = n < next;
             return (
@@ -158,13 +166,17 @@ export default function Sequence({ onComplete, playSound }) {
                 className={`mg-seq__ball${gone ? ' is-gone' : ''}`}
                 data-n={n}
                 style={{
-                  width: size.d,
-                  height: size.d,
+                  width: board.d,
+                  height: board.d,
                   transform: `translate(${p.x}px, ${p.y}px)`,
-                  fontSize: Math.round(size.d * 0.45),
+                  fontSize: Math.round(board.d * 0.45),
                 }}
                 disabled={gone || solved}
                 onPointerDown={handleTap(n)}
+                onClick={(e) => {
+                  // klawiatura / czytnik ekranu (click bez wskaźnika)
+                  if (e.detail === 0) handleTap(n)(e);
+                }}
                 aria-label={`Liczba ${n}`}
               >
                 <span>{n}</span>

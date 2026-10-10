@@ -11,6 +11,7 @@ export const meta = {
 const GOAL = 4;
 const JUMP_MS = 900;
 const BTN = 76; // ≥ 56 px
+const HIT_COOLDOWN_MS = 150;
 
 // Losowe miejsce w całości w obszarze, wyraźnie oddalone od poprzedniego.
 function randomPos(w, h, prev) {
@@ -32,6 +33,7 @@ export default function Catch({ onComplete, playSound }) {
   const timerRef = useRef(null);
   const doneRef = useRef(false);
   const hitsRef = useRef(0);
+  const lastHitRef = useRef(-Infinity);
   const onCompleteRef = useRef(onComplete);
   const playSoundRef = useRef(playSound);
   onCompleteRef.current = onComplete;
@@ -39,7 +41,6 @@ export default function Catch({ onComplete, playSound }) {
 
   const [pos, setPos] = useState(null);
   const [hits, setHits] = useState(0);
-  const [pop, setPop] = useState(0);
 
   const sound = useCallback((t) => {
     try {
@@ -74,7 +75,6 @@ export default function Catch({ onComplete, playSound }) {
       const p = posRef.current;
       if (!p) {
         jump();
-        schedule();
       } else if (p.x > w - BTN || p.y > h - BTN) {
         // po zmianie rozmiaru dociśnij przycisk do obszaru
         const c = { x: Math.max(0, Math.min(p.x, w - BTN)), y: Math.max(0, Math.min(p.y, h - BTN)) };
@@ -92,16 +92,23 @@ export default function Catch({ onComplete, playSound }) {
     };
   }, [jump, schedule]);
 
-  useEffect(() => () => clearInterval(timerRef.current), []);
+  // Osobny efekt timera – po ponownym zamontowaniu (StrictMode, HMR) wystartuje znowu.
+  useEffect(() => {
+    schedule();
+    return () => clearInterval(timerRef.current);
+  }, [schedule]);
 
   const handleHit = (e) => {
     e.preventDefault();
     e.stopPropagation();
     if (doneRef.current) return;
+    // multi-touch: kilka palców naraz na tym samym miejscu liczy się raz
+    const now = performance.now();
+    if (now - lastHitRef.current < HIT_COOLDOWN_MS) return;
+    lastHitRef.current = now;
     const n = hitsRef.current + 1;
     hitsRef.current = n;
     setHits(n);
-    setPop((k) => k + 1);
     if (n >= GOAL) {
       doneRef.current = true;
       clearInterval(timerRef.current);
@@ -123,7 +130,7 @@ export default function Catch({ onComplete, playSound }) {
           <span aria-hidden="true">{meta.icon}</span> {meta.name}
         </div>
         <div className="mg-catch__hint">{solved ? 'Złapany!' : meta.hint}</div>
-        <div className="mg-catch__count" aria-live="polite" key={pop}>
+        <div className="mg-catch__count" aria-live="polite" key={hits}>
           {hits}/{GOAL}
         </div>
       </header>
@@ -134,6 +141,10 @@ export default function Catch({ onComplete, playSound }) {
             className={`mg-catch__btn${solved ? ' is-caught' : ''}`}
             style={{ width: BTN, height: BTN, transform: `translate(${pos.x}px, ${pos.y}px)` }}
             onPointerDown={handleHit}
+            onClick={(e) => {
+              // klawiatura / czytnik ekranu (click bez wskaźnika)
+              if (e.detail === 0) handleHit(e);
+            }}
             disabled={solved}
             aria-label="Złap!"
           >
