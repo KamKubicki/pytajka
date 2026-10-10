@@ -31,7 +31,16 @@ const CATEGORY_REGISTRY = {
   'jezyk':            { name: 'Język Polski',           color: '#5FD3F3', icon: '🔤', prefixes: ['lang_'] },
   'mitologia':        { name: 'Mitologia i Legendy',    color: '#FFE45C', icon: '⚡', prefixes: ['myth_'] },
   'militaria':        { name: 'Lotnictwo i Militaria',  color: '#A8C256', icon: '✈️', prefixes: ['mil_'] },
-  'logika':           { name: 'Matematyka i Zagadki',   color: '#36E2B4', icon: '🧮', prefixes: ['math_'] }
+  'logika':           { name: 'Matematyka i Zagadki',   color: '#36E2B4', icon: '🧮', prefixes: ['math_'] },
+  'napoje':           { name: 'Napoje i Drinki',        color: '#FF8A3D', icon: '🍹', prefixes: ['drink_'] },
+  'swieta':           { name: 'Święta i Tradycje',      color: '#E5484D', icon: '🎄', prefixes: ['trad_'] },
+  'podroze':          { name: 'Podróże',                color: '#3DD6D0', icon: '🧳', prefixes: ['travel_'] },
+  'architektura':     { name: 'Budowle i Architektura', color: '#C9A27E', icon: '🏰', prefixes: ['build_'] },
+  'rekordy':          { name: 'Rekordy i Ciekawostki',  color: '#FFC233', icon: '🏆', prefixes: ['rec_'] },
+  'pieniadze':        { name: 'Pieniądze i Waluty',     color: '#46C27A', icon: '💰', prefixes: ['money_'] },
+  'moda':             { name: 'Moda i Styl',            color: '#F06EC8', icon: '👗', prefixes: ['fashion_'] },
+  'rosliny':          { name: 'Rośliny i Ogród',        color: '#7BD94A', icon: '🌱', prefixes: ['plant_'] },
+  'jezyki_swiata':    { name: 'Języki Świata',          color: '#6FA8FF', icon: '🗣️', prefixes: ['wlang_'] }
 };
 
 // prefix -> category key, plus prefixes sorted longest-first (hist_world_ beats hist_, geo_world_ beats geo_)
@@ -434,7 +443,7 @@ class GameSession {
     this.usedQuestionIds = new Set(); // 🔒 no repeats within a game
     this.questionIndex = 0;
     this.roundCategory = null;
-    this.lastVotedCategoryKey = null;
+    this.playedCategoryKeys = new Set(); // categories already played in this game
     this.vote = null;
   }
 
@@ -470,19 +479,20 @@ class GameSession {
       available: freshCounts[key] || 0
     }));
     const needed = this.questionsPerRound;
-    let eligible = shuffleArray(stats.filter(c => c.available >= needed));
-    // 🔁 Don't offer the previous round's category again if there are enough other qualifying ones
-    const lastKey = this.lastVotedCategoryKey;
-    if (lastKey && eligible.filter(c => c.key !== lastKey).length >= 3) {
-      eligible = eligible.filter(c => c.key !== lastKey);
-    }
+    // 🔁 A category already played in this game is never offered again
+    const played = this.playedCategoryKeys || new Set();
+    const notPlayed = stats.filter(c => !played.has(c.key));
+    const eligible = shuffleArray(notPlayed.filter(c => c.available >= needed));
     // Fewer than 3 categories with enough fresh questions -> fill with whatever is still available
-    const rest = shuffleArray(stats.filter(c => c.available < needed && c.available > 0))
+    const rest = shuffleArray(notPlayed.filter(c => c.available < needed && c.available > 0))
       .sort((a, b) => b.available - a.available);
     let options = [...eligible, ...rest].slice(0, 3);
     if (options.length === 0) {
-      // Everything used up - still offer categories, questions will be filled from the whole pool
-      options = shuffleArray(stats.filter(c => unusedCounts[c.key] > 0)).slice(0, 3);
+      // Every unplayed category is out of fresh questions - offer unplayed ones anyway (questions get
+      // filled from the whole pool); only if all categories were played allow repeats as a last resort
+      const unplayedWithAny = notPlayed.filter(c => unusedCounts[c.key] > 0);
+      const pool = unplayedWithAny.length > 0 ? unplayedWithAny : stats.filter(c => unusedCounts[c.key] > 0);
+      options = shuffleArray(pool).slice(0, 3);
     }
     return options;
   }
@@ -569,7 +579,8 @@ class GameSession {
     const leaders = max > 0 ? this.vote.options.filter(o => votes[o.key] === max) : this.vote.options;
     const winner = leaders[Math.floor(Math.random() * leaders.length)];
     this.roundCategory = { key: winner.key, name: winner.name, icon: winner.icon, color: winner.color };
-    this.lastVotedCategoryKey = winner.key;
+    if (!this.playedCategoryKeys) this.playedCategoryKeys = new Set();
+    this.playedCategoryKeys.add(winner.key);
 
     this.pickRoundQuestions(winner.key);
     console.log(`🏆 Session ${this.id}: round ${this.vote.round} category ${winner.key} (${max} votes)`);
