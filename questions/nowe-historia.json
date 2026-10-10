@@ -1,0 +1,782 @@
+[
+  {
+    "id": "hist_n001",
+    "question": "Który władca przyjął chrzest w 966 roku?",
+    "answers": [
+      "Władysław Łokietek",
+      "Mieszko I",
+      "Kazimierz Wielki",
+      "Bolesław Chrobry"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Chrzest Mieszka I w 966 roku uznaje się za symboliczny początek państwa polskiego."
+  },
+  {
+    "id": "hist_n002",
+    "question": "O którym królu mówi się, że „zastał Polskę drewnianą, a zostawił murowaną”?",
+    "answers": [
+      "Kazimierz Wielki",
+      "Bolesław Krzywousty",
+      "Zygmunt Stary",
+      "Stefan Batory"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kazimierz III Wielki słynął z budowy zamków i murów obronnych miast."
+  },
+  {
+    "id": "hist_n003",
+    "question": "Który król dowodził odsieczą wiedeńską w 1683 roku?",
+    "answers": [
+      "August II Mocny",
+      "Jan III Sobieski",
+      "Zygmunt III Waza",
+      "Stefan Batory"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Jan III Sobieski pokonał pod Wiedniem armię turecką Kara Mustafy."
+  },
+  {
+    "id": "hist_n004",
+    "question": "Jak nazywała się słynna polska jazda, której żołnierze nosili skrzydła?",
+    "answers": [
+      "Ułani",
+      "Husaria",
+      "Kirasjerzy",
+      "Dragoni"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Husaria była ciężką jazdą Rzeczypospolitej, słynącą ze skrzydeł i długich kopii."
+  },
+  {
+    "id": "hist_n005",
+    "question": "Ile było rozbiorów Polski w XVIII wieku?",
+    "answers": [
+      "Cztery",
+      "Trzy",
+      "Dwa",
+      "Pięć"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Rozbiory miały miejsce w latach 1772, 1793 i 1795."
+  },
+  {
+    "id": "hist_n006",
+    "question": "Kto stanął na czele powstania w 1794 roku?",
+    "answers": [
+      "Jan Henryk Dąbrowski",
+      "Józef Poniatowski",
+      "Kazimierz Pułaski",
+      "Tadeusz Kościuszko"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Tadeusz Kościuszko złożył przysięgę na krakowskim Rynku 24 marca 1794 roku."
+  },
+  {
+    "id": "hist_n007",
+    "question": "O jakie wzgórze z klasztorem walczył w 1944 roku 2. Korpus Polski gen. Andersa?",
+    "answers": [
+      "Arnhem",
+      "Monte Cassino",
+      "Falaise",
+      "Tobruk"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Polacy zatknęli flagę na ruinach klasztoru Monte Cassino 18 maja 1944 roku."
+  },
+  {
+    "id": "hist_n008",
+    "question": "Która polska placówka w Gdańsku broniła się 7 dni we wrześniu 1939 roku?",
+    "answers": [
+      "Westerplatte",
+      "Oksywie",
+      "Hel",
+      "Poczta Polska"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Załoga Westerplatte broniła się od 1 do 7 września 1939 roku."
+  },
+  {
+    "id": "hist_n009",
+    "question": "Jak miał na imię niedźwiedź, który służył w 2. Korpusie Polskim i nosił skrzynki z amunicją?",
+    "answers": [
+      "Misiek",
+      "Kuba",
+      "Wojtek",
+      "Baloo"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Niedźwiedź Wojtek miał nawet stopień kaprala i pomagał przy Monte Cassino."
+  },
+  {
+    "id": "hist_n010",
+    "question": "W którym roku odbyły się w Polsce częściowo wolne wybory 4 czerwca?",
+    "answers": [
+      "1989",
+      "1990",
+      "1980",
+      "1981"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wybory 4 czerwca 1989 roku zapoczątkowały upadek komunizmu w Polsce."
+  },
+  {
+    "id": "hist_n011",
+    "question": "Kto ogłosił w telewizji wprowadzenie stanu wojennego 13 grudnia 1981 roku?",
+    "answers": [
+      "Czesław Kiszczak",
+      "Edward Gierek",
+      "Wojciech Jaruzelski",
+      "Władysław Gomułka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Gen. Jaruzelski wygłosił przemówienie zaczynające się od słów „Obywatelki i obywatele”."
+  },
+  {
+    "id": "hist_n012",
+    "question": "Jaki zawód wykonywał Ignacy Jan Paderewski, premier Polski w 1919 roku?",
+    "answers": [
+      "Aktor",
+      "Lekarz",
+      "Malarz",
+      "Pianista"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Paderewski był światowej sławy pianistą i kompozytorem."
+  },
+  {
+    "id": "hist_n013",
+    "question": "Która władczyni została w 1384 roku koronowana na „króla Polski”?",
+    "answers": [
+      "Bona Sforza",
+      "Anna Jagiellonka",
+      "Jadwiga Andegaweńska",
+      "Dobrawa"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Jadwigę koronowano na króla, by podkreślić, że rządzi samodzielnie."
+  },
+  {
+    "id": "hist_n014",
+    "question": "Który król przeniósł dwór i faktyczną stolicę z Krakowa do Warszawy?",
+    "answers": [
+      "Stefan Batory",
+      "Jan III Sobieski",
+      "Stanisław August Poniatowski",
+      "Zygmunt III Waza"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Zygmunt III Waza przeniósł dwór do Warszawy na przełomie XVI i XVII wieku, stąd Kolumna Zygmunta."
+  },
+  {
+    "id": "hist_n015",
+    "question": "Która unia z 1569 roku utworzyła Rzeczpospolitą Obojga Narodów?",
+    "answers": [
+      "Unia lubelska",
+      "Unia w Krewie",
+      "Unia horodelska",
+      "Unia brzeska"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Unia lubelska połączyła Koronę i Litwę we wspólne państwo z jednym sejmem."
+  },
+  {
+    "id": "hist_n016",
+    "question": "Pod jaką miejscowością kosynierzy Kościuszki zdobyli w 1794 roku rosyjskie armaty?",
+    "answers": [
+      "Racławice",
+      "Maciejowice",
+      "Szczekociny",
+      "Dubienka"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Słynny atak kosynierów pod Racławicami uwiecznia Panorama Racławicka."
+  },
+  {
+    "id": "hist_n017",
+    "question": "W jakim kraju utworzono Legiony Polskie gen. Dąbrowskiego, o których mówi hymn?",
+    "answers": [
+      "We Francji",
+      "We Włoszech",
+      "W Austrii",
+      "W Egipcie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Legiony utworzono w 1797 roku w Lombardii, stąd „z ziemi włoskiej do Polski”."
+  },
+  {
+    "id": "hist_n018",
+    "question": "Który Polak jest nazywany „ojcem amerykańskiej kawalerii”?",
+    "answers": [
+      "Kazimierz Pułaski",
+      "Tadeusz Kościuszko",
+      "Jan Henryk Dąbrowski",
+      "Józef Bem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pułaski zmarł w 1779 roku z ran odniesionych pod Savannah w walce o niepodległość USA."
+  },
+  {
+    "id": "hist_n019",
+    "question": "Kto dowodził obroną Westerplatte w 1939 roku?",
+    "answers": [
+      "Stanisław Maczek",
+      "Henryk Sucharski",
+      "Władysław Anders",
+      "Stefan Rowecki"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mjr Henryk Sucharski był komendantem Wojskowej Składnicy Tranzytowej na Westerplatte."
+  },
+  {
+    "id": "hist_n020",
+    "question": "Kto był premierem pierwszego niekomunistycznego rządu w 1989 roku?",
+    "answers": [
+      "Hanna Suchocka",
+      "Tadeusz Mazowiecki",
+      "Jan Olszewski",
+      "Leszek Balcerowicz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sejm powołał Tadeusza Mazowieckiego na premiera w sierpniu 1989 roku."
+  },
+  {
+    "id": "hist_n021",
+    "question": "Który polski król zginął w bitwie pod Warną w 1444 roku?",
+    "answers": [
+      "Jan Olbracht",
+      "Ludwik Węgierski",
+      "Władysław III",
+      "Kazimierz Jagiellończyk"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Od miejsca śmierci Władysław III otrzymał przydomek Warneńczyk."
+  },
+  {
+    "id": "hist_n022",
+    "question": "Która kobieta uratowała około 2500 żydowskich dzieci z getta warszawskiego?",
+    "answers": [
+      "Zofia Kossak-Szczucka",
+      "Krystyna Skarbek",
+      "Irena Sendlerowa",
+      "Elżbieta Zawacka"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Irena Sendlerowa działała w Radzie Pomocy Żydom i ukrywała dzieci poza gettem."
+  },
+  {
+    "id": "hist_n023",
+    "question": "Który prezydent II RP zginął w zamachu kilka dni po objęciu urzędu?",
+    "answers": [
+      "Gabriel Narutowicz",
+      "Stanisław Wojciechowski",
+      "Ignacy Mościcki",
+      "Józef Piłsudski"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gabriel Narutowicz został zastrzelony w Zachęcie 16 grudnia 1922 roku."
+  },
+  {
+    "id": "hist_n024",
+    "question": "Jak nazywała się zasada, dzięki której jeden poseł mógł zerwać obrady sejmu?",
+    "answers": [
+      "Liberum veto",
+      "Neminem captivabimus",
+      "Pacta conventa",
+      "Nihil novi"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Liberum veto pozwalało jednym głosem unieważnić cały sejm."
+  },
+  {
+    "id": "hist_n025",
+    "question": "Kto był ostatnim dyktatorem powstania styczniowego, straconym na stokach Cytadeli?",
+    "answers": [
+      "Ludwik Mierosławski",
+      "Józef Hauke-Bosak",
+      "Marian Langiewicz",
+      "Romuald Traugutt"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Romuald Traugutt został stracony 5 sierpnia 1864 roku w Warszawie."
+  },
+  {
+    "id": "hist_n026",
+    "question": "Który hetman rozgromił Szwedów pod Kircholmem w 1605 roku?",
+    "answers": [
+      "Stanisław Żółkiewski",
+      "Stanisław Koniecpolski",
+      "Jan Karol Chodkiewicz",
+      "Stefan Czarniecki"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pod Kircholmem husaria Chodkiewicza pokonała kilkakrotnie liczniejszą armię szwedzką."
+  },
+  {
+    "id": "hist_n027",
+    "question": "Który hetman zwyciężył pod Kłuszynem w 1610 roku, co otworzyło Polakom drogę do Moskwy?",
+    "answers": [
+      "Jan III Sobieski",
+      "Stanisław Żółkiewski",
+      "Jan Karol Chodkiewicz",
+      "Jan Zamoyski"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Po zwycięstwie pod Kłuszynem wojska polskie wkroczyły do Moskwy."
+  },
+  {
+    "id": "hist_n028",
+    "question": "Jak nazywała się konspiracyjna Rada Pomocy Żydom działająca w okupowanej Polsce?",
+    "answers": [
+      "Zawisza",
+      "Szare Szeregi",
+      "Wachlarz",
+      "Żegota"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Żegota działała od 1942 roku przy Delegaturze Rządu na Kraj."
+  },
+  {
+    "id": "hist_n029",
+    "question": "W którym roku Mieszko I zwyciężył w bitwie pod Cedynią?",
+    "answers": [
+      "1025",
+      "966",
+      "1000",
+      "972"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Bitwa pod Cedynią z 972 roku to pierwsza opisana w źródłach bitwa państwa polskiego."
+  },
+  {
+    "id": "hist_n030",
+    "question": "Jak nazywała się konstytucja z 1505 roku, która mówiła „nic nowego bez wspólnej zgody”?",
+    "answers": [
+      "Nihil novi",
+      "Pacta conventa",
+      "Neminem captivabimus",
+      "Artykuły henrykowskie"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Konstytucję Nihil novi uchwalono w Radomiu w 1505 roku."
+  },
+  {
+    "id": "hist_world_n001",
+    "question": "Który statek zatonął w 1912 roku po zderzeniu z górą lodową?",
+    "answers": [
+      "Titanic",
+      "Olympic",
+      "Lusitania",
+      "Britannic"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Titanic zatonął w nocy z 14 na 15 kwietnia 1912 roku podczas dziewiczego rejsu."
+  },
+  {
+    "id": "hist_world_n002",
+    "question": "Kto dopłynął do Ameryki w 1492 roku?",
+    "answers": [
+      "Vasco da Gama",
+      "Krzysztof Kolumb",
+      "Amerigo Vespucci",
+      "Ferdynand Magellan"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kolumb, płynąc na zachód do Indii, dotarł na wyspy Karaibów."
+  },
+  {
+    "id": "hist_world_n003",
+    "question": "W którym kraju znajdują się piramidy w Gizie?",
+    "answers": [
+      "Peru",
+      "Sudan",
+      "Egipt",
+      "Meksyk"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Piramidy w Gizie, w tym piramida Cheopsa, stoją tuż obok Kairu."
+  },
+  {
+    "id": "hist_world_n004",
+    "question": "Który cesarz Francuzów przegrał bitwę pod Waterloo w 1815 roku?",
+    "answers": [
+      "Ludwik XIV",
+      "Napoleon Bonaparte",
+      "Karol Wielki",
+      "Napoleon III"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Klęska pod Waterloo zakończyła panowanie Napoleona."
+  },
+  {
+    "id": "hist_world_n005",
+    "question": "Kto był pierwszym prezydentem USA?",
+    "answers": [
+      "Thomas Jefferson",
+      "John Adams",
+      "Abraham Lincoln",
+      "Jerzy Waszyngton"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Jerzy Waszyngton objął urząd w 1789 roku."
+  },
+  {
+    "id": "hist_world_n006",
+    "question": "Która cywilizacja zbudowała Machu Picchu?",
+    "answers": [
+      "Aztekowie",
+      "Majowie",
+      "Olmekowie",
+      "Inkowie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Machu Picchu to inkaskie miasto w peruwiańskich Andach z XV wieku."
+  },
+  {
+    "id": "hist_world_n007",
+    "question": "Które miasto zostało zasypane po wybuchu Wezuwiusza w 79 roku?",
+    "answers": [
+      "Syrakuzy",
+      "Troja",
+      "Pompeje",
+      "Kartagina"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Popioły Wezuwiusza zakonserwowały Pompeje niemal w całości."
+  },
+  {
+    "id": "hist_world_n008",
+    "question": "Która brytyjska królowa panowała ponad 70 lat i zmarła w 2022 roku?",
+    "answers": [
+      "Elżbieta I",
+      "Maria II",
+      "Elżbieta II",
+      "Wiktoria"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Elżbieta II panowała od 1952 do 2022 roku – najdłużej w historii Wielkiej Brytanii."
+  },
+  {
+    "id": "hist_world_n009",
+    "question": "Kto wygłosił słynne przemówienie „I have a dream” („Mam marzenie”)?",
+    "answers": [
+      "John F. Kennedy",
+      "Nelson Mandela",
+      "Malcolm X",
+      "Martin Luther King"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Martin Luther King wygłosił je w Waszyngtonie w 1963 roku."
+  },
+  {
+    "id": "hist_world_n010",
+    "question": "Kto po 27 latach więzienia został prezydentem RPA?",
+    "answers": [
+      "Kofi Annan",
+      "Nelson Mandela",
+      "Desmond Tutu",
+      "Robert Mugabe"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nelson Mandela był pierwszym czarnoskórym prezydentem RPA (1994–1999)."
+  },
+  {
+    "id": "hist_world_n011",
+    "question": "Który wódz rzymski przekroczył Rubikon, mówiąc „kości zostały rzucone”?",
+    "answers": [
+      "Hannibal",
+      "Oktawian August",
+      "Marek Antoniusz",
+      "Juliusz Cezar"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Przekroczenie Rubikonu w 49 roku p.n.e. rozpoczęło wojnę domową w Rzymie."
+  },
+  {
+    "id": "hist_world_n012",
+    "question": "W którym mieście w 1914 roku zastrzelono arcyksięcia Franciszka Ferdynanda?",
+    "answers": [
+      "Sarajewo",
+      "Belgrad",
+      "Budapeszt",
+      "Wiedeń"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zamach w Sarajewie stał się bezpośrednim powodem wybuchu I wojny światowej."
+  },
+  {
+    "id": "hist_world_n013",
+    "question": "Który wódz z Kartaginy przeprowadził słonie bojowe przez Alpy?",
+    "answers": [
+      "Hazdrubal",
+      "Hamilkar",
+      "Scypion",
+      "Hannibal"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Hannibal przekroczył Alpy w 218 roku p.n.e. podczas II wojny punickiej."
+  },
+  {
+    "id": "hist_world_n014",
+    "question": "Kto dowodził pierwszą wyprawą dookoła świata, choć zginął w jej trakcie?",
+    "answers": [
+      "Ferdynand Magellan",
+      "Vasco da Gama",
+      "James Cook",
+      "Francis Drake"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Magellan zginął na Filipinach, a wyprawę dokończył Juan Sebastián Elcano."
+  },
+  {
+    "id": "hist_world_n015",
+    "question": "W której bitwie morskiej w 1805 roku zginął admirał Nelson?",
+    "answers": [
+      "Abukir",
+      "Trafalgar",
+      "Jutlandia",
+      "Lepanto"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pod Trafalgarem flota brytyjska pokonała flotę francusko-hiszpańską."
+  },
+  {
+    "id": "hist_world_n016",
+    "question": "W którym roku zdobyto Bastylię, rozpoczynając rewolucję francuską?",
+    "answers": [
+      "1815",
+      "1848",
+      "1776",
+      "1789"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bastylię zdobyto 14 lipca 1789 roku – to dziś święto narodowe Francji."
+  },
+  {
+    "id": "hist_world_n017",
+    "question": "Którego faraona grobowiec odkryto niemal nienaruszony w 1922 roku?",
+    "answers": [
+      "Ramzesa II",
+      "Echnatona",
+      "Tutanchamona",
+      "Cheopsa"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Grobowiec Tutanchamona w Dolinie Królów odkrył Howard Carter."
+  },
+  {
+    "id": "hist_world_n018",
+    "question": "Jak nazywał się statek, którym w 1620 roku pielgrzymi przypłynęli do Ameryki?",
+    "answers": [
+      "Endeavour",
+      "Santa Maria",
+      "Mayflower",
+      "Beagle"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mayflower dopłynął do wybrzeży dzisiejszego Massachusetts."
+  },
+  {
+    "id": "hist_world_n019",
+    "question": "Która caryca Rosji, z pochodzenia Niemka, nazywana jest Wielką?",
+    "answers": [
+      "Katarzyna II",
+      "Anna Iwanowna",
+      "Elżbieta Piotrowna",
+      "Maria Teresa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Katarzyna II urodziła się w Szczecinie jako księżniczka Zofia Anhalt-Zerbst."
+  },
+  {
+    "id": "hist_world_n020",
+    "question": "Na terenie którego dzisiejszego państwa doszło do katastrofy w Czarnobylu?",
+    "answers": [
+      "Litwa",
+      "Białoruś",
+      "Ukraina",
+      "Rosja"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Awaria reaktora w Czarnobylu wydarzyła się 26 kwietnia 1986 roku na Ukrainie, wówczas w ZSRR."
+  },
+  {
+    "id": "hist_world_n021",
+    "question": "Kto był pierwszym cesarzem rzymskim?",
+    "answers": [
+      "Juliusz Cezar",
+      "Neron",
+      "Kaligula",
+      "Oktawian August"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Juliusz Cezar był dyktatorem, a pierwszym cesarzem został jego adoptowany syn Oktawian."
+  },
+  {
+    "id": "hist_world_n022",
+    "question": "Jaki obszar Stany Zjednoczone kupiły od Rosji w 1867 roku?",
+    "answers": [
+      "Luizjanę",
+      "Kalifornię",
+      "Hawaje",
+      "Alaskę"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "USA zapłaciły za Alaskę 7,2 mln dolarów."
+  },
+  {
+    "id": "hist_world_n023",
+    "question": "Kto zjednoczył plemiona mongolskie i w 1206 roku założył imperium mongolskie?",
+    "answers": [
+      "Tamerlan",
+      "Kubilaj-chan",
+      "Czyngis-chan",
+      "Attyla"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Temudżyn przyjął tytuł Czyngis-chana w 1206 roku."
+  },
+  {
+    "id": "hist_world_n024",
+    "question": "Jak nazywa się traktat pokojowy z 1919 roku, kończący I wojnę światową z Niemcami?",
+    "answers": [
+      "Traktat trianoński",
+      "Traktat brzeski",
+      "Traktat wersalski",
+      "Traktat ryski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Traktat podpisano w Sali Lustrzanej pałacu w Wersalu 28 czerwca 1919 roku."
+  },
+  {
+    "id": "hist_world_n025",
+    "question": "Ile lat w rzeczywistości trwała wojna stuletnia?",
+    "answers": [
+      "100",
+      "99",
+      "116",
+      "120"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Wojna stuletnia między Anglią a Francją trwała od 1337 do 1453 roku."
+  },
+  {
+    "id": "hist_world_n026",
+    "question": "Ile trwała najkrótsza wojna w historii – brytyjsko-zanzibarska z 1896 roku?",
+    "answers": [
+      "Tydzień",
+      "Mniej niż godzinę",
+      "Około 6 godzin",
+      "Dwa dni"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Wojna z Zanzibarem trwała około 40 minut."
+  },
+  {
+    "id": "hist_world_n027",
+    "question": "Jak nazywał się ostatni cesarz Chin?",
+    "answers": [
+      "Kangxi",
+      "Puyi",
+      "Cixi",
+      "Sun Jat-sen"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Puyi abdykował jako dziecko w 1912 roku."
+  },
+  {
+    "id": "hist_world_n028",
+    "question": "Która kobieta rządziła Egiptem jako faraon w XV wieku p.n.e.?",
+    "answers": [
+      "Hatszepsut",
+      "Nefertari",
+      "Kleopatra",
+      "Nefertiti"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Hatszepsut przedstawiano nawet z ceremonialną brodą faraona."
+  },
+  {
+    "id": "hist_world_n029",
+    "question": "Jak nazywała się stolica Azteków, na której ruinach stoi miasto Meksyk?",
+    "answers": [
+      "Tenochtitlan",
+      "Chichén Itzá",
+      "Cuzco",
+      "Teotihuacan"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Tenochtitlan zbudowano na wyspie jeziora Texcoco."
+  },
+  {
+    "id": "hist_world_n030",
+    "question": "W którym roku Turcy zdobyli Konstantynopol?",
+    "answers": [
+      "1389",
+      "1526",
+      "1492",
+      "1453"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Upadek Konstantynopola w 1453 roku zakończył istnienie Cesarstwa Bizantyjskiego."
+  }
+]
