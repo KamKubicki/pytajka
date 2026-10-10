@@ -1,0 +1,847 @@
+[
+  {
+    "id": "sport_n001",
+    "question": "Która reprezentacja wygrała mistrzostwa świata w piłce nożnej w 2018 roku?",
+    "answers": [
+      "Brazylia",
+      "Francja",
+      "Niemcy",
+      "Chorwacja"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W finale w Moskwie Francja pokonała Chorwację 4:2."
+  },
+  {
+    "id": "sport_n002",
+    "question": "Które kraje wspólnie zorganizowały Euro 2012?",
+    "answers": [
+      "Polska i Niemcy",
+      "Polska i Ukraina",
+      "Austria i Szwajcaria",
+      "Polska i Czechy"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Euro 2012 rozegrano w Polsce i na Ukrainie."
+  },
+  {
+    "id": "sport_n003",
+    "question": "Z jakiej miejscowości pochodzi Adam Małysz?",
+    "answers": [
+      "Zakopane",
+      "Wisła",
+      "Ustroń",
+      "Szczyrk"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Adam Małysz urodził się i wychował w Wiśle."
+  },
+  {
+    "id": "sport_n004",
+    "question": "Jakim wynikiem Niemcy pokonały Brazylię w półfinale mundialu 2014?",
+    "answers": [
+      "3:0",
+      "4:1",
+      "7:1",
+      "5:2"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Półfinał w Belo Horizonte zakończył się sensacyjnym 7:1 dla Niemiec."
+  },
+  {
+    "id": "sport_n005",
+    "question": "Który turniej wielkoszlemowy Iga Świątek wygrała jako pierwszy, w 2020 roku?",
+    "answers": [
+      "US Open",
+      "Wimbledon",
+      "Australian Open",
+      "Roland Garros"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W październiku 2020 Świątek triumfowała w Paryżu, nie tracąc seta."
+  },
+  {
+    "id": "sport_n006",
+    "question": "W którym mieście odbyły się letnie igrzyska olimpijskie w 2016 roku?",
+    "answers": [
+      "Pekin",
+      "Londyn",
+      "São Paulo",
+      "Rio de Janeiro"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Igrzyska 2016 były pierwszymi w Ameryce Południowej – w Rio de Janeiro."
+  },
+  {
+    "id": "sport_n007",
+    "question": "W której drużynie Michael Jordan zdobył sześć mistrzostw NBA?",
+    "answers": [
+      "Boston Celtics",
+      "Washington Wizards",
+      "Los Angeles Lakers",
+      "Chicago Bulls"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Jordan zdobył sześć tytułów z Chicago Bulls w latach 90."
+  },
+  {
+    "id": "sport_n008",
+    "question": "Ile złotych medali zdobył Kamil Stoch na igrzyskach w Soczi w 2014 roku?",
+    "answers": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W Soczi Stoch wygrał konkursy na skoczni normalnej i dużej."
+  },
+  {
+    "id": "sport_n009",
+    "question": "Które Grand Prix Formuły 1 wygrał Robert Kubica w 2008 roku?",
+    "answers": [
+      "Kanady",
+      "Monako",
+      "Węgier",
+      "Włoch"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kubica wygrał GP Kanady w Montrealu – pierwsze zwycięstwo Polaka w F1."
+  },
+  {
+    "id": "sport_n010",
+    "question": "Kto został królem strzelców mistrzostw świata w 1974 roku?",
+    "answers": [
+      "Grzegorz Lato",
+      "Gerd Müller",
+      "Andrzej Szarmach",
+      "Kazimierz Deyna"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Grzegorz Lato strzelił 7 goli, a Polska zajęła 3. miejsce."
+  },
+  {
+    "id": "sport_n011",
+    "question": "W jakim stylu Otylia Jędrzejczak zdobyła złoto olimpijskie w Atenach w 2004 roku?",
+    "answers": [
+      "Motylkowym",
+      "Klasycznym",
+      "Dowolnym",
+      "Grzbietowym"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Otylia wygrała wyścig na 200 m stylem motylkowym."
+  },
+  {
+    "id": "sport_n012",
+    "question": "Za co Andrzej Gołota został zdyskwalifikowany w obu walkach z Riddickiem Bowe w 1996 roku?",
+    "answers": [
+      "Ucieczkę z ringu",
+      "Doping",
+      "Gryzienie rywala",
+      "Ciosy poniżej pasa"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W obu walkach Gołota prowadził, ale przegrał przez dyskwalifikację za niskie ciosy."
+  },
+  {
+    "id": "sport_n013",
+    "question": "Ile tytułów mistrza świata Formuły 1 zdobył Michael Schumacher?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Schumacher zdobył 7 tytułów: w 1994, 1995 i 2000–2004."
+  },
+  {
+    "id": "sport_n014",
+    "question": "Przeciwko której drużynie Robert Lewandowski strzelił 5 goli w 9 minut w 2015 roku?",
+    "answers": [
+      "Borussia Dortmund",
+      "VfL Wolfsburg",
+      "Hamburger SV",
+      "Schalke 04"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "We wrześniu 2015 Lewandowski wszedł z ławki i w 9 minut strzelił Wolfsburgowi 5 goli."
+  },
+  {
+    "id": "sport_n015",
+    "question": "Z kim Polska przegrała po rzutach karnych w ćwierćfinale Euro 2016?",
+    "answers": [
+      "Z Niemcami",
+      "Z Walią",
+      "Z Francją",
+      "Z Portugalią"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Po remisie 1:1 Portugalia wygrała karne 5:3, a potem cały turniej."
+  },
+  {
+    "id": "sport_n016",
+    "question": "W jakim klubie grał Jerzy Dudek, gdy w 2005 roku wygrał Ligę Mistrzów?",
+    "answers": [
+      "Feyenoord",
+      "Real Madryt",
+      "Liverpool FC",
+      "AC Milan"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W finale w Stambule Dudek obronił karne i Liverpool pokonał AC Milan."
+  },
+  {
+    "id": "sport_n017",
+    "question": "Który polski bramkarz zatrzymał Anglików na Wembley w 1973 roku?",
+    "answers": [
+      "Józef Młynarczyk",
+      "Artur Boruc",
+      "Jan Tomaszewski",
+      "Jerzy Dudek"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Remis 1:1 dał Polsce awans na MŚ 1974, a Tomaszewski stał się bohaterem."
+  },
+  {
+    "id": "sport_n018",
+    "question": "Jaki czas uzyskał Usain Bolt, bijąc rekord świata na 100 m w Berlinie w 2009 roku?",
+    "answers": [
+      "9,69 s",
+      "9,58 s",
+      "9,72 s",
+      "9,63 s"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Na MŚ w Berlinie Bolt przebiegł 100 m w 9,58 s."
+  },
+  {
+    "id": "sport_n019",
+    "question": "Ile razy Mariusz Pudzianowski wygrał zawody World’s Strongest Man?",
+    "answers": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Pudzian wygrywał w latach 2002, 2003, 2005, 2007 i 2008."
+  },
+  {
+    "id": "sport_n020",
+    "question": "Kto był trenerem reprezentacji Polski na mundialu w 1974 roku?",
+    "answers": [
+      "Ryszard Kulesza",
+      "Kazimierz Górski",
+      "Antoni Piechniczek",
+      "Jacek Gmoch"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kazimierz Górski poprowadził Polskę do 3. miejsca na MŚ 1974."
+  },
+  {
+    "id": "sport_n021",
+    "question": "W którym roku Adam Małysz po raz pierwszy został indywidualnym mistrzem świata?",
+    "answers": [
+      "2003",
+      "2007",
+      "2001",
+      "1999"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "W 2001 roku w Lahti Małysz wygrał konkurs na skoczni normalnej."
+  },
+  {
+    "id": "sport_n022",
+    "question": "Kto wygrał legendarny finał Wimbledonu w 2008 roku, kończony niemal po zmroku?",
+    "answers": [
+      "Roger Federer",
+      "Novak Djoković",
+      "Rafael Nadal",
+      "Andy Murray"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Nadal pokonał Federera w pięciu setach po blisko 5 godzinach gry."
+  },
+  {
+    "id": "film_n001",
+    "question": "Jak nazywa się wieś, w której dzieje się akcja serialu „Ranczo”?",
+    "answers": [
+      "Brzozówka",
+      "Wólka",
+      "Wilkowyje",
+      "Lipce"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Akcja „Rancza” toczy się w fikcyjnych Wilkowyjach."
+  },
+  {
+    "id": "film_n002",
+    "question": "Jak nazywa się kawiarnia, w której przesiadują bohaterowie serialu „Przyjaciele”?",
+    "answers": [
+      "Paddy’s Pub",
+      "Central Perk",
+      "Monk’s Café",
+      "Coffee Bean"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Central Perk to kultowa kawiarnia z kanapą w „Przyjaciołach”."
+  },
+  {
+    "id": "film_n003",
+    "question": "Jak nazywa się kontynent, na którym leży Królewska Przystań z „Gry o tron”?",
+    "answers": [
+      "Westeros",
+      "Essos",
+      "Narnia",
+      "Śródziemie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Siedem Królestw i Królewska Przystań leżą w Westeros."
+  },
+  {
+    "id": "film_n004",
+    "question": "Kto zagrał Geralta w 1. sezonie serialu „Wiedźmin” Netflixa?",
+    "answers": [
+      "Michał Żebrowski",
+      "Chris Hemsworth",
+      "Liam Hemsworth",
+      "Henry Cavill"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Geralta w pierwszych sezonach grał Henry Cavill."
+  },
+  {
+    "id": "film_n005",
+    "question": "Jak nazywa się nauczyciel chemii, główny bohater serialu „Breaking Bad”?",
+    "answers": [
+      "Walter White",
+      "Hank Schrader",
+      "Jesse Pinkman",
+      "Saul Goodman"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Walter White to nauczyciel chemii, który zaczyna produkować metamfetaminę."
+  },
+  {
+    "id": "film_n006",
+    "question": "Jak wabił się pies w serialu „Czterej pancerni i pies”?",
+    "answers": [
+      "Burek",
+      "Azor",
+      "Szarik",
+      "Reks"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Owczarek Szarik jeździł z załogą czołgu „Rudy”."
+  },
+  {
+    "id": "film_n007",
+    "question": "Kto zagrał tytułową rolę w filmie „Forrest Gump”?",
+    "answers": [
+      "Robin Williams",
+      "Tom Hanks",
+      "Kevin Costner",
+      "Bill Murray"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tom Hanks dostał za tę rolę Oscara."
+  },
+  {
+    "id": "film_n008",
+    "question": "Na jakiej ulicy we Wrocławiu mieszkają Kiepscy?",
+    "answers": [
+      "Piotrkowska",
+      "Ząbkowska",
+      "Kwiatowa",
+      "Ćwiartki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kiepscy mieszkają przy ul. Ćwiartki 3/4."
+  },
+  {
+    "id": "film_n009",
+    "question": "Jak miał na imię tytułowy bohater filmu „Kiler” Juliusza Machulskiego?",
+    "answers": [
+      "Jerzy",
+      "Zbigniew",
+      "Janusz",
+      "Ryszard"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Taksówkarz Jerzy Kiler został pomylony z płatnym zabójcą."
+  },
+  {
+    "id": "film_n010",
+    "question": "W której części „Gwiezdnych wojen” Darth Vader wyznaje Luke’owi, że jest jego ojcem?",
+    "answers": [
+      "Nowa nadzieja",
+      "Imperium kontratakuje",
+      "Mroczne widmo",
+      "Powrót Jedi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Słynna scena pochodzi z „Imperium kontratakuje” z 1980 roku."
+  },
+  {
+    "id": "film_n011",
+    "question": "Który film Romana Polańskiego zdobył Złotą Palmę w Cannes w 2002 roku?",
+    "answers": [
+      "Tess",
+      "Pianista",
+      "Chinatown",
+      "Dziecko Rosemary"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Pianista” z Adrienem Brodym zdobył Złotą Palmę i trzy Oscary."
+  },
+  {
+    "id": "film_n012",
+    "question": "Ile filmów liczy główna seria o Harrym Potterze?",
+    "answers": [
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ostatni tom, „Insygnia Śmierci”, podzielono na dwa filmy, stąd 8."
+  },
+  {
+    "id": "film_n013",
+    "question": "Jak nazywa się miasteczko, w którym toczy się akcja serialu „Stranger Things”?",
+    "answers": [
+      "Twin Peaks",
+      "Riverdale",
+      "Derry",
+      "Hawkins"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Akcja dzieje się w fikcyjnym Hawkins w stanie Indiana."
+  },
+  {
+    "id": "film_n014",
+    "question": "Kto wyreżyserował kultowy film „Rejs” z 1970 roku?",
+    "answers": [
+      "Stanisław Bareja",
+      "Andrzej Wajda",
+      "Marek Piwowski",
+      "Sylwester Chęciński"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "„Rejs” nakręcił Marek Piwowski, w dużej mierze z aktorami-amatorami."
+  },
+  {
+    "id": "film_n015",
+    "question": "Ile Oscarów zdobył film „Titanic” Jamesa Camerona?",
+    "answers": [
+      "11",
+      "8",
+      "12",
+      "9"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "„Titanic” zdobył 11 Oscarów, w tym za najlepszy film."
+  },
+  {
+    "id": "film_n016",
+    "question": "Jak nazywała się postać grana przez Bogusława Lindę w filmie „Psy”?",
+    "answers": [
+      "Gruby",
+      "Franz Maurer",
+      "Nowy",
+      "Olo Żwirski"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Franz Maurer to były esbek z filmu Władysława Pasikowskiego."
+  },
+  {
+    "id": "mus_n001",
+    "question": "Który zespół nagrał przebój „Jolka, Jolka pamiętasz”?",
+    "answers": [
+      "Kombi",
+      "Lady Pank",
+      "Budka Suflera",
+      "Perfect"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Piosenkę śpiewał Krzysztof Cugowski z Budką Suflera."
+  },
+  {
+    "id": "mus_n002",
+    "question": "Który zespół wykonuje „Kocham cię, kochanie moje”?",
+    "answers": [
+      "Lady Pank",
+      "Republika",
+      "Perfect",
+      "Maanam"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "To przebój Maanamu z Korą na wokalu."
+  },
+  {
+    "id": "mus_n003",
+    "question": "Jak nazywał się wokalista zespołu Nirvana?",
+    "answers": [
+      "Chris Cornell",
+      "Kurt Cobain",
+      "Eddie Vedder",
+      "Dave Grohl"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kurt Cobain był wokalistą i liderem Nirvany."
+  },
+  {
+    "id": "mus_n004",
+    "question": "Który zespół wygrał Eurowizję w 1974 roku piosenką „Waterloo”?",
+    "answers": [
+      "Boney M.",
+      "ABBA",
+      "Europe",
+      "Roxette"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Zwycięstwo z „Waterloo” otworzyło ABBIE drogę do światowej kariery."
+  },
+  {
+    "id": "mus_n005",
+    "question": "Kogo nazywano „Królem Popu”?",
+    "answers": [
+      "Michaela Jacksona",
+      "Prince’a",
+      "Elvisa Presleya",
+      "George’a Michaela"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Michael Jackson to „King of Pop”; Elvis był „Królem Rock and Rolla”."
+  },
+  {
+    "id": "mus_n006",
+    "question": "Który zespół wydał przebój „Mniej niż zero”?",
+    "answers": [
+      "Lady Pank",
+      "Perfect",
+      "Bajm",
+      "Republika"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Mniej niż zero” to jeden z pierwszych wielkich hitów Lady Pank."
+  },
+  {
+    "id": "mus_n007",
+    "question": "Kto zaśpiewał przebój „Chałupy Welcome To”?",
+    "answers": [
+      "Zbigniew Wodecki",
+      "Krzysztof Krawczyk",
+      "Ryszard Rynkowski",
+      "Andrzej Rosiewicz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wodecki rozsławił piosenkę o nudystach na Helu."
+  },
+  {
+    "id": "mus_n008",
+    "question": "Który zespół nagrał „Długość dźwięku samotności”?",
+    "answers": [
+      "Coma",
+      "Myslovitz",
+      "Wilki",
+      "Hey"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "To jeden z największych hitów Myslovitz z Arturem Rojkiem."
+  },
+  {
+    "id": "mus_n009",
+    "question": "Który zespół śpiewa „Przez twe oczy zielone”?",
+    "answers": [
+      "Boys",
+      "Toples",
+      "Weekend",
+      "Akcent"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wielki hit disco polo Akcentu z Zenonem Martyniukiem."
+  },
+  {
+    "id": "mus_n010",
+    "question": "Na którym albumie Michaela Jacksona znalazł się utwór „Billie Jean”?",
+    "answers": [
+      "Dangerous",
+      "Bad",
+      "Thriller",
+      "Off the Wall"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Thriller” z 1982 roku to jeden z najlepiej sprzedających się albumów w historii."
+  },
+  {
+    "id": "mus_n011",
+    "question": "Kto wylansował przebój „Dmuchawce, latawce, wiatr”?",
+    "answers": [
+      "Urszula",
+      "Edyta Bartosiewicz",
+      "Kasia Kowalska",
+      "Anna Maria Jopek"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Piosenkę z 1996 roku śpiewa Urszula."
+  },
+  {
+    "id": "mus_n012",
+    "question": "Który zespół zaśpiewał „Jesteś szalona”?",
+    "answers": [
+      "Boys",
+      "Bayer Full",
+      "Akcent",
+      "Weekend"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Jesteś szalona” to hit disco polo zespołu Boys."
+  },
+  {
+    "id": "mus_n013",
+    "question": "Z jakim zespołem związany był wokalista Ryszard Riedel?",
+    "answers": [
+      "Perfect",
+      "T.Love",
+      "Dżem",
+      "Kult"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ryszard Riedel był legendarnym wokalistą Dżemu."
+  },
+  {
+    "id": "mus_n014",
+    "question": "W którym roku zmarł Freddie Mercury?",
+    "answers": [
+      "1995",
+      "1993",
+      "1991",
+      "1989"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Freddie Mercury zmarł w listopadzie 1991 roku."
+  },
+  {
+    "id": "mus_n015",
+    "question": "Na okładce którego albumu Pink Floyd widnieje pryzmat rozszczepiający światło?",
+    "answers": [
+      "Wish You Were Here",
+      "The Wall",
+      "Animals",
+      "The Dark Side of the Moon"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Okładka z pryzmatem to ikona albumu z 1973 roku."
+  },
+  {
+    "id": "ent_n001",
+    "question": "Jak ma na imię wąsaty hydraulik, bohater gier Nintendo?",
+    "answers": [
+      "Sonic",
+      "Wario",
+      "Luigi",
+      "Mario"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Mario to maskotka Nintendo; Luigi to jego brat."
+  },
+  {
+    "id": "ent_n002",
+    "question": "Które polskie studio stworzyło grę „Wiedźmin 3: Dziki Gon”?",
+    "answers": [
+      "Techland",
+      "People Can Fly",
+      "CD Projekt Red",
+      "11 bit studios"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Serię „Wiedźmin” tworzy warszawskie CD Projekt Red."
+  },
+  {
+    "id": "ent_n003",
+    "question": "Jak nazywała się kultowa gra w telefonach Nokia, w której sterowało się rosnącym wężem?",
+    "answers": [
+      "Space Impact",
+      "Tetris",
+      "Snake",
+      "Pac-Man"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Snake” był hitem telefonów Nokia od końca lat 90."
+  },
+  {
+    "id": "ent_n004",
+    "question": "Jak nazywa się żółty Pokémon, maskotka całej serii?",
+    "answers": [
+      "Pikachu",
+      "Charmander",
+      "Bulbasaur",
+      "Jigglypuff"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pikachu to najbardziej rozpoznawalny Pokémon."
+  },
+  {
+    "id": "ent_n005",
+    "question": "Jak nazywał się polski komunikator internetowy z żółtym słoneczkiem w logo?",
+    "answers": [
+      "ICQ",
+      "Tlen",
+      "Gadu-Gadu",
+      "Skype"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Numer GG był kiedyś w Polsce równie ważny jak numer telefonu."
+  },
+  {
+    "id": "ent_n006",
+    "question": "Jak nazywał się polski serwis, w którym szukało się znajomych ze szkoły?",
+    "answers": [
+      "Facebook",
+      "Fotka",
+      "Grono",
+      "Nasza-Klasa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Nasza-Klasa była hitem polskiego internetu około 2007–2008 roku."
+  },
+  {
+    "id": "ent_n007",
+    "question": "W którym roku zadebiutowała gra „Pokémon GO”, przez którą ludzie łapali stworki na ulicach?",
+    "answers": [
+      "2018",
+      "2016",
+      "2012",
+      "2014"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Gra ukazała się latem 2016 roku i wywołała światowy szał."
+  },
+  {
+    "id": "ent_n008",
+    "question": "Jak nazywa się miasto z serii GTA wzorowane na Los Angeles?",
+    "answers": [
+      "Vice City",
+      "San Fierro",
+      "Los Santos",
+      "Liberty City"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Los Santos to parodia Los Angeles, m.in. z „GTA V”."
+  },
+  {
+    "id": "ent_n009",
+    "question": "Jaki pies jest bohaterem memu „Doge”?",
+    "answers": [
+      "Shiba inu",
+      "Akita",
+      "Husky",
+      "Corgi"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mem „Doge” przedstawia psa rasy shiba inu."
+  },
+  {
+    "id": "ent_n010",
+    "question": "Jak nazywa się bohaterka serii gier „Tomb Raider”?",
+    "answers": [
+      "Lara Croft",
+      "Jill Valentine",
+      "Samus Aran",
+      "Ellie Williams"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Lara Croft to archeolożka i poszukiwaczka przygód."
+  },
+  {
+    "id": "ent_n011",
+    "question": "W jakim kraju powstała gra „Tetris”?",
+    "answers": [
+      "W ZSRR",
+      "W Japonii",
+      "W Wielkiej Brytanii",
+      "W USA"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Tetris stworzył w 1984 roku Aleksiej Pażytnow w Moskwie."
+  },
+  {
+    "id": "ent_n012",
+    "question": "Jak nazywa się twórca gry „Minecraft”, znany jako Notch?",
+    "answers": [
+      "Hideo Kojima",
+      "Shigeru Miyamoto",
+      "Gabe Newell",
+      "Markus Persson"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Szwed Markus „Notch” Persson stworzył Minecrafta."
+  }
+]
