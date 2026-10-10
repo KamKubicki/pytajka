@@ -376,10 +376,41 @@ function playWhenRunning(ctx, fn) {
 // SYNTH-END
 // ---------------------------------------------------------------------------
 
+// Mobile-only effects (kept outside the SYNTH block shared with the TV)
+const MOBILE_SOUNDS = {
+  // Throwing a sabotage card: rising whoosh + mischievous zap + sparkle
+  'sabotage-send': (ctx, out, t) => {
+    whoosh(ctx, out, t, 0.28, 0.18);
+    voice(ctx, out, {
+      freq: 330, type: 'square', t: t + 0.12, peak: 0.1,
+      glide: { to: 1320, time: 0.16 }, env: { attack: 0.003, decay: 0.16, release: 0.04 },
+      filter: { type: 'lowpass', freq: 3200, Q: 2 },
+    });
+    [79, 83, 86].forEach((n, i) => pluck(ctx, out, n, t + 0.3 + i * 0.05, 0.1, 0.12, 'square'));
+    bell(ctx, out, 98, t + 0.45, 0.05, 0.4);
+  },
+  // Getting sabotaged: impact + descending "wah-wah" + cymbal
+  'sabotage-hit': (ctx, out, t) => {
+    boom(ctx, out, t, 0.55);
+    snare(ctx, out, t, 0.2);
+    [[0.08, 62], [0.28, 61], [0.48, 59]].forEach(([dt, n], i) => {
+      [0, 9].forEach((det) => voice(ctx, out, {
+        freq: midi(n), type: 'sawtooth', t: t + dt, peak: 0.08, detune: det,
+        glide: i === 2 ? { to: midi(n - 5), time: 0.5 } : undefined,
+        env: { attack: 0.01, decay: 0.08, sustain: 0.8, hold: i === 2 ? 0.5 : 0.14, release: 0.12 },
+        filter: { type: 'lowpass', Q: 4, sweep: { from: 1800, to: 500, time: i === 2 ? 0.6 : 0.18 } },
+      }));
+    });
+    crash(ctx, out, t, 0.1, 0.7);
+  },
+};
+
 const VIBRATION = {
   correct: [60, 40, 60],
   incorrect: [220],
   'countdown-final': [30],
+  'sabotage-send': [25, 30, 25],
+  'sabotage-hit': [80, 40, 80, 40, 160],
 };
 
 // Custom hook for playing sounds in the game (mobile)
@@ -424,7 +455,7 @@ const useSound = () => {
 
   // Play sound function – unknown type or blocked audio = silent no-op
   const playSound = useCallback((type) => {
-    const fn = SOUNDS[type];
+    const fn = SOUNDS[type] || MOBILE_SOUNDS[type];
     if (!fn) return;
     try {
       const pattern = VIBRATION[type];

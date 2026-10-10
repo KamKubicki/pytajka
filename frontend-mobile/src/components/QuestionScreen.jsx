@@ -19,7 +19,9 @@ export default function QuestionScreen({
   selectedAnswer,
   lastResult,
   timer,
-  onAnswer
+  onAnswer,
+  obstructed = false, // sabotage minigame in progress
+  headerExtra = null
 }) {
   const answers = Array.isArray(question?.answers) ? question.answers : [];
   const longest = answers.reduce((m, a) => Math.max(m, String(a ?? '').length), 0);
@@ -34,7 +36,7 @@ export default function QuestionScreen({
   const qTotal = meta?.questionInRound != null ? meta?.questionsPerRound : meta?.totalQuestions;
 
   const revealed = phase === 'results' && lastResult && lastResult.correctAnswer != null;
-  const locked = phase !== 'playing' || timer <= 0;
+  const locked = phase !== 'playing' || timer <= 0 || obstructed;
   const timeUp = phase === 'playing' && timer <= 0;
 
   let status = null;
@@ -45,6 +47,8 @@ export default function QuestionScreen({
         Wysłano {letterFor(selectedAnswer)} · czekamy na innych…
       </div>
     );
+  } else if (obstructed && !timeUp) {
+    status = <div className="status status--wait">🔒 Najpierw pokonaj przeszkodę</div>;
   } else if (timeUp) {
     status = <div className="status status--bad">⏰ Czas minął</div>;
   } else if (revealed) {
@@ -59,7 +63,7 @@ export default function QuestionScreen({
 
   return (
     <div className="screen screen--fixed question" style={{ '--cat': categoryColor }}>
-      <PlayerHeader player={player} />
+      <PlayerHeader player={player}>{headerExtra}</PlayerHeader>
 
       <div className="q-meta">
         {categoryName && (
