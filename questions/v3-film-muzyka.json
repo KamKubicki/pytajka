@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "film_e001",
+    "question": "Kto wyreżyserował komedię „Miś” z 1980 roku?",
+    "answers": [
+      "Juliusz Machulski",
+      "Marek Piwowski",
+      "Sylwester Chęciński",
+      "Stanisław Bareja"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Miś” to jedna z najsłynniejszych komedii Stanisława Barei."
+  },
+  {
+    "id": "film_e002",
+    "question": "Kto wyreżyserował film „Seksmisja”?",
+    "answers": [
+      "Juliusz Machulski",
+      "Stanisław Bareja",
+      "Andrzej Wajda",
+      "Krzysztof Kieślowski"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Seksmisja” (1983) to komedia science fiction Juliusza Machulskiego."
+  },
+  {
+    "id": "film_e003",
+    "question": "Który aktor zagrał tytułową rolę w filmie „Kiler”?",
+    "answers": [
+      "Jerzy Stuhr",
+      "Bogusław Linda",
+      "Cezary Pazura",
+      "Janusz Rewiński"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jurka Kilera zagrał Cezary Pazura."
+  },
+  {
+    "id": "film_e004",
+    "question": "Z którego filmu pochodzi okrzyk „Ciemność, widzę ciemność!”?",
+    "answers": [
+      "Seksmisja",
+      "Miś",
+      "Rejs",
+      "Kiler"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tak woła Maks po wybudzeniu z hibernacji w „Seksmisji”."
+  },
+  {
+    "id": "film_e005",
+    "question": "Z którego filmu pochodzi zdanie „Nie mamy pańskiego płaszcza i co pan nam zrobi?”",
+    "answers": [
+      "Rejs",
+      "Seksmisja",
+      "Miś",
+      "Vabank"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "To słynna scena w szatni z filmu „Miś” Stanisława Barei."
+  },
+  {
+    "id": "film_e006",
+    "question": "Kto zagrał Ferdynanda Kiepskiego w serialu „Świat według Kiepskich”?",
+    "answers": [
+      "Krzysztof Kowalewski",
+      "Jerzy Stuhr",
+      "Andrzej Grabowski",
+      "Cezary Pazura"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ferdka przez lata grał Andrzej Grabowski."
+  },
+  {
+    "id": "film_e007",
+    "question": "Jak ma na imię żona Ferdynanda Kiepskiego?",
+    "answers": [
+      "Helena",
+      "Grażyna",
+      "Danuta",
+      "Halina"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Żonę Ferdka, Halinę Kiepską, grała Marzena Kipiel-Sztuka."
+  },
+  {
+    "id": "film_e008",
+    "question": "Ilu głównych bohaterów ma serial „Przyjaciele”?",
+    "answers": [
+      "Sześcioro",
+      "Czworo",
+      "Pięcioro",
+      "Siedmioro"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rachel, Monica, Phoebe, Joey, Chandler i Ross to szóstka przyjaciół."
+  },
+  {
+    "id": "film_e009",
+    "question": "Jakiego pseudonimu używa Walter White w serialu „Breaking Bad”?",
+    "answers": [
+      "Schrödinger",
+      "Heisenberg",
+      "Einstein",
+      "Bohr"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Walter White przyjął pseudonim fizyka Wernera Heisenberga."
+  },
+  {
+    "id": "film_e010",
+    "question": "Jakie zwierzę widnieje w herbie rodu Starków w „Grze o tron”?",
+    "answers": [
+      "Lew",
+      "Smok",
+      "Jeleń",
+      "Wilkor"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Herbem Starków z Winterfell jest szary wilkor."
+  },
+  {
+    "id": "film_e011",
+    "question": "Kto wyreżyserował film „Pulp Fiction”?",
+    "answers": [
+      "Martin Scorsese",
+      "Quentin Tarantino",
+      "Steven Spielberg",
+      "Guy Ritchie"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Pulp Fiction” (1994) to film Quentina Tarantino nagrodzony Złotą Palmą."
+  },
+  {
+    "id": "film_e012",
+    "question": "Który aktor wypowiada słynne „I'll be back” w filmie „Terminator”?",
+    "answers": [
+      "Sylvester Stallone",
+      "Bruce Willis",
+      "Arnold Schwarzenegger",
+      "Jean-Claude Van Damme"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kwestię wypowiada Terminator grany przez Arnolda Schwarzeneggera."
+  },
+  {
+    "id": "film_e013",
+    "question": "Jakiego koloru pigułkę połyka Neo w filmie „Matrix”?",
+    "answers": [
+      "Niebieską",
+      "Czerwoną",
+      "Zieloną",
+      "Białą"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Czerwona pigułka pozwala Neo poznać prawdę o Matrixie."
+  },
+  {
+    "id": "film_e014",
+    "question": "Jak nazywa się statek kosmiczny Hana Solo w „Gwiezdnych wojnach”?",
+    "answers": [
+      "Gwiazda Śmierci",
+      "Enterprise",
+      "Nostromo",
+      "Sokół Millennium"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sokołem Millennium latają Han Solo i Chewbacca."
+  },
+  {
+    "id": "film_e015",
+    "question": "Jak nazywa się szkoła magii, do której uczęszcza Harry Potter?",
+    "answers": [
+      "Durmstrang",
+      "Hogwart",
+      "Beauxbatons",
+      "Ilvermorny"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Harry uczy się w Szkole Magii i Czarodziejstwa Hogwart."
+  },
+  {
+    "id": "film_e016",
+    "question": "Który aktor zagrał Harry’ego Pottera w filmowej serii?",
+    "answers": [
+      "Rupert Grint",
+      "Daniel Radcliffe",
+      "Tom Felton",
+      "Elijah Wood"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W rolę Harry’ego we wszystkich ośmiu filmach wcielił się Daniel Radcliffe."
+  },
+  {
+    "id": "film_e017",
+    "question": "Do którego domu w Hogwarcie trafia Harry Potter?",
+    "answers": [
+      "Slytherin",
+      "Ravenclaw",
+      "Hufflepuff",
+      "Gryffindor"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Tiara Przydziału umieszcza Harry’ego w Gryffindorze."
+  },
+  {
+    "id": "film_e018",
+    "question": "Kto wyreżyserował filmową trylogię „Władca Pierścieni”?",
+    "answers": [
+      "Ridley Scott",
+      "James Cameron",
+      "Peter Jackson",
+      "Christopher Nolan"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Trylogię nakręcił Nowozelandczyk Peter Jackson."
+  },
+  {
+    "id": "film_e019",
+    "question": "W którym kraju kręcono filmową trylogię „Władca Pierścieni”?",
+    "answers": [
+      "Irlandia",
+      "Kanada",
+      "Nowa Zelandia",
+      "Norwegia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Śródziemie zagrały krajobrazy Nowej Zelandii."
+  },
+  {
+    "id": "film_e020",
+    "question": "Dokąd leci rodzina Kevina w pierwszej części filmu „Kevin sam w domu”?",
+    "answers": [
+      "Do Londynu",
+      "Do Nowego Jorku",
+      "Do Rzymu",
+      "Do Paryża"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "McCallisterowie lecą na święta do Paryża, zostawiając Kevina w domu."
+  },
+  {
+    "id": "film_e021",
+    "question": "Kto zagrał Maksa Paradysa w „Seksmisji”?",
+    "answers": [
+      "Jerzy Stuhr",
+      "Olgierd Łukaszewicz",
+      "Bogusław Linda",
+      "Cezary Pazura"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Maksa zagrał Jerzy Stuhr, a Alberta – Olgierd Łukaszewicz."
+  },
+  {
+    "id": "film_e022",
+    "question": "Kto wyreżyserował film „Chłopaki nie płaczą”?",
+    "answers": [
+      "Juliusz Machulski",
+      "Władysław Pasikowski",
+      "Olaf Lubaszenko",
+      "Marek Koterski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Chłopaki nie płaczą” (2000) to reżyserski debiut Olafa Lubaszenki."
+  },
+  {
+    "id": "film_e023",
+    "question": "Po jakiej rzece płynie statek w filmie „Rejs”?",
+    "answers": [
+      "Odra",
+      "Warta",
+      "Wisła",
+      "Bug"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Bohaterowie „Rejsu” płyną statkiem po Wiśle."
+  },
+  {
+    "id": "film_e024",
+    "question": "Kto zagrał prezesa Ryszarda Ochódzkiego w filmie „Miś”?",
+    "answers": [
+      "Stanisław Tym",
+      "Krzysztof Kowalewski",
+      "Wojciech Pokora",
+      "Bronisław Pawlik"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stanisław Tym był też współautorem scenariusza „Misia”."
+  },
+  {
+    "id": "film_e025",
+    "question": "Do jakiego miasta chce polecieć prezes Ochódzki w filmie „Miś”?",
+    "answers": [
+      "Do Paryża",
+      "Do Londynu",
+      "Do Wiednia",
+      "Do Berlina"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ochódzki chce dostać się do Londynu, by podjąć pieniądze z konta."
+  },
+  {
+    "id": "film_e026",
+    "question": "Kto wyreżyserował film „Psy” z 1992 roku?",
+    "answers": [
+      "Juliusz Machulski",
+      "Olaf Lubaszenko",
+      "Bogusław Linda",
+      "Władysław Pasikowski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Psy” to film Władysława Pasikowskiego z Bogusławem Lindą w roli głównej."
+  },
+  {
+    "id": "film_e027",
+    "question": "Kto zagrał Adasia Miauczyńskiego w filmie „Dzień świra”?",
+    "answers": [
+      "Jerzy Stuhr",
+      "Marek Kondrat",
+      "Andrzej Grabowski",
+      "Bogusław Linda"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W „Dniu świra” Marka Koterskiego Adasia zagrał Marek Kondrat."
+  },
+  {
+    "id": "film_e028",
+    "question": "Kto zagrał Lucy Wilską w serialu „Ranczo”?",
+    "answers": [
+      "Ilona Ostrowska",
+      "Joanna Brodzik",
+      "Małgorzata Kożuchowska",
+      "Katarzyna Cichopek"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Amerykankę Lucy, która osiada w Wilkowyjach, zagrała Ilona Ostrowska."
+  },
+  {
+    "id": "film_e029",
+    "question": "Który aktor zagrał w „Ranczu” braci bliźniaków – wójta i księdza?",
+    "answers": [
+      "Cezary Żak",
+      "Artur Barciś",
+      "Paweł Królikowski",
+      "Marian Opania"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Cezary Żak wcielił się w obu braci Koziołów."
+  },
+  {
+    "id": "film_e030",
+    "question": "Jak ma na imię małpka Rossa w serialu „Przyjaciele”?",
+    "answers": [
+      "Bobo",
+      "George",
+      "Marcel",
+      "Charlie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ross trzymał w mieszkaniu kapucynkę o imieniu Marcel."
+  },
+  {
+    "id": "film_e031",
+    "question": "W jakim mieście toczy się akcja serialu „Breaking Bad”?",
+    "answers": [
+      "Albuquerque",
+      "Phoenix",
+      "El Paso",
+      "Las Vegas"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Akcja serialu rozgrywa się w Albuquerque w Nowym Meksyku."
+  },
+  {
+    "id": "film_e032",
+    "question": "W jakiej firmie pracuje Michael Scott w amerykańskiej wersji serialu „The Office”?",
+    "answers": [
+      "Wernham Hogg",
+      "Dunder Mifflin",
+      "Sterling Cooper",
+      "Initech"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Michael Scott kieruje oddziałem Dunder Mifflin w Scranton."
+  },
+  {
+    "id": "film_e033",
+    "question": "Kto zagrał Vita Corleone w pierwszej części „Ojca chrzestnego” z 1972 roku?",
+    "answers": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Jack Nicholson",
+      "Marlon Brando"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Za rolę Vita Corleone Marlon Brando otrzymał Oscara."
+  },
+  {
+    "id": "film_e034",
+    "question": "Jak nazywa się bohater grany przez Leonarda DiCaprio w filmie „Titanic”?",
+    "answers": [
+      "Jack Sparrow",
+      "Cal Hockley",
+      "Jack Torrance",
+      "Jack Dawson"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jack Dawson wygrywa bilet na Titanica w partii pokera."
+  },
+  {
+    "id": "film_e035",
+    "question": "Który film jako pierwszy polski zdobył Oscara dla najlepszego filmu nieanglojęzycznego?",
+    "answers": [
+      "Ida",
+      "Zimna wojna",
+      "Ziemia obiecana",
+      "Katyń"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Ida” Pawła Pawlikowskiego zdobyła Oscara w 2015 roku."
+  },
+  {
+    "id": "film_e036",
+    "question": "Która część „Władcy Pierścieni” zdobyła 11 Oscarów?",
+    "answers": [
+      "Drużyna Pierścienia",
+      "Dwie wieże",
+      "Wszystkie po równo",
+      "Powrót króla"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Powrót króla” zdobył 11 Oscarów, w tym za najlepszy film."
+  },
+  {
+    "id": "film_e037",
+    "question": "Za rolę w którym filmie Leonardo DiCaprio zdobył swojego pierwszego Oscara?",
+    "answers": [
+      "Wilk z Wall Street",
+      "Zjawa",
+      "Incepcja",
+      "Aviator"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "DiCaprio odebrał Oscara w 2016 roku za rolę w „Zjawie”."
+  },
+  {
+    "id": "film_e038",
+    "question": "Gdzie należy zniszczyć Jedyny Pierścień we „Władcy Pierścieni”?",
+    "answers": [
+      "W Minas Tirith",
+      "W Górze Przeznaczenia",
+      "W Isengardzie",
+      "W Rivendell"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pierścień można zniszczyć tylko w ogniu Góry Przeznaczenia, gdzie go wykuto."
+  },
+  {
+    "id": "film_e039",
+    "question": "Jak nazywa się serial, który jest prequelem „Breaking Bad”?",
+    "answers": [
+      "Narcos",
+      "Zadzwoń do Saula",
+      "Ozark",
+      "Prawo ulicy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Zadzwoń do Saula” opowiada historię prawnika Jimmy’ego McGilla."
+  },
+  {
+    "id": "film_e040",
+    "question": "Jak nazywa się rodzina, wokół której toczy się akcja serialu „M jak miłość”?",
+    "answers": [
+      "Lubiczowie",
+      "Mostowiakowie",
+      "Boscy",
+      "Kiepscy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Serial opowiada o rodzinie Mostowiaków z Grabiny."
+  },
+  {
+    "id": "film_e041",
+    "question": "Kto zagrał Henryka Kwintę w filmie „Vabank”?",
+    "answers": [
+      "Jan Machulski",
+      "Leonard Pietraszak",
+      "Witold Pyrkosz",
+      "Jerzy Stuhr"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kwintę zagrał Jan Machulski, ojciec reżysera Juliusza Machulskiego."
+  },
+  {
+    "id": "film_e042",
+    "question": "Który polski reżyser otrzymał w 2000 roku Oscara za całokształt twórczości?",
+    "answers": [
+      "Roman Polański",
+      "Krzysztof Kieślowski",
+      "Krzysztof Zanussi",
+      "Andrzej Wajda"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Andrzej Wajda odebrał honorowego Oscara w 2000 roku."
+  },
+  {
+    "id": "film_e043",
+    "question": "Za muzykę do którego filmu Jan A.P. Kaczmarek otrzymał Oscara?",
+    "answers": [
+      "Pianista",
+      "Lista Schindlera",
+      "Marzyciel",
+      "Quo vadis"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Kaczmarek zdobył Oscara w 2005 roku za muzykę do „Marzyciela”."
+  },
+  {
+    "id": "film_e044",
+    "question": "W którym roku bohaterowie „Seksmisji” budzą się z hibernacji?",
+    "answers": [
+      "2000",
+      "2044",
+      "2033",
+      "2077"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Maks i Albert zostają zahibernowani w 1991 roku, a budzą się w 2044."
+  },
+  {
+    "id": "film_e045",
+    "question": "Który kolor NIE występuje w tytułach trylogii „Trzy kolory” Krzysztofa Kieślowskiego?",
+    "answers": [
+      "Niebieski",
+      "Biały",
+      "Zielony",
+      "Czerwony"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Trylogia to „Niebieski”, „Biały” i „Czerwony” – barwy flagi Francji."
+  },
+  {
+    "id": "film_e046",
+    "question": "Jaką prędkość musi osiągnąć DeLorean w „Powrocie do przyszłości”, by przenieść się w czasie?",
+    "answers": [
+      "88 mil na godzinę",
+      "66 mil na godzinę",
+      "100 mil na godzinę",
+      "120 mil na godzinę"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Wehikuł doktora Browna przenosi się w czasie przy 88 milach na godzinę."
+  },
+  {
+    "id": "film_e047",
+    "question": "Kto zagrał kapitana Hansa Klossa w serialu „Stawka większa niż życie”?",
+    "answers": [
+      "Stanisław Mikulski",
+      "Emil Karewicz",
+      "Janusz Gajos",
+      "Franciszek Pieczka"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Klossa zagrał Stanisław Mikulski, a jego przeciwnika Brunnera – Emil Karewicz."
+  },
+  {
+    "id": "film_e048",
+    "question": "Który film zdobył pierwszego w historii Oscara dla najlepszego filmu?",
+    "answers": [
+      "Skrzydła",
+      "Przeminęło z wiatrem",
+      "Casablanca",
+      "Metropolis"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Na pierwszej gali w 1929 roku nagrodzono wojenny film „Skrzydła”."
+  },
+  {
+    "id": "film_e049",
+    "question": "Kto skomponował muzykę do „Gwiezdnych wojen”?",
+    "answers": [
+      "Hans Zimmer",
+      "Ennio Morricone",
+      "Howard Shore",
+      "John Williams"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "John Williams jest autorem muzyki do wszystkich części sagi Skywalkerów."
+  },
+  {
+    "id": "film_e050",
+    "question": "Z którego filmu pochodzi kwestia „Bo to zła kobieta była”?",
+    "answers": [
+      "Kiler",
+      "Miś",
+      "Psy",
+      "Chłopaki nie płaczą"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "To jeden z najczęściej cytowanych tekstów z „Psów” Władysława Pasikowskiego."
+  },
+  {
+    "id": "mus_e001",
+    "question": "Który zespół nagrał przebój „Autobiografia”?",
+    "answers": [
+      "Lady Pank",
+      "Budka Suflera",
+      "Perfect",
+      "Republika"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Autobiografia” to jeden z największych przebojów zespołu Perfect."
+  },
+  {
+    "id": "mus_e002",
+    "question": "Kto jest wokalistą i liderem zespołu Kult?",
+    "answers": [
+      "Kazik Staszewski",
+      "Muniek Staszczyk",
+      "Grzegorz Markowski",
+      "Jan Borysewicz"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kultem od lat 80. dowodzi Kazik Staszewski."
+  },
+  {
+    "id": "mus_e003",
+    "question": "Kto zaśpiewał przebój „Małgośka”?",
+    "answers": [
+      "Krystyna Prońko",
+      "Maryla Rodowicz",
+      "Urszula Sipińska",
+      "Halina Frąckowiak"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Małgośka” to jeden z najbardziej znanych utworów Maryli Rodowicz."
+  },
+  {
+    "id": "mus_e004",
+    "question": "Kto śpiewał przebój „Parostatek”?",
+    "answers": [
+      "Zbigniew Wodecki",
+      "Jerzy Połomski",
+      "Krzysztof Krawczyk",
+      "Andrzej Rosiewicz"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Parostatek” to klasyk Krzysztofa Krawczyka z lat 70."
+  },
+  {
+    "id": "mus_e005",
+    "question": "Kto wykonywał utwór „Dziwny jest ten świat”?",
+    "answers": [
+      "Marek Grechuta",
+      "Seweryn Krajewski",
+      "Czesław Niemen",
+      "Wojciech Młynarski"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Dziwny jest ten świat” to najsłynniejsza piosenka Czesława Niemena."
+  },
+  {
+    "id": "mus_e006",
+    "question": "Z jakiego miasta pochodzi zespół The Beatles?",
+    "answers": [
+      "Londyn",
+      "Manchester",
+      "Liverpool",
+      "Birmingham"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "The Beatles powstali w Liverpoolu."
+  },
+  {
+    "id": "mus_e007",
+    "question": "Który z tych muzyków NIE był członkiem The Beatles?",
+    "answers": [
+      "Ringo Starr",
+      "George Harrison",
+      "Mick Jagger",
+      "Paul McCartney"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mick Jagger to wokalista The Rolling Stones."
+  },
+  {
+    "id": "mus_e008",
+    "question": "Kogo nazywano „Królem rock and rolla”?",
+    "answers": [
+      "Chucka Berry’ego",
+      "Elvisa Presleya",
+      "Little Richarda",
+      "Johnny’ego Casha"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Elvis Presley jest nazywany po prostu „The King”."
+  },
+  {
+    "id": "mus_e009",
+    "question": "Kto wylansował przebój „Like a Virgin”?",
+    "answers": [
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Kylie Minogue",
+      "Madonna"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Like a Virgin” to przebój Madonny z 1984 roku."
+  },
+  {
+    "id": "mus_e010",
+    "question": "Który zespół nagrał „Highway to Hell”?",
+    "answers": [
+      "Metallica",
+      "Guns N' Roses",
+      "Iron Maiden",
+      "AC/DC"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Highway to Hell” to klasyk australijskiego AC/DC."
+  },
+  {
+    "id": "mus_e011",
+    "question": "Jak brzmi pseudonim wokalisty zespołu U2?",
+    "answers": [
+      "Sting",
+      "Slash",
+      "The Edge",
+      "Bono"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Wokalistą U2 jest Bono, a gitarzystą The Edge."
+  },
+  {
+    "id": "mus_e012",
+    "question": "Kto zaśpiewał „My Heart Will Go On” z filmu „Titanic”?",
+    "answers": [
+      "Céline Dion",
+      "Whitney Houston",
+      "Mariah Carey",
+      "Tina Turner"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Piosenka Céline Dion zdobyła Oscara w 1998 roku."
+  },
+  {
+    "id": "mus_e013",
+    "question": "Który zespół śpiewa „We will, we will rock you”?",
+    "answers": [
+      "Kiss",
+      "Queen",
+      "The Who",
+      "Deep Purple"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„We Will Rock You” napisał Brian May z zespołu Queen."
+  },
+  {
+    "id": "mus_e014",
+    "question": "Który zespół disco polo nagrał przebój „Ona tańczy dla mnie”?",
+    "answers": [
+      "Weekend",
+      "Boys",
+      "Akcent",
+      "Classic"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Ona tańczy dla mnie” zespołu Weekend biła rekordy popularności w sieci."
+  },
+  {
+    "id": "mus_e015",
+    "question": "Ile strun mają skrzypce?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Skrzypce mają cztery struny: G, D, A i E."
+  },
+  {
+    "id": "mus_e016",
+    "question": "Kto skomponował „Cztery pory roku”?",
+    "answers": [
+      "Jan Sebastian Bach",
+      "Antonio Vivaldi",
+      "Wolfgang Amadeusz Mozart",
+      "Joseph Haydn"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Cztery pory roku” to cykl koncertów skrzypcowych Vivaldiego."
+  },
+  {
+    "id": "mus_e017",
+    "question": "Ile linii ma pięciolinia?",
+    "answers": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Jak sama nazwa wskazuje – pięć."
+  },
+  {
+    "id": "mus_e018",
+    "question": "Kto jest wokalistką zespołu Bajm?",
+    "answers": [
+      "Beata Kozidrak",
+      "Kasia Kowalska",
+      "Edyta Bartosiewicz",
+      "Kora"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Beata Kozidrak śpiewa w Bajmie od lat 70."
+  },
+  {
+    "id": "mus_e019",
+    "question": "Kto był liderem zespołu Ich Troje?",
+    "answers": [
+      "Krzysztof Ibisz",
+      "Andrzej Piaseczny",
+      "Michał Wiśniewski",
+      "Ryszard Rynkowski"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ich Troje założył i prowadził Michał Wiśniewski."
+  },
+  {
+    "id": "mus_e020",
+    "question": "Z jakim gatunkiem muzyki kojarzy się przede wszystkim Bob Marley?",
+    "answers": [
+      "Blues",
+      "Reggae",
+      "Country",
+      "Funk"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Jamajczyk Bob Marley to najsłynniejszy wykonawca reggae."
+  },
+  {
+    "id": "mus_e021",
+    "question": "W jakim zespole śpiewała Doda na początku kariery?",
+    "answers": [
+      "Feel",
+      "Blue Café",
+      "Ich Troje",
+      "Virgin"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Doda zdobyła popularność jako wokalistka zespołu Virgin."
+  },
+  {
+    "id": "mus_e022",
+    "question": "Który zespół nagrał przebój „Baśka”?",
+    "answers": [
+      "Kombi",
+      "Varius Manx",
+      "Wilki",
+      "Lady Pank"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Baśka” to hit zespołu Wilki Roberta Gawlińskiego."
+  },
+  {
+    "id": "mus_e023",
+    "question": "Który zespół nagrał przebój „Przeżyj to sam”?",
+    "answers": [
+      "Perfect",
+      "Oddział Zamknięty",
+      "Lombard",
+      "TSA"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Przeżyj to sam” to największy przebój poznańskiego Lombardu."
+  },
+  {
+    "id": "mus_e024",
+    "question": "Kto był wokalistą i liderem zespołu Republika?",
+    "answers": [
+      "Grzegorz Markowski",
+      "Tomasz Lipiński",
+      "Grzegorz Ciechowski",
+      "Zbigniew Hołdys"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Republiką z Torunia kierował Grzegorz Ciechowski."
+  },
+  {
+    "id": "mus_e025",
+    "question": "Kto śpiewał piosenkę „Dni, których nie znamy”?",
+    "answers": [
+      "Marek Grechuta",
+      "Czesław Niemen",
+      "Seweryn Krajewski",
+      "Andrzej Zaucha"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Dni, których nie znamy” to klasyk Marka Grechuty."
+  },
+  {
+    "id": "mus_e026",
+    "question": "Z jaką piosenką Edyta Górniak zajęła 2. miejsce na Eurowizji?",
+    "answers": [
+      "Jestem kobietą",
+      "Dumka na dwa serca",
+      "Kasztany",
+      "To nie ja"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Utwór „To nie ja!” dał Polsce 2. miejsce w debiucie w konkursie."
+  },
+  {
+    "id": "mus_e027",
+    "question": "Który zespół w potwornych kostiumach wygrał Eurowizję w 2006 roku?",
+    "answers": [
+      "Rammstein",
+      "Lordi",
+      "Slipknot",
+      "Kiss"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Fiński Lordi wygrał piosenką „Hard Rock Hallelujah”."
+  },
+  {
+    "id": "mus_e028",
+    "question": "Który kraj wygrał Eurowizję w 2012 roku piosenką „Euphoria”?",
+    "answers": [
+      "Norwegia",
+      "Szwecja",
+      "Dania",
+      "Finlandia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Euphoria” wykonała Szwedka Loreen."
+  },
+  {
+    "id": "mus_e029",
+    "question": "Który zespół wygrał Eurowizję w 2021 roku?",
+    "answers": [
+      "Måneskin",
+      "Il Volo",
+      "The Rasmus",
+      "Go_A"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Włoski Måneskin wygrał utworem „Zitti e buoni”."
+  },
+  {
+    "id": "mus_e030",
+    "question": "Wokalistą którego zespołu był Sting?",
+    "answers": [
+      "Dire Straits",
+      "The Police",
+      "Genesis",
+      "Duran Duran"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sting był basistą i wokalistą The Police."
+  },
+  {
+    "id": "mus_e031",
+    "question": "Z jakiego filmu pochodzi przebój Whitney Houston „I Will Always Love You”?",
+    "answers": [
+      "Pretty Woman",
+      "Bodyguard",
+      "Uwierz w ducha",
+      "Titanic"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Whitney Houston zagrała też główną rolę w „Bodyguardzie”."
+  },
+  {
+    "id": "mus_e032",
+    "question": "Kto śpiewał „Tyle słońca w całym mieście”?",
+    "answers": [
+      "Anna Jantar",
+      "Irena Jarocka",
+      "Maryla Rodowicz",
+      "Urszula Sipińska"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "To jeden z największych przebojów Anny Jantar."
+  },
+  {
+    "id": "mus_e033",
+    "question": "Który zespół nagrał przebój „Kocham wolność”?",
+    "answers": [
+      "Chłopcy z Placu Broni",
+      "Kult",
+      "Elektryczne Gitary",
+      "Wilki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Kocham wolność” to hymn zespołu Chłopcy z Placu Broni."
+  },
+  {
+    "id": "mus_e034",
+    "question": "W jakim mieście urodził się Wolfgang Amadeusz Mozart?",
+    "answers": [
+      "Wiedeń",
+      "Bonn",
+      "Lipsk",
+      "Salzburg"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Mozart urodził się w 1756 roku w Salzburgu."
+  },
+  {
+    "id": "mus_e035",
+    "question": "Co ile lat odbywa się Międzynarodowy Konkurs Pianistyczny im. Fryderyka Chopina?",
+    "answers": [
+      "Co 2 lata",
+      "Co 3 lata",
+      "Co 4 lata",
+      "Co 5 lat"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Konkurs Chopinowski w Warszawie organizowany jest co pięć lat."
+  },
+  {
+    "id": "mus_e036",
+    "question": "Kto skomponował operę „Halka”?",
+    "answers": [
+      "Stanisław Moniuszko",
+      "Fryderyk Chopin",
+      "Karol Szymanowski",
+      "Henryk Wieniawski"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Moniuszko uchodzi za ojca polskiej opery narodowej."
+  },
+  {
+    "id": "mus_e037",
+    "question": "Kto był wieloletnim wokalistą Budki Suflera?",
+    "answers": [
+      "Grzegorz Markowski",
+      "Krzysztof Cugowski",
+      "Krzysztof Krawczyk",
+      "Andrzej Piaseczny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Krzysztof Cugowski to charakterystyczny głos Budki Suflera."
+  },
+  {
+    "id": "mus_e038",
+    "question": "W którym talent show zwyciężył Dawid Podsiadło?",
+    "answers": [
+      "Must Be the Music",
+      "Idol",
+      "X Factor",
+      "The Voice of Poland"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Dawid Podsiadło wygrał drugą edycję X Factor w 2012 roku."
+  },
+  {
+    "id": "mus_e039",
+    "question": "Która wokalistka przez lata była liderką zespołu Hey?",
+    "answers": [
+      "Kasia Kowalska",
+      "Edyta Bartosiewicz",
+      "Katarzyna Nosowska",
+      "Anja Orthodox"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Katarzyna Nosowska śpiewała w Hey od początku lat 90."
+  },
+  {
+    "id": "mus_e040",
+    "question": "Który gitarzysta jest współzałożycielem zespołu Lady Pank?",
+    "answers": [
+      "Zbigniew Hołdys",
+      "Jan Borysewicz",
+      "Jerzy Styczyński",
+      "Marek Raduli"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Lady Pank założył Jan Borysewicz razem z Andrzejem Mogielnickim."
+  },
+  {
+    "id": "mus_e041",
+    "question": "Kto śpiewał przebój „Wszystko, czego dziś chcę”?",
+    "answers": [
+      "Kora",
+      "Urszula",
+      "Małgorzata Ostrowska",
+      "Izabela Trojanowska"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "To jeden z największych hitów Izabeli Trojanowskiej z początku lat 80."
+  },
+  {
+    "id": "mus_e042",
+    "question": "Kto założył zespół Perfect?",
+    "answers": [
+      "Zbigniew Hołdys",
+      "Grzegorz Markowski",
+      "Jan Borysewicz",
+      "Tomasz Lipiński"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Perfect założył w 1980 roku Zbigniew Hołdys."
+  },
+  {
+    "id": "mus_e043",
+    "question": "Jaki kraj reprezentowała Céline Dion, wygrywając Eurowizję w 1988 roku?",
+    "answers": [
+      "Kanadę",
+      "Francję",
+      "Belgię",
+      "Szwajcarię"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kanadyjka Céline Dion wygrała w barwach Szwajcarii."
+  },
+  {
+    "id": "mus_e044",
+    "question": "W którym roku Polska zadebiutowała w konkursie Eurowizji?",
+    "answers": [
+      "1994",
+      "1984",
+      "1990",
+      "2000"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Polska zadebiutowała w 1994 roku występem Edyty Górniak."
+  },
+  {
+    "id": "mus_e045",
+    "question": "Z jakim muzykiem Kayah nagrała album z przebojem „Prawy do lewego”?",
+    "answers": [
+      "Z Kubą Badachem",
+      "Z Grzegorzem Turnauem",
+      "Z Krzysztofem Krawczykiem",
+      "Z Goranem Bregoviciem"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Album „Kayah i Bregović” z 1999 roku sprzedał się w ogromnym nakładzie."
+  },
+  {
+    "id": "mus_e046",
+    "question": "Do której grupy instrumentów należy saksofon?",
+    "answers": [
+      "Dęte blaszane",
+      "Dęte drewniane",
+      "Strunowe",
+      "Perkusyjne"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Mimo metalowego korpusu saksofon jest dęty drewniany, bo dźwięk wydaje stroik."
+  },
+  {
+    "id": "mus_e047",
+    "question": "Jaki był pierwszy singiel zespołu The Beatles?",
+    "answers": [
+      "Love Me Do",
+      "Help!",
+      "Yesterday",
+      "Let It Be"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "„Love Me Do” ukazał się w 1962 roku."
+  },
+  {
+    "id": "mus_e048",
+    "question": "Na jakiej wyspie urodził się Freddie Mercury?",
+    "answers": [
+      "Na Madagaskarze",
+      "Na Cyprze",
+      "Na Zanzibarze",
+      "Na Malcie"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Farrokh Bulsara, czyli Freddie Mercury, urodził się w 1946 roku na Zanzibarze."
+  },
+  {
+    "id": "mus_e049",
+    "question": "Kto skomponował „Bolero”?",
+    "answers": [
+      "Claude Debussy",
+      "Camille Saint-Saëns",
+      "Georges Bizet",
+      "Maurice Ravel"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "„Bolero” Ravela powstało w 1928 roku."
+  },
+  {
+    "id": "mus_e050",
+    "question": "Kto śpiewał przebój „Gdzie się podziały tamte prywatki”?",
+    "answers": [
+      "Zbigniew Wodecki",
+      "Krzysztof Krawczyk",
+      "Jerzy Połomski",
+      "Wojciech Gąssowski"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "To największy przebój Wojciecha Gąssowskiego."
+  }
+]
