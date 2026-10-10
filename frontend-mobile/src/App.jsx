@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Routes, Route, useParams, useNavigate, useLocation } from 'react-router-dom';
 import io from 'socket.io-client';
 import useSound from './hooks/useSound';
@@ -97,6 +97,7 @@ function JoinGame() {
   // Selfie states
   const [showCamera, setShowCamera] = useState(false);
   const [selfiePhoto, setSelfiePhoto] = useState(null);
+  const [showSelfiePreview, setShowSelfiePreview] = useState(false);
   const [stream, setStream] = useState(null);
   const videoRef = React.useRef(null);
   const canvasRef = React.useRef(null);
@@ -249,6 +250,7 @@ Na iPhone użyj Chrome zamiast Safari!`);
       const dataUrl = canvas.toDataURL('image/jpeg', 0.9);
       setSelfiePhoto(dataUrl);
       setSelectedAvatar(dataUrl);
+      setShowSelfiePreview(true);
       stopCamera();
     }
   };
@@ -300,11 +302,17 @@ Na iPhone użyj Chrome zamiast Safari!`);
 
   const retakeSelfie = () => {
     setSelfiePhoto(null);
+    setShowSelfiePreview(false);
+    setSelectedAvatar(avatars[0]);
     startCamera();
   };
 
   const cancelSelfie = () => {
     setSelfiePhoto(null);
+    setShowSelfiePreview(false);
+    if (selectedAvatar && !avatars.includes(selectedAvatar)) {
+      setSelectedAvatar(avatars[0]);
+    }
     stopCamera();
   };
 
@@ -449,7 +457,7 @@ Na iPhone użyj Chrome zamiast Safari!`);
         )}
         
         {/* Selfie Preview Modal */}
-        {selfiePhoto && !showCamera && selectedAvatar === selfiePhoto && (
+        {selfiePhoto && showSelfiePreview && !showCamera && (
           <div className="selfie-preview-modal">
             <div className="preview-container">
               <h3>Podgląd selfie</h3>
@@ -460,7 +468,7 @@ Na iPhone użyj Chrome zamiast Safari!`);
                 <button className="retake-button" onClick={retakeSelfie}>
                   🔄 Zrób ponownie
                 </button>
-                <button className="accept-button" onClick={() => {}}>  
+                <button className="accept-button" onClick={() => setShowSelfiePreview(false)}>
                   ✅ Akceptuj
                 </button>
               </div>
@@ -495,6 +503,18 @@ function Game() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [breakTimer, setBreakTimer] = useState(5);
   const [nextQuestionNumber, setNextQuestionNumber] = useState(2);
+  const [connectionWarning, setConnectionWarning] = useState('');
+
+  // Refs used inside socket handlers (avoid stale closures) and for timer cleanup
+  const playerIdRef = useRef(null);
+  const questionTimerRef = useRef(null);
+  const breakTimerRef = useRef(null);
+  const turnTimerRef = useRef(null);
+  const feedbackTimeoutRef = useRef(null);
+  const navigateTimeoutRef = useRef(null);
+  const rejoinRetryRef = useRef(null);
+  const answerSentRef = useRef(false);
+  const turnOrderRef = useRef([]);
 
   const { playSound } = useSound();
   
@@ -518,10 +538,14 @@ function Game() {
     if (!playerName || !avatar) {
       const stored = localStorage.getItem(`game-${sessionId}`);
       if (stored) {
-        const data = JSON.parse(stored);
-        playerName = data.playerName;
-        avatar = data.avatar;
-        console.log('Restored player data from localStorage:', { playerName, avatar });
+        try {
+          const data = JSON.parse(stored);
+          playerName = data.playerName;
+          avatar = data.avatar;
+          console.log('Restored player data from localStorage:', { playerName, avatar });
+        } catch (e) {
+          localStorage.removeItem(`game-${sessionId}`);
+        }
       }
     }
     
@@ -531,7 +555,34 @@ function Game() {
     }
     
     // Store player data for reconnection
-    localStorage.setItem(`game-${sessionId}`, JSON.stringify({ playerName, avatar }));
+    try {
+      localStorage.setItem(`game-${sessionId}`, JSON.stringify({ playerName, avatar }));
+    } catch (e) {
+      console.warn('Could not store player data:', e);
+    }
+
+    const clearTimer = (ref, fn = clearInterval) => {
+      if (ref.current) {
+        fn(ref.current);
+        ref.current = null;
+      }
+    };
+    // Countdown based on a deadline, so it stays correct when the phone
+    // throttles timers (screen off / background tab).
+    const startCountdown = (ref, setter, seconds, onDone) => {
+      clearTimer(ref);
+      const deadline = Date.now() + seconds * 1000;
+      setter(seconds);
+      ref.current = setInterval(() => {
+        const left = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
+        setter(left);
+        if (left <= 0) {
+          clearTimer(ref);
+          if (onDone) onDone();
+        }
+      }, 250);
+    };
+    let rejoinAttempts = 0;
 
     const newSocket = io(SOCKET_URL, {
       transports: ['websocket', 'polling'], // Fallback for Safari
@@ -541,41 +592,66 @@ function Game() {
     });
     setSocket(newSocket);
 
+    const emitJoin = () => {
+      console.log('Mobile: Emitting player-join', { sessionId, playerName });
+      newSocket.emit('player-join', {
+        sessionId,
+        playerName,
+        avatar,
+        // Extra field for (future) backend reconnect support - ignored otherwise
+        previousPlayerId: playerIdRef.current || undefined
+      });
+    };
+
+    // (Re)join on every connect - after a reconnect (screen lock, Wi-Fi drop)
+    // the server sees a brand new socket that is not in the game room.
     newSocket.on('connect', () => {
       console.log('Mobile: Socket connected successfully');
-      // Temporary alert for Safari debugging
-      // alert('Socket connected!');
+      setConnectionWarning('');
+      emitJoin();
     });
 
     newSocket.on('disconnect', (reason) => {
       console.log('Mobile: Socket disconnected:', reason);
+      if (reason !== 'io client disconnect') {
+        setConnectionWarning('Utracono połączenie – łączę ponownie...');
+      }
     });
 
     newSocket.on('connect_error', (error) => {
       console.log('Mobile: Connection error:', error);
-      setError('Błąd połączenia z serwerem');
-    });
-
-    // Join game
-    console.log('Mobile: Emitting player-join', { sessionId, playerName, avatar });
-    newSocket.emit('player-join', {
-      sessionId,
-      playerName,
-      avatar
+      // Non-blocking: socket.io keeps retrying, don't replace the whole UI
+      setConnectionWarning('Problem z połączeniem z serwerem – próbuję ponownie...');
     });
 
     newSocket.on('player-joined', (data) => {
-      setPlayerData({
-        id: data.playerId,
-        name: playerName,
-        avatar: avatar,
-        score: 0
-      });
+      rejoinAttempts = 0;
+      clearTimer(rejoinRetryRef, clearTimeout);
+      const isRejoin = playerIdRef.current !== null;
+      playerIdRef.current = data.playerId;
+      setConnectionWarning('');
+      setPlayerData(prev => (isRejoin && prev
+        ? { ...prev, id: data.playerId }
+        : { id: data.playerId, name: playerName, avatar: avatar, score: 0 }));
     });
 
     newSocket.on('join-error', (data) => {
-      setError(data.message);
-      setTimeout(() => navigate('/'), 3000);
+      const message = data?.message || 'Nie udało się dołączyć do gry';
+      // During a reconnect the server may still hold our old player entry
+      // (until it notices the dead socket) -> name "taken". Retry for a while.
+      if (playerIdRef.current && /zaj[eę]ta/i.test(message) && rejoinAttempts < 15) {
+        rejoinAttempts++;
+        setConnectionWarning('Wracam do gry...');
+        clearTimer(rejoinRetryRef, clearTimeout);
+        rejoinRetryRef.current = setTimeout(() => {
+          rejoinRetryRef.current = null;
+          if (newSocket.connected) emitJoin();
+        }, 5000);
+        return;
+      }
+      setError(playerIdRef.current ? `Utracono połączenie z grą: ${message}` : message);
+      clearTimer(navigateTimeoutRef, clearTimeout);
+      navigateTimeoutRef.current = setTimeout(() => navigate('/'), 4000);
     });
 
     newSocket.on('game-started', () => {
@@ -589,31 +665,33 @@ function Game() {
     });
 
     newSocket.on('new-question', (data) => {
+      if (!data?.question || !Array.isArray(data.question.answers)) return;
+      clearTimer(feedbackTimeoutRef, clearTimeout);
+      clearTimer(breakTimerRef);
+      setShowFeedback(false);
+      answerSentRef.current = false;
       setCurrentQuestion(data.question);
       setSelectedAnswer(null);
       setGameState('playing');
-      setTimer(15);
       setLastResult(null);
 
-      // Start timer
-      const timerInterval = setInterval(() => {
-        setTimer(prev => {
-          if (prev <= 1) {
-            clearInterval(timerInterval);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
+      // Start timer (previous one is cleared, so intervals never stack)
+      startCountdown(questionTimerRef, setTimer, 15);
     });
 
     newSocket.on('question-ended', (data) => {
       console.log('Question ended event received:', data);
       console.log('Current playerData in closure:', playerData);
 
-      // Find player by socket ID since playerData might not be set yet
+      clearTimer(questionTimerRef);
+      setTimer(0);
+
+      // Find player by ID (socket ID changes after a reconnect)
       const socketId = newSocket.id;
-      const updatedPlayer = data.updatedPlayers.find(p => p.socketId === socketId);
+      const players = Array.isArray(data?.updatedPlayers) ? data.updatedPlayers : [];
+      const updatedPlayer =
+        players.find(p => playerIdRef.current && p.id === playerIdRef.current) ||
+        players.find(p => p.socketId === socketId);
 
       console.log('Found updated player:', updatedPlayer);
 
@@ -637,13 +715,16 @@ function Game() {
         console.log('Setting showFeedback to true');
         // Show full-screen feedback
         setShowFeedback(true);
-        setTimeout(() => {
+        clearTimer(feedbackTimeoutRef, clearTimeout);
+        feedbackTimeoutRef.current = setTimeout(() => {
+          feedbackTimeoutRef.current = null;
           console.log('Hiding feedback after 2 seconds');
           setShowFeedback(false);
           setGameState('results');
         }, 2000); // Show for 2 seconds
       } else {
         console.log('Player not found in updatedPlayers');
+        setGameState('results');
       }
     });
 
@@ -651,22 +732,15 @@ function Game() {
       console.log('Question break event received:', data);
       setGameState('break');
       setNextQuestionNumber(data.nextQuestionNumber);
-      setBreakTimer(5);
-      
       // Start break countdown
-      const breakInterval = setInterval(() => {
-        setBreakTimer(prev => {
-          if (prev <= 1) {
-            clearInterval(breakInterval);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
+      startCountdown(breakTimerRef, setBreakTimer, 5);
     });
 
     newSocket.on('game-finished', () => {
       console.log('Game finished event received');
+      clearTimer(questionTimerRef);
+      clearTimer(feedbackTimeoutRef, clearTimeout);
+      setShowFeedback(false);
       setGameState('finished');
     });
 
@@ -686,13 +760,14 @@ function Game() {
     newSocket.on('turn-phase-start', (data) => {
       console.log('Turn phase started:', data);
       setGameState('turn');
-      setTurnOrder(data.turnOrder);
+      turnOrderRef.current = data.turnOrder || [];
+      setTurnOrder(data.turnOrder || []);
       setCurrentTurnIndex(data.currentPlayerIndex);
       setTurnPhase('action');
       
       // Check if it's my turn
       const currentPlayer = data.turnOrder[data.currentPlayerIndex];
-      const isMyTurnNow = currentPlayer && currentPlayer.playerId === playerData?.id;
+      const isMyTurnNow = !!currentPlayer && currentPlayer.playerId === playerIdRef.current;
       setIsMyTurn(isMyTurnNow);
       
       // Reset turn states
@@ -701,19 +776,12 @@ function Game() {
       setShowTargetSelection(false);
       
       // Start turn timer if it's my turn
+      clearTimer(turnTimerRef);
       if (isMyTurnNow) {
-        setTurnTimer(20);
-        const timerInterval = setInterval(() => {
-          setTurnTimer(prev => {
-            if (prev <= 1) {
-              clearInterval(timerInterval);
-              // Auto-skip turn when time runs out
-              handleSkipTurn();
-              return 0;
-            }
-            return prev - 1;
-          });
-        }, 1000);
+        // Auto-skip turn when time runs out
+        startCountdown(turnTimerRef, setTurnTimer, 20, () => {
+          newSocket.emit('skip-turn', { sessionId, playerId: playerIdRef.current });
+        });
       }
     });
 
@@ -722,8 +790,8 @@ function Game() {
       setCurrentTurnIndex(data.currentPlayerIndex);
       
       // Check if it's my turn
-      const currentPlayer = turnOrder[data.currentPlayerIndex];
-      setIsMyTurn(currentPlayer && currentPlayer.playerId === playerData?.id);
+      const currentPlayer = turnOrderRef.current[data.currentPlayerIndex];
+      setIsMyTurn(!!currentPlayer && currentPlayer.playerId === playerIdRef.current);
     });
 
     newSocket.on('action-taken', (data) => {
@@ -736,24 +804,38 @@ function Game() {
       // Handle turn skip feedback if needed
     });
 
-    return () => newSocket.close();
+    return () => {
+      clearTimer(questionTimerRef);
+      clearTimer(breakTimerRef);
+      clearTimer(turnTimerRef);
+      clearTimer(feedbackTimeoutRef, clearTimeout);
+      clearTimer(navigateTimeoutRef, clearTimeout);
+      clearTimer(rejoinRetryRef, clearTimeout);
+      newSocket.removeAllListeners();
+      newSocket.close();
+    };
   }, [sessionId, navigate]);
 
   const handleAnswerSelect = (answerIndex) => {
-    if (gameState === 'playing') {
-      // Allow changing answer until time runs out
-      setSelectedAnswer(answerIndex);
-      playSound('answer-submit');
+    // Backend accepts only the FIRST answer per question ("Answer already
+    // submitted"), so lock after the first tap instead of pretending the
+    // answer was changed.
+    if (gameState !== 'playing' || answerSentRef.current || timer <= 0) return;
+    if (!socket || !playerData) return;
+    answerSentRef.current = true;
+    setSelectedAnswer(answerIndex);
+    setGameState('answered');
+    playSound('answer-submit');
 
-      socket.emit('player-answer', {
-        sessionId,
-        playerId: playerData.id,
-        answer: answerIndex
-      });
-    }
+    socket.emit('player-answer', {
+      sessionId,
+      playerId: playerData.id,
+      answer: answerIndex
+    });
   };
 
   const handleProposeTurnOrder = (proposedOrder) => {
+    if (!socket || !playerData) return;
     socket.emit('propose-turn-order', {
       sessionId,
       playerId: playerData.id,
@@ -787,6 +869,7 @@ function Game() {
       target: selectedTarget
     };
     
+    if (!socket || !playerData) return;
     socket.emit('take-turn-action', {
       sessionId,
       playerId: playerData.id,
@@ -806,6 +889,7 @@ function Game() {
   };
 
   const handleSkipTurn = () => {
+    if (!socket || !playerData) return;
     socket.emit('skip-turn', {
       sessionId,
       playerId: playerData.id
@@ -828,9 +912,21 @@ function Game() {
         <div className="error-message">
           {error}
         </div>
+        <button className="join-button" onClick={() => navigate(`/join/${sessionId}`)}>
+          Wróć do dołączania
+        </button>
       </div>
     );
   }
+
+  const connectionBanner = connectionWarning ? (
+    <div
+      className="error-message"
+      style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 2000, margin: 0, borderRadius: 0, textAlign: 'center', background: 'rgba(60,0,0,0.9)' }}
+    >
+      {connectionWarning}
+    </div>
+  ) : null;
 
   if (!playerData) {
     return (
@@ -838,6 +934,7 @@ function Game() {
         <div className="waiting-screen">
           <div>Dołączam do gry...</div>
         </div>
+        {connectionBanner}
       </div>
     );
   }
@@ -984,7 +1081,7 @@ function Game() {
   const renderFeedback = () => {
     if (!lastResult || !currentQuestion) return null;
     
-    const correctAnswer = currentQuestion.answers[lastResult.correctAnswer];
+    const correctAnswer = currentQuestion.answers?.[lastResult.correctAnswer];
     
     return (
       <div className={`feedback-screen ${lastResult.correct ? 'correct' : 'incorrect'}`}>
@@ -1004,7 +1101,7 @@ function Game() {
           </div>
         )}
         
-        {lastResult.responseTime && (
+        {lastResult.responseTime > 0 && (
           <div className="response-time">
             ⏱️ Czas odpowiedzi: {(lastResult.responseTime / 1000).toFixed(1)}s
           </div>
@@ -1240,6 +1337,7 @@ function Game() {
       
       {/* Full-screen feedback overlay */}
       {showFeedback && renderFeedback()}
+      {connectionBanner}
     </>
   );
 }

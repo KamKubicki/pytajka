@@ -1,4 +1,4 @@
-import { useRef, useCallback } from 'react';
+import { useRef, useCallback, useEffect } from 'react';
 
 // Custom hook for playing sounds in the game
 const useSound = () => {
@@ -8,14 +8,44 @@ const useSound = () => {
   // Initialize Audio Context (lazy initialization)
   const getAudioContext = useCallback(() => {
     if (!audioContextRef.current) {
-      audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
+      const Ctx = window.AudioContext || window.webkitAudioContext;
+      if (!Ctx) return null;
+      audioContextRef.current = new Ctx();
     }
-    return audioContextRef.current;
+    const ctx = audioContextRef.current;
+    // iOS/Android start the context 'suspended' (or 'interrupted' after screen lock)
+    if (ctx.state !== 'running' && ctx.state !== 'closed') {
+      ctx.resume().catch(() => {});
+    }
+    return ctx;
   }, []);
+
+  // Unlock audio on the first user gesture - otherwise sounds triggered by
+  // socket events (not by a tap) never play on iOS Safari / Chrome Android.
+  useEffect(() => {
+    const unlock = () => {
+      try {
+        getAudioContext();
+      } catch (e) {
+        // ignore - sound is optional
+      }
+    };
+    window.addEventListener('touchstart', unlock, { passive: true });
+    window.addEventListener('click', unlock);
+    return () => {
+      window.removeEventListener('touchstart', unlock);
+      window.removeEventListener('click', unlock);
+      if (audioContextRef.current && audioContextRef.current.state !== 'closed') {
+        audioContextRef.current.close().catch(() => {});
+      }
+      audioContextRef.current = null;
+    };
+  }, [getAudioContext]);
 
   // Generate sound using Web Audio API (no external files needed!)
   const generateSound = useCallback((type) => {
     const ctx = getAudioContext();
+    if (!ctx || ctx.state === 'closed') return;
     const oscillator = ctx.createOscillator();
     const gainNode = ctx.createGain();
 
@@ -105,7 +135,8 @@ const useSound = () => {
         break;
 
       default:
-        oscillator.stop();
+        oscillator.disconnect();
+        gainNode.disconnect();
         break;
     }
   }, [getAudioContext]);
