@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "it_a001",
+    "question": "Kto został prezesem Apple po Steve'ie Jobsie w 2011 roku?",
+    "answers": [
+      "Tim Cook",
+      "Steve Wozniak",
+      "Jony Ive",
+      "John Sculley"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tim Cook zastąpił Steve'a Jobsa na stanowisku prezesa Apple w sierpniu 2011 roku."
+  },
+  {
+    "id": "it_a002",
+    "question": "Co oznacza skrót „SMS”?",
+    "answers": [
+      "Short Message Service",
+      "Send Message Service",
+      "Short Mobile Signal",
+      "Simple Mail System"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "SMS to Short Message Service, czyli usługa krótkich wiadomości tekstowych."
+  },
+  {
+    "id": "it_a003",
+    "question": "Co oznacza skrót „GPS”?",
+    "answers": [
+      "Global Path Search",
+      "Global Positioning System",
+      "General Position Service",
+      "Geo Point System"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "GPS to Global Positioning System – satelitarny system określania położenia."
+  },
+  {
+    "id": "it_a004",
+    "question": "Kto założył Microsoft razem z Billem Gatesem?",
+    "answers": [
+      "Steve Ballmer",
+      "Paul Allen",
+      "Steve Wozniak",
+      "Larry Ellison"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bill Gates i jego kolega ze szkoły Paul Allen założyli Microsoft w 1975 roku."
+  },
+  {
+    "id": "it_a005",
+    "question": "Od czego brały nazwy kolejne wersje Androida, np. Cupcake, Donut czy KitKat?",
+    "answers": [
+      "Od słodyczy i deserów",
+      "Od planet",
+      "Od zwierząt",
+      "Od miast"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wersje Androida od 1.5 do 9 nosiły alfabetycznie ułożone nazwy słodkości, np. Cupcake, Donut, Eclair."
+  },
+  {
+    "id": "it_a006",
+    "question": "Która firma produkuje karty graficzne z serii GeForce?",
+    "answers": [
+      "Intel",
+      "AMD",
+      "Nvidia",
+      "Qualcomm"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "GeForce to marka kart graficznych Nvidii."
+  },
+  {
+    "id": "it_a007",
+    "question": "Jak nazywa się kwadratowy kod z czarno-białych kratek, który skanuje się aparatem telefonu?",
+    "answers": [
+      "Kod kreskowy",
+      "Kod PUK",
+      "Kod QR",
+      "Kod PIN"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "QR to skrót od Quick Response – „szybka odpowiedź”."
+  },
+  {
+    "id": "it_a008",
+    "question": "Jaka firma kupiła serwis YouTube w 2006 roku?",
+    "answers": [
+      "Yahoo",
+      "Google",
+      "Facebook",
+      "Microsoft"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Google kupiło YouTube w 2006 roku, niewiele ponad rok po jego starcie."
+  },
+  {
+    "id": "it_a009",
+    "question": "Co oznacza skrót „HTML”?",
+    "answers": [
+      "High Tech Modern Language",
+      "Home Tool Markup Language",
+      "HyperText Markup Language",
+      "HyperText Machine Logic"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "HTML to język znaczników, w którym zapisuje się strony internetowe."
+  },
+  {
+    "id": "it_a010",
+    "question": "Z jakiego kraju pochodzi firma Samsung?",
+    "answers": [
+      "Chiny",
+      "Tajwan",
+      "Japonia",
+      "Korea Południowa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Samsung to południowokoreański koncern z siedzibą w okolicach Seulu."
+  },
+  {
+    "id": "it_a011",
+    "question": "Co oznacza skrót „VPN”?",
+    "answers": [
+      "Virtual Public Node",
+      "Very Protected Network",
+      "Verified Private Net",
+      "Virtual Private Network"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "VPN to wirtualna sieć prywatna, która tworzy szyfrowany tunel do innej sieci."
+  },
+  {
+    "id": "it_a012",
+    "question": "Jakie zwierzę jest maskotką systemu Linux?",
+    "answers": [
+      "Lis",
+      "Delfin",
+      "Słoń",
+      "Pingwin"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Maskotką Linuksa jest pingwin o imieniu Tux."
+  },
+  {
+    "id": "it_a013",
+    "question": "Jak ma na imię asystent głosowy w iPhone'ach?",
+    "answers": [
+      "Alexa",
+      "Bixby",
+      "Siri",
+      "Cortana"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Siri to asystent głosowy Apple; Alexa należy do Amazona, Cortana do Microsoftu, a Bixby do Samsunga."
+  },
+  {
+    "id": "it_a014",
+    "question": "Od czego pochodzi nazwa formatu „JPEG”?",
+    "answers": [
+      "Od skrótu „Jumbo Picture”",
+      "Od nazwy grupy ekspertów, która go opracowała",
+      "Od nazwy pierwszego aparatu cyfrowego",
+      "Od nazwiska wynalazcy"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "JPEG to Joint Photographic Experts Group – komitet, który opracował ten standard."
+  },
+  {
+    "id": "it_a015",
+    "question": "Z jakiego kraju pochodzi producent komputerów ASUS?",
+    "answers": [
+      "Tajwan",
+      "Japonia",
+      "Chiny",
+      "Korea Południowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "ASUS ma siedzibę w Tajpej na Tajwanie."
+  },
+  {
+    "id": "it_a016",
+    "question": "Jak nazywał się pierwszy film opublikowany w serwisie YouTube?",
+    "answers": [
+      "Evolution of Dance",
+      "Me at the zoo",
+      "Gangnam Style",
+      "Charlie bit my finger"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "W 2005 roku współzałożyciel YouTube Jawed Karim wrzucił 19-sekundowy film ze słoniami w zoo w San Diego."
+  },
+  {
+    "id": "it_a017",
+    "question": "Co oznacza internetowy skrót „LOL”?",
+    "answers": [
+      "Laughing Out Loud",
+      "Lots Of Love",
+      "Look Out Loud",
+      "Laugh Or Leave"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "LOL to „śmieję się na głos” – a nie, jak niektórzy myślą, „lots of love”."
+  },
+  {
+    "id": "it_a018",
+    "question": "Co oznacza skrót „SIM” w nazwie karty SIM?",
+    "answers": [
+      "System Integrated Memory",
+      "Secure Internet Mobile",
+      "Subscriber Identity Module",
+      "Simple Identification Mark"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Karta SIM to moduł identyfikacji abonenta w sieci komórkowej."
+  },
+  {
+    "id": "it_a019",
+    "question": "Który kod błędu HTTP oznacza „dostęp zabroniony” (Forbidden)?",
+    "answers": [
+      "500",
+      "301",
+      "404",
+      "403"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "403 oznacza Forbidden, 404 – brak strony, 500 – błąd serwera, a 301 – trwałe przekierowanie."
+  },
+  {
+    "id": "it_a020",
+    "question": "Co oznacza internetowy skrót „BRB”?",
+    "answers": [
+      "Be Right Back",
+      "Big Red Button",
+      "Bring Real Beer",
+      "Best Regards Bro"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "BRB znaczy „zaraz wracam”."
+  },
+  {
+    "id": "it_a021",
+    "question": "Jak nazywa się darmowa internetowa encyklopedia, którą może edytować każdy?",
+    "answers": [
+      "Britannica",
+      "Larousse",
+      "Wikipedia",
+      "Encarta"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wikipedia jest tworzona przez wolontariuszy z całego świata."
+  },
+  {
+    "id": "it_a022",
+    "question": "Jak nazywał się należący do Twittera serwis z zapętlonymi 6-sekundowymi filmikami?",
+    "answers": [
+      "Dubsmash",
+      "Periscope",
+      "Musical.ly",
+      "Vine"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Vine pozwalał publikować 6-sekundowe pętle wideo i wylansował wiele internetowych gwiazd."
+  },
+  {
+    "id": "it_a023",
+    "question": "Co sprzedawał Amazon na samym początku działalności?",
+    "answers": [
+      "Ubrania",
+      "Płyty CD",
+      "Elektronikę",
+      "Książki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Amazon zaczynał w 1995 roku jako internetowa księgarnia."
+  },
+  {
+    "id": "it_a024",
+    "question": "Jak pierwotnie nazywała się wyszukiwarka, z której powstało Google?",
+    "answers": [
+      "BackRub",
+      "Seeker",
+      "Googol",
+      "PageRank"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Projekt Page'a i Brina nazywał się BackRub, bo analizował linki prowadzące wstecz do stron."
+  },
+  {
+    "id": "it_a025",
+    "question": "Co oznacza hawajskie słowo „wiki”, od którego wzięła nazwę Wikipedia?",
+    "answers": [
+      "Szybko",
+      "Wolność",
+      "Wiedza",
+      "Razem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Twórca pierwszej wiki nazwał ją od hawajskich autobusów „Wiki Wiki”, czyli „szybko-szybko”."
+  },
+  {
+    "id": "it_a026",
+    "question": "Co robi skrót klawiszowy Alt+F4 w Windows?",
+    "answers": [
+      "Robi zrzut ekranu",
+      "Zamyka aktywne okno",
+      "Otwiera menedżer zadań",
+      "Blokuje komputer"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Alt+F4 zamyka bieżące okno, a na pulpicie wywołuje okno wyłączania komputera."
+  },
+  {
+    "id": "it_a027",
+    "question": "Jaki skrót klawiszowy w Windows kopiuje zaznaczony tekst?",
+    "answers": [
+      "Ctrl+X",
+      "Ctrl+V",
+      "Ctrl+C",
+      "Ctrl+Z"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ctrl+C kopiuje, Ctrl+V wkleja, a Ctrl+X wycina."
+  },
+  {
+    "id": "it_a028",
+    "question": "Kto był współzałożycielem Wikipedii?",
+    "answers": [
+      "Jimmy Wales",
+      "Larry Page",
+      "Tim Cook",
+      "Jack Dorsey"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wikipedię założyli w 2001 roku Jimmy Wales i Larry Sanger."
+  },
+  {
+    "id": "it_a029",
+    "question": "Jakie złącze Unia Europejska ustanowiła wspólnym standardem ładowania telefonów?",
+    "answers": [
+      "USB-C",
+      "Mini-USB",
+      "Lightning",
+      "Micro-USB"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Unijna dyrektywa o wspólnej ładowarce wprowadziła USB-C jako obowiązkowe złącze ładowania."
+  },
+  {
+    "id": "it_a030",
+    "question": "Jak nazywa się atak, w którym tysiące komputerów zalewają serwer zapytaniami, by go zablokować?",
+    "answers": [
+      "SQL injection",
+      "Spoofing",
+      "Phishing",
+      "DDoS"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "DDoS (Distributed Denial of Service) to rozproszona odmowa usługi."
+  },
+  {
+    "id": "it_a031",
+    "question": "Co oznacza skrót „URL”, czyli adres strony?",
+    "answers": [
+      "User Request Locator",
+      "Uniform Resource Locator",
+      "Universal Router Link",
+      "Unified Resource Line"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "URL to ujednolicony lokalizator zasobów, czyli po prostu adres w sieci."
+  },
+  {
+    "id": "it_a032",
+    "question": "Kto założył Facebooka?",
+    "answers": [
+      "Jack Dorsey",
+      "Mark Zuckerberg",
+      "Larry Page",
+      "Jeff Bezos"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Mark Zuckerberg uruchomił Facebooka w 2004 roku jako student."
+  },
+  {
+    "id": "it_a033",
+    "question": "Logo której aplikacji przedstawia białego duszka na żółtym tle?",
+    "answers": [
+      "WhatsApp",
+      "Snapchat",
+      "Telegram",
+      "Messenger"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Duszek Snapchata nawiązuje do znikających wiadomości."
+  },
+  {
+    "id": "it_a034",
+    "question": "Jak nazywa się oszustwo, w którym przestępca podszywa się np. pod bank, by wyłudzić hasło?",
+    "answers": [
+      "Trolling",
+      "Streaming",
+      "Hosting",
+      "Phishing"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Phishing (od ang. fishing – łowienie) to „łowienie” haseł i danych przez fałszywe wiadomości."
+  },
+  {
+    "id": "it_a035",
+    "question": "Jaką krajową domenę internetową ma Polska?",
+    "answers": [
+      ".pol",
+      ".po",
+      ".pl",
+      ".pn"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Polskie strony internetowe mają adresy kończące się na .pl."
+  },
+  {
+    "id": "it_a036",
+    "question": "Jaki układ klawiatury jest standardem we Francji?",
+    "answers": [
+      "QWERTZ",
+      "QWERTY",
+      "DVORAK",
+      "AZERTY"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Francuzi piszą na układzie AZERTY, Niemcy na QWERTZ, a większość świata, w tym Polska, na QWERTY."
+  },
+  {
+    "id": "it_a037",
+    "question": "Co oznacza skrót „CPU”?",
+    "answers": [
+      "Central Processing Unit",
+      "Central Program Utility",
+      "Computer Power Unit",
+      "Core Power Unit"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "CPU to Central Processing Unit, czyli procesor – „mózg” komputera."
+  },
+  {
+    "id": "it_a038",
+    "question": "Jak nazywa się złośliwe oprogramowanie, które szyfruje pliki i żąda okupu?",
+    "answers": [
+      "Adware",
+      "Ransomware",
+      "Spyware",
+      "Firmware"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ransomware pochodzi od ang. ransom, czyli okup."
+  },
+  {
+    "id": "it_a039",
+    "question": "Skąd wzięła się nazwa „spam” dla niechcianych wiadomości?",
+    "answers": [
+      "Od nazwy pierwszego wirusa",
+      "Od skeczu Monty Pythona o konserwie",
+      "Od nazwiska pierwszego spamera",
+      "Od skrótu nazwy amerykańskiej ustawy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W skeczu Monty Pythona słowo „Spam” (marka mielonki) powtarzano do znudzenia – jak niechciane maile."
+  },
+  {
+    "id": "it_a040",
+    "question": "Jaka firma kupiła Instagram w 2012 roku?",
+    "answers": [
+      "Twitter",
+      "Microsoft",
+      "Google",
+      "Facebook"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Facebook kupił Instagram w 2012 roku za około miliard dolarów."
+  },
+  {
+    "id": "it_a041",
+    "question": "Jak potocznie mówimy w Polsce na znak „@” w adresie e-mail?",
+    "answers": [
+      "Ślimak",
+      "Małpa",
+      "Kotek",
+      "Ucho"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W Polsce znak @ to „małpa” – w innych krajach bywa ślimakiem, kotkiem czy śledziem."
+  },
+  {
+    "id": "it_a042",
+    "question": "Który serwis społecznościowy jest przeznaczony głównie dla profesjonalistów i rekruterów?",
+    "answers": [
+      "Pinterest",
+      "LinkedIn",
+      "Tumblr",
+      "Reddit"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "LinkedIn służy do budowania sieci kontaktów zawodowych i szukania pracy."
+  },
+  {
+    "id": "it_a043",
+    "question": "Od jakiego słowa pochodzi nazwa „Google”?",
+    "answers": [
+      "Od nazwy kalifornijskiej ulicy",
+      "Od nazwiska założyciela",
+      "Od googola, czyli liczby 10 do potęgi 100",
+      "Od dźwięku wydawanego przez niemowlę"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Googol to jedynka ze stu zerami – nazwa miała podkreślać ogrom indeksowanych danych."
+  },
+  {
+    "id": "it_a044",
+    "question": "Jak nazywało się złącze Apple wprowadzone w iPhonie 5?",
+    "answers": [
+      "FireWire",
+      "MagSafe",
+      "Thunderbolt",
+      "Lightning"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Złącze Lightning zadebiutowało w 2012 roku w iPhonie 5."
+  },
+  {
+    "id": "it_a045",
+    "question": "Jaki kod wpisany na klawiaturze telefonu wyświetla jego numer IMEI?",
+    "answers": [
+      "#123#",
+      "*#99#",
+      "*100#",
+      "*#06#"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kod *#06# działa w praktycznie każdym telefonie komórkowym i pokazuje unikalny numer IMEI."
+  },
+  {
+    "id": "it_a046",
+    "question": "Ile klawiszy funkcyjnych (F1, F2…) ma standardowa klawiatura komputera PC?",
+    "answers": [
+      "10",
+      "9",
+      "12",
+      "15"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Standardowa klawiatura ma klawisze od F1 do F12."
+  },
+  {
+    "id": "it_a047",
+    "question": "Jak nazywa się aplikacja z krótkimi pionowymi filmikami, stworzona przez chińską firmę ByteDance?",
+    "answers": [
+      "TikTok",
+      "Vine",
+      "Twitch",
+      "Snapchat"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "TikTok to dzieło chińskiej firmy ByteDance."
+  },
+  {
+    "id": "it_a048",
+    "question": "Jakim systemem liczbowym posługują się komputery?",
+    "answers": [
+      "Rzymskim",
+      "Dziesiętnym",
+      "Ósemkowym",
+      "Dwójkowym"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Komputery operują na zerach i jedynkach, czyli w systemie dwójkowym (binarnym)."
+  },
+  {
+    "id": "it_a049",
+    "question": "Do czego służy CAPTCHA, np. „zaznacz wszystkie obrazki z sygnalizacją świetlną”?",
+    "answers": [
+      "Do odróżnienia człowieka od bota",
+      "Do przyspieszania strony",
+      "Do blokowania reklam",
+      "Do szyfrowania haseł"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "CAPTCHA to test, który ma łatwo rozwiązać człowiek, a trudno automatyczny program."
+  },
+  {
+    "id": "it_a050",
+    "question": "Jak nazywa się program, który udaje przydatny, a w ukryciu wpuszcza intruza do komputera?",
+    "answers": [
+      "Keylogger",
+      "Robak",
+      "Spyware",
+      "Koń trojański"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nazwa nawiązuje do drewnianego konia, w którym Grecy ukryli się, by zdobyć Troję."
+  },
+  {
+    "id": "it_a051",
+    "question": "Który Steve współzałożył firmę Apple razem ze Steve'em Jobsem?",
+    "answers": [
+      "Steve Case",
+      "Steve Chen",
+      "Steve Wozniak",
+      "Steve Ballmer"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Steve Wozniak zaprojektował pierwsze komputery Apple i założył firmę razem z Jobsem w 1976 roku."
+  },
+  {
+    "id": "it_a052",
+    "question": "Na jakiej uczelni narodził się Facebook?",
+    "answers": [
+      "Stanford",
+      "Harvard",
+      "MIT",
+      "Yale"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Facebook powstał w 2004 roku w akademiku Uniwersytetu Harvarda i początkowo był tylko dla jego studentów."
+  },
+  {
+    "id": "it_a053",
+    "question": "Dlaczego dysk systemowy w Windows ma zwykle literę C, a nie A?",
+    "answers": [
+      "Litery A i B zarezerwowano dla stacji dyskietek",
+      "Litera C oznacza „Computer”",
+      "A i B to litery dla napędów CD",
+      "A i B są zarezerwowane dla drukarek"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "W czasach DOS-a litery A: i B: przypisywano stacjom dyskietek, więc dysk twardy dostał C:."
+  },
+  {
+    "id": "it_a054",
+    "question": "Z jakiego kraju pochodzi Spotify?",
+    "answers": [
+      "Dania",
+      "Finlandia",
+      "Szwecja",
+      "Norwegia"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Spotify zostało założone w 2006 roku w Sztokholmie."
+  },
+  {
+    "id": "it_a055",
+    "question": "Która firma rozwija system operacyjny Android?",
+    "answers": [
+      "Apple",
+      "Microsoft",
+      "Samsung",
+      "Google"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Android jest rozwijany przez Google, choć używa go wielu producentów telefonów."
+  },
+  {
+    "id": "it_a056",
+    "question": "Co oznacza litera „S” w skrócie HTTPS?",
+    "answers": [
+      "Secure",
+      "Speed",
+      "Server",
+      "System"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "HTTPS to bezpieczna, szyfrowana wersja protokołu HTTP – stąd kłódka w przeglądarce."
+  },
+  {
+    "id": "it_a057",
+    "question": "Co oznacza skrót „PIN”?",
+    "answers": [
+      "Personal Identification Number",
+      "Protected Input Number",
+      "Personal Internet Name",
+      "Private Internet Number"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "PIN to osobisty numer identyfikacyjny, np. do karty płatniczej."
+  },
+  {
+    "id": "it_a058",
+    "question": "Jak pierwotnie nazywał się Amazon?",
+    "answers": [
+      "Nile",
+      "Bookworm",
+      "Cadabra",
+      "Relentless"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bezos zrezygnował z nazwy Cadabra, bo przez telefon brzmiała jak „cadaver”, czyli zwłoki."
+  },
+  {
+    "id": "it_a059",
+    "question": "Który serwis społecznościowy przez lata miał w logo niebieskiego ptaszka?",
+    "answers": [
+      "Snapchat",
+      "Instagram",
+      "Facebook",
+      "Twitter"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Niebieski ptaszek był symbolem Twittera, a wpisy nazywano „tweetami”, czyli ćwierknięciami."
+  },
+  {
+    "id": "it_a060",
+    "question": "Co robi skrót klawiszowy Ctrl+Z?",
+    "answers": [
+      "Zaznacza wszystko",
+      "Zapisuje plik",
+      "Cofa ostatnią czynność",
+      "Zamyka okno"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ctrl+Z to „cofnij” – ratunek po przypadkowym skasowaniu tekstu."
+  },
+  {
+    "id": "it_a061",
+    "question": "Co oznacza skrót „BIOS”?",
+    "answers": [
+      "Basic Input/Output System",
+      "Basic Internal Operating Software",
+      "Boot Initial Operating Setup",
+      "Binary Integrated Operating System"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "BIOS to podstawowy system wejścia-wyjścia, uruchamiany zaraz po włączeniu komputera."
+  },
+  {
+    "id": "it_a062",
+    "question": "Co oznacza skrót „SSD” w nazwie dysku?",
+    "answers": [
+      "System Storage Device",
+      "Solid State Drive",
+      "Super Speed Disk",
+      "Silicon Storage Disk"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Dysk SSD nie ma ruchomych części – dane trzyma w pamięci półprzewodnikowej."
+  },
+  {
+    "id": "it_a063",
+    "question": "Jak nazywa się funkcja odblokowywania iPhone'a za pomocą twarzy?",
+    "answers": [
+      "Smile Unlock",
+      "Face ID",
+      "Face Pass",
+      "Touch ID"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Face ID skanuje twarz w 3D; Touch ID to odblokowanie odciskiem palca."
+  },
+  {
+    "id": "it_a064",
+    "question": "Co oznacza skrót „NFC”, technologii używanej przy płatnościach telefonem?",
+    "answers": [
+      "No Fee Contact",
+      "Network Fast Connection",
+      "Near Field Communication",
+      "New Financial Card"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "NFC to komunikacja bliskiego zasięgu – działa na odległość kilku centymetrów."
+  },
+  {
+    "id": "it_a065",
+    "question": "Co oznacza skrót „LED”?",
+    "answers": [
+      "Low Energy Display",
+      "Light Emitting Diode",
+      "Light Electronic Device",
+      "Laser Emitting Diode"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "LED to dioda elektroluminescencyjna, czyli dioda emitująca światło."
+  },
+  {
+    "id": "it_a066",
+    "question": "Co oznacza skrót „GIF”?",
+    "answers": [
+      "Generated Image Format",
+      "Graphic Internet Frame",
+      "General Image File",
+      "Graphics Interchange Format"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "GIF to Graphics Interchange Format – format grafiki, znany dziś głównie z zapętlonych animacji."
+  },
+  {
+    "id": "it_a067",
+    "question": "Co oznacza skrót „PDF”?",
+    "answers": [
+      "Printable Document Form",
+      "Portable Document Format",
+      "Personal Data File",
+      "Public Digital Format"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "PDF to Portable Document Format – format dokumentu, który wygląda tak samo na każdym urządzeniu."
+  },
+  {
+    "id": "it_a068",
+    "question": "Ile herców to 1 gigaherc (GHz)?",
+    "answers": [
+      "Milion",
+      "Miliard",
+      "Tysiąc",
+      "Bilion"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Przedrostek giga oznacza miliard, więc procesor 3 GHz wykonuje 3 miliardy cykli na sekundę."
+  },
+  {
+    "id": "it_a069",
+    "question": "Logo którego języka programowania przedstawia filiżankę gorącej kawy?",
+    "answers": [
+      "Python",
+      "Ruby",
+      "C++",
+      "Java"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Java to amerykańskie potoczne określenie kawy – stąd parująca filiżanka w logo."
+  },
+  {
+    "id": "it_a070",
+    "question": "Jak nazywa się tryb przeglądarki Chrome, który nie zapisuje historii?",
+    "answers": [
+      "Incognito",
+      "Stealth",
+      "Ghost",
+      "Ninja"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tryb incognito nie zapisuje historii ani ciasteczek po zamknięciu okna."
+  },
+  {
+    "id": "it_a071",
+    "question": "Które z tych haseł jest najbezpieczniejsze?",
+    "answers": [
+      "Kasia1990",
+      "qwerty",
+      "k7#Rq!9vLm2$",
+      "haslo123"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Silne hasło jest długie i miesza małe i wielkie litery, cyfry oraz znaki specjalne."
+  },
+  {
+    "id": "it_a072",
+    "question": "Do jakiego państwa należy domena internetowa .tv, chętnie używana przez telewizje?",
+    "answers": [
+      "Tuvalu",
+      "Turkmenistan",
+      "Tajwan",
+      "Tonga"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Mała wyspiarska Tuvalu zarabia spore pieniądze na dzierżawie swojej domeny .tv."
+  },
+  {
+    "id": "it_a073",
+    "question": "Ile znaków mógł mieć jeden tweet w pierwszych latach Twittera?",
+    "answers": [
+      "280",
+      "160",
+      "100",
+      "140"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Limit 140 znaków wynikał z długości SMS-a (160 znaków) z zapasem na nazwę użytkownika."
+  },
+  {
+    "id": "it_a074",
+    "question": "Od kogo pochodzi nazwa technologii Bluetooth?",
+    "answers": [
+      "Od szwedzkiego miasta",
+      "Od nazwiska jej wynalazcy",
+      "Od koloru pierwszych diod",
+      "Od duńskiego króla Haralda Sinozębego"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Harald Sinozęby (ang. Bluetooth) zjednoczył plemiona duńskie, tak jak Bluetooth miał łączyć urządzenia."
+  },
+  {
+    "id": "it_a075",
+    "question": "Jak zapisuje się liczbę 5 w systemie dwójkowym?",
+    "answers": [
+      "100",
+      "111",
+      "101",
+      "110"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "5 = 4 + 1, czyli 1·4 + 0·2 + 1·1, co daje zapis 101."
+  },
+  {
+    "id": "it_a076",
+    "question": "Kto założył Google razem z Larrym Page'em?",
+    "answers": [
+      "Eric Schmidt",
+      "Paul Allen",
+      "Sergey Brin",
+      "Sundar Pichai"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Larry Page i Sergey Brin poznali się na Uniwersytecie Stanforda i w 1998 roku założyli Google."
+  },
+  {
+    "id": "it_a077",
+    "question": "Co oznacza skrót „RAM”?",
+    "answers": [
+      "Random Access Memory",
+      "Read And Modify",
+      "Rapid Access Module",
+      "Read Access Memory"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "RAM to pamięć o dostępie swobodnym, w której komputer trzyma dane bieżącej pracy."
+  },
+  {
+    "id": "it_a078",
+    "question": "Jakie zwierzę owija się wokół kuli ziemskiej w logo przeglądarki Firefox?",
+    "answers": [
+      "Wiewiórka",
+      "Wilk",
+      "Lis",
+      "Kot"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Firefox to dosłownie „ognisty lis” i właśnie lis otacza glob w jego logo."
+  },
+  {
+    "id": "it_a079",
+    "question": "Co oznacza błąd „404” na stronie internetowej?",
+    "answers": [
+      "Wygasł certyfikat",
+      "Brak uprawnień",
+      "Nie znaleziono strony",
+      "Serwer jest przeciążony"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kod 404 oznacza „Not Found” – strona pod tym adresem nie istnieje."
+  },
+  {
+    "id": "it_a080",
+    "question": "Który z tych przedsiębiorców był współzałożycielem Twittera?",
+    "answers": [
+      "Kevin Systrom",
+      "Jack Dorsey",
+      "Reid Hoffman",
+      "Evan Spiegel"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jack Dorsey współtworzył Twittera; Systrom założył Instagram, Spiegel Snapchata, a Hoffman LinkedIn."
+  }
+]
