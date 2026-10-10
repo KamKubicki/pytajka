@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import './Fog.css';
 
 export const meta = {
@@ -85,7 +85,9 @@ export default function Fog({ answers = [], onComplete, playSound }) {
   onCompleteRef.current = onComplete;
   playSoundRef.current = playSound;
 
-  useEffect(() => {
+  // layout effect: fog must be painted before the first frame, otherwise the
+  // answers would flash uncovered for a moment
+  useLayoutEffect(() => {
     const area = areaRef.current;
     const canvas = canvasRef.current;
     if (!area || !canvas) return undefined;
@@ -100,6 +102,11 @@ export default function Fog({ answers = [], onComplete, playSound }) {
     let activePointer = null;
     let finishTimer = null;
     let lastTapSound = 0;
+    let canvasRect = null;
+    const sampler = document.createElement('canvas');
+    sampler.width = GRID_X;
+    sampler.height = GRID_Y;
+    const sctx = sampler.getContext('2d', { willReadFrequently: true });
 
     const sound = (t) => {
       try {
@@ -116,8 +123,11 @@ export default function Fog({ answers = [], onComplete, playSound }) {
       const nextDpr = Math.min(window.devicePixelRatio || 1, 3);
       if (initialized && w === cssW && h === cssH && nextDpr === dpr) return;
 
+      canvasRect = null;
       // keep already-scratched holes when the canvas changes size
       let snapshot = null;
+      const oldW = cssW;
+      const oldH = cssH;
       if (initialized && canvas.width > 0 && canvas.height > 0) {
         snapshot = document.createElement('canvas');
         snapshot.width = canvas.width;
@@ -132,23 +142,23 @@ export default function Fog({ answers = [], onComplete, playSound }) {
       canvas.height = Math.round(h * dpr);
       canvas.style.width = `${w}px`;
       canvas.style.height = `${h}px`;
-      ctx.setTransform(1, 0, 0, 1, 0, 0);
-
-      if (snapshot) {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        ctx.drawImage(snapshot, 0, 0, canvas.width, canvas.height);
-      } else if (!doneRef.current) {
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        paintFog(ctx, w, h);
-      }
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+      if (!doneRef.current) paintFog(ctx, w, h);
+      if (snapshot) {
+        // old content keeps its CSS-pixel position and scale (no stretching);
+        // any newly exposed area gets fresh fog
+        ctx.clearRect(0, 0, Math.min(oldW, w), Math.min(oldH, h));
+        ctx.drawImage(snapshot, 0, 0, oldW, oldH);
+      }
       initialized = true;
       dirty = true;
+      area.classList.add('is-ready');
     };
 
     const toLocal = (e) => {
-      const rect = canvas.getBoundingClientRect();
-      return { x: e.clientX - rect.left, y: e.clientY - rect.top };
+      if (!canvasRect) canvasRect = canvas.getBoundingClientRect();
+      return { x: e.clientX - canvasRect.left, y: e.clientY - canvasRect.top };
     };
 
     const scratch = (from, to) => {
@@ -188,20 +198,20 @@ export default function Fog({ answers = [], onComplete, playSound }) {
     const measure = () => {
       if (!dirty || doneRef.current || !canvas.width || !canvas.height) return;
       dirty = false;
+      // downscale the fog into a GRID_X×GRID_Y sampler and read its alpha –
+      // much cheaper than reading the full-resolution canvas
       let data;
       try {
-        data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+        sctx.clearRect(0, 0, GRID_X, GRID_Y);
+        sctx.drawImage(canvas, 0, 0, GRID_X, GRID_Y);
+        data = sctx.getImageData(0, 0, GRID_X, GRID_Y).data;
       } catch {
         return;
       }
       let cleared = 0;
       const total = GRID_X * GRID_Y;
-      for (let gy = 0; gy < GRID_Y; gy += 1) {
-        const py = Math.min(canvas.height - 1, Math.floor(((gy + 0.5) / GRID_Y) * canvas.height));
-        for (let gx = 0; gx < GRID_X; gx += 1) {
-          const px = Math.min(canvas.width - 1, Math.floor(((gx + 0.5) / GRID_X) * canvas.width));
-          if (data[(py * canvas.width + px) * 4 + 3] < 64) cleared += 1;
-        }
+      for (let i = 3; i < data.length; i += 4) {
+        if (data[i] < 64) cleared += 1;
       }
       const frac = cleared / total;
       setProgress(Math.min(1, frac / TARGET));
@@ -212,6 +222,7 @@ export default function Fog({ answers = [], onComplete, playSound }) {
       if (doneRef.current || activePointer !== null) return;
       e.preventDefault();
       activePointer = e.pointerId;
+      canvasRect = canvas.getBoundingClientRect();
       try {
         canvas.setPointerCapture(e.pointerId);
       } catch {
@@ -256,6 +267,7 @@ export default function Fog({ answers = [], onComplete, playSound }) {
     canvas.addEventListener('pointermove', onMove);
     canvas.addEventListener('pointerup', onUp);
     canvas.addEventListener('pointercancel', onUp);
+    canvas.addEventListener('lostpointercapture', onUp);
     const interval = window.setInterval(measure, SAMPLE_MS);
 
     return () => {
@@ -267,6 +279,7 @@ export default function Fog({ answers = [], onComplete, playSound }) {
       canvas.removeEventListener('pointermove', onMove);
       canvas.removeEventListener('pointerup', onUp);
       canvas.removeEventListener('pointercancel', onUp);
+      canvas.removeEventListener('lostpointercapture', onUp);
     };
   }, []);
 

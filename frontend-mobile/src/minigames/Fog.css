@@ -115,10 +115,10 @@
   overflow: hidden;
 }
 
-.mg-fog__ans--a { background: #E63946; }
-.mg-fog__ans--b { background: #2A9DF4; }
-.mg-fog__ans--c { background: #F4B400; color: #1a1a1a; }
-.mg-fog__ans--d { background: #2EC27E; }
+.mg-fog__ans--a { background: var(--ans-a, #E63946); }
+.mg-fog__ans--b { background: var(--ans-b, #2A9DF4); }
+.mg-fog__ans--c { background: var(--ans-c, #F4B400); color: #1a1a1a; }
+.mg-fog__ans--d { background: var(--ans-d, #2EC27E); }
 
 .mg-fog__letter {
   display: inline-grid;
@@ -138,6 +138,11 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+/* answers stay hidden until the fog canvas has been painted */
+.mg-fog__area:not(.is-ready) .mg-fog__answers {
+  visibility: hidden;
 }
 
 .mg-fog__canvas {

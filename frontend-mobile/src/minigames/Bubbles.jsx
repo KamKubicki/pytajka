@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import './Bubbles.css';
 
 export const meta = {
@@ -63,8 +63,8 @@ export default function Bubbles({ answers = [], onComplete, playSound }) {
     }
   };
 
-  // init + animation loop
-  useEffect(() => {
+  // init + animation loop (layout effect: bubbles exist before the first paint)
+  useLayoutEffect(() => {
     const area = areaRef.current;
     if (!area) return undefined;
 
@@ -127,6 +127,16 @@ export default function Bubbles({ answers = [], onComplete, playSound }) {
     };
   }, []);
 
+  // place freshly rendered bubbles before the first paint
+  useLayoutEffect(() => {
+    (bubblesRef.current || []).forEach((b) => {
+      const node = nodesRef.current[b.id];
+      if (node && !node.style.transform) {
+        node.style.transform = `translate3d(${b.x}px, ${b.y}px, 0)`;
+      }
+    });
+  }, [bubbles]);
+
   useEffect(() => () => {
     if (finishTimerRef.current) window.clearTimeout(finishTimerRef.current);
   }, []);
@@ -181,16 +191,14 @@ export default function Bubbles({ answers = [], onComplete, playSound }) {
           <button
             key={b.id}
             type="button"
-            ref={(el) => {
-              nodesRef.current[b.id] = el;
-              const src = bubblesRef.current?.find((x) => x.id === b.id);
-              if (el && src && !el.style.transform) {
-                el.style.transform = `translate3d(${src.x}px, ${src.y}px, 0)`;
-              }
-            }}
+            ref={(el) => { nodesRef.current[b.id] = el; }}
             className={`mg-bub__bubble${popped.has(b.id) ? ' is-popped' : ''}`}
             style={{ width: b.size, height: b.size, '--hue': b.hue }}
             onPointerDown={(e) => pop(b.id, e)}
+            onClick={(e) => {
+              // keyboard / screen-reader activation (no pointer involved)
+              if (e.detail === 0) pop(b.id, e);
+            }}
             aria-label="Bąbelek"
             disabled={popped.has(b.id)}
           >
