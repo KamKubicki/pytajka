@@ -2,23 +2,35 @@ import React, { createContext, useState } from 'react';
 
 const GameContext = createContext();
 
+const EMPTY_VOTE = {
+  round: null,
+  totalRounds: null,
+  duration: 10,
+  options: [],
+  votes: {},
+  totalVotes: 0,
+  totalPlayers: 0,
+  votedPlayerIds: [],
+  result: null
+};
+
 const GameProvider = ({ children }) => {
   const [gameState, setGameState] = useState('lobby');
   const [players, setPlayers] = useState([]);
   const [sessionId, setSessionId] = useState('');
   const [qrCode, setQrCode] = useState('');
   const [joinUrl, setJoinUrl] = useState('');
-  const [localIP, setLocalIP] = useState('');
   const [currentQuestion, setCurrentQuestion] = useState(null);
-  const [questionIndex, setQuestionIndex] = useState(0);
+  // Meta for the current question: round, totalRounds, questionNumber, totalQuestions,
+  // questionInRound, questionsPerRound, timeLimit, roundCategory (all optional)
+  const [questionMeta, setQuestionMeta] = useState({ timeLimit: 15 });
   const [timer, setTimer] = useState(15);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
-  const [playerAnswers, setPlayerAnswers] = useState(new Map());
-  const [realTimeAnswers, setRealTimeAnswers] = useState(new Map());
-  const [prepareTimer, setPrepareTimer] = useState(5);
-  const [questionNumber, setQuestionNumber] = useState(1);
-  const [totalQuestions, setTotalQuestions] = useState(10);
-  const [breakTimer, setBreakTimer] = useState(5);
+  // Only WHO answered - never what they answered
+  const [answeredIds, setAnsweredIds] = useState(() => new Set());
+  const [answerCount, setAnswerCount] = useState({ total: 0, players: 0 });
+  const [voteData, setVoteData] = useState(EMPTY_VOTE);
+  const [voteTimer, setVoteTimer] = useState(0);
   const [totalQuestionCount, setTotalQuestionCount] = useState(0);
   const [gameSettings, setGameSettings] = useState(null);
   const [resultsData, setResultsData] = useState(null);
@@ -31,17 +43,14 @@ const GameProvider = ({ children }) => {
     sessionId, setSessionId,
     qrCode, setQrCode,
     joinUrl, setJoinUrl,
-    localIP, setLocalIP,
     currentQuestion, setCurrentQuestion,
-    questionIndex, setQuestionIndex,
+    questionMeta, setQuestionMeta,
     timer, setTimer,
     showCorrectAnswer, setShowCorrectAnswer,
-    playerAnswers, setPlayerAnswers,
-    realTimeAnswers, setRealTimeAnswers,
-    prepareTimer, setPrepareTimer,
-    questionNumber, setQuestionNumber,
-    totalQuestions, setTotalQuestions,
-    breakTimer, setBreakTimer,
+    answeredIds, setAnsweredIds,
+    answerCount, setAnswerCount,
+    voteData, setVoteData,
+    voteTimer, setVoteTimer,
     totalQuestionCount, setTotalQuestionCount,
     gameSettings, setGameSettings,
     resultsData, setResultsData,
@@ -56,4 +65,4 @@ const GameProvider = ({ children }) => {
   );
 };
 
-export { GameContext, GameProvider };
+export { GameContext, GameProvider, EMPTY_VOTE };
