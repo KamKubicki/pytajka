@@ -179,7 +179,7 @@
     ],
     "correct": 1,
     "difficulty": "medium",
-    "explanation": "Ostatni wielki mistrz krzyżacki Albrecht Hohenzollern został lennikiem polskiego króla."
+    "explanation": "Albrecht Hohenzollern, ostatni wielki mistrz zakonu w Prusach, został lennikiem polskiego króla."
   },
   {
     "id": "hist_k015",
@@ -251,7 +251,7 @@
     "question": "Który polski król był jednocześnie królem Szwecji?",
     "answers": [
       "Stefan Batory",
-      "Władysław IV Waza",
+      "Jan III Sobieski",
       "August II Mocny",
       "Zygmunt III Waza"
     ],
@@ -731,7 +731,7 @@
     "id": "geo_k007",
     "question": "Jakie jest największe jezioro w Polsce?",
     "answers": [
-      "Mamry",
+      "Jeziorak",
       "Hańcza",
       "Gopło",
       "Śniardwy"
