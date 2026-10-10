@@ -1,6 +1,6 @@
 import { useCallback, useContext, useEffect, useRef, useState } from 'react';
 import { GameContext } from '../contexts/GameContext.jsx';
-import { pickLine, POOL_EMOTION, CATEGORY_POOLS } from '../hostLines';
+import { pickLine, POOL_EMOTION, CATEGORY_POOLS, SABOTAGE_POOLS } from '../hostLines';
 
 // How chatty the host is: chance multiplier for "sometimes" comments, min gap between
 // bubbles and the silence needed before a random interjection.
@@ -28,6 +28,10 @@ const bubbleDuration = (text) => clamp(1800 + text.length * 45, 3000, 6000);
 const isConnected = (p) => p && p.connected !== false;
 const byScore = (a, b) => (b.score || 0) - (a.score || 0);
 const fmtSeconds = (ms) => (ms / 1000).toFixed(1).replace('.', ',');
+const pickRandom = (list) => list[Math.floor(Math.random() * list.length)];
+// who is who in a sabotage event (id when the backend sent one, name otherwise)
+const sabFromKey = (e) => String(e.fromPlayerId ?? `n:${e.fromName}`);
+const sabToKey = (e) => String(e.targetPlayerId ?? `n:${e.targetName}`);
 
 const speechSupported = () =>
   typeof window !== 'undefined' && 'speechSynthesis' in window && typeof window.SpeechSynthesisUtterance === 'function';
@@ -59,7 +63,7 @@ const pickPolishVoice = () => {
  */
 function useHostCommentary({ settings, sound }) {
   const ctx = useContext(GameContext);
-  const { gameState, players, currentQuestion, timer, showCorrectAnswer } = ctx;
+  const { gameState, players, currentQuestion, timer, showCorrectAnswer, sabotageFeed } = ctx;
 
   const [bubble, setBubble] = useState(null); // { id, text, emotion }
   const [speaking, setSpeaking] = useState(false);
@@ -240,7 +244,7 @@ function useHostCommentary({ settings, sound }) {
       const mult = priority >= P_HIGH ? Math.max(freq().chance, 0.8) : freq().chance;
       if (Math.random() >= Math.min(1, chance * mult)) return false;
     }
-    const text = pickLine(pool, vars);
+    const text = pickLine(pool, vars, settingsRef.current?.humor);
     if (!text) return false;
     const now = Date.now();
     const item = {
@@ -324,6 +328,10 @@ function useHostCommentary({ settings, sound }) {
   const revealRef = useRef(null);
   const streaksRef = useRef(new Map()); // id -> { hit, miss }
   const leaderRef = useRef(null); // id of the current sole leader
+  // last sabotage feed id commented on (a host switched on mid-game does not replay old attacks)
+  const sabSeenRef = useRef(Array.isArray(sabotageFeed) && sabotageFeed.length ? sabotageFeed[sabotageFeed.length - 1].id : 0);
+  const sabHistoryRef = useRef([]); // [{ from, to }] – all attacks of this game
+  const sabWindowRef = useRef([]); // attacks aimed at the upcoming / current question
   // game phase transitions
   const prevStateRef = useRef(gameState);
   useEffect(() => {
@@ -340,6 +348,8 @@ function useHostCommentary({ settings, sound }) {
       revealRef.current = null;
       lastQRef.current = null;
       hurryRef.current = null;
+      sabHistoryRef.current = [];
+      sabWindowRef.current = [];
     }
 
     if (gameState === 'starting') {
@@ -470,15 +480,62 @@ function useHostCommentary({ settings, sound }) {
     }
     if (missHero) candidates.push(['missStreak', { name: missHero.name }]);
 
+    // sabotage victims: a hit despite the card beats a miss
+    const sabMap = new Map();
+    (Array.isArray(c.activeSabotage) ? c.activeSabotage : []).forEach(s => {
+      if (s && s.targetPlayerId != null && !sabMap.has(s.targetPlayerId)) sabMap.set(s.targetPlayerId, s);
+    });
+    sabWindowRef.current = []; // this question's attacks are settled
+    const victims = participants.filter(p => sabMap.has(p.id));
+    const survivors = victims.filter(p => p.lastCorrect);
+    const failed = victims.filter(p => !p.lastCorrect);
+    let sabLine = null;
+    if (survivors.length) {
+      const v = pickRandom(survivors);
+      sabLine = ['sabSurvived', { target: v.name, name: sabMap.get(v.id).fromName }, 1];
+    } else if (failed.length) {
+      const v = pickRandom(failed);
+      sabLine = ['sabFailed', { target: v.name, name: sabMap.get(v.id).fromName }, 0.8];
+    }
+
     const [first, second] = candidates;
     if (first) {
       const chance = special || first[0] === 'streak' || first[0] === 'leaderChange' ? 1 : 0.7;
       say(first[0], first[1], { priority: P_REVEAL, phase, ttl: 6500, chance });
     }
-    if (second && (special || second[0] !== 'mixed')) {
+    if (sabLine) {
+      say(sabLine[0], sabLine[1], { priority: P_HIGH, phase, ttl: 16000, chance: sabLine[2] });
+    } else if (second && (special || second[0] !== 'mixed')) {
       say(second[0], second[1], { priority: P_NORMAL, phase, ttl: 16000, chance: 0.75 });
     }
   }, [showCorrectAnswer, qKey, say]);
+
+  // sabotage card played: revenge > same victim again > per-card joke / general attack line
+  useEffect(() => {
+    const feed = Array.isArray(sabotageFeed) ? sabotageFeed : [];
+    const fresh = feed.filter(e => e && e.id > sabSeenRef.current);
+    if (!fresh.length) return;
+    sabSeenRef.current = fresh[fresh.length - 1].id;
+    const commentFrom = Math.max(0, fresh.length - 2); // a burst of cards gets at most two lines
+    fresh.forEach((e, i) => {
+      const from = sabFromKey(e);
+      const to = sabToKey(e);
+      const history = sabHistoryRef.current;
+      const revenge = history.some(h => h.from === to && h.to === from);
+      history.push({ from, to });
+      sabWindowRef.current.push(to);
+      if (i < commentFrom) return;
+      const inWindow = sabWindowRef.current.filter(k => k === to).length;
+      const inGame = history.filter(h => h.to === to).length;
+      const vars = { name: e.fromName, target: e.targetName };
+      let pool;
+      if (revenge) pool = 'sabRevenge';
+      else if (inWindow >= 2) { pool = 'sabPiling'; vars.n = inWindow; }
+      else if (inGame >= 3 && Math.random() < 0.5) { pool = 'sabPiling'; vars.n = inGame; }
+      else pool = SABOTAGE_POOLS[e.type] && Math.random() < 0.6 ? SABOTAGE_POOLS[e.type] : 'sabAttack';
+      say(pool, vars, { priority: P_HIGH, ttl: 6500 });
+    });
+  }, [sabotageFeed, say]);
 
   // random interjections in silence
   useEffect(() => {

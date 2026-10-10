@@ -376,6 +376,30 @@ function playWhenRunning(ctx, fn) {
 // SYNTH-END
 // ---------------------------------------------------------------------------
 
+// ---- TV-only effects (kept outside the shared SYNTH block) -----------------
+
+// Sabotage card played: sinister downward whoosh, a grinding metallic scrape and a low thud.
+SOUNDS.sabotage = (ctx, out, t) => {
+  whoosh(ctx, out, t, 0.5, 0.26, false);
+  // grinding "gears": dissonant detuned saws gliding down through a resonant band
+  [[49, -18], [55, 14]].forEach(([n, det]) => voice(ctx, out, {
+    freq: midi(n), type: 'sawtooth', t: t + 0.18, peak: 0.1, detune: det,
+    glide: { to: midi(n - 7), time: 0.55 },
+    env: { attack: 0.02, decay: 0.1, sustain: 0.8, hold: 0.45, release: 0.15 },
+    filter: { type: 'bandpass', Q: 4, sweep: { from: 1600, to: 500, time: 0.6 } },
+  }));
+  // scrape: a rapid stutter of filtered noise grains
+  for (let i = 0; i < 12; i++) {
+    noise(ctx, out, {
+      t: t + 0.2 + i * 0.042,
+      peak: 0.11 * (1 - i / 16),
+      env: { attack: 0.002, decay: 0.03, release: 0.01 },
+      filter: { type: 'bandpass', freq: 1100 - i * 45, Q: 6 },
+    });
+  }
+  boom(ctx, out, t + 0.72, 0.35);
+};
+
 // ---- background music (TV only) -------------------------------------------
 
 const MUSIC_GAIN = 0.15;

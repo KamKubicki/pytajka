@@ -1,6 +1,7 @@
 import { useEffect, useContext, useRef } from 'react';
 import io from 'socket.io-client';
 import { GameContext, EMPTY_VOTE } from '../contexts/GameContext.jsx';
+import { normalizeSabotage, sabotageFromPlayers } from '../sabotage';
 
 const getBackendURL = () => {
   const envUrl = import.meta.env.VITE_BACKEND_URL;
@@ -37,7 +38,10 @@ function useSocket(sound) {
     setRoundSummaryData,
     setSocket,
     setTotalQuestionCount,
-    setGameSettings
+    setGameSettings,
+    setSabotageFeed,
+    setActiveSabotage,
+    setPendingSabotage
   } = useContext(GameContext);
 
   const soundRef = useRef(sound);
@@ -50,6 +54,11 @@ function useSocket(sound) {
   const rejoinPendingRef = useRef(false);
   const playerCountRef = useRef(0);
   const voteTotalRef = useRef(0);
+  // sabotage bookkeeping: is a question running, attacks announced during it, queue for the next one
+  const questionLiveRef = useRef(false);
+  const sabDuringRef = useRef([]);
+  const sabPendingRef = useRef([]);
+  const sabSeqRef = useRef(0);
 
   useEffect(() => {
     const play = (type) => {
@@ -94,6 +103,15 @@ function useSocket(sound) {
       }, 200);
     };
 
+    const resetSabotage = () => {
+      questionLiveRef.current = false;
+      sabDuringRef.current = [];
+      sabPendingRef.current = [];
+      setSabotageFeed([]);
+      setActiveSabotage([]);
+      setPendingSabotage([]);
+    };
+
     const socket = io(SOCKET_URL, {
       forceNew: true,
       reconnection: true,
@@ -123,6 +141,7 @@ function useSocket(sound) {
       setGameState('lobby');
       setPlayers([]);
       setCurrentQuestion(null);
+      resetSabotage();
       createGameSession(socket);
     });
 
@@ -160,11 +179,13 @@ function useSocket(sound) {
     socket.on('game-started', () => {
       // Immediate feedback (and no double start) until the first vote/question arrives
       setGameState(prev => (prev === 'lobby' ? 'starting' : prev));
+      resetSabotage();
       play('game-start');
     });
 
     socket.on('category-vote-start', (data = {}) => {
       clearTimers();
+      questionLiveRef.current = false;
       const duration = Number.isFinite(data.duration) ? data.duration : 10;
       setVoteData({
         ...EMPTY_VOTE,
@@ -237,6 +258,12 @@ function useSocket(sound) {
       setShowCorrectAnswer(false);
       setAnsweredIds(new Set());
       setAnswerCount({ total: 0, players: 0 });
+      // attacks announced before this question hit now
+      questionLiveRef.current = true;
+      sabDuringRef.current = [];
+      setActiveSabotage(sabPendingRef.current);
+      sabPendingRef.current = [];
+      setPendingSabotage([]);
       setGameState('question');
       play('question-start');
 
@@ -252,6 +279,23 @@ function useSocket(sound) {
       // Backend strips `correct` from new-question, so take it from here
       setCurrentQuestion(prev => (prev ? { ...prev, correct: data.correctAnswer } : prev));
       setShowCorrectAnswer(true);
+      questionLiveRef.current = false;
+      const fromBackend = sabotageFromPlayers(data.updatedPlayers);
+      if (fromBackend) {
+        // backend is authoritative; attacks it did not count for this question wait for the next one
+        const left = [...fromBackend];
+        const carry = sabDuringRef.current.filter(s => {
+          const i = left.findIndex(b => b.targetPlayerId === s.targetPlayerId && b.type === s.type);
+          if (i >= 0) { left.splice(i, 1); return false; }
+          return true;
+        });
+        setActiveSabotage(fromBackend);
+        if (carry.length) {
+          sabPendingRef.current = [...sabPendingRef.current, ...carry];
+          setPendingSabotage(sabPendingRef.current);
+        }
+      }
+      sabDuringRef.current = [];
       if (Array.isArray(data.updatedPlayers)) {
         playerCountRef.current = data.updatedPlayers.length;
         setPlayers(data.updatedPlayers);
@@ -259,8 +303,25 @@ function useSocket(sound) {
       play('reveal');
     });
 
+    // A sabotage card was played: { fromPlayerId, fromName, targetPlayerId, targetName, type }
+    socket.on('sabotage-used', (data) => {
+      const ev = normalizeSabotage(data);
+      if (!ev) return;
+      const entry = { ...ev, id: ++sabSeqRef.current, at: Date.now() };
+      setSabotageFeed(prev => [...prev.slice(-29), entry]);
+      const s = { targetPlayerId: ev.targetPlayerId, type: ev.type, fromName: ev.fromName };
+      if (questionLiveRef.current) {
+        sabDuringRef.current.push(s);
+        setActiveSabotage(prev => [...prev, s]);
+      } else {
+        sabPendingRef.current = [...sabPendingRef.current, s];
+        setPendingSabotage(sabPendingRef.current);
+      }
+    });
+
     socket.on('show-results-summary', (data) => {
       clearTimers();
+      questionLiveRef.current = false;
       setResultsData(data);
       if (Array.isArray(data?.updatedPlayers)) setPlayers(data.updatedPlayers);
       setGameState('results-summary');
@@ -268,6 +329,7 @@ function useSocket(sound) {
 
     socket.on('round-end', (data = {}) => {
       clearTimers();
+      questionLiveRef.current = false;
       setRoundSummaryData(data);
       if (Array.isArray(data.players)) {
         playerCountRef.current = data.players.length;
@@ -283,6 +345,7 @@ function useSocket(sound) {
 
     socket.on('game-finished', () => {
       clearTimers();
+      questionLiveRef.current = false;
       setGameState('finished');
       play('game-over');
     });

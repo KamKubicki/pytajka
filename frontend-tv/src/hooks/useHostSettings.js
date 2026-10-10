@@ -2,14 +2,16 @@ import { useCallback, useState } from 'react';
 
 const STORAGE_KEY = 'pytajka.host.v1';
 export const HOST_FREQUENCIES = ['rare', 'normal', 'often'];
-export const DEFAULT_HOST_SETTINGS = { enabled: true, frequency: 'normal', voice: true };
+export const HOST_HUMORS = ['polite', 'cheeky', 'rude'];
+export const DEFAULT_HOST_SETTINGS = { enabled: true, frequency: 'normal', voice: true, humor: 'cheeky' };
 
 const sanitize = (raw) => {
   const s = raw && typeof raw === 'object' ? raw : {};
   return {
     enabled: typeof s.enabled === 'boolean' ? s.enabled : DEFAULT_HOST_SETTINGS.enabled,
     frequency: HOST_FREQUENCIES.includes(s.frequency) ? s.frequency : DEFAULT_HOST_SETTINGS.frequency,
-    voice: typeof s.voice === 'boolean' ? s.voice : DEFAULT_HOST_SETTINGS.voice
+    voice: typeof s.voice === 'boolean' ? s.voice : DEFAULT_HOST_SETTINGS.voice,
+    humor: HOST_HUMORS.includes(s.humor) ? s.humor : DEFAULT_HOST_SETTINGS.humor
   };
 };
 

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from 'react';
+import React, { useContext, useEffect, useMemo, useRef } from 'react';
 import { GameProvider, GameContext } from './contexts/GameContext.jsx';
 import useSocket from './hooks/useSocket';
 import useSound from './hooks/useSound';
@@ -10,6 +10,8 @@ import RoundSummary from './components/RoundSummary';
 import CategoryVote from './components/CategoryVote';
 import Host from './components/Host';
 import useHostSettings from './hooks/useHostSettings';
+import SabotageBanner from './components/SabotageBanner';
+import { sabotageByTarget } from './sabotage';
 
 function MuteButton({ sound }) {
   const canToggle = typeof sound?.toggleMute === 'function';
@@ -67,8 +69,10 @@ function AppContent() {
     voteData,
     voteTimer,
     socket,
-    roundSummaryData
+    roundSummaryData,
+    activeSabotage
   } = ctx;
+  const sabotageMap = useMemo(() => sabotageByTarget(activeSabotage), [activeSabotage]);
 
   // Single sound instance shared by socket handlers and the mute button
   const sound = useSound();
@@ -161,10 +165,11 @@ function AppContent() {
         answeredIds={answeredIds}
         answerCount={answerCount}
         showCorrectAnswer={showCorrectAnswer}
+        sabotage={sabotageMap}
       />
     );
   } else if (gameState === 'results-summary') {
-    screen = <Results resultsData={resultsData} meta={questionMeta} />;
+    screen = <Results resultsData={resultsData} meta={questionMeta} sabotage={sabotageMap} />;
   } else if (gameState === 'round-end' && roundSummaryData) {
     screen = (
       <RoundSummary
@@ -188,6 +193,7 @@ function AppContent() {
     <div className={stageClass}>
       <div className="stage-lights" aria-hidden="true" />
       {screen}
+      <SabotageBanner sound={sound} />
       {hostOn && <Host settings={hostSettings} sound={sound} />}
       <HostToggle enabled={hostOn} onToggle={() => updateHostSettings(s => ({ enabled: !s.enabled }))} />
       <MuteButton sound={sound} />

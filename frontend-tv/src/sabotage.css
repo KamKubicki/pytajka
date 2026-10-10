@@ -1,0 +1,250 @@
+/* =========================================================================
+   SABOTAGE – announcement banner, victim icons, "despite sabotage" badge
+   ========================================================================= */
+
+:root {
+  --sab-hot: #FF3E5E;
+  --sab-hot-2: #FF8A1F;
+  --sab-ink: #fff;
+}
+
+/* ---------- banner: top band of the game area (same height as the header row) ---------- */
+
+.sab-banner-wrap {
+  /* same unit as the screen next to the host gutter */
+  --ub: min(calc((100vw - var(--host-w, 0px)) / 100), 1.7778vh);
+  position: absolute;
+  z-index: 6;
+  top: calc(var(--ub) * 2.2);
+  left: var(--host-w, 0px);
+  right: 0;
+  height: calc(var(--ub) * 6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 calc(var(--ub) * 10);
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sab-banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: calc(var(--ub) * 1);
+  max-width: min(100%, calc(var(--ub) * 62));
+  height: calc(var(--ub) * 4.8);
+  padding: 0 calc(var(--ub) * 1.6) 0 calc(var(--ub) * 0.6);
+  border-radius: calc(var(--ub) * 0.9);
+  color: var(--sab-ink);
+  background:
+    repeating-linear-gradient(-55deg, rgba(255, 255, 255, 0.07) 0 calc(var(--ub) * 0.8), transparent calc(var(--ub) * 0.8) calc(var(--ub) * 1.6)),
+    linear-gradient(100deg, #2A0B2E 0%, #4A0F33 45%, #2A0B2E 100%);
+  border: 2px solid var(--sab-hot);
+  box-shadow:
+    0 0 calc(var(--ub) * 2.2) rgba(255, 62, 94, 0.55),
+    inset 0 0 calc(var(--ub) * 1.2) rgba(255, 62, 94, 0.35),
+    var(--shadow);
+  animation: sab-in 0.45s cubic-bezier(.2, 1.3, .3, 1) both;
+}
+
+.sab-banner::after {
+  /* light sweep across the strip */
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(100deg, transparent 30%, rgba(255, 255, 255, 0.28) 50%, transparent 70%);
+  background-size: 250% 100%;
+  animation: sab-sweep 1.1s 0.35s ease-out both;
+  pointer-events: none;
+}
+
+.sab-banner.is-leaving { animation: sab-out 0.38s cubic-bezier(.5, 0, .9, .4) both; }
+
+.sab-tag {
+  flex: none;
+  padding: calc(var(--ub) * 0.35) calc(var(--ub) * 0.9);
+  border-radius: calc(var(--ub) * 0.5);
+  background: linear-gradient(135deg, var(--sab-hot), var(--sab-hot-2));
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: calc(var(--ub) * 1.15);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transform: skewX(-8deg);
+  animation: sab-blink 0.5s 0.4s 3 alternate;
+}
+
+.sab-icon {
+  flex: none;
+  font-size: calc(var(--ub) * 2.6);
+  line-height: 1;
+  filter: drop-shadow(0 0 calc(var(--ub) * 0.6) rgba(255, 62, 94, 0.8));
+  animation: sab-wobble 0.6s 0.3s ease-in-out 2;
+}
+
+.sab-text {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: var(--font-display);
+  font-size: calc(var(--ub) * 1.8);
+  font-weight: 600;
+}
+
+.sab-from { color: var(--gold); font-weight: 800; }
+.sab-card { color: #FF9BB0; font-weight: 800; }
+
+.sab-target {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: calc(var(--ub) * 18);
+  padding-left: calc(var(--ub) * 1);
+  border-left: 2px solid rgba(255, 62, 94, 0.5);
+  line-height: 1.1;
+}
+
+.sab-target-label {
+  font-size: calc(var(--ub) * 0.85);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FF9BB0;
+}
+
+.sab-target-name {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: var(--font-display);
+  font-size: calc(var(--ub) * 1.8);
+  font-weight: 800;
+}
+
+@keyframes sab-in {
+  from { opacity: 0; transform: translateY(-140%) scale(0.9); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes sab-out {
+  from { opacity: 1; transform: none; }
+  to { opacity: 0; transform: translateY(-140%) scale(0.95); }
+}
+
+@keyframes sab-sweep {
+  from { background-position: 120% 0; }
+  to { background-position: -60% 0; }
+}
+
+@keyframes sab-blink {
+  from { filter: brightness(1); }
+  to { filter: brightness(1.5); }
+}
+
+@keyframes sab-wobble {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-14deg) scale(1.1); }
+  75% { transform: rotate(14deg) scale(1.1); }
+}
+
+/* ---------- player strip: victim icons + survivor ribbon ---------- */
+
+.strip-sab {
+  position: absolute;
+  left: -30%;
+  top: -24%;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  padding: calc(var(--av) * 0.04) calc(var(--av) * 0.08);
+  border-radius: 999px;
+  background: rgba(42, 11, 46, 0.95);
+  border: 1.5px solid var(--sab-hot);
+  font-size: calc(var(--av) * 0.46);
+  line-height: 1;
+  box-shadow: 0 0 calc(var(--av) * 0.25) rgba(255, 62, 94, 0.7);
+  animation: pop 0.35s ease-out;
+}
+
+.strip-sab b {
+  font-size: calc(var(--av) * 0.26);
+  color: var(--sab-ink);
+}
+
+.strip-player.is-sabotaged .strip-avatar { border-color: var(--sab-hot); }
+.strip-player.is-sabotaged:not(.is-done):not(.is-hit) { opacity: 0.75; }
+
+.strip-survivor {
+  position: absolute;
+  left: 50%;
+  top: -34%;
+  z-index: 1;
+  transform: translateX(-50%);
+  padding: calc(var(--av) * 0.03) calc(var(--av) * 0.12);
+  border-radius: 999px;
+  white-space: nowrap;
+  background: linear-gradient(135deg, var(--gold), #FF9E3D);
+  color: var(--ink-dark);
+  font-size: calc(var(--av) * 0.27);
+  font-weight: 800;
+  line-height: 1.2;
+  box-shadow: 0 0 calc(var(--av) * 0.3) rgba(255, 210, 63, 0.7);
+  animation: sab-badge 0.5s 0.2s cubic-bezier(.2, 1.4, .4, 1) both;
+}
+
+.strip-player.is-survivor { opacity: 1; filter: none; }
+.strip-player.is-survivor .strip-sab { display: none; } /* the ribbon says it all */
+.strip-player.is-survivor .strip-avatar { border-color: var(--gold); box-shadow: 0 0 calc(var(--u) * 1) rgba(255, 210, 63, 0.75); }
+
+@keyframes sab-badge {
+  from { opacity: 0; transform: translateX(-50%) scale(0.4); }
+  to { opacity: 1; transform: translateX(-50%) scale(1); }
+}
+
+/* ---------- results ranking ---------- */
+
+.rank-name.has-sab {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--u) * 0.7);
+}
+
+.rank-name-text {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.rank-sab {
+  flex: none;
+  white-space: nowrap;
+  padding: calc(var(--u) * 0.1) calc(var(--u) * 0.6);
+  border-radius: 999px;
+  font-size: 0.75em;
+  font-weight: 700;
+  background: rgba(255, 62, 94, 0.18);
+  border: 1px solid rgba(255, 62, 94, 0.5);
+  vertical-align: middle;
+}
+
+.rank-sab.is-survivor {
+  background: linear-gradient(135deg, var(--gold), #FF9E3D);
+  border-color: transparent;
+  color: var(--ink-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sab-banner,
+  .sab-banner.is-leaving,
+  .sab-banner::after,
+  .sab-tag,
+  .sab-icon,
+  .strip-sab,
+  .strip-survivor { animation-duration: 0.01s; animation-iteration-count: 1; }
+}
