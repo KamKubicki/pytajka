@@ -356,9 +356,9 @@ export const CHEEKY_LINES = {
     'Kto mieczem wojuje… {target}, dalszy ciąg znasz.'
   ],
   sabPiling: [
-    '{target} znowu?! {n} ataki! Ktoś chyba za dobrze gra.',
+    '{target} znowu?! Licznik ataków: {n}! Ktoś chyba za dobrze gra.',
     'Wszyscy na jednego: {target}! To się nazywa popularność.',
-    '{target} ma już {n} sabotaże. Zbiera jak punkty w sklepie.',
+    '{target} zbiera sabotaże jak punkty w sklepie. Stan konta: {n}.',
     '{target} pod ostrzałem! Proszę o chwilę wsparcia dla ofiary.',
     'Znowu {target}! Chyba mamy tu cichego faworyta. Do bicia.'
   ],
@@ -558,9 +558,9 @@ export const RUDE_LINES = {
     'Rewanż od: {name}! {target}, ja pierdzielę, karma ma dziś dobry dzień.'
   ],
   sabPiling: [
-    '{target} znowu dostaje! {n} ataki. Kurde, ludzie, zostawcie coś na później.',
+    '{target} znowu dostaje! Atak numer {n}. Kurde, ludzie, zostawcie coś na później.',
     'Wszyscy biją w: {target}. Do cholery, to już lincz, nie gra.',
-    '{target}, {n} kart na głowie. Albo jesteś groźny, albo słaby. Stawiam na to drugie.'
+    '{target}, licznik kart na głowie: {n}. Albo jesteś groźny, albo słaby. Stawiam na to drugie.'
   ],
   sabSurvived: [
     '{target} trafia mimo sabotażu! {name}, kurde, nawet sabotować nie umiesz.',

@@ -12,6 +12,7 @@ import Host from './components/Host';
 import useHostSettings from './hooks/useHostSettings';
 import SabotageBanner from './components/SabotageBanner';
 import { sabotageByTarget } from './sabotage';
+import './sabotage.css';
 
 function MuteButton({ sound }) {
   const canToggle = typeof sound?.toggleMute === 'function';

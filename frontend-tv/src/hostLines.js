@@ -401,9 +401,9 @@ export const LINES = {
   sabPiling: [
     '{target} znowu na celowniku! To już {n}. atak. Ktoś tu ma wielu fanów.',
     'Wszyscy na: {target}! Chyba ktoś za dobrze grał.',
-    'Ile można? {target} zbiera sabotaże jak naklejki. Kolekcja: {n} sztuk.',
+    'Ile można? {target} zbiera sabotaże jak naklejki. Stan kolekcji: {n}.',
     'Koalicja przeciw: {target}! Proszę się nie przejmować, to oznaka szacunku.',
-    '{target} pod ostrzałem! {n} kart w jednego gracza. To już nie sabotaż, to fanklub.'
+    '{target} pod ostrzałem! Licznik kart w jednego gracza: {n}. To już nie sabotaż, to fanklub.'
   ],
   sabSurvived: [
     '{target} trafia mimo sabotażu! Prawdziwy twardziel. Albo twardy telefon.',

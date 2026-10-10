@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { GameContext } from '../contexts/GameContext.jsx';
 import { sabotageMeta } from '../sabotage';
-import '../sabotage.css';
 
 const SHOW_MS = 3000; // whole banner life incl. slide in/out
 const SHOW_MS_BUSY = 2200; // shorter when more attacks are waiting

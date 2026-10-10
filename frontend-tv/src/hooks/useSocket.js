@@ -40,8 +40,7 @@ function useSocket(sound) {
     setTotalQuestionCount,
     setGameSettings,
     setSabotageFeed,
-    setActiveSabotage,
-    setPendingSabotage
+    setActiveSabotage
   } = useContext(GameContext);
 
   const soundRef = useRef(sound);
@@ -109,7 +108,6 @@ function useSocket(sound) {
       sabPendingRef.current = [];
       setSabotageFeed([]);
       setActiveSabotage([]);
-      setPendingSabotage([]);
     };
 
     const socket = io(SOCKET_URL, {
@@ -263,7 +261,6 @@ function useSocket(sound) {
       sabDuringRef.current = [];
       setActiveSabotage(sabPendingRef.current);
       sabPendingRef.current = [];
-      setPendingSabotage([]);
       setGameState('question');
       play('question-start');
 
@@ -290,10 +287,13 @@ function useSocket(sound) {
           return true;
         });
         setActiveSabotage(fromBackend);
-        if (carry.length) {
-          sabPendingRef.current = [...sabPendingRef.current, ...carry];
-          setPendingSabotage(sabPendingRef.current);
-        }
+        if (carry.length) sabPendingRef.current = [...sabPendingRef.current, ...carry];
+      } else if (sabDuringRef.current.length) {
+        // no data from the backend: by contract a card played mid-question hits the NEXT one,
+        // so do not claim it at this reveal – queue it instead
+        const during = sabDuringRef.current;
+        setActiveSabotage(prev => prev.filter(s => !during.includes(s)));
+        sabPendingRef.current = [...sabPendingRef.current, ...during];
       }
       sabDuringRef.current = [];
       if (Array.isArray(data.updatedPlayers)) {
@@ -315,7 +315,6 @@ function useSocket(sound) {
         setActiveSabotage(prev => [...prev, s]);
       } else {
         sabPendingRef.current = [...sabPendingRef.current, s];
-        setPendingSabotage(sabPendingRef.current);
       }
     });
 

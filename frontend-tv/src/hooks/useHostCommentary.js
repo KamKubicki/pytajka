@@ -30,8 +30,9 @@ const byScore = (a, b) => (b.score || 0) - (a.score || 0);
 const fmtSeconds = (ms) => (ms / 1000).toFixed(1).replace('.', ',');
 const pickRandom = (list) => list[Math.floor(Math.random() * list.length)];
 // who is who in a sabotage event (id when the backend sent one, name otherwise)
-const sabFromKey = (e) => String(e.fromPlayerId ?? `n:${e.fromName}`);
-const sabToKey = (e) => String(e.targetPlayerId ?? `n:${e.targetName}`);
+// (names on both sides: an id-only key on one side would never match a name-only key on the other)
+const sabFromKey = (e) => String(e.fromName || '').trim().toLowerCase();
+const sabToKey = (e) => String(e.targetName || '').trim().toLowerCase();
 
 const speechSupported = () =>
   typeof window !== 'undefined' && 'speechSynthesis' in window && typeof window.SpeechSynthesisUtterance === 'function';
@@ -429,6 +430,8 @@ function useHostCommentary({ settings, sound }) {
     const c = ctxRef.current;
     const all = Array.isArray(c.players) ? c.players : [];
     const participants = all.filter(isConnected);
+    const sabActive = Array.isArray(c.activeSabotage) ? c.activeSabotage : [];
+    sabWindowRef.current = []; // this question's attacks are settled
     if (!participants.length) return;
     const phase = `q:${qKey}`;
     const n = participants.length;
@@ -482,10 +485,9 @@ function useHostCommentary({ settings, sound }) {
 
     // sabotage victims: a hit despite the card beats a miss
     const sabMap = new Map();
-    (Array.isArray(c.activeSabotage) ? c.activeSabotage : []).forEach(s => {
+    sabActive.forEach(s => {
       if (s && s.targetPlayerId != null && !sabMap.has(s.targetPlayerId)) sabMap.set(s.targetPlayerId, s);
     });
-    sabWindowRef.current = []; // this question's attacks are settled
     const victims = participants.filter(p => sabMap.has(p.id));
     const survivors = victims.filter(p => p.lastCorrect);
     const failed = victims.filter(p => !p.lastCorrect);
