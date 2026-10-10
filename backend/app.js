@@ -26,7 +26,8 @@ app.use(cors({
     
     // Allow local network IPs with development ports (HTTP and HTTPS)
     if (/^https?:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
-        /^https?:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin)) {
+        /^https?:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin) ||
+        /^https?:\/\/172\.(1[6-9]|2\d|3[01])\.\d+\.\d+:\d+$/.test(origin)) {
       return callback(null, true);
     }
     

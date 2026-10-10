@@ -16,3 +16,11 @@ server.listen(PORT, '0.0.0.0', () => {
   console.log(`Network: http://${getLocalIP()}:${PORT}`);
   console.log(`📱 For selfie on iPhone: use Chrome instead of Safari`);
 });
+
+// 🛡️ Don't let a single bad timer/handler kill the server mid-party
+process.on('uncaughtException', (error) => {
+  console.error('❌ Uncaught exception:', error);
+});
+process.on('unhandledRejection', (reason) => {
+  console.error('❌ Unhandled rejection:', reason);
+});

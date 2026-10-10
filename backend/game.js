@@ -89,12 +89,21 @@ function loadQuestionsFromDirectory() {
         if (Array.isArray(fileData)) {
           fileData.forEach((question, index) => {
             try {
-              if (question.question && question.answers && question.correct !== undefined) {
-                const category = determineCategory(question);
+              // 🔧 Accept numeric-string "correct" (e.g. "2"), reject out-of-range values
+              if (typeof question.correct === 'string' && /^\d+$/.test(question.correct.trim())) {
+                question.correct = Number(question.correct.trim());
+              }
+              if (question.question && Array.isArray(question.answers) && question.correct !== undefined &&
+                  !(Number.isInteger(question.correct) && question.correct >= 0 && question.correct < question.answers.length)) {
+                console.error(`  ❌ Skipping question ${index} in ${file}: invalid "correct" (${JSON.stringify(question.correct)}) for ${question.answers.length} answers`);
+                return;
+              }
+              if (question.question && Array.isArray(question.answers) && question.correct !== undefined) {
+                let category = determineCategory(question);
                 question.source = file;
                 
                 // Generate truly unique ID
-                let uniqueId = question.id;
+                let uniqueId = question.id !== undefined && question.id !== null ? String(question.id) : '';
                 
                 // If no ID or empty, generate one
                 if (!uniqueId || !uniqueId.trim()) {
@@ -140,7 +149,7 @@ function loadQuestionsFromDirectory() {
                     question.source = file;
                     
                     // Generate truly unique ID for structured format too
-                    let uniqueId = question.id;
+                    let uniqueId = question.id !== undefined && question.id !== null ? String(question.id) : '';
                     
                     // If no ID or empty, generate one
                     if (!uniqueId || !uniqueId.trim()) {
@@ -367,7 +376,19 @@ class GameSession {
     this.rounds = this.gameSettings.rounds || 5;
     this.questionsPerRound = this.gameSettings.questionsPerRound || 5;
     this.totalQuestions = this.rounds * this.questionsPerRound;
+    this.questionActive = false; // 🔒 true only while answers are accepted
+    this.pendingTimers = []; // ⏱️ transition timers (results/round-end/next question)
 
+    this.pickQuestions();
+
+    this.startInactivityTimer();
+
+    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh unique questions`);
+  }
+
+  // Select questions for current settings; never plan more questions than we actually have
+  pickQuestions() {
+    const id = this.id;
     // Use smart question selection to avoid recently used questions
     this.shuffledQuestions = selectFreshQuestions(this.totalQuestions);
 
@@ -386,12 +407,13 @@ class GameSession {
       console.error(`❌ Critical: No questions available for session ${id}. gameQuestions.length = ${gameQuestions.length}`);
     }
 
+    // 🔧 Clamp so startQuestion/endQuestion never index past the selected questions
+    if (this.shuffledQuestions.length < this.totalQuestions) {
+      this.totalQuestions = this.shuffledQuestions.length;
+    }
+
     // Track question IDs used in this session to ensure uniqueness
     this.usedQuestionIds = new Set(this.shuffledQuestions.map(q => q.id));
-
-    this.startInactivityTimer();
-
-    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh unique questions`);
 
     // Verify all questions in session are unique
     if (this.shuffledQuestions.length !== this.usedQuestionIds.size) {
@@ -411,11 +433,61 @@ class GameSession {
     this.players.delete(playerId);
   }
 
+  // Keep player (and score) during the game so the phone can reconnect
+  markPlayerDisconnected(playerId) {
+    const player = this.players.get(playerId);
+    if (player) {
+      this.players.set(playerId, { ...player, connected: false, socketId: null });
+    }
+  }
+
+  getConnectedPlayerCount() {
+    return Array.from(this.players.values()).filter(p => p.connected !== false).length;
+  }
+
+  // End question early once every connected player has answered
+  checkAllAnswered(io) {
+    if (!this.questionActive) return;
+    const connected = Array.from(this.players.values()).filter(p => p.connected !== false);
+    if (connected.length > 0 && connected.every(p => this.playerAnswers.has(p.id))) {
+      this.endQuestion(io);
+    }
+  }
+
+  schedule(fn, delay) {
+    const t = setTimeout(() => {
+      this.pendingTimers = this.pendingTimers.filter(x => x !== t);
+      if (gameSessions.get(this.id) !== this) return; // 🧹 session already cleaned up
+      fn();
+    }, delay);
+    this.pendingTimers.push(t);
+    return t;
+  }
+
   getPlayersArray() {
     return Array.from(this.players.values());
   }
 
+  // 🔧 Serializable snapshot - raw session holds Timeout objects (circular) which made
+  // socket.io throw "Maximum call stack size exceeded" on 'host-joined'
+  toJSON() {
+    return {
+      id: this.id,
+      status: this.status,
+      players: this.getPlayersArray(),
+      hostSocket: this.hostSocket,
+      questionIndex: this.questionIndex,
+      rounds: this.rounds,
+      questionsPerRound: this.questionsPerRound,
+      totalQuestions: this.totalQuestions,
+      gameSettings: this.gameSettings,
+      createdAt: this.createdAt,
+      lastActivity: this.lastActivity
+    };
+  }
+
   startQuestion(io) {
+    if (this.status !== 'playing') return; // 🔒 ignore stray transitions after game end
     this.updateActivity();
     if (this.questionIndex >= this.shuffledQuestions.length) {
       console.warn(`Session ${this.id}: No more questions available (index ${this.questionIndex}/${this.shuffledQuestions.length})`);
@@ -429,6 +501,7 @@ class GameSession {
       this.currentQuestion = question;
       this.playerAnswers.clear();
       this.questionStartTime = Date.now();
+      this.questionActive = true;
       
       io.to(this.id).emit('new-question', {
         question: {
@@ -471,13 +544,21 @@ class GameSession {
     this.clearInactivityTimer();
     if (this.timer) {
       clearTimeout(this.timer);
+      this.timer = null;
     }
+    this.questionActive = false;
+    this.pendingTimers.forEach(t => clearTimeout(t));
+    this.pendingTimers = [];
     this.players.clear();
     this.playerAnswers.clear();
   }
 
   endQuestion(io) {
+    // 🔒 Guard against double end (timer + last answer race) -> double scoring / skipped questions
+    if (!this.questionActive) return;
+    this.questionActive = false;
     clearTimeout(this.timer);
+    this.timer = null;
     this.updateActivity();
 
     const updatedPlayers = Array.from(this.players.values()).map(player => {
@@ -518,7 +599,7 @@ class GameSession {
     });
 
     // Show results summary screen with all details
-    setTimeout(() => {
+    this.schedule(() => {
       io.to(this.id).emit('show-results-summary', {
         correctAnswer: this.currentQuestion.correct,
         updatedPlayers: updatedPlayers,
@@ -532,14 +613,14 @@ class GameSession {
 
     if (isRoundEnd && this.questionIndex < this.totalQuestions) {
       // Show results for 5 seconds, then round summary for 10 seconds
-      setTimeout(() => {
+      this.schedule(() => {
         io.to(this.id).emit('round-end', {
           round: this.questionIndex / this.questionsPerRound,
           players: updatedPlayers
         });
       }, 6500); // 1.5s + 5s for results
 
-      setTimeout(() => {
+      this.schedule(() => {
         this.startQuestion(io);
       }, 16500); // 1.5s + 5s + 10s
     } else if (this.questionIndex >= this.totalQuestions) {
@@ -548,18 +629,18 @@ class GameSession {
       // Mark all questions from this session as used
       markQuestionsAsUsed(this.shuffledQuestions);
 
-      setTimeout(() => {
+      this.schedule(() => {
         io.to(this.id).emit('game-finished');
       }, 6500); // Show results for 5 seconds before final screen
 
-      setTimeout(() => {
+      this.schedule(() => {
         console.log(`Cleaning up finished session ${this.id}`);
         this.cleanup();
         gameSessions.delete(this.id);
       }, 5 * 60 * 1000); // Clean up 5 minutes after game ends
     } else {
       // Normal question transition - show results for 5 seconds
-      setTimeout(() => {
+      this.schedule(() => {
         this.startQuestion(io);
       }, 6500); // 1.5s + 5s
     }
