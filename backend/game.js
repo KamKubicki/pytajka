@@ -4,61 +4,98 @@ const path = require('path');
 let questionsDatabase = { categories: {} };
 let gameQuestions = [];
 
-const CATEGORY_MAPPING = {
-  'sci_': 'nauka_polska',
-  'tech_': 'nauka_polska', 
-  'geo_world_': 'geografia_swiata',
-  'geo_': 'geografia_polski',
-  'hist_world_': 'historia_swiata',
-  'hist_': 'historia_polski',
-  'sport_': 'sport_polski',
-  'cult_': 'kultura_polska',
-  'art_': 'kultura_polska',
-  'lit_': 'kultura_polska',
-  'ent_': 'rozrywka_polska',
-  'film_': 'rozrywka_polska',
-  'music_': 'rozrywka_polska',
-  'mus_': 'rozrywka_polska',
-  'food_': 'nauka_polska',
-  'med_': 'nauka_polska',
-  'biz_': 'nauka_polska',
-  'nat_': 'nauka_polska',
-  'ne_': 'geografia_swiata'
+// 🗂️ Category registry: key -> { name, color, icon, prefixes }.
+// Question ids are matched by prefix (longest prefix wins, so order here does not matter).
+// Colors are saturated and readable on the dark navy TV background (#0b1230).
+const CATEGORY_REGISTRY = {
+  'historia_polski':  { name: 'Historia Polski',        color: '#E8B04B', icon: '🏛️', prefixes: ['hist_'] },
+  'historia_swiata':  { name: 'Historia Świata',        color: '#E07A2E', icon: '🌎', prefixes: ['hist_world_'] },
+  'geografia_polski': { name: 'Geografia Polski',       color: '#4CD964', icon: '🗺️', prefixes: ['geo_'] },
+  'geografia_swiata': { name: 'Geografia Świata',       color: '#1ABC9C', icon: '🌍', prefixes: ['geo_world_', 'ne_'] },
+  'kultura_polska':   { name: 'Kultura i Literatura',   color: '#B36BFF', icon: '🎭', prefixes: ['cult_', 'art_', 'lit_'] },
+  'sport_polski':     { name: 'Sport',                  color: '#FF5A36', icon: '🏅', prefixes: ['sport_'] },
+  'pilka_nozna':      { name: 'Piłka nożna',            color: '#9BE15D', icon: '⚽', prefixes: ['foot_'] },
+  'nauka_polska':     { name: 'Nauka',                  color: '#4D8DFF', icon: '🔬', prefixes: ['sci_', 'nat_'] },
+  'technologia':      { name: 'Technologia i Internet', color: '#00C8FF', icon: '💻', prefixes: ['it_', 'tech_'] },
+  'motoryzacja':      { name: 'Motoryzacja',            color: '#FF2E4C', icon: '🏎️', prefixes: ['moto_'] },
+  'kosmos':           { name: 'Kosmos i Astronomia',    color: '#8A6CFF', icon: '🚀', prefixes: ['space_'] },
+  'zwierzeta':        { name: 'Zwierzęta i Przyroda',   color: '#2ECC71', icon: '🐾', prefixes: ['zoo_'] },
+  'kuchnia':          { name: 'Kuchnia i Jedzenie',     color: '#FF9F1C', icon: '🍕', prefixes: ['food_'] },
+  'zdrowie':          { name: 'Ciało i Zdrowie',        color: '#FF6B9D', icon: '🩺', prefixes: ['med_'] },
+  'biznes':           { name: 'Marki i Biznes',         color: '#F5D020', icon: '🏷️', prefixes: ['biz_', 'brand_'] },
+  'rozrywka_polska':  { name: 'Popkultura i Gry',       color: '#FF3EA5', icon: '🎮', prefixes: ['ent_'] },
+  'film':             { name: 'Film i Seriale',         color: '#FF7F6E', icon: '🎬', prefixes: ['film_'] },
+  'muzyka':           { name: 'Muzyka',                 color: '#D25BFF', icon: '🎵', prefixes: ['mus_', 'music_'] },
+  'bajki':            { name: 'Bajki i Dzieciństwo',    color: '#FF9AE0', icon: '🧸', prefixes: ['kids_'] },
+  'prl':              { name: 'PRL i Lata 90.',         color: '#D4B82A', icon: '📼', prefixes: ['prl_'] },
+  'jezyk':            { name: 'Język Polski',           color: '#5FD3F3', icon: '🔤', prefixes: ['lang_'] },
+  'mitologia':        { name: 'Mitologia i Legendy',    color: '#FFE45C', icon: '⚡', prefixes: ['myth_'] },
+  'militaria':        { name: 'Lotnictwo i Militaria',  color: '#A8C256', icon: '✈️', prefixes: ['mil_'] },
+  'logika':           { name: 'Matematyka i Zagadki',   color: '#36E2B4', icon: '🧮', prefixes: ['math_'] }
 };
 
-const CATEGORY_TEMPLATES = {
-  'historia_polski': { name: 'Historia Polski', color: '#8B4513', icon: '🏛️', questions: [] },
-  'geografia_polski': { name: 'Geografia Polski', color: '#228B22', icon: '🗺️', questions: [] },
-  'kultura_polska': { name: 'Kultura Polska', color: '#9932CC', icon: '🎭', questions: [] },
-  'sport_polski': { name: 'Sport Polski', color: '#FF4500', icon: '⚽', questions: [] },
-  'nauka_polska': { name: 'Nauka i Wynalazki', color: '#4169E1', icon: '🔬', questions: [] },
-  'rozrywka_polska': { name: 'Rozrywka Polska', color: '#FF1493', icon: '🎬', questions: [] },
-  'geografia_swiata': { name: 'Geografia Świata', color: '#228B22', icon: '🌍', questions: [] },
-  'historia_swiata': { name: 'Historia Świata', color: '#CD853F', icon: '🌎', questions: [] }
-};
+// prefix -> category key, plus prefixes sorted longest-first (hist_world_ beats hist_, geo_world_ beats geo_)
+const CATEGORY_MAPPING = {};
+Object.entries(CATEGORY_REGISTRY).forEach(([key, cat]) => {
+  cat.prefixes.forEach(prefix => { CATEGORY_MAPPING[prefix] = key; });
+});
+const CATEGORY_PREFIXES = Object.keys(CATEGORY_MAPPING).sort((a, b) => b.length - a.length);
+
+const CATEGORY_TEMPLATES = {};
+Object.entries(CATEGORY_REGISTRY).forEach(([key, { name, color, icon }]) => {
+  CATEGORY_TEMPLATES[key] = { name, color, icon, questions: [] };
+});
+
+// Text fallback for questions whose id has no known prefix: first matching rule wins
+const CATEGORY_KEYWORDS = [
+  ['motoryzacja', ['samochod', 'samochód', 'silnik', 'formuł', 'rajd', 'motocykl', 'kierowc', 'skrzyni bieg']],
+  ['technologia', ['komputer', 'internet', 'smartfon', 'aplikacj', 'procesor', 'google', 'microsoft', 'youtube', 'bajt', 'wi-fi']],
+  ['kosmos', ['planet', 'kosmos', 'galaktyk', 'astronaut', 'orbit', 'nasa']],
+  ['pilka_nozna', ['piłkarz', 'piłka nożna', 'piłce nożnej', 'mundial', 'liga mistrzów']],
+  ['sport_polski', ['sport', 'olimpi', 'medal']],
+  ['muzyka', ['piosenk', 'album', 'zespół muzycz', 'muzyk', 'kompozytor', 'singiel']],
+  ['film', ['film', 'serial', 'reżyser', 'oscar']],
+  ['kuchnia', ['potraw', 'kuchni', 'przepis']],
+  ['zdrowie', ['ciała ludzk', 'ciele ludzk', 'ludzkiego ciała', 'ludzkim ciele', 'ludzkie ciało', 'organizm', 'witamin', 'lekarz', 'mięsień', 'mięśni']],
+  ['zwierzeta', ['zwierz', 'ptak', 'ssak', 'owad']],
+  ['mitologia', ['mitolog', 'bogini', 'legendzie', 'według legendy', 'legenda o']],
+  ['militaria', ['samolot', 'czołg', 'okręt', 'lotnictw']],
+  ['biznes', ['marka', 'firma', 'koncern', 'logo']],
+  ['jezyk', ['przysłow', 'ortograf', 'frazeolog']],
+  ['prl', ['prl', 'peerel']]
+];
+
+// Keyword must start a word ("sport" matches "sportowiec", not "transport")
+function hasWordStartingWith(text, keyword) {
+  let from = 0;
+  let idx;
+  while ((idx = text.indexOf(keyword, from)) !== -1) {
+    if (idx === 0 || !/[\p{L}\p{N}]/u.test(text[idx - 1])) return true;
+    from = idx + 1;
+  }
+  return false;
+}
 
 function determineCategory(question) {
-  const qId = question.id || '';
+  const qId = String(question.id || '');
   const qText = (question.question || '').toLowerCase();
-  
-  for (const [prefix, category] of Object.entries(CATEGORY_MAPPING)) {
-    if (qId.startsWith(prefix)) {
-      return category;
-    }
+
+  const prefix = CATEGORY_PREFIXES.find(p => qId.startsWith(p));
+  if (prefix) return CATEGORY_MAPPING[prefix];
+
+  for (const [category, keywords] of CATEGORY_KEYWORDS) {
+    if (keywords.some(k => hasWordStartingWith(qText, k))) return category;
   }
-  
-  if (qText.includes('polska') || qText.includes('polsk')) {
-    if (qText.includes('historia') || qText.includes('król') || qText.includes('wojna')) {
-      return 'historia_polski';
-    } else if (qText.includes('rzeka') || qText.includes('góra') || qText.includes('miasto')) {
-      return 'geografia_polski';
-    } else if (qText.includes('sport') || qText.includes('piłka')) {
-      return 'sport_polski';
-    } else {
-      return 'kultura_polska';
-    }
+
+  const isPolish = qText.includes('polsk') || qText.includes('polsce');
+  if (qText.includes('histori') || qText.includes('król') || qText.includes('wojn') || qText.includes('bitw')) {
+    return isPolish ? 'historia_polski' : 'historia_swiata';
   }
-  
+  if (qText.includes('rzek') || qText.includes('góra') || qText.includes('miast') || qText.includes('stolic') || qText.includes('państw')) {
+    return isPolish ? 'geografia_polski' : 'geografia_swiata';
+  }
+  if (isPolish) return 'kultura_polska';
+
   return 'nauka_polska';
 }
 
@@ -397,6 +434,7 @@ class GameSession {
     this.usedQuestionIds = new Set(); // 🔒 no repeats within a game
     this.questionIndex = 0;
     this.roundCategory = null;
+    this.lastVotedCategoryKey = null;
     this.vote = null;
   }
 
@@ -432,7 +470,12 @@ class GameSession {
       available: freshCounts[key] || 0
     }));
     const needed = this.questionsPerRound;
-    const eligible = shuffleArray(stats.filter(c => c.available >= needed));
+    let eligible = shuffleArray(stats.filter(c => c.available >= needed));
+    // 🔁 Don't offer the previous round's category again if there are enough other qualifying ones
+    const lastKey = this.lastVotedCategoryKey;
+    if (lastKey && eligible.filter(c => c.key !== lastKey).length >= 3) {
+      eligible = eligible.filter(c => c.key !== lastKey);
+    }
     // Fewer than 3 categories with enough fresh questions -> fill with whatever is still available
     const rest = shuffleArray(stats.filter(c => c.available < needed && c.available > 0))
       .sort((a, b) => b.available - a.available);
@@ -526,6 +569,7 @@ class GameSession {
     const leaders = max > 0 ? this.vote.options.filter(o => votes[o.key] === max) : this.vote.options;
     const winner = leaders[Math.floor(Math.random() * leaders.length)];
     this.roundCategory = { key: winner.key, name: winner.name, icon: winner.icon, color: winner.color };
+    this.lastVotedCategoryKey = winner.key;
 
     this.pickRoundQuestions(winner.key);
     console.log(`🏆 Session ${this.id}: round ${this.vote.round} category ${winner.key} (${max} votes)`);
