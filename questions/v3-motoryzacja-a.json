@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "moto_a001",
+    "question": "Która marka samochodów ma w logo cztery splecione pierścienie?",
+    "answers": [
+      "Mercedes-Benz",
+      "BMW",
+      "Opel",
+      "Audi"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pierścienie symbolizują cztery firmy, które w 1932 r. utworzyły Auto Union: Audi, DKW, Horch i Wanderer."
+  },
+  {
+    "id": "moto_a002",
+    "question": "W którym kraju założono markę Volvo?",
+    "answers": [
+      "Dania",
+      "Finlandia",
+      "Szwecja",
+      "Norwegia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Volvo założono w 1927 r. w szwedzkim Göteborgu."
+  },
+  {
+    "id": "moto_a003",
+    "question": "Która marka ma w logo czarnego konia stającego dęba na żółtym tle?",
+    "answers": [
+      "Porsche",
+      "Ferrari",
+      "Lamborghini",
+      "Maserati"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Słynny „Cavallino Rampante” Ferrari pochodzi z emblematu włoskiego asa lotnictwa Francesca Baracki."
+  },
+  {
+    "id": "moto_a004",
+    "question": "Jakie zwierzę widnieje w logo Lamborghini?",
+    "answers": [
+      "Koń",
+      "Lew",
+      "Byk",
+      "Jaguar"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ferruccio Lamborghini urodził się pod znakiem Byka i pasjonował się corridą."
+  },
+  {
+    "id": "moto_a005",
+    "question": "Jakie zwierzę od lat widnieje w logo Peugeota?",
+    "answers": [
+      "Orzeł",
+      "Byk",
+      "Wilk",
+      "Lew"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Lew Peugeota pierwotnie oznaczał wytrzymałość stalowych wyrobów firmy, np. pił."
+  },
+  {
+    "id": "moto_a006",
+    "question": "Jak potocznie nazywano w Polsce Fiata 126p?",
+    "answers": [
+      "Garbus",
+      "Maluch",
+      "Kaczka",
+      "Żabka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fiat 126p był najpopularniejszym autem PRL-u i do dziś wszyscy znają go jako „Malucha”."
+  },
+  {
+    "id": "moto_a007",
+    "question": "Która marka produkowała kultowego „Garbusa”?",
+    "answers": [
+      "Opel",
+      "Volkswagen",
+      "Škoda",
+      "Fiat"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "VW Typ 1, czyli Garbus, był produkowany seryjnie od 1945 do 2003 r. w ponad 21 mln egzemplarzy."
+  },
+  {
+    "id": "moto_a008",
+    "question": "Marka Škoda ma korzenie w którym kraju?",
+    "answers": [
+      "Słowacja",
+      "Austria",
+      "Węgry",
+      "Czechy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Škoda wywodzi się z czeskiego Mladá Boleslav, gdzie wciąż ma główną fabrykę."
+  },
+  {
+    "id": "moto_a009",
+    "question": "Która marka ma w logo trójramienną gwiazdę w okręgu?",
+    "answers": [
+      "Subaru",
+      "Citroën",
+      "Chevrolet",
+      "Mercedes-Benz"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Trzy ramiona gwiazdy symbolizują napęd na lądzie, na wodzie i w powietrzu."
+  },
+  {
+    "id": "moto_a010",
+    "question": "Kultowy model 911 to sportowe auto której marki?",
+    "answers": [
+      "Audi",
+      "Porsche",
+      "Ferrari",
+      "BMW"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Porsche 911 produkowane jest nieprzerwanie od 1964 r. i stało się ikoną marki."
+  },
+  {
+    "id": "moto_a011",
+    "question": "Mustang to słynny model której marki?",
+    "answers": [
+      "Dodge",
+      "Ford",
+      "Pontiac",
+      "Chevrolet"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Ford Mustang zadebiutował w 1964 r. i od razu stał się amerykańską legendą."
+  },
+  {
+    "id": "moto_a012",
+    "question": "W której fabryce produkowano Poloneza?",
+    "answers": [
+      "FSM w Bielsku-Białej",
+      "FSO w Warszawie",
+      "FSC w Lublinie",
+      "FSD w Nysie"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Poloneza produkowała Fabryka Samochodów Osobowych na warszawskim Żeraniu."
+  },
+  {
+    "id": "moto_a013",
+    "question": "W jakim mieście produkowano furgonetkę Nysa?",
+    "answers": [
+      "Nysa",
+      "Lublin",
+      "Starachowice",
+      "Poznań"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Furgonetka wzięła nazwę od miasta, w którym działała Fabryka Samochodów Dostawczych."
+  },
+  {
+    "id": "moto_a014",
+    "question": "Który polski samochód nazwano na cześć symbolu Warszawy?",
+    "answers": [
+      "Syrena",
+      "Warszawa",
+      "Polonez",
+      "Mikrus"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Syrenę produkowano w latach 1957–1983, a jej nazwa nawiązuje do herbu stolicy."
+  },
+  {
+    "id": "moto_a015",
+    "question": "W jakim kraju powstał oryginalny Mini z 1959 roku?",
+    "answers": [
+      "Włochy",
+      "Niemcy",
+      "Wielka Brytania",
+      "Francja"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Klasycznego Mini zaprojektował Alec Issigonis dla brytyjskiego koncernu BMC."
+  },
+  {
+    "id": "moto_a016",
+    "question": "Hyundai to koncern z którego państwa?",
+    "answers": [
+      "Japonia",
+      "Tajwan",
+      "Chiny",
+      "Korea Południowa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hyundai to południowokoreański koncern, a jego nazwa oznacza „nowoczesność”."
+  },
+  {
+    "id": "moto_a017",
+    "question": "Z jakiego kraju pochodzą motocykle Harley-Davidson?",
+    "answers": [
+      "USA",
+      "Niemcy",
+      "Kanada",
+      "Wielka Brytania"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Harley-Davidson to symbol amerykańskiej motoryzacji, założony w 1903 r."
+  },
+  {
+    "id": "moto_a018",
+    "question": "Z jakiego kraju pochodzi producent motocykli Ducati?",
+    "answers": [
+      "Włochy",
+      "Hiszpania",
+      "Japonia",
+      "Niemcy"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Ducati powstało w 1926 r. w Bolonii, początkowo jako producent podzespołów radiowych."
+  },
+  {
+    "id": "moto_a019",
+    "question": "W jakim mieście produkowano ciężarówki Star?",
+    "answers": [
+      "Nysa",
+      "Jelcz-Laskowice",
+      "Starachowice",
+      "Lublin"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nazwa Star pochodzi od Starachowic, gdzie działała Fabryka Samochodów Ciężarowych."
+  },
+  {
+    "id": "moto_a020",
+    "question": "Która marka ma w logo dwa szewrony, czyli „jodełkę”?",
+    "answers": [
+      "Renault",
+      "Citroën",
+      "Opel",
+      "Peugeot"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "André Citroën zaczynał od produkcji kół zębatych o daszkowym (jodełkowym) uzębieniu."
+  },
+  {
+    "id": "moto_a021",
+    "question": "Logo której marki ma kształt rombu?",
+    "answers": [
+      "Renault",
+      "Seat",
+      "Citroën",
+      "Opel"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Romb jest symbolem Renault od lat 20. XX wieku."
+  },
+  {
+    "id": "moto_a022",
+    "question": "Która marka ma w logo błyskawicę w okręgu?",
+    "answers": [
+      "Renault",
+      "Škoda",
+      "Opel",
+      "Seat"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Błyskawica Opla nawiązuje do ciężarówki Opel Blitz (niem. „błyskawica”)."
+  },
+  {
+    "id": "moto_a023",
+    "question": "Co oznacza po włosku nazwa skutera Vespa?",
+    "answers": [
+      "Osa",
+      "Jaskółka",
+      "Mucha",
+      "Pszczoła"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Podobno szef Piaggio, widząc kształt skutera, zawołał, że wygląda jak osa."
+  },
+  {
+    "id": "moto_a024",
+    "question": "Który kraj jest ojczyzną marki Seat?",
+    "answers": [
+      "Hiszpania",
+      "Portugalia",
+      "Meksyk",
+      "Włochy"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Seat powstał w 1950 r. w Hiszpanii i początkowo produkował licencyjne Fiaty."
+  },
+  {
+    "id": "moto_a025",
+    "question": "Jaki przydomek miał Polski Fiat 125p?",
+    "answers": [
+      "Stary Fiat",
+      "Biały Fiat",
+      "Długi Fiat",
+      "Duży Fiat"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Duży Fiat” odróżniał się w ten sposób od mniejszego Fiata 126p, czyli Malucha."
+  },
+  {
+    "id": "moto_a026",
+    "question": "W którym kraju produkowano Trabanta?",
+    "answers": [
+      "ZSRR",
+      "Czechosłowacja",
+      "Węgry",
+      "NRD"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Trabanty powstawały w Zwickau w NRD, a ich symbolem był dwusuwowy, dymiący silnik."
+  },
+  {
+    "id": "moto_a027",
+    "question": "Jakim samochodem Marty McFly podróżował w czasie w filmie „Powrót do przyszłości”?",
+    "answers": [
+      "Pontiac Firebird",
+      "DeLorean",
+      "Chevrolet Corvette",
+      "Ford Mustang"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "DeLorean DMC-12 słynął z nierdzewnego nadwozia i drzwi otwieranych do góry."
+  },
+  {
+    "id": "moto_a028",
+    "question": "Jakim autem był Herbie z komedii Disneya?",
+    "answers": [
+      "Fiat 500",
+      "Citroën 2CV",
+      "Mini",
+      "Volkswagen Garbus"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Herbie to biały Garbus z numerem 53, który miał własny charakter."
+  },
+  {
+    "id": "moto_a029",
+    "question": "Co oznacza po niemiecku nazwa Volkswagen?",
+    "answers": [
+      "Niemieckie auto",
+      "Wóz wojskowy",
+      "Szybki wóz",
+      "Samochód ludowy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Volkswagen miał być tanim autem dla każdego obywatela, stąd „samochód ludu”."
+  },
+  {
+    "id": "moto_a030",
+    "question": "Która japońska marka słynie zarówno z motocykli, jak i z fortepianów?",
+    "answers": [
+      "Suzuki",
+      "Honda",
+      "Yamaha",
+      "Kawasaki"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Yamaha zaczynała w 1887 r. od instrumentów, a motocykle robi od lat 50. XX wieku."
+  },
+  {
+    "id": "moto_a031",
+    "question": "Jak brzmi pełna nazwa warszawskiej fabryki FSO?",
+    "answers": [
+      "Fabryka Silników Okrętowych",
+      "Fabryka Sprzętu Obronnego",
+      "Fabryka Samochodów Osobowych",
+      "Fabryka Samochodów Ogólnych"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "FSO na warszawskim Żeraniu produkowała m.in. Warszawę, Syrenę, Fiata 125p i Poloneza."
+  },
+  {
+    "id": "moto_a032",
+    "question": "Na cześć kogo nazwano markę samochodów Tesla?",
+    "answers": [
+      "Elona Muska",
+      "Alberta Einsteina",
+      "Nikoli Tesli",
+      "Thomasa Edisona"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Marka uhonorowała wynalazcę, pioniera silników na prąd przemienny."
+  },
+  {
+    "id": "moto_a033",
+    "question": "Jak nazywał się samochód dostawczy produkowany w Lublinie w latach 1959–1998?",
+    "answers": [
+      "Tarpan",
+      "Żuk",
+      "Nysa",
+      "Star"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Żuka produkowała lubelska Fabryka Samochodów Ciężarowych, a jego następcą był Lublin."
+  },
+  {
+    "id": "moto_a034",
+    "question": "W jakich miastach produkowano Fiata 126p?",
+    "answers": [
+      "Warszawa i Lublin",
+      "Kraków i Katowice",
+      "Poznań i Gniezno",
+      "Bielsko-Biała i Tychy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Maluchy produkowała Fabryka Samochodów Małolitrażowych w Bielsku-Białej i Tychach."
+  },
+  {
+    "id": "moto_a035",
+    "question": "Jak po polsku rozwinąć nazwę BMW?",
+    "answers": [
+      "Berlińskie Zakłady Maszynowe",
+      "Bawarskie Zakłady Silnikowe",
+      "Bawarska Manufaktura Wozów",
+      "Brytyjskie Warsztaty Motorowe"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "BMW to Bayerische Motoren Werke, a firma zaczynała od silników lotniczych."
+  },
+  {
+    "id": "moto_a036",
+    "question": "W jakim mieście produkowano motocykle WSK?",
+    "answers": [
+      "Kielce",
+      "Szczecin",
+      "Radom",
+      "Świdnik"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wytwórnia Sprzętu Komunikacyjnego w Świdniku produkowała popularne „wueski” przez trzy dekady."
+  },
+  {
+    "id": "moto_a037",
+    "question": "Gdzie działała fabryka ciężkich motocykli Junak?",
+    "answers": [
+      "Gdańsk",
+      "Szczecin",
+      "Łódź",
+      "Świdnik"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Junaka produkowała Szczecińska Fabryka Motocykli w latach 1956–1965."
+  },
+  {
+    "id": "moto_a038",
+    "question": "Na licencji jakiego radzieckiego auta powstała FSO Warszawa?",
+    "answers": [
+      "Moskwicz",
+      "GAZ-M20 Pobieda",
+      "Wołga",
+      "Łada"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Warszawa była licencyjną wersją Pobiedy, produkowaną na Żeraniu od 1951 r."
+  },
+  {
+    "id": "moto_a039",
+    "question": "Jak nazywał się polski mikrosamochód produkowany w latach 1957–1960 w Mielcu i Rzeszowie?",
+    "answers": [
+      "Tarpan",
+      "Mikrus",
+      "Smyk",
+      "Beskid"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mikrusa MR-300 wyprodukowano w zaledwie ok. 1,7 tys. egzemplarzy."
+  },
+  {
+    "id": "moto_a040",
+    "question": "Jakim przydomkiem nazywano autobus Jelcz 043?",
+    "answers": [
+      "Kiszka",
+      "Banan",
+      "Ogórek",
+      "Sardynka"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zaokrąglony kształt nadwozia sprawił, że autobus przezywano „ogórkiem”."
+  },
+  {
+    "id": "moto_a041",
+    "question": "Kto zaprojektował Volkswagena Garbusa?",
+    "answers": [
+      "Enzo Ferrari",
+      "Henry Ford",
+      "Ferdinand Porsche",
+      "Karl Benz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ferdinand Porsche opracował Garbusa w latach 30., zanim jego syn stworzył markę Porsche."
+  },
+  {
+    "id": "moto_a042",
+    "question": "Jaką gromadę gwiazd przedstawia logo Subaru?",
+    "answers": [
+      "Krzyż Południa",
+      "Orion",
+      "Plejady",
+      "Wielki Wóz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Subaru” to po japońsku właśnie nazwa Plejad."
+  },
+  {
+    "id": "moto_a043",
+    "question": "Jakie stworzenie widnieje w logo Alfy Romeo?",
+    "answers": [
+      "Lew",
+      "Smok",
+      "Orzeł",
+      "Wąż"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wąż pożerający człowieka to herb mediolańskiego rodu Viscontich."
+  },
+  {
+    "id": "moto_a044",
+    "question": "Co produkowała firma Ferruccia Lamborghiniego, zanim zaczął budować auta sportowe?",
+    "answers": [
+      "Motocykle",
+      "Ciągniki rolnicze",
+      "Samoloty",
+      "Rowery"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Według legendy Lamborghini zaczął robić auta po kłótni z Enzo Ferrarim o sprzęgło."
+  },
+  {
+    "id": "moto_a045",
+    "question": "Z jakiego kraju pochodziły motorowery Simson, popularne w PRL-u?",
+    "answers": [
+      "ZSRR",
+      "NRD",
+      "Czechosłowacja",
+      "Węgry"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Simsony produkowano w Suhl w NRD, a model S51 był hitem także w Polsce."
+  },
+  {
+    "id": "moto_a046",
+    "question": "Jak nazywał się popularny motorower Rometu z lat 60.?",
+    "answers": [
+      "Komar",
+      "Konik",
+      "Trzmiel",
+      "Szerszeń"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Romet Komar był tanim i prostym motorowerem, na którym jeździło pół Polski."
+  },
+  {
+    "id": "moto_a047",
+    "question": "Od czego pochodzą nazwy motocykli WSK, takie jak Kos, Lelek czy Gil?",
+    "answers": [
+      "Od drzew",
+      "Od ryb",
+      "Od ptaków",
+      "Od rzek"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Modele WSK nazywano od ptaków, np. Kos, Lelek, Gil, Dudek czy Kobuz."
+  },
+  {
+    "id": "moto_a048",
+    "question": "Jak nazywał się polski skuter produkowany przez WFM w latach 1959–1965?",
+    "answers": [
+      "Osa",
+      "Gil",
+      "Komar",
+      "Junak"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "WFM Osa była polską odpowiedzią na włoskie skutery Vespa i Lambretta."
+  },
+  {
+    "id": "moto_a049",
+    "question": "Do jakiego elementu stroju porównuje się logo Chevroleta?",
+    "answers": [
+      "Kapelusza",
+      "Paska",
+      "Krawata",
+      "Muszki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W USA logo Chevroleta nazywa się „bowtie”, czyli muszka."
+  },
+  {
+    "id": "moto_a050",
+    "question": "Na licencji jakiego auta powstała Łada 2101 „Żiguli”?",
+    "answers": [
+      "Fiat 124",
+      "Fiat 128",
+      "Renault 12",
+      "Fiat 125p"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Radziecki AwtoWAZ w Togliatti zaczął od licencyjnej wersji Fiata 124."
+  },
+  {
+    "id": "moto_a051",
+    "question": "Z czego wykonane były panele nadwozia Trabanta?",
+    "answers": [
+      "Z aluminium",
+      "Z drewna",
+      "Ze stali nierdzewnej",
+      "Z duroplastu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Duroplast to tworzywo z żywicy i włókien bawełny, bo w NRD brakowało stali."
+  },
+  {
+    "id": "moto_a052",
+    "question": "Jakim samochodem był KITT z serialu „Nieustraszony”?",
+    "answers": [
+      "Ford Mustang",
+      "Dodge Charger",
+      "Pontiac Firebird Trans Am",
+      "Chevrolet Camaro"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Gadający KITT z czerwonym światłem z przodu to przerobiony Pontiac z 1982 r."
+  },
+  {
+    "id": "moto_a053",
+    "question": "W jakim włoskim mieście mieści się słynna fabryka Ferrari?",
+    "answers": [
+      "Maranello",
+      "Turyn",
+      "Mediolan",
+      "Bolonia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ferrari produkuje auta w Maranello od 1943 r."
+  },
+  {
+    "id": "moto_a054",
+    "question": "Od jakiego miasta pochodzi litera „T” w nazwie FIAT?",
+    "answers": [
+      "Triest",
+      "Turyn",
+      "Tarent",
+      "Trydent"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "FIAT to Fabbrica Italiana Automobili Torino, czyli Włoska Fabryka Samochodów w Turynie."
+  },
+  {
+    "id": "moto_a055",
+    "question": "Który koreański koncern w 1995 r. przejął warszawską FSO?",
+    "answers": [
+      "Hyundai",
+      "SsangYong",
+      "Kia",
+      "Daewoo"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Powstała wtedy spółka Daewoo-FSO, która produkowała m.in. Lanosa i Matiza."
+  },
+  {
+    "id": "moto_a056",
+    "question": "Który Fiat produkowany w Polsce w latach 90. był nazywany „Cinkiem”?",
+    "answers": [
+      "Cinquecento",
+      "Punto",
+      "Uno",
+      "Panda"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Fiata Cinquecento produkowano w Tychach od 1991 r., był następcą Malucha."
+  },
+  {
+    "id": "moto_a057",
+    "question": "Jak nazywała się wersja Poloneza z otwartą skrzynią ładunkową?",
+    "answers": [
+      "Polonez Kombi",
+      "Polonez Caro",
+      "Polonez Truck",
+      "Polonez Atu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Polonez Truck był pickupem produkowanym od końca lat 80. aż do 2002 r."
+  },
+  {
+    "id": "moto_a058",
+    "question": "Jakim autem jeździł James Bond w filmie „Goldfinger” z 1964 r.?",
+    "answers": [
+      "Lotus Esprit",
+      "BMW Z3",
+      "Jaguar E-Type",
+      "Aston Martin DB5"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "DB5 z katapultą i karabinami stał się najsłynniejszym autem agenta 007."
+  },
+  {
+    "id": "moto_a059",
+    "question": "Jaki symbol widnieje w logo Maserati?",
+    "answers": [
+      "Korona",
+      "Tarcza",
+      "Gwiazda",
+      "Trójząb"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Trójząb pochodzi z fontanny Neptuna w Bolonii, mieście założenia firmy."
+  },
+  {
+    "id": "moto_a060",
+    "question": "Która z tych marek motocykli NIE pochodzi z Japonii?",
+    "answers": [
+      "Kawasaki",
+      "KTM",
+      "Honda",
+      "Yamaha"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "KTM to austriacki producent, słynny z motocykli terenowych i rajdowych."
+  },
+  {
+    "id": "moto_a061",
+    "question": "Jaki samochód jako pierwszy produkowała FSO na Żeraniu?",
+    "answers": [
+      "Warszawa",
+      "Polski Fiat 125p",
+      "Syrena",
+      "Polonez"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pierwsza Warszawa zjechała z taśmy na Żeraniu w listopadzie 1951 r."
+  },
+  {
+    "id": "moto_a062",
+    "question": "Od czego pochodzą nazwy modeli Lamborghini, takich jak Miura, Murciélago czy Aventador?",
+    "answers": [
+      "Od hiszpańskich wiatrów",
+      "Od gwiazd",
+      "Od wulkanów",
+      "Od słynnych byków z corridy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Lamborghini nazywa modele na cześć byków walczących na arenach."
+  },
+  {
+    "id": "moto_a063",
+    "question": "Co oznacza po włosku nazwa Ferrari Testarossa?",
+    "answers": [
+      "Szybka strzała",
+      "Czerwona róża",
+      "Czerwona głowa",
+      "Czerwony koń"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Nazwa nawiązuje do czerwono malowanych pokryw głowic silnika."
+  },
+  {
+    "id": "moto_a064",
+    "question": "Co oznacza po łacinie słowo „volvo”?",
+    "answers": [
+      "Toczę się",
+      "Jestem bezpieczny",
+      "Jadę szybko",
+      "Wracam"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa Volvo pierwotnie była marką łożysk tocznych firmy SKF."
+  },
+  {
+    "id": "moto_a065",
+    "question": "W którym roku z taśmy zjechał ostatni Fiat 126p?",
+    "answers": [
+      "2000",
+      "1995",
+      "2004",
+      "1991"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Ostatni Maluch zjechał z linii w Tychach 22 września 2000 r., po 27 latach produkcji."
+  },
+  {
+    "id": "moto_a066",
+    "question": "Z produkcji jakich przedmiotów kuchennych słynie także Peugeot?",
+    "answers": [
+      "Czajników",
+      "Noży",
+      "Młynków do pieprzu",
+      "Garnków"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Peugeot produkuje młynki do przypraw od XIX wieku, zanim zaczął robić samochody."
+  },
+  {
+    "id": "moto_a067",
+    "question": "Od produkcji czego zaczynała rodzinna firma założyciela Toyoty?",
+    "answers": [
+      "Motocykli",
+      "Rowerów",
+      "Krosien tkackich",
+      "Maszyn do szycia"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Sakichi Toyoda wynalazł automatyczne krosno, a jego syn Kiichiro założył Toyotę."
+  },
+  {
+    "id": "moto_a068",
+    "question": "Jak nazywała się Škoda przed połączeniem z zakładami Škody w 1925 r.?",
+    "answers": [
+      "Laurin & Klement",
+      "Praga",
+      "Jawa",
+      "Tatra"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Václav Laurin i Václav Klement zaczynali w Mladá Boleslav od rowerów i motocykli."
+  },
+  {
+    "id": "moto_a069",
+    "question": "Który koncern oprócz Willysa produkował wojskowe Jeepy w czasie II wojny światowej?",
+    "answers": [
+      "Chrysler",
+      "General Motors",
+      "Ford",
+      "Studebaker"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ford produkował Jeepa jako model GPW, niemal identyczny z Willysem MB."
+  },
+  {
+    "id": "moto_a070",
+    "question": "Co oznacza „2CV” w nazwie Citroëna?",
+    "answers": [
+      "Dwa konie podatkowe",
+      "Druga wersja",
+      "Dwa wózki",
+      "Dwa cylindry w V"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "CV to francuskie chevaux-vapeur – podatkowa klasa mocy, od której zależała opłata."
+  },
+  {
+    "id": "moto_a071",
+    "question": "Który model Citroëna z 1955 r. nazywano „Boginią” (fr. déesse)?",
+    "answers": [
+      "2CV",
+      "SM",
+      "DS",
+      "CX"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Litery DS czyta się po francusku jak „déesse”, czyli bogini."
+  },
+  {
+    "id": "moto_a072",
+    "question": "Ford Mustang dał nazwę całej klasie amerykańskich aut. Jak ją nazwano?",
+    "answers": [
+      "Hot rod",
+      "Lowrider",
+      "Pony car",
+      "Station wagon"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Od konia w logo Mustanga kompaktowe, sportowe auta nazwano „pony cars”."
+  },
+  {
+    "id": "moto_a073",
+    "question": "Jak pierwotnie miało nazywać się Porsche 911?",
+    "answers": [
+      "999",
+      "901",
+      "910",
+      "900"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Peugeot zastrzegł trzycyfrowe nazwy z zerem w środku, więc Porsche zmieniło nazwę na 911."
+  },
+  {
+    "id": "moto_a074",
+    "question": "Który amerykański koncern kupił Jaguara w 1989 r.?",
+    "answers": [
+      "AMC",
+      "General Motors",
+      "Chrysler",
+      "Ford"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Ford był właścicielem Jaguara od 1989 do 2008 r."
+  },
+  {
+    "id": "moto_a075",
+    "question": "Od czyjego imienia pochodzi nazwa marki Mercedes?",
+    "answers": [
+      "Córki dealera Emila Jellinka",
+      "Matki Wilhelma Maybacha",
+      "Żony Karla Benza",
+      "Córki Gottlieba Daimlera"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Emil Jellinek ścigał się autami Daimlera pod pseudonimem „Mercedes”, imieniem swojej córki."
+  },
+  {
+    "id": "moto_a076",
+    "question": "W jakim mieście założono firmę Harley-Davidson w 1903 r.?",
+    "answers": [
+      "Detroit",
+      "Milwaukee",
+      "Nashville",
+      "Chicago"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "William Harley i bracia Davidson zbudowali pierwszy motocykl w szopie w Milwaukee."
+  },
+  {
+    "id": "moto_a077",
+    "question": "Jak nazywano pierwszego Fiata 500 z 1936 r.?",
+    "answers": [
+      "Bambino",
+      "Topolino",
+      "Piccolo",
+      "Cinquino"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Topolino” to po włosku myszka – tak Włosi nazywali też Myszkę Miki."
+  },
+  {
+    "id": "moto_a078",
+    "question": "Który Mercedes jest w Polsce nazywany „Beczką”?",
+    "answers": [
+      "W123",
+      "W124",
+      "W201",
+      "W140"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pancerny Mercedes W123 był ulubieńcem taksówkarzy, a przydomek zawdzięcza obłym kształtom."
+  },
+  {
+    "id": "moto_a079",
+    "question": "Od czego pochodzą nazwy modeli Maserati, takich jak Ghibli, Mistral czy Levante?",
+    "answers": [
+      "Od nazw wiatrów",
+      "Od gatunków ryb",
+      "Od bogów rzymskich",
+      "Od włoskich miast"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Maserati tradycyjnie nazywa modele od wiatrów, np. Ghibli, Bora, Mistral czy Levante."
+  },
+  {
+    "id": "moto_a080",
+    "question": "Nazwa Audi to łacińskie tłumaczenie nazwiska założyciela. Kogo?",
+    "answers": [
+      "Ferdinanda Porschego",
+      "Gottlieba Daimlera",
+      "Wilhelma Maybacha",
+      "Augusta Horcha"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Niemieckie „horch” i łacińskie „audi” znaczą „słuchaj!”."
+  }
+]
