@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "space_c001",
+    "question": "Która planeta nazywana jest Czerwoną Planetą?",
+    "answers": [
+      "Mars",
+      "Wenus",
+      "Jowisz",
+      "Merkury"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mars zawdzięcza rdzawy kolor tlenkom żelaza pokrywającym jego powierzchnię."
+  },
+  {
+    "id": "space_c002",
+    "question": "Która planeta słynie z najbardziej okazałych pierścieni?",
+    "answers": [
+      "Saturn",
+      "Jowisz",
+      "Uran",
+      "Neptun"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pierścienie mają wszystkie olbrzymie planety, ale tylko pierścienie Saturna są tak jasne i rozległe."
+  },
+  {
+    "id": "space_c003",
+    "question": "Jak nazywa się galaktyka, w której leży Układ Słoneczny?",
+    "answers": [
+      "Droga Mleczna",
+      "Andromeda",
+      "Galaktyka Wir",
+      "Sombrero"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Układ Słoneczny znajduje się w jednym z ramion spiralnej Drogi Mlecznej."
+  },
+  {
+    "id": "space_c004",
+    "question": "Jak nazywa się pierwszy polski kosmonauta?",
+    "answers": [
+      "Mirosław Hermaszewski",
+      "Zenon Jankowski",
+      "Sławosz Uznański-Wiśniewski",
+      "Marek Kamiński"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mirosław Hermaszewski poleciał w kosmos w 1978 roku na pokładzie Sojuza 30."
+  },
+  {
+    "id": "space_c005",
+    "question": "Który Polak poleciał w kosmos w 2025 roku, jako drugi w historii?",
+    "answers": [
+      "Sławosz Uznański-Wiśniewski",
+      "Zenon Jankowski",
+      "Marek Kamiński",
+      "Krzysztof Wielicki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Sławosz Uznański-Wiśniewski poleciał na Międzynarodową Stację Kosmiczną w ramach misji Ax-4."
+  },
+  {
+    "id": "space_c006",
+    "question": "W którym roku Mirosław Hermaszewski poleciał w kosmos?",
+    "answers": [
+      "1969",
+      "1978",
+      "1975",
+      "1981"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Lot Sojuza 30 z Hermaszewskim na pokładzie odbył się w czerwcu 1978 roku."
+  },
+  {
+    "id": "space_c007",
+    "question": "Kto jako pierwszy człowiek stanął na Księżycu?",
+    "answers": [
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Jurij Gagarin",
+      "Neil Armstrong"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Neil Armstrong postawił stopę na Księżycu jako pierwszy, a kilkanaście minut po nim zrobił to Buzz Aldrin."
+  },
+  {
+    "id": "space_c008",
+    "question": "Jak nazywała się pierwsza kobieta w kosmosie?",
+    "answers": [
+      "Swietłana Sawicka",
+      "Walentina Tierieszkowa",
+      "Sally Ride",
+      "Jelena Kondakowa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Walentina Tierieszkowa poleciała w kosmos w 1963 roku na statku Wostok 6."
+  },
+  {
+    "id": "space_c009",
+    "question": "Jak nazywała się suczka – pierwsze zwierzę wysłane na orbitę okołoziemską?",
+    "answers": [
+      "Biełka",
+      "Strzałka",
+      "Łajka",
+      "Żuczka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Łajka okrążała Ziemię na pokładzie Sputnika 2 w 1957 roku."
+  },
+  {
+    "id": "space_c010",
+    "question": "Jak nazywał się pierwszy sztuczny satelita Ziemi?",
+    "answers": [
+      "Sputnik 1",
+      "Explorer 1",
+      "Wostok 1",
+      "Vanguard 1"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "ZSRR wystrzelił Sputnika 1 w październiku 1957 roku."
+  },
+  {
+    "id": "space_c011",
+    "question": "Jak nazywa się amerykańska agencja kosmiczna?",
+    "answers": [
+      "ESA",
+      "Roskosmos",
+      "NASA",
+      "JAXA"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "NASA powstała w 1958 roku i prowadziła m.in. program Apollo."
+  },
+  {
+    "id": "space_c012",
+    "question": "Załoga której misji Apollo nadała słynny komunikat „Houston, mamy problem”?",
+    "answers": [
+      "Apollo 11",
+      "Apollo 1",
+      "Apollo 13",
+      "Apollo 17"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Po wybuchu zbiornika tlenu Apollo 13 przerwał lądowanie, a załoga szczęśliwie wróciła na Ziemię."
+  },
+  {
+    "id": "space_c013",
+    "question": "Na której planecie panuje najwyższa temperatura powierzchni?",
+    "answers": [
+      "Na Merkurym",
+      "Na Marsie",
+      "Na Wenus",
+      "Na Jowiszu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Gęsta atmosfera z dwutlenku węgla zatrzymuje ciepło, więc Wenus jest gorętsza od bliższego Słońcu Merkurego."
+  },
+  {
+    "id": "space_c014",
+    "question": "Która planeta obraca się niemal „leżąc na boku”?",
+    "answers": [
+      "Neptun",
+      "Uran",
+      "Saturn",
+      "Mars"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Oś obrotu Urana jest nachylona o około 98 stopni."
+  },
+  {
+    "id": "space_c015",
+    "question": "Na której planecie znajduje się Olympus Mons – jeden z największych wulkanów Układu Słonecznego?",
+    "answers": [
+      "Na Wenus",
+      "Na Merkurym",
+      "Na Jowiszu",
+      "Na Marsie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Olympus Mons na Marsie jest około dwa i pół raza wyższy od Mount Everestu."
+  },
+  {
+    "id": "space_c016",
+    "question": "Na której planecie szaleje burza zwana Wielką Czerwoną Plamą?",
+    "answers": [
+      "Na Saturnie",
+      "Na Marsie",
+      "Na Neptunie",
+      "Na Jowiszu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Wielka Czerwona Plama to gigantyczny wir w atmosferze Jowisza, obserwowany od stuleci."
+  },
+  {
+    "id": "space_c017",
+    "question": "Jak nazywa się największy księżyc Saturna?",
+    "answers": [
+      "Tytan",
+      "Ganimedes",
+      "Europa",
+      "Io"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tytan jako jedyny księżyc w Układzie Słonecznym ma gęstą atmosferę."
+  },
+  {
+    "id": "space_c018",
+    "question": "Który księżyc jest największy w całym Układzie Słonecznym?",
+    "answers": [
+      "Ganimedes",
+      "Tytan",
+      "Kallisto",
+      "Księżyc"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Ganimedes, księżyc Jowisza, jest większy nawet od planety Merkury."
+  },
+  {
+    "id": "space_c019",
+    "question": "Księżyce Marsa to Fobos i…?",
+    "answers": [
+      "Charon",
+      "Tryton",
+      "Dejmos",
+      "Io"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Fobos i Dejmos to dwa małe księżyce Marsa, nazwane od synów boga wojny Aresa."
+  },
+  {
+    "id": "space_c020",
+    "question": "W którym roku Pluton przestał być uznawany za planetę?",
+    "answers": [
+      "1999",
+      "2006",
+      "2012",
+      "1986"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W 2006 roku Międzynarodowa Unia Astronomiczna zaliczyła Plutona do planet karłowatych."
+  },
+  {
+    "id": "space_c021",
+    "question": "Jak nazywa się zjawisko, gdy Księżyc zasłania Słońce?",
+    "answers": [
+      "Zaćmienie Księżyca",
+      "Zaćmienie Słońca",
+      "Nów",
+      "Pełnia"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Podczas zaćmienia Słońca Księżyc staje dokładnie między Słońcem a Ziemią."
+  },
+  {
+    "id": "space_c022",
+    "question": "Jaka gwiazda jest najbliżej Ziemi?",
+    "answers": [
+      "Proxima Centauri",
+      "Syriusz",
+      "Słońce",
+      "Gwiazda Polarna"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Słońce jest gwiazdą – i to zdecydowanie najbliższą nam ze wszystkich."
+  },
+  {
+    "id": "space_c023",
+    "question": "Jak nazywa się najbliższa Drodze Mlecznej duża galaktyka spiralna?",
+    "answers": [
+      "Sombrero",
+      "Galaktyka Wir",
+      "Galaktyka Cygaro",
+      "Andromeda"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Galaktyka Andromedy leży około 2,5 miliona lat świetlnych od nas i widać ją nawet gołym okiem."
+  },
+  {
+    "id": "space_c024",
+    "question": "W którym gwiazdozbiorze leży Gwiazda Polarna?",
+    "answers": [
+      "W Wielkiej Niedźwiedzicy",
+      "W Małej Niedźwiedzicy",
+      "W Kasjopei",
+      "W Orionie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Gwiazda Polarna to ostatnia gwiazda „dyszla” Małego Wozu w Małej Niedźwiedzicy."
+  },
+  {
+    "id": "space_c025",
+    "question": "Który gwiazdozbiór ma charakterystyczny „pas” z trzech gwiazd w rzędzie?",
+    "answers": [
+      "Łabędź",
+      "Lew",
+      "Skorpion",
+      "Orion"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pas Oriona tworzą gwiazdy Alnitak, Alnilam i Mintaka."
+  },
+  {
+    "id": "space_c026",
+    "question": "Częścią którego gwiazdozbioru jest Wielki Wóz?",
+    "answers": [
+      "Małej Niedźwiedzicy",
+      "Wielkiej Niedźwiedzicy",
+      "Smoka",
+      "Wolarza"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wielki Wóz to najjaśniejsze gwiazdy gwiazdozbioru Wielkiej Niedźwiedzicy."
+  },
+  {
+    "id": "space_c027",
+    "question": "Który gwiazdozbiór ma kształt litery W?",
+    "answers": [
+      "Andromeda",
+      "Cefeusz",
+      "Kasjopeja",
+      "Perseusz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pięć jasnych gwiazd Kasjopei układa się na niebie w literę W lub M."
+  },
+  {
+    "id": "space_c028",
+    "question": "Jak nazywa się obiekt, z którego nic – nawet światło – nie może uciec?",
+    "answers": [
+      "Czarna dziura",
+      "Biały karzeł",
+      "Pulsar",
+      "Mgławica"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Grawitacja czarnej dziury jest tak silna, że nie wydostaje się z niej nawet światło."
+  },
+  {
+    "id": "space_c029",
+    "question": "Czego jednostką jest rok świetlny?",
+    "answers": [
+      "Odległości",
+      "Czasu",
+      "Prędkości",
+      "Jasności"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rok świetlny to odległość, jaką światło pokonuje w ciągu roku – około 9,5 biliona km."
+  },
+  {
+    "id": "space_c030",
+    "question": "Który teleskop kosmiczny wystrzelono na orbitę w 1990 roku?",
+    "answers": [
+      "Kepler",
+      "James Webb",
+      "Hubble",
+      "Spitzer"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kosmiczny Teleskop Hubble’a trafił na orbitę w kwietniu 1990 roku."
+  },
+  {
+    "id": "space_c031",
+    "question": "Która sonda jako pierwsza dotarła do przestrzeni międzygwiezdnej?",
+    "answers": [
+      "Pioneer 10",
+      "New Horizons",
+      "Cassini",
+      "Voyager 1"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Voyager 1 opuścił heliosferę w 2012 roku, 35 lat po starcie."
+  },
+  {
+    "id": "space_c032",
+    "question": "Która sonda przeleciała obok Plutona w 2015 roku?",
+    "answers": [
+      "Voyager 2",
+      "New Horizons",
+      "Cassini",
+      "Rosetta"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "New Horizons wykonała pierwsze szczegółowe zdjęcia Plutona, m.in. jego jasnego „serca”."
+  },
+  {
+    "id": "space_c033",
+    "question": "Którą planetę przez 13 lat badała sonda Cassini?",
+    "answers": [
+      "Jowisza",
+      "Saturna",
+      "Urana",
+      "Marsa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Cassini krążyła wokół Saturna w latach 2004–2017, po czym spłonęła w jego atmosferze."
+  },
+  {
+    "id": "space_c034",
+    "question": "Gdzie wylądował łazik Curiosity?",
+    "answers": [
+      "Na Księżycu",
+      "Na Wenus",
+      "Na Tytanie",
+      "Na Marsie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Curiosity wylądował w kraterze Gale na Marsie w 2012 roku."
+  },
+  {
+    "id": "space_c035",
+    "question": "Co ile mniej więcej lat kometa Halleya pojawia się w pobliżu Ziemi?",
+    "answers": [
+      "Co około 12 lat",
+      "Co około 33 lata",
+      "Co około 150 lat",
+      "Co około 76 lat"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kometa Halleya była ostatnio widoczna w 1986 roku, a kolejny powrót przypada na 2061 rok."
+  },
+  {
+    "id": "space_c036",
+    "question": "Między orbitami których planet leży główny pas planetoid?",
+    "answers": [
+      "Ziemi i Marsa",
+      "Marsa i Jowisza",
+      "Jowisza i Saturna",
+      "Wenus i Ziemi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Główny pas planetoid krąży wokół Słońca między Marsem a Jowiszem."
+  },
+  {
+    "id": "space_c037",
+    "question": "Która planeta Układu Słonecznego jest najmniejsza?",
+    "answers": [
+      "Mars",
+      "Merkury",
+      "Wenus",
+      "Ziemia"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Merkury ma średnicę zaledwie około 4900 km – niewiele ponad jedną trzecią średnicy Ziemi."
+  },
+  {
+    "id": "space_c038",
+    "question": "Która planeta krąży najdalej od Słońca?",
+    "answers": [
+      "Uran",
+      "Saturn",
+      "Jowisz",
+      "Neptun"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Od kiedy Pluton jest planetą karłowatą, najdalszą planetą Układu Słonecznego jest Neptun."
+  },
+  {
+    "id": "space_c039",
+    "question": "Która planeta jest trzecia w kolejności od Słońca?",
+    "answers": [
+      "Mars",
+      "Ziemia",
+      "Wenus",
+      "Merkury"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kolejność to Merkury, Wenus, Ziemia, Mars – Ziemia jest trzecia."
+  },
+  {
+    "id": "space_c040",
+    "question": "Czym w rzeczywistości jest „spadająca gwiazda”?",
+    "answers": [
+      "Kometą",
+      "Gwiazdą neutronową",
+      "Satelitą",
+      "Meteorem"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Spadająca gwiazda to świecący ślad okruchu skalnego spalającego się w ziemskiej atmosferze."
+  },
+  {
+    "id": "space_c041",
+    "question": "Kto jako pierwszy człowiek odbył spacer w otwartym kosmosie?",
+    "answers": [
+      "Jurij Gagarin",
+      "Ed White",
+      "German Titow",
+      "Aleksiej Leonow"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Aleksiej Leonow wyszedł poza statek Woschod 2 w marcu 1965 roku."
+  },
+  {
+    "id": "space_c042",
+    "question": "Jak nazywał się statek, którym Jurij Gagarin poleciał w kosmos?",
+    "answers": [
+      "Wostok 1",
+      "Sojuz 1",
+      "Sputnik 2",
+      "Woschod 1"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gagarin okrążył Ziemię na pokładzie Wostoka 1 w kwietniu 1961 roku."
+  },
+  {
+    "id": "space_c043",
+    "question": "Który prom kosmiczny rozpadł się tuż po starcie w 1986 roku?",
+    "answers": [
+      "Columbia",
+      "Discovery",
+      "Atlantis",
+      "Challenger"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Challenger rozpadł się 73 sekundy po starcie; zginęła cała siedmioosobowa załoga."
+  },
+  {
+    "id": "space_c044",
+    "question": "Jak nazywała się rosyjska stacja kosmiczna zatopiona w Pacyfiku w 2001 roku?",
+    "answers": [
+      "Salut 7",
+      "Skylab",
+      "Tiangong-1",
+      "Mir"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Stacja Mir działała na orbicie 15 lat, po czym w kontrolowany sposób sprowadzono ją do oceanu."
+  },
+  {
+    "id": "space_c045",
+    "question": "Jaki gaz dominuje w atmosferze Marsa?",
+    "answers": [
+      "Azot",
+      "Dwutlenek węgla",
+      "Tlen",
+      "Metan"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Atmosfera Marsa składa się w około 95% z dwutlenku węgla."
+  },
+  {
+    "id": "space_c046",
+    "question": "Kto odkrył cztery największe księżyce Jowisza?",
+    "answers": [
+      "Mikołaj Kopernik",
+      "Galileusz",
+      "Johannes Kepler",
+      "Isaac Newton"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Galileusz dostrzegł je przez swoją lunetę w 1610 roku – dziś nazywamy je księżycami galileuszowymi."
+  },
+  {
+    "id": "space_c047",
+    "question": "Który księżyc, o średnicy około połowy Plutona, tworzy z nim parę?",
+    "answers": [
+      "Tryton",
+      "Charon",
+      "Nereida",
+      "Fobos"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Charon ma średnicę mniej więcej połowy Plutona."
+  },
+  {
+    "id": "space_c048",
+    "question": "Jak nazywa się czerwony nadolbrzym w gwiazdozbiorze Oriona?",
+    "answers": [
+      "Betelgeza",
+      "Rigel",
+      "Aldebaran",
+      "Antares"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Betelgeza to czerwonawa gwiazda w „ramieniu” Oriona, jedna z największych znanych gwiazd."
+  },
+  {
+    "id": "space_c049",
+    "question": "Na której planecie wieją najsilniejsze wiatry w Układzie Słonecznym?",
+    "answers": [
+      "Na Jowiszu",
+      "Na Saturnie",
+      "Na Neptunie",
+      "Na Uranie"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Wiatry na Neptunie osiągają ponad 2000 km/h."
+  },
+  {
+    "id": "space_c050",
+    "question": "Jak nazywa się granica wokół czarnej dziury, zza której nic już nie wraca?",
+    "answers": [
+      "Osobliwość",
+      "Dysk akrecyjny",
+      "Horyzont zdarzeń",
+      "Strefa Roche’a"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Po przekroczeniu horyzontu zdarzeń nawet światło nie może się wydostać."
+  },
+  {
+    "id": "math_c001",
+    "question": "Ile miesięcy w roku ma 28 dni?",
+    "answers": [
+      "Tylko luty",
+      "Dwa",
+      "Żaden",
+      "Wszystkie dwanaście"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Każdy miesiąc ma co najmniej 28 dni – luty ma ich 28, a w roku przestępnym 29."
+  },
+  {
+    "id": "math_c002",
+    "question": "Jaką liczbę oznacza rzymska cyfra X?",
+    "answers": [
+      "5",
+      "10",
+      "50",
+      "100"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W zapisie rzymskim X to 10, V to 5, L to 50, a C to 100."
+  },
+  {
+    "id": "math_c003",
+    "question": "Którą liczbę Rzymianie zapisywali literą L?",
+    "answers": [
+      "5",
+      "50",
+      "500",
+      "1000"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "L oznacza 50 – nie mylić z D (500) ani M (1000)."
+  },
+  {
+    "id": "math_c004",
+    "question": "Ile boków ma sześciokąt?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Sześciokąt – jak komórka plastra miodu – ma sześć boków i sześć wierzchołków."
+  },
+  {
+    "id": "math_c005",
+    "question": "Ile wierzchołków ma sześcian?",
+    "answers": [
+      "8",
+      "6",
+      "12",
+      "4"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Sześcian ma 8 wierzchołków, 12 krawędzi i 6 ścian."
+  },
+  {
+    "id": "math_c006",
+    "question": "Ile sztuk to tuzin?",
+    "answers": [
+      "10",
+      "15",
+      "12",
+      "20"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tuzin to 12 sztuk, np. jajek."
+  },
+  {
+    "id": "math_c007",
+    "question": "Ile sztuk to kopa?",
+    "answers": [
+      "12",
+      "50",
+      "100",
+      "60"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kopa to dawna miara równa pięciu tuzinom, czyli 60 sztukom."
+  },
+  {
+    "id": "math_c008",
+    "question": "Ile minut ma doba?",
+    "answers": [
+      "1240",
+      "1400",
+      "3600",
+      "1440"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "24 godziny × 60 minut daje 1440 minut."
+  },
+  {
+    "id": "math_c009",
+    "question": "Ile sekund ma godzina?",
+    "answers": [
+      "3600",
+      "360",
+      "1440",
+      "6000"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "60 minut × 60 sekund to 3600 sekund."
+  },
+  {
+    "id": "math_c010",
+    "question": "Co jest cięższe: kilogram pierza czy kilogram żelaza?",
+    "answers": [
+      "Żelazo",
+      "Pierze",
+      "Zależy od wilgotności",
+      "Ważą tyle samo"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kilogram to kilogram – różni się tylko objętość."
+  },
+  {
+    "id": "math_c011",
+    "question": "Ile w przybliżeniu wynosi liczba π?",
+    "answers": [
+      "2,72",
+      "1,41",
+      "1,62",
+      "3,14"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Liczba π to stosunek obwodu koła do jego średnicy, około 3,14."
+  },
+  {
+    "id": "math_c012",
+    "question": "Ile wynosi suma kątów wewnętrznych w trójkącie?",
+    "answers": [
+      "90°",
+      "270°",
+      "360°",
+      "180°"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W każdym trójkącie na płaszczyźnie kąty sumują się do 180 stopni."
+  },
+  {
+    "id": "math_c013",
+    "question": "Ile to jest 7 × 8?",
+    "answers": [
+      "54",
+      "63",
+      "56",
+      "48"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "7 × 8 = 56 – jeden z najczęściej mylonych wyników tabliczki mnożenia."
+  },
+  {
+    "id": "math_c014",
+    "question": "Ile to jest 15% z 200?",
+    "answers": [
+      "30",
+      "15",
+      "20",
+      "35"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "10% z 200 to 20, a 5% to 10 – razem 30."
+  },
+  {
+    "id": "math_c015",
+    "question": "Jaka jest najmniejsza liczba pierwsza?",
+    "answers": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Liczba 1 nie jest pierwsza, a 2 to jedyna parzysta liczba pierwsza."
+  },
+  {
+    "id": "math_c016",
+    "question": "Ile jest wszystkich liczb dwucyfrowych?",
+    "answers": [
+      "99",
+      "100",
+      "90",
+      "89"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Liczby dwucyfrowe to od 10 do 99, czyli 90 liczb."
+  },
+  {
+    "id": "math_c017",
+    "question": "Ile razy w ciągu doby wskazówki godzinowa i minutowa zegara nakładają się na siebie?",
+    "answers": [
+      "24",
+      "12",
+      "22",
+      "23"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Wskazówki pokrywają się 11 razy na 12 godzin, bo między 11 a 1 robią to tylko raz – o 12."
+  },
+  {
+    "id": "math_c018",
+    "question": "Pasterz miał 17 owiec. Wszystkie oprócz 9 padły. Ile owiec mu zostało?",
+    "answers": [
+      "8",
+      "17",
+      "9",
+      "0"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Wszystkie oprócz 9” oznacza, że przeżyło właśnie 9 owiec."
+  },
+  {
+    "id": "math_c019",
+    "question": "Wyprzedzasz w biegu zawodnika na drugim miejscu. Na którym miejscu teraz jesteś?",
+    "answers": [
+      "Na pierwszym",
+      "Na drugim",
+      "Na trzecim",
+      "Na ostatnim"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Zajmujesz miejsce osoby, którą wyprzedziłeś – czyli drugie."
+  },
+  {
+    "id": "math_c020",
+    "question": "Kij i piłka kosztują razem 1,10 zł, a kij jest o 1 zł droższy od piłki. Ile kosztuje piłka?",
+    "answers": [
+      "10 groszy",
+      "5 groszy",
+      "15 groszy",
+      "1 zł"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Piłka 0,05 zł + kij 1,05 zł = 1,10 zł; przy piłce za 10 groszy różnica wynosiłaby tylko 90 groszy."
+  },
+  {
+    "id": "math_c021",
+    "question": "5 maszyn robi 5 śrubek w 5 minut. Ile minut zajmie 100 maszynom zrobienie 100 śrubek?",
+    "answers": [
+      "5",
+      "100",
+      "20",
+      "1"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Każda maszyna robi jedną śrubkę w 5 minut, więc 100 maszyn zrobi 100 śrubek również w 5 minut."
+  },
+  {
+    "id": "math_c022",
+    "question": "Lilie wodne podwajają co dzień swoją powierzchnię i pokrywają cały staw w 48 dni. Którego dnia pokrywały połowę stawu?",
+    "answers": [
+      "47.",
+      "24.",
+      "46.",
+      "36."
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Skoro co dzień się podwajają, dzień przed pokryciem całego stawu zajmowały jego połowę."
+  },
+  {
+    "id": "math_c023",
+    "question": "Ile wynosi dowolna niezerowa liczba podniesiona do potęgi zerowej?",
+    "answers": [
+      "0",
+      "Ta sama liczba",
+      "1",
+      "Nieskończoność"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Każda liczba różna od zera podniesiona do potęgi 0 daje 1."
+  },
+  {
+    "id": "math_c024",
+    "question": "Który rok to w zapisie rzymskim MCM?",
+    "answers": [
+      "1100",
+      "2100",
+      "1900",
+      "1500"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "M to 1000, a CM to 900 (1000 minus 100) – razem 1900."
+  },
+  {
+    "id": "math_c025",
+    "question": "Ile kątów prostych ma prostokąt?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wszystkie cztery kąty prostokąta mają po 90°."
+  },
+  {
+    "id": "math_c026",
+    "question": "Który rok zapisuje się cyframi rzymskimi jako MMXXV?",
+    "answers": [
+      "2015",
+      "2035",
+      "2025",
+      "1925"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "MM to 2000, XX to 20, a V to 5 – razem 2025."
+  },
+  {
+    "id": "math_c027",
+    "question": "Której liczby nie da się zapisać cyframi rzymskimi?",
+    "answers": [
+      "0",
+      "4",
+      "999",
+      "1000"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Rzymianie nie mieli symbolu na zero."
+  },
+  {
+    "id": "math_c028",
+    "question": "Który znak drogowy ma kształt ośmiokąta?",
+    "answers": [
+      "Ustąp pierwszeństwa",
+      "Zakaz wjazdu",
+      "Droga z pierwszeństwem",
+      "Stop"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ośmiokątny kształt pozwala rozpoznać znak „Stop” nawet od tyłu albo pod śniegiem."
+  },
+  {
+    "id": "math_c029",
+    "question": "Jak nazywa się trójkąt, którego wszystkie boki są równe?",
+    "answers": [
+      "Równoramienny",
+      "Prostokątny",
+      "Równoboczny",
+      "Rozwartokątny"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W trójkącie równobocznym wszystkie boki są równe, a każdy kąt ma 60°."
+  },
+  {
+    "id": "math_c030",
+    "question": "Ile przekątnych ma kwadrat?",
+    "answers": [
+      "4",
+      "1",
+      "2",
+      "0"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kwadrat ma dwie przekątne, które przecinają się pod kątem prostym."
+  },
+  {
+    "id": "math_c031",
+    "question": "Ile zer ma miliard zapisany cyframi?",
+    "answers": [
+      "6",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Miliard to 1 000 000 000, czyli tysiąc milionów."
+  },
+  {
+    "id": "math_c032",
+    "question": "Ojciec Marysi ma pięć córek: Lalę, Lelę, Lilę i Lolę. Jak ma na imię piąta?",
+    "answers": [
+      "Lula",
+      "Marysia",
+      "Lyla",
+      "Lela"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Piątą córką jest sama Marysia, o której mowa na początku zagadki."
+  },
+  {
+    "id": "math_c033",
+    "question": "Jaka liczba jest następna w ciągu 1, 1, 2, 3, 5, 8, …?",
+    "answers": [
+      "11",
+      "12",
+      "16",
+      "13"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "To ciąg Fibonacciego – każdy wyraz jest sumą dwóch poprzednich: 5 + 8 = 13."
+  },
+  {
+    "id": "math_c034",
+    "question": "Ile to jest 1/2 + 1/4?",
+    "answers": [
+      "2/6",
+      "1/8",
+      "2/3",
+      "3/4"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "1/2 to 2/4, więc 2/4 + 1/4 = 3/4."
+  },
+  {
+    "id": "math_c035",
+    "question": "Ile wynosi 11 do kwadratu?",
+    "answers": [
+      "121",
+      "111",
+      "112",
+      "131"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "11 × 11 = 121."
+  },
+  {
+    "id": "math_c036",
+    "question": "Co jest większe: połowa z 10 czy jedna trzecia z 18?",
+    "answers": [
+      "Jedna trzecia z 18",
+      "Połowa z 10",
+      "Są równe",
+      "Nie da się porównać"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Połowa z 10 to 5, a jedna trzecia z 18 to 6."
+  },
+  {
+    "id": "math_c037",
+    "question": "Ile wynosi 2 do potęgi 10?",
+    "answers": [
+      "1000",
+      "1024",
+      "512",
+      "2048"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "2 do potęgi 10 to 1024 – dlatego kilobajt bywa liczony jako 1024 bajty."
+  },
+  {
+    "id": "math_c038",
+    "question": "Lekarz dał ci 3 tabletki i kazał brać jedną co pół godziny. Na ile minut ci wystarczą?",
+    "answers": [
+      "Na 90",
+      "Na 30",
+      "Na 60",
+      "Na 120"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pierwszą bierzesz od razu, drugą po 30 minutach, a trzecią po 60 minutach."
+  },
+  {
+    "id": "math_c039",
+    "question": "Ile różnych cyfr używamy w systemie dziesiętnym?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "8"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "System dziesiętny używa cyfr od 0 do 9, czyli dziesięciu."
+  },
+  {
+    "id": "math_c040",
+    "question": "Ile wynosi suma wszystkich liczb od 1 do 100?",
+    "answers": [
+      "5050",
+      "5000",
+      "5100",
+      "10100"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "50 par liczb (1+100, 2+99, …) o sumie 101 daje 5050 – sztuczkę przypisuje się młodemu Gaussowi."
+  }
+]
