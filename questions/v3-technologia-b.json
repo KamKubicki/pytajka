@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "it_b001",
+    "question": "W którym kraju zbudowano ENIAC, jeden z pierwszych elektronicznych komputerów?",
+    "answers": [
+      "W ZSRR",
+      "W Wielkiej Brytanii",
+      "W Niemczech",
+      "W USA"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "ENIAC uruchomiono w 1946 roku na Uniwersytecie Pensylwanii."
+  },
+  {
+    "id": "it_b002",
+    "question": "W jakim brytyjskim ośrodku Alan Turing pracował nad łamaniem szyfru Enigmy?",
+    "answers": [
+      "Scotland Yard",
+      "Los Alamos",
+      "Bletchley Park",
+      "Greenwich"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W Bletchley Park działał brytyjski ośrodek kryptologiczny podczas II wojny światowej."
+  },
+  {
+    "id": "it_b003",
+    "question": "Kto w 1879 roku zaprezentował trwałą żarówkę z żarnikiem węglowym?",
+    "answers": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Guglielmo Marconi"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Edison udoskonalił żarówkę tak, że świeciła wiele godzin, i opatentował ją."
+  },
+  {
+    "id": "it_b004",
+    "question": "Który Włoch, laureat Nobla z 1909 roku, uchodzi za pioniera radia?",
+    "answers": [
+      "Alessandro Volta",
+      "Enrico Fermi",
+      "Guglielmo Marconi",
+      "Galileusz"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Marconi rozwinął telegrafię bezprzewodową i dostał za nią Nagrodę Nobla."
+  },
+  {
+    "id": "it_b005",
+    "question": "Który Szkot w 1926 roku publicznie zademonstrował działającą telewizję?",
+    "answers": [
+      "James Watt",
+      "Alexander Fleming",
+      "Alexander Graham Bell",
+      "John Logie Baird"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Baird pokazał swój mechaniczny telewizor w Londynie w styczniu 1926 roku."
+  },
+  {
+    "id": "it_b006",
+    "question": "Pracownik jakiej firmy w 1973 roku wykonał pierwszą rozmowę z przenośnego telefonu komórkowego?",
+    "answers": [
+      "Nokia",
+      "Motorola",
+      "Ericsson",
+      "Siemens"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Martin Cooper z Motoroli zadzwonił z ulicy w Nowym Jorku do konkurencji z Bell Labs."
+  },
+  {
+    "id": "it_b007",
+    "question": "Kto ok. 1450 roku wynalazł w Europie druk ruchomą czcionką?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Jan Gutenberg",
+      "Mikołaj Kopernik",
+      "Galileusz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Najsłynniejszym dziełem Gutenberga jest wydrukowana przez niego Biblia."
+  },
+  {
+    "id": "it_b008",
+    "question": "Na cześć którego konstruktora maszyny parowej nazwano jednostkę mocy?",
+    "answers": [
+      "Alessandro Volta",
+      "Georg Ohm",
+      "André-Marie Ampère",
+      "James Watt"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Jednostką mocy jest wat (W) – od nazwiska Jamesa Watta."
+  },
+  {
+    "id": "it_b009",
+    "question": "Kogo uważa się za pierwszą programistkę w historii?",
+    "answers": [
+      "Florence Nightingale",
+      "Hedy Lamarr",
+      "Marię Skłodowską-Curie",
+      "Adę Lovelace"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Ada Lovelace w XIX wieku opisała algorytm dla maszyny analitycznej Babbage'a."
+  },
+  {
+    "id": "it_b010",
+    "question": "Jakie stworzenie znalezione w 1947 roku w komputerze Mark II spopularyzowało określenie „bug” na błąd?",
+    "answers": [
+      "Pająk",
+      "Ćma",
+      "Karaluch",
+      "Mysz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Operatorzy wkleili ćmę do dziennika z dopiskiem o „pierwszym znalezionym robaku”."
+  },
+  {
+    "id": "it_b011",
+    "question": "Która hollywoodzka aktorka współwynalazła technikę skakania po częstotliwościach, użytą później m.in. w Bluetooth?",
+    "answers": [
+      "Greta Garbo",
+      "Hedy Lamarr",
+      "Audrey Hepburn",
+      "Marilyn Monroe"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Hedy Lamarr opatentowała ją w 1942 roku razem z kompozytorem George'em Antheilem."
+  },
+  {
+    "id": "it_b012",
+    "question": "Jak brzmi sygnał SOS w alfabecie Morse'a?",
+    "answers": [
+      "Trzy kreski, trzy kropki, trzy kreski",
+      "Trzy kropki, trzy kreski, trzy kropki",
+      "Sześć kropek i kreska",
+      "Kropka, kreska, kropka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "SOS to ··· ––– ··· nadawane bez przerw między literami."
+  },
+  {
+    "id": "it_b013",
+    "question": "Którzy bracia w 1895 roku zorganizowali pierwszy publiczny, biletowany pokaz filmowy?",
+    "answers": [
+      "Bracia Lumière",
+      "Bracia Wright",
+      "Bracia Grimm",
+      "Bracia Marx"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pokaz kinematografu odbył się w Paryżu w grudniu 1895 roku."
+  },
+  {
+    "id": "it_b014",
+    "question": "Kto w „wojnie prądów” z Edisonem był orędownikiem prądu przemiennego?",
+    "answers": [
+      "Nikola Tesla",
+      "Samuel Morse",
+      "Alexander Graham Bell",
+      "Guglielmo Marconi"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tesla wraz z Westinghouse'em promował prąd przemienny, który ostatecznie wygrał."
+  },
+  {
+    "id": "it_b015",
+    "question": "Kto zaprezentował windę z hamulcem bezpieczeństwa, dzięki której windy stały się bezpieczne?",
+    "answers": [
+      "Werner von Siemens",
+      "Gustave Eiffel",
+      "Elisha Otis",
+      "Henry Ford"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Otis w 1854 roku kazał przeciąć linę windy, w której stał – hamulec zadziałał."
+  },
+  {
+    "id": "it_b016",
+    "question": "Która firma wprowadziła w 1963 roku kompaktową kasetę magnetofonową?",
+    "answers": [
+      "Sony",
+      "Grundig",
+      "Panasonic",
+      "Philips"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kaseta kompaktowa Philipsa stała się światowym standardem nagrań audio."
+  },
+  {
+    "id": "it_b017",
+    "question": "Jak nazywał się przenośny odtwarzacz kaset firmy Sony z 1979 roku?",
+    "answers": [
+      "Walkman",
+      "Dyktafon",
+      "Discman",
+      "iPod"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Walkman pozwolił po raz pierwszy masowo słuchać muzyki na słuchawkach w ruchu."
+  },
+  {
+    "id": "it_b018",
+    "question": "Do czego w latach 90. często używano ołówka przy kasetach magnetofonowych?",
+    "answers": [
+      "Do przewijania taśmy",
+      "Do włączania nagrywania",
+      "Do zmiany strony kasety",
+      "Do regulacji głośności"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Ołówek włożony w szpulkę pozwalał przewinąć taśmę bez zużywania baterii."
+  },
+  {
+    "id": "it_b019",
+    "question": "Który format kaset wideo wygrał „wojnę formatów” z Betamaxem?",
+    "answers": [
+      "LaserDisc",
+      "Video 2000",
+      "VHS",
+      "DVD"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mimo że Betamax miał lepszy obraz, rynek zdominował tańszy VHS."
+  },
+  {
+    "id": "it_b020",
+    "question": "Jak nazywa się test sprawdzający, czy maszyna w rozmowie potrafi uchodzić za człowieka?",
+    "answers": [
+      "Test Rorschacha",
+      "Test Turinga",
+      "Test Bechdel",
+      "Test Voighta-Kampffa"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Alan Turing zaproponował go w 1950 roku jako „grę w naśladowanie”."
+  },
+  {
+    "id": "it_b021",
+    "question": "Którego mistrza świata w szachy pokonał w 1997 roku komputer IBM Deep Blue?",
+    "answers": [
+      "Garriego Kasparowa",
+      "Magnusa Carlsena",
+      "Anatolija Karpowa",
+      "Bobby'ego Fischera"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Był to pierwszy wygrany przez komputer mecz z panującym mistrzem świata."
+  },
+  {
+    "id": "it_b022",
+    "question": "W jaką grę program AlphaGo pokonał w 2016 roku mistrza Lee Sedola?",
+    "answers": [
+      "Szachy",
+      "Pokera",
+      "Go",
+      "Warcaby"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "AlphaGo firmy DeepMind wygrał ten mecz 4:1."
+  },
+  {
+    "id": "it_b023",
+    "question": "Z jakiego języka pochodzi słowo „robot”, spopularyzowane przez Karela Čapka?",
+    "answers": [
+      "Z czeskiego",
+      "Z japońskiego",
+      "Z niemieckiego",
+      "Z rosyjskiego"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Słowo pochodzi od czeskiego „robota”, czyli pańszczyzna, ciężka praca."
+  },
+  {
+    "id": "it_b024",
+    "question": "Kto sformułował słynne trzy prawa robotyki?",
+    "answers": [
+      "Isaac Asimov",
+      "Stanisław Lem",
+      "Arthur C. Clarke",
+      "Philip K. Dick"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Asimov przedstawił je w opowiadaniach science fiction z lat 40."
+  },
+  {
+    "id": "it_b025",
+    "question": "W którym filmie występuje zbuntowany komputer HAL 9000?",
+    "answers": [
+      "„Matrix”",
+      "„Obcy – 8. pasażer Nostromo”",
+      "„Terminator”",
+      "„2001: Odyseja kosmiczna”"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "HAL 9000 to komputer pokładowy statku Discovery w filmie Stanleya Kubricka."
+  },
+  {
+    "id": "it_b026",
+    "question": "Jak nazywa się system sztucznej inteligencji, który w serii „Terminator” wywołuje wojnę z ludźmi?",
+    "answers": [
+      "Matrix",
+      "Ultron",
+      "HAL 9000",
+      "Skynet"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Skynet to wojskowa sieć komputerowa, która uznała ludzkość za zagrożenie."
+  },
+  {
+    "id": "it_b027",
+    "question": "Jak nazywa się złoty android z „Gwiezdnych wojen”, władający milionami form komunikacji?",
+    "answers": [
+      "K-2SO",
+      "C-3PO",
+      "BB-8",
+      "R2-D2"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "C-3PO to robot protokolarny, nieodłączny towarzysz R2-D2."
+  },
+  {
+    "id": "it_b028",
+    "question": "Jak nazywa się mały robot sprzątający opuszczoną Ziemię w filmie Pixara z 2008 roku?",
+    "answers": [
+      "Baymax",
+      "Johnny 5",
+      "EVE",
+      "WALL-E"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "WALL-E przez setki lat zgniata śmieci w kostki, aż poznaje robota EVE."
+  },
+  {
+    "id": "it_b029",
+    "question": "Jak nazywa się popularny robot odkurzający firmy iRobot?",
+    "answers": [
+      "Pepper",
+      "Asimo",
+      "Aibo",
+      "Roomba"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pierwsza Roomba trafiła do sprzedaży w 2002 roku."
+  },
+  {
+    "id": "it_b030",
+    "question": "Jakie zwierzę przypomina robot Aibo firmy Sony?",
+    "answers": [
+      "Dinozaura",
+      "Kota",
+      "Psa",
+      "Pandę"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Aibo to robotyczny pies, sprzedawany od 1999 roku."
+  },
+  {
+    "id": "it_b031",
+    "question": "Która firma motoryzacyjna stworzyła humanoidalnego robota ASIMO?",
+    "answers": [
+      "Nissan",
+      "Toyota",
+      "Honda",
+      "Mazda"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "ASIMO potrafił chodzić, biegać i wchodzić po schodach."
+  },
+  {
+    "id": "it_b032",
+    "question": "Którego kraju obywatelstwo otrzymał w 2017 roku robot Sophia?",
+    "answers": [
+      "USA",
+      "Korei Południowej",
+      "Arabii Saudyjskiej",
+      "Japonii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sophia była pierwszym robotem z nadanym obywatelstwem."
+  },
+  {
+    "id": "it_b033",
+    "question": "Kogo naśladowała ELIZA, jeden z pierwszych chatbotów, stworzony w latach 60.?",
+    "answers": [
+      "Księdza",
+      "Psychoterapeutę",
+      "Lekarza rodzinnego",
+      "Prawnika"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Program Josepha Weizenbauma odbijał pytania rozmówcy jak terapeuta."
+  },
+  {
+    "id": "it_b034",
+    "question": "W fabryce jakiego koncernu w 1961 roku zaczął pracę Unimate, pierwszy robot przemysłowy?",
+    "answers": [
+      "Ford",
+      "Volkswagen",
+      "Toyota",
+      "General Motors"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Unimate przenosił gorące odlewy na linii produkcyjnej GM w New Jersey."
+  },
+  {
+    "id": "it_b035",
+    "question": "Jak nazywa się zjawisko niepokoju wywoływanego przez roboty prawie, ale nie całkiem podobne do ludzi?",
+    "answers": [
+      "Efekt motyla",
+      "Dolina niesamowitości",
+      "Paradoks Fermiego",
+      "Syndrom sztokholmski"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pojęcie wprowadził w 1970 roku japoński robotyk Masahiro Mori."
+  },
+  {
+    "id": "it_b036",
+    "question": "Który polski pisarz w „Summie technologiae” przewidywał m.in. wirtualną rzeczywistość?",
+    "answers": [
+      "Andrzej Sapkowski",
+      "Jerzy Żuławski",
+      "Janusz A. Zajdel",
+      "Stanisław Lem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Lem nazwał ją „fantomatyką” już w 1964 roku."
+  },
+  {
+    "id": "it_b037",
+    "question": "Klonem jakiej konsoli był popularny w Polsce lat 90. Pegasus?",
+    "answers": [
+      "Sega Mega Drive",
+      "Nintendo NES (Famicom)",
+      "Sony PlayStation",
+      "Atari 2600"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pegasus był tajwańską podróbką japońskiego Famicomu."
+  },
+  {
+    "id": "it_b038",
+    "question": "Na czym zapisane były gry do Pegasusa?",
+    "answers": [
+      "Na płytach CD",
+      "Na kartridżach",
+      "Na dyskietkach",
+      "Na kasetach magnetofonowych"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kartridże wkładało się od góry – często po wcześniejszym dmuchnięciu w złącze."
+  },
+  {
+    "id": "it_b039",
+    "question": "Która firma wyprodukowała przenośną konsolę Game Boy?",
+    "answers": [
+      "Sony",
+      "Nintendo",
+      "Sega",
+      "Atari"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Game Boy zadebiutował w 1989 roku."
+  },
+  {
+    "id": "it_b040",
+    "question": "Jaka gra była dołączana do pierwszego Game Boya poza Japonią i stała się jego hitem?",
+    "answers": [
+      "Pac-Man",
+      "Super Mario Land",
+      "Tetris",
+      "Pokémon"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zestaw z Tetrisem sprawił, że w Game Boya grali także dorośli."
+  },
+  {
+    "id": "it_b041",
+    "question": "Z jaką firmą Sony pierwotnie współpracowało przy projekcie, z którego wyrosło PlayStation?",
+    "answers": [
+      "Z Segą",
+      "Z Atari",
+      "Z Nintendo",
+      "Z Microsoftem"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Sony miało zrobić napęd CD dla Nintendo, ale współpraca się rozpadła."
+  },
+  {
+    "id": "it_b042",
+    "question": "Która firma produkuje konsole Xbox?",
+    "answers": [
+      "Sega",
+      "Nintendo",
+      "Microsoft",
+      "Sony"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pierwszy Xbox trafił do sklepów w 2001 roku."
+  },
+  {
+    "id": "it_b043",
+    "question": "Jak nazywa się niebieski jeż, maskotka firmy Sega?",
+    "answers": [
+      "Crash",
+      "Tails",
+      "Spyro",
+      "Sonic"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sonic zadebiutował w 1991 roku jako rywal Mario."
+  },
+  {
+    "id": "it_b044",
+    "question": "Jak ma na imię ubrany na zielono brat Mario?",
+    "answers": [
+      "Yoshi",
+      "Luigi",
+      "Toad",
+      "Wario"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Luigi jest młodszym bratem Mario i jest od niego wyższy."
+  },
+  {
+    "id": "it_b045",
+    "question": "Co zjada w labiryncie bohater gry „Pac-Man”?",
+    "answers": [
+      "Grzyby",
+      "Kropki",
+      "Monety",
+      "Banany"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pac-Man musi zjeść wszystkie kropki, uciekając przed duchami."
+  },
+  {
+    "id": "it_b046",
+    "question": "Jak nazywa się czerwony duch w grze „Pac-Man”?",
+    "answers": [
+      "Blinky",
+      "Clyde",
+      "Pinky",
+      "Inky"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Blinky jest czerwony i najzacieklej goni Pac-Mana."
+  },
+  {
+    "id": "it_b047",
+    "question": "Jak nazywała się wydana w 1972 roku gra Atari, symulująca tenis stołowy?",
+    "answers": [
+      "Space Invaders",
+      "Tetris",
+      "Pong",
+      "Asteroids"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pong był pierwszym wielkim komercyjnym sukcesem w historii gier wideo."
+  },
+  {
+    "id": "it_b048",
+    "question": "Jak nazywała się pierwsza domowa konsola do gier, wydana w 1972 roku?",
+    "answers": [
+      "Magnavox Odyssey",
+      "ColecoVision",
+      "Atari 2600",
+      "Intellivision"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Odyssey zaprojektował Ralph Baer, nazywany ojcem gier wideo."
+  },
+  {
+    "id": "it_b049",
+    "question": "Co produkowało Nintendo, zanim zajęło się grami wideo?",
+    "answers": [
+      "Zegarki",
+      "Maszyny do szycia",
+      "Rowery",
+      "Karty do gry"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Firma powstała w 1889 roku jako producent japońskich kart hanafuda."
+  },
+  {
+    "id": "it_b050",
+    "question": "Jak nazywała się konsola Nintendo z 2006 roku sterowana ruchami kontrolera?",
+    "answers": [
+      "Wii",
+      "Switch",
+      "Dreamcast",
+      "GameCube"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wii z kontrolerem Wii Remote przyciągnęła do grania całe rodziny."
+  },
+  {
+    "id": "it_b051",
+    "question": "Jak nazywała się ostatnia konsola stacjonarna firmy Sega?",
+    "answers": [
+      "Saturn",
+      "Master System",
+      "Mega Drive",
+      "Dreamcast"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Po Dreamcaście Sega w 2001 roku wycofała się z produkcji konsol."
+  },
+  {
+    "id": "it_b052",
+    "question": "Jak nazywała się przenośna konsola Sony wydana w 2004 roku?",
+    "answers": [
+      "Game Boy Advance",
+      "Lynx",
+      "PSP",
+      "Game Gear"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "PlayStation Portable odtwarzała gry z małych płyt UMD."
+  },
+  {
+    "id": "it_b053",
+    "question": "Czym zajmował się CD Projekt, zanim zaczął tworzyć własne gry?",
+    "answers": [
+      "Sprzedażą i spolszczaniem gier",
+      "Produkcją płyt muzycznych",
+      "Naprawą komputerów",
+      "Wydawaniem czasopism"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Firma założona w 1994 roku zasłynęła z wzorowych polskich wersji gier."
+  },
+  {
+    "id": "it_b054",
+    "question": "Jak nazywa się cyfrowa platforma z grami należąca do grupy CD Projekt?",
+    "answers": [
+      "Steam",
+      "GOG",
+      "Origin",
+      "Epic Games Store"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "GOG zaczynał jako Good Old Games, sklep ze starszymi grami bez zabezpieczeń DRM."
+  },
+  {
+    "id": "it_b055",
+    "question": "W jakim mieście toczy się akcja gry „Cyberpunk 2077”?",
+    "answers": [
+      "Los Santos",
+      "Vice City",
+      "Neo Tokyo",
+      "Night City"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Night City to fikcyjna metropolia w Kalifornii."
+  },
+  {
+    "id": "it_b056",
+    "question": "Który aktor użyczył głosu Geraltowi w polskiej wersji gier „Wiedźmin”?",
+    "answers": [
+      "Jacek Rozenek",
+      "Krzysztof Gosztyła",
+      "Bogusław Linda",
+      "Michał Żebrowski"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Michał Żebrowski grał Geralta w filmie, a w grach mówi Jacek Rozenek."
+  },
+  {
+    "id": "it_b057",
+    "question": "W którym roku wystartował serwis aukcyjny Allegro?",
+    "answers": [
+      "2006",
+      "1995",
+      "1999",
+      "2003"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Allegro powstało pod koniec 1999 roku w Poznaniu."
+  },
+  {
+    "id": "it_b058",
+    "question": "Kto stworzył komunikator Gadu-Gadu?",
+    "answers": [
+      "Marcin Iwiński",
+      "Michał Kiciński",
+      "Maciej Popowicz",
+      "Łukasz Foltyn"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Łukasz Foltyn napisał pierwszą wersję Gadu-Gadu w 2000 roku."
+  },
+  {
+    "id": "it_b059",
+    "question": "Które polskie studio stworzyło grę „Dying Light”?",
+    "answers": [
+      "CD Projekt Red",
+      "11 bit studios",
+      "People Can Fly",
+      "Techland"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Techland z Wrocławia wydał „Dying Light” w 2015 roku."
+  },
+  {
+    "id": "it_b060",
+    "question": "Które polskie studio stworzyło grę „This War of Mine”?",
+    "answers": [
+      "Bloober Team",
+      "11 bit studios",
+      "Techland",
+      "CI Games"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Gra pokazuje wojnę z perspektywy cywilów w oblężonym mieście."
+  },
+  {
+    "id": "it_b061",
+    "question": "Które polskie studio przygotowało remake gry „Silent Hill 2” z 2024 roku?",
+    "answers": [
+      "Bloober Team",
+      "People Can Fly",
+      "Techland",
+      "CD Projekt Red"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Krakowskie Bloober Team znane jest z horrorów, m.in. „Layers of Fear”."
+  },
+  {
+    "id": "it_b062",
+    "question": "Jak nazywał się pierwszy polski komputer cyfrowy, uruchomiony w 1958 roku?",
+    "answers": [
+      "Odra",
+      "K-202",
+      "Elwro",
+      "XYZ"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "XYZ zbudowano w warszawskim zespole Leona Łukaszewicza."
+  },
+  {
+    "id": "it_b063",
+    "question": "Jak nazywał się nowatorski polski minikomputer Jacka Karpińskiego z 1971 roku?",
+    "answers": [
+      "Elwro 800",
+      "Meritum",
+      "K-202",
+      "Odra 1305"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "K-202 był jak na swoje czasy bardzo szybki i kompaktowy."
+  },
+  {
+    "id": "it_b064",
+    "question": "Czym zajął się Jacek Karpiński, gdy odsunięto go od budowy komputerów?",
+    "answers": [
+      "Hodowlą świń",
+      "Rybołówstwem",
+      "Pszczelarstwem",
+      "Uprawą tulipanów"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Konstruktor K-202 przez kilka lat hodował świnie w okolicach Olsztyna."
+  },
+  {
+    "id": "it_b065",
+    "question": "Który polski matematyk jako pierwszy złamał szyfr Enigmy w 1932 roku?",
+    "answers": [
+      "Marian Rejewski",
+      "Hugo Steinhaus",
+      "Stanisław Ulam",
+      "Stefan Banach"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rejewski odtworzył budowę Enigmy metodami matematycznymi."
+  },
+  {
+    "id": "it_b066",
+    "question": "Co wynalazł w 1853 roku Ignacy Łukasiewicz?",
+    "answers": [
+      "Zapalniczkę",
+      "Żarówkę",
+      "Lampę naftową",
+      "Kuchenkę gazową"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Łukasiewicz jako pierwszy oczyścił ropę naftową do nafty oświetleniowej."
+  },
+  {
+    "id": "it_b067",
+    "question": "Kogo nazywano „polskim Edisonem”?",
+    "answers": [
+      "Kazimierza Prószyńskiego",
+      "Ignacego Łukasiewicza",
+      "Jana Szczepanika",
+      "Stefana Drzewieckiego"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Szczepanik miał kilkadziesiąt patentów, m.in. na telektroskop – prekursora telewizji."
+  },
+  {
+    "id": "it_b068",
+    "question": "Jak nazywał się profesjonalny przenośny magnetofon skonstruowany przez Stefana Kudelskiego?",
+    "answers": [
+      "Nagra",
+      "Unitra",
+      "Kasprzak",
+      "Grundig"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Magnetofony Nagra stały się standardem w filmie i radiu na całym świecie."
+  },
+  {
+    "id": "it_b069",
+    "question": "Jak nazywała się kultowa polska pralka wirnikowa z czasów PRL?",
+    "answers": [
+      "Halinka",
+      "Mania",
+      "Frania",
+      "Zosia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Frania nie wirowała – pranie wyżymało się ręcznie lub wyżymaczką."
+  },
+  {
+    "id": "it_b070",
+    "question": "Pod jaką marką w PRL sprzedawano m.in. gramofony, magnetofony i radia?",
+    "answers": [
+      "Unitra",
+      "Pewex",
+      "Polam",
+      "Polmos"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Unitra zrzeszała zakłady elektroniki, np. Diora i Fonica."
+  },
+  {
+    "id": "it_b071",
+    "question": "Co roztopiło się w kieszeni Percy'ego Spencera, co doprowadziło do wynalezienia mikrofalówki?",
+    "answers": [
+      "Lody",
+      "Świeczka",
+      "Batonik czekoladowy",
+      "Ser"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Spencer pracował przy magnetronie radaru i zauważył, że batonik się rozpuścił."
+  },
+  {
+    "id": "it_b072",
+    "question": "Które cząsteczki w jedzeniu podgrzewa przede wszystkim kuchenka mikrofalowa?",
+    "answers": [
+      "Soli",
+      "Tlenu",
+      "Wody",
+      "Cukru"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mikrofale wprawiają cząsteczki wody w drgania, co wytwarza ciepło."
+  },
+  {
+    "id": "it_b073",
+    "question": "Jaki gaz chłodniczy wycofano z lodówek, bo niszczył warstwę ozonową?",
+    "answers": [
+      "Argon",
+      "Freon",
+      "Neon",
+      "Hel"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Freony zakazano na mocy protokołu montrealskiego z 1987 roku."
+  },
+  {
+    "id": "it_b074",
+    "question": "Jak nazywał się pierwszy pilot do telewizora firmy Zenith z 1950 roku, połączony z TV kablem?",
+    "answers": [
+      "Click Master",
+      "Couch Potato",
+      "Remote King",
+      "Lazy Bones"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Nazwa „Lazy Bones” oznacza po angielsku leniucha."
+  },
+  {
+    "id": "it_b075",
+    "question": "Kto wynalazł pierwszą praktyczną zmywarkę do naczyń w XIX wieku?",
+    "answers": [
+      "Josephine Cochrane",
+      "Marie Curie",
+      "Ada Lovelace",
+      "Mary Anderson"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Cochrane opatentowała zmywarkę w 1886 roku, bo służba tłukła jej porcelanę."
+  },
+  {
+    "id": "it_b076",
+    "question": "Ile wynosi częstotliwość prądu w polskim gniazdku?",
+    "answers": [
+      "60 Hz",
+      "50 Hz",
+      "230 Hz",
+      "100 Hz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W Polsce sieć ma napięcie 230 V i częstotliwość 50 Hz."
+  },
+  {
+    "id": "it_b077",
+    "question": "Jaki produkt jako pierwszy w historii zeskanowano kodem kreskowym w sklepie w 1974 roku?",
+    "answers": [
+      "Puszkę coli",
+      "Gumę do żucia",
+      "Baton czekoladowy",
+      "Paczkę papierosów"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Była to paczka gum Wrigley's w supermarkecie w Ohio."
+  },
+  {
+    "id": "it_b078",
+    "question": "Kto wymyślił bezworkowy odkurzacz cyklonowy?",
+    "answers": [
+      "James Dyson",
+      "Thomas Edison",
+      "Steve Wozniak",
+      "Elon Musk"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Dyson zbudował ponoć ponad 5 tysięcy prototypów, zanim mu się udało."
+  },
+  {
+    "id": "it_b079",
+    "question": "Co zainspirowało wynalazcę zapięcia na rzepy?",
+    "answers": [
+      "Owoce łopianu na sierści psa",
+      "Przyssawki ośmiornicy",
+      "Łapy gekona",
+      "Pajęczyna"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "George de Mestral po spacerze z psem obejrzał haczyki łopianu pod mikroskopem."
+  },
+  {
+    "id": "it_b080",
+    "question": "Jakie produkty biurowe powstały dzięki zbyt słabemu klejowi wynalezionemu w firmie 3M?",
+    "answers": [
+      "Taśma izolacyjna",
+      "Koperty samoprzylepne",
+      "Gumki do mazania",
+      "Karteczki samoprzylepne"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Słaby klej przydał się do karteczek, które można odkleić bez śladu."
+  }
+]
