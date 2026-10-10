@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "foot_h001",
+    "question": "Która reprezentacja zdobyła mistrzostwo świata w Katarze w 2022 roku?",
+    "answers": [
+      "Francja",
+      "Maroko",
+      "Argentyna",
+      "Chorwacja"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Argentyna pokonała w finale Francję po rzutach karnych."
+  },
+  {
+    "id": "foot_h002",
+    "question": "Który kraj był gospodarzem piłkarskiego mundialu w 2014 roku?",
+    "answers": [
+      "Brazylia",
+      "Niemcy",
+      "Argentyna",
+      "RPA"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mundial 2014 rozegrano w Brazylii, a wygrali go Niemcy."
+  },
+  {
+    "id": "foot_h003",
+    "question": "Z odległości ilu metrów od bramki wykonuje się rzut karny?",
+    "answers": [
+      "9 m",
+      "11 m",
+      "12 m",
+      "16 m"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Punkt karny znajduje się 11 metrów od linii bramkowej."
+  },
+  {
+    "id": "foot_h004",
+    "question": "Który brazylijski piłkarz trzykrotnie zdobył mistrzostwo świata (1958, 1962, 1970)?",
+    "answers": [
+      "Ronaldo",
+      "Garrincha",
+      "Zico",
+      "Pelé"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pelé jest jedynym piłkarzem z trzema tytułami mistrza świata."
+  },
+  {
+    "id": "foot_h005",
+    "question": "Przeciwko której drużynie Maradona strzelił gola „ręką Boga” na mundialu w 1986 roku?",
+    "answers": [
+      "Niemcom",
+      "Włochom",
+      "Anglii",
+      "Belgii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Słynny gol padł w ćwierćfinale Argentyna–Anglia w Meksyku."
+  },
+  {
+    "id": "foot_h006",
+    "question": "W którym klubie Robert Lewandowski grał w latach 2014–2022?",
+    "answers": [
+      "FC Barcelona",
+      "Lech Poznań",
+      "Borussia Dortmund",
+      "Bayern Monachium"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Lewandowski przeszedł do Bayernu z Borussii w 2014 roku, a w 2022 odszedł do Barcelony."
+  },
+  {
+    "id": "foot_h007",
+    "question": "W którym mieście rozegrano mecz otwarcia Euro 2012?",
+    "answers": [
+      "W Gdańsku",
+      "W Kijowie",
+      "We Wrocławiu",
+      "W Warszawie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Polska zremisowała z Grecją 1:1 na Stadionie Narodowym w Warszawie."
+  },
+  {
+    "id": "foot_h008",
+    "question": "Która drużyna triumfowała w turnieju Euro 2016 rozgrywanym we Francji?",
+    "answers": [
+      "Niemcy",
+      "Francja",
+      "Portugalia",
+      "Walia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Portugalia pokonała w finale gospodarzy 1:0 po dogrywce."
+  },
+  {
+    "id": "foot_h009",
+    "question": "Które miejsce zajęła reprezentacja Polski na mundialu w 1974 roku?",
+    "answers": [
+      "Trzecie",
+      "Drugie",
+      "Piąte",
+      "Czwarte"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Polska pokonała w meczu o brąz Brazylię 1:0."
+  },
+  {
+    "id": "foot_h010",
+    "question": "Jak potocznie nazywa się mecz Polska–RFN z mundialu 1974 rozegrany na zalanym boisku we Frankfurcie?",
+    "answers": [
+      "Bitwa o Wembley",
+      "Cud nad Menem",
+      "Mecz stulecia",
+      "Mecz na wodzie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ulewa zamieniła murawę w bagno, a Polska przegrała 0:1."
+  },
+  {
+    "id": "foot_h011",
+    "question": "Która reprezentacja zdobyła mistrzostwo świata na mundialu 2006 w Niemczech?",
+    "answers": [
+      "Niemcy",
+      "Francja",
+      "Włochy",
+      "Portugalia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Włosi pokonali Francję w finale po rzutach karnych."
+  },
+  {
+    "id": "foot_h012",
+    "question": "Które dwa kraje wspólnie zorganizowały mundial w 2002 roku?",
+    "answers": [
+      "Korea Płd. i Chiny",
+      "Korea Płd. i Japonia",
+      "Japonia i Tajlandia",
+      "Japonia i Chiny"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Był to pierwszy mundial w Azji i pierwszy z dwoma gospodarzami."
+  },
+  {
+    "id": "foot_h013",
+    "question": "Kto sięgnął po tytuł mistrza Europy w turnieju Euro 2020, rozegranym w 2021 roku?",
+    "answers": [
+      "Włochy",
+      "Dania",
+      "Hiszpania",
+      "Anglia"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Włosi pokonali Anglię po karnych na Wembley."
+  },
+  {
+    "id": "foot_h014",
+    "question": "Kto wygrał mistrzostwa Europy w 2024 roku w Niemczech?",
+    "answers": [
+      "Anglia",
+      "Hiszpania",
+      "Niemcy",
+      "Francja"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hiszpania pokonała w finale w Berlinie Anglię 2:1."
+  },
+  {
+    "id": "foot_h015",
+    "question": "Jak nazywa się przewinienie, gdy napastnik w chwili podania jest bliżej bramki rywala niż piłka i przedostatni obrońca?",
+    "answers": [
+      "Rzut wolny",
+      "Faul taktyczny",
+      "Aut",
+      "Spalony"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pozycja spalona jest karana rzutem wolnym pośrednim dla rywali."
+  },
+  {
+    "id": "foot_h016",
+    "question": "Ile trwa dogrywka w piłkarskim meczu pucharowym?",
+    "answers": [
+      "2 × 20 minut",
+      "2 × 10 minut",
+      "2 × 15 minut",
+      "1 × 15 minut"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dogrywka składa się z dwóch 15-minutowych części."
+  },
+  {
+    "id": "foot_h017",
+    "question": "Jak nazywa się słynny stadion FC Barcelony?",
+    "answers": [
+      "Santiago Bernabéu",
+      "Mestalla",
+      "Wanda Metropolitano",
+      "Camp Nou"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Camp Nou to domowy stadion Barcelony od 1957 roku."
+  },
+  {
+    "id": "foot_h018",
+    "question": "Kto był selekcjonerem reprezentacji Polski na Euro 2016?",
+    "answers": [
+      "Adam Nawałka",
+      "Leo Beenhakker",
+      "Franciszek Smuda",
+      "Jerzy Brzęczek"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pod wodzą Nawałki Polska doszła do ćwierćfinału Euro 2016."
+  },
+  {
+    "id": "foot_h019",
+    "question": "Któremu piłkarzowi Wojciech Szczęsny obronił rzut karny w meczu z Argentyną na mundialu 2022?",
+    "answers": [
+      "Ángelowi Di Maríi",
+      "Lautaro Martínezowi",
+      "Julianowi Álvarezowi",
+      "Lionelowi Messiemu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Szczęsny obronił karnego Messiego, choć Polska przegrała 0:2."
+  },
+  {
+    "id": "foot_h020",
+    "question": "Jak nazywa się zdobycie trzech goli przez jednego zawodnika w jednym meczu?",
+    "answers": [
+      "Tripleta",
+      "Hat-trick",
+      "Kanonada",
+      "Dublet"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Termin hat-trick pochodzi z krykieta."
+  },
+  {
+    "id": "foot_h021",
+    "question": "Z którego polskiego klubu Robert Lewandowski przeszedł do Borussii Dortmund w 2010 roku?",
+    "answers": [
+      "Znicz Pruszków",
+      "Lech Poznań",
+      "Wisła Kraków",
+      "Legia Warszawa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Lewandowski trafił do Dortmundu po dwóch sezonach w Lechu."
+  },
+  {
+    "id": "foot_h022",
+    "question": "W którym mieście rozegrano finał Euro 2012?",
+    "answers": [
+      "W Kijowie",
+      "W Gdańsku",
+      "We Lwowie",
+      "W Warszawie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Hiszpania pokonała Włochy 4:0 na Stadionie Olimpijskim w Kijowie."
+  },
+  {
+    "id": "foot_h023",
+    "question": "Na którym mundialu, oprócz 1974, Polska zdobyła brązowy medal?",
+    "answers": [
+      "1982",
+      "1986",
+      "1966",
+      "1978"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W 1982 roku w Hiszpanii Polska pokonała Francję 3:2 w meczu o trzecie miejsce."
+  },
+  {
+    "id": "foot_h024",
+    "question": "W którym kraju rozegrano mundial w 1982 roku?",
+    "answers": [
+      "We Włoszech",
+      "W Argentynie",
+      "W Hiszpanii",
+      "W Meksyku"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mundial 1982 w Hiszpanii wygrali Włosi."
+  },
+  {
+    "id": "foot_h025",
+    "question": "Jaki medal zdobyli piłkarze reprezentacji Polski z Kazimierzem Deyną na igrzyskach w Monachium w 1972 roku?",
+    "answers": [
+      "Brązowy",
+      "Złoty",
+      "Nie zdobyli medalu",
+      "Srebrny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Polska pokonała w finale Węgry 2:1, a Deyna strzelił oba gole."
+  },
+  {
+    "id": "foot_h026",
+    "question": "W którym włoskim klubie Zbigniew Boniek grał w latach 1982–1985?",
+    "answers": [
+      "Juventus",
+      "SSC Napoli",
+      "AC Milan",
+      "Inter Mediolan"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Z Juventusem Boniek wygrał m.in. Puchar Europy w 1985 roku."
+  },
+  {
+    "id": "foot_h027",
+    "question": "Którego włoskiego obrońcę uderzył głową Zinédine Zidane w finale mundialu 2006?",
+    "answers": [
+      "Marco Materazziego",
+      "Alessandro Nestę",
+      "Fabio Cannavaro",
+      "Gianlucę Zambrottę"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zidane dostał czerwoną kartkę w swoim ostatnim meczu w karierze."
+  },
+  {
+    "id": "foot_h028",
+    "question": "Kto został królem strzelców mundialu 2002 z ośmioma golami?",
+    "answers": [
+      "Miroslav Klose",
+      "Christian Vieri",
+      "Rivaldo",
+      "Ronaldo"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Brazylijczyk strzelił m.in. oba gole w finale z Niemcami."
+  },
+  {
+    "id": "foot_h029",
+    "question": "Kogo Bayern Monachium z Lewandowskim pokonał w finale Ligi Mistrzów w 2020 roku?",
+    "answers": [
+      "Paris Saint-Germain",
+      "Liverpool",
+      "Real Madryt",
+      "Chelsea"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Bayern wygrał 1:0 w Lizbonie po golu Kingsleya Comana."
+  },
+  {
+    "id": "foot_h030",
+    "question": "W którym roku Robert Lewandowski po raz pierwszy otrzymał nagrodę FIFA The Best?",
+    "answers": [
+      "2022",
+      "2018",
+      "2020",
+      "2019"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Lewandowski wygrał plebiscyt FIFA w 2020 roku i obronił tytuł rok później."
+  },
+  {
+    "id": "foot_h031",
+    "question": "Czyj rekord 40 goli w jednym sezonie Bundesligi pobił Lewandowski w sezonie 2020/21?",
+    "answers": [
+      "Gerda Müllera",
+      "Jürgena Klinsmanna",
+      "Karla-Heinza Rummenigge",
+      "Klausa Fischera"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Lewandowski strzelił 41 goli i poprawił wynik Müllera z sezonu 1971/72."
+  },
+  {
+    "id": "foot_h032",
+    "question": "Który stadion jest wspólnym domem AC Milan i Interu Mediolan?",
+    "answers": [
+      "Stadio Olimpico",
+      "San Siro",
+      "Allianz Stadium",
+      "Stadio Maradona"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Oficjalnie obiekt nosi imię Giuseppe Meazzy."
+  },
+  {
+    "id": "foot_h033",
+    "question": "W którym roku Argentyna z Maradoną wygrała mundial w Meksyku?",
+    "answers": [
+      "1982",
+      "1990",
+      "1986",
+      "1978"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W finale w 1986 roku Argentyna pokonała RFN 3:2."
+  },
+  {
+    "id": "foot_h034",
+    "question": "Z którym brazylijskim klubem Pelé był związany przez większość kariery?",
+    "answers": [
+      "São Paulo",
+      "Santos",
+      "Corinthians",
+      "Flamengo"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pelé grał w Santosie w latach 1956–1974."
+  },
+  {
+    "id": "foot_h035",
+    "question": "Kto strzelił gola dla Polski w ćwierćfinale Euro 2016 z Portugalią?",
+    "answers": [
+      "Arkadiusz Milik",
+      "Robert Lewandowski",
+      "Jakub Błaszczykowski",
+      "Kamil Glik"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Lewandowski trafił już w drugiej minucie meczu."
+  },
+  {
+    "id": "foot_h036",
+    "question": "Kogo Polska pokonała po rzutach karnych w 1/8 finału Euro 2016?",
+    "answers": [
+      "Ukrainę",
+      "Niemcy",
+      "Irlandię Północną",
+      "Szwajcarię"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Po remisie 1:1 Polacy wygrali serię karnych 5:4."
+  },
+  {
+    "id": "foot_h037",
+    "question": "W którym miesiącu rozpoczął się mundial 2022 w Katarze?",
+    "answers": [
+      "W październiku",
+      "W lipcu",
+      "W listopadzie",
+      "W czerwcu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Z powodu upałów turniej przeniesiono na listopad i grudzień."
+  },
+  {
+    "id": "foot_h038",
+    "question": "Kto strzelił hat-tricka w finale mundialu 2022, mimo porażki swojej drużyny?",
+    "answers": [
+      "Antoine Griezmann",
+      "Lionel Messi",
+      "Kylian Mbappé",
+      "Olivier Giroud"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mbappé jako drugi piłkarz w historii zdobył trzy gole w finale mundialu."
+  },
+  {
+    "id": "foot_h039",
+    "question": "Na którym mundialu po raz pierwszy zastosowano system VAR?",
+    "answers": [
+      "2014 w Brazylii",
+      "2022 w Katarze",
+      "2018 w Rosji",
+      "2010 w RPA"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wideoweryfikację wprowadzono na mistrzostwach świata w Rosji."
+  },
+  {
+    "id": "foot_h040",
+    "question": "Który klub w finale Ligi Mistrzów 1999 strzelił dwa gole w doliczonym czasie i pokonał Bayern?",
+    "answers": [
+      "Liverpool",
+      "Chelsea",
+      "Arsenal",
+      "Manchester United"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Manchester United wygrał 2:1 na Camp Nou."
+  },
+  {
+    "id": "foot_h041",
+    "question": "Kto strzelił zwycięskiego gola dla Portugalii w finale Euro 2016?",
+    "answers": [
+      "Nani",
+      "Ricardo Quaresma",
+      "Éder",
+      "Cristiano Ronaldo"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Éder trafił w dogrywce, a Ronaldo opuścił boisko z kontuzją."
+  },
+  {
+    "id": "foot_h042",
+    "question": "Który Polak strzelił hat-tricka Belgii na mundialu w 1982 roku?",
+    "answers": [
+      "Andrzej Szarmach",
+      "Zbigniew Boniek",
+      "Włodzimierz Smolarek",
+      "Grzegorz Lato"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Polska wygrała z Belgią 3:0, a wszystkie gole zdobył Boniek."
+  },
+  {
+    "id": "foot_h043",
+    "question": "Który klub wygrał pierwszą edycję Ligi Mistrzów pod tą nazwą, w sezonie 1992/93?",
+    "answers": [
+      "FC Barcelona",
+      "AC Milan",
+      "Ajax Amsterdam",
+      "Olympique Marsylia"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Marsylia pokonała w finale w Monachium AC Milan 1:0."
+  },
+  {
+    "id": "foot_h044",
+    "question": "Jaką szerokość ma bramka piłkarska?",
+    "answers": [
+      "7,32 m",
+      "8,00 m",
+      "7,00 m",
+      "6,50 m"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Bramka ma 8 jardów szerokości i 8 stóp wysokości (2,44 m)."
+  },
+  {
+    "id": "foot_h045",
+    "question": "W którym klubie Grzegorz Lato spędził większość kariery?",
+    "answers": [
+      "Legia Warszawa",
+      "Stal Mielec",
+      "Widzew Łódź",
+      "Górnik Zabrze"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Z Mielcem Lato dwukrotnie zdobył mistrzostwo Polski."
+  },
+  {
+    "id": "foot_h046",
+    "question": "Który Szwajcar strzelił Polsce gola przewrotką na Euro 2016?",
+    "answers": [
+      "Xherdan Shaqiri",
+      "Breel Embolo",
+      "Haris Seferović",
+      "Granit Xhaka"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Efektowny gol Shaqiriego dał Szwajcarii remis 1:1."
+  },
+  {
+    "id": "foot_h047",
+    "question": "Który selekcjoner wywalczył z Polską brąz na hiszpańskim mundialu 1982?",
+    "answers": [
+      "Jacek Gmoch",
+      "Antoni Piechniczek",
+      "Kazimierz Górski",
+      "Wojciech Łazarek"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Piechniczek doprowadził Polskę do brązu w Hiszpanii."
+  },
+  {
+    "id": "foot_h048",
+    "question": "Który kraj był gospodarzem i zwycięzcą pierwszego mundialu w 1930 roku?",
+    "answers": [
+      "Włochy",
+      "Urugwaj",
+      "Argentyna",
+      "Brazylia"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Urugwaj pokonał w finale w Montevideo Argentynę 4:2."
+  },
+  {
+    "id": "foot_h049",
+    "question": "Jakim wynikiem po dogrywce zakończył się finał mundialu 2022?",
+    "answers": [
+      "1:1",
+      "2:2",
+      "4:4",
+      "3:3"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Argentyna wygrała z Francją dopiero w serii rzutów karnych."
+  },
+  {
+    "id": "foot_h050",
+    "question": "Kto wygrał finał Ligi Mistrzów 2013 na Wembley, w którym Lewandowski grał dla Borussii Dortmund?",
+    "answers": [
+      "Bayern Monachium",
+      "FC Barcelona",
+      "Borussia Dortmund",
+      "Real Madryt"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Bayern pokonał Borussię 2:1 po golu Arjena Robbena."
+  },
+  {
+    "id": "sport_h001",
+    "question": "Która stolica gościła olimpijczyków latem 2024 roku?",
+    "answers": [
+      "W Paryżu",
+      "W Madrycie",
+      "W Los Angeles",
+      "W Londynie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Paryż gościł letnie igrzyska po raz trzeci."
+  },
+  {
+    "id": "sport_h002",
+    "question": "Które miasto zorganizowało zimowe igrzyska olimpijskie w 2022 roku?",
+    "answers": [
+      "Sapporo",
+      "Pjongczang",
+      "Pekin",
+      "Soczi"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pekin jako pierwszy gościł zarówno letnie, jak i zimowe igrzyska."
+  },
+  {
+    "id": "sport_h003",
+    "question": "Gdzie w 1896 roku odbyły się pierwsze nowożytne igrzyska olimpijskie?",
+    "answers": [
+      "W Paryżu",
+      "W Londynie",
+      "W Atenach",
+      "W Rzymie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Igrzyska wróciły do Grecji z inicjatywy Pierre’a de Coubertina."
+  },
+  {
+    "id": "sport_h004",
+    "question": "Ile kół ma symbol olimpijski?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pięć splecionych kół symbolizuje pięć kontynentów."
+  },
+  {
+    "id": "sport_h005",
+    "question": "Jaką dyscyplinę uprawiał Robert Korzeniowski, czterokrotny mistrz olimpijski?",
+    "answers": [
+      "Chód sportowy",
+      "Pchnięcie kulą",
+      "Maraton",
+      "Pięciobój nowoczesny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Korzeniowski zdobywał złoto w chodzie w latach 1996–2004."
+  },
+  {
+    "id": "sport_h006",
+    "question": "W jakiej dyscyplinie Irena Szewińska zdobyła siedem medali olimpijskich?",
+    "answers": [
+      "W szermierce",
+      "W pływaniu",
+      "W gimnastyce",
+      "W lekkoatletyce"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Szewińska startowała w biegach sprinterskich i skoku w dal."
+  },
+  {
+    "id": "sport_h007",
+    "question": "Ilu siatkarzy z każdej drużyny stoi na boisku podczas akcji?",
+    "answers": [
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W siatkówce halowej każda drużyna ma na boisku sześciu graczy."
+  },
+  {
+    "id": "sport_h008",
+    "question": "Jak nazywa się siatkarz w koszulce innego koloru, specjalista od przyjęcia i obrony?",
+    "answers": [
+      "Libero",
+      "Atakujący",
+      "Rozgrywający",
+      "Środkowy"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Libero nie może atakować ani zagrywać."
+  },
+  {
+    "id": "sport_h009",
+    "question": "Do ilu punktów gra się set w siatkówce (poza tie-breakiem)?",
+    "answers": [
+      "Do 21",
+      "Do 30",
+      "Do 15",
+      "Do 25"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Set wygrywa drużyna, która zdobędzie 25 punktów z przewagą dwóch."
+  },
+  {
+    "id": "sport_h010",
+    "question": "W którym mieście znajduje się skocznia narciarska Wielka Krokiew?",
+    "answers": [
+      "W Wiśle",
+      "W Zakopanem",
+      "W Szczyrku",
+      "W Karpaczu"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wielka Krokiew to najsłynniejsza polska skocznia, otwarta w 1925 roku."
+  },
+  {
+    "id": "sport_h011",
+    "question": "Ile trwa jedna runda w zawodowym boksie?",
+    "answers": [
+      "2 minuty",
+      "3 minuty",
+      "5 minut",
+      "4 minuty"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Między trzyminutowymi rundami jest minuta przerwy."
+  },
+  {
+    "id": "sport_h012",
+    "question": "Ile wynosi dystans biegu maratońskiego?",
+    "answers": [
+      "42 km",
+      "40 km",
+      "45,5 km",
+      "42,195 km"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dystans ustalono na igrzyskach w Londynie w 1908 roku."
+  },
+  {
+    "id": "sport_h013",
+    "question": "W jakiej konkurencji Anita Włodarczyk zdobywała olimpijskie złoto?",
+    "answers": [
+      "W rzucie oszczepem",
+      "W rzucie dyskiem",
+      "W rzucie młotem",
+      "W pchnięciu kulą"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Włodarczyk wielokrotnie biła rekord świata w rzucie młotem."
+  },
+  {
+    "id": "sport_h014",
+    "question": "W jakiej konkurencji Władysław Kozakiewicz wygrał igrzyska w Moskwie w 1980 roku, pokazując słynny gest?",
+    "answers": [
+      "W trójskoku",
+      "W skoku w dal",
+      "W skoku wzwyż",
+      "W skoku o tyczce"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Gest Kozakiewicza” był odpowiedzią na gwizdy moskiewskiej publiczności."
+  },
+  {
+    "id": "sport_h015",
+    "question": "Ilu zawodników jednej drużyny gra jednocześnie na parkiecie w koszykówce?",
+    "answers": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Każda drużyna koszykarska ma na boisku pięciu graczy."
+  },
+  {
+    "id": "sport_h016",
+    "question": "Jak nazywa się w tenisie stan gema przy wyniku 40:40?",
+    "answers": [
+      "Przewaga",
+      "Tie-break",
+      "Równowaga",
+      "Break point"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Po równowadze trzeba wygrać dwie piłki z rzędu, by zdobyć gema."
+  },
+  {
+    "id": "sport_h017",
+    "question": "Które miasto jako pierwsze zorganizowało letnie igrzyska po raz trzeci, w 2012 roku?",
+    "answers": [
+      "Paryż",
+      "Londyn",
+      "Ateny",
+      "Los Angeles"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Londyn gościł igrzyska w latach 1908, 1948 i 2012."
+  },
+  {
+    "id": "sport_h018",
+    "question": "Ile medali olimpijskich zdobył w karierze Adam Małysz?",
+    "answers": [
+      "5",
+      "3",
+      "2",
+      "4"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Małysz zdobył srebro i brąz w 2002 roku oraz dwa srebra w 2010 roku."
+  },
+  {
+    "id": "sport_h019",
+    "question": "W którym mieście Justyna Kowalczyk zdobyła swoje pierwsze olimpijskie złoto, w 2010 roku?",
+    "answers": [
+      "W Salt Lake City",
+      "W Soczi",
+      "W Turynie",
+      "W Vancouver"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kowalczyk wygrała bieg na 30 km stylem klasycznym."
+  },
+  {
+    "id": "sport_h020",
+    "question": "Z jaką kontuzją Justyna Kowalczyk wygrała bieg na 10 km w Soczi w 2014 roku?",
+    "answers": [
+      "Ze złamaną kością stopy",
+      "Z zerwanym więzadłem w kolanie",
+      "Z naderwanym mięśniem uda",
+      "Ze złamanym nadgarstkiem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mimo złamania kości śródstopia Kowalczyk zdobyła złoto."
+  },
+  {
+    "id": "sport_h021",
+    "question": "Ile razy Iga Świątek wygrała Roland Garros w latach 2020–2024?",
+    "answers": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Świątek triumfowała w Paryżu w 2020, 2022, 2023 i 2024 roku."
+  },
+  {
+    "id": "sport_h022",
+    "question": "Jakim wynikiem Iga Świątek wygrała finał Wimbledonu w 2025 roku?",
+    "answers": [
+      "7:5, 6:4",
+      "6:0, 6:0",
+      "6:4, 6:3",
+      "6:1, 6:2"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Świątek nie oddała Amandzie Anisimovej ani jednego gema."
+  },
+  {
+    "id": "sport_h023",
+    "question": "Jaki medal zdobyła Iga Świątek w singlu na igrzyskach w Paryżu w 2024 roku?",
+    "answers": [
+      "Nie zdobyła medalu",
+      "Brązowy",
+      "Złoty",
+      "Srebrny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Był to pierwszy olimpijski medal dla Polski w tenisie."
+  },
+  {
+    "id": "sport_h024",
+    "question": "Z kim Agnieszka Radwańska przegrała finał Wimbledonu w 2012 roku?",
+    "answers": [
+      "Z Petrą Kvitovą",
+      "Z Marią Szarapową",
+      "Z Sereną Williams",
+      "Z Wiktorią Azarenką"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Radwańska jako pierwsza Polka w erze open zagrała w finale Wielkiego Szlema."
+  },
+  {
+    "id": "sport_h025",
+    "question": "W którym kraju polscy siatkarze zdobyli mistrzostwo świata w 2014 roku?",
+    "answers": [
+      "W Japonii",
+      "W Brazylii",
+      "We Włoszech",
+      "W Polsce"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Polacy wygrali turniej przed własną publicznością, pokonując w finale Brazylię."
+  },
+  {
+    "id": "sport_h026",
+    "question": "Jaki medal zdobyli polscy siatkarze na igrzyskach w Paryżu w 2024 roku?",
+    "answers": [
+      "Nie zdobyli medalu",
+      "Brązowy",
+      "Złoty",
+      "Srebrny"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W finale Polacy przegrali z Francją 0:3."
+  },
+  {
+    "id": "sport_h027",
+    "question": "W którym mieście w 2018 roku Kamil Stoch obronił tytuł mistrza olimpijskiego na dużej skoczni?",
+    "answers": [
+      "W Pjongczangu",
+      "W Soczi",
+      "W Lillehammer",
+      "W Pekinie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stoch wygrał konkurs na dużej skoczni w Soczi i cztery lata później w Pjongczangu."
+  },
+  {
+    "id": "sport_h028",
+    "question": "Ile razy Adam Małysz zdobył Kryształową Kulę za zwycięstwo w Pucharze Świata?",
+    "answers": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Małysz wygrywał klasyfikację generalną w 2001, 2002, 2003 i 2007 roku."
+  },
+  {
+    "id": "sport_h029",
+    "question": "Który Polak w sezonie 2017/18 wygrał wszystkie cztery konkursy Turnieju Czterech Skoczni?",
+    "answers": [
+      "Dawid Kubacki",
+      "Kamil Stoch",
+      "Piotr Żyła",
+      "Adam Małysz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Stoch jako drugi skoczek w historii wygrał wszystkie cztery konkursy turnieju."
+  },
+  {
+    "id": "sport_h030",
+    "question": "Z kim Muhammad Ali stoczył walkę „Rumble in the Jungle” w 1974 roku?",
+    "answers": [
+      "Z George’em Foremanem",
+      "Z Joe Frazierem",
+      "Z Sonnym Listonem",
+      "Z Larrym Holmesem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ali znokautował Foremana w ósmej rundzie w Kinszasie."
+  },
+  {
+    "id": "sport_h031",
+    "question": "Ile trwa jedna tercja w meczu hokeja na lodzie?",
+    "answers": [
+      "20 minut",
+      "30 minut",
+      "25 minut",
+      "15 minut"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mecz hokejowy składa się z trzech 20-minutowych tercji."
+  },
+  {
+    "id": "sport_h032",
+    "question": "Które państwo zbojkotowało igrzyska olimpijskie w Moskwie w 1980 roku?",
+    "answers": [
+      "Wielka Brytania",
+      "Włochy",
+      "Francja",
+      "USA"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bojkot był protestem przeciw sowieckiej inwazji na Afganistan."
+  },
+  {
+    "id": "sport_h033",
+    "question": "Na jakim dystansie Robert Korzeniowski zdobył złoto olimpijskie w Atlancie w 1996 roku?",
+    "answers": [
+      "35 km",
+      "20 km",
+      "10 km",
+      "50 km"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Było to pierwsze z czterech olimpijskich złot Korzeniowskiego."
+  },
+  {
+    "id": "sport_h034",
+    "question": "Na jakim dystansie Irena Szewińska wygrała igrzyska w Montrealu w 1976 roku, bijąc rekord świata?",
+    "answers": [
+      "400 m",
+      "100 m",
+      "200 m",
+      "800 m"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Szewińska uzyskała w finale czas 49,29 s."
+  },
+  {
+    "id": "sport_h035",
+    "question": "Jaki prestiżowy turniej Agnieszka Radwańska wygrała w 2015 roku w Singapurze?",
+    "answers": [
+      "WTA Finals",
+      "Puchar Hopmana",
+      "US Open",
+      "Australian Open"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Radwańska wygrała kończący sezon turniej najlepszych tenisistek świata."
+  },
+  {
+    "id": "sport_h036",
+    "question": "Który trener poprowadził polskich siatkarzy do złota olimpijskiego w Montrealu w 1976 roku?",
+    "answers": [
+      "Nikola Grbić",
+      "Hubert Wagner",
+      "Andrea Anastasi",
+      "Vital Heynen"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Drużyna Wagnera pokonała w finale ZSRR 3:2."
+  },
+  {
+    "id": "sport_h037",
+    "question": "Który polski bokser zdobył olimpijskie złoto w 1964 i 1968 roku?",
+    "answers": [
+      "Zbigniew Pietrzykowski",
+      "Dariusz Michalczewski",
+      "Jerzy Kulej",
+      "Andrzej Gołota"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Kulej wygrywał w Tokio i w Meksyku w wadze lekkopółśredniej."
+  },
+  {
+    "id": "sport_h038",
+    "question": "Który polski kulomiot zdobył złoto olimpijskie w Pekinie w 2008 roku?",
+    "answers": [
+      "Piotr Małachowski",
+      "Tomasz Majewski",
+      "Paweł Fajdek",
+      "Konrad Bukowiecki"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Majewski obronił tytuł cztery lata później w Londynie."
+  },
+  {
+    "id": "sport_h039",
+    "question": "Kto zdobył dla Polski pierwsze złoto zimowych igrzysk, w skokach w Sapporo w 1972 roku?",
+    "answers": [
+      "Piotr Fijas",
+      "Wojciech Fortuna",
+      "Adam Małysz",
+      "Stanisław Marusarz"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Fortuna wygrał konkurs na dużej skoczni, wyprzedzając rywali o 0,1 pkt."
+  },
+  {
+    "id": "sport_h040",
+    "question": "Jakie wymiary ma boisko do siatkówki halowej?",
+    "answers": [
+      "20 × 10 m",
+      "24 × 12 m",
+      "18 × 9 m",
+      "16 × 8 m"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Siatka dzieli boisko na dwa kwadraty 9 × 9 m."
+  }
+]
