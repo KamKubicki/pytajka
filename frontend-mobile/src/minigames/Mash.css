@@ -1,0 +1,158 @@
+.mg-mash {
+  position: fixed;
+  inset: 0;
+  z-index: 9000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(12px, 3vh, 22px);
+  padding: calc(16px + env(safe-area-inset-top, 0px)) 16px
+    calc(16px + env(safe-area-inset-bottom, 0px));
+  overflow: hidden;
+  background: radial-gradient(circle at 50% 45%, #3a1460 0%, #0a1030 60%, #050818 100%);
+  color: #f4f6ff;
+  font-family: var(--font-display, system-ui, sans-serif);
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+.mg-mash__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: clamp(20px, 6vw, 26px);
+  font-weight: 800;
+}
+
+.mg-mash__icon {
+  font-size: 1.3em;
+}
+
+.mg-mash__hint {
+  margin: 0;
+  color: var(--text-dim, #a9b1d6);
+  font-size: clamp(15px, 4.4vw, 18px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.mg-mash__stage {
+  position: relative;
+  width: min(78vw, 52vh, 320px);
+  aspect-ratio: 1;
+  flex-shrink: 0;
+}
+
+.mg-mash__ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  pointer-events: none;
+}
+
+.mg-mash__ring-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 6;
+}
+
+.mg-mash__ring-fg {
+  fill: none;
+  stroke: #ffc93c;
+  stroke-width: 6;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.12s ease-out;
+}
+
+.mg-mash__btn {
+  position: absolute;
+  inset: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border: none;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ff7a85 0%, #e63946 55%, #a3202b 100%);
+  color: #fff;
+  font-family: inherit;
+  box-shadow: 0 10px 0 #7a1720, 0 18px 40px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  touch-action: none;
+  -webkit-touch-callout: none;
+}
+
+/* Dwie identyczne animacje na zmianę – każde kliknięcie restartuje "podskok". */
+.mg-mash__btn.is-bump-a {
+  animation: mg-mash-bump-a 0.14s ease-out;
+}
+
+.mg-mash__btn.is-bump-b {
+  animation: mg-mash-bump-b 0.14s ease-out;
+}
+
+.mg-mash__btn:active:not(:disabled) {
+  box-shadow: 0 4px 0 #7a1720, 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+.mg-mash__btn.is-done {
+  background: radial-gradient(circle at 35% 30%, #7cf0b6 0%, #2ec27e 55%, #1a7a4e 100%);
+  box-shadow: 0 10px 0 #135a3a, 0 18px 40px rgba(0, 0, 0, 0.5);
+  cursor: default;
+  animation: mg-mash-win 0.35s ease-out;
+}
+
+.mg-mash__count {
+  font-size: clamp(52px, 18vw, 84px);
+  font-weight: 900;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.35);
+}
+
+.mg-mash__sub {
+  font-size: clamp(14px, 4.5vw, 20px);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  opacity: 0.9;
+}
+
+.mg-mash__counter {
+  font-size: clamp(22px, 7vw, 30px);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes mg-mash-bump-a {
+  0% { transform: scale(0.88) translateY(4px); }
+  60% { transform: scale(1.04) translateY(-2px); }
+  100% { transform: scale(1) translateY(0); }
+}
+
+@keyframes mg-mash-bump-b {
+  0% { transform: scale(0.88) translateY(4px); }
+  60% { transform: scale(1.04) translateY(-2px); }
+  100% { transform: scale(1) translateY(0); }
+}
+
+@keyframes mg-mash-win {
+  0% { transform: scale(0.85); }
+  60% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mg-mash__btn.is-bump-a,
+  .mg-mash__btn.is-bump-b,
+  .mg-mash__btn.is-done {
+    animation: none;
+  }
+}
