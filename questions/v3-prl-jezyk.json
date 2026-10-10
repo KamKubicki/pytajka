@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "prl_g001",
+    "question": "W jakim sklepie w PRL można było kupić zachodnie towary za dolary lub bony?",
+    "answers": [
+      "Pewex",
+      "Społem",
+      "Cepelia",
+      "Sezam"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pewex był siecią sklepów dewizowych, w których płacono dolarami lub bonami PKO."
+  },
+  {
+    "id": "prl_g002",
+    "question": "Jak nazywało się uliczne urządzenie z PRL serwujące wodę sodową do wspólnej szklanki?",
+    "answers": [
+      "Syfon",
+      "Dystrybutor",
+      "Hydrant",
+      "Saturator"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Saturatory nalewały wodę gazowaną, często z sokiem, do szklanek płukanych na miejscu."
+  },
+  {
+    "id": "prl_g003",
+    "question": "Jak nazywał się wieczorny blok dobranocek dla dzieci w TVP?",
+    "answers": [
+      "Teleranek",
+      "Ciuchcia",
+      "Wieczorynka",
+      "Domowe Przedszkole"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wieczorynka to blok bajek nadawany wieczorem, przed snem."
+  },
+  {
+    "id": "prl_g004",
+    "question": "Który produkt jako pierwszy objęto w PRL systemem kartkowym w 1976 roku?",
+    "answers": [
+      "Mięso",
+      "Cukier",
+      "Benzyna",
+      "Masło"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kartki na cukier wprowadzono w 1976 r., a na mięso dopiero w 1981 r."
+  },
+  {
+    "id": "prl_g005",
+    "question": "W którym roku w Polsce zniesiono kartki na mięso?",
+    "answers": [
+      "1983",
+      "1989",
+      "1986",
+      "1991"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Reglamentację mięsa zakończono latem 1989 r., u schyłku PRL."
+  },
+  {
+    "id": "prl_g006",
+    "question": "Jak potocznie nazywano Fiata 126p?",
+    "answers": [
+      "Maluch",
+      "Garbus",
+      "Ogórek",
+      "Biedronka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Fiat 126p, produkowany w Polsce od 1973 r., to legendarny „maluch”."
+  },
+  {
+    "id": "prl_g007",
+    "question": "Jak nazywano autobus Jelcz z PRL o charakterystycznym, podłużnym kształcie?",
+    "answers": [
+      "Banan",
+      "Kartofel",
+      "Bakłażan",
+      "Ogórek"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jelcz 043, licencyjna wersja Škody, zyskał przydomek „ogórek”."
+  },
+  {
+    "id": "prl_g008",
+    "question": "Jaki słodki proszek w PRL rozpuszczano w wodzie albo jedzono prosto z torebki?",
+    "answers": [
+      "Kisiel",
+      "Budyń",
+      "Oranżada w proszku",
+      "Galaretka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Musująca oranżada w proszku była przysmakiem dzieci, często zlizywanym prosto z dłoni."
+  },
+  {
+    "id": "prl_g009",
+    "question": "Czym zajmował się państwowy Polmos?",
+    "answers": [
+      "Produkcją samochodów",
+      "Wydawaniem gazet",
+      "Produkcją wódek",
+      "Produkcją kosmetyków"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Polmos to Polski Monopol Spirytusowy – producent m.in. Wyborowej i Żubrówki."
+  },
+  {
+    "id": "prl_g010",
+    "question": "Która guma do żucia miała w opakowaniu komiks z kaczorem Disneya?",
+    "answers": [
+      "Turbo",
+      "Donald",
+      "Bazooka",
+      "Hubba Bubba"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Historyjki z Kaczorem Donaldem z gum Donald zbierały całe podwórka."
+  },
+  {
+    "id": "prl_g011",
+    "question": "Co przedstawiały kolekcjonerskie obrazki z gumy Turbo?",
+    "answers": [
+      "Samochody",
+      "Piłkarzy",
+      "Dinozaury",
+      "Samoloty"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gumy Turbo zawierały obrazki aut, którymi grano i wymieniano się na przerwach."
+  },
+  {
+    "id": "prl_g012",
+    "question": "W którym roku nadawanie rozpoczął Polsat?",
+    "answers": [
+      "1989",
+      "1995",
+      "1997",
+      "1992"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Polsat wystartował 5 grudnia 1992 r. jako pierwsza ogólnopolska prywatna stacja."
+  },
+  {
+    "id": "prl_g013",
+    "question": "W którym roku wystartowała telewizja TVN?",
+    "answers": [
+      "1992",
+      "1994",
+      "2000",
+      "1997"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "TVN rozpoczął nadawanie 3 października 1997 r."
+  },
+  {
+    "id": "prl_g014",
+    "question": "Ile starych złotych odpowiadało 1 nowemu złotemu po denominacji w 1995 roku?",
+    "answers": [
+      "100",
+      "1 000",
+      "10 000",
+      "100 000"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Denominacja z 1995 r. skreśliła cztery zera z cen."
+  },
+  {
+    "id": "prl_g015",
+    "question": "W którym mieście otwarto pierwszą restaurację McDonald's w Polsce w 1992 roku?",
+    "answers": [
+      "Kraków",
+      "Warszawa",
+      "Gdańsk",
+      "Poznań"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pierwszy polski McDonald's ruszył w czerwcu 1992 r. przy ul. Marszałkowskiej w Warszawie."
+  },
+  {
+    "id": "prl_g016",
+    "question": "Który magazyn młodzieżowy z lat 90. słynął z plakatów gwiazd do powieszenia nad łóżkiem?",
+    "answers": [
+      "Bravo",
+      "Przekrój",
+      "Świerszczyk",
+      "Wprost"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Plakaty z „Bravo” zdobiły ściany pokoi nastolatków w całej Polsce."
+  },
+  {
+    "id": "prl_g017",
+    "question": "Jak nazywało się japońskie wirtualne zwierzątko w jajku, hit lat 90.?",
+    "answers": [
+      "Tamagotchi",
+      "Furby",
+      "Pokémon",
+      "Digimon"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tamagotchi trzeba było karmić i sprzątać po nim, bo inaczej „umierało”."
+  },
+  {
+    "id": "prl_g018",
+    "question": "Jak potocznie nazywano przenośną konsolkę „Brick Game” z lat 90.?",
+    "answers": [
+      "Pegaz",
+      "Gameboy",
+      "Nintendo",
+      "Tetris"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Od najpopularniejszej gry całą konsolkę nazywano po prostu „tetrisem”."
+  },
+  {
+    "id": "prl_g019",
+    "question": "Jaki format kaset wideo królował w polskich wypożyczalniach lat 90.?",
+    "answers": [
+      "Betamax",
+      "MiniDisc",
+      "VHS",
+      "Video 2000"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wypożyczalnie kaset VHS były w latach 90. niemal na każdym osiedlu."
+  },
+  {
+    "id": "prl_g020",
+    "question": "Co oznaczał w PRL skrót PGR?",
+    "answers": [
+      "Polska Grupa Rolnicza",
+      "Państwowe Gospodarstwo Rolne",
+      "Powszechny Gminny Rejestr",
+      "Państwowa Gwardia Robotnicza"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "PGR-y były państwowymi gospodarstwami rolnymi, zlikwidowanymi na początku lat 90."
+  },
+  {
+    "id": "prl_g021",
+    "question": "W którym roku obradował Okrągły Stół?",
+    "answers": [
+      "1980",
+      "1989",
+      "1981",
+      "1990"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Obrady Okrągłego Stołu trwały od lutego do kwietnia 1989 r."
+  },
+  {
+    "id": "prl_g022",
+    "question": "Którego dnia 1989 roku odbyły się częściowo wolne wybory do Sejmu?",
+    "answers": [
+      "4 czerwca",
+      "3 maja",
+      "31 sierpnia",
+      "11 listopada"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wybory 4 czerwca 1989 r. zakończyły się wielkim sukcesem Solidarności."
+  },
+  {
+    "id": "prl_g023",
+    "question": "Co oznaczał skrót WSK na popularnych motocyklach z PRL?",
+    "answers": [
+      "Warszawska Spółdzielnia Komunikacyjna",
+      "Wielkopolskie Sklepy Konsumenckie",
+      "Wojskowa Służba Kolejowa",
+      "Wytwórnia Sprzętu Komunikacyjnego"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Motocykle WSK produkowała Wytwórnia Sprzętu Komunikacyjnego w Świdniku."
+  },
+  {
+    "id": "prl_g024",
+    "question": "Który serial Stanisława Barei opowiada o mieszkańcach nowego bloku na Ursynowie?",
+    "answers": [
+      "Zmiennicy",
+      "Dom",
+      "Alternatywy 4",
+      "Czterdziestolatek"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W „Alternatywach 4” rządzi dozorca Stanisław Anioł."
+  },
+  {
+    "id": "prl_g025",
+    "question": "Kim byli bohaterowie serialu „Zmiennicy” Stanisława Barei?",
+    "answers": [
+      "Kelnerami",
+      "Milicjantami",
+      "Taksówkarzami",
+      "Listonoszami"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Zmiennicy” to perypetie warszawskich taksówkarzy dzielących jedną taksówkę."
+  },
+  {
+    "id": "prl_g026",
+    "question": "Jak nazywał się tytułowy bohater serialu „Czterdziestolatek”?",
+    "answers": [
+      "Stanisław Anioł",
+      "Stefan Karwowski",
+      "Ryszard Ochódzki",
+      "Kazimierz Pawlak"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Inżynier Stefan Karwowski, grany przez Andrzeja Kopiczyńskiego, to tytułowy „czterdziestolatek”."
+  },
+  {
+    "id": "prl_g027",
+    "question": "Jak nazywał się prezes klubu „Tęcza” w filmie „Miś” Barei?",
+    "answers": [
+      "Ryszard Ochódzki",
+      "Stefan Karwowski",
+      "Stanisław Anioł",
+      "Jan Kos"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Prezesa Ochódzkiego zagrał Stanisław Tym, współautor scenariusza."
+  },
+  {
+    "id": "prl_g028",
+    "question": "Z czym kojarzyła się w PRL marka Wars?",
+    "answers": [
+      "Z proszkiem do prania",
+      "Z papierosami",
+      "Z rowerami",
+      "Z wagonami restauracyjnymi"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wars obsługiwał wagony restauracyjne i sypialne w polskich pociągach."
+  },
+  {
+    "id": "prl_g029",
+    "question": "Który samochód FSO zaczęło produkować w 1978 roku?",
+    "answers": [
+      "Fiat 126p",
+      "Trabant",
+      "Wartburg",
+      "Polonez"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Polonez zjechał z taśmy na Żeraniu w 1978 r. i był produkowany do 2002 r."
+  },
+  {
+    "id": "prl_g030",
+    "question": "Jak nazywały się tanie jadłodajnie z PRL serwujące pierogi i naleśniki?",
+    "answers": [
+      "Gospody",
+      "Kawiarnie",
+      "Bary mleczne",
+      "Pijalnie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Bary mleczne z dotowanymi cenami przetrwały w wielu miastach do dziś."
+  },
+  {
+    "id": "prl_g031",
+    "question": "Jak nazywano w PRL osobę, która za opłatą stała w kolejce za kogoś?",
+    "answers": [
+      "Kolejarz",
+      "Stacz kolejkowy",
+      "Bileter",
+      "Dozorca"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Stacz kolejkowy to zajęcie zrodzone z niedoborów w sklepach."
+  },
+  {
+    "id": "prl_g032",
+    "question": "Jak mieli na imię dwaj bracia z kultowej dobranocki studia z Bielska-Białej?",
+    "answers": [
+      "Bolek i Lolek",
+      "Jacek i Placek",
+      "Tytus i Romek",
+      "Flip i Flap"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Bolek i Lolek” powstał w Studiu Filmów Rysunkowych w Bielsku-Białej."
+  },
+  {
+    "id": "prl_g033",
+    "question": "Który miś z dobranocki miał jedno oklapnięte ucho?",
+    "answers": [
+      "Miś Uszatek",
+      "Miś Colargol",
+      "Kubuś Puchatek",
+      "Miś Paddington"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Miś Uszatek, bohater dobranocki Se-ma-fora, rozpoznawalny jest po klapniętym uchu."
+  },
+  {
+    "id": "prl_g034",
+    "question": "Który zespół disco polo śpiewał przebój „Jesteś szalona”?",
+    "answers": [
+      "Akcent",
+      "Bayer Full",
+      "Top One",
+      "Boys"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Jesteś szalona” to największy hit zespołu Boys Marcina Millera."
+  },
+  {
+    "id": "prl_g035",
+    "question": "W którym teleturnieju Polsatu za bramką mógł czekać Zonk?",
+    "answers": [
+      "Koło Fortuny",
+      "Familiada",
+      "Idź na całość",
+      "Va banque"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W „Idź na całość” Zygmunta Chajzera Zonk oznaczał nietrafioną nagrodę."
+  },
+  {
+    "id": "prl_g036",
+    "question": "Kto prowadził teleturniej „Familiada” od jego startu w 1994 roku?",
+    "answers": [
+      "Zygmunt Chajzer",
+      "Karol Strasburger",
+      "Tadeusz Sznuk",
+      "Krzysztof Ibisz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Karol Strasburger prowadził „Familiadę” od pierwszego odcinka."
+  },
+  {
+    "id": "prl_g037",
+    "question": "Jak nazywa się telenowela TVP o rodzinie Lubiczów, emitowana od 1997 roku?",
+    "answers": [
+      "Złotopolscy",
+      "Klan",
+      "M jak miłość",
+      "Na dobre i na złe"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Klan” był pierwszą polską telenowelą codzienną."
+  },
+  {
+    "id": "prl_g038",
+    "question": "W którym mieście powstało w 1990 roku radio RMF FM?",
+    "answers": [
+      "W Krakowie",
+      "W Warszawie",
+      "W Poznaniu",
+      "W Gdańsku"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "RMF FM zaczęło nadawać w styczniu 1990 r. z Krakowa jako jedno z pierwszych prywatnych radiów."
+  },
+  {
+    "id": "prl_g039",
+    "question": "W którym roku odbył się pierwszy Finał WOŚP?",
+    "answers": [
+      "1989",
+      "1991",
+      "1996",
+      "1993"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pierwszy Finał Wielkiej Orkiestry Świątecznej Pomocy odbył się w styczniu 1993 r."
+  },
+  {
+    "id": "prl_g040",
+    "question": "W którym kraju produkowano Trabanta?",
+    "answers": [
+      "Czechosłowacja",
+      "ZSRR",
+      "NRD",
+      "Węgry"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Trabant powstawał w zakładach w Zwickau w Niemczech Wschodnich."
+  },
+  {
+    "id": "prl_g041",
+    "question": "Pod jaką nazwą działały w PRL zakłady E. Wedel?",
+    "answers": [
+      "1 Maja",
+      "Wawel",
+      "22 Lipca",
+      "Goplana"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Po upaństwowieniu Wedel nosił nazwę Zakłady Przemysłu Cukierniczego im. 22 Lipca."
+  },
+  {
+    "id": "prl_g042",
+    "question": "Skąd pochodziły telewizory Rubin, popularne w PRL?",
+    "answers": [
+      "Z NRD",
+      "Z ZSRR",
+      "Z Japonii",
+      "Z Czechosłowacji"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Rubin to radziecka marka telewizorów, także kolorowych."
+  },
+  {
+    "id": "prl_g043",
+    "question": "Z którego filmu pochodzi tekst „Bo to zła kobieta była”?",
+    "answers": [
+      "Psy",
+      "Kiler",
+      "Sara",
+      "Chłopaki nie płaczą"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Te słowa padają w „Psach” Władysława Pasikowskiego z 1992 r."
+  },
+  {
+    "id": "prl_g044",
+    "question": "Co trzeba było zdobyć w PRL, by kupić nowy samochód bez wieloletniego czekania?",
+    "answers": [
+      "Bon",
+      "Kartkę",
+      "Asygnatę",
+      "Talon"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Talon na samochód był przydziałem uprawniającym do szybszego zakupu auta."
+  },
+  {
+    "id": "prl_g045",
+    "question": "Jak nazywał się główny wieczorny program informacyjny TVP w PRL?",
+    "answers": [
+      "Wiadomości",
+      "Fakty",
+      "Wydarzenia",
+      "Dziennik Telewizyjny"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Dziennik Telewizyjny” zastąpiono w 1989 r. „Wiadomościami”."
+  },
+  {
+    "id": "prl_g046",
+    "question": "Jak dawniej nazywała się gra liczbowa Lotto?",
+    "answers": [
+      "Wielki Los",
+      "Totek",
+      "Duży Lotek",
+      "Szczęśliwa Szóstka"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Duży Lotek zmienił nazwę na Lotto na początku XXI wieku."
+  },
+  {
+    "id": "prl_g047",
+    "question": "Jak nazywał się program Polsatu z lat 90. z teledyskami disco polo?",
+    "answers": [
+      "Teleexpress",
+      "Disco Relax",
+      "Rower Błażeja",
+      "Lista Przebojów Trójki"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Disco Relax” był główną telewizyjną sceną disco polo."
+  },
+  {
+    "id": "prl_g048",
+    "question": "Która gazeta ukazała się w maju 1989 roku z hasłem „Nie ma wolności bez Solidarności”?",
+    "answers": [
+      "Gazeta Wyborcza",
+      "Rzeczpospolita",
+      "Super Express",
+      "Fakt"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Gazeta Wyborcza” powstała jako dziennik komitetu wyborczego Solidarności."
+  },
+  {
+    "id": "prl_g049",
+    "question": "Jaki wyścig kolarski dzieci odtwarzały w PRL, grając w kapsle?",
+    "answers": [
+      "Wyścig Pokoju",
+      "Tour de France",
+      "Tour de Pologne",
+      "Giro d'Italia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kapsle z naklejonymi nazwiskami kolarzy pstrykano po trasach rysowanych kredą."
+  },
+  {
+    "id": "prl_g050",
+    "question": "Kto przez lata prowadził Listę Przebojów Programu Trzeciego?",
+    "answers": [
+      "Piotr Kaczkowski",
+      "Kuba Wojewódzki",
+      "Tomasz Lis",
+      "Marek Niedźwiecki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Marek Niedźwiecki prowadził „Listę Przebojów Trójki” od jej startu w 1982 r."
+  },
+  {
+    "id": "lang_g001",
+    "question": "Dokończ przysłowie: „Gdzie kucharek sześć…”",
+    "answers": [
+      "tam nie ma co jeść",
+      "tam zupa przesolona",
+      "tam garnki puste",
+      "tam obiad zimny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Przysłowie mówi, że gdy zbyt wielu się wtrąca, nic nie wychodzi."
+  },
+  {
+    "id": "lang_g002",
+    "question": "Dokończ przysłowie: „Kto pod kim dołki kopie…”",
+    "answers": [
+      "ten się zmęczy",
+      "ten ma łopatę",
+      "ten nie śpi",
+      "ten sam w nie wpada"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kto szykuje pułapkę na innych, sam w nią wpada."
+  },
+  {
+    "id": "lang_g003",
+    "question": "Dokończ przysłowie: „Nie chwal dnia…”",
+    "answers": [
+      "przed wschodem słońca",
+      "przed obiadem",
+      "przed zachodem słońca",
+      "przed niedzielą"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nie ciesz się zawczasu, bo wszystko może się jeszcze zmienić."
+  },
+  {
+    "id": "lang_g004",
+    "question": "Dokończ przysłowie: „Darowanemu koniowi…”",
+    "answers": [
+      "nie patrzy się w kopyta",
+      "nie zagląda się w zęby",
+      "nie czesze się grzywy",
+      "nie zagląda się w oczy"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Prezentów się nie krytykuje."
+  },
+  {
+    "id": "lang_g005",
+    "question": "Dokończ przysłowie: „Co się odwlecze…”",
+    "answers": [
+      "to przepadnie",
+      "to nie uciecze",
+      "to się przyda",
+      "to wróci"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sprawa odłożona w czasie i tak w końcu nastąpi."
+  },
+  {
+    "id": "lang_g006",
+    "question": "Dokończ przysłowie: „Lepszy wróbel w garści…”",
+    "answers": [
+      "niż gołąb na dachu",
+      "niż orzeł na niebie",
+      "niż sroka na płocie",
+      "niż kanarek w klatce"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lepiej mieć coś pewnego, choć skromnego, niż gonić za niepewnym."
+  },
+  {
+    "id": "lang_g007",
+    "question": "Dokończ powiedzenie: „Wyszło szydło…”",
+    "answers": [
+      "z buta",
+      "z kieszeni",
+      "z szafy",
+      "z worka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Oznacza, że ukrywana prawda wyszła na jaw."
+  },
+  {
+    "id": "lang_g008",
+    "question": "Dokończ przysłowie: „Nosił wilk razy kilka…”",
+    "answers": [
+      "złapał go myśliwy",
+      "aż spotkał pasterza",
+      "ponieśli i wilka",
+      "aż przyszedł lis"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kto długo bezkarnie postępuje źle, w końcu poniesie karę."
+  },
+  {
+    "id": "lang_g009",
+    "question": "Dokończ przysłowie: „Na pochyłe drzewo…”",
+    "answers": [
+      "i koty wchodzą",
+      "i ptaki siadają",
+      "i kozy skaczą",
+      "i dzieci się wspinają"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Słabszego każdy próbuje wykorzystać."
+  },
+  {
+    "id": "lang_g010",
+    "question": "Co znaczy „mieć muchy w nosie”?",
+    "answers": [
+      "Być przeziębionym",
+      "Być obrażonym",
+      "Kłamać",
+      "Być głodnym"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kto ma muchy w nosie, jest nadąsany i w złym humorze."
+  },
+  {
+    "id": "lang_g011",
+    "question": "Co znaczy „owijać w bawełnę”?",
+    "answers": [
+      "Mówić nie wprost",
+      "Pakować prezenty",
+      "Kłamać w żywe oczy",
+      "Mówić bardzo szybko"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Owija w bawełnę ten, kto krąży wokół tematu, zamiast mówić wprost."
+  },
+  {
+    "id": "lang_g012",
+    "question": "Co znaczy „wpuścić kogoś w maliny”?",
+    "answers": [
+      "Poczęstować kogoś",
+      "Zaprosić na wieś",
+      "Pomóc w pracy",
+      "Oszukać kogoś"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wpuścić w maliny to wyprowadzić kogoś w pole, wprowadzić w błąd."
+  },
+  {
+    "id": "lang_g013",
+    "question": "Co znaczy „obiecywać gruszki na wierzbie”?",
+    "answers": [
+      "Obiecywać prezenty",
+      "Obiecywać rychły powrót",
+      "Obiecywać pomoc w ogrodzie",
+      "Obiecywać rzeczy nierealne"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Na wierzbie gruszki nie rosną, więc takie obietnice są bez pokrycia."
+  },
+  {
+    "id": "lang_g014",
+    "question": "Co znaczy „trafiła kosa na kamień”?",
+    "answers": [
+      "Zepsuło się narzędzie",
+      "Nadeszła susza",
+      "Trafił swój na swego",
+      "Ktoś miał szczęście"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mówimy tak, gdy ktoś spotkał równie upartego lub silnego przeciwnika."
+  },
+  {
+    "id": "lang_g015",
+    "question": "Co znaczy „ni z gruszki, ni z pietruszki”?",
+    "answers": [
+      "Bardzo smacznie",
+      "Nagle, bez powodu",
+      "Po wiejsku",
+      "Bez przypraw"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zwrot opisuje coś, co dzieje się niespodziewanie i bez związku z sytuacją."
+  },
+  {
+    "id": "lang_g016",
+    "question": "Co znaczy „wylać dziecko z kąpielą”?",
+    "answers": [
+      "Odrzucić ze złym także to, co dobre",
+      "Zaniedbać obowiązki domowe",
+      "Przesadzić z porządkami",
+      "Zrobić coś w pośpiechu"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pozbywając się wad, przez nadgorliwość niszczymy też zalety."
+  },
+  {
+    "id": "lang_g017",
+    "question": "Co oznacza „syzyfowa praca”?",
+    "answers": [
+      "Daremny, bezowocny trud",
+      "Praca bardzo dobrze płatna",
+      "Praca w nocy",
+      "Praca zespołowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mityczny Syzyf bez końca wtaczał na górę głaz, który wciąż spadał."
+  },
+  {
+    "id": "lang_g018",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "żułw",
+      "rzółw",
+      "żółf",
+      "żółw"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Piszemy „żółw” – przez „ż” i „ó”."
+  },
+  {
+    "id": "lang_g019",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "hrząszcz",
+      "chżąszcz",
+      "chrząszcz",
+      "chrzonszcz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Poprawnie: „chrząszcz” – przez „ch”, „rz” i „ą”."
+  },
+  {
+    "id": "lang_g020",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "grzegżółka",
+      "gżegżółka",
+      "gżegrzółka",
+      "grzegrzółka"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Gżegżółka” to ludowa nazwa kukułki, pisana dwukrotnie przez „ż”."
+  },
+  {
+    "id": "lang_g021",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "żeżucha",
+      "rzeżucha",
+      "rzerzucha",
+      "żerzucha"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Piszemy „rzeżucha” – najpierw „rz”, potem „ż”."
+  },
+  {
+    "id": "lang_g022",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "chochla",
+      "hochla",
+      "chohla",
+      "hohla"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Chochla”, czyli duża łyżka do zupy, ma dwa razy „ch”."
+  },
+  {
+    "id": "lang_g023",
+    "question": "Która pisownia jest poprawna?",
+    "answers": [
+      "wogóle",
+      "w ogule",
+      "wogule",
+      "w ogóle"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„W ogóle” piszemy osobno i przez „ó”."
+  },
+  {
+    "id": "lang_g024",
+    "question": "Jak poprawnie powiedzieć?",
+    "answers": [
+      "półtora godziny",
+      "półtorej godzin",
+      "półtorej godziny",
+      "półtora godzin"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Z rzeczownikami rodzaju żeńskiego używamy formy „półtorej”."
+  },
+  {
+    "id": "lang_g025",
+    "question": "Która forma jest poprawna?",
+    "answers": [
+      "wziąść",
+      "wziońć",
+      "wziąć",
+      "wząść"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Poprawna forma bezokolicznika to „wziąć”."
+  },
+  {
+    "id": "lang_g026",
+    "question": "Która forma jest poprawna?",
+    "answers": [
+      "poszłem",
+      "poszedłem",
+      "poszedem",
+      "poszełem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Poszłem” to częsty błąd – poprawnie „poszedłem”."
+  },
+  {
+    "id": "lang_g027",
+    "question": "Które zdanie jest poprawne w języku starannym?",
+    "answers": [
+      "Czytam tę książkę",
+      "Czytam tą książkę",
+      "Czytam te książkę",
+      "Czytam tej książkę"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W bierniku rodzaju żeńskiego poprawna forma to „tę”."
+  },
+  {
+    "id": "lang_g028",
+    "question": "Co oznacza słowo „bynajmniej”?",
+    "answers": [
+      "Przynajmniej",
+      "Na pewno",
+      "Zwłaszcza",
+      "Wcale nie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Bynajmniej” to wzmocnione przeczenie, a nie synonim „przynajmniej”."
+  },
+  {
+    "id": "lang_g029",
+    "question": "Co oznacza słowo „mitręga”?",
+    "answers": [
+      "Gatunek ryby",
+      "Kłótnia sąsiedzka",
+      "Stary wóz",
+      "Strata czasu"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Mitręga to zajęcie żmudne i zabierające dużo czasu."
+  },
+  {
+    "id": "lang_g030",
+    "question": "Kim jest „safanduła”?",
+    "answers": [
+      "Plotkarzem",
+      "Skąpcem",
+      "Niezdarą i ślamazarą",
+      "Pijakiem"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Safanduła to człowiek powolny, niezaradny i bez energii."
+  },
+  {
+    "id": "lang_g031",
+    "question": "Czym był „sztambuch”?",
+    "answers": [
+      "Kufrem podróżnym",
+      "Pamiętnikiem z wpisami",
+      "Kalendarzem ściennym",
+      "Rodzajem piwa"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Sztambuch to album, do którego przyjaciele wpisywali wierszyki i życzenia."
+  },
+  {
+    "id": "lang_g032",
+    "question": "Co oznacza słowo „ambaras”?",
+    "answers": [
+      "Kłopot",
+      "Balkon",
+      "Przyjęcie",
+      "Wino"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ambaras to kłopot lub kłopotliwa sytuacja."
+  },
+  {
+    "id": "lang_g033",
+    "question": "Co oznacza słowo „frasunek”?",
+    "answers": [
+      "Zmartwienie",
+      "Fartuch",
+      "Frak",
+      "Przekąska"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Frasunek to smutek, zmartwienie – stąd „frasobliwy”."
+  },
+  {
+    "id": "lang_g034",
+    "question": "Jak w Wielkopolsce potocznie nazywa się ziemniaki?",
+    "answers": [
+      "Grule",
+      "Rzepy",
+      "Bulwy",
+      "Pyry"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Poznańskie „pyry” to ziemniaki, a „pyry z gzikiem” – danie regionalne."
+  },
+  {
+    "id": "lang_g035",
+    "question": "Czym jest poznańska „szneka z glancem”?",
+    "answers": [
+      "Kiełbasą z musztardą",
+      "Tramwajem",
+      "Drożdżówką z lukrem",
+      "Piwem z sokiem"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Szneka to drożdżówka, a glanc to lukier."
+  },
+  {
+    "id": "lang_g036",
+    "question": "Co ma na myśli krakowianin, mówiąc „wychodzę na pole”?",
+    "answers": [
+      "Idę pracować na roli",
+      "Wychodzę na zewnątrz",
+      "Idę na boisko",
+      "Idę na łąkę"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W Krakowie i Małopolsce „na polu” znaczy po prostu „na dworze”."
+  },
+  {
+    "id": "lang_g037",
+    "question": "Co oznacza śląskie słowo „szolka”?",
+    "answers": [
+      "Szalik",
+      "Filiżanka",
+      "Szuflada",
+      "Szkoła"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Po śląsku „szolka” to filiżanka, np. „szolka kawy”."
+  },
+  {
+    "id": "lang_g038",
+    "question": "Kim jest góralski „baca”?",
+    "answers": [
+      "Pasterzem owiec",
+      "Drwalem",
+      "Karczmarzem",
+      "Przewodnikiem"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Baca prowadzi wypas owiec i wyrabia oscypki."
+  },
+  {
+    "id": "lang_g039",
+    "question": "Co oznacza gwarowe słowo „ino”?",
+    "answers": [
+      "Jeszcze",
+      "Nigdy",
+      "Wczoraj",
+      "Tylko"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Ino” to gwarowy odpowiednik słowa „tylko”."
+  },
+  {
+    "id": "lang_g040",
+    "question": "Z jakiego języka pochodzi słowo „robot”?",
+    "answers": [
+      "Z rosyjskiego",
+      "Z niemieckiego",
+      "Z czeskiego",
+      "Z angielskiego"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Słowo spopularyzował Karel Čapek w sztuce „R.U.R.” – od czeskiego „robota”, czyli praca."
+  },
+  {
+    "id": "lang_g041",
+    "question": "Słowo „szlafrok” zapożyczyliśmy z języka…?",
+    "answers": [
+      "Z francuskiego",
+      "Z włoskiego",
+      "Z niemieckiego",
+      "Z angielskiego"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Niemieckie „Schlafrock” to dosłownie „surdut do spania”."
+  },
+  {
+    "id": "lang_g042",
+    "question": "Co oznacza dosłownie włoskie „pomo d'oro”, od którego pochodzi „pomidor”?",
+    "answers": [
+      "Czerwona kula",
+      "Złote jabłko",
+      "Rajski owoc",
+      "Słoneczny owoc"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Pomo d'oro” to po włosku „złote jabłko”."
+  },
+  {
+    "id": "lang_g043",
+    "question": "„Ratusz” to zapożyczenie z którego języka?",
+    "answers": [
+      "Z niemieckiego",
+      "Z łaciny",
+      "Z czeskiego",
+      "Z włoskiego"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Ratusz” pochodzi od niemieckiego „Rathaus”, czyli dom rady."
+  },
+  {
+    "id": "lang_g044",
+    "question": "Dokończ łamaniec: „W Szczebrzeszynie chrząszcz brzmi…”",
+    "answers": [
+      "w trawie",
+      "w jeżynie",
+      "w krzakach",
+      "w trzcinie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "To słynny początek wiersza „Chrząszcz” Jana Brzechwy."
+  },
+  {
+    "id": "lang_g045",
+    "question": "Dokończ łamaniec: „Stół z powyłamywanymi…”",
+    "answers": [
+      "szufladami",
+      "deskami",
+      "krzesłami",
+      "nogami"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Stół z powyłamywanymi nogami” to klasyczny test wymowy."
+  },
+  {
+    "id": "lang_g046",
+    "question": "Dokończ łamaniec: „Król Karol kupił królowej Karolinie korale koloru…”",
+    "answers": [
+      "czerwonego",
+      "karminowego",
+      "koralowego",
+      "kremowego"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Cały łamaniec opiera się na powtarzaniu głosek „k” i „r”."
+  },
+  {
+    "id": "lang_g047",
+    "question": "Czyje cytaty czyta tata w znanym łamańcu?",
+    "answers": [
+      "Cycerona",
+      "Tacyta",
+      "Seneki",
+      "Platona"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Łamaniec brzmi: „Czy tata czyta cytaty Tacyta?”."
+  },
+  {
+    "id": "lang_g048",
+    "question": "Ile liter liczy polski alfabet?",
+    "answers": [
+      "32",
+      "26",
+      "30",
+      "35"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Polski alfabet ma 32 litery – bez q, v i x."
+  },
+  {
+    "id": "lang_g049",
+    "question": "Kto napisał: „Polacy nie gęsi, iż swój język mają”?",
+    "answers": [
+      "Mikołaj Rej",
+      "Jan Kochanowski",
+      "Ignacy Krasicki",
+      "Jan Długosz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Rej, zwany ojcem literatury polskiej, pisał po polsku, a nie po łacinie."
+  },
+  {
+    "id": "lang_g050",
+    "question": "Z jakiego dokumentu pochodzi uznawane za pierwsze polskie zdanie „Daj, ać ja pobruszę, a ty poczywaj”?",
+    "answers": [
+      "Bogurodzica",
+      "Kazania świętokrzyskie",
+      "Psałterz floriański",
+      "Księga henrykowska"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zdanie zapisano w XIII-wiecznej Księdze henrykowskiej z klasztoru w Henrykowie."
+  }
+]
