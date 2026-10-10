@@ -1,10 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import io from 'socket.io-client';
 import useSound from '../hooks/useSound';
 import { SOCKET_URL } from '../config';
 import QuestionScreen from './QuestionScreen';
 import VoteScreen from './VoteScreen';
+import SabotageOverlay from './SabotageOverlay';
+import { SabotageDock, SabotageButton, SabotageSheet } from './SabotagePanel';
+import { cardInfo, getMinigame } from '../sabotage/registry';
 import {
   WaitingScreen,
   VoteResultScreen,
@@ -14,6 +17,9 @@ import {
 } from './InfoScreens';
 
 const pid = (p) => p?.id ?? p?.playerId;
+
+// Screens that show the sabotage card dock at the bottom
+const DOCK_STATES = ['waiting', 'starting', 'voting', 'vote-result', 'round-end'];
 
 // Players sorted by score (desc) with a normalised `id`
 const toStandings = (players) =>
@@ -50,6 +56,13 @@ export default function Game() {
   const [standings, setStandings] = useState([]);
   const [roundEnded, setRoundEnded] = useState(null);
 
+  // Sabotage
+  const [players, setPlayers] = useState([]); // from player-list-updated
+  const [cards, setCards] = useState([]); // card types in hand (max 2)
+  const [sheet, setSheet] = useState(null); // null | { type }
+  const [sabPending, setSabPending] = useState(false);
+  const [obstacles, setObstacles] = useState([]); // queue: { id, type, fromName }
+
   // Refs used inside socket handlers (avoid stale closures) and for timer cleanup
   const playerIdRef = useRef(null);
   const questionTimerRef = useRef(null);
@@ -58,8 +71,18 @@ export default function Game() {
   const navigateTimeoutRef = useRef(null);
   const rejoinRetryRef = useRef(null);
   const toastTimeoutRef = useRef(null);
+  const showToastRef = useRef(null);
   const answerSentRef = useRef(false);
   const gameStateRef = useRef('waiting');
+  const questionActiveRef = useRef(false); // set synchronously by new-question / question-ended
+  const pendingIncomingRef = useRef([]); // sabotage-incoming that arrived before its question
+  // { type, version, timedOut } while a sabotage-use awaits the server. It survives the
+  // UI timeout so a late sabotage-used still knows whether the hand was refreshed.
+  const sabPendingRef = useRef(null);
+  const sabPendingTimeoutRef = useRef(null);
+  const cardsVersionRef = useRef(0);
+  const obstacleSeqRef = useRef(0);
+  const lastHitSfxRef = useRef(0);
 
   const { playSound } = useSound();
   const playSoundRef = useRef(playSound);
@@ -126,14 +149,32 @@ export default function Game() {
         }
       }, 250);
     };
-    const showToast = (msg) => {
-      setToast(msg);
+    const showToast = (msg, variant = '', ms = 3000) => {
+      setToast({ msg, variant });
       clearTimer(toastTimeoutRef, clearTimeout);
       toastTimeoutRef.current = setTimeout(() => {
         toastTimeoutRef.current = null;
         setToast('');
-      }, 3000);
+      }, ms);
     };
+    showToastRef.current = showToast;
+    const hitSfx = () => {
+      // sabotage-used + sabotage-incoming can land together – one sting is enough
+      const now = Date.now();
+      if (now - lastHitSfxRef.current < 1500) return;
+      lastHitSfxRef.current = now;
+      sfx('sabotage-hit');
+    };
+    const clearSabPending = () => {
+      sabPendingRef.current = null;
+      clearTimer(sabPendingTimeoutRef, clearTimeout);
+      setSabPending(false);
+    };
+    // Only types with a playable minigame (or the mash fallback) become obstacles
+    const toObstacles = (list) =>
+      list
+        .filter(s => s && getMinigame(s.type))
+        .map(s => ({ id: ++obstacleSeqRef.current, type: s.type, fromName: s.fromName || '' }));
     let rejoinAttempts = 0;
 
     const newSocket = io(SOCKET_URL, {
@@ -203,10 +244,65 @@ export default function Game() {
     });
 
     newSocket.on('error', (data) => {
+      if (sabPendingRef.current) {
+        // Errors carry no event name: a pending throw is the most likely cause.
+        // Still reset a vote highlight so a rejected vote can be cast again.
+        clearSabPending();
+        if (gameStateRef.current === 'voting') setMyVote(null);
+        showToast(`😕 ${data?.message || 'Nie udało się rzucić karty'}`, 'bad');
+        return;
+      }
       // Only vote errors are relevant to the player (others are raw English backend strings)
       if (data?.message && gameStateRef.current === 'voting') {
         setMyVote(null);
         showToast('Nie udało się oddać głosu – spróbuj jeszcze raz');
+      }
+    });
+
+    newSocket.on('player-list-updated', (data) => {
+      if (Array.isArray(data?.players)) setPlayers(data.players);
+    });
+
+    newSocket.on('sabotage-cards', (data) => {
+      cardsVersionRef.current++;
+      setCards(Array.isArray(data?.cards) ? data.cards.filter(Boolean) : []);
+    });
+
+    newSocket.on('sabotage-used', (data) => {
+      const me = playerIdRef.current;
+      if (!data || !me) return;
+      const info = cardInfo(data.type);
+      if (data.fromPlayerId === me) {
+        const pending = sabPendingRef.current;
+        // Server didn't refresh our hand (yet) -> drop the used card locally
+        if (!pending || pending.version === cardsVersionRef.current) {
+          setCards(prev => {
+            const i = prev.indexOf(data.type);
+            return i === -1 ? prev : [...prev.slice(0, i), ...prev.slice(i + 1)];
+          });
+        }
+        clearSabPending();
+        setSheet(null);
+        sfx('sabotage-send');
+        showToast(`🎯 Trafiłeś! ${data.targetName || 'Ofiara'} dostaje ${info.icon} ${info.acc}`, 'sab');
+      } else if (data.targetPlayerId === me) {
+        hitSfx();
+        showToast(`😈 ${data.fromName || 'Ktoś'} rzuca na Ciebie ${info.icon} ${info.acc}!`, 'hit', 3500);
+      }
+    });
+
+    newSocket.on('sabotage-incoming', (data) => {
+      const list = Array.isArray(data?.sabotages) ? data.sabotages : [];
+      if (!list.length) return;
+      if (questionActiveRef.current && !answerSentRef.current) {
+        const items = toObstacles(list);
+        if (!items.length) return;
+        setSheet(null);
+        setObstacles(prev => [...prev, ...items]);
+        hitSfx();
+      } else if (!questionActiveRef.current) {
+        // Arrived before its question – play it once the question shows up
+        pendingIncomingRef.current = [...pendingIncomingRef.current, ...list];
       }
     });
 
@@ -218,6 +314,7 @@ export default function Game() {
     newSocket.on('category-vote-start', (data) => {
       clearTimer(feedbackTimeoutRef, clearTimeout);
       setShowFeedback(false);
+      pendingIncomingRef.current = [];
       setVote(data || {});
       setVoteCounts(null);
       setMyVote(null);
@@ -245,6 +342,14 @@ export default function Game() {
       clearTimer(voteTimerRef);
       setShowFeedback(false);
       answerSentRef.current = false;
+      questionActiveRef.current = true;
+      const pendingObstacles = toObstacles(pendingIncomingRef.current);
+      pendingIncomingRef.current = [];
+      setObstacles(pendingObstacles);
+      if (pendingObstacles.length) {
+        setSheet(null);
+        hitSfx();
+      }
       const timeLimit = Number(data.timeLimit) > 0 ? Number(data.timeLimit) : 15;
       setCurrentQuestion(data.question);
       setQuestionMeta({
@@ -271,6 +376,8 @@ export default function Game() {
     newSocket.on('question-ended', (data) => {
       clearTimer(questionTimerRef);
       setTimer(0);
+      questionActiveRef.current = false;
+      setObstacles([]);
 
       const players = Array.isArray(data?.updatedPlayers) ? data.updatedPlayers : [];
       if (players.length) setStandings(toStandings(players));
@@ -324,6 +431,10 @@ export default function Game() {
     });
 
     newSocket.on('game-finished', (data) => {
+      questionActiveRef.current = false;
+      pendingIncomingRef.current = [];
+      setObstacles([]);
+      setSheet(null);
       clearTimer(questionTimerRef);
       clearTimer(voteTimerRef);
       clearTimer(feedbackTimeoutRef, clearTimeout);
@@ -341,15 +452,19 @@ export default function Game() {
       clearTimer(navigateTimeoutRef, clearTimeout);
       clearTimer(rejoinRetryRef, clearTimeout);
       clearTimer(toastTimeoutRef, clearTimeout);
+      clearTimer(sabPendingTimeoutRef, clearTimeout);
       newSocket.removeAllListeners();
       newSocket.close();
     };
   }, [sessionId, navigate]);
 
+  const obstacleActive = gameState === 'playing' && timer > 0 && obstacles.length > 0;
+
   const handleAnswerSelect = (answerIndex) => {
     // Backend accepts only the FIRST answer per question, so lock after the
     // first tap instead of pretending the answer was changed.
     if (gameState !== 'playing' || answerSentRef.current || timer <= 0) return;
+    if (obstacleActive) return; // sabotage minigame first
     if (!socket || !playerData) return;
     answerSentRef.current = true;
     setSelectedAnswer(answerIndex);
@@ -373,6 +488,41 @@ export default function Game() {
     socket.emit('category-vote', { sessionId, playerId: playerData.id, categoryKey });
   };
 
+  const handleObstacleDone = useCallback((id) => {
+    setObstacles(prev => (prev[0]?.id === id ? prev.slice(1) : prev));
+  }, []);
+
+  const openSheet = (type = null) => {
+    if (!cards.length) return;
+    playSound('button-tap');
+    setSheet({ type });
+  };
+
+  const handleThrow = (type, targetPlayerId) => {
+    if (!socket || !playerData || (sabPendingRef.current && !sabPendingRef.current.timedOut)) return;
+    if (!type || !targetPlayerId || !cards.includes(type)) return;
+    sabPendingRef.current = { type, version: cardsVersionRef.current, timedOut: false };
+    setSabPending(true);
+    playSound('button-tap');
+    if (navigator.vibrate) navigator.vibrate(20);
+    socket.emit('sabotage-use', { sessionId, playerId: playerData.id, targetPlayerId, type });
+    // No confirmation and no error -> unlock the button again
+    if (sabPendingTimeoutRef.current) clearTimeout(sabPendingTimeoutRef.current);
+    sabPendingTimeoutRef.current = setTimeout(() => {
+      sabPendingTimeoutRef.current = null;
+      if (!sabPendingRef.current) return;
+      // Unlock the button only; keep the record for a late confirmation
+      sabPendingRef.current.timedOut = true;
+      setSabPending(false);
+      showToastRef.current?.('Serwer nie odpowiada – spróbuj jeszcze raz', 'bad');
+    }, 8000);
+  };
+
+  // Close the sheet once there is nothing left to throw
+  useEffect(() => {
+    if (sheet && !cards.length && !sabPending) setSheet(null);
+  }, [sheet, cards, sabPending]);
+
   const goHome = () => {
     playSound('button-tap');
     navigate('/');
@@ -395,7 +545,7 @@ export default function Game() {
 
   const overlays = (
     <>
-      {toast && <div className="toast" role="alert">{toast}</div>}
+      {toast && <div className={`toast ${toast.variant ? `toast--${toast.variant}` : ''}`} role="alert">{toast.msg}</div>}
       {connectionWarning && <div className="conn-banner" role="status">{connectionWarning}</div>}
     </>
   );
@@ -444,6 +594,8 @@ export default function Game() {
           lastResult={lastResult}
           timer={timer}
           onAnswer={handleAnswerSelect}
+          obstructed={obstacleActive}
+          headerExtra={<SabotageButton cards={cards} onOpen={() => openSheet(null)} />}
         />
       ) : (
         <WaitingScreen player={playerData} message="Czekamy na pytanie" />
@@ -464,10 +616,41 @@ export default function Game() {
       content = <WaitingScreen player={playerData} />;
   }
 
+  // Dock with cards under the vote / waiting / ranking screens
+  const showDock = cards.length > 0 && DOCK_STATES.includes(gameState);
+
   return (
     <>
-      {content}
+      {showDock ? (
+        <div className="with-dock">
+          {content}
+          <SabotageDock cards={cards} onPick={(type) => openSheet(type)} />
+        </div>
+      ) : content}
+      {obstacleActive && (
+        <SabotageOverlay
+          key={obstacles[0].id}
+          item={obstacles[0]}
+          total={obstacles.length}
+          answers={currentQuestion?.answers}
+          timer={timer}
+          onComplete={handleObstacleDone}
+          playSound={playSound}
+        />
+      )}
       {showFeedback && <FeedbackOverlay result={lastResult} question={currentQuestion} />}
+      {sheet && gameState !== 'finished' && !obstacleActive && (
+        <SabotageSheet
+          key={sheet.type || 'any'}
+          cards={cards}
+          initialType={sheet.type}
+          players={players.length ? players : standings}
+          meId={playerData.id}
+          pending={sabPending}
+          onThrow={handleThrow}
+          onClose={() => setSheet(null)}
+        />
+      )}
       {overlays}
     </>
   );
