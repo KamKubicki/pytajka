@@ -1,6 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
 const { gameSessions, gameQuestions, selectFreshQuestions } = require('./game');
-const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings } = require('./validation');
+const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings, validateCategoryKey, validatePlayerId } = require('./validation');
 
 function initializeSocket(server) {
   const io = require('socket.io')(server, {
@@ -85,6 +85,11 @@ function initializeSocket(server) {
           session.updateActivity();
           socket.join(validatedSessionId);
           socket.emit('host-joined', { sessionId: validatedSessionId, session: session });
+          // 🗳️ TV reconnect during category vote
+          if (session.vote && session.vote.active) {
+            socket.emit('category-vote-start', session.getVoteStartPayload());
+            socket.emit('category-vote-update', session.getVoteUpdatePayload());
+          }
         } else {
           socket.emit('join-error', { message: 'Session not found' });
         }
@@ -132,10 +137,17 @@ function initializeSocket(server) {
           socket.emit('player-joined', { playerId: existingPlayer.id, sessionId: validatedSessionId });
           if (session.status === 'playing') {
             socket.emit('game-started');
+            // 🗳️ Reconnect during category vote -> resend vote with remaining time
+            if (session.vote && session.vote.active) {
+              socket.emit('category-vote-start', session.getVoteStartPayload());
+            }
           }
           io.to(validatedSessionId).emit('player-list-updated', {
             players: session.getPlayersArray()
           });
+          if (session.vote && session.vote.active) {
+            io.to(validatedSessionId).emit('category-vote-update', session.getVoteUpdatePayload());
+          }
           return;
         }
         
@@ -213,10 +225,12 @@ function initializeSocket(server) {
         if (validatedSettings) {
           session.rounds = validatedSettings.rounds || session.rounds;
           session.questionsPerRound = validatedSettings.questionsPerRound || session.questionsPerRound;
-          session.totalQuestions = session.rounds * session.questionsPerRound;
-          
-          // Use fresh questions for new game settings (clamped to available questions)
-          session.pickQuestions();
+        }
+        // Reset per-game state (clamped to available questions); questions are picked per round after the vote
+        session.pickQuestions();
+        if (session.totalQuestions === 0) {
+          socket.emit('error', { message: 'Brak pytań w bazie' });
+          return;
         }
 
         session.status = 'playing';
@@ -224,7 +238,7 @@ function initializeSocket(server) {
         io.to(validatedSessionId).emit('game-started');
         
         session.schedule(() => {
-          session.startQuestion(io);
+          session.startCategoryVote(io);
         }, 2000);
       } catch (error) {
         socket.emit('error', { message: error.message });
@@ -274,14 +288,43 @@ function initializeSocket(server) {
           timestamp: answerTimestamp
         });
         
+        // 🔒 Do not reveal the chosen answer before question-ended
         io.to(validatedSessionId).emit('player-answer-realtime', {
           playerId,
-          answer: validatedAnswer,
           totalAnswers: session.playerAnswers.size,
           totalPlayers: session.players.size
         });
         
         session.checkAllAnswered(io);
+      } catch (error) {
+        socket.emit('error', { message: error.message });
+      }
+    });
+
+    socket.on('category-vote', (data) => {
+      if (!rateLimitCheck('category-vote')) return;
+      
+      try {
+        const { sessionId, playerId, categoryKey } = data || {};
+        const validatedSessionId = validateSessionId(sessionId);
+        const validatedPlayerId = validatePlayerId(playerId);
+        const validatedKey = validateCategoryKey(categoryKey);
+        const session = gameSessions.get(validatedSessionId);
+        
+        if (!session) {
+          socket.emit('error', { message: 'Session not found' });
+          return;
+        }
+        
+        if (session.status !== 'playing') {
+          socket.emit('error', { message: 'Game is not active' });
+          return;
+        }
+        
+        const errorMessage = session.castVote(io, validatedPlayerId, validatedKey);
+        if (errorMessage) {
+          socket.emit('error', { message: errorMessage });
+        }
       } catch (error) {
         socket.emit('error', { message: error.message });
       }
@@ -304,6 +347,7 @@ function initializeSocket(server) {
             // 🔌 Keep player + score so the phone can rejoin with the same name
             session.markPlayerDisconnected(socket.playerId);
             session.checkAllAnswered(io);
+            session.checkAllVoted(io);
           }
           session.updateActivity();
           

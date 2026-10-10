@@ -131,7 +131,8 @@ function loadQuestionsFromDirectory() {
                 questionsDatabase.categories[category].questions.push(question);
                 gameQuestions.push({
                   ...question,
-                  category: questionsDatabase.categories[category].name
+                  category: questionsDatabase.categories[category].name,
+                  categoryKey: category
                 });
               }
             } catch (questionError) {
@@ -178,7 +179,8 @@ function loadQuestionsFromDirectory() {
                     questionsDatabase.categories[categoryKey].questions.push(question);
                     gameQuestions.push({
                       ...question,
-                      category: questionsDatabase.categories[categoryKey].name
+                      category: questionsDatabase.categories[categoryKey].name,
+                      categoryKey
                     });
                   } catch (questionError) {
                     console.error(`  ❌ Error processing structured question ${index} in category ${categoryName} of ${file}:`, questionError.message);
@@ -281,6 +283,17 @@ function saveQuestionHistory() {
   }
 }
 
+// ♻️ Make sure the global pool has enough fresh questions for a whole game (same reset rule as selectFreshQuestions)
+function ensureFreshPool(requestedCount) {
+  const freshCount = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id)).length;
+  if (freshCount < Math.max(requestedCount, MIN_QUESTIONS_POOL)) {
+    console.log('⚠️  Low fresh questions! Resetting history but keeping most recent 50 questions');
+    const recentQuestions = Array.from(usedQuestionsHistory).slice(-50);
+    usedQuestionsHistory.clear();
+    recentQuestions.forEach(qId => usedQuestionsHistory.add(qId));
+  }
+}
+
 // Smart question selection avoiding recently used questions
 function selectFreshQuestions(requestedCount) {
   const availableQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
@@ -379,47 +392,200 @@ class GameSession {
     this.totalQuestions = this.rounds * this.questionsPerRound;
     this.questionActive = false; // 🔒 true only while answers are accepted
     this.pendingTimers = []; // ⏱️ transition timers (results/round-end/next question)
+    this.vote = null; // 🗳️ active category vote state
+    this.voteTimer = null;
+    this.roundCategory = null;
 
     this.pickQuestions();
 
     this.startInactivityTimer();
 
-    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh unique questions`);
+    console.log(`🎮 Session ${id} created (${gameQuestions.length} questions in pool)`);
   }
 
-  // Select questions for current settings; never plan more questions than we actually have
+  // Reset per-game question state; questions are picked per round after the category vote
   pickQuestions() {
-    const id = this.id;
-    // Use smart question selection to avoid recently used questions
-    this.shuffledQuestions = selectFreshQuestions(this.totalQuestions);
+    ensureFreshPool(this.rounds * this.questionsPerRound);
+    this.totalQuestions = Math.min(this.rounds * this.questionsPerRound, gameQuestions.length);
+    if (this.totalQuestions === 0) {
+      console.error(`❌ Critical: No questions available for session ${this.id}. gameQuestions.length = ${gameQuestions.length}`);
+    }
+    this.shuffledQuestions = []; // questions actually played, in order
+    this.usedQuestionIds = new Set(); // 🔒 no repeats within a game
+    this.questionIndex = 0;
+    this.roundCategory = null;
+    this.vote = null;
+  }
 
-    // Fallback if not enough fresh questions - use all available questions
-    if (this.shuffledQuestions.length < this.totalQuestions) {
-      console.warn(`⚠️  Not enough fresh questions (${this.shuffledQuestions.length}/${this.totalQuestions}), using all available questions`);
-      if (gameQuestions.length > 0) {
-        // Shuffle all available questions and use as many as needed
-        const shuffled = shuffleArray(gameQuestions);
-        this.shuffledQuestions = ensureUniqueQuestions(shuffled.slice(0, this.totalQuestions));
-      }
+  getTotalRounds() {
+    return Math.max(1, Math.ceil(this.totalQuestions / this.questionsPerRound));
+  }
+
+  getCurrentRound() {
+    return Math.floor(this.questionIndex / this.questionsPerRound) + 1;
+  }
+
+  // Fresh = not in global history and not yet used in this game
+  getFreshQuestions(categoryKey) {
+    return gameQuestions.filter(q =>
+      (!categoryKey || q.categoryKey === categoryKey) &&
+      !usedQuestionsHistory.has(q.id) &&
+      !this.usedQuestionIds.has(q.id));
+  }
+
+  buildVoteOptions() {
+    const stats = Object.entries(questionsDatabase.categories).map(([key, cat]) => ({
+      key,
+      name: cat.name,
+      icon: cat.icon,
+      color: cat.color,
+      available: this.getFreshQuestions(key).length
+    }));
+    const needed = this.questionsPerRound;
+    const eligible = shuffleArray(stats.filter(c => c.available >= needed));
+    // Fewer than 3 categories with enough fresh questions -> fill with whatever is still available
+    const rest = shuffleArray(stats.filter(c => c.available < needed && c.available > 0))
+      .sort((a, b) => b.available - a.available);
+    let options = [...eligible, ...rest].slice(0, 3);
+    if (options.length === 0) {
+      // Everything used up - still offer categories, questions will be filled from the whole pool
+      options = shuffleArray(stats).slice(0, 3);
+    }
+    return options;
+  }
+
+  startCategoryVote(io) {
+    if (this.status !== 'playing') return;
+    if (this.questionIndex >= this.totalQuestions) {
+      this.finishGame(io);
+      return;
+    }
+    this.updateActivity();
+    const duration = 10;
+    const options = this.buildVoteOptions();
+    this.vote = {
+      round: this.getCurrentRound(),
+      totalRounds: this.getTotalRounds(),
+      options,
+      votes: new Map(), // playerId -> categoryKey
+      endsAt: Date.now() + duration * 1000,
+      active: true
+    };
+    console.log(`🗳️ Session ${this.id}: category vote for round ${this.vote.round}: ${options.map(o => o.key).join(', ')}`);
+    io.to(this.id).emit('category-vote-start', this.getVoteStartPayload());
+    this.voteTimer = this.schedule(() => {
+      this.voteTimer = null;
+      this.finishCategoryVote(io);
+    }, duration * 1000);
+  }
+
+  getVoteStartPayload() {
+    if (!this.vote) return null;
+    return {
+      round: this.vote.round,
+      totalRounds: this.vote.totalRounds,
+      duration: Math.max(0, Math.ceil((this.vote.endsAt - Date.now()) / 1000)),
+      options: this.vote.options
+    };
+  }
+
+  getVoteUpdatePayload() {
+    const votes = {};
+    this.vote.options.forEach(o => { votes[o.key] = 0; });
+    this.vote.votes.forEach(key => { votes[key] = (votes[key] || 0) + 1; });
+    return {
+      votes,
+      totalVotes: this.vote.votes.size,
+      totalPlayers: this.getConnectedPlayerCount(),
+      votedPlayerIds: Array.from(this.vote.votes.keys())
+    };
+  }
+
+  // Returns error message or null on success
+  castVote(io, playerId, categoryKey) {
+    if (!this.vote || !this.vote.active) return 'Głosowanie nie trwa';
+    if (!this.players.has(playerId)) return 'Player not found in session';
+    if (!this.vote.options.some(o => o.key === categoryKey)) return 'Nieznana kategoria';
+    this.updateActivity();
+    this.vote.votes.set(playerId, categoryKey);
+    io.to(this.id).emit('category-vote-update', this.getVoteUpdatePayload());
+    this.checkAllVoted(io);
+    return null;
+  }
+
+  // End vote early once every connected player has voted
+  checkAllVoted(io) {
+    if (!this.vote || !this.vote.active) return;
+    const connected = Array.from(this.players.values()).filter(p => p.connected !== false);
+    if (connected.length > 0 && connected.every(p => this.vote.votes.has(p.id))) {
+      this.finishCategoryVote(io);
+    }
+  }
+
+  finishCategoryVote(io) {
+    if (!this.vote || !this.vote.active) return;
+    this.vote.active = false;
+    if (this.voteTimer) {
+      clearTimeout(this.voteTimer);
+      this.pendingTimers = this.pendingTimers.filter(x => x !== this.voteTimer);
+      this.voteTimer = null;
     }
 
-    // Final validation - if still no questions, log error
-    if (this.shuffledQuestions.length === 0) {
-      console.error(`❌ Critical: No questions available for session ${id}. gameQuestions.length = ${gameQuestions.length}`);
-    }
+    const { votes } = this.getVoteUpdatePayload();
+    const max = Math.max(...Object.values(votes));
+    const leaders = max > 0 ? this.vote.options.filter(o => votes[o.key] === max) : this.vote.options;
+    const winner = leaders[Math.floor(Math.random() * leaders.length)];
+    this.roundCategory = { key: winner.key, name: winner.name, icon: winner.icon, color: winner.color };
 
-    // 🔧 Clamp so startQuestion/endQuestion never index past the selected questions
-    if (this.shuffledQuestions.length < this.totalQuestions) {
-      this.totalQuestions = this.shuffledQuestions.length;
-    }
+    this.pickRoundQuestions(winner.key);
+    console.log(`🏆 Session ${this.id}: round ${this.vote.round} category ${winner.key} (${max} votes)`);
 
-    // Track question IDs used in this session to ensure uniqueness
-    this.usedQuestionIds = new Set(this.shuffledQuestions.map(q => q.id));
+    io.to(this.id).emit('category-vote-result', {
+      round: this.vote.round,
+      categoryKey: winner.key,
+      name: winner.name,
+      icon: winner.icon,
+      color: winner.color,
+      votes
+    });
 
-    // Verify all questions in session are unique
-    if (this.shuffledQuestions.length !== this.usedQuestionIds.size) {
-      console.warn(`⚠️  Session ${id}: Found duplicate questions! Expected ${this.shuffledQuestions.length}, got ${this.usedQuestionIds.size} unique`);
+    this.schedule(() => this.startQuestion(io), 3000);
+  }
+
+  // Append questions for the current round: category fresh -> whole pool fresh -> anything not used in this game
+  pickRoundQuestions(categoryKey) {
+    const needed = Math.min(this.questionsPerRound, this.totalQuestions - this.questionIndex);
+    let picked = shuffleArray(this.getFreshQuestions(categoryKey)).slice(0, needed);
+    const take = (pool) => {
+      if (picked.length >= needed) return;
+      const ids = new Set(picked.map(q => q.id));
+      const extra = shuffleArray(pool.filter(q => !ids.has(q.id) && !this.usedQuestionIds.has(q.id)));
+      picked = picked.concat(extra.slice(0, needed - picked.length));
+    };
+    if (picked.length < needed) {
+      console.warn(`⚠️  Category ${categoryKey}: only ${picked.length}/${needed} fresh questions, filling from whole pool`);
+      take(this.getFreshQuestions());
+      take(gameQuestions);
     }
+    picked = ensureUniqueQuestions(picked);
+    picked.forEach(q => this.usedQuestionIds.add(q.id));
+    this.shuffledQuestions.push(...picked);
+    // 🔧 Pool exhausted -> end the game after these questions
+    if (picked.length < needed) {
+      this.totalQuestions = this.questionIndex + picked.length;
+    }
+  }
+
+  finishGame(io) {
+    this.status = 'finished';
+    this.vote = null;
+    markQuestionsAsUsed(this.shuffledQuestions);
+    io.to(this.id).emit('game-finished');
+    this.schedule(() => {
+      console.log(`Cleaning up finished session ${this.id}`);
+      this.cleanup();
+      gameSessions.delete(this.id);
+    }, 5 * 60 * 1000);
   }
 
   addPlayer(playerId, playerData) {
@@ -481,6 +647,7 @@ class GameSession {
       rounds: this.rounds,
       questionsPerRound: this.questionsPerRound,
       totalQuestions: this.totalQuestions,
+      roundCategory: this.roundCategory,
       gameSettings: this.gameSettings,
       createdAt: this.createdAt,
       lastActivity: this.lastActivity
@@ -490,34 +657,34 @@ class GameSession {
   startQuestion(io) {
     if (this.status !== 'playing') return; // 🔒 ignore stray transitions after game end
     this.updateActivity();
-    if (this.questionIndex >= this.shuffledQuestions.length) {
+    if (this.questionIndex >= this.shuffledQuestions.length || this.questionIndex >= this.totalQuestions) {
       console.warn(`Session ${this.id}: No more questions available (index ${this.questionIndex}/${this.shuffledQuestions.length})`);
-      this.status = 'finished';
-      io.to(this.id).emit('game-finished');
+      this.finishGame(io);
       return;
     }
-    
-    if (this.questionIndex < this.totalQuestions) {
-      const question = this.shuffledQuestions[this.questionIndex];
-      this.currentQuestion = question;
-      this.playerAnswers.clear();
-      this.questionStartTime = Date.now();
-      this.questionActive = true;
-      
-      io.to(this.id).emit('new-question', {
-        question: {
-          ...question,
-          correct: undefined
-        }
-      });
-      
-      this.timer = setTimeout(() => {
-        this.endQuestion(io);
-      }, 15000);
-    } else {
-      this.status = 'finished';
-      io.to(this.id).emit('game-finished');
-    }
+
+    const question = this.shuffledQuestions[this.questionIndex];
+    this.currentQuestion = question;
+    this.playerAnswers.clear();
+    this.questionStartTime = Date.now();
+    this.questionActive = true;
+
+    const { correct, categoryKey, ...publicQuestion } = question; // 🔒 never send the correct answer
+    io.to(this.id).emit('new-question', {
+      question: publicQuestion,
+      round: this.getCurrentRound(),
+      totalRounds: this.getTotalRounds(),
+      questionNumber: this.questionIndex + 1,
+      totalQuestions: this.totalQuestions,
+      questionInRound: (this.questionIndex % this.questionsPerRound) + 1,
+      questionsPerRound: this.questionsPerRound,
+      timeLimit: 15,
+      roundCategory: this.roundCategory
+    });
+
+    this.timer = setTimeout(() => {
+      this.endQuestion(io);
+    }, 15000);
   }
 
   startInactivityTimer() {
@@ -550,6 +717,8 @@ class GameSession {
     this.questionActive = false;
     this.pendingTimers.forEach(t => clearTimeout(t));
     this.pendingTimers = [];
+    this.voteTimer = null;
+    this.vote = null;
     this.players.clear();
     this.playerAnswers.clear();
   }
@@ -622,23 +791,12 @@ class GameSession {
       }, 6500); // 1.5s + 5s for results
 
       this.schedule(() => {
-        this.startQuestion(io);
+        this.startCategoryVote(io); // 🗳️ next round starts with a category vote
       }, 16500); // 1.5s + 5s + 10s
     } else if (this.questionIndex >= this.totalQuestions) {
-      this.status = 'finished';
-
-      // Mark all questions from this session as used
-      markQuestionsAsUsed(this.shuffledQuestions);
-
       this.schedule(() => {
-        io.to(this.id).emit('game-finished');
+        this.finishGame(io);
       }, 6500); // Show results for 5 seconds before final screen
-
-      this.schedule(() => {
-        console.log(`Cleaning up finished session ${this.id}`);
-        this.cleanup();
-        gameSessions.delete(this.id);
-      }, 5 * 60 * 1000); // Clean up 5 minutes after game ends
     } else {
       // Normal question transition - show results for 5 seconds
       this.schedule(() => {
