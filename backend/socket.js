@@ -1,6 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
 const { gameSessions } = require('./game');
-const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings, validateCategoryKey, validatePlayerId } = require('./validation');
+const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings, validateCategoryKey, validatePlayerId, validateSabotageType } = require('./validation');
 
 function initializeSocket(server) {
   const io = require('socket.io')(server, {
@@ -142,6 +142,12 @@ function initializeSocket(server) {
               socket.emit('category-vote-start', session.getVoteStartPayload());
             }
           }
+          // 🃏 Resend hand + still-blocking sabotages of the current question
+          socket.emit('sabotage-cards', { cards: session.getSabotageCards(existingPlayer.id) });
+          const blocking = session.getBlockingSabotages(existingPlayer.id);
+          if (blocking.length > 0) {
+            socket.emit('sabotage-incoming', { sabotages: blocking });
+          }
           io.to(validatedSessionId).emit('player-list-updated', {
             players: session.getPlayersArray()
           });
@@ -183,6 +189,7 @@ function initializeSocket(server) {
         socket.sessionId = validatedSessionId;
         
         socket.emit('player-joined', { playerId, sessionId: validatedSessionId });
+        socket.emit('sabotage-cards', { cards: session.getSabotageCards(playerId) });
         
         io.to(validatedSessionId).emit('player-list-updated', {
           players: session.getPlayersArray()
@@ -327,6 +334,36 @@ function initializeSocket(server) {
         }
         
         const errorMessage = session.castVote(io, validatedPlayerId, validatedKey);
+        if (errorMessage) {
+          socket.emit('error', { message: errorMessage });
+        }
+      } catch (error) {
+        socket.emit('error', { message: error.message });
+      }
+    });
+
+    socket.on('sabotage-use', (data) => {
+      if (!rateLimitCheck('sabotage-use')) return;
+
+      try {
+        const { sessionId, playerId, targetPlayerId, type } = data || {};
+        const validatedSessionId = validateSessionId(sessionId);
+        const validatedPlayerId = validatePlayerId(playerId);
+        const validatedTargetId = validatePlayerId(targetPlayerId);
+        const validatedType = validateSabotageType(type);
+        // 🔒 A socket may only use its own cards
+        if (socket.playerId !== validatedPlayerId || socket.sessionId !== validatedSessionId) {
+          socket.emit('error', { message: 'Nie możesz użyć cudzej karty' });
+          return;
+        }
+        const session = gameSessions.get(validatedSessionId);
+
+        if (!session) {
+          socket.emit('error', { message: 'Nie znaleziono sesji' });
+          return;
+        }
+
+        const errorMessage = session.useSabotage(io, validatedPlayerId, validatedTargetId, validatedType);
         if (errorMessage) {
           socket.emit('error', { message: errorMessage });
         }

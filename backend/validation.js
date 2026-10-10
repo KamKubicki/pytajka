@@ -172,6 +172,20 @@ function validatePlayerId(playerId) {
   return playerId;
 }
 
+const SABOTAGE_TYPES = Object.freeze(['fog', 'bubbles', 'math', 'mash', 'sequence', 'catch']);
+
+/**
+ * Validates sabotage card type
+ * @param {string} type - The sabotage type to validate
+ * @throws {Error} If type is unknown
+ */
+function validateSabotageType(type) {
+  if (typeof type !== 'string' || !SABOTAGE_TYPES.includes(type)) {
+    throw new Error('Nieznany typ sabotażu');
+  }
+  return type;
+}
+
 module.exports = {
   validateSessionId,
   validatePlayerName,
@@ -179,5 +193,7 @@ module.exports = {
   validateAnswer,
   validateGameSettings,
   validateCategoryKey,
-  validatePlayerId
+  validatePlayerId,
+  validateSabotageType,
+  SABOTAGE_TYPES
 };

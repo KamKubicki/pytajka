@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { SABOTAGE_TYPES } = require('./validation');
 
 let questionsDatabase = { categories: {} };
 let gameQuestions = [];
@@ -292,6 +293,10 @@ function loadQuestionsFromDirectory() {
 
 const gameSessions = new Map();
 
+// 🃏 Sabotage cards (minigames shown on the victim's phone before they can answer)
+const SABOTAGE_MAX_CARDS = 2; // max cards in hand
+const SABOTAGE_MAX_PENDING = 2; // max pending sabotages per target
+
 // Global system to track used questions across sessions with persistence
 const QUESTION_HISTORY_FILE = path.join(__dirname, '../.question_history.json');
 const QUESTION_HISTORY_LIMIT = 200; // Remember last 200 questions
@@ -424,6 +429,7 @@ class GameSession {
     this.vote = null; // 🗳️ active category vote state
     this.voteTimer = null;
     this.roundCategory = null;
+    this.resetSabotage();
 
     this.pickQuestions();
 
@@ -445,6 +451,110 @@ class GameSession {
     this.roundCategory = null;
     this.playedCategoryKeys = new Set(); // categories already played in this game
     this.vote = null;
+    this.resetSabotage();
+  }
+
+  // 🃏 Sabotage state lives outside player objects so cards never leak via player lists / toJSON
+  resetSabotage() {
+    this.sabotageCards = new Map(); // playerId -> [type]
+    this.sabotageQueue = new Map(); // playerId -> [{ type, fromName }] for the next question
+    this.activeSabotages = new Map(); // playerId -> [{ type, fromName }] for the current question
+  }
+
+  getSabotageCards(playerId) {
+    return [...(this.sabotageCards.get(playerId) || [])];
+  }
+
+  emitSabotageCards(io, playerId) {
+    const player = this.players.get(playerId);
+    if (!player || !player.socketId) return;
+    io.to(player.socketId).emit('sabotage-cards', { cards: this.getSabotageCards(playerId) });
+  }
+
+  // Active sabotages of the current question still blocking the player (answer not given yet)
+  getBlockingSabotages(playerId) {
+    if (!this.questionActive || this.playerAnswers.has(playerId)) return [];
+    return [...(this.activeSabotages.get(playerId) || [])];
+  }
+
+  // +1 random card for every connected player (hand limit SABOTAGE_MAX_CARDS)
+  dealSabotageCards(io) {
+    this.players.forEach(player => {
+      if (player.connected === false) return;
+      const hand = this.sabotageCards.get(player.id) || [];
+      if (hand.length < SABOTAGE_MAX_CARDS) {
+        hand.push(SABOTAGE_TYPES[Math.floor(Math.random() * SABOTAGE_TYPES.length)]);
+        this.sabotageCards.set(player.id, hand);
+      }
+      this.emitSabotageCards(io, player.id);
+    });
+    console.log(`🃏 Session ${this.id}: sabotage cards dealt`);
+  }
+
+  // Returns error message or null on success
+  useSabotage(io, fromPlayerId, targetPlayerId, type) {
+    if (this.status !== 'playing') return 'Gra nie trwa';
+    const from = this.players.get(fromPlayerId);
+    if (!from) return 'Nie znaleziono gracza w sesji';
+    if (fromPlayerId === targetPlayerId) return 'Nie możesz sabotować samego siebie';
+    const target = this.players.get(targetPlayerId);
+    if (!target) return 'Nie znaleziono celu sabotażu';
+    if (target.connected === false) return `${target.name} jest offline`;
+    // 🔒 No further question to sabotage (results of the last question are on screen)
+    if (!this.questionActive && this.questionIndex >= this.totalQuestions) return 'To już koniec gry';
+    const hand = this.sabotageCards.get(fromPlayerId) || [];
+    const cardIndex = hand.indexOf(type);
+    if (cardIndex === -1) return 'Nie masz takiej karty';
+    const queue = this.sabotageQueue.get(targetPlayerId) || [];
+    if (queue.length + this.getBlockingSabotages(targetPlayerId).length >= SABOTAGE_MAX_PENDING) {
+      return `${target.name} ma już ${SABOTAGE_MAX_PENDING} sabotaże na głowie`;
+    }
+
+    hand.splice(cardIndex, 1);
+    this.sabotageCards.set(fromPlayerId, hand);
+    this.updateActivity();
+    const sabotage = { type, fromName: from.name };
+
+    if (this.questionActive && !this.playerAnswers.has(targetPlayerId)) {
+      // ⚡ Question running and target has not answered yet -> hit immediately
+      const active = this.activeSabotages.get(targetPlayerId) || [];
+      active.push(sabotage);
+      this.activeSabotages.set(targetPlayerId, active);
+      if (target.socketId) {
+        io.to(target.socketId).emit('sabotage-incoming', { sabotages: [sabotage] });
+      }
+      console.log(`⚡ Session ${this.id}: ${from.name} -> ${target.name} immediate sabotage ${type}`);
+    } else {
+      queue.push(sabotage);
+      this.sabotageQueue.set(targetPlayerId, queue);
+      console.log(`🃏 Session ${this.id}: ${from.name} -> ${target.name} queued sabotage ${type}`);
+    }
+
+    this.emitSabotageCards(io, fromPlayerId);
+    io.to(this.id).emit('sabotage-used', {
+      fromPlayerId,
+      fromName: from.name,
+      targetPlayerId,
+      targetName: target.name,
+      type
+    });
+    return null;
+  }
+
+  // Move queued sabotages to the current question and notify victims (call right after 'new-question')
+  deliverSabotages(io) {
+    this.activeSabotages = new Map();
+    this.sabotageQueue.forEach((queue, playerId) => {
+      if (!queue.length) return;
+      const player = this.players.get(playerId);
+      if (!player) return;
+      this.activeSabotages.set(playerId, queue);
+      if (player.socketId) {
+        io.to(player.socketId).emit('sabotage-incoming', { sabotages: [...queue] });
+      }
+      console.log(`💥 Session ${this.id}: ${player.name} hit by ${queue.map(s => s.type).join(', ')}`);
+    });
+    this.sabotageQueue = new Map();
   }
 
   getTotalRounds() {
@@ -516,6 +626,7 @@ class GameSession {
     };
     console.log(`🗳️ Session ${this.id}: category vote for round ${this.vote.round}: ${options.map(o => o.key).join(', ')}`);
     io.to(this.id).emit('category-vote-start', this.getVoteStartPayload());
+    this.dealSabotageCards(io);
     this.voteTimer = this.schedule(() => {
       this.voteTimer = null;
       this.finishCategoryVote(io);
@@ -726,6 +837,7 @@ class GameSession {
       timeLimit: 15,
       roundCategory: this.roundCategory
     });
+    this.deliverSabotages(io);
 
     this.timer = setTimeout(() => {
       this.endQuestion(io);
@@ -766,6 +878,7 @@ class GameSession {
     this.vote = null;
     this.players.clear();
     this.playerAnswers.clear();
+    this.resetSabotage();
   }
 
   endQuestion(io) {
@@ -778,9 +891,10 @@ class GameSession {
 
     const updatedPlayers = Array.from(this.players.values()).map(player => {
       const playerAnswerData = this.playerAnswers.get(player.id);
+      const sabotagedBy = [...(this.activeSabotages.get(player.id) || [])]; // 🃏 sabotages hitting this question
 
       if (!playerAnswerData) {
-        return { ...player, lastPoints: 0, lastCorrect: false, lastAnswer: null, lastResponseTime: null, lastTimeBonus: 0 };
+        return { ...player, lastPoints: 0, lastCorrect: false, lastAnswer: null, lastResponseTime: null, lastTimeBonus: 0, sabotagedBy };
       }
 
       const isCorrect = playerAnswerData.answer === this.currentQuestion.correct;
@@ -800,11 +914,12 @@ class GameSession {
         lastCorrect: isCorrect,
         lastAnswer: playerAnswerData.answer,
         lastResponseTime: responseTime,
-        lastTimeBonus: timeBonus
+        lastTimeBonus: timeBonus,
+        sabotagedBy
       };
     });
 
-    updatedPlayers.forEach(player => {
+    updatedPlayers.forEach(({ sabotagedBy, ...player }) => {
       this.players.set(player.id, player);
     });
 
