@@ -586,7 +586,23 @@ const useSound = () => {
 
   const toggleMute = useCallback(() => setMuted(!mutedRef.current), [setMuted]);
 
-  return { playSound, startMusic, stopMusic, muted, setMuted, toggleMute };
+  // Lower the background music while the host is speaking (only if audio already exists)
+  const duckedRef = useRef(false);
+  const duckMusic = useCallback((on) => {
+    const d = !!on;
+    if (duckedRef.current === d) return;
+    duckedRef.current = d;
+    const g = graphRef.current;
+    if (!g || !g.music || g.ctx.state === 'closed') return;
+    try {
+      const now = g.ctx.currentTime;
+      g.music.gain.cancelScheduledValues(now);
+      g.music.gain.setValueAtTime(g.music.gain.value, now);
+      g.music.gain.linearRampToValueAtTime(d ? MUSIC_GAIN * 0.3 : MUSIC_GAIN, now + 0.25);
+    } catch (e) { /* ignore */ }
+  }, []);
+
+  return { playSound, startMusic, stopMusic, muted, setMuted, toggleMute, duckMusic };
 };
 
 export default useSound;

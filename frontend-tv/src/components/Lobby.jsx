@@ -13,7 +13,48 @@ function Stepper({ label, value, min, max, onChange }) {
   );
 }
 
-function Lobby({ sessionId, qrCode, joinUrl, players = [], gameSettings, totalQuestionCount, onStartGame }) {
+function Seg({ options, value, onChange, disabled = false, label }) {
+  return (
+    <div className="seg" role="group" aria-label={label}>
+      {options.map(([val, text]) => (
+        <button
+          key={String(val)}
+          type="button"
+          className={value === val ? 'is-on' : ''}
+          aria-pressed={value === val}
+          disabled={disabled}
+          onClick={() => onChange(val)}
+        >
+          {text}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function HostOptions({ settings, onChange }) {
+  if (!settings || typeof onChange !== 'function') return null;
+  const off = !settings.enabled;
+  return (
+    <div className="host-options">
+      <div className="host-options-title">🎙️ Prof. Pytajek</div>
+      <div className="host-option">
+        <span className="host-option-label">Prowadzący</span>
+        <Seg label="Prowadzący" options={[[true, 'Wł.'], [false, 'Wył.']]} value={settings.enabled} onChange={v => onChange({ enabled: v })} />
+      </div>
+      <div className={`host-option ${off ? 'is-disabled' : ''}`}>
+        <span className="host-option-label">Komentarze</span>
+        <Seg label="Komentarze" disabled={off} options={[['rare', 'Rzadko'], ['normal', 'Normalnie'], ['often', 'Często']]} value={settings.frequency} onChange={v => onChange({ frequency: v })} />
+      </div>
+      <div className={`host-option ${off ? 'is-disabled' : ''}`}>
+        <span className="host-option-label">Głos</span>
+        <Seg label="Głos prowadzącego" disabled={off} options={[[true, 'Wł.'], [false, 'Wył.']]} value={settings.voice} onChange={v => onChange({ voice: v })} />
+      </div>
+    </div>
+  );
+}
+
+function Lobby({ sessionId, qrCode, joinUrl, players = [], gameSettings, totalQuestionCount, onStartGame, hostSettings, onHostSettingsChange }) {
   const [rounds, setRounds] = useState(gameSettings?.rounds || 5);
   const [questionsPerRound, setQuestionsPerRound] = useState(gameSettings?.questionsPerRound || 5);
 
@@ -83,6 +124,7 @@ function Lobby({ sessionId, qrCode, joinUrl, players = [], gameSettings, totalQu
             <strong>{totalQuestionCount}</strong>
           </div>
         )}
+        <HostOptions settings={hostSettings} onChange={onHostSettingsChange} />
         <p className="settings-hint">Przed każdą rundą gracze głosują na kategorię.</p>
         <button
           type="button"

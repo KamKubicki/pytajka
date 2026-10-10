@@ -8,6 +8,8 @@ import Results from './components/Results';
 import FinalResults from './components/FinalResults';
 import RoundSummary from './components/RoundSummary';
 import CategoryVote from './components/CategoryVote';
+import Host from './components/Host';
+import useHostSettings from './hooks/useHostSettings';
 
 function MuteButton({ sound }) {
   const canToggle = typeof sound?.toggleMute === 'function';
@@ -27,6 +29,20 @@ function MuteButton({ sound }) {
       title={muted ? 'Włącz dźwięk' : 'Wycisz'}
     >
       {muted ? '🔇' : '🔊'}
+    </button>
+  );
+}
+
+function HostToggle({ enabled, onToggle }) {
+  return (
+    <button
+      type="button"
+      className={`host-toggle ${enabled ? '' : 'is-off'}`}
+      onClick={onToggle}
+      aria-label={enabled ? 'Ukryj prowadzącego' : 'Pokaż prowadzącego'}
+      title={enabled ? 'Ukryj prowadzącego' : 'Pokaż prowadzącego'}
+    >
+      🎙️
     </button>
   );
 }
@@ -57,6 +73,7 @@ function AppContent() {
   // Single sound instance shared by socket handlers and the mute button
   const sound = useSound();
   useSocket(sound);
+  const [hostSettings, updateHostSettings] = useHostSettings();
   const soundRef = useRef(sound);
   soundRef.current = sound;
 
@@ -112,6 +129,8 @@ function AppContent() {
         gameSettings={gameSettings}
         totalQuestionCount={totalQuestionCount}
         onStartGame={onStartGame}
+        hostSettings={hostSettings}
+        onHostSettingsChange={updateHostSettings}
       />
     );
   } else if (gameState === 'starting') {
@@ -158,10 +177,19 @@ function AppContent() {
     screen = <FinalResults players={players} onResetGame={onResetGame} />;
   }
 
+  const hostOn = !!hostSettings.enabled;
+  const stageClass = [
+    'stage',
+    hostOn ? 'has-host' : '',
+    hostOn && gameState === 'question' ? 'host-compact' : ''
+  ].filter(Boolean).join(' ');
+
   return (
-    <div className="stage">
+    <div className={stageClass}>
       <div className="stage-lights" aria-hidden="true" />
       {screen}
+      {hostOn && <Host settings={hostSettings} sound={sound} />}
+      <HostToggle enabled={hostOn} onToggle={() => updateHostSettings(s => ({ enabled: !s.enabled }))} />
       <MuteButton sound={sound} />
     </div>
   );
