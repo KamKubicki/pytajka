@@ -1,96 +1,76 @@
 import React from 'react';
 
-function Results({ resultsData }) {
+const LETTERS = ['A', 'B', 'C', 'D'];
+
+function Results({ resultsData, meta = {} }) {
   if (!resultsData) return null;
 
   const { correctAnswer, questionData = {} } = resultsData;
   const updatedPlayers = resultsData.updatedPlayers || [];
   const correctAnswerText = questionData.answers?.[correctAnswer];
+  const sorted = [...updatedPlayers].sort((a, b) => (b.score || 0) - (a.score || 0));
+  const hits = updatedPlayers.filter(p => p.lastCorrect);
+  const fastest = hits
+    .filter(p => Number.isFinite(p.lastResponseTime))
+    .reduce((best, p) => (!best || p.lastResponseTime < best.lastResponseTime ? p : best), null);
+  const cols = sorted.length > 10 ? 'two-col' : '';
+  const category = meta.roundCategory;
 
   return (
-    <div className="tv-container">
-      <div className="results-summary-container">
-        <div className="summary-header">
-          <div className="summary-title">📊 Podsumowanie Pytania</div>
-          {questionData.category && (
-            <div className="summary-category">{questionData.category}</div>
-          )}
+    <main className="screen results-screen">
+      <header className="results-header">
+        <div className="eyebrow">
+          {category?.icon} {category?.name || questionData.category || 'Wyniki'}
+          {meta.round && meta.totalRounds ? ` · Runda ${meta.round}/${meta.totalRounds}` : ''}
         </div>
+        <h1 className="screen-title">Wyniki pytania</h1>
+      </header>
 
-        <div className="correct-answer-display">
-          <div className="correct-answer-label">Poprawna odpowiedź:</div>
-          <div className="correct-answer-text">
-            <span className="answer-letter">{String.fromCharCode(65 + correctAnswer)}</span>
-            <span className="answer-content">{correctAnswerText}</span>
+      <aside className="results-answer panel">
+        <div className="panel-title"><span>Poprawna odpowiedź</span></div>
+        {Number.isInteger(correctAnswer) && (
+          <div className={`correct-answer ans-${correctAnswer}`}>
+            <span className="answer-letter">{LETTERS[correctAnswer]}</span>
+            <span className="answer-text">{correctAnswerText}</span>
           </div>
-          {questionData.explanation && (
-            <div className="answer-explanation">
-              💡 {questionData.explanation}
+        )}
+        {questionData.explanation && (
+          <p className="results-explanation">💡 {questionData.explanation}</p>
+        )}
+        <div className="results-stats">
+          <div className="stat">
+            <span className="stat-value">{hits.length}<small>/{updatedPlayers.length}</small></span>
+            <span className="stat-label">trafień</span>
+          </div>
+          {fastest && (
+            <div className="stat stat-fastest">
+              <span className="stat-value">{fastest.avatar} {(fastest.lastResponseTime / 1000).toFixed(1)}s</span>
+              <span className="stat-label">⚡ najszybciej: {fastest.name}</span>
             </div>
           )}
         </div>
+      </aside>
 
-        <div className="fastest-player">
-          {(() => {
-            const correctPlayers = updatedPlayers.filter(p => p.lastCorrect && p.lastResponseTime);
-            if (correctPlayers.length > 0) {
-              const fastest = correctPlayers.reduce((prev, current) => 
-                (prev.lastResponseTime < current.lastResponseTime) ? prev : current
-              );
-              return (
-                <div className="fastest-display">
-                  <div className="fastest-title">⚡ Najszybsza poprawna odpowiedź:</div>
-                  <div className="fastest-info">
-                    <span className="fastest-avatar">{fastest.avatar}</span>
-                    <span className="fastest-name">{fastest.name}</span>
-                    <span className="fastest-time">{(fastest.lastResponseTime / 1000).toFixed(1)}s</span>
-                  </div>
-                </div>
-              );
-            }
-            return null;
-          })()}
-        </div>
-
-        <div className="players-results">
-          <div className="players-grid-compact">
-            {[...updatedPlayers]
-              .sort((a, b) => b.score - a.score)
-              .map((player, index) => (
-              <div key={player.id} className={`player-result-compact ${player.lastCorrect ? 'correct' : 'incorrect'}`}>
-                <div className="result-rank-compact">#{index + 1}</div>
-                <div className="player-info-compact">
-                  <div className="player-avatar-compact">{player.avatar}</div>
-                  <div className="player-name-compact">{player.name}</div>
-                </div>
-                <div className="scores-display">
-                  <div className="total-score-large">{player.score}</div>
-                  <div className="score-details">
-                    <div className="points-earned-compact">
-                      {player.lastPoints > 0 ? `+${player.lastPoints}` : '0'}
-                      {player.lastTimeBonus > 0 && <span className="bonus-inline">⚡+{player.lastTimeBonus}</span>}
-                    </div>
-                  </div>
-                </div>
-                <div className="answer-mini">
-                  {player.lastAnswer !== null && player.lastAnswer !== undefined ? (
-                    <span className={`answer-indicator ${player.lastCorrect ? 'correct' : 'wrong'}`}>
-                      {player.lastCorrect ? '✅' : '❌'} {String.fromCharCode(65 + player.lastAnswer)}
-                    </span>
-                  ) : (
-                    <span className="answer-indicator no-answer">⏱️</span>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="next-question-info">
-          <div className="summary-countdown">Za chwilę następne pytanie...</div>
-        </div>
-      </div>
-    </div>
+      <section className="results-ranking panel">
+        <div className="panel-title"><span>Ranking</span></div>
+        <ol className={`ranking-list ${cols}`} style={{ '--rows': cols ? Math.ceil(sorted.length / 2) : Math.max(sorted.length, 1) }}>
+          {sorted.map((p, i) => {
+            const answered = p.lastAnswer !== null && p.lastAnswer !== undefined;
+            return (
+              <li key={p.id} className={`ranking-row ${p.lastCorrect ? 'is-hit' : 'is-miss'}`}>
+                <span className="rank-pos">{i + 1}</span>
+                <span className="rank-avatar">{p.avatar}</span>
+                <span className="rank-name">{p.name}</span>
+                <span className="rank-gain">
+                  {p.lastPoints > 0 ? `+${p.lastPoints}` : answered ? '✗' : '—'}
+                </span>
+                <span className="rank-score">{p.score}</span>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    </main>
   );
 }
 

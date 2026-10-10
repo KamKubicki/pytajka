@@ -1,6 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
-function Lobby({ sessionId, qrCode, joinUrl, localIP, players, gameSettings, totalQuestionCount, onStartGame }) {
+function Stepper({ label, value, min, max, onChange }) {
+  return (
+    <div className="stepper">
+      <span className="stepper-label">{label}</span>
+      <div className="stepper-controls">
+        <button type="button" className="stepper-btn" onClick={() => onChange(Math.max(min, value - 1))} disabled={value <= min} aria-label={`${label} mniej`}>−</button>
+        <span className="stepper-value">{value}</span>
+        <button type="button" className="stepper-btn" onClick={() => onChange(Math.min(max, value + 1))} disabled={value >= max} aria-label={`${label} więcej`}>+</button>
+      </div>
+    </div>
+  );
+}
+
+function Lobby({ sessionId, qrCode, joinUrl, players = [], gameSettings, totalQuestionCount, onStartGame }) {
   const [rounds, setRounds] = useState(gameSettings?.rounds || 5);
   const [questionsPerRound, setQuestionsPerRound] = useState(gameSettings?.questionsPerRound || 5);
 
@@ -16,117 +29,71 @@ function Lobby({ sessionId, qrCode, joinUrl, localIP, players, gameSettings, tot
     onStartGame({ rounds: clamp(rounds, 1, 10), questionsPerRound: clamp(questionsPerRound, 1, 20) });
   };
 
+  const density = players.length > 21 ? 'dense' : players.length > 10 ? 'medium' : 'roomy';
+
   return (
-    <div className="tv-container">
-      <h1 className="game-title">❓ Pytajka</h1>
+    <main className="screen lobby-screen">
+      <header className="lobby-header">
+        <h1 className="brand">Pytajka<span className="brand-dot">?</span></h1>
+        <p className="brand-tagline">Quiz na żywo · dołącz telefonem</p>
+      </header>
 
-      <div className="lobby-main-grid">
-        {/* Left Column - QR Code & Join Info */}
-        <div className="lobby-qr-section">
-          <div className="session-info-box">
-            <div className="session-id-display">
-              <span className="session-label">Kod gry:</span>
-              <span className="session-code">{sessionId}</span>
-            </div>
-
-            {qrCode && (
-              <div className="qr-code-wrapper">
-                <img src={qrCode} alt="QR Code" className="qr-image" />
-                <div className="qr-instruction">Zeskanuj kodem QR</div>
-              </div>
-            )}
-
-            {joinUrl && (
-              <div className="join-url-box">
-                <div className="url-label">Lub wejdź na:</div>
-                <div className="url-text">{joinUrl}</div>
-              </div>
-            )}
-          </div>
+      <section className="lobby-join panel">
+        <div className="join-code-label">Kod gry</div>
+        <div className="join-code">{sessionId || '······'}</div>
+        <div className="qr-frame">
+          {qrCode ? <img src={qrCode} alt="Kod QR do dołączenia" /> : <div className="qr-placeholder">…</div>}
         </div>
+        {joinUrl && <div className="join-url">{joinUrl.replace(/^https?:\/\//, '')}</div>}
+      </section>
 
-        {/* Middle Column - Players Grid */}
-        <div className="lobby-players-section">
-          <div className="players-header">
-            <span className="players-icon">👥</span>
-            <span className="players-count-text">Gracze ({players.length})</span>
-          </div>
-
-          <div className="players-grid-container">
-            {players.length === 0 ? (
-              <div className="no-players-message">
-                <div className="waiting-icon">⏳</div>
-                <div>Czekam na graczy...</div>
-              </div>
-            ) : (
-              <div className="players-grid">
-                {players.map(player => (
-                  <div key={player.id} className="player-card">
-                    <div className="player-avatar">{player.avatar}</div>
-                    <div className="player-name">{player.name}</div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+      <section className="lobby-players panel">
+        <div className="panel-title">
+          <span>Gracze</span>
+          <span className="pill">{players.length}</span>
         </div>
-
-        {/* Right Column - Settings */}
-        <div className="lobby-settings-section">
-          <div className="settings-box">
-            <h3 className="settings-title">⚙️ Ustawienia</h3>
-
-            <div className="setting-group">
-              <label className="setting-label">Rundy:</label>
-              <input
-                type="number"
-                className="setting-input"
-                value={rounds}
-                onChange={(e) => setRounds(Number(e.target.value))}
-                min="1"
-                max="10"
-              />
-            </div>
-
-            <div className="setting-group">
-              <label className="setting-label">Pytania/runda:</label>
-              <input
-                type="number"
-                className="setting-input"
-                value={questionsPerRound}
-                onChange={(e) => setQuestionsPerRound(Number(e.target.value))}
-                min="1"
-                max="20"
-              />
-            </div>
-
-            <div className="settings-summary">
-              <div className="summary-item">
-                <span className="summary-label">Łącznie pytań:</span>
-                <span className="summary-value">{rounds * questionsPerRound}</span>
-              </div>
-              {gameSettings?.showQuestionCountOnStartScreen && (
-                <div className="summary-item">
-                  <span className="summary-label">W bazie:</span>
-                  <span className="summary-value">{totalQuestionCount}</span>
-                </div>
-              )}
-            </div>
+        {players.length === 0 ? (
+          <div className="lobby-empty">
+            <div className="lobby-empty-icon">📱</div>
+            <div>Zeskanujcie kod i dołączcie!</div>
           </div>
-        </div>
-      </div>
+        ) : (
+          <ul className={`lobby-player-grid ${density}`}>
+            {players.map(player => (
+              <li key={player.id} className="lobby-player">
+                <span className="lobby-player-avatar">{player.avatar}</span>
+                <span className="lobby-player-name">{player.name}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
 
-      {/* Start Button - Bottom */}
-      <div className="lobby-start-section">
+      <section className="lobby-settings panel">
+        <div className="panel-title"><span>Ustawienia</span></div>
+        <Stepper label="Rundy" value={rounds} min={1} max={10} onChange={setRounds} />
+        <Stepper label="Pytania w rundzie" value={questionsPerRound} min={1} max={20} onChange={setQuestionsPerRound} />
+        <div className="settings-total">
+          <span>Łącznie pytań</span>
+          <strong>{rounds * questionsPerRound}</strong>
+        </div>
+        {gameSettings?.showQuestionCountOnStartScreen && (
+          <div className="settings-total muted">
+            <span>W bazie</span>
+            <strong>{totalQuestionCount}</strong>
+          </div>
+        )}
+        <p className="settings-hint">Przed każdą rundą gracze głosują na kategorię.</p>
         <button
-          className="start-game-button"
+          type="button"
+          className="btn-primary"
           onClick={handleStartGame}
           disabled={players.length === 0}
         >
-          {players.length === 0 ? '⏳ Czekam na graczy...' : '🎮 Rozpocznij grę!'}
+          {players.length === 0 ? 'Czekam na graczy…' : 'Start gry ▶'}
         </button>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
