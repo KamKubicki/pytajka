@@ -18,7 +18,7 @@ const P_REVEAL = 4; // answer reveal beats everything, incl. the hurry-up line
 
 const HIGH_GAP = 2200; // reveal / round / final may follow a bit sooner
 const SPEECH_EXTRA = 3500; // TTS may keep the bubble this much longer than its reading time
-const SPEECH_START_TIMEOUT = 1500; // blocked speech (no user gesture yet) never fires any event
+const SPEECH_START_TIMEOUT = 3500; // blocked speech (no user gesture yet) never fires any event
 const MAX_QUEUE = 3;
 const STREAK_MILESTONES = [3, 5, 7, 10];
 
@@ -79,7 +79,7 @@ function useHostCommentary({ settings, sound }) {
 
   const queueRef = useRef([]);
   const currentRef = useRef(null);
-  const lastEndRef = useRef(Date.now());
+  const lastEndRef = useRef(Date.now() - 3000); // first line may come ~1 s after mount
   const idRef = useRef(0);
   const hideTimerRef = useRef(null);
   const capTimerRef = useRef(null);
@@ -88,7 +88,7 @@ function useHostCommentary({ settings, sound }) {
   const utteranceRef = useRef(null); // keep a reference – Chrome GCs unreferenced utterances
   const voiceRef = useRef(null);
   const flapListenersRef = useRef(new Set());
-  const fillerDelayRef = useRef(rand(...FREQ.normal.filler) * 0.5);
+  const fillerDelayRef = useRef(rand(...(FREQ[settings?.frequency] || FREQ.normal).filler) * 0.5);
   const aliveRef = useRef(true);
 
   const freq = () => FREQ[settingsRef.current?.frequency] || FREQ.normal;
@@ -319,6 +319,11 @@ function useHostCommentary({ settings, sound }) {
     list.forEach(p => knownIdsRef.current.add(p.id));
   }, [players, gameState, say]);
 
+  const lastQRef = useRef(null);
+  const hurryRef = useRef(null);
+  const revealRef = useRef(null);
+  const streaksRef = useRef(new Map()); // id -> { hit, miss }
+  const leaderRef = useRef(null); // id of the current sole leader
   // game phase transitions
   const prevStateRef = useRef(gameState);
   useEffect(() => {
@@ -328,6 +333,14 @@ function useHostCommentary({ settings, sound }) {
     const c = ctxRef.current;
 
     if (prev === 'lobby' && gameState !== 'lobby') setEntranceKey(k => k + 1);
+    if (gameState === 'lobby' || gameState === 'starting') {
+      // new game (or a fresh session after a backend restart) – forget the old one
+      streaksRef.current = new Map();
+      leaderRef.current = null;
+      revealRef.current = null;
+      lastQRef.current = null;
+      hurryRef.current = null;
+    }
 
     if (gameState === 'starting') {
       const n = (c.players || []).filter(isConnected).length || (c.players || []).length;
@@ -367,7 +380,6 @@ function useHostCommentary({ settings, sound }) {
   }, [gameState, say]);
 
   // new question (sometimes)
-  const lastQRef = useRef(null);
   useEffect(() => {
     if (gameState !== 'question' || !qKey || showCorrectAnswer) return;
     if (lastQRef.current === qKey) return;
@@ -383,7 +395,6 @@ function useHostCommentary({ settings, sound }) {
   }, [gameState, qKey, showCorrectAnswer, say]);
 
   // last 5 seconds – hurry up
-  const hurryRef = useRef(null);
   useEffect(() => {
     if (gameState !== 'question' || showCorrectAnswer || !qKey || timer !== 5) return;
     if (hurryRef.current === qKey) return;
@@ -402,9 +413,6 @@ function useHostCommentary({ settings, sound }) {
   }, [gameState, showCorrectAnswer, qKey, timer, say]);
 
   // reveal: nobody / everybody / only one / fastest + leader change + streaks
-  const revealRef = useRef(null);
-  const streaksRef = useRef(new Map()); // id -> { hit, miss }
-  const leaderRef = useRef(null); // id of the current sole leader
   useEffect(() => {
     if (!showCorrectAnswer || !qKey || revealRef.current === qKey) return;
     revealRef.current = qKey;
@@ -419,7 +427,7 @@ function useHostCommentary({ settings, sound }) {
 
     // streaks (counted on the TV)
     const streaks = streaksRef.current;
-    all.forEach(p => {
+    participants.forEach(p => { // disconnected players keep their streak frozen
       const s = streaks.get(p.id) || { hit: 0, miss: 0 };
       if (p.lastCorrect) { s.hit += 1; s.miss = 0; } else { s.miss += 1; s.hit = 0; }
       streaks.set(p.id, s);
@@ -468,7 +476,7 @@ function useHostCommentary({ settings, sound }) {
       say(first[0], first[1], { priority: P_REVEAL, phase, ttl: 6500, chance });
     }
     if (second && (special || second[0] !== 'mixed')) {
-      say(second[0], second[1], { priority: P_NORMAL, phase, ttl: 9000, chance: 0.75 });
+      say(second[0], second[1], { priority: P_NORMAL, phase, ttl: 16000, chance: 0.75 });
     }
   }, [showCorrectAnswer, qKey, say]);
 

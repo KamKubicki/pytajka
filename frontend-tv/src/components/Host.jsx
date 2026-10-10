@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { memo, useEffect, useRef, useState } from 'react';
 import useHostCommentary from '../hooks/useHostCommentary';
 import { HOST_NAME } from '../hostLines';
 import '../host.css';
@@ -45,7 +45,7 @@ function Mouth({ shape }) {
 }
 
 /** Prof. Pytajek – an original round quiz-show host drawn as inline SVG. */
-function HostFigure({ emotion, talking, mouthRef }) {
+const HostFigure = memo(function HostFigure({ emotion, talking, mouthRef }) {
   let shape = MOUTH_BY_EMOTION[emotion] || 'smile';
   if (talking && STROKE_MOUTHS.has(shape)) shape = emotion === 'sad' ? 'o' : 'open';
 
@@ -201,7 +201,7 @@ function HostFigure({ emotion, talking, mouthRef }) {
       </g>
     </svg>
   );
-}
+});
 
 const TYPE_MS = 28;
 
@@ -245,7 +245,9 @@ function Host({ settings, sound }) {
   const visible = bubble ? text.slice(0, typed) : text;
 
   return (
-    <aside className="host" aria-live="polite">
+    <aside className="host">
+      {/* full line for screen readers (the visible text is typed letter by letter) */}
+      <span className="host-sr" aria-live="polite">{bubble?.text || ''}</span>
       <div className={`host-bubble ${bubble ? 'is-open' : ''}`} key={`bubble-${current?.id || 0}`}>
         {current && (
           <>

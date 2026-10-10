@@ -437,6 +437,7 @@ const useSound = () => {
   const trackRef = useRef(null); // currently playing music track
   const desiredMusicRef = useRef(null);
   const mutedRef = useRef(false);
+  const duckedRef = useRef(false); // host is speaking -> music quieter
   const [muted, setMutedState] = useState(false);
 
   const fadeOutTrack = useCallback((track) => {
@@ -500,7 +501,7 @@ const useSound = () => {
       const g = createAudioGraph();
       if (!g) return null;
       g.music = g.ctx.createGain();
-      g.music.gain.value = MUSIC_GAIN;
+      g.music.gain.value = duckedRef.current ? MUSIC_GAIN * 0.3 : MUSIC_GAIN;
       g.music.connect(g.master);
       if (mutedRef.current) g.master.gain.value = 0;
       g.ctx.onstatechange = () => syncMusic();
@@ -587,7 +588,6 @@ const useSound = () => {
   const toggleMute = useCallback(() => setMuted(!mutedRef.current), [setMuted]);
 
   // Lower the background music while the host is speaking (only if audio already exists)
-  const duckedRef = useRef(false);
   const duckMusic = useCallback((on) => {
     const d = !!on;
     if (duckedRef.current === d) return;
