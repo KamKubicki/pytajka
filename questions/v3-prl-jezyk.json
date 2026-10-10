@@ -27,16 +27,16 @@
   },
   {
     "id": "prl_g003",
-    "question": "Jak nazywał się wieczorny blok dobranocek dla dzieci w TVP?",
+    "question": "Jak nazywano w PRL wieczorną bajkę dla dzieci w telewizji?",
     "answers": [
       "Teleranek",
       "Ciuchcia",
-      "Wieczorynka",
+      "Dobranocka",
       "Domowe Przedszkole"
     ],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Wieczorynka to blok bajek nadawany wieczorem, przed snem."
+    "explanation": "Dobranocka była emitowana wieczorem, tuż przed pójściem dzieci spać."
   },
   {
     "id": "prl_g004",
@@ -118,7 +118,7 @@
   },
   {
     "id": "prl_g010",
-    "question": "Która guma do żucia miała w opakowaniu komiks z kaczorem Disneya?",
+    "question": "Która guma do żucia z lat 80. i 90. miała w opakowaniu komiks z kaczorem Disneya?",
     "answers": [
       "Turbo",
       "Donald",
@@ -131,7 +131,7 @@
   },
   {
     "id": "prl_g011",
-    "question": "Co przedstawiały kolekcjonerskie obrazki z gumy Turbo?",
+    "question": "Co przedstawiały kolekcjonerskie obrazki z gumy Turbo, hitu lat 90.?",
     "answers": [
       "Samochody",
       "Piłkarzy",
@@ -274,16 +274,16 @@
   },
   {
     "id": "prl_g022",
-    "question": "Którego dnia 1989 roku odbyły się częściowo wolne wybory do Sejmu?",
+    "question": "Jak nazywała się państwowa sieć kiosków z gazetami i papierosami w PRL?",
     "answers": [
-      "4 czerwca",
-      "3 maja",
-      "31 sierpnia",
-      "11 listopada"
+      "Ruch",
+      "Kolporter",
+      "Empik",
+      "Relay"
     ],
     "correct": 0,
     "difficulty": "medium",
-    "explanation": "Wybory 4 czerwca 1989 r. zakończyły się wielkim sukcesem Solidarności."
+    "explanation": "Kioski „Ruchu” stały w PRL niemal na każdym rogu."
   },
   {
     "id": "prl_g023",
@@ -334,7 +334,7 @@
       "Kazimierz Pawlak"
     ],
     "correct": 1,
-    "difficulty": "hard",
+    "difficulty": "medium",
     "explanation": "Inżynier Stefan Karwowski, grany przez Andrzeja Kopiczyńskiego, to tytułowy „czterdziestolatek”."
   },
   {
@@ -360,16 +360,16 @@
       "Z wagonami restauracyjnymi"
     ],
     "correct": 3,
-    "difficulty": "medium",
+    "difficulty": "hard",
     "explanation": "Wars obsługiwał wagony restauracyjne i sypialne w polskich pociągach."
   },
   {
     "id": "prl_g029",
     "question": "Który samochód FSO zaczęło produkować w 1978 roku?",
     "answers": [
-      "Fiat 126p",
-      "Trabant",
-      "Wartburg",
+      "Fiat 125p",
+      "Warszawa",
+      "Syrena",
       "Polonez"
     ],
     "correct": 3,
@@ -589,7 +589,7 @@
     "question": "Jak dawniej nazywała się gra liczbowa Lotto?",
     "answers": [
       "Wielki Los",
-      "Totek",
+      "Złota Kula",
       "Duży Lotek",
       "Szczęśliwa Szóstka"
     ],
@@ -887,14 +887,14 @@
     "id": "lang_g019",
     "question": "Która pisownia jest poprawna?",
     "answers": [
-      "hrząszcz",
-      "chżąszcz",
-      "chrząszcz",
-      "chrzonszcz"
+      "charcerz",
+      "harceż",
+      "harcerz",
+      "charceż"
     ],
     "correct": 2,
     "difficulty": "medium",
-    "explanation": "Poprawnie: „chrząszcz” – przez „ch”, „rz” i „ą”."
+    "explanation": "Poprawnie: „harcerz” – przez „h” i „rz”."
   },
   {
     "id": "lang_g020",
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "lang_g041",
-    "question": "Słowo „szlafrok” zapożyczyliśmy z języka…?",
+    "question": "Skąd przywędrowało do polszczyzny słowo „szlafrok”?",
     "answers": [
       "Z francuskiego",
       "Z włoskiego",
@@ -1266,8 +1266,8 @@
     "answers": [
       "32",
       "26",
-      "30",
-      "35"
+      "29",
+      "30"
     ],
     "correct": 0,
     "difficulty": "hard",
