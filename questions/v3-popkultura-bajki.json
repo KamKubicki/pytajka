@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "ent_f001",
+    "question": "Jak nazywa się zielony dinozaur, na którym jeździ Mario?",
+    "answers": [
+      "Wario",
+      "Yoshi",
+      "Bowser",
+      "Toad"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Yoshi to wierny wierzchowiec Mario, znany od gry „Super Mario World”."
+  },
+  {
+    "id": "ent_f002",
+    "question": "Co trzeba zawołać w grze UNO, gdy zostaje się z jedną kartą w ręce?",
+    "answers": [
+      "UNO!",
+      "Makao!",
+      "Bingo!",
+      "Stop!"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kto zapomni zawołać „UNO!” i zostanie przyłapany, dobiera karty karne."
+  },
+  {
+    "id": "ent_f003",
+    "question": "Jak ma na imię księżniczka, którą Mario ratuje z rąk Bowsera?",
+    "answers": [
+      "Zelda",
+      "Rosalina",
+      "Peach",
+      "Daisy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Księżniczka Peach rządzi Grzybowym Królestwem i regularnie jest porywana przez Bowsera."
+  },
+  {
+    "id": "ent_f004",
+    "question": "Jak wabi się klacz Geralta w grach o Wiedźminie?",
+    "answers": [
+      "Burza",
+      "Iskra",
+      "Płotka",
+      "Kasztanka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Geralt każdego kolejnego konia nazywa Płotką."
+  },
+  {
+    "id": "ent_f005",
+    "question": "Jak ma na imię bard, najlepszy przyjaciel Geralta z Rivii?",
+    "answers": [
+      "Vesemir",
+      "Zoltan",
+      "Jaskier",
+      "Regis"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jaskier to poeta i trubadur, który towarzyszy Geraltowi w sadze Sapkowskiego i w grach."
+  },
+  {
+    "id": "ent_f006",
+    "question": "Jak nazywa się zielony stwór w Minecrafcie, który podchodzi po cichu i wybucha?",
+    "answers": [
+      "Zombie",
+      "Creeper",
+      "Enderman",
+      "Ghast"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Creeper syczy tuż przed eksplozją i niszczy bloki wokół siebie."
+  },
+  {
+    "id": "ent_f007",
+    "question": "Jak ma na imię przyjaciel Asteriksa, który dźwiga menhiry?",
+    "answers": [
+      "Idefix",
+      "Kakofonix",
+      "Panoramix",
+      "Obelix"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Obelix jako dziecko wpadł do kotła z magicznym napojem i ma nadludzką siłę na stałe."
+  },
+  {
+    "id": "ent_f008",
+    "question": "Jak nazywa się niebieski, superszybki jeż – maskotka firmy Sega?",
+    "answers": [
+      "Sonic",
+      "Spyro",
+      "Tails",
+      "Knuckles"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Sonic the Hedgehog zadebiutował w 1991 roku jako odpowiedź Segi na Mario."
+  },
+  {
+    "id": "ent_f009",
+    "question": "Z kim walczą terroryści w grze Counter-Strike?",
+    "answers": [
+      "Z najemnikami",
+      "Z kosmitami",
+      "Z policją",
+      "Z antyterrorystami"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W Counter-Strike rywalizują drużyny terrorystów i antyterrorystów."
+  },
+  {
+    "id": "ent_f010",
+    "question": "Gdzie w Monopoly trafia gracz, który wyrzuci trzy dublety z rzędu?",
+    "answers": [
+      "Na start",
+      "Na pole Szansa",
+      "Do więzienia",
+      "Na parking"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Trzy dublety z rzędu oznaczają natychmiastowe pójście do więzienia."
+  },
+  {
+    "id": "ent_f011",
+    "question": "Ile pionków ma każdy gracz w grze w chińczyka?",
+    "answers": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Każdy gracz w chińczyku musi doprowadzić cztery pionki do swojego domku."
+  },
+  {
+    "id": "ent_f012",
+    "question": "Która figura szachowa porusza się „w kształcie litery L”?",
+    "answers": [
+      "Goniec",
+      "Wieża",
+      "Hetman",
+      "Skoczek"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Skoczek (koń) jako jedyny może przeskakiwać inne figury."
+  },
+  {
+    "id": "ent_f013",
+    "question": "Który miliarder-wynalazca kryje się pod zbroją Iron Mana?",
+    "answers": [
+      "Tony Stark",
+      "Steve Rogers",
+      "Bruce Banner",
+      "Peter Parker"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tony Stark to genialny wynalazca i miliarder w zbroi własnej konstrukcji."
+  },
+  {
+    "id": "ent_f014",
+    "question": "Które koło ratunkowe w „Milionerach” polega na zadzwonieniu do znajomego?",
+    "answers": [
+      "Zamiana pytania",
+      "Pytanie do publiczności",
+      "Telefon do przyjaciela",
+      "Pół na pół"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Przy telefonie do przyjaciela gracz ma 30 sekund na rozmowę."
+  },
+  {
+    "id": "ent_f015",
+    "question": "Kto prowadził „Milionerów” w TVN od pierwszego odcinka w 1999 roku?",
+    "answers": [
+      "Hubert Urbański",
+      "Krzysztof Ibisz",
+      "Karol Strasburger",
+      "Tadeusz Sznuk"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Hubert Urbański jest twarzą polskiej edycji „Milionerów” od samego początku."
+  },
+  {
+    "id": "ent_f016",
+    "question": "Za co trzeba zapłacić z wygranej w teleturnieju „Koło Fortuny”?",
+    "answers": [
+      "Za kręcenie kołem",
+      "Za spółgłoskę",
+      "Za samogłoskę",
+      "Za podpowiedź"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Spółgłoski zgaduje się po zakręceniu kołem, a samogłoski trzeba kupić."
+  },
+  {
+    "id": "ent_f017",
+    "question": "Kto prowadził teleturniej „Jeden z dziesięciu” od jego startu w 1994 roku?",
+    "answers": [
+      "Karol Strasburger",
+      "Tadeusz Sznuk",
+      "Hubert Urbański",
+      "Krzysztof Ibisz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tadeusz Sznuk prowadzi „Jednego z dziesięciu” od pierwszego odcinka."
+  },
+  {
+    "id": "ent_f018",
+    "question": "W jakim mieście mieszka i walczy z przestępcami Batman?",
+    "answers": [
+      "Gotham",
+      "Star City",
+      "Central City",
+      "Metropolis"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gotham City to mroczne miasto Batmana; Metropolis należy do Supermana."
+  },
+  {
+    "id": "ent_f019",
+    "question": "Jak naprawdę nazywa się Spider-Man?",
+    "answers": [
+      "Peter Parker",
+      "Steve Rogers",
+      "Clark Kent",
+      "Bruce Wayne"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Peter Parker zyskał moce po ugryzieniu przez radioaktywnego pająka."
+  },
+  {
+    "id": "ent_f020",
+    "question": "Jaki minerał odbiera Supermanowi siły?",
+    "answers": [
+      "Adamantium",
+      "Wibranium",
+      "Kryptonit",
+      "Obsydian"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kryptonit to pozostałość po rodzinnej planecie Supermana, Kryptonie."
+  },
+  {
+    "id": "ent_f021",
+    "question": "W którym roku ukazała się pierwsza gra „Wiedźmin” studia CD Projekt?",
+    "answers": [
+      "2003",
+      "2011",
+      "2007",
+      "2015"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pierwszy „Wiedźmin” trafił na PC w październiku 2007 roku."
+  },
+  {
+    "id": "ent_f022",
+    "question": "Ile linii trzeba skasować naraz w Tetrisie, by zdobyć „tetrisa”?",
+    "answers": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tetris to usunięcie czterech linii jednocześnie, możliwe tylko długim klockiem „I”."
+  },
+  {
+    "id": "ent_f023",
+    "question": "W którego Pokémona ewoluuje Pikachu?",
+    "answers": [
+      "Raichu",
+      "Electabuzz",
+      "Jolteon",
+      "Pichu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pikachu ewoluuje w Raichu pod wpływem Kamienia Gromu; Pichu to jego wcześniejsza forma."
+  },
+  {
+    "id": "ent_f024",
+    "question": "Z jakiego bloku buduje się portal do Netheru w Minecrafcie?",
+    "answers": [
+      "Z żelaza",
+      "Z bruku",
+      "Z diamentów",
+      "Z obsydianu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Ramę portalu do Netheru buduje się z obsydianu i podpala krzesiwem."
+  },
+  {
+    "id": "ent_f025",
+    "question": "W którym roku ukazało się GTA V?",
+    "answers": [
+      "2010",
+      "2013",
+      "2008",
+      "2015"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Grand Theft Auto V zadebiutowało we wrześniu 2013 roku."
+  },
+  {
+    "id": "ent_f026",
+    "question": "Jak nazywa się najsłynniejsza, pustynna mapa w Counter-Strike?",
+    "answers": [
+      "Inferno",
+      "Nuke",
+      "Train",
+      "Dust2"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "de_dust2 to kultowa mapa z dwoma bombsite’ami A i B."
+  },
+  {
+    "id": "ent_f027",
+    "question": "W której planszówce buduje się drogi i osady, handlując drewnem, owcami i zbożem?",
+    "answers": [
+      "Wsiąść do Pociągu",
+      "Carcassonne",
+      "Monopoly",
+      "Catan"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Osadnicy z Catanu” to niemiecka gra Klausa Teubera z 1995 roku."
+  },
+  {
+    "id": "ent_f028",
+    "question": "W której grze planszowej szuka się mordercy, narzędzia zbrodni i pokoju?",
+    "answers": [
+      "Ryzyko",
+      "Cluedo",
+      "Scotland Yard",
+      "Mastermind"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W Cluedo gracze dedukują, kto, czym i gdzie zabił gospodarza."
+  },
+  {
+    "id": "ent_f029",
+    "question": "Ile kart liczy talia do gry w tysiąca?",
+    "answers": [
+      "32",
+      "24",
+      "52",
+      "20"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W tysiąca gra się kartami od dziewiątki do asa w czterech kolorach."
+  },
+  {
+    "id": "ent_f030",
+    "question": "Jaką piosenkę podsuwa się ofierze internetowego żartu „rickroll”?",
+    "answers": [
+      "Don’t You Want Me",
+      "Together Forever",
+      "Take On Me",
+      "Never Gonna Give You Up"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rickroll to podmieniony link prowadzący do teledysku Ricka Astleya z 1987 roku."
+  },
+  {
+    "id": "ent_f031",
+    "question": "Który teledysk jako pierwszy przekroczył miliard wyświetleń na YouTube, w 2012 roku?",
+    "answers": [
+      "Harlem Shake",
+      "Despacito",
+      "Gangnam Style",
+      "Baby"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Klip PSY przebił miliard wyświetleń w grudniu 2012 roku."
+  },
+  {
+    "id": "ent_f032",
+    "question": "Jak ma na imię wierny kamerdyner Batmana?",
+    "answers": [
+      "Alfred",
+      "Jeeves",
+      "Jarvis",
+      "Robin"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Alfred Pennyworth opiekuje się Bruce’em Wayne’em od dzieciństwa."
+  },
+  {
+    "id": "ent_f033",
+    "question": "Kto stworzył komiks „Tytus, Romek i A’Tomek”?",
+    "answers": [
+      "Janusz Christa",
+      "Grzegorz Rosiński",
+      "Papcio Chmiel",
+      "Tadeusz Baranowski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Henryk Jerzy Chmielewski, czyli Papcio Chmiel, rysował przygody Tytusa od 1957 roku."
+  },
+  {
+    "id": "ent_f034",
+    "question": "Kto jest autorem komiksu „Kajko i Kokosz”?",
+    "answers": [
+      "Janusz Christa",
+      "Grzegorz Rosiński",
+      "Tadeusz Baranowski",
+      "Papcio Chmiel"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Janusz Christa stworzył dwóch słowiańskich wojów z grodu Mirmiła."
+  },
+  {
+    "id": "ent_f035",
+    "question": "Jak nazywa się łysy miliarder, arcywróg Supermana?",
+    "answers": [
+      "Magneto",
+      "Doktor Doom",
+      "Lex Luthor",
+      "Joker"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Lex Luthor to genialny przestępca, który obsesyjnie nienawidzi Supermana."
+  },
+  {
+    "id": "ent_f036",
+    "question": "Ile punktów trzeba zdobyć w finale „Familiady”, by wygrać główną nagrodę?",
+    "answers": [
+      "300",
+      "150",
+      "100",
+      "200"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dwoje członków rodziny musi wspólnie uzbierać co najmniej 200 punktów."
+  },
+  {
+    "id": "ent_f037",
+    "question": "Jak ma na imię chłopak w zielonej czapce, bohater gier „The Legend of Zelda”?",
+    "answers": [
+      "Zelda",
+      "Link",
+      "Navi",
+      "Ganon"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wbrew częstej pomyłce Zelda to księżniczka, a bohaterem jest Link."
+  },
+  {
+    "id": "ent_f038",
+    "question": "W jakim języku mówią postacie w grze „The Sims”?",
+    "answers": [
+      "Klingoński",
+      "Simlish",
+      "Sindarin",
+      "Esperanto"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Simlish to wymyślony bełkot, by dialogi nie wymagały tłumaczenia."
+  },
+  {
+    "id": "ent_f039",
+    "question": "Jak nazywał się wiecznie naburmuszony kot, gwiazda memów od 2012 roku?",
+    "answers": [
+      "Nyan Cat",
+      "Keyboard Cat",
+      "Grumpy Cat",
+      "Longcat"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Grumpy Cat, czyli kotka Tardar Sauce, zawdzięczała minę karłowatości."
+  },
+  {
+    "id": "ent_f040",
+    "question": "Z jakiego metalu są pazury Wolverine’a?",
+    "answers": [
+      "Z tytanu",
+      "Z adamantium",
+      "Z kryptonitu",
+      "Z wibranium"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Szkielet i pazury Wolverine’a pokryto niezniszczalnym adamantium."
+  },
+  {
+    "id": "ent_f041",
+    "question": "Kto wymyślił grę „Tetris”?",
+    "answers": [
+      "Aleksiej Pażytnow",
+      "Markus Persson",
+      "Hideo Kojima",
+      "Shigeru Miyamoto"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pażytnow napisał Tetrisa w 1984 roku w moskiewskim centrum komputerowym."
+  },
+  {
+    "id": "ent_f042",
+    "question": "Ile Pokémonów liczyła pierwsza generacja gier z 1996 roku?",
+    "answers": [
+      "100",
+      "151",
+      "200",
+      "251"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pierwsza generacja obejmowała 151 stworków, od Bulbasaura do Mew."
+  },
+  {
+    "id": "ent_f043",
+    "question": "Z której gry pochodzi słynny mem „The cake is a lie”?",
+    "answers": [
+      "Portal",
+      "Half-Life",
+      "Halo",
+      "Doom"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Obietnica tortu to kłamstwo komputera GLaDOS z gry Portal z 2007 roku."
+  },
+  {
+    "id": "ent_f044",
+    "question": "W którym roku zadebiutowała gra „Super Mario Bros.”?",
+    "answers": [
+      "1988",
+      "1981",
+      "1990",
+      "1985"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Super Mario Bros. ukazało się w 1985 roku na konsolę NES."
+  },
+  {
+    "id": "ent_f045",
+    "question": "Modyfikacją której gry był pierwotnie Counter-Strike?",
+    "answers": [
+      "Doom",
+      "Quake",
+      "Unreal",
+      "Half-Life"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Counter-Strike powstał w 1999 roku jako amatorski mod do Half-Life."
+  },
+  {
+    "id": "ent_f046",
+    "question": "Kto był pierwszym prowadzącym „Koło Fortuny” w TVP?",
+    "answers": [
+      "Wojciech Pijanowski",
+      "Krzysztof Ibisz",
+      "Zygmunt Chajzer",
+      "Tadeusz Sznuk"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Wojciech Pijanowski prowadził „Koło Fortuny” od startu programu w 1992 roku."
+  },
+  {
+    "id": "ent_f047",
+    "question": "Ile pól ma plansza do warcabów polskich?",
+    "answers": [
+      "144",
+      "100",
+      "81",
+      "64"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "W warcaby polskie gra się na planszy 10×10, w odróżnieniu od szachowej 8×8."
+  },
+  {
+    "id": "ent_f048",
+    "question": "Kto stworzył postać Mario?",
+    "answers": [
+      "Hideo Kojima",
+      "Satoru Iwata",
+      "Yuji Naka",
+      "Shigeru Miyamoto"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Miyamoto zaprojektował Mario do automatu „Donkey Kong” z 1981 roku."
+  },
+  {
+    "id": "ent_f049",
+    "question": "Kto rysował komiks „Thorgal”?",
+    "answers": [
+      "Janusz Christa",
+      "Papcio Chmiel",
+      "Tadeusz Baranowski",
+      "Grzegorz Rosiński"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Polski rysownik Grzegorz Rosiński tworzył „Thorgala” do scenariuszy Jeana Van Hamme’a."
+  },
+  {
+    "id": "ent_f050",
+    "question": "Z jakiej wyspy pochodzi Wonder Woman?",
+    "answers": [
+      "Z Asgardu",
+      "Z Themysciry",
+      "Z Kryptonu",
+      "Z Atlantydy"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Diana dorastała na Themyscirze, ukrytej wyspie Amazonek."
+  },
+  {
+    "id": "kids_f001",
+    "question": "Jak miał na imię psiak, bohater polskiej kreskówki, który zawsze śpieszył z pomocą?",
+    "answers": [
+      "Pluto",
+      "Azor",
+      "Burek",
+      "Reksio"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Reksio to jeden z najsłynniejszych bohaterów polskiej Dobranocki."
+  },
+  {
+    "id": "kids_f002",
+    "question": "Jak nazywa się miś z oklapniętym uszkiem z polskiej Dobranocki?",
+    "answers": [
+      "Kubuś Puchatek",
+      "Miś Uszatek",
+      "Miś Paddington",
+      "Miś Colargol"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Miś Uszatek ma jedno uszko oklapnięte i jest symbolem Dobranocki."
+  },
+  {
+    "id": "kids_f003",
+    "question": "Jak ma na imię leniwy truteń, przyjaciel Pszczółki Mai?",
+    "answers": [
+      "Aleksander",
+      "Bzyk",
+      "Filip",
+      "Gucio"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Gucio to sympatyczny, wiecznie głodny truteń, który towarzyszy Mai."
+  },
+  {
+    "id": "kids_f004",
+    "question": "Jak ma na imię kot, który ciągle goni mysz Jerry’ego?",
+    "answers": [
+      "Filemon",
+      "Tom",
+      "Garfield",
+      "Sylwester"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tom i Jerry to kreskówka MGM, która powstała w 1940 roku."
+  },
+  {
+    "id": "kids_f005",
+    "question": "Jak nazywa się zły czarodziej, który próbuje złapać Smerfy?",
+    "answers": [
+      "Gargamel",
+      "Merlin",
+      "Ważniak",
+      "Papa Smerf"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gargamel marzy o schwytaniu Smerfów, ale nigdy mu się to nie udaje."
+  },
+  {
+    "id": "kids_f006",
+    "question": "Jak mają na imię siostrzeńcy Kaczora Donalda?",
+    "answers": [
+      "Jaś, Staś i Gaś",
+      "Hyzio, Dyzio i Zyzio",
+      "Bolek, Lolek i Tola",
+      "Kwik, Kwak i Kwek"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Trzej kaczorkowie rozróżniani są po kolorach ubranek."
+  },
+  {
+    "id": "kids_f007",
+    "question": "Jak nazywa się bogaty wujek Kaczora Donalda, który kąpie się w złotych monetach?",
+    "answers": [
+      "Diodak",
+      "Granit Forsant",
+      "Sknerus McKwacz",
+      "Goofy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Sknerus McKwacz, najbogatszy kaczor świata, pojawił się w komiksie Carla Barksa w 1947 roku."
+  },
+  {
+    "id": "kids_f008",
+    "question": "Jak ma na imię lwiątko, główny bohater „Króla Lwa”?",
+    "answers": [
+      "Mufasa",
+      "Skaza",
+      "Simba",
+      "Nala"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Simba to syn Mufasy, który ostatecznie zostaje królem Lwiej Ziemi."
+  },
+  {
+    "id": "kids_f009",
+    "question": "Jak ma na imię kowboj, ulubiona zabawka Andy’ego w „Toy Story”?",
+    "answers": [
+      "Chudy",
+      "Buzz",
+      "Jessie",
+      "Pan Bulwa"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W polskim dubbingu kowboj Woody nazywa się Chudy."
+  },
+  {
+    "id": "kids_f010",
+    "question": "Co zgubił Kopciuszek, uciekając z balu o północy?",
+    "answers": [
+      "Rękawiczkę",
+      "Koronę",
+      "Naszyjnik",
+      "Pantofelek"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Książę odnalazł Kopciuszka, przymierzając zgubiony pantofelek."
+  },
+  {
+    "id": "kids_f011",
+    "question": "Ilu krasnoludków spotkała Królewna Śnieżka?",
+    "answers": [
+      "6",
+      "12",
+      "5",
+      "7"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Śnieżka zamieszkała w lesie u siedmiu krasnoludków."
+  },
+  {
+    "id": "kids_f012",
+    "question": "Ile dalmatyńczyków jest w tytule słynnego filmu Disneya?",
+    "answers": [
+      "100",
+      "101",
+      "111",
+      "99"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„101 dalmatyńczyków” to animacja Disneya z 1961 roku o porwanych szczeniakach."
+  },
+  {
+    "id": "kids_f013",
+    "question": "Jak wabi się pies Myszki Miki?",
+    "answers": [
+      "Reksio",
+      "Azor",
+      "Spike",
+      "Pluto"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pluto to wierny pies Mikiego, który – w przeciwieństwie do Goofy’ego – nie mówi."
+  },
+  {
+    "id": "kids_f014",
+    "question": "Kto napisał baśń „Brzydkie kaczątko”?",
+    "answers": [
+      "Hans Christian Andersen",
+      "Ezop",
+      "Bracia Grimm",
+      "Charles Perrault"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Andersen opublikował „Brzydkie kaczątko” w 1843 roku."
+  },
+  {
+    "id": "kids_f015",
+    "question": "W której baśni dzieci trafiają do chatki z piernika?",
+    "answers": [
+      "Czerwony Kapturek",
+      "Calineczka",
+      "Kot w butach",
+      "Jaś i Małgosia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rodzeństwo z baśni braci Grimm przechytrzyło złą czarownicę."
+  },
+  {
+    "id": "kids_f016",
+    "question": "Jak ma na imię dziewczyna o bardzo długich włosach, zamknięta w wieży?",
+    "answers": [
+      "Kopciuszek",
+      "Calineczka",
+      "Śpiąca Królewna",
+      "Roszpunka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Do wieży Roszpunki wchodziło się po jej warkoczu."
+  },
+  {
+    "id": "kids_f017",
+    "question": "Jak ma na imię chłopiec, najlepszy przyjaciel Kubusia Puchatka?",
+    "answers": [
+      "Krzyś",
+      "Jaś",
+      "Piotruś",
+      "Staś"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Krzyś to postać wzorowana na synu autora, Christopherze Robinie Milne."
+  },
+  {
+    "id": "kids_f018",
+    "question": "W jakiej grze podwórkowej skacze się po narysowanych kredą polach?",
+    "answers": [
+      "W berka",
+      "W zośkę",
+      "W klasy",
+      "W chowanego"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W klasach rzuca się kamyk i skacze na jednej nodze po kolejnych polach."
+  },
+  {
+    "id": "kids_f019",
+    "question": "Jak kończy się okrzyk w zabawie „Raz, dwa, trzy, Baba Jaga…”?",
+    "answers": [
+      "Patrzy!",
+      "Idzie!",
+      "Śpi!",
+      "Woła!"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Na hasło „Baba Jaga patrzy!” wszyscy muszą zamrzeć w bezruchu."
+  },
+  {
+    "id": "kids_f020",
+    "question": "W jakiej grze na kartce w kratkę strzela się, podając np. „B5”?",
+    "answers": [
+      "W kółko i krzyżyk",
+      "W wisielca",
+      "W państwa-miasta",
+      "W statki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W statki próbuje się zatopić ukrytą flotę przeciwnika."
+  },
+  {
+    "id": "kids_f021",
+    "question": "Skąd pochodzi Krecik, bohater kreskówek dla dzieci?",
+    "answers": [
+      "Z Polski",
+      "Z Czechosłowacji",
+      "Z Jugosławii",
+      "Z Węgier"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pierwsza kreskówka z Krecikiem powstała w 1957 roku w Pradze."
+  },
+  {
+    "id": "kids_f022",
+    "question": "W jakim mieście działało studio, w którym powstali Bolek i Lolek?",
+    "answers": [
+      "W Krakowie",
+      "W Bielsku-Białej",
+      "W Łodzi",
+      "W Warszawie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bolek i Lolek to dzieło Studia Filmów Rysunkowych w Bielsku-Białej."
+  },
+  {
+    "id": "kids_f023",
+    "question": "Jak ma na imię koleżanka Bolka i Lolka?",
+    "answers": [
+      "Hela",
+      "Basia",
+      "Tola",
+      "Ola"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Tola często towarzyszyła braciom w ich przygodach."
+  },
+  {
+    "id": "kids_f024",
+    "question": "Jakim gatunkiem ryby jest Nemo z filmu Pixara?",
+    "answers": [
+      "Pokolcem",
+      "Błazenkiem",
+      "Gupikiem",
+      "Skalarem"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nemo to rybka błazenek mieszkająca w ukwiale."
+  },
+  {
+    "id": "kids_f025",
+    "question": "W którym wierszu Brzechwy kłócą się ze sobą warzywa?",
+    "answers": [
+      "Pchła Szachrajka",
+      "Na straganie",
+      "Samochwała",
+      "Kaczka dziwaczka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Na straganie w dzień targowy takie słyszy się rozmowy…”."
+  },
+  {
+    "id": "kids_f026",
+    "question": "Kto w wierszu Tuwima szukał okularów, które miał na nosie?",
+    "answers": [
+      "Pan Tralaliński",
+      "Pan Maluśkiewicz",
+      "Pan Hilary",
+      "Pan Kleks"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Biega, krzyczy pan Hilary: Gdzie są moje okulary?”."
+  },
+  {
+    "id": "kids_f027",
+    "question": "Z jakiego kraju pochodził Hans Christian Andersen?",
+    "answers": [
+      "Z Norwegii",
+      "Ze Szwecji",
+      "Z Danii",
+      "Z Niemiec"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Andersen urodził się w 1805 roku w duńskim Odense."
+  },
+  {
+    "id": "kids_f028",
+    "question": "Ile lat spała Śpiąca Królewna?",
+    "answers": [
+      "100",
+      "50",
+      "7",
+      "1000"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Klątwa sprawiła, że królewna i cały zamek zasnęli na sto lat."
+  },
+  {
+    "id": "kids_f029",
+    "question": "Kto jest autorem „Kubusia Puchatka”?",
+    "answers": [
+      "J.M. Barrie",
+      "Roald Dahl",
+      "A.A. Milne",
+      "Lewis Carroll"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Alan Alexander Milne wydał „Kubusia Puchatka” w 1926 roku."
+  },
+  {
+    "id": "kids_f030",
+    "question": "Jak ma na imię dziewczyna Muminka?",
+    "answers": [
+      "Panna Migotka",
+      "Mała Mi",
+      "Paszczak",
+      "Buka"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Panna Migotka ma grzywkę i złotą bransoletkę na nóżce."
+  },
+  {
+    "id": "kids_f031",
+    "question": "Jak ma na imię syrenka z filmu Disneya z 1989 roku?",
+    "answers": [
+      "Bella",
+      "Dżasmina",
+      "Ariel",
+      "Aurora"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Mała syrenka” Disneya powstała na motywach baśni Andersena."
+  },
+  {
+    "id": "kids_f032",
+    "question": "Z jakiego kraju pochodzi kreskówka „Wilk i Zając”?",
+    "answers": [
+      "Z NRD",
+      "Z Węgier",
+      "Z ZSRR",
+      "Z Czechosłowacji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Radziecka seria „Nu, pogodi!” powstawała od 1969 roku."
+  },
+  {
+    "id": "kids_f033",
+    "question": "Jak nazywają się dwaj nieporadni czescy majsterkowicze z kreskówki?",
+    "answers": [
+      "Flip i Flap",
+      "Bolek i Lolek",
+      "Jacek i Placek",
+      "Pat i Mat"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Każdy odcinek kończą swoim „A je to!”."
+  },
+  {
+    "id": "kids_f034",
+    "question": "Co piły Gumisie, by skakać bardzo wysoko?",
+    "answers": [
+      "Mleko jednorożca",
+      "Miód lipowy",
+      "Sok z gumijagód",
+      "Rosę z koniczyny"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sok z gumijagód dawał Gumisiom moc skakania na ogromne wysokości."
+  },
+  {
+    "id": "kids_f035",
+    "question": "Jak nazywa się małpka Aladyna z filmu Disneya?",
+    "answers": [
+      "Abu",
+      "Dżafar",
+      "Jago",
+      "Rajah"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Abu to sprytna małpka-złodziejaszek; Rajah to tygrys, a Jago – papuga."
+  },
+  {
+    "id": "kids_f036",
+    "question": "W którym roku miał premierę animowany „Król Lew” Disneya?",
+    "answers": [
+      "1998",
+      "1994",
+      "1989",
+      "2001"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Król Lew” trafił do kin w 1994 roku i zdobył dwa Oscary."
+  },
+  {
+    "id": "kids_f037",
+    "question": "Jaki był pierwszy pełnometrażowy film studia Pixar, z 1995 roku?",
+    "answers": [
+      "Toy Story",
+      "Auta",
+      "Potwory i spółka",
+      "Dawno temu w trawie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Toy Story” był pierwszym pełnometrażowym filmem animowanym w całości komputerowo."
+  },
+  {
+    "id": "kids_f038",
+    "question": "Jak nazywała się gra polegająca na podbijaniu nogą lotki z piórek?",
+    "answers": [
+      "Klasy",
+      "Gumy",
+      "Zośka",
+      "Kapsle"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zośkę robiło się z pęczka piórek, a celem było jak najdłużej nie dać jej spaść."
+  },
+  {
+    "id": "kids_f039",
+    "question": "Z jakiego kraju pochodzi elektroniczne zwierzątko Tamagotchi?",
+    "answers": [
+      "Z Chin",
+      "Z Korei Płd.",
+      "Z USA",
+      "Z Japonii"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Tamagotchi wyprodukowała japońska firma Bandai w 1996 roku."
+  },
+  {
+    "id": "kids_f040",
+    "question": "Jak ma na imię starszy kot, towarzysz Filemona z polskiej Dobranocki?",
+    "answers": [
+      "Puszek",
+      "Mruczek",
+      "Klakier",
+      "Bonifacy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W „Przygodach kota Filemona” mądry Bonifacy uczy życia młodszego kotka."
+  },
+  {
+    "id": "kids_f041",
+    "question": "Jak nazywał się łowca zwierząt, tytułowy bohater polskiej kreskówki?",
+    "answers": [
+      "Pampalini",
+      "Gapiszon",
+      "Baltazar Gąbka",
+      "Gucio"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Nieporadny Pampalini to bohater polskiej kreskówki „Pampalini łowca zwierząt”."
+  },
+  {
+    "id": "kids_f042",
+    "question": "Kto stworzył postać Krecika?",
+    "answers": [
+      "Hergé",
+      "Zdeněk Miler",
+      "Karel Zeman",
+      "Jiří Trnka"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Czeski rysownik Zdeněk Miler wymyślił Krecika w latach 50."
+  },
+  {
+    "id": "kids_f043",
+    "question": "Kto był autorem książek o Misiu Uszatku?",
+    "answers": [
+      "Czesław Janczarski",
+      "Jan Brzechwa",
+      "Wanda Chotomska",
+      "Julian Tuwim"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Czesław Janczarski stworzył Misia Uszatka, który potem trafił do Dobranocki."
+  },
+  {
+    "id": "kids_f044",
+    "question": "Kto stworzył Smerfy?",
+    "answers": [
+      "René Goscinny",
+      "Albert Uderzo",
+      "Hergé",
+      "Peyo"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Belgijski rysownik Peyo narysował Smerfy po raz pierwszy w 1958 roku."
+  },
+  {
+    "id": "kids_f045",
+    "question": "Jak nazywa się kot Gargamela w polskiej wersji „Smerfów”?",
+    "answers": [
+      "Mruczek",
+      "Azrael",
+      "Klakier",
+      "Filemon"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "W oryginale kot nazywa się Azraël, a po polsku – Klakier."
+  },
+  {
+    "id": "kids_f046",
+    "question": "Jak miał na imię szpak, pomocnik pana Kleksa?",
+    "answers": [
+      "Filip",
+      "Alojzy",
+      "Mateusz",
+      "Ambroży"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Szpak Mateusz był niegdyś księciem zamienionym w ptaka."
+  },
+  {
+    "id": "kids_f047",
+    "question": "Na jaką literę zaczynały się imiona uczniów Akademii pana Kleksa?",
+    "answers": [
+      "K",
+      "A",
+      "P",
+      "B"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pan Kleks przyjmował wyłącznie chłopców o imionach na literę A."
+  },
+  {
+    "id": "kids_f048",
+    "question": "Jak miał na imię chłopiec porwany przez Królową Śniegu w baśni Andersena?",
+    "answers": [
+      "Olaf",
+      "Hans",
+      "Kristoff",
+      "Kaj"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kaja z pałacu Królowej Śniegu uratowała jego przyjaciółka Gerda."
+  },
+  {
+    "id": "kids_f049",
+    "question": "Kto spisał wersję „Kopciuszka” z dynią zamienioną w karetę?",
+    "answers": [
+      "Charles Perrault",
+      "Bracia Grimm",
+      "Jan Brzechwa",
+      "Hans Christian Andersen"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dynia, wróżka i szklany pantofelek pochodzą z wersji Perraulta z 1697 roku."
+  },
+  {
+    "id": "kids_f050",
+    "question": "Kto stworzył postacie Bolka i Lolka?",
+    "answers": [
+      "Lechosław Marszałek",
+      "Władysław Nehrebecki",
+      "Zdeněk Miler",
+      "Papcio Chmiel"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Reżyser Władysław Nehrebecki wymyślił braci, którzy podbili ekrany w kilkudziesięciu krajach."
+  }
+]
