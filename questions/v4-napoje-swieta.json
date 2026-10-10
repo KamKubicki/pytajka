@@ -260,19 +260,6 @@
     "explanation": "Kwas chlebowy to lekko musujący napój ze sfermentowanego chleba żytniego."
   },
   {
-    "id": "drink_m021",
-    "question": "Kumys, napój stepów Azji, to sfermentowane mleko…",
-    "answers": [
-      "Klaczy",
-      "Krowiego",
-      "Koziego",
-      "Owczego"
-    ],
-    "correct": 0,
-    "difficulty": "medium",
-    "explanation": "Kumys to sfermentowane mleko klaczy, popularne w stepach Azji Środkowej."
-  },
-  {
     "id": "drink_m022",
     "question": "Na bazie czego produkuje się polski likier Krupnik?",
     "answers": [

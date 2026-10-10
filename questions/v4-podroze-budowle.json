@@ -156,19 +156,6 @@
     "explanation": "Fontanna Neptuna stoi przed Dworem Artusa na Długim Targu."
   },
   {
-    "id": "travel_m013",
-    "question": "W którym mieście odbywa się święto piwa Oktoberfest?",
-    "answers": [
-      "W Monachium",
-      "W Berlinie",
-      "W Wiedniu",
-      "W Pradze"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Oktoberfest odbywa się w Monachium od 1810 roku."
-  },
-  {
     "id": "travel_m014",
     "question": "Jak nazywa się popołudniowa przerwa na odpoczynek, typowa dla Hiszpanii?",
     "answers": [

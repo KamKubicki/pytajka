@@ -533,19 +533,6 @@
     "explanation": "Hiszpanie jedzą po jednym winogronie przy każdym uderzeniu zegara."
   },
   {
-    "id": "rec_m042",
-    "question": "W którym kraju obchodzi się Día de Muertos z kolorowymi czaszkami?",
-    "answers": [
-      "W Hiszpanii",
-      "W Meksyku",
-      "W Brazylii",
-      "W Peru"
-    ],
-    "correct": 1,
-    "difficulty": "easy",
-    "explanation": "Meksykańskie Święto Zmarłych to radosne wspominanie bliskich."
-  },
-  {
     "id": "rec_m043",
     "question": "W jakim kraju 2 lutego obchodzi się Dzień Świstaka?",
     "answers": [
@@ -570,19 +557,6 @@
     "correct": 3,
     "difficulty": "easy",
     "explanation": "Kanadyjczycy obchodzą Dziękczynienie w październiku, a Amerykanie w listopadzie."
-  },
-  {
-    "id": "rec_m045",
-    "question": "Jak nazywa się tradycyjna szkocka męska spódnica?",
-    "answers": [
-      "Kilt",
-      "Sarong",
-      "Poncho",
-      "Toga"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Kilt szyje się z wełnianej kraciastej tkaniny zwanej tartanem."
   },
   {
     "id": "rec_m046",
