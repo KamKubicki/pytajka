@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "zoo_d001",
+    "question": "Jak nazywa się młode konia?",
+    "answers": [
+      "Źrebię",
+      "Prosię",
+      "Cielę",
+      "Koźlę"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Młode konia to źrebię, a po pierwszym roku życia mówi się o nim źrebak."
+  },
+  {
+    "id": "zoo_d002",
+    "question": "Jak nazywa się młode żaby, które żyje w wodzie i oddycha skrzelami?",
+    "answers": [
+      "Poczwarka",
+      "Larwa",
+      "Narybek",
+      "Kijanka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Żaby przechodzą przeobrażenie – z jaja wykluwa się kijanka, która dopiero później staje się żabą."
+  },
+  {
+    "id": "zoo_d003",
+    "question": "Jak nazywa się samiec kaczki?",
+    "answers": [
+      "Gąsior",
+      "Kogut",
+      "Kaczor",
+      "Indor"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Samiec kaczki to kaczor, a samiec gęsi – gąsior."
+  },
+  {
+    "id": "zoo_d004",
+    "question": "Jak nazywa się samiec pszczoły miodnej?",
+    "answers": [
+      "Szerszeń",
+      "Robotnica",
+      "Bąk",
+      "Truteń"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Trutnie to samce pszczół – nie mają żądła i nie zbierają nektaru."
+  },
+  {
+    "id": "zoo_d005",
+    "question": "Jaki ptak jest największym żyjącym ptakiem?",
+    "answers": [
+      "Emu",
+      "Albatros",
+      "Struś",
+      "Kondor"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Struś afrykański może mieć ponad 2,5 m wzrostu i ważyć ponad 100 kg."
+  },
+  {
+    "id": "zoo_d006",
+    "question": "Jaki gatunek kota żyjącego dziko jest największy?",
+    "answers": [
+      "Tygrys",
+      "Lew",
+      "Pantera śnieżna",
+      "Jaguar"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tygrys, zwłaszcza syberyjski, to największy dziko żyjący gatunek kota."
+  },
+  {
+    "id": "zoo_d007",
+    "question": "Które zwierzę jest w logo organizacji WWF?",
+    "answers": [
+      "Niedźwiedź polarny",
+      "Słoń",
+      "Tygrys",
+      "Panda wielka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Panda wielka jest symbolem WWF od jego założenia w 1961 roku."
+  },
+  {
+    "id": "zoo_d008",
+    "question": "Na jakiej wyspie żyją dziko lemury?",
+    "answers": [
+      "Na Madagaskarze",
+      "Na Borneo",
+      "Na Nowej Gwinei",
+      "Na Sri Lance"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lemury to endemity Madagaskaru – poza tą wyspą (i sąsiednimi Komorami) nie żyją dziko nigdzie."
+  },
+  {
+    "id": "zoo_d009",
+    "question": "Który polski park narodowy słynie z żubrów?",
+    "answers": [
+      "Białowieski",
+      "Kampinoski",
+      "Słowiński",
+      "Tatrzański"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Puszcza Białowieska to miejsce, gdzie odtworzono populację żubrów żyjących na wolności."
+  },
+  {
+    "id": "zoo_d010",
+    "question": "Jak nazywa się jedyny jadowity wąż żyjący w Polsce?",
+    "answers": [
+      "Wąż Eskulapa",
+      "Żmija zygzakowata",
+      "Zaskroniec",
+      "Gniewosz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Żmija zygzakowata to jedyny jadowity wąż w Polsce – rozpoznasz ją po zygzaku na grzbiecie."
+  },
+  {
+    "id": "zoo_d011",
+    "question": "Jak nazywa się jedyna w ulu samica składająca jaja?",
+    "answers": [
+      "Strażniczka",
+      "Królowa trutni",
+      "Matka pszczela",
+      "Robotnica"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W rodzinie pszczelej jaja składa tylko jedna samica – matka."
+  },
+  {
+    "id": "zoo_d012",
+    "question": "Jakie stworzenie wytwarza naturalny jedwab?",
+    "answers": [
+      "Pająk krzyżak",
+      "Mrówka",
+      "Gąsienica jedwabnika",
+      "Ćma bukszpanowa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jedwab powstaje z kokonów, które przędzie gąsienica jedwabnika morwowego."
+  },
+  {
+    "id": "zoo_d013",
+    "question": "Do jakiej gromady zwierząt należy pająk?",
+    "answers": [
+      "Do owadów",
+      "Do wijów",
+      "Do pajęczaków",
+      "Do skorupiaków"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pająk nie jest owadem – ma 8 odnóży i należy do pajęczaków."
+  },
+  {
+    "id": "zoo_d014",
+    "question": "Czym oddycha delfin?",
+    "answers": [
+      "Płucami",
+      "Skrzelami i płucami",
+      "Skrzelami",
+      "Skórą"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Delfin jest ssakiem – musi wypływać na powierzchnię, by zaczerpnąć powietrza przez otwór oddechowy."
+  },
+  {
+    "id": "zoo_d015",
+    "question": "Na jakim drzewie rosną żołędzie?",
+    "answers": [
+      "Na dębie",
+      "Na kasztanowcu",
+      "Na grabie",
+      "Na buku"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Żołądź to owoc dębu – przysmak dzików i wiewiórek."
+  },
+  {
+    "id": "zoo_d016",
+    "question": "Jak nazywa się grupa wilków polujących razem?",
+    "answers": [
+      "Rój",
+      "Ławica",
+      "Wataha",
+      "Stado"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wilki żyją i polują w rodzinnych grupach nazywanych watahami."
+  },
+  {
+    "id": "zoo_d017",
+    "question": "Który ptak podrzuca swoje jaja do gniazd innych ptaków?",
+    "answers": [
+      "Dzięcioł",
+      "Wróbel",
+      "Sroka",
+      "Kukułka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kukułka jest pasożytem lęgowym – jej pisklęta wychowują inne gatunki ptaków."
+  },
+  {
+    "id": "zoo_d018",
+    "question": "Który ptak potrafi obrócić głowę o około 270 stopni?",
+    "answers": [
+      "Sowa",
+      "Czapla",
+      "Papuga",
+      "Bocian"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Sowy mają nieruchome oczy, więc rekompensują to wyjątkowo ruchliwą szyją."
+  },
+  {
+    "id": "zoo_d019",
+    "question": "Który polski ssak buduje tamy na rzekach?",
+    "answers": [
+      "Piżmak",
+      "Bóbr",
+      "Wydra",
+      "Norka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bobry budują tamy z gałęzi i błota, podnosząc poziom wody wokół swoich żeremi."
+  },
+  {
+    "id": "zoo_d020",
+    "question": "Jak nazywa się zielony barwnik roślin umożliwiający fotosyntezę?",
+    "answers": [
+      "Karoten",
+      "Melanina",
+      "Hemoglobina",
+      "Chlorofil"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Chlorofil pochłania światło i nadaje liściom zielony kolor."
+  },
+  {
+    "id": "zoo_d021",
+    "question": "Jak nazywa się samica dzika?",
+    "answers": [
+      "Łania",
+      "Wadera",
+      "Klacz",
+      "Locha"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Samica dzika to locha, samiec – odyniec, a młode to warchlaki."
+  },
+  {
+    "id": "zoo_d022",
+    "question": "Do jakiej rodziny należy najmniejszy ptak świata?",
+    "answers": [
+      "Do wróbli",
+      "Do sikor",
+      "Do kolibrów",
+      "Do strzyżyków"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Koliber hełmiasty z Kuby waży około 2 gramów i jest najmniejszym ptakiem świata."
+  },
+  {
+    "id": "zoo_d023",
+    "question": "Dokąd odlatują na zimę bociany białe z Polski?",
+    "answers": [
+      "Do Indii",
+      "Do Afryki",
+      "Do Azji Południowej",
+      "Do Ameryki Południowej"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Polskie bociany białe zimują w Afryce, głównie na wschodzie i południu kontynentu."
+  },
+  {
+    "id": "zoo_d024",
+    "question": "Z ilu komór składa się żołądek krowy?",
+    "answers": [
+      "Z dwóch",
+      "Z sześciu",
+      "Z jednej",
+      "Z czterech"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Żołądek przeżuwaczy ma cztery części: żwacz, czepiec, księgi i trawieniec."
+  },
+  {
+    "id": "zoo_d025",
+    "question": "Który z tych ssaków składa jaja?",
+    "answers": [
+      "Kangur",
+      "Wombat",
+      "Koala",
+      "Dziobak"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dziobak należy do stekowców – nielicznych ssaków, które składają jaja."
+  },
+  {
+    "id": "zoo_d026",
+    "question": "Który ptak jest najszybszym zwierzęciem świata podczas lotu nurkowego?",
+    "answers": [
+      "Jerzyk",
+      "Orzeł przedni",
+      "Sokół wędrowny",
+      "Albatros"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Nurkujący sokół wędrowny osiąga ponad 300 km/h."
+  },
+  {
+    "id": "zoo_d027",
+    "question": "Jaka jest największa ryba świata?",
+    "answers": [
+      "Rekin olbrzymi",
+      "Rekin wielorybi",
+      "Samogłów",
+      "Żarłacz biały"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Rekin wielorybi może mieć kilkanaście metrów długości, a żywi się planktonem."
+  },
+  {
+    "id": "zoo_d028",
+    "question": "Jakiego koloru jest krew ośmiornicy?",
+    "answers": [
+      "Czerwona",
+      "Niebieska",
+      "Zielona",
+      "Bezbarwna"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Krew ośmiornicy zawiera hemocyjaninę z miedzią, która nadaje jej niebieską barwę."
+  },
+  {
+    "id": "zoo_d029",
+    "question": "Który z tych drapieżników lądowych jest największy?",
+    "answers": [
+      "Niedźwiedź polarny",
+      "Tygrys syberyjski",
+      "Wilk szary",
+      "Lew"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Duże samce niedźwiedzia polarnego ważą nawet 600–700 kg."
+  },
+  {
+    "id": "zoo_d030",
+    "question": "Jaki jest największy ptak drapieżny gniazdujący w Polsce?",
+    "answers": [
+      "Myszołów",
+      "Bielik",
+      "Jastrząb",
+      "Kania ruda"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bielik ma rozpiętość skrzydeł sięgającą około 2,4 m."
+  },
+  {
+    "id": "zoo_d031",
+    "question": "Które owady „hodują” mszyce dla ich słodkiej wydzieliny?",
+    "answers": [
+      "Mrówki",
+      "Biedronki",
+      "Osy",
+      "Pszczoły"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mrówki chronią mszyce i zbierają od nich słodką spadź."
+  },
+  {
+    "id": "zoo_d032",
+    "question": "U koników morskich, który z rodziców nosi i rodzi młode?",
+    "answers": [
+      "Żaden – jaja dryfują",
+      "Samica",
+      "Oboje na zmianę",
+      "Samiec"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Samica składa jaja do torby lęgowej samca, który potem „rodzi” młode."
+  },
+  {
+    "id": "zoo_d033",
+    "question": "Z kory jakiego drzewa robi się korki do wina?",
+    "answers": [
+      "Dębu korkowego",
+      "Sosny",
+      "Brzozy",
+      "Cedru"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Korek pozyskuje się z kory dębu korkowego, głównie w Portugalii i Hiszpanii."
+  },
+  {
+    "id": "zoo_d034",
+    "question": "Do jakiego gatunku należy najwyższe drzewo świata?",
+    "answers": [
+      "Daglezja",
+      "Baobab",
+      "Sekwoja wieczniezielona",
+      "Eukaliptus"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rekordowa sekwoja o nazwie Hyperion w Kalifornii ma ponad 115 m wysokości."
+  },
+  {
+    "id": "zoo_d035",
+    "question": "Czym z botanicznego punktu widzenia jest bambus?",
+    "answers": [
+      "Paprocią",
+      "Krzewem",
+      "Drzewem",
+      "Trawą"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bambus należy do rodziny traw i jest jedną z najszybciej rosnących roślin."
+  },
+  {
+    "id": "zoo_d036",
+    "question": "Jaka roślina, rosnąca na gałęziach drzew jako półpasożyt, wisi w święta nad drzwiami?",
+    "answers": [
+      "Ostrokrzew",
+      "Jemioła",
+      "Wrzos",
+      "Bluszcz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jemioła pobiera wodę i sole mineralne z drzewa, ale sama prowadzi fotosyntezę."
+  },
+  {
+    "id": "zoo_d037",
+    "question": "Który ssak ma najdłuższą ciążę?",
+    "answers": [
+      "Płetwal błękitny",
+      "Nosorożec",
+      "Słoń",
+      "Żyrafa"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ciąża słonia afrykańskiego trwa około 22 miesięcy."
+  },
+  {
+    "id": "zoo_d038",
+    "question": "Co magazynuje wielbłąd w swoim garbie?",
+    "answers": [
+      "Powietrze",
+      "Tłuszcz",
+      "Wodę",
+      "Krew"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Garb to zapas tłuszczu – to, że jest w nim woda, to popularny mit."
+  },
+  {
+    "id": "zoo_d039",
+    "question": "Która z tych ryb wpływa z morza do rzek, aby złożyć ikrę?",
+    "answers": [
+      "Łosoś",
+      "Makrela",
+      "Śledź",
+      "Dorsz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Łososie wracają na tarło do rzek, w których się wykluły."
+  },
+  {
+    "id": "zoo_d040",
+    "question": "Które z tych zwierząt zapada w zimowy sen (hibernację)?",
+    "answers": [
+      "Wiewiórka",
+      "Jeż",
+      "Sarna",
+      "Zając"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jeż hibernuje, a wiewiórka zimą jest aktywna i korzysta ze swoich zapasów."
+  },
+  {
+    "id": "zoo_d041",
+    "question": "Który kręgowiec żyje najdłużej – nawet kilkaset lat?",
+    "answers": [
+      "Papuga ara",
+      "Rekin grenlandzki",
+      "Krokodyl nilowy",
+      "Słoń afrykański"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Wiek rekinów grenlandzkich szacuje się na 270–500 lat, co czyni je najdłużej żyjącymi kręgowcami."
+  },
+  {
+    "id": "zoo_d042",
+    "question": "Która roślina ma największy pojedynczy kwiat na świecie?",
+    "answers": [
+      "Lotos orzechodajny",
+      "Magnolia",
+      "Słonecznik",
+      "Bukietnica Arnolda"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kwiat bukietnicy (raflezji) Arnolda może mieć średnicę około 1 m i pachnie padliną."
+  },
+  {
+    "id": "zoo_d043",
+    "question": "Jak nazywa się najmniejszy ssak żyjący w Polsce?",
+    "answers": [
+      "Orzesznica",
+      "Nornica ruda",
+      "Ryjówka malutka",
+      "Kret"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ryjówka malutka waży zaledwie kilka gramów."
+  },
+  {
+    "id": "zoo_d044",
+    "question": "Jaki jest największy żyjący gad?",
+    "answers": [
+      "Anakonda zielona",
+      "Żółw skórzasty",
+      "Krokodyl różańcowy",
+      "Waran z Komodo"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Samce krokodyla różańcowego mogą mieć ponad 6 m długości i ważyć ponad tonę."
+  },
+  {
+    "id": "zoo_d045",
+    "question": "Z jakiego kraju pochodzi aksolotl – płaz, który regeneruje kończyny?",
+    "answers": [
+      "Z Meksyku",
+      "Z Japonii",
+      "Z Australii",
+      "Z Brazylii"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dziko aksolotle żyją tylko w kanałach Xochimilco koło miasta Meksyk."
+  },
+  {
+    "id": "zoo_d046",
+    "question": "W jakim akwenie rozmnaża się węgorz europejski?",
+    "answers": [
+      "W Morzu Śródziemnym",
+      "W Morzu Północnym",
+      "W Bałtyku",
+      "W Morzu Sargassowym"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Węgorze z europejskich rzek płyną tysiące kilometrów, by złożyć ikrę w Morzu Sargassowym."
+  },
+  {
+    "id": "zoo_d047",
+    "question": "Czym jest padalec, często mylony z wężem?",
+    "answers": [
+      "Płazem",
+      "Beznogą jaszczurką",
+      "Dużym robakiem",
+      "Młodą żmiją"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Padalec to jaszczurka bez kończyn – w przeciwieństwie do węży potrafi mrugać powiekami."
+  },
+  {
+    "id": "zoo_d048",
+    "question": "Czym jest długi „róg” narwala?",
+    "answers": [
+      "Zrośniętymi włosami",
+      "Wydłużonym zębem",
+      "Kością czołową",
+      "Rogiem z keratyny"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Róg” narwala to kieł, który przebija górną wargę i może mieć ponad 2 m."
+  },
+  {
+    "id": "zoo_d049",
+    "question": "Ile par skrzydeł służących do lotu ma mucha?",
+    "answers": [
+      "Żadnej",
+      "Jedną",
+      "Trzy",
+      "Dwie"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Muchy to muchówki – druga para skrzydeł przekształciła się w przezmianki służące do równowagi."
+  },
+  {
+    "id": "zoo_d050",
+    "question": "Do jakiego królestwa należą koralowce?",
+    "answers": [
+      "Do zwierząt",
+      "Do grzybów",
+      "Do roślin",
+      "Do protistów"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Koralowce to zwierzęta z grupy parzydełkowców, żyjące często w symbiozie z glonami."
+  },
+  {
+    "id": "food_d001",
+    "question": "Paella to tradycyjne danie z ryżu z jakiego kraju?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Włoch",
+      "Z Meksyku",
+      "Z Portugalii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Paella to danie z ryżu z regionu Walencji w Hiszpanii."
+  },
+  {
+    "id": "food_d002",
+    "question": "Co jest głównym składnikiem hummusu?",
+    "answers": [
+      "Groch",
+      "Soczewica",
+      "Ciecierzyca",
+      "Fasola"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Hummus to pasta z ciecierzycy z tahini, czosnkiem i sokiem z cytryny."
+  },
+  {
+    "id": "food_d003",
+    "question": "Na zakwasie z jakiej mąki przygotowuje się żurek?",
+    "answers": [
+      "Pszennej",
+      "Kukurydzianej",
+      "Ryżowej",
+      "Żytniej"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Tradycyjny żurek gotuje się na zakwasie z mąki żytniej."
+  },
+  {
+    "id": "food_d004",
+    "question": "Kimchi, czyli pikantna kiszona kapusta, to narodowa potrawa którego kraju?",
+    "answers": [
+      "Tajlandii",
+      "Korei",
+      "Chin",
+      "Japonii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kimchi to kiszona, pikantna kapusta – narodowy przysmak Koreańczyków."
+  },
+  {
+    "id": "food_d005",
+    "question": "Gulasz doprawiany słodką papryką to narodowe danie jakiego kraju?",
+    "answers": [
+      "Węgier",
+      "Czech",
+      "Austrii",
+      "Rumunii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gulasz (gulyás) to węgierskie danie doprawiane słodką papryką."
+  },
+  {
+    "id": "food_d006",
+    "question": "Z jakiego warzywa robi się barszcz czerwony?",
+    "answers": [
+      "Z czerwonej kapusty",
+      "Z buraków",
+      "Z rzodkiewek",
+      "Z pomidorów"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Barszcz czerwony zawdzięcza kolor burakom."
+  },
+  {
+    "id": "food_d007",
+    "question": "Jakie warzywo, oprócz jogurtu, jest podstawą greckiego tzatziki?",
+    "answers": [
+      "Cukinia",
+      "Ogórek",
+      "Pomidor",
+      "Papryka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tzatziki to sos z gęstego jogurtu, startego ogórka, czosnku i oliwy."
+  },
+  {
+    "id": "food_d008",
+    "question": "Z jakiego kraju pochodzi fondue serowe?",
+    "answers": [
+      "Ze Szwajcarii",
+      "Z Danii",
+      "Z Holandii",
+      "Z Belgii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Fondue to szwajcarskie danie z roztopionego sera, w którym macza się kawałki chleba."
+  },
+  {
+    "id": "food_d009",
+    "question": "Jaki jest farsz pierogów ruskich?",
+    "answers": [
+      "Kapusta z grzybami",
+      "Szpinak z fetą",
+      "Ziemniaki z twarogiem",
+      "Mięso wołowe"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pierogi ruskie nadziewa się ziemniakami z twarogiem i podsmażoną cebulą."
+  },
+  {
+    "id": "food_d010",
+    "question": "Czym jest matcha?",
+    "answers": [
+      "Sosem sojowym",
+      "Sproszkowaną zieloną herbatą",
+      "Pastą z fasoli",
+      "Japońskim piwem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Matcha to zmielone na proszek liście zielonej herbaty, używane w japońskiej ceremonii herbacianej."
+  },
+  {
+    "id": "food_d011",
+    "question": "W kuchni jakiego kraju narodził się deser tiramisu?",
+    "answers": [
+      "Włoch",
+      "Austrii",
+      "Francji",
+      "Grecji"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tiramisu to włoski deser z biszkoptów nasączonych kawą i kremu z mascarpone."
+  },
+  {
+    "id": "food_d012",
+    "question": "Jak nazywa się tradycyjny krakowski wypiek w kształcie pierścienia, posypany np. makiem lub sezamem?",
+    "answers": [
+      "Kołacz",
+      "Rogal",
+      "Bajgiel",
+      "Obwarzanek"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Obwarzanek krakowski to wypiek z drożdżowego ciasta, który przed pieczeniem obgotowuje się we wrzątku."
+  },
+  {
+    "id": "food_d013",
+    "question": "Z jakich nasion robi się tofu?",
+    "answers": [
+      "Z ciecierzycy",
+      "Z kukurydzy",
+      "Z soi",
+      "Z ryżu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tofu to ser sojowy powstający przez ścięcie mleka sojowego."
+  },
+  {
+    "id": "food_d014",
+    "question": "Z czego produkuje się japońskie sake?",
+    "answers": [
+      "Z winogron",
+      "Ze śliwek",
+      "Z jęczmienia",
+      "Z ryżu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sake powstaje w wyniku fermentacji ryżu, dlatego nazywa się je winem ryżowym."
+  },
+  {
+    "id": "food_d015",
+    "question": "Z jakiego kraju pochodzi sznycel wiedeński?",
+    "answers": [
+      "Z Czech",
+      "Z Austrii",
+      "Z Niemiec",
+      "Ze Szwajcarii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wiener Schnitzel to panierowany kotlet cielęcy – symbol kuchni austriackiej."
+  },
+  {
+    "id": "food_d016",
+    "question": "Jakie warzywo jest podstawą bigosu?",
+    "answers": [
+      "Kapusta",
+      "Fasola",
+      "Marchew",
+      "Ziemniaki"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Bigos to duszona kapusta (kiszona i świeża) z mięsem i grzybami."
+  },
+  {
+    "id": "food_d017",
+    "question": "Ser feta to tradycyjny produkt jakiego kraju?",
+    "answers": [
+      "Turcji",
+      "Grecji",
+      "Bułgarii",
+      "Włoch"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Feta to grecki ser solankowy z mleka owczego lub owczo-koziego."
+  },
+  {
+    "id": "food_d018",
+    "question": "Jaki ser jest podstawą tradycyjnego polskiego sernika?",
+    "answers": [
+      "Ricotta",
+      "Mascarpone",
+      "Twaróg",
+      "Gouda"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Klasyczny polski sernik piecze się z mielonego twarogu."
+  },
+  {
+    "id": "food_d019",
+    "question": "Jakie zioło jest podstawą zielonego pesto?",
+    "answers": [
+      "Pietruszka",
+      "Bazylia",
+      "Kolendra",
+      "Mięta"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pesto alla genovese robi się z bazylii, orzeszków piniowych, parmezanu, czosnku i oliwy."
+  },
+  {
+    "id": "food_d020",
+    "question": "Na jakie święta piecze się w Polsce mazurki?",
+    "answers": [
+      "Na tłusty czwartek",
+      "Na Andrzejki",
+      "Na Boże Narodzenie",
+      "Na Wielkanoc"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Mazurek to płaskie, bogato zdobione ciasto wielkanocne."
+  },
+  {
+    "id": "food_d021",
+    "question": "Którego kraju narodową potrawą jest haggis?",
+    "answers": [
+      "Walii",
+      "Islandii",
+      "Irlandii",
+      "Szkocji"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Haggis to owczy żołądek nadziewany podrobami, owsianką i cebulą – podawany m.in. w Noc Burnsa."
+  },
+  {
+    "id": "food_d022",
+    "question": "Wanilia to owoc rośliny z jakiej rodziny?",
+    "answers": [
+      "Bobowatych",
+      "Palmowatych",
+      "Storczykowatych",
+      "Różowatych"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Laski wanilii to owoce storczyka – pnącza z rodzaju wanilia."
+  },
+  {
+    "id": "food_d023",
+    "question": "Którą częścią drzewa cynamonowca jest przyprawa cynamon?",
+    "answers": [
+      "Nasionami",
+      "Liśćmi",
+      "Korą",
+      "Korzeniem"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Cynamon to zwinięta, suszona kora drzewa cynamonowca."
+  },
+  {
+    "id": "food_d024",
+    "question": "Czym są goździki używane jako przyprawa?",
+    "answers": [
+      "Suszonymi pąkami kwiatów",
+      "Nasionami",
+      "Suszonymi owocami",
+      "Korzeniami"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Goździki to nierozwinięte pąki kwiatowe drzewa goździkowca."
+  },
+  {
+    "id": "food_d025",
+    "question": "Skąd pochodzą pieprz czarny i biały?",
+    "answers": [
+      "Czarny z drzewa, biały z trawy",
+      "Biały jest sztucznie barwiony",
+      "Z dwóch różnych krzewów",
+      "Z tej samej rośliny"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Oba pochodzą z pieprzu czarnego – różnią się stopniem dojrzałości i obróbką owoców."
+  },
+  {
+    "id": "food_d026",
+    "question": "Która przyprawa nadaje curry intensywnie żółty kolor?",
+    "answers": [
+      "Imbir",
+      "Kmin rzymski",
+      "Kurkuma",
+      "Kardamon"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kurkuma zawiera barwnik kurkuminę o intensywnie żółtym kolorze."
+  },
+  {
+    "id": "food_d027",
+    "question": "Z jakiego kraju pochodzi wino musujące prosecco?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Francji",
+      "Z Włoch",
+      "Z Portugalii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Prosecco produkuje się na północnym wschodzie Włoch, głównie w regionie Wenecja Euganejska."
+  },
+  {
+    "id": "food_d028",
+    "question": "Z jakiego regionu musi pochodzić wino, by nazywać się szampanem?",
+    "answers": [
+      "Z Burgundii",
+      "Z Szampanii",
+      "Z Alzacji",
+      "Z Bordeaux"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa „szampan” jest chroniona i przysługuje tylko winom musującym z francuskiej Szampanii."
+  },
+  {
+    "id": "food_d029",
+    "question": "Jak nazywają się w kuchni japońskiej plastry surowej ryby podawane bez ryżu?",
+    "answers": [
+      "Maki",
+      "Tempura",
+      "Sashimi",
+      "Nigiri"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sashimi to cienko krojona surowa ryba, a sushi zawsze zawiera ryż."
+  },
+  {
+    "id": "food_d030",
+    "question": "Pho, zupa z makaronem ryżowym, to przysmak kuchni jakiego kraju?",
+    "answers": [
+      "Wietnamu",
+      "Korei",
+      "Tajlandii",
+      "Chin"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pho to wietnamska zupa z makaronem ryżowym na aromatycznym bulionie."
+  },
+  {
+    "id": "food_d031",
+    "question": "Jakie warzywo jest kluczowym składnikiem greckiej musaki?",
+    "answers": [
+      "Seler",
+      "Brokuł",
+      "Bakłażan",
+      "Dynia"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Musaka to zapiekanka z warstw bakłażana, mięsa mielonego i sosu beszamelowego."
+  },
+  {
+    "id": "food_d032",
+    "question": "Z czego przygotowuje się staropolską czerninę?",
+    "answers": [
+      "Z czarnej porzeczki",
+      "Z czarnej rzepy",
+      "Z buraków",
+      "Z kaczej krwi"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Czernina to zupa na rosole z dodatkiem kaczej krwi z octem."
+  },
+  {
+    "id": "food_d033",
+    "question": "Z jakiego regionu Polski pochodzą kartacze?",
+    "answers": [
+      "Z Suwalszczyzny",
+      "Z Kaszub",
+      "Z Podhala",
+      "Ze Śląska"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kartacze to duże pyzy z tartych ziemniaków z mięsem, przysmak Suwalszczyzny i Podlasia."
+  },
+  {
+    "id": "food_d034",
+    "question": "Która regionalna potrawa ma charakterystyczne wgłębienie na środku?",
+    "answers": [
+      "Knedle",
+      "Pyzy",
+      "Kopytka",
+      "Kluski śląskie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wgłębienie w kluskach śląskich zbiera sos."
+  },
+  {
+    "id": "food_d035",
+    "question": "Z jakiej rośliny produkuje się rum?",
+    "answers": [
+      "Z agawy",
+      "Z ziemniaków",
+      "Z żyta",
+      "Z trzciny cukrowej"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rum destyluje się ze sfermentowanej melasy lub soku z trzciny cukrowej."
+  },
+  {
+    "id": "food_d036",
+    "question": "Owoce jakiej rośliny nadają ginowi charakterystyczny smak?",
+    "answers": [
+      "Rokitnik",
+      "Jałowiec",
+      "Czarny bez",
+      "Głóg"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Owoce (szyszkojagody) jałowca to obowiązkowy składnik smakowy ginu."
+  },
+  {
+    "id": "food_d037",
+    "question": "Czym jest prawdziwy kawior?",
+    "answers": [
+      "Ikrą ryb jesiotrowatych",
+      "Pastą z oliwek",
+      "Jajami przepiórek",
+      "Ikrą łososia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Prawdziwy kawior to solona ikra ryb jesiotrowatych, np. bieługi."
+  },
+  {
+    "id": "food_d038",
+    "question": "Jakie ziarno jest podstawą wigilijnej kutii?",
+    "answers": [
+      "Pszenica",
+      "Jęczmień",
+      "Ryż",
+      "Kasza gryczana"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kutia to potrawa z ugotowanej pszenicy, maku, miodu i bakalii."
+  },
+  {
+    "id": "food_d039",
+    "question": "Z czego są zrobione arkusze nori do sushi?",
+    "answers": [
+      "Z wodorostów",
+      "Z liści bambusa",
+      "Z ciasta ryżowego",
+      "Z liści winogron"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nori to suszone i sprasowane wodorosty."
+  },
+  {
+    "id": "food_d040",
+    "question": "Jak nazywa się piąty podstawowy smak, kojarzony z bulionem i sosem sojowym?",
+    "answers": [
+      "Kokumi",
+      "Umami",
+      "Miso",
+      "Wasabi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Umami opisał japoński chemik Kikunae Ikeda – to smak glutaminianów."
+  },
+  {
+    "id": "food_d041",
+    "question": "Czym było garum w starożytnym Rzymie?",
+    "answers": [
+      "Sosem ze sfermentowanych ryb",
+      "Chlebem z orzechami",
+      "Serem z mleka oślic",
+      "Winem z miodem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Garum to fermentowany sos rybny – najpopularniejsza przyprawa starożytnych Rzymian."
+  },
+  {
+    "id": "food_d042",
+    "question": "Ceviche, czyli ryba marynowana w soku z limonki, to narodowe danie którego kraju?",
+    "answers": [
+      "Kuby",
+      "Filipin",
+      "Hiszpanii",
+      "Peru"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Ceviche uznano w Peru za element dziedzictwa narodowego."
+  },
+  {
+    "id": "food_d043",
+    "question": "Od kogo wzięło nazwę carpaccio?",
+    "answers": [
+      "Od nazwy krojenia nożem",
+      "Od weneckiego malarza",
+      "Od włoskiego miasta",
+      "Od rzymskiego cesarza"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Carpaccio nazwano na cześć renesansowego malarza Vittore Carpaccia, znanego z intensywnych czerwieni."
+  },
+  {
+    "id": "food_d044",
+    "question": "Z czego destyluje się włoską grappę?",
+    "answers": [
+      "Z cytryn",
+      "Z orzechów laskowych",
+      "Z wytłoków winogron",
+      "Z ziemniaków"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Grappa powstaje z wytłoków, czyli resztek po tłoczeniu winogron do produkcji wina."
+  },
+  {
+    "id": "food_d045",
+    "question": "Z jakiego kraju pochodzi ser halloumi?",
+    "answers": [
+      "Z Grecji",
+      "Z Turcji",
+      "Z Libanu",
+      "Z Cypru"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Halloumi to cypryjski ser, który nie topi się na grillu."
+  },
+  {
+    "id": "food_d046",
+    "question": "Kumys to sfermentowane mleko jakiego zwierzęcia?",
+    "answers": [
+      "Kozy",
+      "Jaka",
+      "Klaczy",
+      "Wielbłądzicy"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Kumys to lekko alkoholowy napój ze sfermentowanego mleka klaczy, popularny w Azji Środkowej."
+  },
+  {
+    "id": "food_d047",
+    "question": "Z jakiego kraju pochodzi ciemny chleb pumpernikiel?",
+    "answers": [
+      "Ze Szwecji",
+      "Z Rosji",
+      "Z Holandii",
+      "Z Niemiec"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Pumpernikiel to żytni chleb z Westfalii, pieczony nawet kilkanaście godzin."
+  },
+  {
+    "id": "food_d048",
+    "question": "W jakim mieście powstał czekoladowy tort Sachera?",
+    "answers": [
+      "W Zurychu",
+      "W Pradze",
+      "W Budapeszcie",
+      "W Wiedniu"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Tort Sachera wymyślił w Wiedniu Franz Sacher w 1832 roku."
+  },
+  {
+    "id": "food_d049",
+    "question": "Z jakiego kraju pochodzi smörgåsbord, czyli bufet z wieloma zimnymi i ciepłymi przekąskami?",
+    "answers": [
+      "Z Norwegii",
+      "Ze Szwecji",
+      "Z Danii",
+      "Z Finlandii"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Smörgåsbord to tradycyjny szwedzki bufet, którego nazwa oznacza „stół z kanapkami”."
+  },
+  {
+    "id": "food_d050",
+    "question": "Jaki proces zachodzi podczas kiszenia ogórków i kapusty?",
+    "answers": [
+      "Pasteryzacja",
+      "Fermentacja alkoholowa",
+      "Fermentacja mlekowa",
+      "Fermentacja octowa"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bakterie kwasu mlekowego zamieniają cukry w kwas mlekowy, który konserwuje warzywa."
+  }
+]
