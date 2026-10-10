@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "rec_m001",
+    "question": "Kto był najwyższym człowiekiem w udokumentowanej historii medycyny?",
+    "answers": [
+      "Robert Wadlow",
+      "Sultan Kösen",
+      "André the Giant",
+      "Yao Ming"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Robert Wadlow z USA mierzył 272 cm wzrostu."
+  },
+  {
+    "id": "rec_m002",
+    "question": "Ile centymetrów ma jeden cal?",
+    "answers": [
+      "2,2 cm",
+      "2,54 cm",
+      "3 cm",
+      "1,75 cm"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Cal to dokładnie 2,54 cm, co widać choćby w przekątnych ekranów."
+  },
+  {
+    "id": "rec_m003",
+    "question": "Ile metrów ma w przybliżeniu mila lądowa?",
+    "answers": [
+      "Ok. 1000 m",
+      "Ok. 1852 m",
+      "Ok. 1609 m",
+      "Ok. 1500 m"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mila lądowa (angielska) to ok. 1609 metrów."
+  },
+  {
+    "id": "rec_m004",
+    "question": "Ile metrów ma mila morska?",
+    "answers": [
+      "1609 m",
+      "1000 m",
+      "2000 m",
+      "1852 m"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Mila morska wynosi 1852 metry i odpowiada jednej minucie kątowej południka."
+  },
+  {
+    "id": "rec_m005",
+    "question": "Ile centymetrów ma jedna stopa (jednostka długości)?",
+    "answers": [
+      "30,48 cm",
+      "25,4 cm",
+      "33,3 cm",
+      "28 cm"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stopa to 12 cali, czyli 30,48 cm."
+  },
+  {
+    "id": "rec_m006",
+    "question": "Ile miligramów waży jeden karat, jednostka masy kamieni szlachetnych?",
+    "answers": [
+      "100 mg",
+      "200 mg",
+      "500 mg",
+      "1000 mg"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Karat metryczny to dokładnie 0,2 grama."
+  },
+  {
+    "id": "rec_m007",
+    "question": "Ile stóp ma jeden jard?",
+    "answers": [
+      "2",
+      "5",
+      "3",
+      "12"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Jard to 3 stopy, czyli 36 cali."
+  },
+  {
+    "id": "rec_m008",
+    "question": "Ile metrów kwadratowych ma jeden hektar?",
+    "answers": [
+      "1000",
+      "100 000",
+      "100",
+      "10 000"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hektar to kwadrat 100 na 100 metrów."
+  },
+  {
+    "id": "rec_m009",
+    "question": "Ile sztuk to „czarci tuzin”?",
+    "answers": [
+      "13",
+      "12",
+      "6",
+      "66"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Czarci, czyli piekarski tuzin, to o jedną sztukę więcej niż zwykły tuzin."
+  },
+  {
+    "id": "rec_m010",
+    "question": "Ile sztuk to „gros”, dawna miara liczności?",
+    "answers": [
+      "100",
+      "144",
+      "60",
+      "120"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Gros to tuzin tuzinów, czyli 12 razy 12."
+  },
+  {
+    "id": "rec_m011",
+    "question": "Jaką prędkość oznacza 1 węzeł?",
+    "answers": [
+      "1 km na godzinę",
+      "1 milę lądową na godzinę",
+      "1 milę morską na godzinę",
+      "1 metr na sekundę"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Węzeł to prędkość jednej mili morskiej, czyli 1852 m, na godzinę."
+  },
+  {
+    "id": "rec_m012",
+    "question": "Jak nazywa się dawna miara głębokości morza, równa ok. 1,83 m?",
+    "answers": [
+      "Łokieć",
+      "Kabel",
+      "Pręt",
+      "Sążeń"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Sążeń to rozpiętość rozłożonych ramion dorosłego mężczyzny."
+  },
+  {
+    "id": "rec_m013",
+    "question": "W ilu stopniach Fahrenheita zamarza woda?",
+    "answers": [
+      "32",
+      "0",
+      "100",
+      "-40"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Woda zamarza w 32 °F, a wrze w 212 °F."
+  },
+  {
+    "id": "rec_m014",
+    "question": "Ile godzin ma tydzień?",
+    "answers": [
+      "144",
+      "168",
+      "172",
+      "186"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tydzień to 7 dób po 24 godziny, czyli 168 godzin."
+  },
+  {
+    "id": "rec_m015",
+    "question": "Który ptak osiąga najwyższą prędkość, pikując na zdobycz?",
+    "answers": [
+      "Orzeł przedni",
+      "Jerzyk",
+      "Sokół wędrowny",
+      "Albatros"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Sokół wędrowny w locie nurkowym przekracza 300 km/h."
+  },
+  {
+    "id": "rec_m016",
+    "question": "Który z tych ptaków nie potrafi latać?",
+    "answers": [
+      "Bocian",
+      "Łabędź",
+      "Pelikan",
+      "Struś"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Struś jest największym żyjącym ptakiem i nielotem."
+  },
+  {
+    "id": "rec_m017",
+    "question": "Ile oczu ma pszczoła miodna?",
+    "answers": [
+      "5",
+      "2",
+      "4",
+      "8"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pszczoła ma dwoje oczu złożonych i troje przyoczek na czubku głowy."
+  },
+  {
+    "id": "rec_m018",
+    "question": "Które zwierzę ma odciski palców bardzo podobne do ludzkich?",
+    "answers": [
+      "Panda wielka",
+      "Koala",
+      "Leniwiec",
+      "Wydra"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Odciski palców koali są tak podobne do ludzkich, że trudno je odróżnić nawet pod mikroskopem."
+  },
+  {
+    "id": "rec_m019",
+    "question": "Jaki produkt spożywczy znaleziony w egipskich grobowcach wciąż nadawał się do jedzenia?",
+    "answers": [
+      "Ser",
+      "Chleb",
+      "Miód",
+      "Wino"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Miód dzięki małej zawartości wody i kwasowości praktycznie się nie psuje."
+  },
+  {
+    "id": "rec_m020",
+    "question": "Dlaczego wieża Eiffla latem jest o kilkanaście centymetrów wyższa?",
+    "answers": [
+      "Dokręca się śruby",
+      "Ziemia pod nią puchnie",
+      "Zakłada się nową antenę",
+      "Metal rozszerza się w cieple"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Żelazna konstrukcja rozszerza się pod wpływem temperatury."
+  },
+  {
+    "id": "rec_m021",
+    "question": "Ile lat przeżyła Francuzka Jeanne Calment, najstarsza osoba o udokumentowanym wieku?",
+    "answers": [
+      "122",
+      "115",
+      "118",
+      "130"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Jeanne Calment zmarła w 1997 roku w wieku 122 lat."
+  },
+  {
+    "id": "rec_m022",
+    "question": "Który monarcha najdłużej panował w historii Europy?",
+    "answers": [
+      "Elżbieta II",
+      "Ludwik XIV",
+      "Franciszek Józef I",
+      "Wiktoria"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ludwik XIV był królem Francji przez 72 lata."
+  },
+  {
+    "id": "rec_m023",
+    "question": "Ile lat trwało panowanie królowej Elżbiety II?",
+    "answers": [
+      "63",
+      "65",
+      "70",
+      "75"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Elżbieta II panowała od 1952 do 2022 roku."
+  },
+  {
+    "id": "rec_m024",
+    "question": "Który król Polski panował najdłużej?",
+    "answers": [
+      "Zygmunt III Waza",
+      "Kazimierz Jagiellończyk",
+      "Zygmunt Stary",
+      "Władysław Jagiełło"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Jagiełło był królem Polski przez 48 lat, w latach 1386–1434."
+  },
+  {
+    "id": "rec_m025",
+    "question": "Który papież miał najdłuższy pontyfikat po świętym Piotrze?",
+    "answers": [
+      "Pius IX",
+      "Jan Paweł II",
+      "Leon XIII",
+      "Pius XII"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pius IX był papieżem prawie 32 lata, w latach 1846–1878."
+  },
+  {
+    "id": "rec_m026",
+    "question": "Jak nazywa się czteroletni okres między kolejnymi igrzyskami olimpijskimi?",
+    "answers": [
+      "Kadencja",
+      "Olimpiada",
+      "Dekada",
+      "Edycja"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Olimpiada to w ścisłym znaczeniu okres, a nie same zawody."
+  },
+  {
+    "id": "rec_m027",
+    "question": "Gdzie odbyły się pierwsze zimowe igrzyska olimpijskie w 1924 roku?",
+    "answers": [
+      "St. Moritz",
+      "Oslo",
+      "Chamonix",
+      "Innsbruck"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pierwsze zimowe igrzyska rozegrano we francuskim Chamonix."
+  },
+  {
+    "id": "rec_m028",
+    "question": "Kto jako pierwszy przebiegł milę w czasie poniżej 4 minut?",
+    "answers": [
+      "Paavo Nurmi",
+      "Emil Zátopek",
+      "Jesse Owens",
+      "Roger Bannister"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Brytyjczyk Roger Bannister dokonał tego w 1954 roku."
+  },
+  {
+    "id": "rec_m029",
+    "question": "Która Polka zdobyła pierwszy złoty medal olimpijski dla Polski, w 1928 roku?",
+    "answers": [
+      "Halina Konopacka",
+      "Irena Szewińska",
+      "Stanisława Walasiewicz",
+      "Jadwiga Wajs"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Konopacka wygrała rzut dyskiem na igrzyskach w Amsterdamie."
+  },
+  {
+    "id": "rec_m030",
+    "question": "Kto jako pierwsza Polka i pierwsza Europejka stanęła na szczycie Mount Everestu?",
+    "answers": [
+      "Anna Czerwińska",
+      "Wanda Rutkiewicz",
+      "Krystyna Palmowska",
+      "Kinga Baranowska"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wanda Rutkiewicz weszła na Everest 16 października 1978 roku."
+  },
+  {
+    "id": "rec_m031",
+    "question": "Kto jako pierwszy człowiek zdobył wszystkie czternaście ośmiotysięczników?",
+    "answers": [
+      "Jerzy Kukuczka",
+      "Krzysztof Wielicki",
+      "Reinhold Messner",
+      "Edmund Hillary"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Messner skończył Koronę Himalajów w 1986 roku, a Kukuczka był drugi."
+  },
+  {
+    "id": "rec_m032",
+    "question": "Który Polak jako pierwszy samotnie przepłynął kajakiem Atlantyk z kontynentu na kontynent?",
+    "answers": [
+      "Leonid Teliga",
+      "Krzysztof Baranowski",
+      "Mateusz Kusznierewicz",
+      "Aleksander Doba"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Aleksander Doba przepłynął z Senegalu do Brazylii w latach 2010–2011."
+  },
+  {
+    "id": "rec_m033",
+    "question": "Która kobieta jako pierwsza przeleciała samotnie nad Atlantykiem?",
+    "answers": [
+      "Amelia Earhart",
+      "Bessie Coleman",
+      "Jacqueline Cochran",
+      "Marie Curie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Amelia Earhart dokonała tego w 1932 roku."
+  },
+  {
+    "id": "rec_m034",
+    "question": "Która kobieta jako pierwsza na świecie samotnie opłynęła kulę ziemską na jachcie?",
+    "answers": [
+      "Ellen MacArthur",
+      "Krystyna Chojnowska-Liskiewicz",
+      "Naomi James",
+      "Wanda Rutkiewicz"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Polka ukończyła rejs jachtem Mazurek w 1978 roku."
+  },
+  {
+    "id": "rec_m035",
+    "question": "Kto jako pierwszy przeżył spływ wodospadem Niagara w beczce?",
+    "answers": [
+      "Harry Houdini",
+      "Charles Blondin",
+      "Annie Edson Taylor",
+      "Bobby Leach"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "63-letnia nauczycielka dokonała tego w 1901 roku."
+  },
+  {
+    "id": "rec_m036",
+    "question": "Która kobieta jako pierwsza na świecie została premierem?",
+    "answers": [
+      "Golda Meir",
+      "Indira Gandhi",
+      "Margaret Thatcher",
+      "Sirimavo Bandaranaike"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Bandaranaike objęła urząd premiera Cejlonu w 1960 roku."
+  },
+  {
+    "id": "rec_m037",
+    "question": "Który kraj jako pierwszy przyznał kobietom prawo głosu w wyborach parlamentarnych?",
+    "answers": [
+      "Nowa Zelandia",
+      "Wielka Brytania",
+      "Finlandia",
+      "USA"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kobiety w Nowej Zelandii głosowały w 1893 roku."
+  },
+  {
+    "id": "rec_m038",
+    "question": "Która kobieta jako pierwsza została premierem Polski?",
+    "answers": [
+      "Ewa Kopacz",
+      "Hanna Suchocka",
+      "Beata Szydło",
+      "Henryka Bochniarz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hanna Suchocka stanęła na czele rządu w 1992 roku."
+  },
+  {
+    "id": "rec_m039",
+    "question": "W którym mieście w 1863 roku otwarto pierwsze metro na świecie?",
+    "answers": [
+      "W Paryżu",
+      "W Nowym Jorku",
+      "W Londynie",
+      "W Budapeszcie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pierwsza linia londyńskiego metra jeździła na parowozach."
+  },
+  {
+    "id": "rec_m040",
+    "question": "Jak nazywa się słynna księga rekordów wydawana od 1955 roku?",
+    "answers": [
+      "Księga rekordów Heinekena",
+      "Księga rekordów Carlsberga",
+      "Księga rekordów Tyskiego",
+      "Księga rekordów Guinnessa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pomysł narodził się w browarze Guinness jako sposób na rozstrzyganie sporów w pubach."
+  },
+  {
+    "id": "rec_m041",
+    "question": "W jakim kraju w sylwestra o północy zjada się 12 winogron?",
+    "answers": [
+      "Hiszpania",
+      "Włochy",
+      "Grecja",
+      "Portugalia"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Hiszpanie jedzą po jednym winogronie przy każdym uderzeniu zegara."
+  },
+  {
+    "id": "rec_m042",
+    "question": "W którym kraju obchodzi się Día de Muertos z kolorowymi czaszkami?",
+    "answers": [
+      "W Hiszpanii",
+      "W Meksyku",
+      "W Brazylii",
+      "W Peru"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Meksykańskie Święto Zmarłych to radosne wspominanie bliskich."
+  },
+  {
+    "id": "rec_m043",
+    "question": "W jakim kraju 2 lutego obchodzi się Dzień Świstaka?",
+    "answers": [
+      "W Australii",
+      "W Szwajcarii",
+      "W USA",
+      "W Austrii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Najsłynniejszy świstak, Phil, „przepowiada” pogodę w Punxsutawney w Pensylwanii."
+  },
+  {
+    "id": "rec_m044",
+    "question": "W jakim kraju na Święto Dziękczynienia w czwarty czwartek listopada je się indyka?",
+    "answers": [
+      "W Kanadzie",
+      "W Wielkiej Brytanii",
+      "W Australii",
+      "W USA"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kanadyjczycy obchodzą Dziękczynienie w październiku, a Amerykanie w listopadzie."
+  },
+  {
+    "id": "rec_m045",
+    "question": "Jak nazywa się tradycyjna szkocka męska spódnica?",
+    "answers": [
+      "Kilt",
+      "Sarong",
+      "Poncho",
+      "Toga"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kilt szyje się z wełnianej kraciastej tkaniny zwanej tartanem."
+  },
+  {
+    "id": "rec_m046",
+    "question": "Które zwierzę jest w Indiach uważane za święte i swobodnie chodzi po ulicach?",
+    "answers": [
+      "Słoń",
+      "Krowa",
+      "Małpa",
+      "Tygrys"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W hinduizmie krowa jest symbolem życia i dobroci."
+  },
+  {
+    "id": "rec_m047",
+    "question": "Sprzedaży czego zakazał Singapur w 1992 roku?",
+    "answers": [
+      "Papierosów",
+      "Coca-Coli",
+      "Gumy do żucia",
+      "Fajerwerków"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Zakaz miał ograniczyć zaśmiecanie ulic i metra przyklejoną gumą."
+  },
+  {
+    "id": "rec_m048",
+    "question": "W którym kraju od 2008 roku prawo zabrania trzymania pojedynczej świnki morskiej?",
+    "answers": [
+      "W Szwecji",
+      "W Niemczech",
+      "W Holandii",
+      "W Szwajcarii"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szwajcarskie prawo uznaje świnki za zwierzęta stadne, którym trzeba zapewnić towarzystwo."
+  },
+  {
+    "id": "rec_m049",
+    "question": "W którym kraju leży wieś o jednej z najdłuższych nazw w Europie, zaczynającej się od „Llanfair”?",
+    "answers": [
+      "Walia",
+      "Irlandia",
+      "Szkocja",
+      "Islandia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Llanfairpwllgwyngyll… leży na walijskiej wyspie Anglesey."
+  },
+  {
+    "id": "rec_m050",
+    "question": "Ile wynosi suma oczek na przeciwległych ściankach standardowej kostki do gry?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Na kostce 1 leży naprzeciw 6, 2 naprzeciw 5, a 3 naprzeciw 4."
+  },
+  {
+    "id": "money_m001",
+    "question": "Jaka jest waluta Japonii?",
+    "answers": [
+      "Juan",
+      "Won",
+      "Jen",
+      "Baht"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jen jest walutą Japonii od 1871 roku."
+  },
+  {
+    "id": "money_m002",
+    "question": "Jaka jest waluta Indii?",
+    "answers": [
+      "Taka",
+      "Dinar",
+      "Rial",
+      "Rupia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rupia indyjska oznaczana jest symbolem ₹."
+  },
+  {
+    "id": "money_m003",
+    "question": "Jaka jest waluta Szwajcarii?",
+    "answers": [
+      "Frank szwajcarski",
+      "Euro",
+      "Korona szwajcarska",
+      "Marka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Szwajcaria nie należy do UE i używa własnego franka."
+  },
+  {
+    "id": "money_m004",
+    "question": "Jaka jest waluta Wielkiej Brytanii?",
+    "answers": [
+      "Euro",
+      "Funt szterling",
+      "Dolar brytyjski",
+      "Szyling"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Funt szterling to jedna z najstarszych wciąż używanych walut."
+  },
+  {
+    "id": "money_m005",
+    "question": "Jaka jest waluta Węgier?",
+    "answers": [
+      "Korona",
+      "Lej",
+      "Forint",
+      "Lew"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Forint zastąpił pengő w 1946 roku."
+  },
+  {
+    "id": "money_m006",
+    "question": "Jaka jest waluta Czech?",
+    "answers": [
+      "Forint",
+      "Euro",
+      "Hrywna",
+      "Korona czeska"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Czesi płacą koronami dzielonymi na 100 halerzy."
+  },
+  {
+    "id": "money_m007",
+    "question": "Jaka jest waluta Ukrainy?",
+    "answers": [
+      "Hrywna",
+      "Rubel",
+      "Korona",
+      "Lit"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Hrywna została wprowadzona w 1996 roku."
+  },
+  {
+    "id": "money_m008",
+    "question": "Jaka jest waluta Turcji?",
+    "answers": [
+      "Dinar",
+      "Lira",
+      "Rial",
+      "Drachma"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Waluta Turcji to lira turecka."
+  },
+  {
+    "id": "money_m009",
+    "question": "Jaka jest waluta Chin?",
+    "answers": [
+      "Jen",
+      "Won",
+      "Juan",
+      "Dong"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Oficjalna nazwa waluty to renminbi, a jej jednostka to juan."
+  },
+  {
+    "id": "money_m010",
+    "question": "Jaka jest waluta Brazylii?",
+    "answers": [
+      "Peso",
+      "Sol",
+      "Escudo",
+      "Real"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Real brazylijski obowiązuje od 1994 roku."
+  },
+  {
+    "id": "money_m011",
+    "question": "Jaka jest waluta Republiki Południowej Afryki?",
+    "answers": [
+      "Rand",
+      "Szyling",
+      "Naira",
+      "Funt"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa randa pochodzi od pasma Witwatersrand ze złożami złota."
+  },
+  {
+    "id": "money_m012",
+    "question": "Jaka jest waluta Korei Południowej?",
+    "answers": [
+      "Jen",
+      "Won",
+      "Juan",
+      "Rupia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Walutę o nazwie won ma także Korea Północna."
+  },
+  {
+    "id": "money_m013",
+    "question": "Jaka jest waluta Izraela?",
+    "answers": [
+      "Dinar",
+      "Funt",
+      "Szekel",
+      "Lira"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Nowy szekel izraelski obowiązuje od połowy lat 80."
+  },
+  {
+    "id": "money_m014",
+    "question": "Jaka jest waluta Danii?",
+    "answers": [
+      "Euro",
+      "Frank",
+      "Marka",
+      "Korona duńska"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dania zachowała własną koronę mimo członkostwa w UE."
+  },
+  {
+    "id": "money_m015",
+    "question": "Jaka jest waluta Tajlandii?",
+    "answers": [
+      "Baht",
+      "Kip",
+      "Riel",
+      "Ringgit"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Baht dzieli się na 100 satangów."
+  },
+  {
+    "id": "money_m016",
+    "question": "Jaka jest waluta Wietnamu?",
+    "answers": [
+      "Baht",
+      "Dong",
+      "Kip",
+      "Won"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Wietnamski dong ma banknoty o bardzo wysokich nominałach."
+  },
+  {
+    "id": "money_m017",
+    "question": "Jaką walutę oznacza symbol £?",
+    "answers": [
+      "Lira",
+      "Euro",
+      "Funt",
+      "Jen"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Symbol £ pochodzi od litery L z łacińskiego „libra”."
+  },
+  {
+    "id": "money_m018",
+    "question": "Jaką walutę oznacza symbol ¥?",
+    "answers": [
+      "Rupia",
+      "Dolar",
+      "Frank",
+      "Jen"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Symbolu ¥ używa się dla jena, a także chińskiego juana."
+  },
+  {
+    "id": "money_m019",
+    "question": "Jaką walutę oznacza symbol ₹?",
+    "answers": [
+      "Rupia indyjska",
+      "Rubel",
+      "Rand",
+      "Real"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Symbol ₹ przyjęto dla rupii indyjskiej w 2010 roku."
+  },
+  {
+    "id": "money_m020",
+    "question": "Jaki jest trzyliterowy kod ISO polskiego złotego?",
+    "answers": [
+      "PLZ",
+      "PLN",
+      "ZLT",
+      "POL"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kod PLN stosują banki i kantory na całym świecie."
+  },
+  {
+    "id": "money_m021",
+    "question": "W którym roku banknoty i monety euro weszły do obiegu?",
+    "answers": [
+      "1999",
+      "2000",
+      "2002",
+      "2004"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Gotówka euro pojawiła się 1 stycznia 2002 roku."
+  },
+  {
+    "id": "money_m022",
+    "question": "W którym roku euro wprowadzono jako walutę bezgotówkową?",
+    "answers": [
+      "2002",
+      "1995",
+      "1992",
+      "1999"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Przez pierwsze trzy lata euro istniało tylko w rozliczeniach bezgotówkowych."
+  },
+  {
+    "id": "money_m023",
+    "question": "W którym starożytnym królestwie wybito pierwsze monety?",
+    "answers": [
+      "Lidia",
+      "Egipt",
+      "Persja",
+      "Babilonia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pierwsze monety powstały w Lidii w Azji Mniejszej w VII wieku p.n.e."
+  },
+  {
+    "id": "money_m024",
+    "question": "Z jakiego stopu wykonano pierwsze lidyjskie monety?",
+    "answers": [
+      "Brąz",
+      "Elektrum",
+      "Mosiądz",
+      "Miedzionikiel"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Elektrum to naturalny stop złota i srebra."
+  },
+  {
+    "id": "money_m025",
+    "question": "W którym kraju wynaleziono papierowy pieniądz?",
+    "answers": [
+      "W Japonii",
+      "We Włoszech",
+      "W Chinach",
+      "W Egipcie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Papierowe pieniądze upowszechniły się w Chinach za dynastii Song."
+  },
+  {
+    "id": "money_m026",
+    "question": "Muszle jakich ślimaków służyły jako pieniądz w Afryce i Azji?",
+    "answers": [
+      "Ostrygi",
+      "Przegrzebki",
+      "Perłopławy",
+      "Kauri"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Muszle kauri przez wieki były jednym z najpopularniejszych pieniędzy świata."
+  },
+  {
+    "id": "money_m027",
+    "question": "Od jakiego produktu pochodzi łacińskie słowo „salarium”, czyli wynagrodzenie?",
+    "answers": [
+      "Od soli",
+      "Od zboża",
+      "Od wina",
+      "Od oliwy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Salarium wiąże się z łacińskim „sal”, czyli sól."
+  },
+  {
+    "id": "money_m028",
+    "question": "Od nazwy jakiej monety pochodzi słowo „dolar”?",
+    "answers": [
+      "Dukat",
+      "Talar",
+      "Floren",
+      "Denar"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Dolar to przekształcona nazwa talara, bitego w czeskim Joachimstalu."
+  },
+  {
+    "id": "money_m029",
+    "question": "Jakie monety bito w Polsce za Mieszka I i Bolesława Chrobrego?",
+    "answers": [
+      "Dukaty",
+      "Talary",
+      "Denary",
+      "Grosze"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Denar był podstawową srebrną monetą wczesnych Piastów."
+  },
+  {
+    "id": "money_m030",
+    "question": "Z jakiego kruszcu bito dukaty?",
+    "answers": [
+      "Ze srebra",
+      "Z miedzi",
+      "Z brązu",
+      "Ze złota"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dukat był złotą monetą znaną w całej Europie."
+  },
+  {
+    "id": "money_m031",
+    "question": "Jak nazywał się czeski grosz, popularny w średniowiecznej Polsce?",
+    "answers": [
+      "Grosz praski",
+      "Grosz brneński",
+      "Grosz pilzneński",
+      "Grosz ołomuniecki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Grosze praskie bito w Kutnej Horze od 1300 roku."
+  },
+  {
+    "id": "money_m032",
+    "question": "Który król wprowadził w Polsce grosz krakowski?",
+    "answers": [
+      "Bolesław Krzywousty",
+      "Kazimierz Wielki",
+      "Władysław Jagiełło",
+      "Zygmunt Stary"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Grosz krakowski był wybijany za panowania Kazimierza Wielkiego."
+  },
+  {
+    "id": "money_m033",
+    "question": "Jaka waluta obowiązywała w Polsce w latach 1917–1924, przed złotym?",
+    "answers": [
+      "Korona polska",
+      "Rubel polski",
+      "Marka polska",
+      "Talar polski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Szalejąca inflacja marki polskiej doprowadziła do wprowadzenia złotego."
+  },
+  {
+    "id": "money_m034",
+    "question": "Który władca widnieje na banknocie 10 zł z serii „Władcy polscy”?",
+    "answers": [
+      "Bolesław Chrobry",
+      "Kazimierz Wielki",
+      "Jan III Sobieski",
+      "Mieszko I"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Banknot 10 zł przedstawia pierwszego historycznego władcę Polski."
+  },
+  {
+    "id": "money_m035",
+    "question": "Który władca widnieje na banknocie 100 zł z serii „Władcy polscy”?",
+    "answers": [
+      "Władysław Jagiełło",
+      "Zygmunt Stary",
+      "Kazimierz Wielki",
+      "Bolesław Chrobry"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Seria „Władcy polscy” umieściła na setce zwycięzcę spod Grunwaldu."
+  },
+  {
+    "id": "money_m036",
+    "question": "Który władca widnieje na banknocie 500 zł?",
+    "answers": [
+      "Stefan Batory",
+      "Jan III Sobieski",
+      "Zygmunt III Waza",
+      "August II Mocny"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Banknot 500 zł wprowadzono w 2017 roku z wizerunkiem Jana III Sobieskiego."
+  },
+  {
+    "id": "money_m037",
+    "question": "Kto widniał na banknocie 1000 zł w PRL?",
+    "answers": [
+      "Fryderyk Chopin",
+      "Maria Skłodowska-Curie",
+      "Mikołaj Kopernik",
+      "Adam Mickiewicz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kopernik zdobił PRL-owski banknot 1000 zł."
+  },
+  {
+    "id": "money_m038",
+    "question": "Którego kompozytora przedstawiał banknot 5000 zł z PRL?",
+    "answers": [
+      "Stanisława Moniuszki",
+      "Karola Szymanowskiego",
+      "Ignacego Paderewskiego",
+      "Fryderyka Chopina"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Banknot 5000 zł z Chopinem krążył w latach 80."
+  },
+  {
+    "id": "money_m039",
+    "question": "Kogo przedstawiał banknot 1 000 000 zł z początku lat 90.?",
+    "answers": [
+      "Władysława Reymonta",
+      "Henryka Sienkiewicza",
+      "Józefa Piłsudskiego",
+      "Ignacego Paderewskiego"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Milionowy banknot przedstawiał noblistę, autora „Chłopów”."
+  },
+  {
+    "id": "money_m040",
+    "question": "Jak nazywa się długotrwały okres spadków na giełdzie?",
+    "answers": [
+      "Hossa",
+      "Bessa",
+      "Korekta",
+      "Hiperinflacja"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bessa to przeciwieństwo hossy, czyli okresu wzrostów."
+  },
+  {
+    "id": "money_m041",
+    "question": "Jakie zwierzę symbolizuje na giełdzie hossę?",
+    "answers": [
+      "Niedźwiedź",
+      "Wilk",
+      "Byk",
+      "Orzeł"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Byk podrzuca rogami w górę, a niedźwiedź przygniata łapą w dół."
+  },
+  {
+    "id": "money_m042",
+    "question": "Co oznacza deflacja?",
+    "answers": [
+      "Wzrost cen",
+      "Spadek stóp procentowych",
+      "Brak pieniędzy w bankach",
+      "Spadek ogólnego poziomu cen"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Deflacja to odwrotność inflacji, czyli trwały spadek cen."
+  },
+  {
+    "id": "money_m043",
+    "question": "Na czym polega procent składany?",
+    "answers": [
+      "Odsetki naliczane są od odsetek",
+      "Odsetki są zawsze stałe",
+      "Bank pobiera dwie prowizje",
+      "Odsetki płaci się z góry"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Doliczone odsetki zwiększają kapitał, od którego liczy się kolejne."
+  },
+  {
+    "id": "money_m044",
+    "question": "W jakim kraju w 1923 roku hiperinflacja sprawiła, że pieniędzmi palono w piecach?",
+    "answers": [
+      "W Polsce",
+      "W Niemczech",
+      "We Francji",
+      "W Austrii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W Republice Weimarskiej banknoty były tańsze od opału."
+  },
+  {
+    "id": "money_m045",
+    "question": "Która waluta przeżyła w 1946 roku największą hiperinflację w historii?",
+    "answers": [
+      "Niemiecka marka",
+      "Polski złoty",
+      "Węgierski pengő",
+      "Austriacka korona"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ceny na Węgrzech podwajały się wtedy mniej więcej co 15 godzin."
+  },
+  {
+    "id": "money_m046",
+    "question": "Kto ma wyłączne prawo emisji pieniądza w Polsce?",
+    "answers": [
+      "Ministerstwo Finansów",
+      "PKO BP",
+      "Mennica Polska",
+      "Narodowy Bank Polski"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Prawo to przyznaje NBP Konstytucja RP."
+  },
+  {
+    "id": "money_m047",
+    "question": "W którym mieście znajduje się Wall Street?",
+    "answers": [
+      "W Nowym Jorku",
+      "W Chicago",
+      "W Londynie",
+      "W Waszyngtonie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wall Street na Manhattanie to symbol amerykańskich finansów."
+  },
+  {
+    "id": "money_m048",
+    "question": "Z jakiego miasta pochodzą nazwy pól w klasycznym amerykańskim Monopoly?",
+    "answers": [
+      "Nowy Jork",
+      "Atlantic City",
+      "Las Vegas",
+      "Chicago"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Nazwy pól klasycznego Monopoly pochodzą z ulic Atlantic City."
+  },
+  {
+    "id": "money_m049",
+    "question": "Kto jest na banknocie 100 dolarów amerykańskich?",
+    "answers": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Benjamin Franklin",
+      "Thomas Jefferson"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Franklin nie był prezydentem, a mimo to trafił na setkę."
+  },
+  {
+    "id": "money_m050",
+    "question": "Ile karatów ma czyste złoto?",
+    "answers": [
+      "18",
+      "14",
+      "100",
+      "24"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Złoto 24-karatowe to złoto praktycznie bez domieszek."
+  }
+]
