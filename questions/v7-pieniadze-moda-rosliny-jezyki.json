@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "money_v001",
+    "question": "Jaki pseudonim nosi tajemniczy twórca bitcoina?",
+    "answers": [
+      "Satoshi Nakamoto",
+      "Vitalik Buterin",
+      "Hal Finney",
+      "Nick Szabo"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Prawdziwa tożsamość autora publikacji o bitcoinie z 2008 roku do dziś pozostaje nieznana."
+  },
+  {
+    "id": "money_v002",
+    "question": "Jak nazywa się najmniejsza jednostka bitcoina, czyli jego stumilionowa część?",
+    "answers": [
+      "Gwei",
+      "Satoshi",
+      "Bit",
+      "Wei"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jednostkę nazwano na cześć twórcy kryptowaluty, a 1 BTC to 100 milionów satoshi."
+  },
+  {
+    "id": "money_v003",
+    "question": "Która kryptowaluta powstała dla żartu i ma w logo psa rasy shiba inu?",
+    "answers": [
+      "Litecoin",
+      "Ripple",
+      "Dogecoin",
+      "Monero"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dogecoin stworzono w 2013 roku jako parodię, inspirowaną internetowym memem „Doge”."
+  },
+  {
+    "id": "money_v004",
+    "question": "Od jakiego ptaka z rewersu kanadyjska moneta jednodolarowa dostała przydomek „loonie”?",
+    "answers": [
+      "Bielika",
+      "Kaczki",
+      "Pelikana",
+      "Nura"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Po angielsku nur to „loon”, stąd potoczna nazwa monety wprowadzonej w 1987 roku."
+  },
+  {
+    "id": "money_v005",
+    "question": "Jaką walutą płaci się w Czarnogórze, choć kraj nie należy do Unii Europejskiej?",
+    "answers": [
+      "Euro",
+      "Dinarem",
+      "Lirem",
+      "Markiem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Czarnogóra jednostronnie przyjęła euro w 2002 roku, wcześniej używając marki niemieckiej."
+  },
+  {
+    "id": "money_v006",
+    "question": "Jaka waluta jest od 2000 roku oficjalnym pieniądzem Ekwadoru?",
+    "answers": [
+      "Peso",
+      "Dolar amerykański",
+      "Sucre",
+      "Euro"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Po kryzysie gospodarczym Ekwador porzucił własne sucre na rzecz dolara USA."
+  },
+  {
+    "id": "money_v007",
+    "question": "Jak nazywała się waluta Włoch przed wprowadzeniem euro?",
+    "answers": [
+      "Frank",
+      "Peseta",
+      "Lir",
+      "Escudo"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Włoski lir był w obiegu od zjednoczenia Włoch aż do 2002 roku."
+  },
+  {
+    "id": "money_v008",
+    "question": "Jaką walutą płacono w Grecji przed euro?",
+    "answers": [
+      "Lirem",
+      "Denarem",
+      "Talarem",
+      "Drachmą"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Drachma to jedna z najstarszych nazw walut, znana już w starożytnych Atenach."
+  },
+  {
+    "id": "money_v009",
+    "question": "Jak nazywała się hiszpańska waluta sprzed epoki euro?",
+    "answers": [
+      "Peseta",
+      "Peso",
+      "Escudo",
+      "Real"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Peseta była walutą Hiszpanii od 1868 roku do wejścia euro."
+  },
+  {
+    "id": "money_v010",
+    "question": "Jak nazywał się pieniądz Holandii przed wprowadzeniem euro?",
+    "answers": [
+      "Talar",
+      "Gulden",
+      "Korona",
+      "Frank"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Holenderski gulden był w obiegu przez kilka stuleci, aż do 2002 roku."
+  },
+  {
+    "id": "money_v011",
+    "question": "Które państwo jako pierwsze spośród krajów przyjętych do UE w 2004 roku wprowadziło euro?",
+    "answers": [
+      "Słowacja",
+      "Estonia",
+      "Słowenia",
+      "Malta"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Słowenia przyjęła euro 1 stycznia 2007 roku, rok przed Maltą i Cyprem."
+  },
+  {
+    "id": "money_v012",
+    "question": "W którym roku Chorwacja zastąpiła kunę euro?",
+    "answers": [
+      "2015",
+      "2019",
+      "2013",
+      "2023"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Chorwacja weszła do strefy euro 1 stycznia 2023 roku, dziesięć lat po wstąpieniu do UE."
+  },
+  {
+    "id": "money_v013",
+    "question": "Jak nazywa się międzynarodowy numer rachunku bankowego, który w Polsce zaczyna się od liter PL?",
+    "answers": [
+      "IBAN",
+      "SWIFT",
+      "PIN",
+      "CVV"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Numer IBAN pozwala jednoznacznie wskazać rachunek przy przelewach zagranicznych."
+  },
+  {
+    "id": "money_v014",
+    "question": "W którym kraju w 1967 roku uruchomiono pierwszy bankomat na świecie?",
+    "answers": [
+      "W USA",
+      "W Wielkiej Brytanii",
+      "W Japonii",
+      "W Szwecji"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pierwszy bankomat stanął przed oddziałem banku Barclays w londyńskiej dzielnicy Enfield."
+  },
+  {
+    "id": "money_v015",
+    "question": "Ile cyfr ma kod BLIK?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Sześciocyfrowy kod BLIK jest ważny tylko przez dwie minuty."
+  },
+  {
+    "id": "money_v016",
+    "question": "Co przechowuje się w słynnym amerykańskim skarbcu Fort Knox?",
+    "answers": [
+      "Oryginał Konstytucji",
+      "Broń atomową",
+      "Banknoty dolarowe",
+      "Rezerwy złota"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W Fort Knox w Kentucky znajduje się znaczna część złota należącego do rządu USA."
+  },
+  {
+    "id": "money_v017",
+    "question": "Jak nazywa się trzycyfrowy kod zabezpieczający na odwrocie karty płatniczej?",
+    "answers": [
+      "CVV",
+      "PIN",
+      "IBAN",
+      "BLIK"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kod CVV podaje się przy płatnościach internetowych, ale nigdy nie przez telefon nieznajomym."
+  },
+  {
+    "id": "money_v018",
+    "question": "Jak nazywały się bony, którymi w PRL płacono w Peweksie zamiast dolarów?",
+    "answers": [
+      "Bony NBP",
+      "Bony PeKaO",
+      "Bony Orbisu",
+      "Bony PKO BP"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Bony towarowe emitował Bank Polska Kasa Opieki, a ich wartość liczono w dolarach."
+  },
+  {
+    "id": "money_v019",
+    "question": "Kogo przedstawia polski banknot dwudziestozłotowy?",
+    "answers": [
+      "Mieszka I",
+      "Kazimierza Wielkiego",
+      "Bolesława Chrobrego",
+      "Jana III Sobieskiego"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Seria „Władcy polscy” przypisuje 20 zł pierwszemu koronowanemu królowi Polski."
+  },
+  {
+    "id": "money_v020",
+    "question": "Którego Zygmunta przedstawia polski banknot 200 zł?",
+    "answers": [
+      "Zygmunta II Augusta",
+      "Zygmunta III Wazę",
+      "Zygmunta Luksemburskiego",
+      "Zygmunta I Starego"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Na banknocie 200 zł widnieje Zygmunt Stary, ojciec Zygmunta Augusta."
+  },
+  {
+    "id": "money_v021",
+    "question": "Który prezydent USA zdobi banknot jednodolarowy?",
+    "answers": [
+      "Jerzy Waszyngton",
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "Andrew Jackson"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Portret pierwszego prezydenta USA widnieje na jednodolarówce od 1869 roku."
+  },
+  {
+    "id": "money_v022",
+    "question": "Jak nazywa się słynna złota moneta bulionowa z Republiki Południowej Afryki?",
+    "answers": [
+      "Maple Leaf",
+      "Krugerrand",
+      "Britannia",
+      "Wiener Philharmoniker"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Na Krugerrandzie widnieje prezydent Paul Kruger i antylopa springbok."
+  },
+  {
+    "id": "money_v023",
+    "question": "W którym mieście ma siedzibę Europejski Bank Centralny?",
+    "answers": [
+      "W Brukseli",
+      "W Luksemburgu",
+      "We Frankfurcie nad Menem",
+      "W Strasburgu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "EBC od 1998 roku urzęduje we Frankfurcie, finansowej stolicy Niemiec."
+  },
+  {
+    "id": "money_v024",
+    "question": "Jak nazywa się indeks dwudziestu największych spółek warszawskiej giełdy?",
+    "answers": [
+      "DAX",
+      "Dow Jones",
+      "FTSE 100",
+      "WIG20"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "WIG20 obliczany jest od 1994 roku i obejmuje 20 największych spółek GPW."
+  },
+  {
+    "id": "money_v025",
+    "question": "W jakim budynku odbyła się pierwsza sesja warszawskiej giełdy w 1991 roku?",
+    "answers": [
+      "W dawnym gmachu KC PZPR",
+      "W Pałacu Kultury i Nauki",
+      "W gmachu NBP",
+      "W Zamku Królewskim"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Giełda symbolicznie zaczęła działać w dawnym „Białym Domu”, siedzibie partii komunistycznej."
+  },
+  {
+    "id": "money_v026",
+    "question": "Co zapoczątkował krach na nowojorskiej giełdzie w październiku 1929 roku?",
+    "answers": [
+      "Plan Marshalla",
+      "Wielki kryzys",
+      "I wojnę światową",
+      "Powstanie euro"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Krach na Wall Street otworzył najgłębszą depresję gospodarczą XX wieku."
+  },
+  {
+    "id": "money_v027",
+    "question": "Upadek którego banku we wrześniu 2008 roku stał się symbolem światowego kryzysu finansowego?",
+    "answers": [
+      "Goldman Sachs",
+      "JPMorgan",
+      "Lehman Brothers",
+      "Deutsche Bank"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Bankructwo Lehman Brothers było największym w historii Stanów Zjednoczonych."
+  },
+  {
+    "id": "money_v028",
+    "question": "Kto jest autorem klasycznego dzieła ekonomicznego „Bogactwo narodów” z 1776 roku?",
+    "answers": [
+      "Karol Marks",
+      "John Maynard Keynes",
+      "David Ricardo",
+      "Adam Smith"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szkocki filozof Adam Smith uchodzi za ojca współczesnej ekonomii."
+  },
+  {
+    "id": "money_v029",
+    "question": "Który polski uczony opisał zasadę, że „zły pieniądz wypiera z obiegu dobry”?",
+    "answers": [
+      "Mikołaj Kopernik",
+      "Jan Heweliusz",
+      "Andrzej Frycz Modrzewski",
+      "Stanisław Staszic"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kopernik opisał to zjawisko w traktacie o monecie, stąd nazwa „prawo Kopernika–Greshama”."
+  },
+  {
+    "id": "money_v030",
+    "question": "Który kraj jako pierwszy na świecie wprowadził do obiegu banknoty z tworzywa sztucznego?",
+    "answers": [
+      "Kanada",
+      "Australia",
+      "Szwajcaria",
+      "Japonia"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pierwszy polimerowy banknot Australia wyemitowała w 1988 roku."
+  },
+  {
+    "id": "money_v031",
+    "question": "Jak nazywał się pierwszy polski pieniądz papierowy, wyemitowany podczas insurekcji kościuszkowskiej?",
+    "answers": [
+      "Talary papierowe",
+      "Asygnaty",
+      "Bilety skarbowe",
+      "Marki polskie"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bilety skarbowe wydano w 1794 roku na sfinansowanie powstania."
+  },
+  {
+    "id": "money_v032",
+    "question": "Jak nazywa się nauka i kolekcjonerstwo monet?",
+    "answers": [
+      "Filatelistyka",
+      "Heraldyka",
+      "Falerystyka",
+      "Numizmatyka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Nazwa pochodzi od łacińskiego słowa „nummus”, czyli moneta."
+  },
+  {
+    "id": "money_v033",
+    "question": "Jak nazywa się strona monety, na której znajduje się godło państwa?",
+    "answers": [
+      "Awers",
+      "Rewers",
+      "Rant",
+      "Otok"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W Polsce awersem nazywa się stronę z orłem, a rewersem stronę z nominałem."
+  },
+  {
+    "id": "money_v034",
+    "question": "Jak nazywała się dawna polska moneta o wartości trzech groszy?",
+    "answers": [
+      "Szóstak",
+      "Trojak",
+      "Tymf",
+      "Półtorak"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Trojaki bito masowo m.in. za panowania Zygmunta III Wazy."
+  },
+  {
+    "id": "money_v035",
+    "question": "Od czasownika o jakim znaczeniu najpewniej pochodzi nazwa „rubel”?",
+    "answers": [
+      "Liczyć",
+      "Błyszczeć",
+      "Rąbać",
+      "Ważyć"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Rublami nazywano kawałki odrąbane od srebrnej sztabki."
+  },
+  {
+    "id": "fashion_v001",
+    "question": "Kto w 1873 roku wraz z krawcem Jacobem Davisem opatentował dżinsy wzmocnione nitami?",
+    "answers": [
+      "Calvin Klein",
+      "Levi Strauss",
+      "Tommy Hilfiger",
+      "Ralph Lauren"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Patent na nity w spodniach roboczych dał początek marce Levi's."
+  },
+  {
+    "id": "fashion_v002",
+    "question": "Jakiego koloru są podeszwy słynnych szpilek Christiana Louboutina?",
+    "answers": [
+      "Złote",
+      "Czarne",
+      "Czerwone",
+      "Białe"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Louboutin pomalował podeszwę lakierem do paznokci i tak powstał jego znak rozpoznawczy."
+  },
+  {
+    "id": "fashion_v003",
+    "question": "Jak nazywa się długi szal z piór, kojarzony z rewią i kabaretem?",
+    "answers": [
+      "Pareo",
+      "Ponczo",
+      "Pelerynka",
+      "Boa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Boa z piór strusich lub marabuta to klasyczny dodatek tancerek rewiowych."
+  },
+  {
+    "id": "fashion_v004",
+    "question": "Jak nazywa się marka sportowa założona przez Rudolfa Dasslera, brata twórcy Adidasa?",
+    "answers": [
+      "Puma",
+      "Reebok",
+      "Asics",
+      "Fila"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Bracia Dasslerowie pokłócili się, a obie firmy powstały w bawarskim Herzogenaurach."
+  },
+  {
+    "id": "fashion_v005",
+    "question": "Jak nazywa się filcowy kapelusz z wgnieceniem na szczycie, noszony przez Indianę Jonesa?",
+    "answers": [
+      "Melonik",
+      "Fedora",
+      "Panama",
+      "Kaszkiet"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fedora wzięła nazwę od tytułowej bohaterki sztuki z końca XIX wieku."
+  },
+  {
+    "id": "fashion_v006",
+    "question": "Jak nazywa się szeroki kapelusz kojarzony z meksykańskimi mariachi?",
+    "answers": [
+      "Fedora",
+      "Beret",
+      "Sombrero",
+      "Stetson"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nazwa pochodzi od hiszpańskiego „sombra”, czyli cień."
+  },
+  {
+    "id": "fashion_v007",
+    "question": "Jak nazywa się czerwona czapka w kształcie ściętego stożka z czarnym chwostem?",
+    "answers": [
+      "Turban",
+      "Jarmułka",
+      "Tiara",
+      "Fez"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Fez nazwano od marokańskiego miasta Fez, a spopularyzowało go Imperium Osmańskie."
+  },
+  {
+    "id": "fashion_v008",
+    "question": "Jak nazywa się tradycyjna bawarska sukienka z gorsetem i fartuszkiem?",
+    "answers": [
+      "Dirndl",
+      "Kilt",
+      "Sari",
+      "Kimono"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dirndl to obowiązkowy strój kobiet na monachijskim Oktoberfeście."
+  },
+  {
+    "id": "fashion_v009",
+    "question": "Jak nazywa się tradycyjny strój koreański?",
+    "answers": [
+      "Kimono",
+      "Hanbok",
+      "Qipao",
+      "Sari"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Hanbok tworzy krótki kaftan oraz wysoka, szeroka spódnica lub spodnie."
+  },
+  {
+    "id": "fashion_v010",
+    "question": "Jak nazywa się wietnamski strój narodowy: długa tunika noszona na spodnie?",
+    "answers": [
+      "Hanbok",
+      "Kebaya",
+      "Áo dài",
+      "Qipao"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Áo dài oznacza po wietnamsku „długą koszulę”."
+  },
+  {
+    "id": "fashion_v011",
+    "question": "Jak nazywa się szeroki pas wiązany na kimonie?",
+    "answers": [
+      "Kaftan",
+      "Hakama",
+      "Sari",
+      "Obi"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Obi bywa wiązane na kilkadziesiąt sposobów, zależnie od okazji."
+  },
+  {
+    "id": "fashion_v012",
+    "question": "Jak nazywa się szkocka krata, której barwy przypisane są konkretnym klanom?",
+    "answers": [
+      "Tartan",
+      "Pepitka",
+      "Vichy",
+      "Madras"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Każdy szkocki klan ma własny tartan w ustalonych kolorach."
+  },
+  {
+    "id": "fashion_v013",
+    "question": "Jak nazywa się wzór z ukośnych rombów, popularny na swetrach i skarpetach golfistów?",
+    "answers": [
+      "Pepitka",
+      "Argyle",
+      "Jodełka",
+      "Paisley"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Nazwa pochodzi od szkockiego hrabstwa Argyll."
+  },
+  {
+    "id": "fashion_v014",
+    "question": "Jak nazywa się kratka spopularyzowana przez różową suknię ślubną Brigitte Bardot?",
+    "answers": [
+      "Tartan",
+      "Pepitka",
+      "Vichy",
+      "Argyle"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kratka nosi nazwę francuskiego uzdrowiska Vichy."
+  },
+  {
+    "id": "fashion_v015",
+    "question": "Jak nazywa się bluzka w poziome granatowo-białe paski, wywodząca się z francuskiej marynarki wojennej?",
+    "answers": [
+      "Polówka",
+      "Tunika",
+      "Bolerko",
+      "Bretonka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W 1858 roku pasiasta koszula stała się oficjalnym elementem munduru francuskich marynarzy."
+  },
+  {
+    "id": "fashion_v016",
+    "question": "Która projektantka w 1974 roku stworzyła słynną sukienkę kopertową?",
+    "answers": [
+      "Diane von Fürstenberg",
+      "Donna Karan",
+      "Vivienne Westwood",
+      "Stella McCartney"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dżersejowa „wrap dress” sprzedała się w milionach egzemplarzy."
+  },
+  {
+    "id": "fashion_v017",
+    "question": "Który dom mody ma w logo dwie splecione litery C?",
+    "answers": [
+      "Céline",
+      "Chanel",
+      "Cartier",
+      "Cavalli"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Splecione litery C to inicjały Coco Chanel."
+  },
+  {
+    "id": "fashion_v018",
+    "question": "Co przedstawia logo marki Polo Ralph Lauren?",
+    "answers": [
+      "Lwa",
+      "Koronę",
+      "Gracza polo na koniu",
+      "Żaglówkę"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jeździec z kijem do polo symbolizuje elegancki, sportowy styl marki."
+  },
+  {
+    "id": "fashion_v019",
+    "question": "Jakiego koloru jest charakterystyczne przeszycie podeszwy w klasycznych butach Dr. Martens?",
+    "answers": [
+      "Czerwonego",
+      "Białego",
+      "Niebieskiego",
+      "Żółtego"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Żółta nić stała się znakiem rozpoznawczym marki od 1960 roku."
+  },
+  {
+    "id": "fashion_v020",
+    "question": "Jak w Polsce potocznie nazywa się ciężkie, sznurowane buty w stylu Dr. Martens?",
+    "answers": [
+      "Glany",
+      "Trapery",
+      "Kierpce",
+      "Mokasyny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Glany to ulubione obuwie punków, skinów i metalowców."
+  },
+  {
+    "id": "fashion_v021",
+    "question": "Jak nazywają się klapki z paskiem przechodzącym między palcami?",
+    "answers": [
+      "Chodaki",
+      "Japonki",
+      "Espadryle",
+      "Sandały rzymskie"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Ich nazwa nawiązuje do tradycyjnego japońskiego obuwia zori."
+  },
+  {
+    "id": "fashion_v022",
+    "question": "Z czego wykonana jest podeszwa tradycyjnych espadryli?",
+    "answers": [
+      "Z korka",
+      "Z drewna",
+      "Z plecionki jutowej",
+      "Z kauczuku"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Espadryle wywodzą się z Katalonii i Kraju Basków."
+  },
+  {
+    "id": "fashion_v023",
+    "question": "Jak nazywają się drewniane buty kojarzone z Holandią?",
+    "answers": [
+      "Mokasyny",
+      "Kalosze",
+      "Espadryle",
+      "Chodaki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Holenderskie klompy wycina się z jednego kawałka drewna."
+  },
+  {
+    "id": "fashion_v024",
+    "question": "Ojczyzną jakiej popularnej marki odzieżowej jest Japonia?",
+    "answers": [
+      "Uniqlo",
+      "Mango",
+      "Primark",
+      "Bershka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pierwszy sklep Uniqlo otwarto w Hiroszimie w 1984 roku."
+  },
+  {
+    "id": "fashion_v025",
+    "question": "Które miasto, obok Paryża, Mediolanu i Nowego Jorku, tworzy „wielką czwórkę” stolic mody?",
+    "answers": [
+      "Rzym",
+      "Londyn",
+      "Tokio",
+      "Berlin"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W tych czterech miastach odbywają się najważniejsze tygodnie mody."
+  },
+  {
+    "id": "fashion_v026",
+    "question": "Która marka ma w logo metalowy, odwrócony trójkąt?",
+    "answers": [
+      "Gucci",
+      "Versace",
+      "Prada",
+      "Fendi"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Trójkątna plakietka zdobi torebki i plecaki Prady."
+  },
+  {
+    "id": "fashion_v027",
+    "question": "Z jakim kolorem kojarzy się dom mody Valentino?",
+    "answers": [
+      "Z różowym",
+      "Z zielonym",
+      "Z fioletowym",
+      "Z czerwonym"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Odcień „czerwieni Valentino” stał się wizytówką projektanta."
+  },
+  {
+    "id": "fashion_v028",
+    "question": "Jak nazywa się torebka Hermès nazwana na cześć aktorki i piosenkarki Jane?",
+    "answers": [
+      "Birkin",
+      "Kelly",
+      "Jackie",
+      "Baguette"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Torebkę zaprojektowano dla Jane Birkin po jej przypadkowym spotkaniu z prezesem Hermès w samolocie."
+  },
+  {
+    "id": "fashion_v029",
+    "question": "Słowo „dżinsy” wywodzi się od nazwy którego włoskiego portu?",
+    "answers": [
+      "Neapolu",
+      "Genui",
+      "Wenecji",
+      "Livorno"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Francuzi nazywali tkaninę z Genui „bleu de Gênes”, z czego powstało „jeans”."
+  },
+  {
+    "id": "fashion_v030",
+    "question": "Od kogo pochodzi nazwa rozpinanego swetra „kardigan”?",
+    "answers": [
+      "Od walijskiego miasta portowego",
+      "Od szkockiego klanu",
+      "Od brytyjskiego hrabiego",
+      "Od francuskiego krawca"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Sweter nazwano od 7. hrabiego Cardigan, dowódcy z wojny krymskiej."
+  },
+  {
+    "id": "fashion_v031",
+    "question": "Od nazwiska kogo pochodzi nazwa rękawa „raglan”?",
+    "answers": [
+      "Włoskiego krawca",
+      "Francuskiego malarza",
+      "Szkockiego tkacza",
+      "Brytyjskiego lorda"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Lord Raglan, który stracił rękę pod Waterloo, nosił płaszcz z tak skrojonym rękawem."
+  },
+  {
+    "id": "fashion_v032",
+    "question": "Która aktorka w „Śniadaniu u Tiffany'ego” rozsławiła małą czarną?",
+    "answers": [
+      "Audrey Hepburn",
+      "Marilyn Monroe",
+      "Grace Kelly",
+      "Elizabeth Taylor"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Scena z Holly Golightly przed witryną Tiffany'ego to jedna z najsłynniejszych w kinie."
+  },
+  {
+    "id": "fashion_v033",
+    "question": "Który projektant zaprojektował małą czarną Audrey Hepburn ze „Śniadania u Tiffany'ego”?",
+    "answers": [
+      "Christian Dior",
+      "Hubert de Givenchy",
+      "Yves Saint Laurent",
+      "Valentino Garavani"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Givenchy i Hepburn przyjaźnili się i współpracowali przez kilkadziesiąt lat."
+  },
+  {
+    "id": "fashion_v034",
+    "question": "Jak nazywa się nakrycie głowy ze stroju krakowskiego, ozdobione pawimi piórami?",
+    "answers": [
+      "Kołpak",
+      "Magierka",
+      "Krakuska",
+      "Kapelusz góralski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Krakuska to czerwona rogatywka z pawim piórem i kokardami."
+  },
+  {
+    "id": "fashion_v035",
+    "question": "Jak nazywa się czworokątna czapka noszona przez konfederatów barskich i powstańców?",
+    "answers": [
+      "Kołpak",
+      "Czako",
+      "Bermyca",
+      "Konfederatka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Konfederatka stała się później symbolem polskiego munduru wojskowego."
+  },
+  {
+    "id": "plant_v001",
+    "question": "Która roślina składa listki, gdy się jej dotknie?",
+    "answers": [
+      "Paproć",
+      "Bluszcz",
+      "Mimoza wstydliwa",
+      "Fiołek afrykański"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mimoza w ułamku sekundy zmienia ciśnienie wody w komórkach u nasady liści."
+  },
+  {
+    "id": "plant_v002",
+    "question": "Które afrykańskie drzewo magazynuje w grubym pniu tysiące litrów wody?",
+    "answers": [
+      "Akacja",
+      "Eukaliptus",
+      "Drzewo smocze",
+      "Baobab"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pień starego baobabu może mieć kilkanaście metrów obwodu."
+  },
+  {
+    "id": "plant_v003",
+    "question": "Jakim drzewem jest „Generał Sherman”, największe drzewo świata pod względem objętości?",
+    "answers": [
+      "Mamutowcem olbrzymim",
+      "Sekwoją wieczniezieloną",
+      "Baobabem",
+      "Eukaliptusem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pień Generała Shermana w Kalifornii ma ponad 1400 metrów sześciennych objętości."
+  },
+  {
+    "id": "plant_v004",
+    "question": "Jak nazywa się uporczywy chwast z długimi, białymi kłączami, bardzo trudny do wyplenienia?",
+    "answers": [
+      "Mniszek",
+      "Perz",
+      "Babka",
+      "Koniczyna"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Z każdego kawałka kłącza perzu może wyrosnąć nowa roślina."
+  },
+  {
+    "id": "plant_v005",
+    "question": "Jak nazywa się pnącze, które jesienią barwi ściany domów na czerwono?",
+    "answers": [
+      "Bluszcz pospolity",
+      "Powojnik",
+      "Winobluszcz",
+      "Glicynia"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W przeciwieństwie do zimozielonego bluszczu winobluszcz jesienią czerwienieje i zrzuca liście."
+  },
+  {
+    "id": "plant_v006",
+    "question": "Jak nazywa się olbrzymi kwiatostan, który cuchnie padliną i w ogrodach botanicznych zakwita raz na kilka lat?",
+    "answers": [
+      "Wiktoria amazońska",
+      "Lotos orzechodajny",
+      "Strelicja królewska",
+      "Dziwidło olbrzymie"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zapach padliny przyciąga chrząszcze i muchy, które zapylają dziwidło."
+  },
+  {
+    "id": "plant_v007",
+    "question": "Z jakiej części drzewa pochodzi cynamon?",
+    "answers": [
+      "Z kory",
+      "Z korzeni",
+      "Z liści",
+      "Z nasion"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zwinięte rurki cynamonu to suszona wewnętrzna kora cynamonowca."
+  },
+  {
+    "id": "plant_v008",
+    "question": "Czym botanicznie jest ziarnko czarnego pieprzu?",
+    "answers": [
+      "Nasieniem trawy",
+      "Suszonym owocem",
+      "Pąkiem kwiatu",
+      "Kawałkiem korzenia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Czarny pieprz to niedojrzałe, wysuszone owoce pnącza pieprzu czarnego."
+  },
+  {
+    "id": "plant_v009",
+    "question": "Jak nazywa się zwracanie się młodych słoneczników w stronę słońca?",
+    "answers": [
+      "Geotropizm",
+      "Fotoperiodyzm",
+      "Heliotropizm",
+      "Hydrotropizm"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Młode słoneczniki śledzą słońce w ciągu dnia, a dojrzałe zwykle zwrócone są na wschód."
+  },
+  {
+    "id": "plant_v010",
+    "question": "Na jakim drzewie rosną daktyle?",
+    "answers": [
+      "Na figowcu",
+      "Na oliwce",
+      "Na granatowcu",
+      "Na palmie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Palma daktylowa uprawiana jest na Bliskim Wschodzie od tysięcy lat."
+  },
+  {
+    "id": "plant_v011",
+    "question": "Który kwiat w buddyzmie symbolizuje czystość, bo wyrasta nieskalany z mułu?",
+    "answers": [
+      "Lotos",
+      "Róża",
+      "Lilia",
+      "Storczyk"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Liście i kwiaty lotosu mają powierzchnię odpychającą wodę i brud."
+  },
+  {
+    "id": "plant_v012",
+    "question": "Jaka kolczasta roślina jest symbolem Szkocji?",
+    "answers": [
+      "Wrzos",
+      "Oset",
+      "Jałowiec",
+      "Głóg"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Według legendy oset zdradził nocny atak wikingów, gdy jeden z nich na niego nadepnął."
+  },
+  {
+    "id": "plant_v013",
+    "question": "Jaka roślina z trzema listkami jest symbolem Irlandii i świętego Patryka?",
+    "answers": [
+      "Szczaw",
+      "Mięta",
+      "Koniczyna",
+      "Bluszcz"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Święty Patryk miał tłumaczyć na trójlistnej koniczynie tajemnicę Trójcy Świętej."
+  },
+  {
+    "id": "plant_v014",
+    "question": "Jaki kwiat w PRL tradycyjnie wręczano kobietom 8 marca?",
+    "answers": [
+      "Tulipan",
+      "Róża",
+      "Frezja",
+      "Goździk"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Goździk z rajstopami lub kawą to klasyczny prezent z okazji Dnia Kobiet."
+  },
+  {
+    "id": "plant_v015",
+    "question": "Jak naprawdę rozmnażają się paprocie, które w rzeczywistości nie kwitną?",
+    "answers": [
+      "Przez zarodniki",
+      "Przez nasiona",
+      "Przez cebulki",
+      "Przez owoce"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zarodniki tworzą się w brązowych kupkach na spodniej stronie liści."
+  },
+  {
+    "id": "plant_v016",
+    "question": "Z jakiej rośliny produkuje się w Polsce cukier?",
+    "answers": [
+      "Z trzciny cukrowej",
+      "Z buraka cukrowego",
+      "Z kukurydzy",
+      "Z ziemniaka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Burak cukrowy zawiera w korzeniu kilkanaście procent sacharozy."
+  },
+  {
+    "id": "plant_v017",
+    "question": "Z soku jakiego drzewa otrzymuje się naturalny kauczuk?",
+    "answers": [
+      "Palmy olejowej",
+      "Eukaliptusa",
+      "Kauczukowca brazylijskiego",
+      "Akacji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mleczny sok zwany lateksem zbiera się z nacięć w korze."
+  },
+  {
+    "id": "plant_v018",
+    "question": "Jakie zioło o baldachach tradycyjnie dodaje się do kiszonych ogórków?",
+    "answers": [
+      "Bazylię",
+      "Rozmaryn",
+      "Tymianek",
+      "Koper"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Do słoika z ogórkami trafiają zwykle baldachy kopru, czosnek i liść chrzanu."
+  },
+  {
+    "id": "plant_v019",
+    "question": "Liście jakiego drzewa są głównym pokarmem jedwabników?",
+    "answers": [
+      "Morwy",
+      "Lipy",
+      "Wierzby",
+      "Topoli"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Gąsienice jedwabnika morwowego zjadają ogromne ilości liści morwy białej."
+  },
+  {
+    "id": "plant_v020",
+    "question": "Które drzewo o liściach w kształcie wachlarza nazywane jest żywą skamieniałością?",
+    "answers": [
+      "Cis pospolity",
+      "Miłorząb dwuklapowy",
+      "Modrzew",
+      "Metasekwoja"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Miłorząb przetrwał w niemal niezmienionej formie od czasów dinozaurów."
+  },
+  {
+    "id": "plant_v021",
+    "question": "W jakim kraju rośnie dziko arganowiec, z którego pozyskuje się olej arganowy?",
+    "answers": [
+      "W Indiach",
+      "W Meksyku",
+      "W Maroku",
+      "W Grecji"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Arganowiec jest endemitem południowo-zachodniego Maroka."
+  },
+  {
+    "id": "plant_v022",
+    "question": "Jak rośnie ananas?",
+    "answers": [
+      "Na wysokim drzewie",
+      "Na pnączu",
+      "Pod ziemią jak ziemniak",
+      "Na niskiej roślinie z rozety liści"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Z każdej rośliny wyrasta zazwyczaj tylko jeden owoc."
+  },
+  {
+    "id": "plant_v023",
+    "question": "Czym botanicznie jest bananowiec?",
+    "answers": [
+      "Ogromną rośliną zielną",
+      "Drzewem liściastym",
+      "Palmą",
+      "Krzewem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pseudołodyga bananowca to zwinięte pochwy liściowe, a nie drewno."
+  },
+  {
+    "id": "plant_v024",
+    "question": "Jak nazywa się nawóz powstały z rozłożonych resztek roślinnych?",
+    "answers": [
+      "Torf",
+      "Kompost",
+      "Saletra",
+      "Wapno"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kompostownik zamienia skoszoną trawę i obierki w żyzną ziemię."
+  },
+  {
+    "id": "plant_v025",
+    "question": "Jak nazywa się przesadzanie młodych siewek w większych odstępach?",
+    "answers": [
+      "Okulizacja",
+      "Ściółkowanie",
+      "Pikowanie",
+      "Hartowanie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pikowanie wzmacnia system korzeniowy rozsady."
+  },
+  {
+    "id": "plant_v026",
+    "question": "Na jaką roślinę szczególnie reagują koty, tarzając się w niej?",
+    "answers": [
+      "Melisę",
+      "Lawendę",
+      "Rumianek",
+      "Kocimiętkę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kocimiętka zawiera nepetalakton, który działa na koty pobudzająco."
+  },
+  {
+    "id": "plant_v027",
+    "question": "Z której krainy we Francji słyną fioletowe pola lawendy?",
+    "answers": [
+      "Z Prowansji",
+      "Z Bretanii",
+      "Z Normandii",
+      "Z Alzacji"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lawenda kwitnie w Prowansji od czerwca do sierpnia."
+  },
+  {
+    "id": "plant_v028",
+    "question": "Na jakim drzewie rosną kasztany, które dzieci zbierają jesienią w polskich parkach?",
+    "answers": [
+      "Na dębie",
+      "Na kasztanowcu",
+      "Na buku",
+      "Na orzechu włoskim"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Owoce kasztanowca są niejadalne, w przeciwieństwie do kasztana jadalnego."
+  },
+  {
+    "id": "plant_v029",
+    "question": "Skrzydlate nasiona, które dzieci przyklejają sobie do nosa, to owoce jakiego drzewa?",
+    "answers": [
+      "Lipy",
+      "Kasztanowca",
+      "Klonu",
+      "Brzozy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Uskrzydlone owoce klonu wirują w powietrzu jak śmigła helikoptera."
+  },
+  {
+    "id": "plant_v030",
+    "question": "Jakim organizmem jest jemioła rosnąca na drzewach?",
+    "answers": [
+      "Grzybem",
+      "Porostem",
+      "Mchem",
+      "Półpasożytem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jemioła sama prowadzi fotosyntezę, ale wodę i sole czerpie z drzewa."
+  },
+  {
+    "id": "plant_v031",
+    "question": "Który popularny śródziemnomorski krzew o różowych kwiatach jest silnie trujący?",
+    "answers": [
+      "Oleander",
+      "Hibiskus",
+      "Bugenwilla",
+      "Mirt"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Wszystkie części oleandra zawierają glikozydy groźne dla serca."
+  },
+  {
+    "id": "plant_v032",
+    "question": "Skąd w XVI wieku sprowadzono do Europy tulipany?",
+    "answers": [
+      "Z Chin",
+      "Z Imperium Osmańskiego",
+      "Z Ameryki",
+      "Z Egiptu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa tulipana wywodzi się prawdopodobnie od tureckiego słowa oznaczającego turban."
+  },
+  {
+    "id": "plant_v033",
+    "question": "Jakiego koloru są zwykle kwiaty niezapominajki?",
+    "answers": [
+      "Czerwone",
+      "Żółte",
+      "Błękitne",
+      "Białe"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Niezapominajka od wieków symbolizuje pamięć i wierną miłość."
+  },
+  {
+    "id": "plant_v034",
+    "question": "Z soku jakiego drzewa robi się syrop, symbol Kanady?",
+    "answers": [
+      "Z brzozy",
+      "Z lipy",
+      "Z sosny",
+      "Z klonu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Na litr syropu klonowego trzeba odparować około 40 litrów soku."
+  },
+  {
+    "id": "plant_v035",
+    "question": "Z jakiej rośliny starożytni Egipcjanie wytwarzali materiał do pisania?",
+    "answers": [
+      "Z cibory papirusowej",
+      "Z lnu",
+      "Z bambusa",
+      "Z trzciny cukrowej"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Od nazwy papirusu pochodzi słowo „papier”."
+  },
+  {
+    "id": "wlang_v001",
+    "question": "Co mówi Portugalczyk, gdy chce komuś podziękować?",
+    "answers": [
+      "Gracias",
+      "Merci",
+      "Grazie",
+      "Obrigado"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kobieta powie „obrigada”, bo słowo dosłownie znaczy „zobowiązany”."
+  },
+  {
+    "id": "wlang_v002",
+    "question": "Jakim słowem podziękujesz w Szwecji?",
+    "answers": [
+      "Tack",
+      "Kiitos",
+      "Aitäh",
+      "Paldies"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szwedzi bardzo często mówią też „tack så mycket”, czyli „dziękuję bardzo”."
+  },
+  {
+    "id": "wlang_v003",
+    "question": "Co powie Turek, gdy chce podziękować?",
+    "answers": [
+      "Shukran",
+      "Teşekkür ederim",
+      "Efcharistó",
+      "Spasibo"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Krócej i mniej formalnie Turcy mówią po prostu „teşekkürler”."
+  },
+  {
+    "id": "wlang_v004",
+    "question": "Jak po hiszpańsku zamówić piwo – jakie słowo trzeba znać?",
+    "answers": [
+      "Birra",
+      "Bière",
+      "Cerveza",
+      "Øl"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Hiszpańska „cerveza” pochodzi od łacińskiego „cervisia”."
+  },
+  {
+    "id": "wlang_v005",
+    "question": "Co znaczy niemieckie słowo „Entschuldigung”?",
+    "answers": [
+      "Dziękuję",
+      "Na zdrowie",
+      "Do widzenia",
+      "Przepraszam"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Słowo pochodzi od „Schuld”, czyli wina."
+  },
+  {
+    "id": "wlang_v006",
+    "question": "Co oznacza niemieckie słowo „Schadenfreude”?",
+    "answers": [
+      "Radość z cudzego nieszczęścia",
+      "Tęsknotę za domem",
+      "Żądzę podróży",
+      "Strach przed zmianą"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Słowo przeszło do wielu języków, bo trudno je oddać jednym wyrazem."
+  },
+  {
+    "id": "wlang_v007",
+    "question": "Co oznacza niemieckie słowo „Kindergarten”?",
+    "answers": [
+      "Plac zabaw",
+      "Przedszkole",
+      "Szkołę",
+      "Żłobek"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Dosłownie to „ogród dziecięcy”, a nazwę wymyślił pedagog Friedrich Fröbel."
+  },
+  {
+    "id": "wlang_v008",
+    "question": "Co oznacza duńskie słowo „hygge”?",
+    "answers": [
+      "Pracowitość",
+      "Zimowy sport",
+      "Przytulność i błogi komfort",
+      "Toast weselny"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Hygge to duński sposób na długie, ciemne zimy: świece, koc i ciepła herbata."
+  },
+  {
+    "id": "wlang_v009",
+    "question": "Co oznacza szwedzkie słowo „fika”?",
+    "answers": [
+      "Wiosenne święto",
+      "Drewniany domek",
+      "Saunę",
+      "Przerwę na kawę i ciastko"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Fika to w Szwecji niemal obowiązkowy rytuał w pracy i w domu."
+  },
+  {
+    "id": "wlang_v010",
+    "question": "Czym jest dla Hiszpana „fiesta”?",
+    "answers": [
+      "Święto lub zabawa",
+      "Drzemka",
+      "Obiad",
+      "Plaża"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Fiesty to w Hiszpanii często kilkudniowe uliczne festyny."
+  },
+  {
+    "id": "wlang_v011",
+    "question": "Co oznacza japońskie słowo „sumimasen”?",
+    "answers": [
+      "Na zdrowie",
+      "Przepraszam",
+      "Dobranoc",
+      "Proszę bardzo"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sumimasen służy też do przywołania kelnera i do podziękowania."
+  },
+  {
+    "id": "wlang_v012",
+    "question": "Z jakich japońskich słów składa się nazwa „emoji”?",
+    "answers": [
+      "„Emocja” i „twarz”",
+      "„Uśmiech” i „ikona”",
+      "„Obraz” i „znak”",
+      "„Mały” i „symbol”"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Podobieństwo „emoji” do angielskiego „emotion” jest czysto przypadkowe."
+  },
+  {
+    "id": "wlang_v013",
+    "question": "Co oznacza japońskie słowo „kawaii”?",
+    "answers": [
+      "Straszny",
+      "Głodny",
+      "Szybki",
+      "Uroczy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kultura kawaii to m.in. Hello Kitty i pastelowe gadżety."
+  },
+  {
+    "id": "wlang_v014",
+    "question": "Co oznacza japońskie pojęcie „ikigai”?",
+    "answers": [
+      "Sens życia",
+      "Sztukę układania kwiatów",
+      "Herbacianą ceremonię",
+      "Poranną gimnastykę"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ikigai to powód, dla którego warto rano wstawać z łóżka."
+  },
+  {
+    "id": "wlang_v015",
+    "question": "Co oznacza hawajskie słowo „aloha”?",
+    "answers": [
+      "Tylko „dziękuję”",
+      "Zarówno powitanie, jak i pożegnanie",
+      "Tylko „smacznego”",
+      "Tylko „na zdrowie”"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Aloha wyraża też miłość, życzliwość i współczucie."
+  },
+  {
+    "id": "wlang_v016",
+    "question": "Co znaczy w suahili zwrot „hakuna matata”, rozsławiony przez „Króla Lwa”?",
+    "answers": [
+      "Dzień dobry",
+      "Kocham cię",
+      "Nie ma zmartwień",
+      "Wszystko stracone"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "To popularne powiedzenie w Kenii i Tanzanii, nie tylko w filmie Disneya."
+  },
+  {
+    "id": "wlang_v017",
+    "question": "Co oznacza w języku suahili słowo „safari”?",
+    "answers": [
+      "Lew",
+      "Sawanna",
+      "Polowanie",
+      "Podróż"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Słowo trafiło do suahili z arabskiego i oznacza każdą wyprawę."
+  },
+  {
+    "id": "wlang_v018",
+    "question": "Co dosłownie oznacza francuskie „déjà vu”?",
+    "answers": [
+      "Już widziane",
+      "Nigdy więcej",
+      "Dobry wieczór",
+      "Pierwszy raz"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tak nazywamy wrażenie, że coś nowego już kiedyś przeżyliśmy."
+  },
+  {
+    "id": "wlang_v019",
+    "question": "Co oznacza hiszpańskie słowo „mañana”?",
+    "answers": [
+      "Wczoraj",
+      "Jutro",
+      "Wieczór",
+      "Niedziela"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Mañana” bywa też żartobliwym symbolem odkładania spraw na później."
+  },
+  {
+    "id": "wlang_v020",
+    "question": "Od łacińskiego określenia której godziny dnia pochodzi słowo „siesta”?",
+    "answers": [
+      "Dwunastej",
+      "Trzeciej",
+      "Szóstej",
+      "Dziewiątej"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Rzymianie liczyli godziny od świtu, więc „sexta hora” przypadała około południa."
+  },
+  {
+    "id": "wlang_v021",
+    "question": "Która litera jest charakterystyczna dla alfabetu hiszpańskiego?",
+    "answers": [
+      "Ø",
+      "Å",
+      "Ő",
+      "Ñ"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Litera ñ występuje m.in. w słowie „España”."
+  },
+  {
+    "id": "wlang_v022",
+    "question": "Jak nazywa się niemiecka litera „ß”?",
+    "answers": [
+      "Eszett",
+      "Umlaut",
+      "Cedylla",
+      "Tylda"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Eszett, czyli „ostre s”, zapisuje się jak podwójne s, np. w słowie „Straße”."
+  },
+  {
+    "id": "wlang_v023",
+    "question": "Jak nazywają się dwie kropki nad literami ä, ö i ü w języku niemieckim?",
+    "answers": [
+      "Eszett",
+      "Umlaut",
+      "Cedylla",
+      "Akcent"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Umlaut zmienia brzmienie samogłoski, np. „schon” i „schön” to różne słowa."
+  },
+  {
+    "id": "wlang_v024",
+    "question": "Jak nazywa się ogonek pod literą „ç” we francuskim?",
+    "answers": [
+      "Tylda",
+      "Umlaut",
+      "Cedylla",
+      "Daszek"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Cedylla sprawia, że „c” przed a, o, u czyta się jak „s”, np. w „garçon”."
+  },
+  {
+    "id": "wlang_v025",
+    "question": "W jakim języku zapisana jest nazwa miejscowości Llanfairpwllgwyngyll, jedna z najdłuższych w Europie?",
+    "answers": [
+      "W irlandzkim",
+      "W szkockim gaelickim",
+      "W bretońskim",
+      "W walijskim"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pełna nazwa tej wioski na wyspie Anglesey liczy 58 liter."
+  },
+  {
+    "id": "wlang_v026",
+    "question": "Co oznacza włoskie wyrażenie „dolce vita”?",
+    "answers": [
+      "Słodkie życie",
+      "Dobry wieczór",
+      "Smaczny obiad",
+      "Piękna pogoda"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wyrażenie spopularyzował film Federico Felliniego z 1960 roku."
+  },
+  {
+    "id": "wlang_v027",
+    "question": "Ile znaków liczy podstawowy japoński sylabariusz hiragana?",
+    "answers": [
+      "26",
+      "46",
+      "33",
+      "100"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Każdy znak hiragany oznacza sylabę, np. か to „ka”."
+  },
+  {
+    "id": "wlang_v028",
+    "question": "Jak nazywa się współczesne pismo języka gruzińskiego?",
+    "answers": [
+      "Cyrylica",
+      "Dewanagari",
+      "Mchedruli",
+      "Hangul"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Gruzini mają własny, unikatowy alfabet o zaokrąglonych literach."
+  },
+  {
+    "id": "wlang_v029",
+    "question": "Jaki jest język urzędowy Angoli?",
+    "answers": [
+      "Francuski",
+      "Hiszpański",
+      "Angielski",
+      "Portugalski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Angola była portugalską kolonią do 1975 roku."
+  },
+  {
+    "id": "wlang_v030",
+    "question": "Który język, obok francuskiego, jest językiem urzędowym Haiti?",
+    "answers": [
+      "Kreolski haitański",
+      "Hiszpański",
+      "Angielski",
+      "Portugalski"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kreolskim haitańskim posługuje się na co dzień niemal cała ludność kraju."
+  },
+  {
+    "id": "wlang_v031",
+    "question": "Jak po francusku powiedzieć „kocham cię”?",
+    "answers": [
+      "Ti amo",
+      "Je t'aime",
+      "Te quiero",
+      "Ich liebe dich"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "To jedno z najczęściej śpiewanych zdań w piosenkach na świecie."
+  },
+  {
+    "id": "wlang_v032",
+    "question": "Co oznacza niemieckie słowo „Wanderlust”?",
+    "answers": [
+      "Wiosenne zmęczenie",
+      "Miłość do lasu",
+      "Żądzę podróżowania",
+      "Zazdrość"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wanderlust stało się modnym słowem w świecie podróżniczych blogów."
+  },
+  {
+    "id": "wlang_v033",
+    "question": "Co oznacza fińskie pojęcie „sisu”?",
+    "answers": [
+      "Saunowy relaks",
+      "Zimową depresję",
+      "Gościnność",
+      "Hart ducha i wytrwałość"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Sisu uważa się za kluczową cechę fińskiego charakteru narodowego."
+  },
+  {
+    "id": "wlang_v034",
+    "question": "Co oznacza arabskie wyrażenie „inszallah”?",
+    "answers": [
+      "Jeśli Bóg zechce",
+      "Bóg jest wielki",
+      "Pokój z tobą",
+      "Dzięki Bogu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Inszallah wypowiada się, mówiąc o planach na przyszłość."
+  },
+  {
+    "id": "wlang_v035",
+    "question": "Co oznacza hebrajskie słowo „szalom”, używane na powitanie i pożegnanie?",
+    "answers": [
+      "Chleb",
+      "Pokój",
+      "Światło",
+      "Rodzina"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Arabskim odpowiednikiem jest „salam”, wywodzący się z tego samego rdzenia."
+  }
+]
