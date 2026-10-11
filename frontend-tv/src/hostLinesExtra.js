@@ -256,7 +256,7 @@ export const CHEEKY_LINES = {
   ],
   streak: [
     '{name}: {n} z rzędu! Ktoś tu chyba czyta encyklopedie do poduszki.',
-    '{n} trafień z rzędu! {name}, zostaw coś dla innych!',
+    '{n} razy z rzędu! {name}, zostaw coś dla innych!',
     '{name} nie zwalnia! Seria: {n}. Reszta patrzy z zazdrością.',
     'Seria {n} dla: {name}! Czy ktoś to w ogóle zatrzyma?'
   ],
@@ -489,7 +489,7 @@ export const RUDE_LINES = {
   streak: [
     '{name}: {n} z rzędu! Albo geniusz, albo ma ściągę. Sprawdzę.',
     'Seria {n}, {name}! Reszta, matoły, uczcie się!',
-    '{name} trafia {n} raz z rzędu. Kurde, aż się nudzę.',
+    '{name} trafia {n}. raz z rzędu. Kurde, aż się nudzę.',
     '{n} z rzędu dla: {name}! Do cholery, zostawcie coś reszcie!'
   ],
   missStreak: [

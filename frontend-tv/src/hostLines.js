@@ -11,7 +11,8 @@
  * Sabotaże: {name} = atakujący, {target} = ofiara.
  */
 
-import { CHEEKY_LINES, RUDE_LINES } from './hostLinesExtra.js';
+import { CHEEKY_LINES as EXTRA_CHEEKY, RUDE_LINES as EXTRA_RUDE } from './hostLinesExtra.js';
+import { MORE_LINES, MORE_CHEEKY_LINES, MORE_RUDE_LINES, MORE_CATEGORY_POOLS } from './hostLinesMore.js';
 
 export const HOST_NAME = 'Prof. Pytajek';
 
@@ -19,7 +20,7 @@ export const HOST_NAME = 'Prof. Pytajek';
 export const HUMOR_LEVELS = ['polite', 'cheeky', 'rude'];
 const RUDE_SHARE = 0.55; // w trybie chamskim tyle losowań idzie w chamskie linijki (gdy pula je ma)
 
-export const LINES = {
+const BASE_LINES = {
   // ---------------------------------------------------------------- lobby
   join: [
     'Witamy, {name}! Proszę się rozgościć, chipsy są wliczone w cenę.',
@@ -437,7 +438,21 @@ export const LINES = {
   ]
 };
 
-// klucz kategorii z backendu -> pula tekstów
+/** Skleja pule z kilku plików (kolejność zachowana, bez powtórzeń tej samej linijki). */
+function mergePools(...sources) {
+  const out = {};
+  sources.forEach(src => Object.entries(src).forEach(([pool, list]) => {
+    out[pool] = [...new Set([...(out[pool] || []), ...list])];
+  }));
+  return out;
+}
+
+// pule wynikowe: hostLines.js + hostLinesExtra.js + hostLinesMore.js
+export const LINES = mergePools(BASE_LINES, MORE_LINES);
+export const CHEEKY_LINES = mergePools(EXTRA_CHEEKY, MORE_CHEEKY_LINES);
+export const RUDE_LINES = mergePools(EXTRA_RUDE, MORE_RUDE_LINES);
+
+// klucz kategorii z backendu -> pula tekstów (nowe pule z hostLinesMore.js nadpisują stare mapowania)
 export const CATEGORY_POOLS = {
   motoryzacja: 'cat_motoryzacja',
   technologia: 'cat_technologia',
@@ -458,7 +473,8 @@ export const CATEGORY_POOLS = {
   bajki: 'cat_bajki',
   jezyk: 'cat_jezyk',
   pieniadze: 'cat_pieniadze',
-  mitologia: 'cat_mitologia'
+  mitologia: 'cat_mitologia',
+  ...MORE_CATEGORY_POOLS
 };
 
 // emocja postaci przy danej puli
