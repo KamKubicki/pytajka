@@ -13,20 +13,26 @@ app.use((req, res, next) => {
   next();
 });
 
-// CORS configuration - allow development ports
+// CORS configuration - allow development ports and HTTPS
 app.use(cors({
   origin: function (origin, callback) {
-    // Allow requests with no origin (mobile apps, etc)
+    // Allow requests with no origin (mobile apps, curl, etc)
     if (!origin) return callback(null, true);
     
-    // Allow localhost with any port for development
-    if (/^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
+    // Allow localhost with any port for development (HTTP and HTTPS)
+    if (/^https?:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
       return callback(null, true);
     }
     
-    // Allow local network IPs with development ports
-    if (/^http:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
-        /^http:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin)) {
+    // Allow local network IPs with development ports (HTTP and HTTPS)
+    if (/^https?:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
+        /^https?:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin) ||
+        /^https?:\/\/172\.(1[6-9]|2\d|3[01])\.\d+\.\d+:\d+$/.test(origin)) {
+      return callback(null, true);
+    }
+    
+    // Allow localhost without port (for same-origin requests)
+    if (/^https?:\/\/(localhost|127\.0\.0\.1)$/.test(origin)) {
       return callback(null, true);
     }
     
@@ -70,14 +76,29 @@ app.use((req, res, next) => {
 // Clean up old rate limit data every 5 minutes
 setInterval(() => {
   const now = Date.now();
+  const ipsToDelete = [];
+  
   requestCounts.forEach((requests, ip) => {
-    const validRequests = requests.filter(timestamp => now - timestamp < RATE_LIMIT_WINDOW);
-    if (validRequests.length === 0) {
-      requestCounts.delete(ip);
-    } else {
-      requestCounts.set(ip, validRequests);
+    try {
+      const validRequests = requests.filter(timestamp => now - timestamp < RATE_LIMIT_WINDOW);
+      if (validRequests.length === 0) {
+        ipsToDelete.push(ip);
+      } else {
+        requestCounts.set(ip, validRequests);
+      }
+    } catch (error) {
+      console.error(`Error cleaning up rate limit data for IP ${ip}:`, error);
+      ipsToDelete.push(ip);
     }
   });
+  
+  ipsToDelete.forEach(ip => {
+    requestCounts.delete(ip);
+  });
+  
+  if (ipsToDelete.length > 0) {
+    console.log(`Cleaned up ${ipsToDelete.length} stale IP rate limit entries`);
+  }
 }, 5 * 60 * 1000);
 
 module.exports = app;

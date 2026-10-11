@@ -1,0 +1,1939 @@
+[
+  {
+    "id": "mus_t001",
+    "question": "Kto zaśpiewał przebój „Kolorowe jarmarki”?",
+    "answers": [
+      "Halina Frąckowiak",
+      "Urszula Sipińska",
+      "Maryla Rodowicz",
+      "Irena Santor"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Kolorowe jarmarki” Maryla Rodowicz zaśpiewała w 1977 roku na festiwalu w Opolu."
+  },
+  {
+    "id": "mus_t002",
+    "question": "Który zespół nagrał bluesowy przebój „Whisky”?",
+    "answers": [
+      "Lady Pank",
+      "Perfect",
+      "Dżem",
+      "Budka Suflera"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "„Whisky” to jeden z najsłynniejszych utworów Dżemu, śpiewany przez Ryszarda Riedla."
+  },
+  {
+    "id": "mus_t003",
+    "question": "Który zespół nagrał „Smells Like Teen Spirit”?",
+    "answers": [
+      "Pearl Jam",
+      "Metallica",
+      "Green Day",
+      "Nirvana"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Utwór otwierał album „Nevermind” z 1991 roku i stał się hymnem grunge’u."
+  },
+  {
+    "id": "mus_t004",
+    "question": "Kto zaśpiewał przebój „Rolling in the Deep”?",
+    "answers": [
+      "Rihanna",
+      "Beyoncé",
+      "Lady Gaga",
+      "Adele"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Utwór pochodzi z albumu „21” brytyjskiej wokalistki Adele."
+  },
+  {
+    "id": "mus_t005",
+    "question": "Z jakiego kraju pochodzi zespół Rammstein?",
+    "answers": [
+      "Z Austrii",
+      "Ze Szwajcarii",
+      "Z Holandii",
+      "Z Niemiec"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rammstein powstał w Berlinie i śpiewa głównie po niemiecku."
+  },
+  {
+    "id": "mus_t006",
+    "question": "Jak nazywa się instrument z drewnianych sztabek, w które uderza się pałeczkami?",
+    "answers": [
+      "Harfa",
+      "Ksylofon",
+      "Akordeon",
+      "Klarnet"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa ksylofonu pochodzi od greckiego słowa oznaczającego drewno."
+  },
+  {
+    "id": "mus_t007",
+    "question": "Kto zaśpiewał w 1998 roku przebój „…Baby One More Time”?",
+    "answers": [
+      "Christina Aguilera",
+      "Jessica Simpson",
+      "Mandy Moore",
+      "Britney Spears"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "To debiutancki singiel Britney Spears, który uczynił ją gwiazdą."
+  },
+  {
+    "id": "mus_t008",
+    "question": "Z jakim instrumentem kojarzy się przede wszystkim Fryderyk Chopin?",
+    "answers": [
+      "Ze skrzypcami",
+      "Z wiolonczelą",
+      "Z organami",
+      "Z fortepianem"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Chopin niemal całą swoją twórczość poświęcił fortepianowi."
+  },
+  {
+    "id": "mus_t009",
+    "question": "Kto był perkusistą zespołu The Beatles?",
+    "answers": [
+      "Ringo Starr",
+      "Charlie Watts",
+      "Keith Moon",
+      "Phil Collins"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Ringo Starr zasiadał za perkusją Beatlesów od 1962 roku."
+  },
+  {
+    "id": "mus_t010",
+    "question": "Kto skomponował „Eine kleine Nachtmusik”?",
+    "answers": [
+      "Wolfgang Amadeusz Mozart",
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Jan Sebastian Bach"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mozart napisał tę serenadę w 1787 roku w Wiedniu."
+  },
+  {
+    "id": "mus_t011",
+    "question": "Który zespół nagrał przebój „Biała armia”?",
+    "answers": [
+      "Lady Pank",
+      "Maanam",
+      "Varius Manx",
+      "Bajm"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Biała armia” to jeden z największych przebojów Bajmu z Beatą Kozidrak."
+  },
+  {
+    "id": "mus_t012",
+    "question": "Kto zaśpiewał przebój „Szczęśliwej drogi, już czas”?",
+    "answers": [
+      "Krzysztof Krawczyk",
+      "Zbigniew Wodecki",
+      "Ryszard Rynkowski",
+      "Andrzej Rosiewicz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "To jeden z najbardziej znanych przebojów Ryszarda Rynkowskiego."
+  },
+  {
+    "id": "mus_t013",
+    "question": "Który duet nagrał utwór „The Sound of Silence”?",
+    "answers": [
+      "Simon & Garfunkel",
+      "The Everly Brothers",
+      "Hall & Oates",
+      "The Righteous Brothers"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Paul Simon i Art Garfunkel nagrali tę piosenkę w latach 60."
+  },
+  {
+    "id": "mus_t014",
+    "question": "Który zespół nagrał „Stairway to Heaven”?",
+    "answers": [
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath",
+      "The Doors"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Utwór ukazał się w 1971 roku na czwartym albumie Led Zeppelin."
+  },
+  {
+    "id": "mus_t015",
+    "question": "Kto skomponował słynny „Marsz weselny” ze „Snu nocy letniej”?",
+    "answers": [
+      "Johann Strauss",
+      "Felix Mendelssohn",
+      "Franz Schubert",
+      "Johannes Brahms"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Marsz pochodzi z muzyki Mendelssohna do komedii Szekspira."
+  },
+  {
+    "id": "mus_t016",
+    "question": "Który zespół nagrał utwór „Arahja”?",
+    "answers": [
+      "Kult",
+      "T.Love",
+      "Elektryczne Gitary",
+      "Big Cyc"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Arahja” to jeden z najsłynniejszych utworów Kultu z Kazikiem Staszewskim."
+  },
+  {
+    "id": "mus_t017",
+    "question": "Który zespół z Agnieszką Chylińską nagrał przebój „Kiedy powiem sobie dość”?",
+    "answers": [
+      "Hey",
+      "O.N.A.",
+      "Wilki",
+      "Closterkeller"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Chylińska była wokalistką zespołu O.N.A. w latach 90."
+  },
+  {
+    "id": "mus_t018",
+    "question": "Który zespół nagrał w 1994 roku przebój „Zombie”?",
+    "answers": [
+      "The Cranberries",
+      "The Corrs",
+      "No Doubt",
+      "Roxette"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Irlandzki zespół The Cranberries z Dolores O’Riordan wydał „Zombie” w 1994 roku."
+  },
+  {
+    "id": "mus_t019",
+    "question": "Ile symfonii skomponował Ludwig van Beethoven?",
+    "answers": [
+      "9",
+      "7",
+      "5",
+      "12"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ostatnią, IX Symfonię z „Odą do radości”, Beethoven ukończył w 1824 roku."
+  },
+  {
+    "id": "mus_t020",
+    "question": "Jak nazywał się wokalista zespołu The Doors?",
+    "answers": [
+      "Robert Plant",
+      "Roger Daltrey",
+      "Jim Morrison",
+      "Iggy Pop"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Jim Morrison był charyzmatycznym frontmanem The Doors i zmarł w 1971 roku."
+  },
+  {
+    "id": "mus_t021",
+    "question": "Kto skomponował słynnego poloneza do filmu „Pan Tadeusz” z 1999 roku?",
+    "answers": [
+      "Zbigniew Preisner",
+      "Jan A.P. Kaczmarek",
+      "Wojciech Kilar",
+      "Krzesimir Dębski"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Polonez Kilara z „Pana Tadeusza” stał się klasykiem studniówek."
+  },
+  {
+    "id": "mus_t022",
+    "question": "Jak naprawdę nazywał się Freddie Mercury?",
+    "answers": [
+      "Fareed Mehta",
+      "Farrokh Bulsara",
+      "Rustam Patel",
+      "Darius Irani"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Freddie Mercury urodził się jako Farrokh Bulsara w rodzinie Parsów."
+  },
+  {
+    "id": "mus_t023",
+    "question": "W którym roku zmarł Elvis Presley?",
+    "answers": [
+      "1969",
+      "1977",
+      "1975",
+      "1980"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Król rock and rolla zmarł 16 sierpnia 1977 roku w Graceland."
+  },
+  {
+    "id": "mus_t024",
+    "question": "Kto skomponował „Lot trzmiela”?",
+    "answers": [
+      "Piotr Czajkowski",
+      "Nikołaj Rimski-Korsakow",
+      "Modest Musorgski",
+      "Siergiej Rachmaninow"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Lot trzmiela” pochodzi z opery Rimskiego-Korsakowa „Bajka o carze Sałtanie”."
+  },
+  {
+    "id": "mus_t025",
+    "question": "Kto skomponował „Taniec z szablami”?",
+    "answers": [
+      "Siergiej Prokofiew",
+      "Dmitrij Szostakowicz",
+      "Aram Chaczaturian",
+      "Igor Strawiński"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "„Taniec z szablami” pochodzi z baletu Chaczaturiana „Gajane”."
+  },
+  {
+    "id": "kids_t001",
+    "question": "Kim jest Fiona w filmie „Shrek”?",
+    "answers": [
+      "Wróżką",
+      "Czarownicą",
+      "Królewną",
+      "Smoczycą"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Fiona to królewna, która po zmroku zamieniała się w ogrzycę."
+  },
+  {
+    "id": "kids_t002",
+    "question": "Jak nazywa się pies, który z Kudłatym rozwiązuje zagadki w kreskówce?",
+    "answers": [
+      "Goofy",
+      "Snoopy",
+      "Pluto",
+      "Scooby-Doo"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Scooby-Doo to dog niemiecki, bohater kreskówek studia Hanna-Barbera."
+  },
+  {
+    "id": "kids_t003",
+    "question": "Kto zjadł babcię w baśni o Czerwonym Kapturku?",
+    "answers": [
+      "Niedźwiedź",
+      "Wilk",
+      "Lis",
+      "Dzik"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wilk połknął babcię, a potem przebrał się w jej ubranie."
+  },
+  {
+    "id": "kids_t004",
+    "question": "Jak ma na imię drewniany pajacyk, któremu rósł nos, gdy kłamał?",
+    "answers": [
+      "Geppetto",
+      "Pinokio",
+      "Kajtuś",
+      "Piotruś"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pinokio to bohater powieści Carla Collodiego, wystrugany przez Geppetta."
+  },
+  {
+    "id": "kids_t005",
+    "question": "Jak nazywa się mały, różowy i strachliwy przyjaciel Kubusia Puchatka?",
+    "answers": [
+      "Tygrysek",
+      "Kłapouchy",
+      "Królik",
+      "Prosiaczek"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Prosiaczek to najbliższy przyjaciel Puchatka ze Stumilowego Lasu."
+  },
+  {
+    "id": "kids_t006",
+    "question": "Jakiego koloru są Smerfy?",
+    "answers": [
+      "Niebieskie",
+      "Zielone",
+      "Fioletowe",
+      "Żółte"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Smerfy to małe niebieskie stworki w białych czapkach."
+  },
+  {
+    "id": "kids_t007",
+    "question": "Jak ma na imię królowa lodu z filmu „Kraina lodu”?",
+    "answers": [
+      "Anna",
+      "Aurora",
+      "Elsa",
+      "Bella"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Elsa potrafi zamieniać wszystko w lód, a Anna to jej młodsza siostra."
+  },
+  {
+    "id": "kids_t008",
+    "question": "Jakim zwierzęciem jest Bambi z filmu Disneya?",
+    "answers": [
+      "Zającem",
+      "Jelonkiem",
+      "Lisem",
+      "Wiewiórką"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bambi to mały jelonek, który dorasta w lesie."
+  },
+  {
+    "id": "kids_t009",
+    "question": "Jak ma na imię chłopiec wychowany przez wilki w „Księdze dżungli”?",
+    "answers": [
+      "Tarzan",
+      "Sindbad",
+      "Aladyn",
+      "Mowgli"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Mowgli to bohater opowiadań Rudyarda Kiplinga."
+  },
+  {
+    "id": "kids_t010",
+    "question": "Jakim zwierzęciem jest Baloo z „Księgi dżungli”?",
+    "answers": [
+      "Panterą",
+      "Niedźwiedziem",
+      "Tygrysem",
+      "Słoniem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Baloo to wesoły niedźwiedź, nauczyciel Mowgliego."
+  },
+  {
+    "id": "kids_t011",
+    "question": "Jak nazywa się szeroko uśmiechnięty kot z „Alicji w Krainie Czarów”?",
+    "answers": [
+      "Kot w butach",
+      "Kot z Cheshire",
+      "Kot Filemon",
+      "Kot Garfield"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kot z Cheshire potrafi znikać, zostawiając w powietrzu tylko swój uśmiech."
+  },
+  {
+    "id": "kids_t012",
+    "question": "Kto napisał wierszyki o przygodach Koziołka Matołka?",
+    "answers": [
+      "Jan Brzechwa",
+      "Kornel Makuszyński",
+      "Julian Tuwim",
+      "Czesław Janczarski"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wierszyki napisał Makuszyński, a rysunki stworzył Marian Walentynowicz."
+  },
+  {
+    "id": "kids_t013",
+    "question": "Gdzie mieszkał Plastuś, bohater książki Marii Kownackiej?",
+    "answers": [
+      "W tornistrze",
+      "W kałamarzu",
+      "W piórniku",
+      "W szufladzie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Plastuś był ludzikiem z plasteliny, który mieszkał w piórniku Tosi."
+  },
+  {
+    "id": "kids_t014",
+    "question": "Kto napisał „O krasnoludkach i o sierotce Marysi”?",
+    "answers": [
+      "Eliza Orzeszkowa",
+      "Maria Kownacka",
+      "Gabriela Zapolska",
+      "Maria Konopnicka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Baśń Konopnickiej ukazała się w 1896 roku."
+  },
+  {
+    "id": "kids_t015",
+    "question": "Jak ma na imię wróżka, przyjaciółka Piotrusia Pana?",
+    "answers": [
+      "Calineczka",
+      "Kropelka",
+      "Gwiazdeczka",
+      "Dzwoneczek"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dzwoneczek to mała wróżka z Nibylandii."
+  },
+  {
+    "id": "kids_t016",
+    "question": "Jak ma na imię lew z „Opowieści z Narnii”?",
+    "answers": [
+      "Simba",
+      "Mufasa",
+      "Aslan",
+      "Leo"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Aslan to wielki lew, prawowity władca Narnii z książek C.S. Lewisa."
+  },
+  {
+    "id": "kids_t017",
+    "question": "Kto napisał książki o Pippi Pończoszance?",
+    "answers": [
+      "Astrid Lindgren",
+      "Tove Jansson",
+      "Selma Lagerlöf",
+      "Roald Dahl"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szwedzka pisarka Astrid Lindgren wydała pierwszą książkę o Pippi w 1945 roku."
+  },
+  {
+    "id": "kids_t018",
+    "question": "Jak nazywa się tygrys, wróg Mowgliego w „Księdze dżungli”?",
+    "answers": [
+      "Bagheera",
+      "Kaa",
+      "Akela",
+      "Shere Khan"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Shere Khan to groźny tygrys, który chciał dopaść Mowgliego."
+  },
+  {
+    "id": "kids_t019",
+    "question": "Jakim zwierzęciem jest Tytus de Zoo z komiksów Papcia Chmiela?",
+    "answers": [
+      "Szympansem",
+      "Gorylem",
+      "Orangutanem",
+      "Pawianem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tytus to szympans, który z pomocą Romka i A’Tomka uczył się być człowiekiem."
+  },
+  {
+    "id": "kids_t020",
+    "question": "Jak nazywa się samotny wędrowiec z harmonijką, przyjaciel Muminka?",
+    "answers": [
+      "Włóczykij",
+      "Paszczak",
+      "Ryjek",
+      "Bobek"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Włóczykij co roku zimą wyrusza w podróż i wraca do Doliny Muminków wiosną."
+  },
+  {
+    "id": "kids_t021",
+    "question": "Jak nazywa się małpka Pippi Pończoszanki?",
+    "answers": [
+      "Pan Nilsson",
+      "Pan Fiku",
+      "Pan Bimbo",
+      "Pan Harry"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pippi mieszkała w Willi Śmiesznotce z małpką Panem Nilssonem i koniem."
+  },
+  {
+    "id": "kids_t022",
+    "question": "Kto przetłumaczył „Kubusia Puchatka” na polski w 1938 roku?",
+    "answers": [
+      "Irena Tuwim",
+      "Wisława Szymborska",
+      "Ewa Szelburg-Zarembina",
+      "Hanna Januszewska"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Przekład Ireny Tuwim, siostry Juliana Tuwima, stał się klasyką."
+  },
+  {
+    "id": "kids_t023",
+    "question": "W którym roku miała premierę „Królewna Śnieżka i siedmiu krasnoludków” Disneya?",
+    "answers": [
+      "1928",
+      "1937",
+      "1945",
+      "1950"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "To pierwszy pełnometrażowy film animowany studia Disneya."
+  },
+  {
+    "id": "kids_t024",
+    "question": "Z jakiego kraju pochodził Waldemar Bonsels, autor książki o Pszczółce Mai?",
+    "answers": [
+      "Z Austrii",
+      "Ze Szwajcarii",
+      "Z Niemiec",
+      "Z Danii"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bonsels wydał „Pszczółkę Maję i jej przygody” w 1912 roku."
+  },
+  {
+    "id": "kids_t025",
+    "question": "Od nazwy którego miasta pochodzi imię niedźwiedzicy Winnie, która zainspirowała Kubusia Puchatka?",
+    "answers": [
+      "Od Windsoru",
+      "Od Winchesteru",
+      "Od Winnipeg",
+      "Od Wimbledonu"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Kanadyjska niedźwiedzica Winnie z londyńskiego zoo zawdzięczała imię miastu Winnipeg."
+  },
+  {
+    "id": "prl_t001",
+    "question": "Jak nazywał się zestaw mebli z PRL zajmujący całą ścianę pokoju?",
+    "answers": [
+      "Kredens",
+      "Meblościanka",
+      "Komoda",
+      "Witryna"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Meblościanka mieściła wszystko: od kryształów po telewizor."
+  },
+  {
+    "id": "prl_t002",
+    "question": "Do czego głównie służył trzepak na osiedlowym podwórku?",
+    "answers": [
+      "Do trzepania dywanów",
+      "Do wieszania flag",
+      "Do parkowania rowerów",
+      "Do suszenia grzybów"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Na trzepaku trzepano dywany, a dzieci robiły na nim fikołki."
+  },
+  {
+    "id": "prl_t003",
+    "question": "Jakiego rodzaju napojem była Polo Cockta?",
+    "answers": [
+      "Piwem",
+      "Sokiem jabłkowym",
+      "Wodą mineralną",
+      "Napojem typu cola"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Polo Cockta była polską odpowiedzią na zachodnią colę."
+  },
+  {
+    "id": "prl_t004",
+    "question": "Czym była wersalka w mieszkaniu z PRL?",
+    "answers": [
+      "Rozkładaną kanapą",
+      "Szafą ubraniową",
+      "Lampą stojącą",
+      "Stolikiem pod telewizor"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wersalka w dzień służyła do siedzenia, a w nocy do spania."
+  },
+  {
+    "id": "prl_t005",
+    "question": "Jak nazywał się kultowy niedzielny poranny program TVP dla dzieci?",
+    "answers": [
+      "Domowe Przedszkole",
+      "Ciuchcia",
+      "Teleranek",
+      "Wieczorynka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Teleranek przez lata był niedzielnym rytuałem polskich dzieci."
+  },
+  {
+    "id": "prl_t006",
+    "question": "Co łapał wilk w kultowej elektronicznej grze „Nu, pogodi!”?",
+    "answers": [
+      "Jabłka",
+      "Piłki",
+      "Jajka",
+      "Gwiazdki"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wilk z koszykiem łapał jajka toczące się z czterech grzęd."
+  },
+  {
+    "id": "prl_t007",
+    "question": "Jak potocznie nazywano w Polsce małe metalowe samochodziki-zabawki?",
+    "answers": [
+      "Resoraki",
+      "Blaszaki",
+      "Kapslaki",
+      "Skoczki"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Resoraki zawdzięczają nazwę resorom, czyli sprężynującemu zawieszeniu."
+  },
+  {
+    "id": "prl_t008",
+    "question": "Jak rozwija się skrót PRL?",
+    "answers": [
+      "Polska Republika Ludowa",
+      "Polska Rzeczpospolita Ludowa",
+      "Polska Rzeczpospolita Robotnicza",
+      "Polska Republika Robotnicza"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa Polska Rzeczpospolita Ludowa obowiązywała od 1952 do 1989 roku."
+  },
+  {
+    "id": "prl_t009",
+    "question": "Jak nazywano w PRL słodycz udającą czekoladę, robioną z tłuszczów roślinnych?",
+    "answers": [
+      "Wyrób czekoladopodobny",
+      "Czekolada deserowa",
+      "Masa kakaowa",
+      "Krem orzechowy"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wyrób czekoladopodobny zastępował prawdziwą czekoladę w czasach niedoborów."
+  },
+  {
+    "id": "prl_t010",
+    "question": "Jak nazywały się okrągłe krążki z grafikami, które dzieci w latach 90. znajdowały w paczkach chipsów?",
+    "answers": [
+      "Kapsle",
+      "Żetony",
+      "Tazosy",
+      "Pinsy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tazosy zbierano, wymieniano i grano nimi na podwórkach."
+  },
+  {
+    "id": "prl_t011",
+    "question": "W którym mieście w latach 80. odbywał się kultowy festiwal muzyki rockowej, symbol buntu młodzieży?",
+    "answers": [
+      "W Opolu",
+      "W Sopocie",
+      "W Kołobrzegu",
+      "W Jarocinie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jarocin był w latach 80. najważniejszym festiwalem rockowym i punkowym w Polsce."
+  },
+  {
+    "id": "prl_t012",
+    "question": "Na czym najczęściej wczytywano gry do komputerów Atari w Polsce lat 80.?",
+    "answers": [
+      "Na płytach CD",
+      "Na płytach winylowych",
+      "Na kartach perforowanych",
+      "Na kasetach magnetofonowych"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Gry ładowano z kaset przez magnetofon, co trwało nawet kilka minut."
+  },
+  {
+    "id": "prl_t013",
+    "question": "Z jakiego kraju pochodziły autobusy Ikarus?",
+    "answers": [
+      "Z Węgier",
+      "Z Czechosłowacji",
+      "Z NRD",
+      "Z Jugosławii"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Węgierskie Ikarusy, w tym przegubowe „harmonijki”, jeździły po polskich miastach."
+  },
+  {
+    "id": "prl_t014",
+    "question": "Z jakiego kraju pochodziły motocykle Jawa?",
+    "answers": [
+      "Z NRD",
+      "Z Węgier",
+      "Z ZSRR",
+      "Z Czechosłowacji"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jawa to czeska marka motocykli z Tynca nad Sazawą."
+  },
+  {
+    "id": "prl_t015",
+    "question": "Kto prowadził teleturniej „Wielka gra” w TVP?",
+    "answers": [
+      "Irena Dziedzic",
+      "Krystyna Loska",
+      "Stanisława Ryster",
+      "Edyta Wojtczak"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Stanisława Ryster prowadziła „Wielką grę” przez ponad 30 lat."
+  },
+  {
+    "id": "prl_t016",
+    "question": "Kto prowadził teleturniej „Va banque” w TVP2?",
+    "answers": [
+      "Karol Strasburger",
+      "Zygmunt Chajzer",
+      "Kazimierz Kaczor",
+      "Krzysztof Ibisz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kazimierz Kaczor prowadził polską wersję „Jeopardy!” od 1996 roku."
+  },
+  {
+    "id": "prl_t017",
+    "question": "Kto prowadził program „Randka w ciemno” w TVP?",
+    "answers": [
+      "Hubert Urbański",
+      "Jacek Kawalec",
+      "Zygmunt Chajzer",
+      "Krzysztof Ibisz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jacek Kawalec prowadził „Randkę w ciemno” od 1992 roku."
+  },
+  {
+    "id": "prl_t018",
+    "question": "Jak rozwija się skrót PKS?",
+    "answers": [
+      "Polska Kolej Samochodowa",
+      "Przedsiębiorstwo Komunikacji Społecznej",
+      "Polski Koncern Samochodowy",
+      "Państwowa Komunikacja Samochodowa"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Autobusy PKS woziły pasażerów między miastami i wsiami."
+  },
+  {
+    "id": "prl_t019",
+    "question": "Jak nazywały się w PRL sklepy z wyrobami sztuki ludowej?",
+    "answers": [
+      "Pewex",
+      "Cepelia",
+      "Baltona",
+      "Moda Polska"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Cepelia sprzedawała rękodzieło, hafty i wyroby ludowe."
+  },
+  {
+    "id": "prl_t020",
+    "question": "Kto wykonywał wakacyjny hit lat 90. „Macarena”?",
+    "answers": [
+      "Gipsy Kings",
+      "Las Ketchup",
+      "Los del Río",
+      "Ricky Martin"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Hiszpański duet Los del Río rozkręcił taneczny szał „Macareny”."
+  },
+  {
+    "id": "prl_t021",
+    "question": "W którym roku wyemitowano pierwsze wydanie „Teleexpressu”?",
+    "answers": [
+      "1986",
+      "1980",
+      "1990",
+      "1993"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Teleexpress zadebiutował w TVP w 1986 roku."
+  },
+  {
+    "id": "prl_t022",
+    "question": "W którym roku zniesiono w Polsce stan wojenny?",
+    "answers": [
+      "1982",
+      "1983",
+      "1985",
+      "1989"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Stan wojenny zniesiono 22 lipca 1983 roku."
+  },
+  {
+    "id": "prl_t023",
+    "question": "W jakim mieście działały zakłady radiowe Diora?",
+    "answers": [
+      "W Łodzi",
+      "W Bydgoszczy",
+      "W Dzierżoniowie",
+      "W Radomiu"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Diora z Dzierżoniowa produkowała radioodbiorniki i sprzęt audio."
+  },
+  {
+    "id": "prl_t024",
+    "question": "Jak nazywał się samochód produkowany w NRD w Eisenach?",
+    "answers": [
+      "Trabant",
+      "Moskwicz",
+      "Škoda",
+      "Wartburg"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wartburg powstawał w Eisenach, a Trabant w Zwickau."
+  },
+  {
+    "id": "prl_t025",
+    "question": "Która Polka zdobyła tytuł Miss World w 1989 roku?",
+    "answers": [
+      "Joanna Krupa",
+      "Aneta Kręglicka",
+      "Ewa Wachowicz",
+      "Agnieszka Kotlarska"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Aneta Kręglicka jako pierwsza Polka została Miss World."
+  },
+  {
+    "id": "lang_t001",
+    "question": "Dokończ przysłowie: „Gdyby kózka nie skakała…”",
+    "answers": [
+      "to by w polu się nie bała",
+      "to by mleka więcej dała",
+      "to by nóżki nie złamała",
+      "to by w stajni wciąż siedziała"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Przysłowie mówi, że brawura często kończy się kłopotami."
+  },
+  {
+    "id": "lang_t002",
+    "question": "Dokończ przysłowie: „Kto rano wstaje…”",
+    "answers": [
+      "ten się wyśpi",
+      "temu Pan Bóg daje",
+      "ten ma wszystko",
+      "temu kawa smakuje"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Przysłowie chwali pracowitość i wczesne wstawanie."
+  },
+  {
+    "id": "lang_t003",
+    "question": "Dokończ przysłowie: „Apetyt rośnie…”",
+    "answers": [
+      "z każdym dniem",
+      "gdy talerz pusty",
+      "po zmroku",
+      "w miarę jedzenia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Przysłowie mówi, że im więcej mamy, tym więcej chcemy."
+  },
+  {
+    "id": "lang_t004",
+    "question": "Co znaczy „mieć węża w kieszeni”?",
+    "answers": [
+      "Być skąpym",
+      "Być podstępnym",
+      "Mieć tajemnicę",
+      "Być w tarapatach"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "O skąpcu mówi się, że boi się sięgnąć do kieszeni, bo siedzi w niej wąż."
+  },
+  {
+    "id": "lang_t005",
+    "question": "Co znaczy „rzucać grochem o ścianę”?",
+    "answers": [
+      "Marnować jedzenie",
+      "Mówić bez skutku",
+      "Złościć się",
+      "Hałasować"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Groch odbija się od ściany tak, jak rady od kogoś, kto nie słucha."
+  },
+  {
+    "id": "lang_t006",
+    "question": "Co znaczy „mieć głowę w chmurach”?",
+    "answers": [
+      "Być rozmarzonym",
+      "Być bardzo wysokim",
+      "Być zarozumiałym",
+      "Mieć migrenę"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kto ma głowę w chmurach, buja w obłokach zamiast twardo stąpać po ziemi."
+  },
+  {
+    "id": "lang_t007",
+    "question": "Jak poprawnie zapisać wyrażenie oznaczające „z pewnością”?",
+    "answers": [
+      "napewno",
+      "na pewno",
+      "na-pewno",
+      "napewnó"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Na pewno” zawsze piszemy rozdzielnie."
+  },
+  {
+    "id": "lang_t008",
+    "question": "Jak brzmi liczba mnoga słowa „człowiek”?",
+    "answers": [
+      "człowieki",
+      "ludzie",
+      "człowiekowie",
+      "człowiecy"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Ludzie” to forma utworzona od innego rdzenia niż liczba pojedyncza."
+  },
+  {
+    "id": "lang_t009",
+    "question": "Jak nazywa się wyraz o znaczeniu przeciwnym do innego, np. „dobry – zły”?",
+    "answers": [
+      "Synonim",
+      "Homonim",
+      "Antonim",
+      "Pseudonim"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Antonimy to wyrazy o przeciwstawnych znaczeniach."
+  },
+  {
+    "id": "lang_t010",
+    "question": "Ile samogłosek nosowych ma język polski?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Samogłoski nosowe w polszczyźnie to „ą” i „ę”."
+  },
+  {
+    "id": "lang_t011",
+    "question": "Jak poprawnie zapisać słowo oznaczające rozrabiakę i awanturnika?",
+    "answers": [
+      "huligan",
+      "chuliga",
+      "chuligant",
+      "chuligan"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W polszczyźnie obowiązuje pisownia „chuligan” przez „ch”."
+  },
+  {
+    "id": "lang_t012",
+    "question": "Jak poprawnie zapisać nazwę święta obchodzonego 1 listopada?",
+    "answers": [
+      "wszystkich świętych",
+      "Wszystkich świętych",
+      "wszystkich Świętych",
+      "Wszystkich Świętych"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nazwy świąt piszemy wielką literą, dlatego oba wyrazy zaczynają się wielką."
+  },
+  {
+    "id": "lang_t013",
+    "question": "Jak poprawnie zapisać nazwę mieszkańca Krakowa?",
+    "answers": [
+      "Krakowianin",
+      "krakowianyn",
+      "Krakowjanin",
+      "krakowianin"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nazwy mieszkańców miast piszemy małą literą."
+  },
+  {
+    "id": "lang_t014",
+    "question": "Która forma czasownika jest poprawna?",
+    "answers": [
+      "wyłączać",
+      "wyłanczać",
+      "wyłonczać",
+      "wyłąnczać"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Poprawnie mówimy „włączać” i „wyłączać”, bez dodatkowego „n”."
+  },
+  {
+    "id": "lang_t015",
+    "question": "Jak brzmi poprawna forma w zdaniu „Nie mam…” od słowa „skrzypce”?",
+    "answers": [
+      "skrzypiec",
+      "skrzypców",
+      "skrzypcy",
+      "skrzypc"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Poprawnie mówimy: nie mam skrzypiec."
+  },
+  {
+    "id": "lang_t016",
+    "question": "Który zwrot jest poprawny?",
+    "answers": [
+      "w każdym bądź razie",
+      "bądź w każdym razie",
+      "w każdym razie",
+      "w każdym razie bądź"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„W każdym bądź razie” to błędne połączenie zwrotów „w każdym razie” i „bądź co bądź”."
+  },
+  {
+    "id": "lang_t017",
+    "question": "Co oznacza łacińskie wyrażenie „notabene”?",
+    "answers": [
+      "Nieważne",
+      "Na przykład",
+      "Nawiasem mówiąc",
+      "Bez wątpienia"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Notabene” dosłownie znaczy „zauważ dobrze” i wprowadza uwagę na marginesie."
+  },
+  {
+    "id": "lang_t018",
+    "question": "Co oznacza wyrażenie „ad hoc”?",
+    "answers": [
+      "Doraźnie, na poczekaniu",
+      "Na zawsze",
+      "Zgodnie z planem",
+      "Po kryjomu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Ad hoc” znaczy po łacinie „do tego”, czyli na potrzeby chwili."
+  },
+  {
+    "id": "lang_t019",
+    "question": "Jak nazywa się wyraz czytany tak samo od przodu i od tyłu, np. „kajak”?",
+    "answers": [
+      "Anagram",
+      "Akronim",
+      "Palindrom",
+      "Oksymoron"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Słynny polski palindrom to „Kobyła ma mały bok”."
+  },
+  {
+    "id": "lang_t020",
+    "question": "Z jakiego języka pochodzi słowo „szezlong”?",
+    "answers": [
+      "Z niemieckiego",
+      "Z francuskiego",
+      "Z włoskiego",
+      "Z angielskiego"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Szezlong” pochodzi od francuskiego „chaise longue”, czyli „długie krzesło”."
+  },
+  {
+    "id": "lang_t021",
+    "question": "Co oznacza słowo „kordialny”?",
+    "answers": [
+      "Oficjalny",
+      "Chłodny",
+      "Uroczysty",
+      "Serdeczny"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "„Kordialny” pochodzi od łacińskiego „cor”, czyli serce."
+  },
+  {
+    "id": "lang_t022",
+    "question": "Kim był „hreczkosiej”?",
+    "answers": [
+      "Wędrownym kupcem",
+      "Wiejskim muzykantem",
+      "Dworskim kucharzem",
+      "Szlachcicem zajętym gospodarstwem"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Hreczkosiej to szlachcic żyjący z roli, stroniący od polityki."
+  },
+  {
+    "id": "lang_t023",
+    "question": "Co oznacza słowo „efemeryczny”?",
+    "answers": [
+      "Krótkotrwały",
+      "Ogromny",
+      "Pozorny",
+      "Niewidzialny"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Słowo pochodzi od greckiego „ephemeros”, czyli „trwający jeden dzień”."
+  },
+  {
+    "id": "lang_t024",
+    "question": "Jak nazywa się zestawienie wyrazów o sprzecznym znaczeniu, np. „gorący lód”?",
+    "answers": [
+      "Pleonazm",
+      "Hiperbola",
+      "Oksymoron",
+      "Metonimia"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Oksymoron łączy pojęcia, które pozornie się wykluczają."
+  },
+  {
+    "id": "lang_t025",
+    "question": "Jak nazywa się błąd językowy typu „cofać się do tyłu”?",
+    "answers": [
+      "Oksymoron",
+      "Kolokwializm",
+      "Neologizm",
+      "Pleonazm"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Pleonazm to zbędne powtórzenie tej samej treści innymi słowami."
+  },
+  {
+    "id": "myth_t001",
+    "question": "Który grecki bóg był bogiem wina?",
+    "answers": [
+      "Dionizos",
+      "Apollo",
+      "Hermes",
+      "Ares"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rzymskim odpowiednikiem Dionizosa był Bachus."
+  },
+  {
+    "id": "myth_t002",
+    "question": "Jak nazywał się grecki bóg podziemi?",
+    "answers": [
+      "Kronos",
+      "Hades",
+      "Hefajstos",
+      "Ares"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hades władał światem zmarłych, a jego imieniem nazywano też samo podziemie."
+  },
+  {
+    "id": "myth_t003",
+    "question": "Jak nazywał się stwór pół człowiek, pół byk, zamknięty w labiryncie na Krecie?",
+    "answers": [
+      "Centaur",
+      "Minotaur",
+      "Cyklop",
+      "Satyr"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Minotaur żył w labiryncie zbudowanym przez Dedala."
+  },
+  {
+    "id": "myth_t004",
+    "question": "Ile oczu miał cyklop?",
+    "answers": [
+      "Dwa",
+      "Trzy",
+      "Jedno",
+      "Sto"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Cyklopi byli olbrzymami z jednym okiem pośrodku czoła."
+  },
+  {
+    "id": "myth_t005",
+    "question": "Jaki mityczny ptak odradza się z własnych popiołów?",
+    "answers": [
+      "Gryf",
+      "Harpia",
+      "Roc",
+      "Feniks"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Feniks spala się i odradza, dlatego symbolizuje odrodzenie."
+  },
+  {
+    "id": "myth_t006",
+    "question": "Kto był żoną Zeusa i królową bogów?",
+    "answers": [
+      "Hera",
+      "Atena",
+      "Demeter",
+      "Afrodyta"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Hera była boginią małżeństwa i słynęła z zazdrości o Zeusa."
+  },
+  {
+    "id": "myth_t007",
+    "question": "Jak miał na imię król Itaki, który przez 10 lat wracał spod Troi?",
+    "answers": [
+      "Agamemnon",
+      "Odyseusz",
+      "Menelaos",
+      "Priam"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tułaczkę Odyseusza opisuje „Odyseja” Homera."
+  },
+  {
+    "id": "myth_t008",
+    "question": "O którą kobietę według mitu wybuchła wojna trojańska?",
+    "answers": [
+      "O Helenę",
+      "O Penelopę",
+      "O Kasandrę",
+      "O Andromedę"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Parys porwał Helenę, żonę króla Sparty Menelaosa."
+  },
+  {
+    "id": "myth_t009",
+    "question": "Jak nazywa się stwór z ciałem lwa i głową człowieka, strzegący piramid w Gizie?",
+    "answers": [
+      "Gryf",
+      "Chimera",
+      "Sfinks",
+      "Mantykora"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wielki Sfinks w Gizie to jeden z najsłynniejszych posągów świata."
+  },
+  {
+    "id": "myth_t010",
+    "question": "Jaki kwiat według słowiańskich wierzeń zakwita w noc świętojańską i przynosi szczęście?",
+    "answers": [
+      "Kwiat paproci",
+      "Kwiat lotosu",
+      "Kwiat lilii",
+      "Kwiat maku"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kwiatu paproci szukano w noc Kupały, choć paprocie w rzeczywistości nie kwitną."
+  },
+  {
+    "id": "myth_t011",
+    "question": "Jak nazywała się grecka bogini łowów, siostra Apollina?",
+    "answers": [
+      "Atena",
+      "Hestia",
+      "Artemida",
+      "Afrodyta"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rzymskim odpowiednikiem Artemidy była Diana."
+  },
+  {
+    "id": "myth_t012",
+    "question": "Który heros ściął głowę Meduzie?",
+    "answers": [
+      "Herakles",
+      "Tezeusz",
+      "Jazon",
+      "Perseusz"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Perseusz patrzył na Meduzę w odbiciu tarczy, by nie zamienić się w kamień."
+  },
+  {
+    "id": "myth_t013",
+    "question": "Kto przewodził Argonautom w wyprawie po złote runo?",
+    "answers": [
+      "Odyseusz",
+      "Perseusz",
+      "Jazon",
+      "Achilles"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Jazon popłynął po złote runo na statku Argo."
+  },
+  {
+    "id": "myth_t014",
+    "question": "Jak miała na imię wierna żona Odyseusza?",
+    "answers": [
+      "Helena",
+      "Penelopa",
+      "Andromacha",
+      "Kirke"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Penelopa zwodziła zalotników, nocami prując utkany za dnia całun."
+  },
+  {
+    "id": "myth_t015",
+    "question": "Jak nazywał się cyklop oślepiony przez Odyseusza?",
+    "answers": [
+      "Talos",
+      "Tyfon",
+      "Gerion",
+      "Polifem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Odyseusz przedstawił się Polifemowi jako „Nikt”, co uratowało mu życie."
+  },
+  {
+    "id": "myth_t016",
+    "question": "Jak nazywa się koniec świata w mitologii nordyckiej?",
+    "answers": [
+      "Ragnarök",
+      "Asgard",
+      "Midgard",
+      "Walhalla"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Podczas Ragnaröku bogowie toczą ostatnią bitwę z olbrzymami i potworami."
+  },
+  {
+    "id": "myth_t017",
+    "question": "Który egipski bóg przedstawiany był z głową sokoła?",
+    "answers": [
+      "Anubis",
+      "Horus",
+      "Thot",
+      "Set"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Horus był bogiem nieba, a faraonów uważano za jego wcielenie."
+  },
+  {
+    "id": "myth_t018",
+    "question": "Kim z zawodu był według popularnej tradycji Piast, protoplasta dynastii Piastów?",
+    "answers": [
+      "Kowalem",
+      "Rybakiem",
+      "Bartnikiem",
+      "Kołodziejem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Legenda nazywa go Piastem Kołodziejem, bo wyrabiał koła do wozów."
+  },
+  {
+    "id": "myth_t019",
+    "question": "Który tytan według mitu pożerał własne dzieci?",
+    "answers": [
+      "Uranos",
+      "Atlas",
+      "Hyperion",
+      "Kronos"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kronos bał się, że dzieci go obalą, ale Zeus ocalał i pokonał ojca."
+  },
+  {
+    "id": "myth_t020",
+    "question": "Kim był Charon w mitologii greckiej?",
+    "answers": [
+      "Sędzią zmarłych",
+      "Przewoźnikiem dusz",
+      "Posłańcem bogów",
+      "Królem tytanów"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Charon przewoził dusze zmarłych przez rzekę do Hadesu za obola."
+  },
+  {
+    "id": "myth_t021",
+    "question": "Jak nazywa się wilk, który podczas Ragnaröku pożera Odyna?",
+    "answers": [
+      "Fenrir",
+      "Sleipnir",
+      "Garm",
+      "Hugin"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Fenrir był synem Lokiego, a bogowie skuli go magicznym łańcuchem."
+  },
+  {
+    "id": "myth_t022",
+    "question": "Która z muz opiekowała się historią?",
+    "answers": [
+      "Kaliope",
+      "Talia",
+      "Klio",
+      "Erato"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Klio przedstawiano ze zwojem, a Kaliope była muzą poezji epickiej."
+  },
+  {
+    "id": "myth_t023",
+    "question": "Jak nazywał się olbrzym o stu oczach, którego Hera uczyniła strażnikiem?",
+    "answers": [
+      "Argos",
+      "Polifem",
+      "Talos",
+      "Tyfon"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Po śmierci Argosa Hera umieściła jego oczy na ogonie pawia."
+  },
+  {
+    "id": "myth_t024",
+    "question": "Jak nazywa się słowiański demon, który według wierzeń miał dwie dusze i dwa serca?",
+    "answers": [
+      "Rusałka",
+      "Utopiec",
+      "Strzyga",
+      "Licho"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Strzyga nocą wysysała krew, a za życia uchodziła za zwykłego człowieka."
+  },
+  {
+    "id": "myth_t025",
+    "question": "Jak nazywa się wąż oplatający cały świat ludzi w mitologii nordyckiej?",
+    "answers": [
+      "Fenrir",
+      "Nidhogg",
+      "Fafnir",
+      "Jörmungandr"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Jörmungandr, zwany Wężem Midgardu, jest odwiecznym wrogiem Thora."
+  },
+  {
+    "id": "mil_t001",
+    "question": "Jak nazywa się żołnierz specjalizujący się w rozbrajaniu min?",
+    "answers": [
+      "Snajper",
+      "Saper",
+      "Kwatermistrz",
+      "Zwiadowca"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Saperzy zajmują się minowaniem, rozminowywaniem i budową przepraw."
+  },
+  {
+    "id": "mil_t002",
+    "question": "Jak nazywa się samolot z dwoma płatami skrzydeł umieszczonymi jeden nad drugim?",
+    "answers": [
+      "Dwupłatowiec",
+      "Szybowiec",
+      "Wiatrakowiec",
+      "Hydroplan"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Dwupłatowce dominowały w lotnictwie do lat 30. XX wieku."
+  },
+  {
+    "id": "mil_t003",
+    "question": "Jak nazywa się statek powietrzny bez silnika, unoszący się dzięki prądom powietrza?",
+    "answers": [
+      "Motolotnia",
+      "Awionetka",
+      "Szybowiec",
+      "Wiatrakowiec"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Szybowiec jest holowany na wysokość, a potem leci, wykorzystując prądy wznoszące."
+  },
+  {
+    "id": "mil_t004",
+    "question": "Jak nazywa się główna część samolotu, w której siedzą pasażerowie?",
+    "answers": [
+      "Statecznik",
+      "Gondola",
+      "Kadłub",
+      "Lotka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Do kadłuba mocowane są skrzydła i usterzenie."
+  },
+  {
+    "id": "mil_t005",
+    "question": "Który z tych stopni wojskowych jest najwyższy?",
+    "answers": [
+      "Kapral",
+      "Starszy szeregowy",
+      "Sierżant",
+      "Szeregowy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W polskim wojsku sierżant jest podoficerem starszym rangą od kaprala."
+  },
+  {
+    "id": "mil_t006",
+    "question": "Z jakiego kraju pochodziły okręty podwodne zwane U-Bootami?",
+    "answers": [
+      "Z Włoch",
+      "Z Niemiec",
+      "Z Wielkiej Brytanii",
+      "Z Rosji"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa U-Boot to skrót od niemieckiego „Unterseeboot”."
+  },
+  {
+    "id": "mil_t007",
+    "question": "Jak nazywa się fotel, który w razie awarii wyrzuca pilota z samolotu?",
+    "answers": [
+      "Fotel odrzutowy",
+      "Fotel katapultowy",
+      "Fotel balistyczny",
+      "Fotel spadochronowy"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fotel katapultowy wystrzeliwuje pilota, a potem otwiera się spadochron."
+  },
+  {
+    "id": "mil_t008",
+    "question": "Jak nazywa się obrotowa część czołgu, w której zamontowane jest działo?",
+    "answers": [
+      "Kadłub",
+      "Wieża",
+      "Gąsienica",
+      "Peryskop"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wieża obraca się, by działo mogło celować w dowolnym kierunku."
+  },
+  {
+    "id": "mil_t009",
+    "question": "Od nazwiska którego konstruktora pochodzi nazwa karabinka AK-47?",
+    "answers": [
+      "Kałasznikowa",
+      "Mosina",
+      "Dragunowa",
+      "Makarowa"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Skrót AK oznacza „Awtomat Kałasznikowa”."
+  },
+  {
+    "id": "mil_t010",
+    "question": "Jak brzmi pełna nazwa organizacji NATO po polsku?",
+    "answers": [
+      "Organizacja Traktatu Północnoatlantyckiego",
+      "Organizacja Traktatu Atlantyckiego",
+      "Organizacja Traktatu Północnoeuropejskiego",
+      "Organizacja Traktatu Zachodnioeuropejskiego"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "NATO powstało w 1949 roku, a Polska jest jego członkiem od 1999 roku."
+  },
+  {
+    "id": "mil_t011",
+    "question": "Jak nazywa się zespół akrobacyjny Sił Powietrznych latający na samolotach TS-11 Iskra?",
+    "answers": [
+      "Biało-Czerwone Iskry",
+      "Red Arrows",
+      "Patrouille de France",
+      "Frecce Tricolori"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Biało-Czerwone Iskry to najstarszy wciąż działający polski zespół akrobacyjny."
+  },
+  {
+    "id": "mil_t012",
+    "question": "Jak nazywa się brytyjski zespół akrobacyjny latający na czerwonych samolotach?",
+    "answers": [
+      "Red Arrows",
+      "Blue Angels",
+      "Thunderbirds",
+      "Frecce Tricolori"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Red Arrows to zespół Królewskich Sił Powietrznych latający na samolotach Hawk."
+  },
+  {
+    "id": "mil_t013",
+    "question": "Który niemiecki myśliwiec z II wojny światowej zbudowano w największej liczbie?",
+    "answers": [
+      "Focke-Wulf Fw 190",
+      "Messerschmitt Bf 110",
+      "Messerschmitt Me 163",
+      "Messerschmitt Bf 109"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Zbudowano ponad 30 tysięcy Bf 109, najwięcej ze wszystkich myśliwców w historii."
+  },
+  {
+    "id": "mil_t014",
+    "question": "Jaki samolot nazywano „Stuką”?",
+    "answers": [
+      "Messerschmitt Bf 109",
+      "Junkers Ju 87",
+      "Heinkel He 111",
+      "Dornier Do 17"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bombowiec nurkujący Ju 87 słynął z wyjących syren podczas ataku."
+  },
+  {
+    "id": "mil_t016",
+    "question": "Który koncern zaprojektował japoński myśliwiec A6M „Zero”?",
+    "answers": [
+      "Toyota",
+      "Mitsubishi",
+      "Honda",
+      "Suzuki"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zero było podstawowym myśliwcem japońskiej marynarki w II wojnie światowej."
+  },
+  {
+    "id": "mil_t017",
+    "question": "Który samolot nazywano „Latającą Fortecą”?",
+    "answers": [
+      "Boeing B-52",
+      "Avro Lancaster",
+      "Consolidated B-24",
+      "Boeing B-17"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "B-17 Flying Fortress zawdzięczał przydomek licznym stanowiskom karabinów."
+  },
+  {
+    "id": "mil_t018",
+    "question": "Jak nazywa się kołowy transporter opancerzony produkowany w Siemianowicach Śląskich?",
+    "answers": [
+      "Twardy",
+      "Krab",
+      "Borsuk",
+      "Rosomak"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rosomak powstał na licencji fińskiej Patrii AMV."
+  },
+  {
+    "id": "mil_t019",
+    "question": "Jakie słowo oznacza literę „D” w alfabecie fonetycznym NATO?",
+    "answers": [
+      "Dog",
+      "David",
+      "Dingo",
+      "Delta"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Alfabet NATO zaczyna się od słów Alfa, Bravo, Charlie, Delta."
+  },
+  {
+    "id": "mil_t020",
+    "question": "Jakim samolotem latał Maverick w filmie „Top Gun” z 1986 roku?",
+    "answers": [
+      "F-14 Tomcat",
+      "F-16 Fighting Falcon",
+      "F-15 Eagle",
+      "F-4 Phantom"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W pierwszym „Top Gun” Tom Cruise latał myśliwcem F-14 Tomcat marynarki USA."
+  },
+  {
+    "id": "mil_t021",
+    "question": "Który niemiecki samolot był pierwszym odrzutowym myśliwcem użytym bojowo na dużą skalę?",
+    "answers": [
+      "Heinkel He 162",
+      "Heinkel He 280",
+      "Messerschmitt Me 262",
+      "Arado Ar 234"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Me 262 wszedł do walki w 1944 roku i był znacznie szybszy od myśliwców śmigłowych."
+  },
+  {
+    "id": "mil_t022",
+    "question": "Jak nazywa się polski czołg podstawowy, głęboko zmodernizowana wersja T-72?",
+    "answers": [
+      "Rosomak",
+      "Krab",
+      "PT-91 Twardy",
+      "Leopard 2"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "PT-91 Twardy produkowano w zakładach Bumar-Łabędy w Gliwicach."
+  },
+  {
+    "id": "mil_t023",
+    "question": "Jak nazywał się pierwszy odrzutowy samolot pasażerski, który w 1952 roku wszedł do regularnej służby?",
+    "answers": [
+      "Boeing 707",
+      "de Havilland Comet",
+      "Tupolew Tu-104",
+      "Sud Aviation Caravelle"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Brytyjski Comet rozpoczął regularne loty w barwach BOAC w 1952 roku."
+  },
+  {
+    "id": "mil_t024",
+    "question": "Który amerykański samolot jest najszybszym załogowym samolotem z silnikami odrzutowymi?",
+    "answers": [
+      "XB-70 Valkyrie",
+      "F-15 Eagle",
+      "F-104 Starfighter",
+      "SR-71 Blackbird"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "SR-71 latał ponad trzykrotnie szybciej od dźwięku."
+  },
+  {
+    "id": "mil_t025",
+    "question": "Jak nazywa się polski śmigłowiec wielozadaniowy ze Świdnika, nazwany od ptaka?",
+    "answers": [
+      "PZL-130 Orlik",
+      "Mi-24",
+      "TS-11 Iskra",
+      "W-3 Sokół"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "PZL W-3 Sokół produkowany jest w Świdniku od lat 80. XX wieku."
+  }
+]

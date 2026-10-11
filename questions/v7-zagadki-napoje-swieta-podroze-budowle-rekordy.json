@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "math_u001",
+    "question": "Ile to jest 12 × 12?",
+    "answers": [
+      "124",
+      "144",
+      "142",
+      "132"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "12 × 12 = 144, czyli tzw. gros."
+  },
+  {
+    "id": "math_u002",
+    "question": "Ile kół mają razem 3 rowery i 2 trójkołowce?",
+    "answers": [
+      "13",
+      "12",
+      "11",
+      "10"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "3 × 2 + 2 × 3 = 6 + 6 = 12 kół."
+  },
+  {
+    "id": "math_u003",
+    "question": "Ile minut to kwadrans?",
+    "answers": [
+      "25",
+      "10",
+      "20",
+      "15"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kwadrans to ćwierć godziny, czyli 15 minut."
+  },
+  {
+    "id": "math_u004",
+    "question": "Ile dni ma rok przestępny?",
+    "answers": [
+      "366",
+      "364",
+      "367",
+      "365"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W roku przestępnym luty ma 29 dni, więc rok liczy 366 dni."
+  },
+  {
+    "id": "math_u005",
+    "question": "Ile nóg mają razem 3 kury i 2 psy?",
+    "answers": [
+      "16",
+      "12",
+      "10",
+      "14"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "3 × 2 + 2 × 4 = 6 + 8 = 14 nóg."
+  },
+  {
+    "id": "math_u006",
+    "question": "Ile wynosi połowa z połowy ze 100?",
+    "answers": [
+      "12,5",
+      "25",
+      "20",
+      "50"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Połowa ze 100 to 50, a połowa z 50 to 25."
+  },
+  {
+    "id": "math_u007",
+    "question": "Ile boków mają razem trójkąt i kwadrat?",
+    "answers": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Trójkąt ma 3 boki, a kwadrat 4, razem 7."
+  },
+  {
+    "id": "math_u008",
+    "question": "Ile to jest 3 do potęgi trzeciej?",
+    "answers": [
+      "27",
+      "81",
+      "9",
+      "18"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "3 × 3 × 3 = 27."
+  },
+  {
+    "id": "math_u009",
+    "question": "Ile sekund mają 3 minuty?",
+    "answers": [
+      "150",
+      "180",
+      "120",
+      "300"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Każda minuta ma 60 sekund, więc 3 × 60 = 180."
+  },
+  {
+    "id": "math_u010",
+    "question": "Ile wynosi 25% z 80?",
+    "answers": [
+      "25",
+      "16",
+      "40",
+      "20"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "25% to jedna czwarta, a 80 : 4 = 20."
+  },
+  {
+    "id": "math_u011",
+    "question": "Ile to jest 0,5 × 0,5?",
+    "answers": [
+      "2,5",
+      "1",
+      "0,25",
+      "0,5"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Połowa z połowy to ćwierć, czyli 0,25."
+  },
+  {
+    "id": "math_u012",
+    "question": "Ile przekątnych ma pięciokąt?",
+    "answers": [
+      "6",
+      "10",
+      "4",
+      "5"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Z każdego z 5 wierzchołków wychodzą 2 przekątne, a każdą liczymy dwa razy: 5 × 2 : 2 = 5."
+  },
+  {
+    "id": "math_u013",
+    "question": "Jeśli wczoraj był piątek, to jaki dzień będzie pojutrze?",
+    "answers": [
+      "Sobota",
+      "Poniedziałek",
+      "Wtorek",
+      "Niedziela"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Dziś jest sobota, więc pojutrze wypada poniedziałek."
+  },
+  {
+    "id": "math_u014",
+    "question": "Ile jest liczb pierwszych mniejszych od 10?",
+    "answers": [
+      "3",
+      "6",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Liczby pierwsze mniejsze od 10 to 2, 3, 5 i 7."
+  },
+  {
+    "id": "math_u015",
+    "question": "Ile krawędzi ma sześcian?",
+    "answers": [
+      "12",
+      "8",
+      "6",
+      "10"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Sześcian ma 12 krawędzi, 8 wierzchołków i 6 ścian."
+  },
+  {
+    "id": "math_u016",
+    "question": "Ile to jest 9 × 99?",
+    "answers": [
+      "981",
+      "819",
+      "899",
+      "891"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "9 × 99 = 9 × 100 − 9 = 900 − 9 = 891."
+  },
+  {
+    "id": "math_u017",
+    "question": "Samochód jedzie ze stałą prędkością 80 km/h. Ile kilometrów pokona w 45 minut?",
+    "answers": [
+      "60",
+      "70",
+      "50",
+      "45"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "45 minut to trzy czwarte godziny, a 3/4 z 80 km to 60 km."
+  },
+  {
+    "id": "math_u018",
+    "question": "Ile to jest 30 podzielone przez pół, a potem dodać 10?",
+    "answers": [
+      "50",
+      "25",
+      "40",
+      "70"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dzielenie przez pół to mnożenie przez 2: 30 : 0,5 = 60, a 60 + 10 = 70."
+  },
+  {
+    "id": "math_u019",
+    "question": "Ile to jest 2 + 2 × 2?",
+    "answers": [
+      "4",
+      "6",
+      "10",
+      "8"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mnożenie wykonuje się przed dodawaniem: 2 + 4 = 6."
+  },
+  {
+    "id": "math_u020",
+    "question": "Kwadrat ma obwód 20 cm. Jakie ma pole?",
+    "answers": [
+      "100 cm²",
+      "16 cm²",
+      "20 cm²",
+      "25 cm²"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bok ma 20 : 4 = 5 cm, więc pole wynosi 5 × 5 = 25 cm²."
+  },
+  {
+    "id": "math_u021",
+    "question": "Zegar o każdej pełnej godzinie wybija tyle uderzeń, która jest godzina. Ile uderzeń wybije łącznie od 1:00 do 12:00?",
+    "answers": [
+      "78",
+      "72",
+      "84",
+      "66"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "1 + 2 + … + 12 = 78."
+  },
+  {
+    "id": "math_u022",
+    "question": "Ile dni mija od 1 stycznia do 1 marca w roku nieprzestępnym?",
+    "answers": [
+      "61",
+      "59",
+      "60",
+      "58"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Styczeń ma 31 dni, a luty 28, razem 59."
+  },
+  {
+    "id": "math_u023",
+    "question": "Mama jest 3 razy starsza od syna, a razem mają 48 lat. Ile lat ma syn?",
+    "answers": [
+      "12",
+      "16",
+      "10",
+      "14"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Syn to x, mama 3x, więc 4x = 48 i x = 12."
+  },
+  {
+    "id": "math_u024",
+    "question": "Która z tych liczb jest jednocześnie kwadratem i sześcianem liczby naturalnej?",
+    "answers": [
+      "64",
+      "27",
+      "16",
+      "81"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "64 = 8² = 4³."
+  },
+  {
+    "id": "math_u025",
+    "question": "Ile to jest jedna trzecia z trzech czwartych?",
+    "answers": [
+      "2/3",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "1/3 × 3/4 = 3/12 = 1/4."
+  },
+  {
+    "id": "drink_u001",
+    "question": "W jakim kraju wymyślono kawę espresso?",
+    "answers": [
+      "W Portugalii",
+      "W Hiszpanii",
+      "We Francji",
+      "We Włoszech"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ekspres ciśnieniowy do espresso opatentowano we Włoszech na przełomie XIX i XX wieku."
+  },
+  {
+    "id": "drink_u002",
+    "question": "Z którego kraju pochodzi anyżowa wódka ouzo?",
+    "answers": [
+      "Z Włoch",
+      "Z Hiszpanii",
+      "Z Grecji",
+      "Z Turcji"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ouzo to grecki trunek o smaku anyżu, który mętnieje po dodaniu wody."
+  },
+  {
+    "id": "drink_u003",
+    "question": "Jak nazywa się herbata z kulkami tapioki pita przez grubą słomkę?",
+    "answers": [
+      "Matcha latte",
+      "Bubble tea",
+      "Kombucha",
+      "Chai latte"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bubble tea powstała na Tajwanie, a jej znakiem rozpoznawczym są kulki tapioki."
+  },
+  {
+    "id": "drink_u004",
+    "question": "Co oznacza po włosku słowo „latte”?",
+    "answers": [
+      "Kawa",
+      "Mleko",
+      "Pianka",
+      "Śmietana"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Zamawiając we Włoszech samo „latte”, dostaniesz szklankę mleka."
+  },
+  {
+    "id": "drink_u005",
+    "question": "Z czym miesza się wino w szprycerze?",
+    "answers": [
+      "Z wódką",
+      "Z sokiem",
+      "Z wodą gazowaną",
+      "Z piwem"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Szprycer to orzeźwiające połączenie wina z wodą gazowaną."
+  },
+  {
+    "id": "drink_u006",
+    "question": "Jak nazywa się podgrzewane wino z korzennymi przyprawami, pite zimą?",
+    "answers": [
+      "Grzaniec",
+      "Porto",
+      "Sherry",
+      "Wermut"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Grzaniec przygotowuje się z wina, cynamonu, goździków i pomarańczy."
+  },
+  {
+    "id": "drink_u007",
+    "question": "Ile procent alkoholu ma zwykle czysta wódka?",
+    "answers": [
+      "60%",
+      "50%",
+      "30%",
+      "40%"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Standardowa czysta wódka ma moc 40%."
+  },
+  {
+    "id": "drink_u008",
+    "question": "Ile mililitrów wódki to „setka”?",
+    "answers": [
+      "100",
+      "200",
+      "25",
+      "50"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Potoczna „setka” to 100 mililitrów, czyli dwa typowe kieliszki."
+  },
+  {
+    "id": "drink_u009",
+    "question": "Jakie składniki tworzą shot „Wściekły pies”?",
+    "answers": [
+      "Gin, tonik i ogórek",
+      "Rum, cola i limonka",
+      "Tequila, sól i cytryna",
+      "Wódka, sok malinowy i tabasco"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "We Wściekłym psie czerwony sok malinowy i kilka kropel tabasco pływają w wódce."
+  },
+  {
+    "id": "drink_u010",
+    "question": "Jak nazywa się kawa z mlekiem i czekoladą?",
+    "answers": [
+      "Mocha",
+      "Americano",
+      "Cortado",
+      "Ristretto"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Mocha (mokka) to espresso z gorącym mlekiem i czekoladą."
+  },
+  {
+    "id": "drink_u011",
+    "question": "Jakie zboże musi stanowić co najmniej 51% zacieru amerykańskiego bourbona?",
+    "answers": [
+      "Żyto",
+      "Jęczmień",
+      "Kukurydza",
+      "Pszenica"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Według prawa USA bourbon musi powstać w co najmniej 51% z kukurydzy."
+  },
+  {
+    "id": "drink_u012",
+    "question": "Z jakich owoców robi się normandzką brandy calvados?",
+    "answers": [
+      "Z jabłek",
+      "Ze śliwek",
+      "Z wiśni",
+      "Z winogron"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Calvados to brandy z cydru jabłkowego produkowana w Normandii."
+  },
+  {
+    "id": "drink_u013",
+    "question": "Jak nazywa się lekko musujący napój z fermentowanej słodzonej herbaty?",
+    "answers": [
+      "Kombucha",
+      "Ajran",
+      "Kwas chlebowy",
+      "Kefir"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kombuchę otrzymuje się dzięki kulturze bakterii i drożdży zwanej SCOBY."
+  },
+  {
+    "id": "drink_u014",
+    "question": "Czym jest ajran, popularny w Turcji?",
+    "answers": [
+      "Herbatą z miętą",
+      "Sokiem z granatu",
+      "Napojem z jogurtu, wody i soli",
+      "Anyżową wódką"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ajran to słony, orzeźwiający napój jogurtowy podawany do kebabu."
+  },
+  {
+    "id": "drink_u015",
+    "question": "Jaki napój, obok wódki i limonki, tworzy Moscow Mule?",
+    "answers": [
+      "Tonik",
+      "Piwo imbirowe",
+      "Cola",
+      "Woda sodowa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Moscow Mule podaje się w miedzianym kubku z wódką, limonką i piwem imbirowym."
+  },
+  {
+    "id": "drink_u016",
+    "question": "Jaki pomarańczowy likier, obok tequili i limonki, wchodzi do klasycznej Margarity?",
+    "answers": [
+      "Triple sec",
+      "Kahlúa",
+      "Amaretto",
+      "Baileys"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Klasyczna Margarita to tequila, sok z limonki i likier triple sec, np. Cointreau."
+  },
+  {
+    "id": "drink_u017",
+    "question": "Z czego głównie robi się ajerkoniak?",
+    "answers": [
+      "Z mleka i miodu",
+      "Z żółtek, cukru i alkoholu",
+      "Ze śmietany i kawy",
+      "Z kakao i rumu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ajerkoniak to gęsty likier jajeczny, którego nazwa pochodzi od niemieckiego „Eierkognak”."
+  },
+  {
+    "id": "drink_u018",
+    "question": "Jak nazywa się deser z gałki lodów waniliowych zalanej gorącym espresso?",
+    "answers": [
+      "Frappé",
+      "Affogato",
+      "Granita",
+      "Cortado"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Affogato po włosku znaczy „utopiony”, bo lody topią się w kawie."
+  },
+  {
+    "id": "drink_u019",
+    "question": "Co oznacza określenie „brut” na etykiecie szampana?",
+    "answers": [
+      "Że jest różowy",
+      "Że jest słodki",
+      "Że jest wytrawny",
+      "Że jest półsłodki"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Brut oznacza wino musujące z bardzo małą ilością cukru, czyli wytrawne."
+  },
+  {
+    "id": "drink_u020",
+    "question": "Jaką pojemność ma standardowa butelka wina?",
+    "answers": [
+      "0,5 l",
+      "0,7 l",
+      "0,75 l",
+      "1 l"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Typowa butelka wina mieści 750 mililitrów."
+  },
+  {
+    "id": "drink_u021",
+    "question": "Skórki jakich owoców nadają smak likierowi Blue Curaçao?",
+    "answers": [
+      "Grejpfrutów",
+      "Limonek",
+      "Gorzkich pomarańczy",
+      "Cytryn"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Curaçao powstaje z suszonych skórek gorzkich pomarańczy z karaibskiej wyspy Curaçao."
+  },
+  {
+    "id": "drink_u022",
+    "question": "Jak nazywa się klasyczny koktajl z whisky, cukru, angostury i skórki pomarańczy?",
+    "answers": [
+      "Mint Julep",
+      "Whiskey Sour",
+      "Manhattan",
+      "Old Fashioned"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Old Fashioned to jeden z najstarszych koktajli, podawany w niskiej szklance z lodem."
+  },
+  {
+    "id": "drink_u023",
+    "question": "Czym jest francuski aperitif Kir?",
+    "answers": [
+      "Wódką z sokiem wiśniowym",
+      "Białym winem z likierem z czarnej porzeczki",
+      "Rumem z sokiem ananasowym",
+      "Piwem z sokiem malinowym"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kir to białe wino z dodatkiem likieru crème de cassis z czarnej porzeczki."
+  },
+  {
+    "id": "drink_u024",
+    "question": "Jak nazywa się hiszpańska kawa z espresso i słodkim mlekiem skondensowanym?",
+    "answers": [
+      "Café solo",
+      "Cortado",
+      "Café bombón",
+      "Carajillo"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Café bombón podaje się w szklance, w której widać warstwę mleka skondensowanego pod kawą."
+  },
+  {
+    "id": "drink_u025",
+    "question": "Jak nazywa się butelka szampana o pojemności 1,5 litra?",
+    "answers": [
+      "Magnum",
+      "Jeroboam",
+      "Nabuchodonozor",
+      "Balthazar"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Magnum to podwójna butelka, a Jeroboam, Balthazar i Nabuchodonozor są jeszcze większe."
+  },
+  {
+    "id": "trad_u001",
+    "question": "Którego dnia przypadają mikołajki?",
+    "answers": [
+      "6 grudnia",
+      "4 grudnia",
+      "13 grudnia",
+      "24 grudnia"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "6 grudnia to wspomnienie św. Mikołaja z Miry."
+  },
+  {
+    "id": "trad_u002",
+    "question": "Co według przesądu wkłada się do portfela po wigilijnym karpiu, by nie brakowało pieniędzy?",
+    "answers": [
+      "Opłatek",
+      "Ość",
+      "Płetwę",
+      "Łuskę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Łuska karpia w portfelu ma zapewnić dostatek przez cały rok."
+  },
+  {
+    "id": "trad_u003",
+    "question": "Czym rodzice tradycyjnie witają nowożeńców po ślubie?",
+    "answers": [
+      "Kawą i ciastem",
+      "Miodem i winem",
+      "Wódką i ogórkiem",
+      "Chlebem i solą"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Chleb symbolizuje dostatek, a sól ma chronić przed złem i przypominać o trudach życia."
+  },
+  {
+    "id": "trad_u004",
+    "question": "Ile dni według tradycji trwa Wielki Post?",
+    "answers": [
+      "50",
+      "40",
+      "33",
+      "30"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wielki Post nawiązuje do 40 dni postu Jezusa na pustyni."
+  },
+  {
+    "id": "trad_u005",
+    "question": "Jak nazywa się muzułmański miesiąc postu od świtu do zmierzchu?",
+    "answers": [
+      "Id al-Adha",
+      "Szabat",
+      "Ramadan",
+      "Hadżdż"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W ramadanie wierni nie jedzą i nie piją od świtu do zachodu słońca."
+  },
+  {
+    "id": "trad_u006",
+    "question": "Którego dnia w Polsce obchodzi się Dzień Matki?",
+    "answers": [
+      "23 czerwca",
+      "1 czerwca",
+      "8 marca",
+      "26 maja"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "26 maja to Dzień Matki, 1 czerwca Dzień Dziecka, a 23 czerwca Dzień Ojca."
+  },
+  {
+    "id": "trad_u007",
+    "question": "Jaka zupa z uszkami to klasyk wigilijnej kolacji?",
+    "answers": [
+      "Żurek",
+      "Rosół",
+      "Czerwony barszcz",
+      "Pomidorowa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Czerwony barszcz z uszkami z grzybami to jedna z najbardziej typowych potraw wigilijnych."
+  },
+  {
+    "id": "trad_u008",
+    "question": "Czym dzielimy się przy wielkanocnym śniadaniu, składając sobie życzenia?",
+    "answers": [
+      "Babką",
+      "Opłatkiem",
+      "Jajkiem",
+      "Chlebem"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dzielenie się poświęconym jajkiem to wielkanocny odpowiednik łamania się opłatkiem."
+  },
+  {
+    "id": "trad_u009",
+    "question": "Którą rocznicę ślubu nazywa się srebrnymi godami?",
+    "answers": [
+      "25.",
+      "10.",
+      "50.",
+      "40."
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Srebrne gody to 25 lat małżeństwa, a złote – 50 lat."
+  },
+  {
+    "id": "trad_u010",
+    "question": "Który dzień miesiąca wypadający w piątek uchodzi za pechowy?",
+    "answers": [
+      "13.",
+      "1.",
+      "11.",
+      "7."
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Piątek trzynastego to jeden z najpopularniejszych przesądów na świecie."
+  },
+  {
+    "id": "trad_u011",
+    "question": "Jakie święto rozpoczyna Wielki Tydzień?",
+    "answers": [
+      "Niedziela Palmowa",
+      "Zielone Świątki",
+      "Środa Popielcowa",
+      "Wielki Czwartek"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Niedziela Palmowa upamiętnia wjazd Jezusa do Jerozolimy i otwiera Wielki Tydzień."
+  },
+  {
+    "id": "trad_u012",
+    "question": "Jak nazywa się pisanka, na której wzór wydrapuje się ostrym narzędziem?",
+    "answers": [
+      "Kraszanka",
+      "Wydmuszka",
+      "Oklejanka",
+      "Drapanka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Drapankę najpierw farbuje się na jeden kolor, a potem wydrapuje na niej wzór."
+  },
+  {
+    "id": "trad_u013",
+    "question": "Jak mają na imię Trzej Królowie, których inicjały pisze się kredą na drzwiach?",
+    "answers": [
+      "Kacper, Marek i Bartłomiej",
+      "Kazimierz, Michał i Bolesław",
+      "Kacper, Melchior i Baltazar",
+      "Karol, Maciej i Benedykt"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Napis K+M+B kojarzy się z imionami Kacpra, Melchiora i Baltazara."
+  },
+  {
+    "id": "trad_u014",
+    "question": "Jaki owoc maczany w miodzie je się na żydowski Nowy Rok, Rosz ha-Szana?",
+    "answers": [
+      "Daktyl",
+      "Gruszkę",
+      "Figę",
+      "Jabłko"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Jabłko w miodzie symbolizuje życzenie słodkiego nowego roku."
+  },
+  {
+    "id": "trad_u015",
+    "question": "W którym kraju świąteczną tradycją jest kolacja z KFC w Boże Narodzenie?",
+    "answers": [
+      "W Japonii",
+      "W Chinach",
+      "W Korei Południowej",
+      "Na Filipinach"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Po kampanii reklamowej z 1974 roku Japończycy masowo zamawiają kurczaka z KFC na święta."
+  },
+  {
+    "id": "trad_u016",
+    "question": "Co oznacza francuska nazwa karnawałowego święta Mardi Gras?",
+    "answers": [
+      "Tłusty wtorek",
+      "Ostatnia noc",
+      "Wesoły marzec",
+      "Wielki bal"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mardi Gras to ostatni dzień karnawału przed Środą Popielcową, słynny z parad w Nowym Orleanie."
+  },
+  {
+    "id": "trad_u017",
+    "question": "Jaki kwiat w PRL tradycyjnie wręczano kobietom w Dniu Kobiet?",
+    "answers": [
+      "Goździk",
+      "Róża",
+      "Frezja",
+      "Tulipan"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Goździk, często z rajstopami lub kawą, był symbolem Dnia Kobiet w PRL."
+  },
+  {
+    "id": "trad_u018",
+    "question": "Jak nazywa się wielkanocny deser z twarogu w kształcie ściętej piramidy?",
+    "answers": [
+      "Makowiec",
+      "Pascha",
+      "Baba",
+      "Mazurek"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Paschę z twarogu, bakalii i masła formuje się w drewnianej formie w kształcie piramidy."
+  },
+  {
+    "id": "trad_u019",
+    "question": "Jak w Wielkiej Brytanii nazywa się 26 grudnia?",
+    "answers": [
+      "Gift Day",
+      "Boxing Day",
+      "Holy Day",
+      "Family Day"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa Boxing Day wywodzi się najpewniej od dawnych pudełek z podarunkami dla służby i ubogich."
+  },
+  {
+    "id": "trad_u020",
+    "question": "Podczas którego żydowskiego święta je się macę?",
+    "answers": [
+      "Jom Kipur",
+      "Pesach",
+      "Chanuka",
+      "Purim"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Maca, czyli niekwaszony chleb, upamiętnia pospieszne wyjście Izraelitów z Egiptu."
+  },
+  {
+    "id": "trad_u021",
+    "question": "Czyje urodziny świętuje się w Szkocji 25 stycznia, jedząc haggis?",
+    "answers": [
+      "Roberta Burnsa",
+      "Świętego Andrzeja",
+      "Williama Wallace'a",
+      "Waltera Scotta"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Burns Night to kolacja ku czci narodowego poety Szkocji, Roberta Burnsa."
+  },
+  {
+    "id": "trad_u022",
+    "question": "Jakie ryby w postaci kolorowych rękawów wiesza się w Japonii na Dzień Dziecka 5 maja?",
+    "answers": [
+      "Łososie",
+      "Węgorze",
+      "Tuńczyki",
+      "Karpie"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Koinobori to powiewające na masztach rękawy w kształcie karpi, symbolu siły i wytrwałości."
+  },
+  {
+    "id": "trad_u023",
+    "question": "Jakie ciastka je się w Chinach podczas Święta Środka Jesieni?",
+    "answers": [
+      "Ciasteczka z wróżbą",
+      "Pierniki imbirowe",
+      "Ciastka księżycowe",
+      "Pączki sezamowe"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ciastka księżycowe je się, podziwiając pełnię Księżyca w środku jesieni."
+  },
+  {
+    "id": "trad_u024",
+    "question": "Jak nazywa się włoskie ciasto wielkanocne w kształcie gołębicy?",
+    "answers": [
+      "Cassata",
+      "Colomba",
+      "Panettone",
+      "Pandoro"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Colomba po włosku znaczy „gołębica”, a panettone i pandoro to ciasta bożonarodzeniowe."
+  },
+  {
+    "id": "trad_u025",
+    "question": "Jak nazywa się śląski wigilijny deser z maku, bakalii i namoczonej bułki?",
+    "answers": [
+      "Kołacz",
+      "Sękacz",
+      "Makówki",
+      "Kutia"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Makówki to śląski przysmak, a kutia z pszenicy i maku pochodzi z Kresów Wschodnich."
+  },
+  {
+    "id": "travel_u001",
+    "question": "Jak nazywa się zezwolenie na wjazd do obcego kraju, często wklejane do paszportu?",
+    "answers": [
+      "Licencja",
+      "Legitymacja",
+      "Wiza",
+      "Akredytacja"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wiza to dokument uprawniający do wjazdu i pobytu w danym kraju."
+  },
+  {
+    "id": "travel_u002",
+    "question": "Jak nazywa się punkt na lotnisku, gdzie nadaje się bagaż i odbiera kartę pokładową?",
+    "answers": [
+      "Strefa duty free",
+      "Taśma bagażowa",
+      "Bramka (gate)",
+      "Odprawa (check-in)"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Przy stanowisku odprawy oddaje się walizki i dostaje kartę pokładową."
+  },
+  {
+    "id": "travel_u003",
+    "question": "Która wyspa jest największą wyspą Grecji?",
+    "answers": [
+      "Eubea",
+      "Kreta",
+      "Rodos",
+      "Korfu"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kreta to największa grecka wyspa i jeden z najpopularniejszych kierunków wakacyjnych."
+  },
+  {
+    "id": "travel_u005",
+    "question": "Jak nazywa się strefa sklepów bezcłowych na lotnisku?",
+    "answers": [
+      "Duty free",
+      "Check-in",
+      "Lounge",
+      "Fast track"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W sklepach duty free kupuje się towary bez części podatków i ceł."
+  },
+  {
+    "id": "travel_u006",
+    "question": "W którym kraju leży Dubrownik, zwany perłą Adriatyku?",
+    "answers": [
+      "W Chorwacji",
+      "W Czarnogórze",
+      "W Albanii",
+      "W Słowenii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Dubrownik to otoczone murami miasto na południu Chorwacji."
+  },
+  {
+    "id": "travel_u007",
+    "question": "Stolicą której wyspy jest Palma?",
+    "answers": [
+      "Ibizy",
+      "Majorki",
+      "Teneryfy",
+      "Sardynii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Palma de Mallorca to stolica Majorki i całych Balearów."
+  },
+  {
+    "id": "travel_u009",
+    "question": "Co oznacza oferta „all inclusive” w biurze podróży?",
+    "answers": [
+      "Jedzenie i napoje w cenie",
+      "Tylko śniadania",
+      "Wycieczki fakultatywne gratis",
+      "Tylko nocleg"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W all inclusive posiłki i napoje w hotelu są już wliczone w cenę pobytu."
+  },
+  {
+    "id": "travel_u010",
+    "question": "Jak nazywa się wyspiarska dzielnica Nowego Jorku z Central Parkiem i Times Square?",
+    "answers": [
+      "Bronx",
+      "Brooklyn",
+      "Queens",
+      "Manhattan"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Manhattan to serce Nowego Jorku, położone na wyspie między rzekami Hudson i East River."
+  },
+  {
+    "id": "travel_u011",
+    "question": "Jak nazywa się słynna amerykańska szosa z Chicago do Santa Monica?",
+    "answers": [
+      "Route 1",
+      "Interstate 95",
+      "Route 66",
+      "Highway 101"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Route 66 nazywana jest „Matką Dróg” i stała się symbolem podróży przez USA."
+  },
+  {
+    "id": "travel_u012",
+    "question": "W którym kraju leży wpisany na listę UNESCO fiord Geiranger?",
+    "answers": [
+      "W Finlandii",
+      "W Norwegii",
+      "W Islandii",
+      "W Szwecji"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Geirangerfjord to jeden z najpiękniejszych fiordów zachodniej Norwegii."
+  },
+  {
+    "id": "travel_u013",
+    "question": "W którym mieście znajduje się kolorowy Park Güell?",
+    "answers": [
+      "W Madrycie",
+      "W Sewilli",
+      "W Barcelonie",
+      "W Walencji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Park Güell z mozaikową jaszczurką zaprojektował Antoni Gaudí."
+  },
+  {
+    "id": "travel_u014",
+    "question": "W którym mieście znajduje się Kryty Bazar, jeden z największych krytych targów świata?",
+    "answers": [
+      "W Stambule",
+      "W Teheranie",
+      "W Kairze",
+      "W Marrakeszu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kryty Bazar w Stambule ma tysiące sklepów i działa od XV wieku."
+  },
+  {
+    "id": "travel_u015",
+    "question": "W którym kraju leży zatoka Ha Long z tysiącami wapiennych wysepek?",
+    "answers": [
+      "W Wietnamie",
+      "W Kambodży",
+      "Na Filipinach",
+      "W Tajlandii"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zatoka Ha Long na północy Wietnamu jest wpisana na listę UNESCO."
+  },
+  {
+    "id": "travel_u016",
+    "question": "W którym kraju leży Kapadocja, słynąca z lotów balonem nad skalnymi kominami?",
+    "answers": [
+      "W Grecji",
+      "W Gruzji",
+      "W Jordanii",
+      "W Turcji"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kapadocja w środkowej Turcji słynie z bajkowych formacji skalnych i porannych lotów balonem."
+  },
+  {
+    "id": "travel_u017",
+    "question": "Jak nazywa się wulkan, najwyższy szczyt Teneryfy i całej Hiszpanii?",
+    "answers": [
+      "Stromboli",
+      "Teide",
+      "Etna",
+      "Wezuwiusz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Teide to czynny wulkan na Teneryfie i zarazem najwyższy szczyt Hiszpanii."
+  },
+  {
+    "id": "travel_u018",
+    "question": "O ile godzin trzeba przestawić zegarek, lecąc z Warszawy do Londynu?",
+    "answers": [
+      "O 2",
+      "O 3",
+      "O 0",
+      "O 1"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W Londynie jest zawsze o godzinę wcześniej niż w Polsce, latem i zimą."
+  },
+  {
+    "id": "travel_u019",
+    "question": "Jak nazywa się bilet kolejowy dla mieszkańców Europy na podróże po wielu krajach?",
+    "answers": [
+      "Pendolino",
+      "Interrail",
+      "Railjet",
+      "TGV"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bilet Interrail pozwala na nieograniczone podróże pociągami po kilkudziesięciu krajach Europy."
+  },
+  {
+    "id": "travel_u020",
+    "question": "W którym kraju leży opactwo Mont Saint-Michel na wyspie pływowej?",
+    "answers": [
+      "W Wielkiej Brytanii",
+      "W Belgii",
+      "We Francji",
+      "W Holandii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mont Saint-Michel leży w Normandii i podczas przypływu staje się wyspą."
+  },
+  {
+    "id": "travel_u021",
+    "question": "Jak nazywa się słynny plac w Marrakeszu z zaklinaczami węży i ulicznymi kuchniami?",
+    "answers": [
+      "Plac Taksim",
+      "Plac Rossio",
+      "Dżamaa al-Fana",
+      "Plac Tahrir"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Plac Dżamaa al-Fana to serce marrakeskiej mediny wpisane na listę UNESCO."
+  },
+  {
+    "id": "travel_u022",
+    "question": "Jak nazywa się wenecki tramwaj wodny?",
+    "answers": [
+      "Dhow",
+      "Felucca",
+      "Vaporetto",
+      "Sampan"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Vaporetto to publiczna linia wodna kursująca po Canal Grande i lagunie."
+  },
+  {
+    "id": "travel_u023",
+    "question": "W którym kraju leży jezioro Bled z wysepką i kościołem?",
+    "answers": [
+      "W Chorwacji",
+      "W Austrii",
+      "Na Słowacji",
+      "W Słowenii"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Bled to alpejskie jezioro z jedyną naturalną wyspą w Słowenii."
+  },
+  {
+    "id": "travel_u024",
+    "question": "Na granicy których krajów leżą wodospady Iguazú?",
+    "answers": [
+      "Kanady i USA",
+      "Zambii i Zimbabwe",
+      "Peru i Boliwii",
+      "Argentyny i Brazylii"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Iguazú to system ponad 250 wodospadów na rzece Iguazú."
+  },
+  {
+    "id": "travel_u025",
+    "question": "W którym mieście znajduje się muzeum Ermitaż?",
+    "answers": [
+      "W Kijowie",
+      "W Moskwie",
+      "W Mińsku",
+      "W Sankt Petersburgu"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Ermitaż mieści się m.in. w dawnym Pałacu Zimowym carów w Sankt Petersburgu."
+  },
+  {
+    "id": "build_u001",
+    "question": "Jaki kształt ma podstawa piramidy Cheopsa?",
+    "answers": [
+      "Trójkąt",
+      "Prostokąt",
+      "Pięciokąt",
+      "Kwadrat"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Egipskie piramidy w Gizie mają podstawę w kształcie kwadratu i cztery trójkątne ściany."
+  },
+  {
+    "id": "build_u002",
+    "question": "W którym mieście stoi Brama Brandenburska?",
+    "answers": [
+      "W Hamburgu",
+      "W Monachium",
+      "W Berlinie",
+      "W Wiedniu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Brama Brandenburska to symbol Berlina i zjednoczenia Niemiec."
+  },
+  {
+    "id": "build_u003",
+    "question": "W którym mieście stoi Atomium, model kryształu żelaza?",
+    "answers": [
+      "W Amsterdamie",
+      "W Luksemburgu",
+      "W Paryżu",
+      "W Brukseli"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Atomium zbudowano na Wystawę Światową Expo 1958 w Brukseli."
+  },
+  {
+    "id": "build_u004",
+    "question": "Z czego Inuici budują igloo?",
+    "answers": [
+      "Ze skór",
+      "Z bloków śniegu",
+      "Z gliny",
+      "Z drewna"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Igloo buduje się z bloków ubitego śniegu, który dobrze izoluje od mrozu."
+  },
+  {
+    "id": "build_u005",
+    "question": "Jak nazywa się wieża meczetu, z której wzywa się na modlitwę?",
+    "answers": [
+      "Pagoda",
+      "Mihrab",
+      "Minaret",
+      "Dzwonnica"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Z minaretu muezin pięć razy dziennie wzywa wiernych do modlitwy."
+  },
+  {
+    "id": "build_u006",
+    "question": "Jak nazywa się główny kościół diecezji, siedziba biskupa?",
+    "answers": [
+      "Kaplica",
+      "Pustelnia",
+      "Katedra",
+      "Kolegiata"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nazwa katedry pochodzi od „cathedra”, czyli tronu biskupa."
+  },
+  {
+    "id": "build_u007",
+    "question": "Jak nazywa się stożkowy namiot Indian z prerii?",
+    "answers": [
+      "Jurta",
+      "Igloo",
+      "Tipi",
+      "Szałas"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tipi budowano z tyczek i skór bizonów, a jurta to namiot koczowników z Azji."
+  },
+  {
+    "id": "build_u008",
+    "question": "Jak nazywa się rów z wodą otaczający zamek?",
+    "answers": [
+      "Barbakan",
+      "Fosa",
+      "Blanki",
+      "Baszta"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fosa utrudniała napastnikom podejście pod mury zamku."
+  },
+  {
+    "id": "build_u009",
+    "question": "Jak nazywa się podziemne pomieszczenie pod kościołem, często z grobami?",
+    "answers": [
+      "Nawa",
+      "Krypta",
+      "Zakrystia",
+      "Prezbiterium"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W kryptach chowano m.in. królów, biskupów i fundatorów kościołów."
+  },
+  {
+    "id": "build_u010",
+    "question": "Jak nazywa się wielopiętrowa wieża świątynna typowa dla Chin i Japonii?",
+    "answers": [
+      "Minaret",
+      "Stupa",
+      "Pagoda",
+      "Zikkurat"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pagody mają charakterystyczne, wysunięte daszki na każdej kondygnacji."
+  },
+  {
+    "id": "build_u011",
+    "question": "Jak od 2012 roku oficjalnie nazywa się wieża zegarowa z Big Benem?",
+    "answers": [
+      "Victoria Tower",
+      "Westminster Tower",
+      "Elizabeth Tower",
+      "Crown Tower"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wieżę przemianowano na cześć diamentowego jubileuszu królowej Elżbiety II."
+  },
+  {
+    "id": "build_u012",
+    "question": "W którym mieście stoją bliźniacze wieże Petronas?",
+    "answers": [
+      "W Singapurze",
+      "W Bangkoku",
+      "W Kuala Lumpur",
+      "W Dżakarcie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Petronas Towers to symbol stolicy Malezji, połączony charakterystyczną kładką."
+  },
+  {
+    "id": "build_u013",
+    "question": "Czym w architekturze jest kariatyda?",
+    "answers": [
+      "Ozdobną rynną",
+      "Rodzajem kopuły",
+      "Podporą w kształcie postaci kobiety",
+      "Oknem w dachu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Najsłynniejsze kariatydy podtrzymują dach Erechtejonu na Akropolu."
+  },
+  {
+    "id": "build_u014",
+    "question": "Jak nazywa się wylot rynny w kształcie potwora na gotyckich katedrach?",
+    "answers": [
+      "Rzygacz",
+      "Maszkaron",
+      "Kapitel",
+      "Atlant"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Rzygacz, czyli gargulec, odprowadzał wodę deszczową z dala od murów."
+  },
+  {
+    "id": "build_u015",
+    "question": "W którym mieście stoi Tańczący Dom, zwany też „Ginger i Fred”?",
+    "answers": [
+      "W Bratysławie",
+      "W Wiedniu",
+      "W Pradze",
+      "W Budapeszcie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Tańczący Dom nad Wełtawą przypomina tańczącą parę."
+  },
+  {
+    "id": "build_u016",
+    "question": "Który zamek był wzorem dla zamku Śpiącej Królewny w Disneylandzie?",
+    "answers": [
+      "Malbork",
+      "Bran",
+      "Windsor",
+      "Neuschwanstein"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bajkowy bawarski zamek był jedną z głównych inspiracji twórców zamku w Disneylandzie."
+  },
+  {
+    "id": "build_u017",
+    "question": "W którym mieście stoi Pałac Dożów?",
+    "answers": [
+      "We Florencji",
+      "W Genui",
+      "W Mediolanie",
+      "W Wenecji"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pałac Dożów był siedzibą władz Republiki Weneckiej."
+  },
+  {
+    "id": "build_u018",
+    "question": "Jak nazywa się okrągłe okno z promienistym witrażem w fasadzie gotyckiego kościoła?",
+    "answers": [
+      "Arkada",
+      "Rozeta",
+      "Lukarna",
+      "Blenda"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Rozeta przypomina kwiat róży, od której wzięła swoją nazwę."
+  },
+  {
+    "id": "build_u019",
+    "question": "Na którym londyńskim placu stoi Kolumna Nelsona?",
+    "answers": [
+      "Na Trafalgar Square",
+      "Na Leicester Square",
+      "Na Piccadilly Circus",
+      "Na Parliament Square"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kolumna upamiętnia admirała Nelsona, który zginął w bitwie pod Trafalgarem."
+  },
+  {
+    "id": "build_u020",
+    "question": "Jak nazywa się najsłynniejsza sala pałacu w Wersalu?",
+    "answers": [
+      "Galeria Zwierciadlana",
+      "Sala Tronowa",
+      "Galeria Królewska",
+      "Sala Balowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W Galerii Zwierciadlanej w 1919 roku podpisano traktat wersalski."
+  },
+  {
+    "id": "build_u021",
+    "question": "Ile lat minęło od rozpoczęcia do ukończenia budowy katedry w Kolonii?",
+    "answers": [
+      "Około 450",
+      "Ponad 600",
+      "Około 300",
+      "Około 150"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Budowę zaczęto w 1248 roku, a ukończono dopiero w 1880 roku."
+  },
+  {
+    "id": "build_u022",
+    "question": "Jak nazywa się zewnętrzna podpora wzmacniająca mury gotyckich kościołów?",
+    "answers": [
+      "Przypora",
+      "Gzyms",
+      "Fryz",
+      "Pilaster"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Przypory i łuki przyporowe przejmowały nacisk sklepień, pozwalając budować wysokie ściany z wielkimi oknami."
+  },
+  {
+    "id": "build_u023",
+    "question": "Który radziecki architekt zaprojektował Pałac Kultury i Nauki w Warszawie?",
+    "answers": [
+      "Borys Jofan",
+      "Aleksiej Szczusiew",
+      "Dmitrij Czeczulin",
+      "Lew Rudniew"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Lew Rudniew zaprojektował PKiN, wzorując się na moskiewskich wieżowcach."
+  },
+  {
+    "id": "build_u024",
+    "question": "Jak nazywa się kamień zamykający szczyt łuku lub sklepienia?",
+    "answers": [
+      "Kapitel",
+      "Gzyms",
+      "Cokół",
+      "Zwornik"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zwornik klinuje pozostałe kamienie łuku i utrzymuje całą konstrukcję."
+  },
+  {
+    "id": "build_u025",
+    "question": "Który architekt zaprojektował Muzeum Guggenheima w Bilbao?",
+    "answers": [
+      "Zaha Hadid",
+      "Norman Foster",
+      "Renzo Piano",
+      "Frank Gehry"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Falujące, tytanowe muzeum Gehry'ego otwarto w 1997 roku."
+  },
+  {
+    "id": "rec_u002",
+    "question": "Ile metrów ma jedno okrążenie standardowej bieżni lekkoatletycznej?",
+    "answers": [
+      "400",
+      "500",
+      "300",
+      "200"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Standardowa bieżnia stadionu ma 400 metrów po wewnętrznym torze."
+  },
+  {
+    "id": "rec_u003",
+    "question": "Jak nazywał się największy statek Krzysztofa Kolumba w wyprawie z 1492 roku?",
+    "answers": [
+      "Endeavour",
+      "Victoria",
+      "Santa María",
+      "Mayflower"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kolumb płynął na Santa Maríi, a towarzyszyły jej Pinta i Niña."
+  },
+  {
+    "id": "rec_u004",
+    "question": "Który Polak jako drugi człowiek na świecie zdobył wszystkie 14 ośmiotysięczników?",
+    "answers": [
+      "Andrzej Zawada",
+      "Jerzy Kukuczka",
+      "Artur Hajzer",
+      "Wojciech Kurtyka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kukuczka ukończył Koronę Himalajów i Karakorum w 1987 roku, niecały rok po Messnerze."
+  },
+  {
+    "id": "rec_u005",
+    "question": "Jak nazywał się pierwszy pełnometrażowy film animowany wytwórni Disneya z 1937 roku?",
+    "answers": [
+      "Królewna Śnieżka i siedmiu krasnoludków",
+      "Bambi",
+      "Kopciuszek",
+      "Pinokio"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Królewna Śnieżka” była pierwszym pełnometrażowym filmem animowanym Disneya."
+  },
+  {
+    "id": "rec_u006",
+    "question": "Ile metrów długości ma basen olimpijski?",
+    "answers": [
+      "40",
+      "100",
+      "50",
+      "25"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Na igrzyskach olimpijskich pływacy ścigają się na basenie 50-metrowym."
+  },
+  {
+    "id": "rec_u011",
+    "question": "Którzy Polacy jako pierwsi na świecie zdobyli Mount Everest zimą?",
+    "answers": [
+      "Andrzej Zawada i Maciej Berbeka",
+      "Krzysztof Wielicki i Leszek Cichy",
+      "Jerzy Kukuczka i Wanda Rutkiewicz",
+      "Wojciech Kurtyka i Artur Hajzer"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wielicki i Cichy stanęli na szczycie 17 lutego 1980 roku."
+  },
+  {
+    "id": "rec_u012",
+    "question": "Ile poziomych pasów ma flaga USA?",
+    "answers": [
+      "13",
+      "15",
+      "50",
+      "7"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "13 pasów symbolizuje 13 pierwszych kolonii, a 50 gwiazd – stany."
+  },
+  {
+    "id": "rec_u013",
+    "question": "Ile wynosi suma wszystkich oczek na standardowej kostce do gry?",
+    "answers": [
+      "24",
+      "21",
+      "18",
+      "36"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "1 + 2 + 3 + 4 + 5 + 6 = 21."
+  },
+  {
+    "id": "rec_u014",
+    "question": "Ile kolorowych kwadracików widać na wszystkich ścianach klasycznej kostki Rubika?",
+    "answers": [
+      "27",
+      "48",
+      "54",
+      "64"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kostka ma 6 ścian po 9 kwadracików, czyli 54."
+  },
+  {
+    "id": "rec_u015",
+    "question": "Jakiej treści był pierwszy SMS w historii, wysłany w 1992 roku?",
+    "answers": [
+      "Test",
+      "Merry Christmas",
+      "Happy New Year",
+      "Hello World"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Inżynier Neil Papworth wysłał z komputera na telefon życzenia świąteczne."
+  },
+  {
+    "id": "rec_u017",
+    "question": "Ile bil, łącznie z białą, używa się w bilardzie w grze w ósemkę?",
+    "answers": [
+      "10",
+      "15",
+      "16",
+      "22"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Do gry służy 15 kolorowych bil oraz biała bila."
+  },
+  {
+    "id": "rec_u018",
+    "question": "Jak nazywał się pierwszy na świecie znaczek pocztowy, wydany w 1840 roku?",
+    "answers": [
+      "Red Penny",
+      "Blue Mauritius",
+      "Penny Black",
+      "Royal Mail"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Penny Black z wizerunkiem królowej Wiktorii wydano w Wielkiej Brytanii."
+  },
+  {
+    "id": "rec_u019",
+    "question": "Jaki film z 1927 roku uznaje się za początek ery kina dźwiękowego?",
+    "answers": [
+      "Metropolis",
+      "Pancernik Potiomkin",
+      "Przeminęło z wiatrem",
+      "Śpiewak jazzbandu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Choć w większości niemy, „Śpiewak jazzbandu” zawierał zsynchronizowane piosenki i kwestie mówione."
+  },
+  {
+    "id": "rec_u020",
+    "question": "Jakie zwierzęta poleciały balonem braci Montgolfier w 1783 roku, zanim wzbili się nim ludzie?",
+    "answers": [
+      "Koza, gęś i królik",
+      "Owca, kaczka i kogut",
+      "Pies, kot i mysz",
+      "Małpa, papuga i świnia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zanim balonem polecieli ludzie, Montgolfierowie sprawdzili lot na zwierzętach przed królem Ludwikiem XVI."
+  },
+  {
+    "id": "rec_u021",
+    "question": "Kto w 1875 roku jako pierwszy przepłynął wpław kanał La Manche?",
+    "answers": [
+      "Matthew Webb",
+      "Mark Spitz",
+      "Johnny Weissmuller",
+      "Harry Houdini"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kapitan Matthew Webb pokonał kanał w niecałe 22 godziny."
+  },
+  {
+    "id": "rec_u022",
+    "question": "Ile trwał pierwszy lot samolotu z napędem braci Wright w 1903 roku?",
+    "answers": [
+      "Około 12 sekund",
+      "Około godziny",
+      "Około 2 minut",
+      "Około 12 minut"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Orville Wright przeleciał wtedy około 37 metrów."
+  },
+  {
+    "id": "rec_u023",
+    "question": "Ile minut trwał lot Jurija Gagarina w kosmos?",
+    "answers": [
+      "180",
+      "45",
+      "108",
+      "90"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Gagarin okrążył Ziemię raz w ciągu 108 minut."
+  },
+  {
+    "id": "rec_u024",
+    "question": "Ile kamieni liczy standardowy komplet domina (od 0 do 6 oczek)?",
+    "answers": [
+      "32",
+      "24",
+      "36",
+      "28"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wszystkie pary liczb od 0 do 6 dają 28 kamieni."
+  },
+  {
+    "id": "rec_u025",
+    "question": "W którym mieście stanął w 1885 roku Home Insurance Building, uznawany za pierwszy wieżowiec?",
+    "answers": [
+      "W Chicago",
+      "W Bostonie",
+      "W Filadelfii",
+      "W Nowym Jorku"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Ten dziesięciopiętrowy budynek miał stalowy szkielet nośny, co otworzyło erę wieżowców."
+  }
+]

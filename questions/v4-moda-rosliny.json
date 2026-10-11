@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "fashion_m001",
+    "question": "Kto zaprojektował słynną „małą czarną” w 1926 roku?",
+    "answers": [
+      "Coco Chanel",
+      "Christian Dior",
+      "Elsa Schiaparelli",
+      "Yves Saint Laurent"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Vogue” porównał ją w 1926 roku do Forda T – prostej i dostępnej dla każdej."
+  },
+  {
+    "id": "fashion_m002",
+    "question": "Która z tych sieci odzieżowych pochodzi ze Szwecji?",
+    "answers": [
+      "H&M",
+      "Zara",
+      "Primark",
+      "Uniqlo"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "H&M założył w 1947 roku w szwedzkim Västerås Erling Persson."
+  },
+  {
+    "id": "fashion_m003",
+    "question": "Głowa jakiej postaci z mitologii greckiej widnieje w logo Versace?",
+    "answers": [
+      "Ateny",
+      "Meduzy",
+      "Zeusa",
+      "Afrodyty"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Gianni Versace wybrał głowę Meduzy jako symbol fascynacji, od której nie można się uwolnić."
+  },
+  {
+    "id": "fashion_m004",
+    "question": "Z jakiego regionu pochodzi polski strój ludowy słynący z kolorowych pasiaków?",
+    "answers": [
+      "Z Podhala",
+      "Z Kaszub",
+      "Ze Śląska",
+      "Z Łowicza"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pasiaste spódnice i zapaski to znak rozpoznawczy stroju łowickiego."
+  },
+  {
+    "id": "fashion_m005",
+    "question": "Jak nazywają się skórzane buty górali podhalańskich?",
+    "answers": [
+      "Kierpce",
+      "Chodaki",
+      "Mokasyny",
+      "Trzewiki"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kierpce to tradycyjne miękkie obuwie z jednego kawałka skóry, wiązane rzemieniem."
+  },
+  {
+    "id": "fashion_m006",
+    "question": "Która brytyjska projektantka spopularyzowała w latach 60. spódniczkę mini?",
+    "answers": [
+      "Vivienne Westwood",
+      "Stella McCartney",
+      "Coco Chanel",
+      "Mary Quant"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Mary Quant ze swojego londyńskiego butiku uczyniła mini symbolem Swinging London."
+  },
+  {
+    "id": "fashion_m007",
+    "question": "Od czego pochodzi nazwa kostiumu kąpielowego „bikini”?",
+    "answers": [
+      "Od imienia modelki",
+      "Od włoskiego słowa „dwa”",
+      "Od plaży w Brazylii",
+      "Od atolu na Pacyfiku"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Louis Réard nazwał tak swój strój w 1946 roku od atolu Bikini, gdzie testowano bomby atomowe."
+  },
+  {
+    "id": "fashion_m008",
+    "question": "Z jakiej tkaniny szyje się klasyczne dżinsy?",
+    "answers": [
+      "Z denimu",
+      "Z tweedu",
+      "Z flaneli",
+      "Z satyny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Denim to mocna tkanina bawełniana o splocie skośnym."
+  },
+  {
+    "id": "fashion_m009",
+    "question": "Z sierści jakiego zwierzęcia pozyskuje się kaszmir?",
+    "answers": [
+      "Owcy",
+      "Kozy",
+      "Alpaki",
+      "Królika"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kaszmir to delikatny puch kóz kaszmirskich z Azji Środkowej."
+  },
+  {
+    "id": "fashion_m010",
+    "question": "Jak nazywa się tkanina z charakterystycznymi podłużnymi prążkami, popularna na spodnie?",
+    "answers": [
+      "Tweed",
+      "Welur",
+      "Atłas",
+      "Sztruks"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sztruks ma wyraźne, podłużne prążki z runa."
+  },
+  {
+    "id": "fashion_m011",
+    "question": "Jak nazywają się damskie buty na bardzo wysokim, cienkim obcasie?",
+    "answers": [
+      "Koturny",
+      "Szpilki",
+      "Baleriny",
+      "Mokasyny"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa szpilek pochodzi od cienkiego obcasa przypominającego szpilkę."
+  },
+  {
+    "id": "fashion_m012",
+    "question": "Który dom mody słynie z beżowej kraty i klasycznych trenczy?",
+    "answers": [
+      "Hermès",
+      "Prada",
+      "Burberry",
+      "Louis Vuitton"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Brytyjski Burberry rozsławił trencz i charakterystyczną beżową kratę."
+  },
+  {
+    "id": "fashion_m013",
+    "question": "W jakim kraju tradycyjnym strojem jest kimono?",
+    "answers": [
+      "W Chinach",
+      "W Korei",
+      "W Japonii",
+      "W Wietnamie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kimono to tradycyjny japoński strój w kształcie litery T."
+  },
+  {
+    "id": "fashion_m014",
+    "question": "Jak nazywa się szkocka spódnica noszona przez mężczyzn?",
+    "answers": [
+      "Sarong",
+      "Kaftan",
+      "Toga",
+      "Kilt"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kilt w kratę klanową to element tradycyjnego stroju szkockiego."
+  },
+  {
+    "id": "fashion_m015",
+    "question": "Jak nazywa się tradycyjny indyjski strój kobiecy z długiego pasa tkaniny?",
+    "answers": [
+      "Kimono",
+      "Poncho",
+      "Sari",
+      "Dirndl"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Sari to kilkumetrowy pas materiału owijany wokół ciała."
+  },
+  {
+    "id": "fashion_m016",
+    "question": "Z jakiego kraju pochodzi sieć odzieżowa Zara?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Włoch",
+      "Ze Szwecji",
+      "Z Portugalii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zarę założył w Galicji Amancio Ortega, twórca grupy Inditex."
+  },
+  {
+    "id": "fashion_m017",
+    "question": "Jak nazywa się fryzura z wygolonymi bokami i pasem włosów pośrodku głowy?",
+    "answers": [
+      "Bob",
+      "Irokez",
+      "Czeski piłkarz",
+      "Afro"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Irokez nawiązuje do fryzur Indian, a w latach 70. stał się symbolem punków."
+  },
+  {
+    "id": "fashion_m018",
+    "question": "Jak nazywa się wysoki, sztywny kapelusz noszony do fraka?",
+    "answers": [
+      "Melonik",
+      "Panama",
+      "Fedora",
+      "Cylinder"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Cylinder ma wysoką, walcowatą główkę i był symbolem XIX-wiecznej elegancji."
+  },
+  {
+    "id": "fashion_m019",
+    "question": "Jak nazywa się okrągły, twardy kapelusz z wąskim rondem, znany z postaci Charliego Chaplina?",
+    "answers": [
+      "Cylinder",
+      "Kaszkiet",
+      "Melonik",
+      "Beret"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Melonik był stałym elementem stroju włóczęgi granego przez Chaplina."
+  },
+  {
+    "id": "fashion_m020",
+    "question": "Jaki numer noszą najsłynniejsze perfumy Chanel z 1921 roku?",
+    "answers": [
+      "7",
+      "9",
+      "5",
+      "21"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Chanel No. 5 to jedne z najbardziej znanych perfum świata."
+  },
+  {
+    "id": "fashion_m021",
+    "question": "Jak nazywa się ozdobny haft na góralskich spodniach?",
+    "answers": [
+      "Cucha",
+      "Parzenica",
+      "Kierpiec",
+      "Serdak"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Parzenica to charakterystyczny wzór haftowany na portkach górali."
+  },
+  {
+    "id": "fashion_m022",
+    "question": "Jak nazywa się płaszcz z paskiem, który rozpowszechnił się w okopach I wojny światowej?",
+    "answers": [
+      "Parka",
+      "Trencz",
+      "Bomberka",
+      "Ponczo"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa pochodzi od angielskiego „trench”, czyli okop."
+  },
+  {
+    "id": "fashion_m023",
+    "question": "Która polska firma jest właścicielem marek Reserved i Cropp?",
+    "answers": [
+      "CCC",
+      "LPP",
+      "Vistula",
+      "Pepco"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "LPP z Gdańska rozwija m.in. marki Reserved, Cropp, House, Mohito i Sinsay."
+  },
+  {
+    "id": "fashion_m024",
+    "question": "Jak nazwano przełomową kolekcję Christiana Diora z 1947 roku?",
+    "answers": [
+      "Belle Époque",
+      "Haute Couture",
+      "New Look",
+      "Art Déco"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kolekcja „New Look” z wciętą talią i szeroką spódnicą odmieniła powojenną modę."
+  },
+  {
+    "id": "fashion_m025",
+    "question": "Jak nazywa się ekskluzywne krawiectwo na miarę, na przykład w paryskich domach mody?",
+    "answers": [
+      "Prêt-à-porter",
+      "Fast fashion",
+      "Streetwear",
+      "Haute couture"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Haute couture to ręcznie szyte kreacje na zamówienie konkretnej klientki."
+  },
+  {
+    "id": "fashion_m026",
+    "question": "Co oznacza określenie „prêt-à-porter”?",
+    "answers": [
+      "Szycie na miarę",
+      "Moda uliczna",
+      "Odzież używana",
+      "Odzież gotowa do noszenia"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Prêt-à-porter to kolekcje szyte seryjnie w standardowych rozmiarach."
+  },
+  {
+    "id": "fashion_m027",
+    "question": "W którym mieście Guccio Gucci założył swoją firmę?",
+    "answers": [
+      "W Mediolanie",
+      "W Rzymie",
+      "W Wenecji",
+      "We Florencji"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Gucci zaczynał w 1921 roku od wyrobów skórzanych we Florencji."
+  },
+  {
+    "id": "fashion_m028",
+    "question": "Od nazwy jakiego francuskiego miasta pochodzi słowo „denim”?",
+    "answers": [
+      "Lyon",
+      "Marsylia",
+      "Nicea",
+      "Nîmes"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Denim” to skrót od „serge de Nîmes”, czyli tkaniny z Nîmes."
+  },
+  {
+    "id": "fashion_m029",
+    "question": "Jak nazywają się eleganckie męskie półbuty z zamkniętym sznurowaniem?",
+    "answers": [
+      "Derby",
+      "Mokasyny",
+      "Oksfordy",
+      "Sztyblety"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W oksfordach części ze sznurowaniem są wszyte pod przyszwę, dlatego sznurowanie jest zamknięte."
+  },
+  {
+    "id": "fashion_m030",
+    "question": "Jak inaczej nazywają się sztyblety, czyli botki z gumową wstawką po bokach?",
+    "answers": [
+      "Chelsea boots",
+      "Oksfordy",
+      "Glany",
+      "Trapery"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Chelsea boots spopularyzowali w latach 60. londyńscy muzycy, m.in. Beatlesi."
+  },
+  {
+    "id": "fashion_m031",
+    "question": "Z którego kraju wywodzi się wełniana tkanina tweed?",
+    "answers": [
+      "Ze Szkocji",
+      "Z Francji",
+      "Z Włoch",
+      "Z Holandii"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tweed tkano tradycyjnie w Szkocji, a słynny Harris Tweed pochodzi z Hebrydów."
+  },
+  {
+    "id": "fashion_m032",
+    "question": "Który projektant w 1966 roku pokazał damski smoking „Le Smoking”?",
+    "answers": [
+      "Christian Dior",
+      "Karl Lagerfeld",
+      "Yves Saint Laurent",
+      "Pierre Cardin"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Saint Laurent jako pierwszy przeniósł męski smoking do mody damskiej."
+  },
+  {
+    "id": "fashion_m033",
+    "question": "Który projektant od 1983 roku do śmierci był dyrektorem kreatywnym Chanel?",
+    "answers": [
+      "Karl Lagerfeld",
+      "Tom Ford",
+      "John Galliano",
+      "Marc Jacobs"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Karl Lagerfeld kierował artystycznie Chanel przez 36 lat."
+  },
+  {
+    "id": "fashion_m034",
+    "question": "Z jakiego rodzaju odzieży słynie polska marka Vistula?",
+    "answers": [
+      "Z bielizny",
+      "Z odzieży sportowej",
+      "Z garniturów męskich",
+      "Z obuwia"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Vistula od dziesięcioleci specjalizuje się w męskich garniturach i marynarkach."
+  },
+  {
+    "id": "fashion_m035",
+    "question": "W jakim mieście urodziła się Helena Rubinstein, twórczyni kosmetycznego imperium?",
+    "answers": [
+      "W Warszawie",
+      "W Krakowie",
+      "W Łodzi",
+      "We Lwowie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Helena Rubinstein urodziła się na krakowskim Kazimierzu w 1872 roku."
+  },
+  {
+    "id": "fashion_m036",
+    "question": "Jak potocznie nazywa się w Polsce fryzurę krótką z przodu i długą z tyłu?",
+    "answers": [
+      "Czeski piłkarz",
+      "Irokez",
+      "Na jeża",
+      "Na pazia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Taka fryzura (ang. mullet) była popularna wśród piłkarzy w latach 80."
+  },
+  {
+    "id": "fashion_m037",
+    "question": "Która królowa spopularyzowała białą suknię ślubną, biorąc ślub w 1840 roku?",
+    "answers": [
+      "Elżbieta I",
+      "Wiktoria",
+      "Maria Antonina",
+      "Katarzyna Wielka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Królowa Wiktoria wystąpiła na ślubie z Albertem w białej sukni, co szybko stało się modą."
+  },
+  {
+    "id": "fashion_m038",
+    "question": "Od produkcji czego zaczynał Louis Vuitton w XIX wieku?",
+    "answers": [
+      "Butów",
+      "Perfum",
+      "Zegarków",
+      "Kufrów podróżnych"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Louis Vuitton otworzył w 1854 roku w Paryżu pracownię kufrów podróżnych."
+  },
+  {
+    "id": "fashion_m039",
+    "question": "Jak nazywa się najsłynniejszy model trampek marki Converse?",
+    "answers": [
+      "Chuck Taylor All Star",
+      "Air Max",
+      "Stan Smith",
+      "Old Skool"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Model nosi nazwisko koszykarza Chucka Taylora, który promował te buty."
+  },
+  {
+    "id": "fashion_m040",
+    "question": "Jak nazywa się wzór z drobnej, łamanej kratki przypominającej psie zęby?",
+    "answers": [
+      "Pepitka",
+      "Jodełka",
+      "Paisley",
+      "Prążek"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pepitka, po francusku pied-de-poule, to klasyczny wzór tkanin na płaszcze i żakiety."
+  },
+  {
+    "id": "fashion_m041",
+    "question": "Która słynna torebka Hermès nosi nazwisko księżnej Monako, wcześniej aktorki?",
+    "answers": [
+      "Birkin",
+      "Kelly",
+      "Constance",
+      "Evelyne"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Torebkę nazwano na cześć Grace Kelly, która zasłaniała nią brzuch przed fotografami."
+  },
+  {
+    "id": "fashion_m042",
+    "question": "W jakim mieście ma siedzibę obuwnicza grupa CCC?",
+    "answers": [
+      "W Radomiu",
+      "W Polkowicach",
+      "W Nowym Targu",
+      "W Krakowie"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "CCC powstało i ma swoją centralę w Polkowicach na Dolnym Śląsku."
+  },
+  {
+    "id": "fashion_m043",
+    "question": "Jak nazywało się państwowe przedsiębiorstwo modowe PRL, kierowane przez Jadwigę Grabowską?",
+    "answers": [
+      "Cepelia",
+      "Pewex",
+      "Społem",
+      "Moda Polska"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Moda Polska, założona w 1958 roku, wyznaczała trendy w PRL."
+  },
+  {
+    "id": "fashion_m044",
+    "question": "Z jakiego miasta pochodzi polska marka kosmetyków kolorowych Inglot?",
+    "answers": [
+      "Z Rzeszowa",
+      "Z Lublina",
+      "Z Przemyśla",
+      "Z Krakowa"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Wojciech Inglot założył firmę w Przemyślu w 1983 roku."
+  },
+  {
+    "id": "fashion_m045",
+    "question": "Który twórca kosmetyków, kojarzony z Hollywood, urodził się w Zduńskiej Woli?",
+    "answers": [
+      "Max Factor",
+      "Helena Rubinstein",
+      "Estée Lauder",
+      "Elizabeth Arden"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Max Factor, czyli Maksymilian Faktorowicz, urodził się w Zduńskiej Woli."
+  },
+  {
+    "id": "fashion_m046",
+    "question": "Z którego miasta pochodziły najsłynniejsze pasy kontuszowe?",
+    "answers": [
+      "Z Łowicza",
+      "Ze Słucka",
+      "Z Torunia",
+      "Z Sandomierza"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pasy słuckie z manufaktury Radziwiłłów uchodziły za najwspanialsze."
+  },
+  {
+    "id": "fashion_m047",
+    "question": "Jak nazywa się długa szata szlachecka noszona pod kontuszem?",
+    "answers": [
+      "Delia",
+      "Kubrak",
+      "Żupan",
+      "Czamara"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Żupan był spodnią szatą, na którą zakładano kontusz z rozciętymi rękawami."
+  },
+  {
+    "id": "fashion_m048",
+    "question": "W jakim kraju tradycyjnie wyplata się kapelusze zwane panamami?",
+    "answers": [
+      "W Panamie",
+      "W Meksyku",
+      "W Ekwadorze",
+      "W Kolumbii"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Panamy pochodzą z Ekwadoru, a nazwę zawdzięczają sprzedaży przez Panamę."
+  },
+  {
+    "id": "fashion_m049",
+    "question": "Od produkcji czego zaczynał w 1837 roku dom mody Hermès?",
+    "answers": [
+      "Kufrów podróżnych",
+      "Uprzęży dla koni",
+      "Kapeluszy",
+      "Rękawiczek"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Thierry Hermès otworzył w Paryżu warsztat uprzęży, dlatego logo przedstawia powóz."
+  },
+  {
+    "id": "fashion_m050",
+    "question": "Jak nazywa się wzór w kształcie łezki z zakrzywionym końcem, wywodzący się z Persji?",
+    "answers": [
+      "Paisley",
+      "Pepitka",
+      "Jodełka",
+      "Argyle"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Nazwa pochodzi od szkockiego miasta Paisley, gdzie masowo tkano szale z tym motywem."
+  },
+  {
+    "id": "plant_m001",
+    "question": "Czy grzyby należą do królestwa roślin?",
+    "answers": [
+      "Tak, to rośliny zarodnikowe",
+      "Nie, tworzą osobne królestwo",
+      "Tak, to odmiana mchów",
+      "Nie, należą do zwierząt"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Grzyby nie przeprowadzają fotosyntezy i tworzą odrębne królestwo organizmów."
+  },
+  {
+    "id": "plant_m002",
+    "question": "Pomidor w kuchni uchodzi za warzywo. A czym jest dla botanika?",
+    "answers": [
+      "Łodygą",
+      "Liściem",
+      "Korzeniem",
+      "Owocem"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pomidor rozwija się z zalążni kwiatu i zawiera nasiona, więc jest owocem."
+  },
+  {
+    "id": "plant_m003",
+    "question": "Którą częścią rośliny jest jadalna marchew?",
+    "answers": [
+      "Łodygą",
+      "Liściem",
+      "Owocem",
+      "Korzeniem"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Jemy zgrubiały korzeń spichrzowy marchwi."
+  },
+  {
+    "id": "plant_m004",
+    "question": "Jaki kwiat jest tradycyjnym symbolem miłości?",
+    "answers": [
+      "Biała lilia",
+      "Żółty tulipan",
+      "Chryzantema",
+      "Czerwona róża"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Czerwona róża od wieków symbolizuje miłość i namiętność."
+  },
+  {
+    "id": "plant_m005",
+    "question": "Jakie kwiaty w Polsce najczęściej stawia się na grobach we Wszystkich Świętych?",
+    "answers": [
+      "Chryzantemy",
+      "Tulipany",
+      "Słoneczniki",
+      "Bratki"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Chryzantemy kwitną jesienią, dlatego zdominowały listopadowe cmentarze."
+  },
+  {
+    "id": "plant_m006",
+    "question": "Z którym krajem najbardziej kojarzone są tulipany?",
+    "answers": [
+      "Z Belgią",
+      "Z Holandią",
+      "Z Danią",
+      "Z Francją"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W XVII wieku Holandię ogarnęła „tulipomania”, a uprawa tulipanów do dziś jest jej wizytówką."
+  },
+  {
+    "id": "plant_m007",
+    "question": "Jaki kwiat kojarzy się z bitwą pod Monte Cassino?",
+    "answers": [
+      "Róża",
+      "Bratek",
+      "Mak",
+      "Goździk"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pieśń „Czerwone maki na Monte Cassino” upamiętnia polskich żołnierzy z 1944 roku."
+  },
+  {
+    "id": "plant_m008",
+    "question": "Jakie drzewo jest najliczniejsze w polskich lasach?",
+    "answers": [
+      "Dąb",
+      "Sosna",
+      "Buk",
+      "Brzoza"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sosna zwyczajna porasta ponad połowę powierzchni lasów w Polsce."
+  },
+  {
+    "id": "plant_m009",
+    "question": "Które drzewo ma białą korę z czarnymi przebarwieniami?",
+    "answers": [
+      "Buk",
+      "Brzoza",
+      "Lipa",
+      "Klon"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Biała kora brzozy zawiera betulinę, która nadaje jej charakterystyczny kolor."
+  },
+  {
+    "id": "plant_m010",
+    "question": "Na jakim krzewie rosną orzechy laskowe?",
+    "answers": [
+      "Na leszczynie",
+      "Na kalinie",
+      "Na głogu",
+      "Na bzie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Orzechy laskowe to owoce leszczyny pospolitej."
+  },
+  {
+    "id": "plant_m011",
+    "question": "Kwiaty którego drzewa zbiera się latem na herbatkę na przeziębienie?",
+    "answers": [
+      "Klonu",
+      "Kasztanowca",
+      "Jesionu",
+      "Lipy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Napar z kwiatów lipy działa napotnie i od dawna jest domowym lekiem na przeziębienie."
+  },
+  {
+    "id": "plant_m012",
+    "question": "Która roślina doniczkowa często ma kolce i magazynuje wodę w łodydze?",
+    "answers": [
+      "Paproć",
+      "Kaktus",
+      "Fikus",
+      "Skrzydłokwiat"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kaktusy to sukulenty, a ich kolce to przekształcone liście."
+  },
+  {
+    "id": "plant_m013",
+    "question": "Jak nazywa się japońska sztuka hodowli miniaturowych drzewek?",
+    "answers": [
+      "Bonsai",
+      "Ikebana",
+      "Origami",
+      "Kintsugi"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Bonsai polega na formowaniu drzewek w małych naczyniach przez przycinanie korzeni i gałęzi."
+  },
+  {
+    "id": "plant_m014",
+    "question": "Jaki gaz rośliny pobierają z powietrza podczas fotosyntezy?",
+    "answers": [
+      "Tlen",
+      "Azot",
+      "Wodór",
+      "Dwutlenek węgla"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rośliny wykorzystują dwutlenek węgla i wodę do produkcji cukrów, uwalniając tlen."
+  },
+  {
+    "id": "plant_m015",
+    "question": "Z ziaren jakiej rośliny robi się popcorn?",
+    "answers": [
+      "Ryżu",
+      "Pszenicy",
+      "Owsa",
+      "Kukurydzy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Woda w ziarnie kukurydzy zamienia się w parę i rozsadza je podczas prażenia."
+  },
+  {
+    "id": "plant_m016",
+    "question": "Która dzika roślina parzy przy dotknięciu?",
+    "answers": [
+      "Mięta",
+      "Szczaw",
+      "Pokrzywa",
+      "Babka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Włoski parzące pokrzywy wstrzykują pod skórę m.in. kwas mrówkowy i histaminę."
+  },
+  {
+    "id": "plant_m017",
+    "question": "Żel z liści jakiej rośliny stosuje się na oparzenia słoneczne?",
+    "answers": [
+      "Kaktusa",
+      "Fikusa",
+      "Aloesu",
+      "Paproci"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Aloes zwyczajny ma mięsiste liście wypełnione kojącym żelem."
+  },
+  {
+    "id": "plant_m018",
+    "question": "Jak nazywa się roślina, której puszyste owocostany nazywamy dmuchawcami?",
+    "answers": [
+      "Mniszek lekarski",
+      "Rumianek",
+      "Koniczyna",
+      "Krwawnik"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Owoce mniszka z puchem rozsiewa wiatr, gdy dmuchniemy w kulisty owocostan."
+  },
+  {
+    "id": "plant_m019",
+    "question": "Ile listków ma koniczyna, która według przesądu przynosi szczęście?",
+    "answers": [
+      "Trzy",
+      "Pięć",
+      "Sześć",
+      "Cztery"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Koniczyna zwykle ma trzy listki, a czterolistna jest rzadką mutacją."
+  },
+  {
+    "id": "plant_m020",
+    "question": "Która popularna roślina doniczkowa ma duże liście z charakterystycznymi dziurami?",
+    "answers": [
+      "Monstera",
+      "Sansewieria",
+      "Fikus benjamina",
+      "Zamiokulkas"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Dojrzałe liście monstery mają naturalne otwory i rozcięcia."
+  },
+  {
+    "id": "plant_m021",
+    "question": "Czym botanicznie jest ziemniak, który jemy?",
+    "answers": [
+      "Korzeniem",
+      "Owocem",
+      "Cebulą",
+      "Bulwą, czyli zgrubiałą łodygą"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Bulwa ziemniaka to podziemny pęd, a jej „oczka” to pąki."
+  },
+  {
+    "id": "plant_m022",
+    "question": "Jaką część rabarbaru jemy?",
+    "answers": [
+      "Korzeń",
+      "Kwiaty",
+      "Ogonki liściowe",
+      "Owoce"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Jadalne są ogonki liściowe rabarbaru, a jego blaszki liściowe zawierają dużo kwasu szczawiowego."
+  },
+  {
+    "id": "plant_m023",
+    "question": "Czym są małe „pestki” na powierzchni truskawki?",
+    "answers": [
+      "Pyłkiem kwiatowym",
+      "Właściwymi owocami",
+      "Zarodnikami",
+      "Zaschniętymi włoskami"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Truskawka to owoc rzekomy, a jej prawdziwe owoce to drobne orzeszki na powierzchni."
+  },
+  {
+    "id": "plant_m024",
+    "question": "Który z tych „orzechów” botanicznie jest rośliną strączkową?",
+    "answers": [
+      "Orzeszek ziemny",
+      "Orzech laskowy",
+      "Kasztan jadalny",
+      "Żołądź"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Orzeszki ziemne (arachidy) to nasiona rośliny z rodziny bobowatych, jak groch i fasola."
+  },
+  {
+    "id": "plant_m025",
+    "question": "Która trująca roślina ma czarne, błyszczące jagody i zawiera atropinę?",
+    "answers": [
+      "Aronia",
+      "Pokrzyk wilcza jagoda",
+      "Borówka czernica",
+      "Jeżyna"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Atropina z pokrzyku rozszerza źrenice, dlatego roślinę nazwano też belladonną."
+  },
+  {
+    "id": "plant_m026",
+    "question": "Który pachnący, majowy kwiat leśny jest silnie trujący?",
+    "answers": [
+      "Fiołek",
+      "Stokrotka",
+      "Konwalia",
+      "Niezapominajka"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Konwalia zawiera glikozydy nasercowe trujące dla ludzi i zwierząt."
+  },
+  {
+    "id": "plant_m027",
+    "question": "Z kory jakiego drzewa pozyskuje się salicynę, przodka aspiryny?",
+    "answers": [
+      "Wierzby",
+      "Dębu",
+      "Brzozy",
+      "Lipy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Salicyna z kory wierzby była punktem wyjścia do syntezy kwasu acetylosalicylowego."
+  },
+  {
+    "id": "plant_m028",
+    "question": "Z jakiej części rośliny pochodzą goździki używane jako przyprawa?",
+    "answers": [
+      "Z pąków kwiatowych",
+      "Z nasion",
+      "Z korzeni",
+      "Z kory"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Goździki to suszone pąki kwiatowe goździkowca."
+  },
+  {
+    "id": "plant_m029",
+    "question": "Jaką częścią rośliny jest imbir używany w kuchni?",
+    "answers": [
+      "Korą",
+      "Owocem",
+      "Kłączem",
+      "Kwiatem"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Imbir to podziemne kłącze, czyli zgrubiała łodyga rośliny."
+  },
+  {
+    "id": "plant_m030",
+    "question": "Jak nazywa się roślina mięsożerna, której liście zatrzaskują się jak pułapka?",
+    "answers": [
+      "Rosiczka",
+      "Dzbanecznik",
+      "Muchołówka",
+      "Tłustosz"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Muchołówka amerykańska zamyka liście, gdy owad dotknie włosków czuciowych."
+  },
+  {
+    "id": "plant_m031",
+    "question": "Jaką roślinę doniczkową nazywa się potocznie „językiem teściowej”?",
+    "answers": [
+      "Monsterę",
+      "Zamiokulkasa",
+      "Sansewierię",
+      "Fikusa"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sansewieria ma długie, sztywne i ostro zakończone liście, stąd żartobliwa nazwa."
+  },
+  {
+    "id": "plant_m032",
+    "question": "Jak nazywa się kaktus kwitnący zimą, popularny w domach na Boże Narodzenie?",
+    "answers": [
+      "Grudnik",
+      "Opuncja",
+      "Aloes",
+      "Echeweria"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Grudnik (szlumbergera) kwitnie w okolicach grudnia, stąd jego nazwa."
+  },
+  {
+    "id": "plant_m033",
+    "question": "Jaki odczyn gleby lubią borówki amerykańskie i rododendrony?",
+    "answers": [
+      "Kwaśny",
+      "Zasadowy",
+      "Obojętny",
+      "Silnie zasolony"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Te rośliny wrzosowate najlepiej rosną w kwaśnej glebie, np. z dodatkiem torfu."
+  },
+  {
+    "id": "plant_m034",
+    "question": "Jak nazywa się zabieg łączenia odmiany szlachetnej z podkładką?",
+    "answers": [
+      "Szczepienie",
+      "Pikowanie",
+      "Ściółkowanie",
+      "Hartowanie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szczepienie pozwala połączyć cechy odmiany z odpornością korzeni podkładki."
+  },
+  {
+    "id": "plant_m035",
+    "question": "Które warzywo należy do tej samej rodziny co ziemniak?",
+    "answers": [
+      "Marchew",
+      "Pomidor",
+      "Burak",
+      "Kapusta"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pomidor i ziemniak należą do rodziny psiankowatych."
+  },
+  {
+    "id": "plant_m036",
+    "question": "Czym botanicznie są ziarna kawy?",
+    "answers": [
+      "Orzechami",
+      "Nasionami",
+      "Korzeniami",
+      "Pąkami"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ziarna kawy to nasiona z czerwonych owoców kawowca."
+  },
+  {
+    "id": "plant_m037",
+    "question": "Którą część chmielu wykorzystuje się do warzenia piwa?",
+    "answers": [
+      "Liście",
+      "Korzenie",
+      "Łodygi",
+      "Szyszki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szyszki chmielu, czyli żeńskie kwiatostany, nadają piwu goryczkę i aromat."
+  },
+  {
+    "id": "plant_m038",
+    "question": "Które polskie drzewo iglaste zrzuca igły na zimę?",
+    "answers": [
+      "Sosna",
+      "Świerk",
+      "Modrzew",
+      "Jodła"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Modrzew jako jedyny rodzimy iglak jesienią żółknie i gubi igły."
+  },
+  {
+    "id": "plant_m039",
+    "question": "Jakim drzewem jest słynny „Bartek” spod Kielc?",
+    "answers": [
+      "Lipą",
+      "Cisem",
+      "Bukiem",
+      "Dębem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dąb Bartek z Zagnańska to jedno z najsłynniejszych drzew pomnikowych w Polsce."
+  },
+  {
+    "id": "plant_m040",
+    "question": "Napar z jakiego ziela o białych płatkach i żółtym środku pije się na żołądek?",
+    "answers": [
+      "Z mniszka",
+      "Z rumianku",
+      "Ze stokrotki",
+      "Z jaskra"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Napar z rumianku działa rozkurczowo i przeciwzapalnie."
+  },
+  {
+    "id": "plant_m041",
+    "question": "Z kory jakiego drzewa pochodzi chinina, dawny lek na malarię?",
+    "answers": [
+      "Kawowca",
+      "Chinowca",
+      "Kakaowca",
+      "Cynamonowca"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Chininę wyodrębniono z kory południowoamerykańskiego chinowca."
+  },
+  {
+    "id": "plant_m042",
+    "question": "Z jakiej rośliny pochodzi lek nasercowy digoksyna?",
+    "answers": [
+      "Z maku",
+      "Z tojadu",
+      "Z naparstnicy",
+      "Z rumianku"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Digoksynę pozyskuje się z liści naparstnicy wełnistej."
+  },
+  {
+    "id": "plant_m043",
+    "question": "Czym botanicznie jest gałka muszkatołowa?",
+    "answers": [
+      "Korą",
+      "Korzeniem",
+      "Nasieniem",
+      "Pąkiem kwiatowym"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Gałka to nasienie muszkatołowca, a jego osnówka to inna przyprawa – kwiat muszkatołowy."
+  },
+  {
+    "id": "plant_m044",
+    "question": "Czym są kapary, dodawane do sosów i sałatek?",
+    "answers": [
+      "Pąkami kwiatowymi",
+      "Niedojrzałymi oliwkami",
+      "Nasionami",
+      "Młodymi pędami"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kapary to marynowane pąki kwiatowe krzewu kaparu ciernistego."
+  },
+  {
+    "id": "plant_m045",
+    "question": "Która palma wytwarza największe nasiona w świecie roślin?",
+    "answers": [
+      "Palma kokosowa",
+      "Palma daktylowa",
+      "Lodoicja seszelska",
+      "Palma olejowa"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Nasiona lodoicji, czyli kokosa seszelskiego, mogą ważyć ponad 15 kg."
+  },
+  {
+    "id": "plant_m046",
+    "question": "Która roślina mięsożerna rośnie dziko w Polsce i łapie owady lepkimi włoskami?",
+    "answers": [
+      "Muchołówka",
+      "Dzbanecznik",
+      "Kapturnica",
+      "Rosiczka"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Rosiczki rosną na polskich torfowiskach i są pod ochroną."
+  },
+  {
+    "id": "plant_m047",
+    "question": "Czym są czerwone „płatki” gwiazdy betlejemskiej?",
+    "answers": [
+      "Płatkami korony",
+      "Liśćmi przykwiatowymi",
+      "Owocami",
+      "Pręcikami"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Właściwe kwiaty poinsecji są drobne i żółte, a czerwone są otaczające je liście."
+  },
+  {
+    "id": "plant_m048",
+    "question": "Od jakiego jednego gatunku pochodzą brokuł, kalafior i kalarepa?",
+    "answers": [
+      "Rzodkiewki",
+      "Kapusty warzywnej",
+      "Sałaty",
+      "Szpinaku"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Te warzywa to odmiany jednego gatunku Brassica oleracea, czyli kapusty warzywnej."
+  },
+  {
+    "id": "plant_m049",
+    "question": "Która roślina wodna ma okrągłe liście tak duże, że mogą utrzymać małe dziecko?",
+    "answers": [
+      "Lotos orzechodajny",
+      "Grzybień biały",
+      "Rzęsa wodna",
+      "Wiktoria amazońska"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Liście wiktorii osiągają do 3 m średnicy i są wzmocnione siecią żeber od spodu."
+  },
+  {
+    "id": "plant_m050",
+    "question": "Które rodzime drzewo iglaste jest trujące niemal w całości, poza czerwoną osnówką nasion?",
+    "answers": [
+      "Cis",
+      "Jałowiec",
+      "Modrzew",
+      "Jodła"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Cis zawiera trujące taksyny w igłach i nasionach, a nietrująca jest tylko czerwona osnówka."
+  }
+]

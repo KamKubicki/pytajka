@@ -1,0 +1,782 @@
+[
+  {
+    "id": "geo_n001",
+    "question": "Ile województw ma Polska?",
+    "answers": [
+      "16",
+      "14",
+      "17",
+      "18"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Od reformy administracyjnej z 1999 roku Polska dzieli się na 16 województw."
+  },
+  {
+    "id": "geo_n002",
+    "question": "Który półwysep oddziela Zatokę Pucką od otwartego Bałtyku?",
+    "answers": [
+      "Rozewie",
+      "Hel",
+      "Mierzeja Wiślana",
+      "Wolin"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Półwysep Helski ma około 35 km długości i zamyka od północy Zatokę Pucką."
+  },
+  {
+    "id": "geo_n003",
+    "question": "Jak nazywa się najwyższy szczyt Karkonoszy i całych Sudetów?",
+    "answers": [
+      "Śnieżnik",
+      "Ślęża",
+      "Śnieżka",
+      "Szrenica"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Śnieżka (1603 m n.p.m.) leży na granicy polsko-czeskiej."
+  },
+  {
+    "id": "geo_n004",
+    "question": "Przez które z tych miast NIE przepływa Wisła?",
+    "answers": [
+      "Kraków",
+      "Toruń",
+      "Płock",
+      "Poznań"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Poznań leży nad Wartą, a nie nad Wisłą."
+  },
+  {
+    "id": "geo_n005",
+    "question": "Nad jaką rzeką leży Wrocław?",
+    "answers": [
+      "Odra",
+      "Warta",
+      "Wisła",
+      "Nysa Kłodzka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wrocław leży nad Odrą i jej licznymi odnogami, stąd nazywany jest miastem wysp i mostów."
+  },
+  {
+    "id": "geo_n006",
+    "question": "Z iloma państwami graniczy Polska?",
+    "answers": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sąsiedzi Polski to: Niemcy, Czechy, Słowacja, Ukraina, Białoruś, Litwa i Rosja."
+  },
+  {
+    "id": "geo_n007",
+    "question": "Który park narodowy słynie z żubrów i jednej z ostatnich pierwotnych puszcz nizinnych Europy?",
+    "answers": [
+      "Kampinoski",
+      "Wigierski",
+      "Białowieski",
+      "Roztoczański"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Białowieski Park Narodowy chroni Puszczę Białowieską, wpisaną na listę UNESCO."
+  },
+  {
+    "id": "geo_n008",
+    "question": "W jakich górach leży jezioro Morskie Oko?",
+    "answers": [
+      "Bieszczady",
+      "Karkonosze",
+      "Pieniny",
+      "Tatry"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Morskie Oko to największe jezioro w polskich Tatrach."
+  },
+  {
+    "id": "geo_n009",
+    "question": "Który region Polski nazywany jest Krainą Tysiąca Jezior?",
+    "answers": [
+      "Mazury",
+      "Kaszuby",
+      "Kujawy",
+      "Podlasie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pojezierze Mazurskie słynie z setek polodowcowych jezior, m.in. Śniardw i Mamr."
+  },
+  {
+    "id": "geo_n010",
+    "question": "Przełomem której rzeki odbywa się słynny spływ tratwami flisackimi w Pieninach?",
+    "answers": [
+      "Poprad",
+      "Dunajec",
+      "San",
+      "Raba"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Spływ Dunajcem przez przełom w Pieninach to jedna z najsłynniejszych atrakcji turystycznych Polski."
+  },
+  {
+    "id": "geo_n011",
+    "question": "Do której zatoki uchodzi Wisła?",
+    "answers": [
+      "Puckiej",
+      "Pomorskiej",
+      "Gdańskiej",
+      "Fińskiej"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wisła uchodzi do Zatoki Gdańskiej, części Morza Bałtyckiego."
+  },
+  {
+    "id": "geo_n012",
+    "question": "Które miasto leży u stóp Giewontu i nazywane jest zimową stolicą Polski?",
+    "answers": [
+      "Karpacz",
+      "Szczyrk",
+      "Krynica-Zdrój",
+      "Zakopane"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zakopane leży na Podhalu, u podnóża Tatr i Giewontu."
+  },
+  {
+    "id": "geo_n013",
+    "question": "Z którym państwem Polska ma najdłuższą granicę lądową?",
+    "answers": [
+      "Czechy",
+      "Niemcy",
+      "Słowacja",
+      "Ukraina"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Granica polsko-czeska liczy niemal 800 km i jest najdłuższą granicą Polski."
+  },
+  {
+    "id": "geo_n014",
+    "question": "Jaka jest największa wyspa należąca w całości do Polski?",
+    "answers": [
+      "Uznam",
+      "Wolin",
+      "Sobieszewska",
+      "Karsibór"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Uznam jest większy, ale większa jego część należy do Niemiec; Wolin jest w całości polski."
+  },
+  {
+    "id": "geo_n015",
+    "question": "Przez którą mierzeję w 2022 roku otwarto nowy kanał żeglugowy?",
+    "answers": [
+      "Helską",
+      "Łebską",
+      "Wiślaną",
+      "Kurońską"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Przekop Mierzei Wiślanej połączył Zalew Wiślany z Zatoką Gdańską."
+  },
+  {
+    "id": "geo_n016",
+    "question": "Jak nazywa się najwyższy szczyt polskich Beskidów?",
+    "answers": [
+      "Turbacz",
+      "Pilsko",
+      "Skrzyczne",
+      "Babia Góra"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Babia Góra (1725 m n.p.m.) w Beskidzie Żywieckim nazywana jest Królową Beskidów."
+  },
+  {
+    "id": "geo_n017",
+    "question": "Która rzeka wraz z Odrą wyznacza granicę Polski z Niemcami?",
+    "answers": [
+      "Nysa Łużycka",
+      "Nysa Kłodzka",
+      "Bóbr",
+      "Kwisa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Granica polsko-niemiecka biegnie wzdłuż Odry i Nysy Łużyckiej."
+  },
+  {
+    "id": "geo_n018",
+    "question": "Która rzeka tworzy dużą część wschodniej granicy Polski?",
+    "answers": [
+      "Narew",
+      "Bug",
+      "San",
+      "Niemen"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bug wyznacza fragment granicy Polski z Ukrainą i Białorusią."
+  },
+  {
+    "id": "geo_n019",
+    "question": "W której miejscowości znajduje się najdalej na północ wysunięty punkt Polski?",
+    "answers": [
+      "Hel",
+      "Łeba",
+      "Jastrzębia Góra",
+      "Władysławowo"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Punkt oznaczony obeliskiem Gwiazda Północy leży w Jastrzębiej Górze."
+  },
+  {
+    "id": "geo_n020",
+    "question": "Na którym kanale statki pokonują różnice poziomów, jadąc po lądzie na pochylniach?",
+    "answers": [
+      "Kanał Augustowski",
+      "Kanał Gliwicki",
+      "Kanał Bydgoski",
+      "Kanał Elbląski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pochylnie Kanału Elbląskiego przewożą statki na wózkach po szynach, przez trawę."
+  },
+  {
+    "id": "geo_n021",
+    "question": "W jakich górach znajduje się szczyt Trzy Korony?",
+    "answers": [
+      "Pieniny",
+      "Tatry",
+      "Gorce",
+      "Bieszczady"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Trzy Korony (982 m n.p.m.) to najbardziej znany szczyt Pienin, z widokiem na przełom Dunajca."
+  },
+  {
+    "id": "geo_n022",
+    "question": "Na której rzece utworzono Jezioro Solińskie?",
+    "answers": [
+      "Dunajec",
+      "San",
+      "Bug",
+      "Wisłok"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zapora w Solinie spiętrzyła wody Sanu, tworząc zbiornik o największej pojemności w Polsce."
+  },
+  {
+    "id": "geo_n023",
+    "question": "Na stokach której góry biorą początek źródła Wisły?",
+    "answers": [
+      "Babia Góra",
+      "Skrzyczne",
+      "Barania Góra",
+      "Równica"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wisła powstaje z połączenia Czarnej i Białej Wisełki wypływających z Baraniej Góry w Beskidzie Śląskim."
+  },
+  {
+    "id": "geo_n024",
+    "question": "W którym kraju bierze początek Odra?",
+    "answers": [
+      "Niemcy",
+      "Słowacja",
+      "Austria",
+      "Czechy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Odra wypływa w Górach Odrzańskich w Czechach."
+  },
+  {
+    "id": "geo_n025",
+    "question": "W którym regionie leży najniżej położony punkt Polski, poniżej poziomu morza?",
+    "answers": [
+      "Żuławy Wiślane",
+      "Kujawy",
+      "Kaszuby",
+      "Polesie"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Depresja w Raczkach Elbląskich na Żuławach Wiślanych leży ok. 2 m poniżej poziomu morza."
+  },
+  {
+    "id": "geo_n026",
+    "question": "Jak nazywa się najdłuższa i najgłębsza jaskinia w Polsce?",
+    "answers": [
+      "Jaskinia Raj",
+      "Jaskinia Wielka Śnieżna",
+      "Jaskinia Mroźna",
+      "Smocza Jama"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jaskinia Wielka Śnieżna w Tatrach Zachodnich ma ponad 20 km korytarzy."
+  },
+  {
+    "id": "geo_n027",
+    "question": "Na którym szczycie leży najdalej na południe wysunięty punkt Polski?",
+    "answers": [
+      "Tarnica",
+      "Halicz",
+      "Opołonek",
+      "Kopa Kondracka"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Najbardziej wysunięty na południe punkt Polski leży na zboczu Opołonka w Bieszczadach."
+  },
+  {
+    "id": "geo_n028",
+    "question": "Nad jaką rzeką stoi zamek w Malborku?",
+    "answers": [
+      "Wisła",
+      "Pasłęka",
+      "Drwęca",
+      "Nogat"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Nogat to ramię delty Wisły, nad którym Krzyżacy zbudowali swoją stolicę."
+  },
+  {
+    "id": "geo_n029",
+    "question": "Jak nazywa się najwyższy szczyt polskich Bieszczadów?",
+    "answers": [
+      "Tarnica",
+      "Halicz",
+      "Krzemień",
+      "Smerek"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Tarnica (1346 m n.p.m.) to najwyższy szczyt Bieszczadów w granicach Polski."
+  },
+  {
+    "id": "geo_n030",
+    "question": "Który park narodowy jest największy w Polsce?",
+    "answers": [
+      "Białowieski",
+      "Biebrzański",
+      "Kampinoski",
+      "Tatrzański"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Biebrzański Park Narodowy zajmuje blisko 600 km² bagien i torfowisk doliny Biebrzy."
+  },
+  {
+    "id": "geo_world_n001",
+    "question": "Który szczyt jest najwyższym w Afryce?",
+    "answers": [
+      "Mount Kenya",
+      "Ruwenzori",
+      "Kilimandżaro",
+      "Atlas"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kilimandżaro (5895 m n.p.m.) to drzemiący wulkan w Tanzanii."
+  },
+  {
+    "id": "geo_world_n002",
+    "question": "Jaka jest największa wyspa na świecie?",
+    "answers": [
+      "Nowa Gwinea",
+      "Borneo",
+      "Madagaskar",
+      "Grenlandia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Grenlandia to największa wyspa świata; Australię uznaje się za kontynent."
+  },
+  {
+    "id": "geo_world_n003",
+    "question": "Które państwo jest najmniejsze na świecie?",
+    "answers": [
+      "Watykan",
+      "Monako",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Watykan ma powierzchnię zaledwie ok. 0,44 km²."
+  },
+  {
+    "id": "geo_world_n004",
+    "question": "Jak nazywa się najgłębsze miejsce w oceanach?",
+    "answers": [
+      "Rów Atakamski",
+      "Rów Mariański",
+      "Rów Kurylski",
+      "Rów Puerto Rico"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Głębia Challengera w Rowie Mariańskim ma blisko 11 km głębokości."
+  },
+  {
+    "id": "geo_world_n005",
+    "question": "Flaga którego państwa ma czerwony liść klonu?",
+    "answers": [
+      "Szwajcarii",
+      "Austrii",
+      "Kanady",
+      "Japonii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Liść klonu to narodowy symbol Kanady."
+  },
+  {
+    "id": "geo_world_n006",
+    "question": "Na granicy których państw leży wodospad Niagara?",
+    "answers": [
+      "USA i Meksyku",
+      "Kanady i Grenlandii",
+      "Brazylii i Argentyny",
+      "USA i Kanady"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Niagara płynie między jeziorami Erie i Ontario, na granicy USA i Kanady."
+  },
+  {
+    "id": "geo_world_n007",
+    "question": "Które państwo rozciąga się wąskim, długim pasem między Andami a Pacyfikiem?",
+    "answers": [
+      "Chile",
+      "Peru",
+      "Argentyna",
+      "Ekwador"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Chile ma ponad 4000 km długości, a średnio tylko ok. 180 km szerokości."
+  },
+  {
+    "id": "geo_world_n008",
+    "question": "Który kraj nazywany jest krajem tysiąca jezior?",
+    "answers": [
+      "Szwecja",
+      "Finlandia",
+      "Norwegia",
+      "Kanada"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Finlandia ma blisko 190 tysięcy jezior."
+  },
+  {
+    "id": "geo_world_n009",
+    "question": "Które dwa oceany łączy Kanał Panamski?",
+    "answers": [
+      "Atlantycki i Indyjski",
+      "Spokojny i Indyjski",
+      "Atlantycki i Spokojny",
+      "Arktyczny i Atlantycki"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kanał Panamski przecina Przesmyk Panamski i skraca drogę morską między Atlantykiem a Pacyfikiem."
+  },
+  {
+    "id": "geo_world_n010",
+    "question": "Które miasto leży na dwóch kontynentach, po obu stronach Bosforu?",
+    "answers": [
+      "Ateny",
+      "Kair",
+      "Ankara",
+      "Stambuł"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Stambuł leży jednocześnie w Europie i w Azji."
+  },
+  {
+    "id": "geo_world_n011",
+    "question": "U wybrzeży którego państwa leży Wielka Rafa Koralowa?",
+    "answers": [
+      "Australii",
+      "Indonezji",
+      "Filipin",
+      "Nowej Zelandii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wielka Rafa Koralowa ciągnie się wzdłuż wybrzeża Queenslandu w Australii."
+  },
+  {
+    "id": "geo_world_n012",
+    "question": "W którym kraju znajdują się ruiny Machu Picchu?",
+    "answers": [
+      "Meksyk",
+      "Peru",
+      "Boliwia",
+      "Kolumbia"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Machu Picchu to miasto Inków położone wysoko w peruwiańskich Andach."
+  },
+  {
+    "id": "geo_world_n013",
+    "question": "Jak nazywa się najwyższy szczyt Ameryki Południowej?",
+    "answers": [
+      "Chimborazo",
+      "Huascarán",
+      "Aconcagua",
+      "Ojos del Salado"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Aconcagua (ok. 6961 m n.p.m.) leży w argentyńskich Andach."
+  },
+  {
+    "id": "geo_world_n014",
+    "question": "Flaga którego państwa przedstawia zielony cedr?",
+    "answers": [
+      "Cypru",
+      "Izraela",
+      "Syrii",
+      "Libanu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Cedr libański to symbol Libanu umieszczony na środku jego flagi."
+  },
+  {
+    "id": "geo_world_n015",
+    "question": "Flaga którego państwa jako jedyna nie jest prostokątna?",
+    "answers": [
+      "Nepalu",
+      "Bhutanu",
+      "Bangladeszu",
+      "Sri Lanki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Flaga Nepalu składa się z dwóch nałożonych na siebie trójkątów."
+  },
+  {
+    "id": "geo_world_n016",
+    "question": "Którego państwa flaga, obok flagi Watykanu, jest kwadratowa?",
+    "answers": [
+      "Danii",
+      "Szwajcarii",
+      "Austrii",
+      "Monako"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Flagi Szwajcarii i Watykanu to jedyne kwadratowe flagi państwowe."
+  },
+  {
+    "id": "geo_world_n017",
+    "question": "Brzeg którego akwenu jest najniżej położonym miejscem na lądzie?",
+    "answers": [
+      "Morza Kaspijskiego",
+      "Jeziora Asal",
+      "Morza Martwego",
+      "Morza Czerwonego"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Brzeg Morza Martwego leży ponad 400 m poniżej poziomu morza."
+  },
+  {
+    "id": "geo_world_n018",
+    "question": "W którym kraju znajduje się Salto Ángel, najwyższy wodospad świata?",
+    "answers": [
+      "Brazylia",
+      "Kolumbia",
+      "Gujana",
+      "Wenezuela"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Salto Ángel ma prawie 1000 m wysokości i spada z płaskowyżu Auyán-tepui."
+  },
+  {
+    "id": "geo_world_n019",
+    "question": "Z którego kraju pochodzi słowo „gejzer”?",
+    "answers": [
+      "Islandii",
+      "Nowej Zelandii",
+      "Norwegii",
+      "USA"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa pochodzi od gejzeru Geysir w południowo-zachodniej Islandii."
+  },
+  {
+    "id": "geo_world_n020",
+    "question": "Jaka jest najdłuższa rzeka Europy?",
+    "answers": [
+      "Dunaj",
+      "Wołga",
+      "Dniepr",
+      "Ren"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Wołga ma ok. 3500 km długości i uchodzi do Morza Kaspijskiego."
+  },
+  {
+    "id": "geo_world_n021",
+    "question": "Jakie jest największe jezioro świata pod względem powierzchni?",
+    "answers": [
+      "Jezioro Górne",
+      "Jezioro Wiktorii",
+      "Morze Kaspijskie",
+      "Bajkał"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mimo nazwy Morze Kaspijskie jest bezodpływowym jeziorem."
+  },
+  {
+    "id": "geo_world_n022",
+    "question": "Na granicy których państw leży Mount Everest?",
+    "answers": [
+      "Nepalu i Indii",
+      "Indii i Chin",
+      "Bhutanu i Chin",
+      "Nepalu i Chin"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szczyt Mount Everestu leży na granicy Nepalu i Tybetu (Chiny)."
+  },
+  {
+    "id": "geo_world_n023",
+    "question": "Które z tych państw Ameryki Południowej nie ma dostępu do morza?",
+    "answers": [
+      "Paragwaj",
+      "Urugwaj",
+      "Ekwador",
+      "Peru"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ameryka Południowa ma dwa państwa śródlądowe: Paragwaj i Boliwię."
+  },
+  {
+    "id": "geo_world_n024",
+    "question": "Najwyższy szczyt kontynentalnej Australii nazwano na cześć którego Polaka?",
+    "answers": [
+      "Kazimierza Pułaskiego",
+      "Tadeusza Kościuszki",
+      "Pawła Edmunda Strzeleckiego",
+      "Mikołaja Kopernika"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Górę Kościuszki nazwał tak polski podróżnik Paweł Edmund Strzelecki."
+  },
+  {
+    "id": "geo_world_n025",
+    "question": "Które państwo jest w całości otoczone przez Republikę Południowej Afryki?",
+    "answers": [
+      "Eswatini",
+      "Botswana",
+      "Lesotho",
+      "Namibia"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Lesotho to enklawa położona w całości wewnątrz RPA."
+  },
+  {
+    "id": "geo_world_n026",
+    "question": "Jak nazywa się jedyne morze bez żadnych brzegów lądowych?",
+    "answers": [
+      "Morze Weddella",
+      "Morze Rossa",
+      "Morze Labradorskie",
+      "Morze Sargassowe"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Morze Sargassowe na Atlantyku wyznaczają wyłącznie prądy morskie."
+  },
+  {
+    "id": "geo_world_n027",
+    "question": "Przez ile stolic europejskich państw przepływa Dunaj?",
+    "answers": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dunaj przepływa przez Wiedeń, Bratysławę, Budapeszt i Belgrad."
+  },
+  {
+    "id": "geo_world_n028",
+    "question": "Jakie jest największe słodkowodne jezioro świata pod względem powierzchni?",
+    "answers": [
+      "Jezioro Wiktorii",
+      "Jezioro Górne",
+      "Bajkał",
+      "Jezioro Michigan"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jezioro Górne w Ameryce Północnej ma ponad 82 tys. km²."
+  },
+  {
+    "id": "geo_world_n029",
+    "question": "Nad którą rzeką leży Bagdad?",
+    "answers": [
+      "Eufrat",
+      "Jordan",
+      "Tygrys",
+      "Nil"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bagdad, stolica Iraku, leży nad Tygrysem."
+  },
+  {
+    "id": "geo_world_n030",
+    "question": "Które państwo europejskie jest podwójnie śródlądowe, czyli otoczone wyłącznie krajami bez dostępu do morza?",
+    "answers": [
+      "Luksemburg",
+      "Andora",
+      "Szwajcaria",
+      "Liechtenstein"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Liechtenstein graniczy tylko ze Szwajcarią i Austrią, które również nie mają dostępu do morza."
+  }
+]

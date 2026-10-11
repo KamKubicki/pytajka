@@ -1,32 +1,32 @@
 [
   {
     "id": "nat_001",
-    "question": "Które zwierzę może latać do tyłu?",
-    "answers": ["Nietoperz", "Koliber", "Ważka", "Motyl"],
-    "correct": 1,
+    "question": "Który ptak potrafi latać do tyłu?",
+    "answers": ["Wróbel", "Orzeł", "Jaskółka", "Koliber"],
+    "correct": 3,
     "difficulty": "medium",
-    "explanation": "Koliber jest jedynym ptakiem, który potrafi latać do tyłu dzięki unikalnej budowie skrzydeł."
+    "explanation": "Kolibry dzięki wyjątkowej budowie stawu barkowego potrafią zawisać w powietrzu i latać do tyłu."
   },
   {
     "id": "nat_002",
-    "question": "Które zwierzę ma najdłuższą szyję?",
-    "answers": ["Słoń", "Żyrafa", "Struś", "Lama"],
-    "correct": 1,
+    "question": "Które zwierzę lądowe ma najdłuższą szyję?",
+    "answers": ["Lama", "Słoń", "Żyrafa", "Struś"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Żyrafa ma najdłuższą szyję ze wszystkich zwierząt, może mieć nawet 2 metry długości."
   },
   {
     "id": "nat_003",
-    "question": "Które drzewo żyje najdłużej?",
-    "answers": ["Dąb", "Sosna", "Sekwoja", "Baobab"],
-    "correct": 2,
-    "difficulty": "medium",
-    "explanation": "Sekwoje gigantyczne mogą żyć ponad 3000 lat i są jednymi z najdłużej żyjących drzew."
+    "question": "Które drzewo jest rekordzistą długowieczności (najstarsze okazy mają ok. 4800 lat)?",
+    "answers": ["Sosna długowieczna", "Dąb szypułkowy", "Lipa drobnolistna", "Baobab"],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Sosna długowieczna (Pinus longaeva) z Kalifornii – najstarszy znany okaz, „Matuzalem”, ma ok. 4800 lat."
   },
   {
     "id": "nat_004",
-    "question": "Jak nazywa się największe zwierzę na Ziemi?",
-    "answers": ["Słoń afrykański", "Płetwal błękitny", "Żyrafa", "Nosorożec"],
+    "question": "Jak nazywa się największe zwierzę żyjące na Ziemi?",
+    "answers": ["Nosorożec", "Płetwal błękitny", "Słoń afrykański", "Żyrafa"],
     "correct": 1,
     "difficulty": "easy",
     "explanation": "Płetwal błękitny to największe zwierzę na Ziemi, może mieć do 30 metrów długości."
@@ -40,18 +40,10 @@
     "explanation": "Ośmiornica ma 3 serca - dwa pompują krew do skrzeli, a jedno do reszty ciała."
   },
   {
-    "id": "nat_006",
-    "question": "Które zwierzę nigdy nie śpi?",
-    "answers": ["Delfin", "Rekin", "Żaba ropucha", "Żadne z powyższych"],
-    "correct": 3,
-    "difficulty": "hard",
-    "explanation": "Wszystkie zwierzęta w jakiejś formie odpoczywają lub śpią, choć niektóre robią to w nietypowy sposób."
-  },
-  {
     "id": "nat_007",
     "question": "Jak nazywa się najszybsze zwierzę na lądzie?",
-    "answers": ["Gepard", "Antylopa", "Koń", "Struś"],
-    "correct": 0,
+    "answers": ["Struś", "Koń", "Antylopa", "Gepard"],
+    "correct": 3,
     "difficulty": "easy",
     "explanation": "Gepard może osiągnąć prędkość do 120 km/h i jest najszybszym zwierzętem lądowym."
   },
@@ -65,113 +57,105 @@
   },
   {
     "id": "nat_009",
-    "question": "Które zwierzę może zmieniać kolor?",
-    "answers": ["Iguana", "Kameleon", "Jaszczurka", "Salamandra"],
-    "correct": 1,
+    "question": "Które z tych zwierząt słynie ze zmiany koloru skóry?",
+    "answers": ["Żółw", "Salamandra", "Kameleon", "Krokodyl"],
+    "correct": 2,
     "difficulty": "easy",
-    "explanation": "Kameleon potrafi zmieniać kolor skóry w zależności od nastroju i otoczenia."
+    "explanation": "Kameleon zmienia barwę skóry dzięki specjalnym komórkom (irydoforom) – głównie w reakcji na emocje i temperaturę."
   },
   {
     "id": "nat_010",
-    "question": "Jak długo może żyć żółw?",
-    "answers": ["50 lat", "100 lat", "200 lat", "300+ lat"],
-    "correct": 3,
+    "question": "Ile lat mogą żyć największe żółwie lądowe (np. olbrzymie z Seszeli)?",
+    "answers": ["Do 20 lat", "Do 50 lat", "Ponad 150 lat", "Ponad 500 lat"],
+    "correct": 2,
     "difficulty": "medium",
-    "explanation": "Niektóre gatunki żółwi mogą żyć ponad 300 lat, są to jedne z najdłużej żyjących zwierząt."
+    "explanation": "Żółwie olbrzymie żyją ponad 150 lat – żółw Jonathan z Wyspy Świętej Heleny urodził się ok. 1832 r."
   },
   {
     "id": "food_001",
     "question": "Z jakiego kraju pochodzi pizza?",
-    "answers": ["Francja", "Hiszpania", "Włochy", "Grecja"],
-    "correct": 2,
+    "answers": ["Hiszpania", "Włochy", "Grecja", "Francja"],
+    "correct": 1,
     "difficulty": "easy",
     "explanation": "Pizza pochodzi z Włoch, konkretnie z Neapolu."
   },
   {
     "id": "food_002",
-    "question": "Które warzywo ma najwięcej witaminy C?",
-    "answers": ["Pomarańcza", "Papryka", "Cytryna", "Brokuły"],
-    "correct": 1,
+    "question": "Który z tych produktów zawiera najwięcej witaminy C (w 100 g)?",
+    "answers": ["Czerwona papryka", "Pomarańcza", "Cytryna", "Jabłko"],
+    "correct": 0,
     "difficulty": "medium",
-    "explanation": "Papryka czerwona zawiera więcej witaminy C niż cytrusy."
+    "explanation": "Czerwona papryka ma ok. 140 mg witaminy C w 100 g – mniej więcej 2,5 razy więcej niż pomarańcza czy cytryna."
   },
   {
     "id": "food_003",
     "question": "Z czego robi się guacamole?",
-    "answers": ["Awokado", "Pomidor", "Ogórek", "Papryka"],
-    "correct": 0,
+    "answers": ["Ogórek", "Awokado", "Papryka", "Pomidor"],
+    "correct": 1,
     "difficulty": "easy",
     "explanation": "Guacamole to meksykańska pasta przygotowana głównie z awokado."
   },
   {
     "id": "food_004",
     "question": "Który kraj jest największym producentem kawy?",
-    "answers": ["Kolumbia", "Brazylia", "Wietnam", "Etiopia"],
-    "correct": 1,
+    "answers": ["Etiopia", "Kolumbia", "Wietnam", "Brazylia"],
+    "correct": 3,
     "difficulty": "medium",
     "explanation": "Brazylia jest największym producentem kawy na świecie."
   },
   {
     "id": "food_005",
     "question": "Co to jest wasabi?",
-    "answers": ["Ryba", "Ostry korzeń", "Rodzaj sałaty", "Sos sojowy"],
-    "correct": 1,
+    "answers": ["Ostra przyprawa z kłącza rośliny", "Rodzaj sałaty", "Rodzaj ryby", "Sos sojowy"],
+    "correct": 0,
     "difficulty": "medium",
-    "explanation": "Wasabi to ostry korzeń używany w kuchni japońskiej."
+    "explanation": "Wasabi to ostra japońska przyprawa z kłącza chrzanu japońskiego, podawana m.in. do sushi."
   },
   {
     "id": "food_006",
-    "question": "Który owoc ma najwięcej potasu?",
-    "answers": ["Banan", "Jabłko", "Pomarańcza", "Gruszka"],
-    "correct": 0,
+    "question": "Który z tych owoców jest najbogatszy w potas?",
+    "answers": ["Pomarańcza", "Gruszka", "Banan", "Jabłko"],
+    "correct": 2,
     "difficulty": "easy",
-    "explanation": "Banany są bogate w potas, który jest ważny dla funkcjonowania mięśni."
+    "explanation": "Banan ma ok. 360 mg potasu w 100 g – wyraźnie więcej niż jabłko, pomarańcza czy gruszka."
   },
   {
     "id": "food_007",
     "question": "Z jakiego kraju pochodzi sushi?",
-    "answers": ["Chiny", "Japonia", "Korea", "Tajlandia"],
-    "correct": 1,
+    "answers": ["Japonia", "Chiny", "Korea", "Tajlandia"],
+    "correct": 0,
     "difficulty": "easy",
-    "explanation": "Sushi pochodzi z Japonii, choć jego korzenie sięgają Chin."
+    "explanation": "Sushi w obecnej formie pochodzi z Japonii, choć sama technika konserwowania ryb w ryżu wywodzi się z Azji Południowo-Wschodniej i Chin."
   },
   {
     "id": "food_008",
-    "question": "Ile kalorii ma gram tłuszczu?",
+    "question": "Ile kilokalorii dostarcza 1 gram tłuszczu?",
     "answers": ["4", "7", "9", "12"],
     "correct": 2,
     "difficulty": "hard",
-    "explanation": "Gram tłuszczu zawiera 9 kalorii, więcej niż węglowodany czy białka (4 kalorie)."
+    "explanation": "1 g tłuszczu to ok. 9 kcal, a 1 g białka lub węglowodanów – ok. 4 kcal (alkohol – 7 kcal)."
   },
   {
     "id": "food_009",
     "question": "Który ser jest używany w tradycyjnej pizzy Margherita?",
-    "answers": ["Parmezan", "Mozzarella", "Gorgonzola", "Ricotta"],
-    "correct": 1,
+    "answers": ["Gorgonzola", "Ricotta", "Mozzarella", "Parmezan"],
+    "correct": 2,
     "difficulty": "medium",
     "explanation": "Pizza Margherita zawiera mozzarellę, pomidory i bazylię."
   },
   {
     "id": "food_010",
     "question": "Co to jest quinoa?",
-    "answers": ["Rodzaj ryżu", "Pseudozboże", "Warzywo", "Nasiono"],
+    "answers": ["Rodzaj ryżu", "Pseudozboże", "Odmiana fasoli", "Rodzaj makaronu"],
     "correct": 1,
     "difficulty": "hard",
-    "explanation": "Quinoa to pseudozboże pochodzące z Ameryki Południowej, bogate w białko."
-  },
-  {
-    "id": "mus_001",
-    "question": "Ilu muzyków gra w kwartecie?",
-    "answers": ["3", "4", "5", "6"],
-    "correct": 1,
-    "difficulty": "easy",
-    "explanation": "W kwartecie gra czterech muzyków."
+    "explanation": "Komosa ryżowa (quinoa) to pseudozboże z Andów – jej nasiona je się jak kaszę; jest bogata w białko."
   },
   {
     "id": "mus_002",
     "question": "Która grupa wykonała 'Bohemian Rhapsody'?",
-    "answers": ["The Beatles", "Queen", "Led Zeppelin", "The Rolling Stones"],
-    "correct": 1,
+    "answers": ["Led Zeppelin", "The Beatles", "The Rolling Stones", "Queen"],
+    "correct": 3,
     "difficulty": "easy",
     "explanation": "'Bohemian Rhapsody' to kultowa piosenka zespołu Queen z 1975 roku."
   },
@@ -193,33 +177,33 @@
   },
   {
     "id": "mus_005",
-    "question": "W jakiej tonacji jest napisana większość utworów smutnych?",
-    "answers": ["Dur", "Moll", "Atonalność", "Pentatonika"],
-    "correct": 1,
+    "question": "Z jaką tonacją kojarzy się zwykle smutny, melancholijny nastrój utworu?",
+    "answers": ["Pentatoniczną", "Atonalną", "Durową", "Molową"],
+    "correct": 3,
     "difficulty": "medium",
     "explanation": "Tonacje molowe są zwykle kojarzone z nastrojem smutnym lub melancholijnym."
   },
   {
     "id": "mus_006",
-    "question": "Ile klawiszy ma standardowe piano?",
+    "question": "Ile klawiszy ma standardowy fortepian?",
     "answers": ["76", "88", "96", "104"],
     "correct": 1,
     "difficulty": "medium",
-    "explanation": "Standardowe piano ma 88 klawiszy (52 białe i 36 czarne)."
+    "explanation": "Standardowy fortepian ma 88 klawiszy: 52 białe i 36 czarnych."
   },
   {
     "id": "mus_007",
     "question": "Jak nazywa się najwyższa kobieca partia głosowa?",
-    "answers": ["Alt", "Sopran", "Mezzosopran", "Kontralt"],
-    "correct": 1,
+    "answers": ["Sopran", "Mezzosopran", "Alt", "Kontralt"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "Sopran to najwyższa kobieca partia głosowa."
   },
   {
     "id": "mus_008",
-    "question": "Który instrument ma pedały?",
-    "answers": ["Skrzypce", "Fortepian", "Flet", "Klarnet"],
-    "correct": 1,
+    "question": "Który z tych instrumentów ma pedały?",
+    "answers": ["Klarnet", "Flet", "Fortepian", "Skrzypce"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Fortepian ma pedały do modulacji dźwięku."
   },
@@ -233,24 +217,24 @@
   },
   {
     "id": "mus_010",
-    "question": "Który kraj wymyślił jazz?",
-    "answers": ["Francja", "USA", "Wielka Brytania", "Brazylia"],
-    "correct": 1,
+    "question": "W którym kraju narodził się jazz?",
+    "answers": ["Wielka Brytania", "Francja", "Brazylia", "USA"],
+    "correct": 3,
     "difficulty": "easy",
-    "explanation": "Jazz powstał w USA na początku XX wieku."
+    "explanation": "Jazz narodził się w USA (Nowy Orlean) na przełomie XIX i XX wieku."
   },
   {
     "id": "med_001",
-    "question": "Ile litrów krwi ma przeciętny dorosły człowiek?",
-    "answers": ["3-4 litry", "5-6 litrów", "7-8 litrów", "9-10 litrów"],
+    "question": "Ile mniej więcej krwi ma dorosły człowiek?",
+    "answers": ["Ok. 15 litrów", "Ok. 5 litrów", "Ok. 2 litry", "Ok. 10 litrów"],
     "correct": 1,
     "difficulty": "medium",
-    "explanation": "Przeciętny dorosły człowiek ma około 5-6 litrów krwi."
+    "explanation": "Dorosły człowiek ma ok. 4,5–5,5 litra krwi (ok. 7% masy ciała)."
   },
   {
     "id": "med_002",
     "question": "Które witaminy są rozpuszczalne w tłuszczach?",
-    "answers": ["A, D, E, K", "B, C", "A, B, C", "Wszystkie"],
+    "answers": ["A, D, E, K", "Wszystkie", "A, B, C", "B, C"],
     "correct": 0,
     "difficulty": "hard",
     "explanation": "Witaminy A, D, E, K są rozpuszczalne w tłuszczach."
@@ -266,137 +250,137 @@
   {
     "id": "med_004",
     "question": "Który organ produkuje insulinę?",
-    "answers": ["Wątroba", "Trzustka", "Nerki", "Śledziona"],
-    "correct": 1,
+    "answers": ["Nerki", "Śledziona", "Trzustka", "Wątroba"],
+    "correct": 2,
     "difficulty": "medium",
     "explanation": "Trzustka produkuje insulinę, hormon regulujący poziom cukru we krwi."
   },
   {
     "id": "med_005",
-    "question": "Ile procent wody zawiera ludzki organizm?",
-    "answers": ["40%", "50%", "60%", "70%"],
+    "question": "Jaki procent masy ciała dorosłego człowieka stanowi woda?",
+    "answers": ["Ok. 30%", "Ok. 45%", "Ok. 60%", "Ok. 85%"],
     "correct": 2,
     "difficulty": "medium",
-    "explanation": "Ludzki organizm składa się w około 60% z wody."
+    "explanation": "U dorosłego woda stanowi ok. 60% masy ciała (u noworodków nawet ok. 75%)."
   },
   {
     "id": "med_006",
-    "question": "Który mineral jest najważniejszy dla kości?",
-    "answers": ["Żelazo", "Wapń", "Magnez", "Cynk"],
-    "correct": 1,
+    "question": "Który minerał jest najważniejszy dla budowy kości?",
+    "answers": ["Magnez", "Cynk", "Wapń", "Żelazo"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Wapń jest kluczowy dla budowy i utrzymania zdrowych kości."
   },
   {
     "id": "med_007",
-    "question": "Ile godzin snu potrzebuje dorosły człowiek?",
-    "answers": ["4-5 godzin", "6-7 godzin", "7-9 godzin", "10-12 godzin"],
+    "question": "Ile godzin snu na dobę zaleca się dorosłym?",
+    "answers": ["4-5 godzin", "5-6 godzin", "7-9 godzin", "10-12 godzin"],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Dorośli potrzebują 7-9 godzin snu na dobę dla optymalnego zdrowia."
+    "explanation": "Zalecenia dla dorosłych to 7–9 godzin snu na dobę."
   },
   {
     "id": "med_008",
-    "question": "Który organ filtruje krew?",
-    "answers": ["Wątroba", "Płuca", "Nerki", "Serce"],
-    "correct": 2,
+    "question": "Który narząd filtruje krew i wytwarza mocz?",
+    "answers": ["Wątroba", "Płuca", "Serce", "Nerki"],
+    "correct": 3,
     "difficulty": "easy",
-    "explanation": "Nerki filtrują krew, usuwając z niej toksyny i nadmiar wody."
+    "explanation": "Nerki filtrują krew, usuwając z niej produkty przemiany materii i nadmiar wody w postaci moczu."
   },
   {
     "id": "med_009",
     "question": "Co to jest hemoglobina?",
-    "answers": ["Hormon", "Białko przenoszące tlen", "Enzym", "Witamina"],
+    "answers": ["Hormon", "Białko przenoszące tlen", "Witamina", "Enzym"],
     "correct": 1,
     "difficulty": "medium",
     "explanation": "Hemoglobina to białko w czerwonych krwinkach, które przenosi tlen."
   },
   {
     "id": "med_010",
-    "question": "Ile zębów ma dorosły człowiek?",
+    "question": "Ile zębów stałych ma dorosły człowiek (z zębami mądrości)?",
     "answers": ["28", "30", "32", "34"],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Dorosły człowiek ma 32 zęby, włączając zęby mądrości."
+    "explanation": "Pełne uzębienie stałe to 32 zęby, wliczając 4 zęby mądrości."
   },
   {
     "id": "biz_001",
     "question": "Co oznacza skrót 'CEO'?",
-    "answers": ["Chief Executive Officer", "Central Executive Officer", "Corporate Executive Officer", "Chief Economic Officer"],
+    "answers": ["Chief Executive Officer", "Central Executive Officer", "Chief Economic Officer", "Corporate Executive Officer"],
     "correct": 0,
     "difficulty": "easy",
     "explanation": "CEO to Chief Executive Officer - naczelny dyrektor wykonawczy."
   },
   {
     "id": "biz_002",
-    "question": "Która waluta jest najczęściej używana w handlu międzynarodowym?",
-    "answers": ["Euro", "Dolar amerykański", "Jen japoński", "Funt brytyjski"],
-    "correct": 1,
+    "question": "Która waluta dominuje w handlu i rozliczeniach międzynarodowych?",
+    "answers": ["Dolar amerykański", "Jen japoński", "Euro", "Funt brytyjski"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "Dolar amerykański dominuje w międzynarodowych transakcjach handlowych."
   },
   {
     "id": "biz_003",
     "question": "Co to jest inflacja?",
-    "answers": ["Spadek cen", "Wzrost cen", "Stały poziom cen", "Wymiana walut"],
+    "answers": ["Stały poziom cen", "Wzrost cen", "Wymiana walut", "Spadek cen"],
     "correct": 1,
     "difficulty": "easy",
     "explanation": "Inflacja to wzrost ogólnego poziomu cen towarów i usług."
   },
   {
     "id": "biz_004",
-    "question": "Która giełda jest największa na świecie?",
-    "answers": ["NASDAQ", "NYSE", "LSE", "TSE"],
-    "correct": 1,
+    "question": "Która giełda jest największa na świecie pod względem kapitalizacji spółek?",
+    "answers": ["NASDAQ", "TSE", "NYSE", "LSE"],
+    "correct": 2,
     "difficulty": "medium",
-    "explanation": "New York Stock Exchange (NYSE) to największa giełda papierów wartościowych."
+    "explanation": "New York Stock Exchange (NYSE) jest największą giełdą świata pod względem kapitalizacji notowanych spółek; drugi jest NASDAQ."
   },
   {
     "id": "biz_005",
     "question": "Co oznacza skrót 'GDP'?",
-    "answers": ["Gross Domestic Product", "General Domestic Product", "Global Domestic Product", "Government Domestic Product"],
-    "correct": 0,
+    "answers": ["Government Domestic Product", "General Domestic Product", "Global Domestic Product", "Gross Domestic Product"],
+    "correct": 3,
     "difficulty": "medium",
     "explanation": "GDP to Gross Domestic Product - Produkt Krajowy Brutto."
   },
   {
     "id": "biz_006",
     "question": "Kto założył firmę Amazon?",
-    "answers": ["Bill Gates", "Steve Jobs", "Jeff Bezos", "Elon Musk"],
-    "correct": 2,
+    "answers": ["Jeff Bezos", "Steve Jobs", "Elon Musk", "Bill Gates"],
+    "correct": 0,
     "difficulty": "easy",
     "explanation": "Amazon zostało założone przez Jeffa Bezosa w 1994 roku."
   },
   {
     "id": "biz_007",
     "question": "Co to jest startup?",
-    "answers": ["Duża korporacja", "Młoda, innowacyjna firma", "Instytucja rządowa", "Organizacja non-profit"],
-    "correct": 1,
+    "answers": ["Instytucja rządowa", "Duża korporacja", "Młoda, innowacyjna firma", "Organizacja non-profit"],
+    "correct": 2,
     "difficulty": "easy",
     "explanation": "Startup to młoda firma poszukująca skalowalnego modelu biznesowego."
   },
   {
     "id": "biz_008",
-    "question": "Który kraj ma największą gospodarkę świata?",
-    "answers": ["Chiny", "USA", "Japonia", "Niemcy"],
+    "question": "Który kraj ma największą gospodarkę świata mierzoną nominalnym PKB?",
+    "answers": ["Japonia", "USA", "Niemcy", "Chiny"],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "USA mają największą gospodarkę świata mierzoną PKB."
+    "explanation": "USA mają największy nominalny PKB na świecie (Chiny wyprzedzają je tylko w PKB liczonym wg parytetu siły nabywczej)."
   },
   {
     "id": "biz_009",
     "question": "Co to jest kryptowaluta?",
-    "answers": ["Tradycyjna waluta", "Cyfrowa waluta", "Waluta papierowa", "Waluta złota"],
-    "correct": 1,
+    "answers": ["Waluta złota", "Tradycyjna waluta", "Waluta papierowa", "Cyfrowa waluta"],
+    "correct": 3,
     "difficulty": "easy",
     "explanation": "Kryptowaluta to cyfrowa waluta zabezpieczona kryptograficznie."
   },
   {
     "id": "biz_010",
-    "question": "Która firma produkuje iPhone?",
-    "answers": ["Google", "Microsoft", "Apple", "Samsung"],
-    "correct": 2,
+    "question": "Która firma tworzy iPhone’a?",
+    "answers": ["Microsoft", "Samsung", "Google", "Apple"],
+    "correct": 3,
     "difficulty": "easy",
-    "explanation": "iPhone jest produkowany przez firmę Apple."
+    "explanation": "iPhone to smartfon firmy Apple, produkowany od 2007 roku."
   }
 ]

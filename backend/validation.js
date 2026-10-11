@@ -148,10 +148,52 @@ function validateGameSettings(settings) {
   return validated;
 }
 
+/**
+ * Validates category key used in category vote
+ * @param {string} categoryKey - The category key to validate
+ * @throws {Error} If category key is invalid
+ */
+function validateCategoryKey(categoryKey) {
+  if (typeof categoryKey !== 'string' || !/^[a-z0-9_]{1,50}$/.test(categoryKey)) {
+    throw new Error('Nieprawidłowa kategoria');
+  }
+  return categoryKey;
+}
+
+/**
+ * Validates player ID
+ * @param {string} playerId - The player ID to validate
+ * @throws {Error} If player ID is invalid
+ */
+function validatePlayerId(playerId) {
+  if (typeof playerId !== 'string' || playerId.length === 0 || playerId.length > 64) {
+    throw new Error('Nieprawidłowe ID gracza');
+  }
+  return playerId;
+}
+
+const SABOTAGE_TYPES = Object.freeze(['fog', 'bubbles', 'math', 'mash', 'sequence', 'catch']);
+
+/**
+ * Validates sabotage card type
+ * @param {string} type - The sabotage type to validate
+ * @throws {Error} If type is unknown
+ */
+function validateSabotageType(type) {
+  if (typeof type !== 'string' || !SABOTAGE_TYPES.includes(type)) {
+    throw new Error('Nieznany typ sabotażu');
+  }
+  return type;
+}
+
 module.exports = {
   validateSessionId,
   validatePlayerName,
   validateAvatar,
   validateAnswer,
-  validateGameSettings
+  validateGameSettings,
+  validateCategoryKey,
+  validatePlayerId,
+  validateSabotageType,
+  SABOTAGE_TYPES
 };

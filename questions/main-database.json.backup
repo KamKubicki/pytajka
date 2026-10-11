@@ -300,9 +300,74 @@
             "Ignacy Paderewski",
             "Roman Dmowski"
           ],
-          "correct": 0,
+           "correct": 0,
           "difficulty": "medium",
           "explanation": "Józef piłsudzki zostł pierwszym marsałkiem Polski w 1920 roku."
+        },
+        {
+          "id": "hist_pl_0011",
+          "question": "W którym roku odbył się zjazd górników w Salzburgu, który zapoczątkował powstanie Legionów Polskich?",
+          "answers": [
+            "1913",
+            "1914",
+            "1915",
+            "1916"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Zjazd górników w Salzburgu odbył się w 1914 roku i zapoczątkował powstanie Legionów Polskich podczas I wojny światowej."
+        },
+        {
+          "id": "hist_pl_0012",
+          "question": "Kto był autorem projektu konstytucji kwietniowej z 1935 roku?",
+          "answers": [
+            "Józef Piłsudski",
+            "Witold Grabowski",
+            "Stanisław Thugutt",
+            "Roman Dmowski"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Projekt konstytucji kwietniowej opracował Witold Grabowski, a została ona uchwalona po śmierci Marszałka Piłsudskiego."
+        },
+        {
+          "id": "hist_pl_0013",
+          "question": "W którym roku wybuchło powstanie wielkopolskie?",
+          "answers": [
+            "1916",
+            "1917",
+            "1918",
+            "1919"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Powstanie wielkopolskie wybuchło 27 grudnia 1918 roku i trwało do lutego 1919 roku."
+        },
+        {
+          "id": "hist_pl_0014",
+          "question": "Który polski hetman został wybrany królem Polski w 1573 roku?",
+          "answers": [
+            "Mikołaj Ryeccki",
+            "Jan Zamoyski",
+            "Stefan Batory",
+            "Henryk Walezy"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "Henryk Walezy, francuski książę, został wybrany pierwszym królem elekcyjnym Polski w 1573 roku."
+        },
+        {
+          "id": "hist_pl_0015",
+          "question": "W którym roku Polska odzyskała dostęp do morza Bałtyckiego?",
+          "answers": [
+            "1918",
+            "1919",
+            "1920",
+            "1921"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Dzięki traktatowi wersalskiemu w 1919 roku i plebiscytowi w 1920 roku, Polska odzyskała dostęp do morza Bałtyckiego."
         }
       ]
     },
@@ -567,9 +632,87 @@
             "Grecja",
             "Portugalia"
           ],
-          "correct": 1,
+           "correct": 1,
           "difficulty": "easy",
           "explanation": "Włochy mają charakterystyczny kształt przypominający but."
+        },
+        {
+          "id": "geo_pl_0011",
+          "question": "Jak nazywa się najdłuższa rzeka przepływająca przez Warszawę?",
+          "answers": [
+            "Narew",
+            "Wisła",
+            "Pilica",
+            "Bug"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Wisła przepływa przez Warszawę i jest najdłuższą rzeką w Polsce."
+        },
+        {
+          "id": "geo_pl_0012",
+          "question": "W którym mieście znajduje się słynna kopalnia soli?",
+          "answers": [
+            "Kraków",
+            "Wieliczka",
+            "Bochnia",
+            "Wadowice"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Kopalnia soli w Wielicce to jedna z najstarszych kopalni na świecie, wpisana na listę UNESCO."
+        },
+        {
+          "id": "geo_pl_0013",
+          "question": "Jak nazywa się najgłębsze jezioro w Polsce?",
+          "answers": [
+            "Śniardwy",
+            "Hańcza",
+            "Mamry",
+            "Wigry"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Jezioro Hańcza na Suwalszczyźnie jest najgłębszym jeziorem w Polsce, osiągające głębokość 108,5 metra."
+        },
+        {
+          "id": "geo_pl_0014",
+          "question": "Na jakiej wysokości znajduje się Rysy - najwyższy szczyt Polski?",
+          "answers": [
+            "2199 m n.p.m.",
+            "2299 m n.p.m.",
+            "2499 m n.p.m.",
+            "2599 m n.p.m."
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Rysy mają 2499 metrów n.p.m. i znajdują się na granicy polsko-słowackiej w Tatrach."
+        },
+        {
+          "id": "geo_pl_0015",
+          "question": "Ile województw ma obecnie Polska?",
+          "answers": [
+            "12",
+            "14",
+            "16",
+            "18"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Polska ma 16 województw od 1999 roku."
+        },
+        {
+          "id": "geo_pl_0016",
+          "question": "Jak nazywa się największa wyspa na Wielkich Jeziorach Mazurskich?",
+          "answers": [
+            "Wielka Ostrów",
+            "Mikołajki",
+            "Piękna Góra",
+            "Tajty"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Wielka Ostrów to największa wyspa na Wielkich Jeziorach Mazurskich, połączona z lądem mostem."
         }
       ]
     },
@@ -720,6 +863,71 @@
           "correct": 1,
           "difficulty": "medium",
           "explanation": "'Sto lat samotności' to powieść autorstwa kolumbijskiego pisarza Gabriela García Márqueza."
+        },
+        {
+          "id": "kult_pl_0011",
+          "question": "Kto skomponował polonez 'Polski Rok' będący hymnem powstania warszawskiego?",
+          "answers": [
+            "Fryderyk Chopin",
+            "Witold Lutosławski",
+            "Tadeusz Baird",
+            "Ludwig van Beethoven"
+          ],
+          "correct": 2,
+          "difficulty": "hard",
+          "explanation": "Tade Baird skomponował 'Polski Rok', który stał się nieoficjalnym hymnem powstania warszawskiego."
+        },
+        {
+          "id": "kult_pl_0012",
+          "question": "W którym roku odbyła się premiera musicalu 'Metro' w warszawskim Teatrze Studio?",
+          "answers": [
+            "1988",
+            "1990",
+            "1992",
+            "1995"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Premiera musicalu 'Metro' odbyła się w 1990 roku i zyskała międzynarodową sławę."
+        },
+        {
+          "id": "kult_pl_0013",
+          "question": "Który polski kompozytor napisał operę 'Straszny dwór'?",
+          "answers": [
+            "Karol Szymanowski",
+            "Stanisław Moniuszko",
+            "Ignacy Jan Paderewski",
+            "Mieczysław Karłowicz"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Stanisław Moniuszko skomponował operę 'Straszny dwór' w 1864 roku."
+        },
+        {
+          "id": "kult_pl_0014",
+          "question": "Kto jest autorem rzeźby 'Pomnik Bohaterów Warszawy' na Ochocie?",
+          "answers": [
+            "Wojciech Gerson",
+            "Alfons Kluge",
+            "Jan Szczepanik",
+            "Xawery Dunikowski"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Xawery Dunikowski stworzył 'Pomnik Bohaterów Warszawy', znany również jako 'Pomnik Walki o Warszawę'."
+        },
+        {
+          "id": "kult_pl_0015",
+          "question": "Jak nazywa się najstarszy polski dziennik?",
+          "answers": [
+            "Gazeta Wyborcza",
+            "Rzeczpospolita",
+            "Trybuna",
+            "Kurier Warszawski"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Kurier Warszawski, założony w 1774 roku, jest jednym z najstarszych dzienników na świecie."
         }
       ]
     },
@@ -896,6 +1104,71 @@
           "correct": 1,
           "difficulty": "medium",
           "explanation": "Rafael Nadal wygrał Roland Garros rekordowe 14 razy."
+        },
+        {
+          "id": "sport_pl_0011",
+          "question": "Ile złotych medalów olimpijskich zdobył Irena Szewińska?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Irena Szewińska zdobyła 3 złote medale olimpijskie w różnych konkurencjach lekkoatletycznych."
+        },
+        {
+          "id": "sport_pl_0012",
+          "question": "W którym roku Polska zdobyła mistrzostwo Europy w piłce nożnej?",
+          "answers": [
+            "1972",
+            "1974",
+            "1976",
+            "1982"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Polska zdobyła mistrzostwo Europy w piłce nożnej w 1976 roku, pokonując Włochy w finale."
+        },
+        {
+          "id": "sport_pl_0013",
+          "question": "Kto jest najskuteczniejszym strzelcem w historii reprezentacji Polski w piłce nożnej?",
+          "answers": [
+            "Grzegorz Lato",
+            "Robert Lewandowski",
+            "Zygmunt Maszczyk",
+            "Włodzimierz Smolarek"
+          ],
+          "correct": 0,
+          "difficulty": "medium",
+          "explanation": "Grzegorz Lato zdobył 48 bramek dla reprezentacji Polski, co jest rekordem."
+        },
+        {
+          "id": "sport_pl_0014",
+          "question": "W którym sporcie Polka Anna Kłosin zdobyła pierwszy medal olimpijski?",
+          "answers": [
+            "Biegi narciarskie",
+            "Biathlon",
+            "Skoki narciarskie",
+            "Kombinacja norweska"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Anna Kłosin zdobyła pierwszy medal olimpijski dla Polski w biathlonie podczas Zimowych Igrzysk w 1992 roku."
+        },
+        {
+          "id": "sport_pl_0015",
+          "question": "Kto jako pierwszy Polak przekroczył barierę 8 minut w biegu na 3000 metrów z przeszkodami?",
+          "answers": [
+            "Marek Kowalski",
+            "Witold Baraniuk",
+            "Kazimierz Zimny",
+            "Bronisław Malinowski"
+          ],
+          "correct": 3,
+          "difficulty": "hard",
+          "explanation": "Bronisław Malinowski jako pierwszy Polak przekroczył barierę 8 minut i zdobył złoty medal olimpijski w 1980 roku."
         }
       ]
     },
@@ -1891,6 +2164,136 @@
           "correct": 2,
           "difficulty": "easy",
           "explanation": "iPhone jest produkowany przez firmę Apple."
+        },
+        {
+          "id": "nauka_pl_0011",
+          "question": "Kto jest twórcą teorii względności?",
+          "answers": [
+            "Niels Bohr",
+            "Albert Einstein",
+            "Max Planck",
+            "Richard Feynman"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Albert Einstein sformułował teorię względności, zarówno szczególną, jak i ogólną."
+        },
+        {
+          "id": "nauka_pl_0012",
+          "question": "Ile wynosi liczba Pi zaokrąglona do dwóch miejsc po przecinku?",
+          "answers": [
+            "3,12",
+            "3,14",
+            "3,16",
+            "3,18"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Liczba Pi wynosi w przybliżeniu 3,14159..., więc zaokrąglona do dwóch miejsc to 3,14."
+        },
+        {
+          "id": "nauka_pl_0013",
+          "question": "Jak nazywa się najmniejsza cząsteczka wody?",
+          "answers": [
+            "Atom wodoru",
+            "Cząsteczka wody (H2O)",
+            "Jon wodorowy",
+            "Hydroksyl"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Najmniejszą cząsteczką wody jest H2O, składająca się z dwóch atomów wodoru i jednego atomu tlenu."
+        },
+        {
+          "id": "nauka_pl_0014",
+          "question": "Który pierwiastek chemiczny ma symbol 'Fe'?",
+          "answers": [
+            "Fluor",
+            "Żelazo",
+            "Wapń",
+            "Miedź"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Fe to symbol chemiczny żelaza (łac. ferrum)."
+        },
+        {
+          "id": "nauka_pl_0015",
+          "question": "Jak nazywa się nauka zajmująca się badaniem owadów?",
+          "answers": [
+            "Botanika",
+            "Zoologia",
+            "Entomologia",
+            "Mikrobiologia"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Entomologia to dziedzina zoologii zajmująca się badaniem owadów."
+        },
+        {
+          "id": "nauka_pl_0016",
+          "question": "Ile kwasów nukleinowych występuje naturalnie w organizmach żywych?",
+          "answers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Występują naturalnie dwa rodzaje kwasów nukleinowych: DNA i RNA."
+        },
+        {
+          "id": "nauka_pl_0017",
+          "question": "Kto opracował pierwszy praktyczny silnik spalinowy?",
+          "answers": [
+            "Nikola Tesla",
+            "Gottlieb Daimler",
+            "Rudolf Diesel",
+            "Karl Benz"
+          ],
+          "correct": 1,
+          "difficulty": "hard",
+          "explanation": "Gottlieb Daimler opracował pierwszy praktyczny silnik spalinowy w 1885 roku."
+        },
+        {
+          "id": "nauka_pl_0018",
+          "question": "Jak nazywa się jednostka siły w układzie SI?",
+          "answers": [
+            "Dżul",
+            "Niuton",
+            "Wat",
+            "Paskal"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "Niuton (N) to jednostka siły w układzie SI, nazwana na cześć Isaaca Newtona."
+        },
+        {
+          "id": "nauka_pl_0019",
+          "question": "Która komórka w ludzkim organizmie nie ma jądra komórkowego?",
+          "answers": [
+            "Nerwowa",
+            "Mięśniowa",
+            "Erytrocyt",
+            "Komórka tłuszczowa"
+          ],
+          "correct": 2,
+          "difficulty": "hard",
+          "explanation": "Erytrocyty (czerwone krwinki) u ssaków nie mają jądra komórkowego, co pozwala im pomieścić więcej hemoglobiny."
+        },
+        {
+          "id": "nauka_pl_0020",
+          "question": "Jak nazywa się zjawisko fizyczne polegające na rozszczepieniu światła na barwy?",
+          "answers": [
+            "Refrakcja",
+            "Dyfrakcja",
+            "Dyspersja",
+            "Interferencja"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Dyspersja to zjawisko rozszczepienia światła na składowe barwy, np. w tęczy."
         }
       ]
     },
@@ -2080,6 +2483,71 @@
           "correct": 1,
           "difficulty": "medium",
           "explanation": "'Titanic' został wyreżyserowany przez Jamesa Camerona w 1997 roku."
+        },
+        {
+          "id": "rozr_pl_0011",
+          "question": "Kto jest autorem piosenki 'Wiosna'?",
+          "answers": [
+            "Stanisław Soyka",
+            "T.Love",
+            "Czesław Niemen",
+            "Kult"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "'Wiosna' to jedna z najbardziej znanych piosenek Czesława Niemena."
+        },
+        {
+          "id": "rozr_pl_0012",
+          "question": "W którym filmie Jan Matejko namalował 'Bitwę pod Grunwaldem'?",
+          "answers": [
+            "Bitwa pod Grunwaldem",
+            "Bocian",
+            "Pan Tadeusz",
+            "Królewna"
+          ],
+          "correct": 0,
+          "difficulty": "hard",
+          "explanation": "Jan Matejko namalował słynny obraz 'Bitwa pod Grunwaldem' w 1878 roku."
+        },
+        {
+          "id": "rozr_pl_0013",
+          "question": "Który polski zespół wykonywał piosenkę 'Jolka, Jolka'?",
+          "answers": [
+            "Budka Suflera",
+            "Perfect",
+            "Czerwone Gitary",
+            "Skalders"
+          ],
+          "correct": 1,
+          "difficulty": "medium",
+          "explanation": "'Jolka, Jolka' to przebój zespołu Perfect z 1982 roku."
+        },
+        {
+          "id": "rozr_pl_0014",
+          "question": "W jakim mieście odbywa się Festiwal Filmowy w Gdyni?",
+          "answers": [
+            "Gdańsk",
+            "Gdynia",
+            "Sopot",
+            "Kraków"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Festiwal Filmowy w Gdyni to jedna z najważniejszych polskich imprez filmowych."
+        },
+        {
+          "id": "rozr_pl_0015",
+          "question": "Kto jest reżyserem filmu 'Dżentelmeni' z 2019 roku?",
+          "answers": [
+            "Wojciech Smarzowski",
+            "Krzysztof Zanussi",
+            "Maciej Ścigalski",
+            "Xawery Żuławski"
+          ],
+          "correct": 3,
+          "difficulty": "medium",
+          "explanation": "'Dżentelmeni' to film Xawerego Żuławskiego z 2019 roku, który zyskał międzynarodową popularność."
         }
       ]
     },
@@ -2152,6 +2620,110 @@
           "correct": 1,
           "difficulty": "easy",
           "explanation": "USA mają największą gospodarkę świata mierzoną PKB."
+        },
+        {
+          "id": "geo_world_001",
+          "question": "Jakie jest najmniejsze państwo na świecie?",
+          "answers": [
+            "Monako",
+            "Watykan",
+            "San Marino",
+            "Liechtenstein"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Watykan jest najmniejszym państwem na świecie pod względem powierzchni (0,44 km²)."
+        },
+        {
+          "id": "geo_world_002",
+          "question": "Na którym kontynencie znajduje się pustynia Sahara?",
+          "answers": [
+            "Azja",
+            "Afryka",
+            "Ameryka",
+            "Australia"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Sahara znajduje się w Afryce i jest największą gorącą pustynią na świecie."
+        },
+        {
+          "id": "geo_world_003",
+          "question": "Jak nazywa się najwyższy szczyt świata?",
+          "answers": [
+            "K2",
+            "Mount Everest",
+            "Kangchenjunga",
+            "Lhotse"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Mount Everest (8850 m n.p.m.) jest najwyższym szczytem na świecie."
+        },
+        {
+          "id": "geo_world_004",
+          "question": "Ile kontynentów jest na Ziemi?",
+          "answers": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "correct": 2,
+          "difficulty": "easy",
+          "explanation": "Na Ziemi jest 7 kontynentów: Azja, Afryka, Ameryka Północna, Ameryka Południowa, Antarktyda, Europa i Australia."
+        },
+        {
+          "id": "geo_world_005",
+          "question": "Jakie państwo ma najwięcej ludzi?",
+          "answers": [
+            "Indie",
+            "Chiny",
+            "USA",
+            "Rosja"
+          ],
+          "correct": 0,
+          "difficulty": "easy",
+          "explanation": "Indie mają największą populację na świecie, przekraczającą 1,4 miliarda ludzi."
+        },
+        {
+          "id": "geo_world_006",
+          "question": "Jak nazywa się najdłuższa rzeka w Azji?",
+          "answers": [
+            "Huang He",
+            "Mekong",
+            "Jangcy",
+            "Ganges"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Jangcy (6300 km) jest najdłuższą rzeką w Azji i trzecią najdłuższą na świecie."
+        },
+        {
+          "id": "geo_world_007",
+          "question": "W którym mieście znajduje się słynna Wieża Eiffla?",
+          "answers": [
+            "Londyn",
+            "Paryż",
+            "Berlin",
+            "Rzym"
+          ],
+          "correct": 1,
+          "difficulty": "easy",
+          "explanation": "Wieża Eiffla znajduje się w Paryżu i jest symbolem Francji."
+        },
+        {
+          "id": "geo_world_008",
+          "question": "Jakie jezioro jest największe na świecie?",
+          "answers": [
+            "Jezioro Górne",
+            "Jezioro Wiktorii",
+            "Morze Kaspijskie",
+            "Jezioro Tanganika"
+          ],
+          "correct": 2,
+          "difficulty": "medium",
+          "explanation": "Morze Kaspijskie jest największym jeziorem na świecie (371 000 km²)."
         }
       ]
     }

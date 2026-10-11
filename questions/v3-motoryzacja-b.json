@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "moto_b001",
+    "question": "Co pokazuje obrotomierz na desce rozdzielczej?",
+    "answers": [
+      "Temperaturę silnika",
+      "Prędkość jazdy",
+      "Ciśnienie oleju",
+      "Prędkość obrotową silnika"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Obrotomierz wskazuje liczbę obrotów wału korbowego na minutę."
+  },
+  {
+    "id": "moto_b002",
+    "question": "Do czego służy układ ABS?",
+    "answers": [
+      "Mierzy ciśnienie w oponach",
+      "Pomaga w parkowaniu",
+      "Zapobiega blokowaniu kół przy hamowaniu",
+      "Utrzymuje stałą prędkość"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "ABS pozwala zachować sterowność podczas gwałtownego hamowania."
+  },
+  {
+    "id": "moto_b003",
+    "question": "Za co odpowiada system ESP?",
+    "answers": [
+      "Za odzyskiwanie energii z hamowania",
+      "Za stabilizację toru jazdy i ograniczanie poślizgu",
+      "Za automatyczne włączanie świateł",
+      "Za dobór przełożeń skrzyni"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "ESP przyhamowuje pojedyncze koła, by auto nie wpadło w poślizg."
+  },
+  {
+    "id": "moto_b004",
+    "question": "Jak zapala się paliwo w silniku Diesla podczas normalnej pracy?",
+    "answers": [
+      "Od iskry świecy zapłonowej",
+      "Od płomienia palnika",
+      "Samoczynnie od gorącego, sprężonego powietrza",
+      "Od rozgrzanego katalizatora"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Silnik wysokoprężny działa na zasadzie samozapłonu wtryśniętego paliwa."
+  },
+  {
+    "id": "moto_b005",
+    "question": "Co napędza wirnik turbosprężarki?",
+    "answers": [
+      "Pasek rozrządu",
+      "Wał napędowy",
+      "Prąd z akumulatora",
+      "Spaliny"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Turbina w kanale wydechowym kręci sprężarką, która wtłacza powietrze do silnika."
+  },
+  {
+    "id": "moto_b006",
+    "question": "Który pedał w aucie z manualną skrzynią biegów jest skrajnie po lewej?",
+    "answers": [
+      "Hamulec",
+      "Sprzęgło",
+      "Gaz",
+      "Hamulec ręczny"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Układ pedałów od lewej: sprzęgło, hamulec, gaz."
+  },
+  {
+    "id": "moto_b007",
+    "question": "Co oznacza litera „P” na wybieraku automatycznej skrzyni biegów?",
+    "answers": [
+      "Pełną moc",
+      "Postój (parkowanie)",
+      "Pierwszy bieg",
+      "Powolną jazdę"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pozycja P blokuje skrzynię biegów, aby auto nie potoczyło się."
+  },
+  {
+    "id": "moto_b008",
+    "question": "Co wyróżnia samochód hybrydowy?",
+    "answers": [
+      "Jeździ wyłącznie na wodór",
+      "Może jeździć na benzynie i LPG",
+      "Ma dwa silniki Diesla",
+      "Ma silnik spalinowy i elektryczny"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hybryda łączy silnik spalinowy z elektrycznym zasilanym z akumulatora."
+  },
+  {
+    "id": "moto_b009",
+    "question": "Jakie akumulatory najczęściej stosuje się w samochodach elektrycznych?",
+    "answers": [
+      "Alkaliczne",
+      "Niklowo-kadmowe",
+      "Ołowiowo-kwasowe",
+      "Litowo-jonowe"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Ogniwa litowo-jonowe mają dużą gęstość energii przy niewielkiej masie."
+  },
+  {
+    "id": "moto_b010",
+    "question": "Czym jest rekuperacja w samochodzie elektrycznym?",
+    "answers": [
+      "Wymianą baterii na stacji",
+      "Odzyskiwaniem energii podczas hamowania",
+      "Szybkim ładowaniem prądem stałym",
+      "Chłodzeniem baterii"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Przy zwalnianiu silnik pracuje jak prądnica i doładowuje baterię."
+  },
+  {
+    "id": "moto_b011",
+    "question": "Co określa liczba oktanowa benzyny?",
+    "answers": [
+      "Gęstość paliwa",
+      "Odporność na spalanie stukowe",
+      "Temperaturę wrzenia",
+      "Zawartość siarki"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Im wyższa liczba oktanowa, tym trudniej o niekontrolowany samozapłon mieszanki."
+  },
+  {
+    "id": "moto_b012",
+    "question": "Do czego służy katalizator w układzie wydechowym?",
+    "answers": [
+      "Zwiększa moc silnika",
+      "Zmniejsza toksyczność spalin",
+      "Wycisza pracę skrzyni biegów",
+      "Chłodzi spaliny przed turbiną"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Katalizator przekształca szkodliwe związki w spalinach w mniej szkodliwe."
+  },
+  {
+    "id": "moto_b013",
+    "question": "Do czego służy mechanizm różnicowy (dyferencjał)?",
+    "answers": [
+      "Pozwala kołom kręcić się z różną prędkością w zakręcie",
+      "Zmienia biegi bez sprzęgła",
+      "Rozdziela siłę hamowania między osie",
+      "Wyrównuje ciśnienie w oponach"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W zakręcie koło zewnętrzne pokonuje dłuższą drogę niż wewnętrzne."
+  },
+  {
+    "id": "moto_b014",
+    "question": "Co zwykle oznacza oznaczenie 4x4 przy samochodzie?",
+    "answers": [
+      "Napęd na wszystkie cztery koła",
+      "Czworo drzwi",
+      "Czterocylindrowy silnik",
+      "Cztery biegi"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Napęd 4x4 przenosi moc na obie osie, co pomaga w terenie."
+  },
+  {
+    "id": "moto_b015",
+    "question": "Ilu watom odpowiada w przybliżeniu 1 koń mechaniczny (KM)?",
+    "answers": [
+      "Dokładnie 1000 W",
+      "Ok. 1341 W",
+      "Ok. 735,5 W",
+      "Ok. 500 W"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "1 KM to ok. 735,5 W, czyli 100 kW to ok. 136 KM."
+  },
+  {
+    "id": "moto_b016",
+    "question": "W jakich jednostkach podaje się zwykle pojemność silnika?",
+    "answers": [
+      "W kilowatach",
+      "W barach",
+      "W niutonometrach",
+      "W centymetrach sześciennych"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Np. silnik 1.6 ma pojemność około 1600 cm³."
+  },
+  {
+    "id": "moto_b017",
+    "question": "Co synchronizuje pasek (lub łańcuch) rozrządu?",
+    "answers": [
+      "Wał korbowy z wałkiem rozrządu",
+      "Pompę paliwa z bakiem",
+      "Koła przednie z tylnymi",
+      "Alternator z akumulatorem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dzięki niemu zawory otwierają się w odpowiednim momencie pracy tłoków."
+  },
+  {
+    "id": "moto_b018",
+    "question": "Co ładuje akumulator podczas jazdy autem spalinowym?",
+    "answers": [
+      "Alternator",
+      "Rozrusznik",
+      "Cewka zapłonowa",
+      "Świeca żarowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Alternator napędzany przez silnik wytwarza prąd i doładowuje akumulator."
+  },
+  {
+    "id": "moto_b019",
+    "question": "Jak nazywa się silnik z obrotowym tłokiem o kształcie zaokrąglonego trójkąta?",
+    "answers": [
+      "Silnik Diesla",
+      "Silnik Stirlinga",
+      "Silnik Wankla",
+      "Silnik bokser"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Silnik Wankla rozsławiły sportowe Mazdy, np. RX-7."
+  },
+  {
+    "id": "moto_b020",
+    "question": "Jak ułożone są cylindry w silniku typu bokser?",
+    "answers": [
+      "W jednym rzędzie",
+      "Poziomo, naprzeciw siebie",
+      "Gwiazdowo",
+      "W literę V"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Tłoki boksera poruszają się jak pięści boksera – do siebie i od siebie."
+  },
+  {
+    "id": "moto_b021",
+    "question": "Co oznacza „16” w rozmiarze opony 205/55 R16?",
+    "answers": [
+      "Średnicę felgi w calach",
+      "Rok produkcji",
+      "Szerokość opony w cm",
+      "Indeks prędkości"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "205 to szerokość w mm, 55 to profil w %, a R16 to felga 16-calowa."
+  },
+  {
+    "id": "moto_b022",
+    "question": "Co oznacza kod daty „2319” na boku opony?",
+    "answers": [
+      "23 marca 2019 roku",
+      "Partię nr 2319",
+      "23. tydzień 2019 roku",
+      "Rozmiar 23/19 cali"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Pierwsze dwie cyfry to tydzień, a ostatnie dwie to rok produkcji opony."
+  },
+  {
+    "id": "moto_b023",
+    "question": "Czym wyróżnia się skrzynia biegów DSG?",
+    "answers": [
+      "Ma dwa sprzęgła",
+      "Ma tylko trzy biegi",
+      "Nie ma biegu wstecznego",
+      "Jest bezstopniowa"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Jedno sprzęgło obsługuje biegi parzyste, drugie nieparzyste, co skraca zmianę biegu."
+  },
+  {
+    "id": "moto_b024",
+    "question": "Jak nazywa się urządzenie utrzymujące zadaną prędkość jazdy?",
+    "answers": [
+      "Tempomat",
+      "Immobilizer",
+      "Alternator",
+      "Obrotomierz"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Tempomat sam dodaje gazu, by utrzymać ustawioną prędkość."
+  },
+  {
+    "id": "moto_b025",
+    "question": "Do czego służy immobilizer?",
+    "answers": [
+      "Ogranicza prędkość maksymalną",
+      "Wyłącza silnik na światłach",
+      "Blokuje koła przy hamowaniu",
+      "Blokuje uruchomienie silnika bez właściwego kluczyka"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Immobilizer to elektroniczne zabezpieczenie przed kradzieżą auta."
+  },
+  {
+    "id": "moto_b026",
+    "question": "Który element uruchamia silnik spalinowy po przekręceniu kluczyka?",
+    "answers": [
+      "Alternator",
+      "Sprzęgło",
+      "Katalizator",
+      "Rozrusznik"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rozrusznik to silnik elektryczny, który obraca wałem korbowym przy starcie."
+  },
+  {
+    "id": "moto_b027",
+    "question": "Jaka kategoria prawa jazdy uprawnia do kierowania samochodem osobowym?",
+    "answers": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kategoria B to najpopularniejsze prawo jazdy w Polsce."
+  },
+  {
+    "id": "moto_b028",
+    "question": "Do jakiej dopuszczalnej masy całkowitej pojazdu uprawnia prawo jazdy kat. B?",
+    "answers": [
+      "5 ton",
+      "7,5 tony",
+      "2,5 tony",
+      "3,5 tony"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Cięższe pojazdy wymagają już kategorii C1 lub C."
+  },
+  {
+    "id": "moto_b029",
+    "question": "Jaka kategoria prawa jazdy uprawnia do kierowania autobusem?",
+    "answers": [
+      "T",
+      "BE",
+      "C",
+      "D"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kategoria D dotyczy pojazdów przewożących więcej niż 8 pasażerów."
+  },
+  {
+    "id": "moto_b030",
+    "question": "Jak nazywa się najniższa kategoria prawa jazdy w Polsce, przeznaczona dla motorowerów?",
+    "answers": [
+      "B1",
+      "A1",
+      "AM",
+      "T"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kategoria AM obejmuje motorowery i lekkie czterokołowce."
+  },
+  {
+    "id": "moto_b031",
+    "question": "Z jaką maksymalną prędkością może jechać samochód osobowy w obszarze zabudowanym w Polsce?",
+    "answers": [
+      "60 km/h",
+      "40 km/h",
+      "50 km/h",
+      "70 km/h"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Ograniczenie może zmienić znak, ale podstawowy limit to 50 km/h."
+  },
+  {
+    "id": "moto_b032",
+    "question": "Z jaką maksymalną prędkością może jechać samochód osobowy po polskiej autostradzie?",
+    "answers": [
+      "130 km/h",
+      "150 km/h",
+      "140 km/h",
+      "120 km/h"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "To najwyższy ogólny limit prędkości w Polsce."
+  },
+  {
+    "id": "moto_b033",
+    "question": "Jaki jest limit dla auta osobowego na zwykłej jednojezdniowej drodze poza obszarem zabudowanym?",
+    "answers": [
+      "100 km/h",
+      "90 km/h",
+      "80 km/h",
+      "110 km/h"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "90 km/h to podstawowy limit poza terenem zabudowanym."
+  },
+  {
+    "id": "moto_b034",
+    "question": "Od jakiego stężenia alkoholu we krwi zaczyna się w Polsce „stan po użyciu alkoholu”?",
+    "answers": [
+      "0,1 promila",
+      "0,5 promila",
+      "0,8 promila",
+      "0,2 promila"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Od 0,2 do 0,5 promila to stan po użyciu, powyżej 0,5 promila to stan nietrzeźwości."
+  },
+  {
+    "id": "moto_b035",
+    "question": "Kto ma pierwszeństwo na skrzyżowaniu dróg równorzędnych?",
+    "answers": [
+      "Pojazd nadjeżdżający z lewej",
+      "Pojazd nadjeżdżający z prawej",
+      "Pojazd jadący szybciej",
+      "Pojazd większy"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "To tzw. reguła prawej ręki."
+  },
+  {
+    "id": "moto_b036",
+    "question": "W jakiej odległości za pojazdem stawia się trójkąt ostrzegawczy na autostradzie?",
+    "answers": [
+      "30–50 m",
+      "200 m",
+      "10–20 m",
+      "100 m"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Na zwykłej drodze poza miastem trójkąt stawia się 30–50 m za pojazdem."
+  },
+  {
+    "id": "moto_b037",
+    "question": "Co z poniższych jest obowiązkowym wyposażeniem samochodu osobowego w Polsce?",
+    "answers": [
+      "Apteczka",
+      "Gaśnica",
+      "Linka holownicza",
+      "Kamizelka odblaskowa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Obowiązkowe są gaśnica i trójkąt ostrzegawczy – apteczka tylko zalecana."
+  },
+  {
+    "id": "moto_b038",
+    "question": "Od którego roku w Polsce trzeba jeździć na światłach przez całą dobę, cały rok?",
+    "answers": [
+      "2001",
+      "2007",
+      "1997",
+      "2011"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Obowiązek całorocznej jazdy na światłach wprowadzono w kwietniu 2007 r."
+  },
+  {
+    "id": "moto_b039",
+    "question": "Po ilu latach od rejestracji nowe auto osobowe musi przejść pierwsze badanie techniczne?",
+    "answers": [
+      "Po 2 latach",
+      "Po 3 latach",
+      "Po roku",
+      "Po 5 latach"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kolejne badanie jest po 2 latach, a potem już co roku."
+  },
+  {
+    "id": "moto_b040",
+    "question": "Czego nie wolno robić, gdy jezdnię dzieli pojedyncza linia ciągła?",
+    "answers": [
+      "Jechać na światłach drogowych",
+      "Jechać szybciej niż 30 km/h",
+      "Przekraczać jej ani najeżdżać na nią",
+      "Używać klaksonu"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Linia ciągła oddziela pasy ruchu w miejscach, gdzie wyprzedzanie jest niebezpieczne."
+  },
+  {
+    "id": "moto_b041",
+    "question": "Kiedy wolno włączyć tylne światło przeciwmgłowe?",
+    "answers": [
+      "Zawsze po zmroku",
+      "Gdy pada deszcz",
+      "Gdy widoczność spadnie poniżej 50 m",
+      "Gdy widoczność spadnie poniżej 200 m"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Przy lepszej widoczności tylne światło przeciwmgłowe oślepia kierowców jadących za nami."
+  },
+  {
+    "id": "moto_b042",
+    "question": "Co oznacza zielona strzałka (sygnalizator S-2) obok czerwonego światła?",
+    "answers": [
+      "Za chwilę zapali się zielone",
+      "Zakaz skrętu",
+      "Można skręcić po zatrzymaniu, ustępując pierwszeństwa",
+      "Można skręcić bez zatrzymywania"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kierowca musi się zatrzymać i przepuścić pieszych oraz inne pojazdy."
+  },
+  {
+    "id": "moto_b043",
+    "question": "Co oznacza żółte migające światło na sygnalizatorze?",
+    "answers": [
+      "Przejazd tylko dla autobusów",
+      "Bezwzględny zakaz wjazdu",
+      "Pierwszeństwo na skrzyżowaniu",
+      "Zachowaj szczególną ostrożność"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zwykle oznacza też, że sygnalizacja jest wyłączona i obowiązują znaki."
+  },
+  {
+    "id": "moto_b044",
+    "question": "Jaki kształt mają znaki ostrzegawcze w Polsce?",
+    "answers": [
+      "Ośmiokąt",
+      "Trójkąt wierzchołkiem do góry",
+      "Kwadrat",
+      "Koło"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Znaki ostrzegawcze mają żółte tło i czerwoną obwódkę."
+  },
+  {
+    "id": "moto_b045",
+    "question": "Jaki kształt ma znak STOP?",
+    "answers": [
+      "Koło",
+      "Ośmiokąt",
+      "Trójkąt",
+      "Romb"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Ośmiokątny kształt pozwala rozpoznać znak STOP nawet od tyłu."
+  },
+  {
+    "id": "moto_b046",
+    "question": "Jak wygląda znak „ustąp pierwszeństwa”?",
+    "answers": [
+      "Trójkąt odwrócony wierzchołkiem w dół",
+      "Niebieski kwadrat",
+      "Czerwone koło z poziomym pasem",
+      "Żółty romb"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "To jedyny znak w kształcie odwróconego trójkąta."
+  },
+  {
+    "id": "moto_b047",
+    "question": "Jak wyglądają typowe znaki zakazu?",
+    "answers": [
+      "Okrągłe niebieskie",
+      "Trójkątne z czerwoną obwódką",
+      "Okrągłe z czerwoną obwódką",
+      "Kwadratowe niebieskie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Np. zakaz wyprzedzania to białe koło z czerwoną obwódką."
+  },
+  {
+    "id": "moto_b048",
+    "question": "Jak wyglądają znaki nakazu?",
+    "answers": [
+      "Niebieskie koła z białym symbolem",
+      "Zielone prostokąty",
+      "Żółte trójkąty",
+      "Białe koła z czerwoną obwódką"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Znaki nakazu, np. „nakaz jazdy w prawo”, mają niebieskie tło."
+  },
+  {
+    "id": "moto_b049",
+    "question": "Jak wygląda znak „droga z pierwszeństwem”?",
+    "answers": [
+      "Biały trójkąt",
+      "Czerwony ośmiokąt",
+      "Niebieski kwadrat",
+      "Żółty romb z białą obwódką"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Przekreślony romb oznacza koniec drogi z pierwszeństwem."
+  },
+  {
+    "id": "moto_b050",
+    "question": "Jaką literą oznacza się w Polsce znaki zakazu?",
+    "answers": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "A to ostrzegawcze, B zakazu, C nakazu, a D informacyjne."
+  },
+  {
+    "id": "moto_b051",
+    "question": "Jakie oznaczenie ma w polskich przepisach znak STOP?",
+    "answers": [
+      "A-1",
+      "D-1",
+      "C-12",
+      "B-20"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Znak STOP należy do grupy znaków zakazu."
+  },
+  {
+    "id": "moto_b052",
+    "question": "W którym zespole Robert Kubica zadebiutował w Formule 1 w 2006 roku?",
+    "answers": [
+      "Williams",
+      "Ferrari",
+      "BMW Sauber",
+      "Renault"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Debiutował w Grand Prix Węgier 2006 i od razu zachwycił tempem."
+  },
+  {
+    "id": "moto_b053",
+    "question": "W barwach którego zespołu Robert Kubica wrócił do Formuły 1 w 2019 roku?",
+    "answers": [
+      "Williams",
+      "Renault",
+      "Haas",
+      "McLaren"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Powrót nastąpił osiem lat po ciężkim wypadku w rajdzie we Włoszech."
+  },
+  {
+    "id": "moto_b054",
+    "question": "Jakim autem Robert Kubica wygrał w 2025 roku 24-godzinny wyścig Le Mans?",
+    "answers": [
+      "Porsche",
+      "Ferrari",
+      "Cadillac",
+      "Toyota"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kubica jako pierwszy Polak wygrał klasyfikację generalną Le Mans."
+  },
+  {
+    "id": "moto_b055",
+    "question": "Ile godzin trwa słynny wyścig w Le Mans?",
+    "answers": [
+      "12",
+      "48",
+      "6",
+      "24"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Załogi kilku kierowców jadą na zmianę przez całą dobę."
+  },
+  {
+    "id": "moto_b056",
+    "question": "Na którym miejscu Krzysztof Hołowczyc ukończył Rajd Dakar 2015 w samochodach?",
+    "answers": [
+      "Na trzecim",
+      "Na piątym",
+      "Na drugim",
+      "Na pierwszym"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "To jego najlepszy wynik w Dakarze – jechał Mini."
+  },
+  {
+    "id": "moto_b057",
+    "question": "Który Polak wygrał Rajd Dakar 2015 w kategorii quadów?",
+    "answers": [
+      "Marek Dąbrowski",
+      "Krzysztof Hołowczyc",
+      "Rafał Sonik",
+      "Jakub Przygoński"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rafał Sonik jako pierwszy Polak wygrał klasyfikację w Dakarze."
+  },
+  {
+    "id": "moto_b058",
+    "question": "Z jakiego miasta wystartowała pierwsza edycja Rajdu Dakar (1978/1979)?",
+    "answers": [
+      "Z Marsylii",
+      "Z Lizbony",
+      "Z Madrytu",
+      "Z Paryża"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Stąd jego dawna nazwa – Rajd Paryż–Dakar."
+  },
+  {
+    "id": "moto_b059",
+    "question": "Na jaki kontynent przeniesiono Rajd Dakar w 2009 roku?",
+    "answers": [
+      "Do Australii",
+      "Do Ameryki Północnej",
+      "Do Azji",
+      "Do Ameryki Południowej"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Edycję 2008 w Afryce odwołano z powodu zagrożenia terrorystycznego."
+  },
+  {
+    "id": "moto_b060",
+    "question": "W którym roku odbył się pierwszy Rajd Monte Carlo?",
+    "answers": [
+      "1950",
+      "1911",
+      "1894",
+      "1925"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "To jeden z najstarszych rajdów samochodowych na świecie."
+  },
+  {
+    "id": "moto_b061",
+    "question": "W którym roku odbyła się pierwsza edycja Rajdu Polski?",
+    "answers": [
+      "1921",
+      "1936",
+      "1905",
+      "1957"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Rajd Polski to drugi najstarszy rajd świata, po Rajdzie Monte Carlo."
+  },
+  {
+    "id": "moto_b062",
+    "question": "W jakiej dyscyplinie Sobiesław Zasada był trzykrotnym mistrzem Europy?",
+    "answers": [
+      "W wyścigach Formuły 1",
+      "W żużlu",
+      "W motocrossie",
+      "W rajdach samochodowych"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Zasada zdobywał rajdowe mistrzostwo Europy w latach 1966, 1967 i 1971."
+  },
+  {
+    "id": "moto_b063",
+    "question": "Na jakim torze odbył się pierwszy wyścig mistrzostw świata Formuły 1 w 1950 roku?",
+    "answers": [
+      "Monako",
+      "Spa-Francorchamps",
+      "Silverstone",
+      "Monza"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wyścig o Grand Prix Wielkiej Brytanii wygrał Giuseppe Farina."
+  },
+  {
+    "id": "moto_b064",
+    "question": "Co oznacza w wyścigach flaga w czarno-białą szachownicę?",
+    "answers": [
+      "Koniec wyścigu",
+      "Wypadek na torze",
+      "Start wyścigu",
+      "Zjazd do boksów"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Szachownicą macha się nad zwycięzcą przekraczającym linię mety."
+  },
+  {
+    "id": "moto_b065",
+    "question": "Co oznacza w Formule 1 niebieska flaga?",
+    "answers": [
+      "Przepuść szybszego, dublującego kierowcę",
+      "Przerwanie wyścigu",
+      "Ostatnie okrążenie",
+      "Śliska nawierzchnia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kierowca, który ignoruje niebieskie flagi, może dostać karę."
+  },
+  {
+    "id": "moto_b066",
+    "question": "Na którym torze zginął Ayrton Senna w 1994 roku?",
+    "answers": [
+      "Interlagos",
+      "Monza",
+      "Imola",
+      "Monako"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wypadek wydarzył się podczas Grand Prix San Marino."
+  },
+  {
+    "id": "moto_b067",
+    "question": "Jak nazywa się szybki postój bolidu w alei serwisowej, np. na wymianę opon?",
+    "answers": [
+      "Drive-through",
+      "Safety car",
+      "Pit stop",
+      "Pole position"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dobre zespoły wymieniają cztery koła w około 2–3 sekundy."
+  },
+  {
+    "id": "moto_b068",
+    "question": "Co oznacza w wyścigach „pole position”?",
+    "answers": [
+      "Pierwsze pole startowe",
+      "Najszybsze okrążenie wyścigu",
+      "Postój w boksie",
+      "Ostatnie miejsce na starcie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zdobywa je kierowca z najlepszym czasem w kwalifikacjach."
+  },
+  {
+    "id": "moto_b069",
+    "question": "Jaki pojazd w 1997 r. jako pierwszy przekroczył barierę dźwięku na lądzie?",
+    "answers": [
+      "Spirit of America",
+      "Bluebird",
+      "ThrustSSC",
+      "Bloodhound"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Prowadzony przez Andy'ego Greena osiągnął ok. 1228 km/h."
+  },
+  {
+    "id": "moto_b070",
+    "question": "Pierwszy samochód, który w 1899 r. przekroczył 100 km/h, miał napęd…",
+    "answers": [
+      "Elektryczny",
+      "Benzynowy",
+      "Wysokoprężny",
+      "Parowy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Był to „La Jamais Contente” prowadzony przez Camille'a Jenatzy'ego."
+  },
+  {
+    "id": "moto_b071",
+    "question": "Kto w 1886 r. opatentował pierwszy praktyczny samochód z silnikiem spalinowym?",
+    "answers": [
+      "Henry Ford",
+      "Nikolaus Otto",
+      "Karl Benz",
+      "Rudolf Diesel"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Benz Patent-Motorwagen miał trzy koła i silnik o mocy poniżej 1 KM."
+  },
+  {
+    "id": "moto_b072",
+    "question": "Kto w 1888 r. odbył pierwszą dłuższą podróż samochodem, bez wiedzy męża?",
+    "answers": [
+      "Mary Anderson",
+      "Marie Curie",
+      "Bertha Benz",
+      "Clärenore Stinnes"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Przejechała ok. 100 km z Mannheim do Pforzheim, by spopularyzować wynalazek męża."
+  },
+  {
+    "id": "moto_b073",
+    "question": "W którym roku zaprezentowano Forda T?",
+    "answers": [
+      "1932",
+      "1908",
+      "1920",
+      "1896"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Produkowano go aż do 1927 roku w ponad 15 mln egzemplarzy."
+  },
+  {
+    "id": "moto_b074",
+    "question": "Jaką innowację wprowadził Henry Ford w 1913 roku?",
+    "answers": [
+      "Pasy bezpieczeństwa",
+      "Silnik wysokoprężny",
+      "Hamulce tarczowe",
+      "Ruchomą taśmę montażową"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dzięki taśmie montaż Forda T skrócił się z kilkunastu do około półtorej godziny."
+  },
+  {
+    "id": "moto_b075",
+    "question": "W jakim kolorze, według słynnego powiedzenia Henry'ego Forda, klient mógł mieć Forda T?",
+    "answers": [
+      "Dowolnym, byle czarnym",
+      "W kolorze karoserii konkurencji",
+      "Tylko czerwonym",
+      "Tylko białym"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Czarny lakier schnął najszybciej, co przyspieszało produkcję."
+  },
+  {
+    "id": "moto_b076",
+    "question": "Od nazwiska którego wynalazcy pochodzi nazwa silnika wysokoprężnego?",
+    "answers": [
+      "Karl Benz",
+      "Rudolf Diesel",
+      "James Watt",
+      "Gottlieb Daimler"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Diesel opatentował swój silnik w latach 90. XIX wieku."
+  },
+  {
+    "id": "moto_b077",
+    "question": "W jakich okolicznościach w 1913 roku zginął Rudolf Diesel?",
+    "answers": [
+      "W wypadku samochodowym",
+      "Zniknął z pokładu statku",
+      "W katastrofie kolejowej",
+      "W wybuchu silnika"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Wypadł lub wyskoczył z parowca płynącego do Anglii – okoliczności do dziś są niejasne."
+  },
+  {
+    "id": "moto_b078",
+    "question": "W którym mieście w 1868 r. ustawiono pierwszą sygnalizację świetlną dla ruchu ulicznego?",
+    "answers": [
+      "W Londynie",
+      "W Paryżu",
+      "W Berlinie",
+      "W Nowym Jorku"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Była to gazowa latarnia obsługiwana ręcznie przez policjanta."
+  },
+  {
+    "id": "moto_b079",
+    "question": "W którym z tych krajów obowiązuje ruch lewostronny?",
+    "answers": [
+      "W Japonii",
+      "We Włoszech",
+      "W Hiszpanii",
+      "W Niemczech"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lewostronnie jeździ się też m.in. w Wielkiej Brytanii, Irlandii i Australii."
+  },
+  {
+    "id": "moto_b080",
+    "question": "Który kraj w 1967 r. przeszedł z ruchu lewostronnego na prawostronny (tzw. Dagen H)?",
+    "answers": [
+      "Norwegia",
+      "Dania",
+      "Finlandia",
+      "Szwecja"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zmiana nastąpiła 3 września 1967 roku nad ranem."
+  }
+]

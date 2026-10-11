@@ -1,63 +1,111 @@
 const fs = require('fs');
 const path = require('path');
+const { SABOTAGE_TYPES } = require('./validation');
 
 let questionsDatabase = { categories: {} };
 let gameQuestions = [];
 
-const CATEGORY_MAPPING = {
-  'sci_': 'nauka_polska',
-  'tech_': 'nauka_polska', 
-  'geo_world_': 'geografia_swiata',
-  'geo_': 'geografia_polski',
-  'hist_world_': 'historia_swiata',
-  'hist_': 'historia_polski',
-  'sport_': 'sport_polski',
-  'cult_': 'kultura_polska',
-  'art_': 'kultura_polska',
-  'lit_': 'kultura_polska',
-  'ent_': 'rozrywka_polska',
-  'film_': 'rozrywka_polska',
-  'music_': 'rozrywka_polska',
-  'mus_': 'rozrywka_polska',
-  'food_': 'nauka_polska',
-  'med_': 'nauka_polska',
-  'biz_': 'nauka_polska',
-  'nat_': 'nauka_polska'
+// 🗂️ Category registry: key -> { name, color, icon, prefixes }.
+// Question ids are matched by prefix (longest prefix wins, so order here does not matter).
+// Colors are saturated and readable on the dark navy TV background (#0b1230).
+const CATEGORY_REGISTRY = {
+  'historia_polski':  { name: 'Historia Polski',        color: '#E8B04B', icon: '🏛️', prefixes: ['hist_'] },
+  'historia_swiata':  { name: 'Historia Świata',        color: '#E07A2E', icon: '🌎', prefixes: ['hist_world_'] },
+  'geografia_polski': { name: 'Geografia Polski',       color: '#4CD964', icon: '🗺️', prefixes: ['geo_'] },
+  'geografia_swiata': { name: 'Geografia Świata',       color: '#1ABC9C', icon: '🌍', prefixes: ['geo_world_', 'ne_'] },
+  'kultura_polska':   { name: 'Kultura i Literatura',   color: '#B36BFF', icon: '🎭', prefixes: ['cult_', 'art_', 'lit_'] },
+  'sport_polski':     { name: 'Sport',                  color: '#FF5A36', icon: '🏅', prefixes: ['sport_'] },
+  'pilka_nozna':      { name: 'Piłka nożna',            color: '#9BE15D', icon: '⚽', prefixes: ['foot_'] },
+  'nauka_polska':     { name: 'Nauka',                  color: '#4D8DFF', icon: '🔬', prefixes: ['sci_', 'nat_'] },
+  'technologia':      { name: 'Technologia i Internet', color: '#00C8FF', icon: '💻', prefixes: ['it_', 'tech_'] },
+  'motoryzacja':      { name: 'Motoryzacja',            color: '#FF2E4C', icon: '🏎️', prefixes: ['moto_'] },
+  'kosmos':           { name: 'Kosmos i Astronomia',    color: '#8A6CFF', icon: '🚀', prefixes: ['space_'] },
+  'zwierzeta':        { name: 'Zwierzęta i Przyroda',   color: '#2ECC71', icon: '🐾', prefixes: ['zoo_'] },
+  'kuchnia':          { name: 'Kuchnia i Jedzenie',     color: '#FF9F1C', icon: '🍕', prefixes: ['food_'] },
+  'zdrowie':          { name: 'Ciało i Zdrowie',        color: '#FF6B9D', icon: '🩺', prefixes: ['med_'] },
+  'biznes':           { name: 'Marki i Biznes',         color: '#F5D020', icon: '🏷️', prefixes: ['biz_', 'brand_'] },
+  'rozrywka_polska':  { name: 'Popkultura i Gry',       color: '#FF3EA5', icon: '🎮', prefixes: ['ent_'] },
+  'film':             { name: 'Film i Seriale',         color: '#FF7F6E', icon: '🎬', prefixes: ['film_'] },
+  'muzyka':           { name: 'Muzyka',                 color: '#D25BFF', icon: '🎵', prefixes: ['mus_', 'music_'] },
+  'bajki':            { name: 'Bajki i Dzieciństwo',    color: '#FF9AE0', icon: '🧸', prefixes: ['kids_'] },
+  'prl':              { name: 'PRL i Lata 90.',         color: '#D4B82A', icon: '📼', prefixes: ['prl_'] },
+  'jezyk':            { name: 'Język Polski',           color: '#5FD3F3', icon: '🔤', prefixes: ['lang_'] },
+  'mitologia':        { name: 'Mitologia i Legendy',    color: '#FFE45C', icon: '⚡', prefixes: ['myth_'] },
+  'militaria':        { name: 'Lotnictwo i Militaria',  color: '#A8C256', icon: '✈️', prefixes: ['mil_'] },
+  'logika':           { name: 'Matematyka i Zagadki',   color: '#36E2B4', icon: '🧮', prefixes: ['math_'] },
+  'napoje':           { name: 'Napoje i Drinki',        color: '#FF8A3D', icon: '🍹', prefixes: ['drink_'] },
+  'swieta':           { name: 'Święta i Tradycje',      color: '#E5484D', icon: '🎄', prefixes: ['trad_'] },
+  'podroze':          { name: 'Podróże',                color: '#3DD6D0', icon: '🧳', prefixes: ['travel_'] },
+  'architektura':     { name: 'Budowle i Architektura', color: '#C9A27E', icon: '🏰', prefixes: ['build_'] },
+  'rekordy':          { name: 'Rekordy i Ciekawostki',  color: '#FFC233', icon: '🏆', prefixes: ['rec_'] },
+  'pieniadze':        { name: 'Pieniądze i Waluty',     color: '#46C27A', icon: '💰', prefixes: ['money_'] },
+  'moda':             { name: 'Moda i Styl',            color: '#F06EC8', icon: '👗', prefixes: ['fashion_'] },
+  'rosliny':          { name: 'Rośliny i Ogród',        color: '#7BD94A', icon: '🌱', prefixes: ['plant_'] },
+  'jezyki_swiata':    { name: 'Języki Świata',          color: '#6FA8FF', icon: '🗣️', prefixes: ['wlang_'] }
 };
 
-const CATEGORY_TEMPLATES = {
-  'historia_polski': { name: 'Historia Polski', color: '#8B4513', icon: '🏛️', questions: [] },
-  'geografia_polski': { name: 'Geografia Polski', color: '#228B22', icon: '🗺️', questions: [] },
-  'kultura_polska': { name: 'Kultura Polska', color: '#9932CC', icon: '🎭', questions: [] },
-  'sport_polski': { name: 'Sport Polski', color: '#FF4500', icon: '⚽', questions: [] },
-  'nauka_polska': { name: 'Nauka i Wynalazki', color: '#4169E1', icon: '🔬', questions: [] },
-  'rozrywka_polska': { name: 'Rozrywka Polska', color: '#FF1493', icon: '🎬', questions: [] },
-  'geografia_swiata': { name: 'Geografia Świata', color: '#228B22', icon: '🌍', questions: [] },
-  'historia_swiata': { name: 'Historia Świata', color: '#CD853F', icon: '🌎', questions: [] }
-};
+// prefix -> category key, plus prefixes sorted longest-first (hist_world_ beats hist_, geo_world_ beats geo_)
+const CATEGORY_MAPPING = {};
+Object.entries(CATEGORY_REGISTRY).forEach(([key, cat]) => {
+  cat.prefixes.forEach(prefix => { CATEGORY_MAPPING[prefix] = key; });
+});
+const CATEGORY_PREFIXES = Object.keys(CATEGORY_MAPPING).sort((a, b) => b.length - a.length);
+
+const CATEGORY_TEMPLATES = {};
+Object.entries(CATEGORY_REGISTRY).forEach(([key, { name, color, icon }]) => {
+  CATEGORY_TEMPLATES[key] = { name, color, icon, questions: [] };
+});
+
+// Text fallback for questions whose id has no known prefix: first matching rule wins
+const CATEGORY_KEYWORDS = [
+  ['motoryzacja', ['samochod', 'samochód', 'silnik', 'formuł', 'rajd', 'motocykl', 'kierowc', 'skrzyni bieg']],
+  ['technologia', ['komputer', 'internet', 'smartfon', 'aplikacj', 'procesor', 'google', 'microsoft', 'youtube', 'bajt', 'wi-fi']],
+  ['kosmos', ['planet', 'kosmos', 'galaktyk', 'astronaut', 'orbit', 'nasa']],
+  ['pilka_nozna', ['piłkarz', 'piłka nożna', 'piłce nożnej', 'mundial', 'liga mistrzów']],
+  ['sport_polski', ['sport', 'olimpi', 'medal']],
+  ['muzyka', ['piosenk', 'album', 'zespół muzycz', 'muzyk', 'kompozytor', 'singiel']],
+  ['film', ['film', 'serial', 'reżyser', 'oscar']],
+  ['kuchnia', ['potraw', 'kuchni', 'przepis']],
+  ['zdrowie', ['ciała ludzk', 'ciele ludzk', 'ludzkiego ciała', 'ludzkim ciele', 'ludzkie ciało', 'organizm', 'witamin', 'lekarz', 'mięsień', 'mięśni']],
+  ['zwierzeta', ['zwierz', 'ptak', 'ssak', 'owad']],
+  ['mitologia', ['mitolog', 'bogini', 'legendzie', 'według legendy', 'legenda o']],
+  ['militaria', ['samolot', 'czołg', 'okręt', 'lotnictw']],
+  ['biznes', ['marka', 'firma', 'koncern', 'logo']],
+  ['jezyk', ['przysłow', 'ortograf', 'frazeolog']],
+  ['prl', ['prl', 'peerel']]
+];
+
+// Keyword must start a word ("sport" matches "sportowiec", not "transport")
+function hasWordStartingWith(text, keyword) {
+  let from = 0;
+  let idx;
+  while ((idx = text.indexOf(keyword, from)) !== -1) {
+    if (idx === 0 || !/[\p{L}\p{N}]/u.test(text[idx - 1])) return true;
+    from = idx + 1;
+  }
+  return false;
+}
 
 function determineCategory(question) {
-  const qId = question.id || '';
+  const qId = String(question.id || '');
   const qText = (question.question || '').toLowerCase();
-  
-  for (const [prefix, category] of Object.entries(CATEGORY_MAPPING)) {
-    if (qId.startsWith(prefix)) {
-      return category;
-    }
+
+  const prefix = CATEGORY_PREFIXES.find(p => qId.startsWith(p));
+  if (prefix) return CATEGORY_MAPPING[prefix];
+
+  for (const [category, keywords] of CATEGORY_KEYWORDS) {
+    if (keywords.some(k => hasWordStartingWith(qText, k))) return category;
   }
-  
-  if (qText.includes('polska') || qText.includes('polsk')) {
-    if (qText.includes('historia') || qText.includes('król') || qText.includes('wojna')) {
-      return 'historia_polski';
-    } else if (qText.includes('rzeka') || qText.includes('góra') || qText.includes('miasto')) {
-      return 'geografia_polski';
-    } else if (qText.includes('sport') || qText.includes('piłka')) {
-      return 'sport_polski';
-    } else {
-      return 'kultura_polska';
-    }
+
+  const isPolish = qText.includes('polsk') || qText.includes('polsce');
+  if (qText.includes('histori') || qText.includes('król') || qText.includes('wojn') || qText.includes('bitw')) {
+    return isPolish ? 'historia_polski' : 'historia_swiata';
   }
-  
+  if (qText.includes('rzek') || qText.includes('góra') || qText.includes('miast') || qText.includes('stolic') || qText.includes('państw')) {
+    return isPolish ? 'geografia_polski' : 'geografia_swiata';
+  }
+  if (isPolish) return 'kultura_polska';
+
   return 'nauka_polska';
 }
 
@@ -89,12 +137,21 @@ function loadQuestionsFromDirectory() {
         if (Array.isArray(fileData)) {
           fileData.forEach((question, index) => {
             try {
-              if (question.question && question.answers && question.correct !== undefined) {
-                const category = determineCategory(question);
+              // 🔧 Accept numeric-string "correct" (e.g. "2"), reject out-of-range values
+              if (typeof question.correct === 'string' && /^\d+$/.test(question.correct.trim())) {
+                question.correct = Number(question.correct.trim());
+              }
+              if (question.question && Array.isArray(question.answers) && question.correct !== undefined &&
+                  !(Number.isInteger(question.correct) && question.correct >= 0 && question.correct < question.answers.length)) {
+                console.error(`  ❌ Skipping question ${index} in ${file}: invalid "correct" (${JSON.stringify(question.correct)}) for ${question.answers.length} answers`);
+                return;
+              }
+              if (question.question && Array.isArray(question.answers) && question.correct !== undefined) {
+                let category = determineCategory(question);
                 question.source = file;
                 
                 // Generate truly unique ID
-                let uniqueId = question.id;
+                let uniqueId = question.id !== undefined && question.id !== null ? String(question.id) : '';
                 
                 // If no ID or empty, generate one
                 if (!uniqueId || !uniqueId.trim()) {
@@ -121,7 +178,8 @@ function loadQuestionsFromDirectory() {
                 questionsDatabase.categories[category].questions.push(question);
                 gameQuestions.push({
                   ...question,
-                  category: questionsDatabase.categories[category].name
+                  category: questionsDatabase.categories[category].name,
+                  categoryKey: category
                 });
               }
             } catch (questionError) {
@@ -140,7 +198,7 @@ function loadQuestionsFromDirectory() {
                     question.source = file;
                     
                     // Generate truly unique ID for structured format too
-                    let uniqueId = question.id;
+                    let uniqueId = question.id !== undefined && question.id !== null ? String(question.id) : '';
                     
                     // If no ID or empty, generate one
                     if (!uniqueId || !uniqueId.trim()) {
@@ -168,7 +226,8 @@ function loadQuestionsFromDirectory() {
                     questionsDatabase.categories[categoryKey].questions.push(question);
                     gameQuestions.push({
                       ...question,
-                      category: questionsDatabase.categories[categoryKey].name
+                      category: questionsDatabase.categories[categoryKey].name,
+                      categoryKey
                     });
                   } catch (questionError) {
                     console.error(`  ❌ Error processing structured question ${index} in category ${categoryName} of ${file}:`, questionError.message);
@@ -234,6 +293,10 @@ function loadQuestionsFromDirectory() {
 
 const gameSessions = new Map();
 
+// 🃏 Sabotage cards (minigames shown on the victim's phone before they can answer)
+const SABOTAGE_MAX_CARDS = 2; // max cards in hand
+const SABOTAGE_MAX_PENDING = 2; // max pending sabotages per target
+
 // Global system to track used questions across sessions with persistence
 const QUESTION_HISTORY_FILE = path.join(__dirname, '../.question_history.json');
 const QUESTION_HISTORY_LIMIT = 200; // Remember last 200 questions
@@ -271,28 +334,22 @@ function saveQuestionHistory() {
   }
 }
 
-// Smart question selection avoiding recently used questions
-function selectFreshQuestions(requestedCount) {
-  const availableQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
-
-  console.log(`Question pool status: ${availableQuestions.length}/${gameQuestions.length} fresh questions available`);
-
-  // If we don't have enough fresh questions, reset history but keep some recent ones
-  if (availableQuestions.length < Math.max(requestedCount, MIN_QUESTIONS_POOL)) {
+// ♻️ Make sure the global pool has enough fresh questions for a whole game (same reset rule as selectFreshQuestions)
+function ensureFreshPool(requestedCount) {
+  const freshCount = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id)).length;
+  if (freshCount < Math.max(requestedCount, MIN_QUESTIONS_POOL)) {
     console.log('⚠️  Low fresh questions! Resetting history but keeping most recent 50 questions');
-
-    // Convert Set to Array, keep last 50, clear and re-add them
     const recentQuestions = Array.from(usedQuestionsHistory).slice(-50);
     usedQuestionsHistory.clear();
     recentQuestions.forEach(qId => usedQuestionsHistory.add(qId));
-
-    // Recalculate available questions
-    const freshQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
-    console.log(`After reset: ${freshQuestions.length}/${gameQuestions.length} fresh questions available`);
-
-    return ensureUniqueQuestions(shuffleArray(freshQuestions).slice(0, requestedCount));
   }
+}
 
+// Smart question selection avoiding recently used questions
+function selectFreshQuestions(requestedCount) {
+  ensureFreshPool(requestedCount);
+  const availableQuestions = gameQuestions.filter(q => !usedQuestionsHistory.has(q.id));
+  console.log(`Question pool status: ${availableQuestions.length}/${gameQuestions.length} fresh questions available`);
   return ensureUniqueQuestions(shuffleArray(availableQuestions).slice(0, requestedCount));
 }
 
@@ -367,21 +424,324 @@ class GameSession {
     this.rounds = this.gameSettings.rounds || 5;
     this.questionsPerRound = this.gameSettings.questionsPerRound || 5;
     this.totalQuestions = this.rounds * this.questionsPerRound;
+    this.questionActive = false; // 🔒 true only while answers are accepted
+    this.pendingTimers = []; // ⏱️ transition timers (results/round-end/next question)
+    this.vote = null; // 🗳️ active category vote state
+    this.voteTimer = null;
+    this.roundCategory = null;
+    this.resetSabotage();
 
-    // Use smart question selection to avoid recently used questions
-    this.shuffledQuestions = selectFreshQuestions(this.totalQuestions);
-
-    // Track question IDs used in this session to ensure uniqueness
-    this.usedQuestionIds = new Set(this.shuffledQuestions.map(q => q.id));
+    this.pickQuestions();
 
     this.startInactivityTimer();
 
-    console.log(`🎮 Session ${id} created with ${this.shuffledQuestions.length} fresh unique questions`);
+    console.log(`🎮 Session ${id} created (${gameQuestions.length} questions in pool)`);
+  }
 
-    // Verify all questions in session are unique
-    if (this.shuffledQuestions.length !== this.usedQuestionIds.size) {
-      console.warn(`⚠️  Session ${id}: Found duplicate questions! Expected ${this.shuffledQuestions.length}, got ${this.usedQuestionIds.size} unique`);
+  // Reset per-game question state; questions are picked per round after the category vote
+  pickQuestions() {
+    ensureFreshPool(this.rounds * this.questionsPerRound);
+    this.totalQuestions = Math.min(this.rounds * this.questionsPerRound, gameQuestions.length);
+    if (this.totalQuestions === 0) {
+      console.error(`❌ Critical: No questions available for session ${this.id}. gameQuestions.length = ${gameQuestions.length}`);
     }
+    this.shuffledQuestions = []; // questions actually played, in order
+    this.usedQuestionIds = new Set(); // 🔒 no repeats within a game
+    this.questionIndex = 0;
+    this.roundCategory = null;
+    this.playedCategoryKeys = new Set(); // categories already played in this game
+    this.vote = null;
+    this.resetSabotage();
+  }
+
+  // 🃏 Sabotage state lives outside player objects so cards never leak via player lists / toJSON
+  resetSabotage() {
+    this.sabotageCards = new Map(); // playerId -> [type]
+    this.sabotageQueue = new Map(); // playerId -> [{ type, fromName }] for the next question
+    this.activeSabotages = new Map(); // playerId -> [{ type, fromName }] for the current question
+  }
+
+  getSabotageCards(playerId) {
+    return [...(this.sabotageCards.get(playerId) || [])];
+  }
+
+  emitSabotageCards(io, playerId) {
+    const player = this.players.get(playerId);
+    if (!player || !player.socketId) return;
+    io.to(player.socketId).emit('sabotage-cards', { cards: this.getSabotageCards(playerId) });
+  }
+
+  // Active sabotages of the current question still blocking the player (answer not given yet)
+  getBlockingSabotages(playerId) {
+    if (!this.questionActive || this.playerAnswers.has(playerId)) return [];
+    return [...(this.activeSabotages.get(playerId) || [])];
+  }
+
+  // +1 random card for every connected player (hand limit SABOTAGE_MAX_CARDS)
+  dealSabotageCards(io) {
+    this.players.forEach(player => {
+      if (player.connected === false) return;
+      const hand = this.sabotageCards.get(player.id) || [];
+      if (hand.length < SABOTAGE_MAX_CARDS) {
+        hand.push(SABOTAGE_TYPES[Math.floor(Math.random() * SABOTAGE_TYPES.length)]);
+        this.sabotageCards.set(player.id, hand);
+      }
+      this.emitSabotageCards(io, player.id);
+    });
+    console.log(`🃏 Session ${this.id}: sabotage cards dealt`);
+  }
+
+  // Returns error message or null on success
+  useSabotage(io, fromPlayerId, targetPlayerId, type) {
+    if (this.status !== 'playing') return 'Gra nie trwa';
+    const from = this.players.get(fromPlayerId);
+    if (!from) return 'Nie znaleziono gracza w sesji';
+    if (fromPlayerId === targetPlayerId) return 'Nie możesz sabotować samego siebie';
+    const target = this.players.get(targetPlayerId);
+    if (!target) return 'Nie znaleziono celu sabotażu';
+    if (target.connected === false) return `${target.name} jest offline`;
+    // 🔒 No further question to sabotage (results of the last question are on screen)
+    if (!this.questionActive && this.questionIndex >= this.totalQuestions) return 'To już koniec gry';
+    const hand = this.sabotageCards.get(fromPlayerId) || [];
+    const cardIndex = hand.indexOf(type);
+    if (cardIndex === -1) return 'Nie masz takiej karty';
+    const queue = this.sabotageQueue.get(targetPlayerId) || [];
+    if (queue.length + this.getBlockingSabotages(targetPlayerId).length >= SABOTAGE_MAX_PENDING) {
+      return `${target.name} ma już ${SABOTAGE_MAX_PENDING} sabotaże na głowie`;
+    }
+
+    hand.splice(cardIndex, 1);
+    this.sabotageCards.set(fromPlayerId, hand);
+    this.updateActivity();
+    const sabotage = { type, fromName: from.name };
+
+    if (this.questionActive && !this.playerAnswers.has(targetPlayerId)) {
+      // ⚡ Question running and target has not answered yet -> hit immediately
+      const active = this.activeSabotages.get(targetPlayerId) || [];
+      active.push(sabotage);
+      this.activeSabotages.set(targetPlayerId, active);
+      if (target.socketId) {
+        io.to(target.socketId).emit('sabotage-incoming', { sabotages: [sabotage] });
+      }
+      console.log(`⚡ Session ${this.id}: ${from.name} -> ${target.name} immediate sabotage ${type}`);
+    } else {
+      queue.push(sabotage);
+      this.sabotageQueue.set(targetPlayerId, queue);
+      console.log(`🃏 Session ${this.id}: ${from.name} -> ${target.name} queued sabotage ${type}`);
+    }
+
+    this.emitSabotageCards(io, fromPlayerId);
+    io.to(this.id).emit('sabotage-used', {
+      fromPlayerId,
+      fromName: from.name,
+      targetPlayerId,
+      targetName: target.name,
+      type
+    });
+    return null;
+  }
+
+  // Move queued sabotages to the current question and notify victims (call right after 'new-question')
+  deliverSabotages(io) {
+    this.activeSabotages = new Map();
+    this.sabotageQueue.forEach((queue, playerId) => {
+      if (!queue.length) return;
+      const player = this.players.get(playerId);
+      if (!player) return;
+      this.activeSabotages.set(playerId, queue);
+      if (player.socketId) {
+        io.to(player.socketId).emit('sabotage-incoming', { sabotages: [...queue] });
+      }
+      console.log(`💥 Session ${this.id}: ${player.name} hit by ${queue.map(s => s.type).join(', ')}`);
+    });
+    this.sabotageQueue = new Map();
+  }
+
+  getTotalRounds() {
+    return Math.max(1, Math.ceil(this.totalQuestions / this.questionsPerRound));
+  }
+
+  getCurrentRound() {
+    return Math.floor(this.questionIndex / this.questionsPerRound) + 1;
+  }
+
+  // Fresh = not in global history and not yet used in this game
+  getFreshQuestions(categoryKey) {
+    return gameQuestions.filter(q =>
+      (!categoryKey || q.categoryKey === categoryKey) &&
+      !usedQuestionsHistory.has(q.id) &&
+      !this.usedQuestionIds.has(q.id));
+  }
+
+  buildVoteOptions() {
+    const freshCounts = {};
+    const unusedCounts = {}; // not used in this game (ignores global history)
+    gameQuestions.forEach(q => {
+      if (this.usedQuestionIds.has(q.id)) return;
+      unusedCounts[q.categoryKey] = (unusedCounts[q.categoryKey] || 0) + 1;
+      if (!usedQuestionsHistory.has(q.id)) freshCounts[q.categoryKey] = (freshCounts[q.categoryKey] || 0) + 1;
+    });
+    const stats = Object.entries(questionsDatabase.categories).map(([key, cat]) => ({
+      key,
+      name: cat.name,
+      icon: cat.icon,
+      color: cat.color,
+      available: freshCounts[key] || 0
+    }));
+    const needed = this.questionsPerRound;
+    // 🔁 A category already played in this game is never offered again
+    const played = this.playedCategoryKeys || new Set();
+    const notPlayed = stats.filter(c => !played.has(c.key));
+    const eligible = shuffleArray(notPlayed.filter(c => c.available >= needed));
+    // Fewer than 3 categories with enough fresh questions -> fill with whatever is still available
+    const rest = shuffleArray(notPlayed.filter(c => c.available < needed && c.available > 0))
+      .sort((a, b) => b.available - a.available);
+    let options = [...eligible, ...rest].slice(0, 3);
+    if (options.length === 0) {
+      // Every unplayed category is out of fresh questions - offer unplayed ones anyway (questions get
+      // filled from the whole pool); only if all categories were played allow repeats as a last resort
+      const unplayedWithAny = notPlayed.filter(c => unusedCounts[c.key] > 0);
+      const pool = unplayedWithAny.length > 0 ? unplayedWithAny : stats.filter(c => unusedCounts[c.key] > 0);
+      options = shuffleArray(pool).slice(0, 3);
+    }
+    return options;
+  }
+
+  startCategoryVote(io) {
+    if (this.status !== 'playing') return;
+    if (this.questionIndex >= this.totalQuestions) {
+      this.finishGame(io);
+      return;
+    }
+    this.updateActivity();
+    const duration = 10;
+    const options = this.buildVoteOptions();
+    this.vote = {
+      round: this.getCurrentRound(),
+      totalRounds: this.getTotalRounds(),
+      options,
+      votes: new Map(), // playerId -> categoryKey
+      endsAt: Date.now() + duration * 1000,
+      active: true
+    };
+    console.log(`🗳️ Session ${this.id}: category vote for round ${this.vote.round}: ${options.map(o => o.key).join(', ')}`);
+    io.to(this.id).emit('category-vote-start', this.getVoteStartPayload());
+    this.dealSabotageCards(io);
+    this.voteTimer = this.schedule(() => {
+      this.voteTimer = null;
+      this.finishCategoryVote(io);
+    }, duration * 1000);
+  }
+
+  getVoteStartPayload() {
+    if (!this.vote) return null;
+    return {
+      round: this.vote.round,
+      totalRounds: this.vote.totalRounds,
+      duration: Math.max(0, Math.ceil((this.vote.endsAt - Date.now()) / 1000)),
+      options: this.vote.options
+    };
+  }
+
+  getVoteUpdatePayload() {
+    const votes = {};
+    this.vote.options.forEach(o => { votes[o.key] = 0; });
+    this.vote.votes.forEach(key => { votes[key] = (votes[key] || 0) + 1; });
+    return {
+      votes,
+      totalVotes: this.vote.votes.size,
+      totalPlayers: this.getConnectedPlayerCount(),
+      votedPlayerIds: Array.from(this.vote.votes.keys())
+    };
+  }
+
+  // Returns error message or null on success
+  castVote(io, playerId, categoryKey) {
+    if (!this.vote || !this.vote.active) return 'Głosowanie nie trwa';
+    if (!this.players.has(playerId)) return 'Player not found in session';
+    if (!this.vote.options.some(o => o.key === categoryKey)) return 'Nieznana kategoria';
+    this.updateActivity();
+    this.vote.votes.set(playerId, categoryKey);
+    io.to(this.id).emit('category-vote-update', this.getVoteUpdatePayload());
+    this.checkAllVoted(io);
+    return null;
+  }
+
+  // End vote early once every connected player has voted
+  checkAllVoted(io) {
+    if (!this.vote || !this.vote.active) return;
+    const connected = Array.from(this.players.values()).filter(p => p.connected !== false);
+    if (connected.length > 0 && connected.every(p => this.vote.votes.has(p.id))) {
+      this.finishCategoryVote(io);
+    }
+  }
+
+  finishCategoryVote(io) {
+    if (!this.vote || !this.vote.active) return;
+    this.vote.active = false;
+    if (this.voteTimer) {
+      clearTimeout(this.voteTimer);
+      this.pendingTimers = this.pendingTimers.filter(x => x !== this.voteTimer);
+      this.voteTimer = null;
+    }
+
+    const { votes } = this.getVoteUpdatePayload();
+    const max = Math.max(...Object.values(votes));
+    const leaders = max > 0 ? this.vote.options.filter(o => votes[o.key] === max) : this.vote.options;
+    const winner = leaders[Math.floor(Math.random() * leaders.length)];
+    this.roundCategory = { key: winner.key, name: winner.name, icon: winner.icon, color: winner.color };
+    if (!this.playedCategoryKeys) this.playedCategoryKeys = new Set();
+    this.playedCategoryKeys.add(winner.key);
+
+    this.pickRoundQuestions(winner.key);
+    console.log(`🏆 Session ${this.id}: round ${this.vote.round} category ${winner.key} (${max} votes)`);
+
+    io.to(this.id).emit('category-vote-result', {
+      round: this.vote.round,
+      categoryKey: winner.key,
+      name: winner.name,
+      icon: winner.icon,
+      color: winner.color,
+      votes
+    });
+
+    this.schedule(() => this.startQuestion(io), 3000);
+  }
+
+  // Append questions for the current round: category fresh -> whole pool fresh -> anything not used in this game
+  pickRoundQuestions(categoryKey) {
+    const needed = Math.min(this.questionsPerRound, this.totalQuestions - this.questionIndex);
+    let picked = shuffleArray(this.getFreshQuestions(categoryKey)).slice(0, needed);
+    const take = (pool) => {
+      if (picked.length >= needed) return;
+      const ids = new Set(picked.map(q => q.id));
+      const extra = shuffleArray(pool.filter(q => !ids.has(q.id) && !this.usedQuestionIds.has(q.id)));
+      picked = picked.concat(extra.slice(0, needed - picked.length));
+    };
+    if (picked.length < needed) {
+      console.warn(`⚠️  Category ${categoryKey}: only ${picked.length}/${needed} fresh questions, filling from whole pool`);
+      take(this.getFreshQuestions());
+      take(gameQuestions);
+    }
+    picked.forEach(q => this.usedQuestionIds.add(q.id));
+    this.shuffledQuestions.push(...picked);
+    // 🔧 Pool exhausted -> end the game after these questions
+    if (picked.length < needed) {
+      this.totalQuestions = this.questionIndex + picked.length;
+    }
+  }
+
+  finishGame(io) {
+    if (this.status === 'finished') return; // 🔒 idempotent
+    this.status = 'finished';
+    this.vote = null;
+    markQuestionsAsUsed(this.shuffledQuestions);
+    io.to(this.id).emit('game-finished');
+    this.schedule(() => {
+      console.log(`Cleaning up finished session ${this.id}`);
+      this.cleanup();
+      gameSessions.delete(this.id);
+    }, 5 * 60 * 1000);
   }
 
   addPlayer(playerId, playerData) {
@@ -396,32 +756,92 @@ class GameSession {
     this.players.delete(playerId);
   }
 
+  // Keep player (and score) during the game so the phone can reconnect
+  markPlayerDisconnected(playerId) {
+    const player = this.players.get(playerId);
+    if (player) {
+      this.players.set(playerId, { ...player, connected: false, socketId: null });
+    }
+  }
+
+  getConnectedPlayerCount() {
+    return Array.from(this.players.values()).filter(p => p.connected !== false).length;
+  }
+
+  // End question early once every connected player has answered
+  checkAllAnswered(io) {
+    if (!this.questionActive) return;
+    const connected = Array.from(this.players.values()).filter(p => p.connected !== false);
+    if (connected.length > 0 && connected.every(p => this.playerAnswers.has(p.id))) {
+      this.endQuestion(io);
+    }
+  }
+
+  schedule(fn, delay) {
+    const t = setTimeout(() => {
+      this.pendingTimers = this.pendingTimers.filter(x => x !== t);
+      if (gameSessions.get(this.id) !== this) return; // 🧹 session already cleaned up
+      fn();
+    }, delay);
+    this.pendingTimers.push(t);
+    return t;
+  }
+
   getPlayersArray() {
     return Array.from(this.players.values());
   }
 
+  // 🔧 Serializable snapshot - raw session holds Timeout objects (circular) which made
+  // socket.io throw "Maximum call stack size exceeded" on 'host-joined'
+  toJSON() {
+    return {
+      id: this.id,
+      status: this.status,
+      players: this.getPlayersArray(),
+      hostSocket: this.hostSocket,
+      questionIndex: this.questionIndex,
+      rounds: this.rounds,
+      questionsPerRound: this.questionsPerRound,
+      totalQuestions: this.totalQuestions,
+      roundCategory: this.roundCategory,
+      gameSettings: this.gameSettings,
+      createdAt: this.createdAt,
+      lastActivity: this.lastActivity
+    };
+  }
+
   startQuestion(io) {
+    if (this.status !== 'playing') return; // 🔒 ignore stray transitions after game end
     this.updateActivity();
-    if (this.questionIndex < this.totalQuestions) {
-      const question = this.shuffledQuestions[this.questionIndex];
-      this.currentQuestion = question;
-      this.playerAnswers.clear();
-      this.questionStartTime = Date.now();
-      
-      io.to(this.id).emit('new-question', {
-        question: {
-          ...question,
-          correct: undefined
-        }
-      });
-      
-      this.timer = setTimeout(() => {
-        this.endQuestion(io);
-      }, 15000);
-    } else {
-      this.status = 'finished';
-      io.to(this.id).emit('game-finished');
+    if (this.questionIndex >= this.shuffledQuestions.length || this.questionIndex >= this.totalQuestions) {
+      console.warn(`Session ${this.id}: No more questions available (index ${this.questionIndex}/${this.shuffledQuestions.length})`);
+      this.finishGame(io);
+      return;
     }
+
+    const question = this.shuffledQuestions[this.questionIndex];
+    this.currentQuestion = question;
+    this.playerAnswers.clear();
+    this.questionStartTime = Date.now();
+    this.questionActive = true;
+
+    const { correct, categoryKey, ...publicQuestion } = question; // 🔒 never send the correct answer
+    io.to(this.id).emit('new-question', {
+      question: publicQuestion,
+      round: this.getCurrentRound(),
+      totalRounds: this.getTotalRounds(),
+      questionNumber: this.questionIndex + 1,
+      totalQuestions: this.totalQuestions,
+      questionInRound: (this.questionIndex % this.questionsPerRound) + 1,
+      questionsPerRound: this.questionsPerRound,
+      timeLimit: 15,
+      roundCategory: this.roundCategory
+    });
+    this.deliverSabotages(io);
+
+    this.timer = setTimeout(() => {
+      this.endQuestion(io);
+    }, 15000);
   }
 
   startInactivityTimer() {
@@ -449,20 +869,32 @@ class GameSession {
     this.clearInactivityTimer();
     if (this.timer) {
       clearTimeout(this.timer);
+      this.timer = null;
     }
+    this.questionActive = false;
+    this.pendingTimers.forEach(t => clearTimeout(t));
+    this.pendingTimers = [];
+    this.voteTimer = null;
+    this.vote = null;
     this.players.clear();
     this.playerAnswers.clear();
+    this.resetSabotage();
   }
 
   endQuestion(io) {
+    // 🔒 Guard against double end (timer + last answer race) -> double scoring / skipped questions
+    if (!this.questionActive) return;
+    this.questionActive = false;
     clearTimeout(this.timer);
+    this.timer = null;
     this.updateActivity();
 
     const updatedPlayers = Array.from(this.players.values()).map(player => {
       const playerAnswerData = this.playerAnswers.get(player.id);
+      const sabotagedBy = [...(this.activeSabotages.get(player.id) || [])]; // 🃏 sabotages hitting this question
 
       if (!playerAnswerData) {
-        return { ...player, lastPoints: 0, lastCorrect: false, lastAnswer: null, lastResponseTime: null, lastTimeBonus: 0 };
+        return { ...player, lastPoints: 0, lastCorrect: false, lastAnswer: null, lastResponseTime: null, lastTimeBonus: 0, sabotagedBy };
       }
 
       const isCorrect = playerAnswerData.answer === this.currentQuestion.correct;
@@ -482,11 +914,12 @@ class GameSession {
         lastCorrect: isCorrect,
         lastAnswer: playerAnswerData.answer,
         lastResponseTime: responseTime,
-        lastTimeBonus: timeBonus
+        lastTimeBonus: timeBonus,
+        sabotagedBy
       };
     });
 
-    updatedPlayers.forEach(player => {
+    updatedPlayers.forEach(({ sabotagedBy, ...player }) => {
       this.players.set(player.id, player);
     });
 
@@ -496,7 +929,7 @@ class GameSession {
     });
 
     // Show results summary screen with all details
-    setTimeout(() => {
+    this.schedule(() => {
       io.to(this.id).emit('show-results-summary', {
         correctAnswer: this.currentQuestion.correct,
         updatedPlayers: updatedPlayers,
@@ -510,34 +943,23 @@ class GameSession {
 
     if (isRoundEnd && this.questionIndex < this.totalQuestions) {
       // Show results for 5 seconds, then round summary for 10 seconds
-      setTimeout(() => {
+      this.schedule(() => {
         io.to(this.id).emit('round-end', {
           round: this.questionIndex / this.questionsPerRound,
           players: updatedPlayers
         });
       }, 6500); // 1.5s + 5s for results
 
-      setTimeout(() => {
-        this.startQuestion(io);
+      this.schedule(() => {
+        this.startCategoryVote(io); // 🗳️ next round starts with a category vote
       }, 16500); // 1.5s + 5s + 10s
     } else if (this.questionIndex >= this.totalQuestions) {
-      this.status = 'finished';
-
-      // Mark all questions from this session as used
-      markQuestionsAsUsed(this.shuffledQuestions);
-
-      setTimeout(() => {
-        io.to(this.id).emit('game-finished');
+      this.schedule(() => {
+        this.finishGame(io);
       }, 6500); // Show results for 5 seconds before final screen
-
-      setTimeout(() => {
-        console.log(`Cleaning up finished session ${this.id}`);
-        this.cleanup();
-        gameSessions.delete(this.id);
-      }, 5 * 60 * 1000); // Clean up 5 minutes after game ends
     } else {
       // Normal question transition - show results for 5 seconds
-      setTimeout(() => {
+      this.schedule(() => {
         this.startQuestion(io);
       }, 6500); // 1.5s + 5s
     }

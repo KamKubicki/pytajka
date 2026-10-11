@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "myth_i001",
+    "question": "Kto był królem bogów na Olimpie w mitologii greckiej?",
+    "answers": [
+      "Hades",
+      "Apollo",
+      "Posejdon",
+      "Zeus"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zeus władał niebem i piorunami, a z Olimpu rządził pozostałymi bogami."
+  },
+  {
+    "id": "myth_i002",
+    "question": "Jak nazywał się rzymski odpowiednik Zeusa?",
+    "answers": [
+      "Saturn",
+      "Merkury",
+      "Neptun",
+      "Jowisz"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rzymianie utożsamiali swojego najwyższego boga Jowisza z greckim Zeusem."
+  },
+  {
+    "id": "myth_i003",
+    "question": "Który grecki bóg władał morzami i nosił trójząb?",
+    "answers": [
+      "Posejdon",
+      "Hefajstos",
+      "Ares",
+      "Hermes"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Posejdon, brat Zeusa, był panem mórz, a jego atrybutem był trójząb."
+  },
+  {
+    "id": "myth_i004",
+    "question": "Jak nazywała się rzymska bogini miłości i piękna?",
+    "answers": [
+      "Diana",
+      "Junona",
+      "Wenus",
+      "Minerwa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wenus była rzymskim odpowiednikiem greckiej Afrodyty."
+  },
+  {
+    "id": "myth_i005",
+    "question": "Który rzymski bóg patronował wojnie?",
+    "answers": [
+      "Janus",
+      "Wulkan",
+      "Apollo",
+      "Mars"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Mars był rzymskim bogiem wojny, odpowiednikiem greckiego Aresa."
+  },
+  {
+    "id": "myth_i006",
+    "question": "Co oznacza wyrażenie „pięta Achillesa”?",
+    "answers": [
+      "Wielką odwagę",
+      "Ciężką podróż",
+      "Słaby punkt",
+      "Szybki bieg"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Achilles był niemal nieśmiertelny – jedynym miejscem, które można było zranić, była jego pięta."
+  },
+  {
+    "id": "myth_i007",
+    "question": "Co według mitu uwolniła Pandora, otwierając słynną puszkę?",
+    "answers": [
+      "Nieszczęścia świata",
+      "Ogień z Olimpu",
+      "Wieczną młodość",
+      "Złoto bogów"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Z puszki (właściwie dzbana) Pandory wydostały się wszystkie nieszczęścia, a na dnie została nadzieja."
+  },
+  {
+    "id": "myth_i008",
+    "question": "Kto według mitu zbliżył się za bardzo do Słońca, przez co stopił się wosk w jego skrzydłach?",
+    "answers": [
+      "Tezeusz",
+      "Jazon",
+      "Perseusz",
+      "Ikar"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ikar zlekceważył ostrzeżenia ojca, Dedala, i spadł do morza."
+  },
+  {
+    "id": "myth_i009",
+    "question": "Który nordycki bóg władał młotem Mjölnir?",
+    "answers": [
+      "Odyn",
+      "Thor",
+      "Loki",
+      "Baldur"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Thor, bóg piorunów, posługiwał się młotem Mjölnir, który zawsze do niego wracał."
+  },
+  {
+    "id": "myth_i010",
+    "question": "Czym według legendy wypchano barana podrzuconego Smokowi Wawelskiemu?",
+    "answers": [
+      "Pieprzem",
+      "Siarką",
+      "Solą",
+      "Prochem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Smok zjadł barana wypchanego siarką, a potem pił wodę z Wisły, aż pękł."
+  },
+  {
+    "id": "myth_i011",
+    "question": "Od imion jakiej pary według legendy pochodzi nazwa Warszawy?",
+    "answers": [
+      "Wars i Sawa",
+      "Bolek i Lolek",
+      "Krak i Wanda",
+      "Lech i Wanda"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Według legendy od imion rybaka Warsa i Sawy wzięła się nazwa stolicy."
+  },
+  {
+    "id": "myth_i012",
+    "question": "Co według legendy zobaczył Lech, zakładając Gniezno?",
+    "answers": [
+      "Białego orła w gnieździe",
+      "Czarnego kruka na dębie",
+      "Srebrnego jelenia w lesie",
+      "Złotego smoka w jaskini"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Biały orzeł w gnieździe miał stać się godłem, a gród nazwano Gnieznem."
+  },
+  {
+    "id": "myth_i013",
+    "question": "Kto według legendy zjadł okrutnego księcia Popiela?",
+    "answers": [
+      "Wilki",
+      "Niedźwiedzie",
+      "Kruki",
+      "Myszy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Według legendy Popiel schronił się w wieży, ale dopadły go tam myszy."
+  },
+  {
+    "id": "myth_i014",
+    "question": "Gdzie według legendy trafił mistrz Twardowski, uciekając przed diabłem?",
+    "answers": [
+      "Na Giewont",
+      "Na Księżyc",
+      "Na dno Wisły",
+      "Do Wieliczki"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Twardowski wzniósł się na Księżyc i według legendy przebywa tam do dziś."
+  },
+  {
+    "id": "myth_i015",
+    "question": "Który słowiański bóg władał piorunami?",
+    "answers": [
+      "Perun",
+      "Dadźbóg",
+      "Swaróg",
+      "Weles"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Perun był słowiańskim bogiem burzy i piorunów, często porównywanym do Zeusa i Thora."
+  },
+  {
+    "id": "myth_i016",
+    "question": "Co działo się z każdym, kto spojrzał w oczy Meduzy?",
+    "answers": [
+      "Stawał się niewidzialny",
+      "Tracił pamięć",
+      "Zasypiał na wieki",
+      "Zamieniał się w kamień"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Spojrzenie Meduzy zamieniało w kamień, dlatego Perseusz patrzył na nią w odbiciu tarczy."
+  },
+  {
+    "id": "myth_i017",
+    "question": "Ile prac musiał wykonać Herakles?",
+    "answers": [
+      "10",
+      "7",
+      "12",
+      "13"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Herakles wykonał dwanaście prac, m.in. pokonał lwa nemejskiego i hydrę lernejską."
+  },
+  {
+    "id": "myth_i018",
+    "question": "W czym ukryli się Grecy, by dostać się do Troi?",
+    "answers": [
+      "W statku kupieckim",
+      "W skrzyniach ze złotem",
+      "W drewnianym koniu",
+      "W beczkach z winem"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Koń trojański stał się symbolem podstępu, a dziś to także nazwa złośliwego programu."
+  },
+  {
+    "id": "myth_i019",
+    "question": "Na czym polegała kara Syzyfa?",
+    "answers": [
+      "Liczył ziarna piasku",
+      "Trzymał niebo",
+      "Nosił wodę sitem",
+      "Wtaczał głaz pod górę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Głaz zawsze staczał się na dół, stąd „syzyfowa praca” to wysiłek bez końca i bez efektu."
+  },
+  {
+    "id": "myth_i020",
+    "question": "Ile głów miał Cerber, pies strzegący wejścia do Hadesu?",
+    "answers": [
+      "Trzy",
+      "Pięć",
+      "Siedem",
+      "Dwie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Trzygłowy Cerber pilnował, by zmarli nie opuścili podziemnego świata."
+  },
+  {
+    "id": "myth_i021",
+    "question": "Kto był ojcem Thora w mitologii nordyckiej?",
+    "answers": [
+      "Tyr",
+      "Odyn",
+      "Loki",
+      "Frey"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Odyn, najwyższy z nordyckich bogów, był ojcem Thora."
+  },
+  {
+    "id": "myth_i022",
+    "question": "Który nordycki bóg słynął z podstępów i przemian?",
+    "answers": [
+      "Baldur",
+      "Loki",
+      "Njord",
+      "Heimdall"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Loki był bogiem psot i oszustw, potrafiącym zmieniać postać."
+  },
+  {
+    "id": "myth_i023",
+    "question": "Czym była Walhalla w mitologii nordyckiej?",
+    "answers": [
+      "Siedzibą poległych wojowników",
+      "Morskim potworem",
+      "Mieczem Odyna",
+      "Krainą lodu"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Do Walhalli, sali Odyna, walkirie zabierały wojowników poległych w boju."
+  },
+  {
+    "id": "myth_i024",
+    "question": "Jak nazywał się egipski bóg słońca?",
+    "answers": [
+      "Horus",
+      "Ptah",
+      "Ra",
+      "Set"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ra przemierzał niebo w słonecznej barce i był jednym z najważniejszych bogów Egiptu."
+  },
+  {
+    "id": "myth_i025",
+    "question": "Który egipski bóg przedstawiany był z głową szakala?",
+    "answers": [
+      "Thot",
+      "Amon",
+      "Sobek",
+      "Anubis"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Anubis opiekował się zmarłymi i balsamowaniem, a przedstawiano go z głową szakala."
+  },
+  {
+    "id": "myth_i026",
+    "question": "W którym mieście, według legendy, w podziemiach mieszka Złota Kaczka?",
+    "answers": [
+      "Toruń",
+      "Kraków",
+      "Warszawa",
+      "Poznań"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Złota Kaczka miała strzec skarbu w podziemiach Zamku Ostrogskich w Warszawie."
+  },
+  {
+    "id": "myth_i027",
+    "question": "Który słowiański bóg był związany z niebiańskim ogniem i kowalstwem?",
+    "answers": [
+      "Perun",
+      "Swaróg",
+      "Weles",
+      "Świętowit"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Swaróg uchodził za boga ognia niebieskiego i kowala, ojca Swarożyca."
+  },
+  {
+    "id": "myth_i028",
+    "question": "Który słowiański bóg opiekował się bydłem i zaświatami, a był przeciwnikiem Peruna?",
+    "answers": [
+      "Trzygłów",
+      "Swaróg",
+      "Weles",
+      "Jaryło"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Weles był bogiem zaświatów i opiekunem stad, a jego walka z Perunem to ważny wątek mitów."
+  },
+  {
+    "id": "myth_i029",
+    "question": "Jak nazywał się rzymski odpowiednik Hermesa, posłańca bogów?",
+    "answers": [
+      "Merkury",
+      "Wulkan",
+      "Neptun",
+      "Bachus"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Merkury, podobnie jak Hermes, był posłańcem bogów i patronem kupców."
+  },
+  {
+    "id": "myth_i030",
+    "question": "Która grecka bogini była patronką mądrości i opiekunką Aten?",
+    "answers": [
+      "Hera",
+      "Demeter",
+      "Atena",
+      "Artemida"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Atena, zrodzona z głowy Zeusa, była boginią mądrości i patronką Aten."
+  },
+  {
+    "id": "myth_i031",
+    "question": "Za co Prometeusz został przykuty do skały?",
+    "answers": [
+      "Za zabicie Hydry",
+      "Za wykradzenie ognia",
+      "Za kradzież jabłek",
+      "Za porwanie Heleny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Prometeusz dał ludziom ogień wykradziony bogom, za co Zeus surowo go ukarał."
+  },
+  {
+    "id": "myth_i032",
+    "question": "Co dała Ariadna Tezeuszowi, by wydostał się z labiryntu Minotaura?",
+    "answers": [
+      "Kłębek nici",
+      "Magiczną lampę",
+      "Mapę labiryntu",
+      "Złoty klucz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dzięki nici Ariadny Tezeusz odnalazł drogę powrotną – stąd wyrażenie „nić Ariadny”."
+  },
+  {
+    "id": "myth_i033",
+    "question": "W co zamieniało się wszystko, czego dotknął król Midas?",
+    "answers": [
+      "W złoto",
+      "W kamień",
+      "W popiół",
+      "W lód"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dar Midasa okazał się przekleństwem, bo w złoto zamieniało się nawet jedzenie."
+  },
+  {
+    "id": "myth_i034",
+    "question": "W kim zakochał się mityczny Narcyz?",
+    "answers": [
+      "W nimfie wodnej",
+      "W królowej Sparty",
+      "W bogini Echo",
+      "We własnym odbiciu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Narcyz zakochał się w swoim odbiciu w wodzie – od niego pochodzi słowo „narcyzm”."
+  },
+  {
+    "id": "myth_i035",
+    "question": "Którego egipskiego boga zabił jego brat Set?",
+    "answers": [
+      "Anubisa",
+      "Ozyrysa",
+      "Horusa",
+      "Thota"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ozyrys został zabity przez Seta, a po wskrzeszeniu przez Izydę stał się władcą zaświatów."
+  },
+  {
+    "id": "myth_i036",
+    "question": "Dlaczego Odyseusz kazał przywiązać się do masztu?",
+    "answers": [
+      "By nie wypaść za burtę",
+      "By przetrwać sztorm",
+      "By ukryć się przed cyklopem",
+      "By słuchać syren bez zguby"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Załoga miała uszy zatkane woskiem, a Odyseusz słuchał śpiewu syren przywiązany do masztu."
+  },
+  {
+    "id": "myth_i037",
+    "question": "Który legendarny władca uznawany jest za założyciela Krakowa?",
+    "answers": [
+      "Lech",
+      "Piast",
+      "Krak",
+      "Popiel"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Według legendy gród Kraków założył i nazwał na swoją cześć książę Krak."
+  },
+  {
+    "id": "myth_i038",
+    "question": "Jak miała na imię legendarna córka Kraka, która nie chciała poślubić Niemca?",
+    "answers": [
+      "Dobrawa",
+      "Wanda",
+      "Rzepicha",
+      "Sawa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Według legendy Wanda wolała rzucić się do Wisły, niż wyjść za niemieckiego księcia."
+  },
+  {
+    "id": "myth_i039",
+    "question": "Kto według mitu wystrzelił strzałę, która trafiła Achillesa w piętę?",
+    "answers": [
+      "Parys",
+      "Odyseusz",
+      "Agamemnon",
+      "Hektor"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Strzałę Parysa, trojańskiego królewicza, miał według mitu skierować bóg Apollo."
+  },
+  {
+    "id": "myth_i040",
+    "question": "Jak nazywał się skrzydlaty koń z mitologii greckiej?",
+    "answers": [
+      "Sleipnir",
+      "Pegaz",
+      "Centaur",
+      "Bucefał"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Pegaz narodził się z krwi Meduzy i stał się symbolem natchnienia poetów."
+  },
+  {
+    "id": "myth_i041",
+    "question": "Jak nazywał się rzymski bóg ognia i kowali, odpowiednik Hefajstosa?",
+    "answers": [
+      "Kupidyn",
+      "Saturn",
+      "Pluton",
+      "Wulkan"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Od imienia Wulkana pochodzi słowo „wulkan”."
+  },
+  {
+    "id": "myth_i042",
+    "question": "W wodach której rzeki matka zanurzyła małego Achillesa, by uczynić go nieśmiertelnym?",
+    "answers": [
+      "Styks",
+      "Nil",
+      "Acheron",
+      "Lete"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Tetyda trzymała syna za piętę, więc to miejsce pozostało nieochronione."
+  },
+  {
+    "id": "myth_i043",
+    "question": "Jak nazywał się ośmionogi koń Odyna?",
+    "answers": [
+      "Sleipnir",
+      "Fenrir",
+      "Hugin",
+      "Gullfaxi"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Sleipnir był najszybszym koniem w mitologii nordyckiej, a jego matką był Loki."
+  },
+  {
+    "id": "myth_i044",
+    "question": "Jak nazywało się drzewo świata w mitologii nordyckiej?",
+    "answers": [
+      "Midgard",
+      "Yggdrasil",
+      "Asgard",
+      "Ragnarök"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jesion Yggdrasil łączył według wierzeń wszystkie dziewięć światów."
+  },
+  {
+    "id": "myth_i045",
+    "question": "Która egipska bogini przedstawiana była jako kotka lub kobieta z głową kota?",
+    "answers": [
+      "Nut",
+      "Hathor",
+      "Bastet",
+      "Izyda"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bastet była opiekunką domu i kotów, czczoną szczególnie w mieście Bubastis."
+  },
+  {
+    "id": "myth_i046",
+    "question": "Jak nazywała się rzeka zapomnienia w greckim Hadesie?",
+    "answers": [
+      "Styks",
+      "Kokytos",
+      "Acheron",
+      "Lete"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Dusze zmarłych piły wodę z Lete, by zapomnieć o ziemskim życiu."
+  },
+  {
+    "id": "myth_i047",
+    "question": "W karczmie o jakiej nazwie diabeł dopadł mistrza Twardowskiego?",
+    "answers": [
+      "Pod Złotym Rogiem",
+      "Rzym",
+      "Pod Białym Orłem",
+      "Wenecja"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Twardowski zastrzegł, że diabeł zabierze go tylko w Rzymie – nie spodziewał się karczmy o tej nazwie."
+  },
+  {
+    "id": "myth_i048",
+    "question": "W którym mieście stoi Mysia Wieża, łączona z legendą o Popielu?",
+    "answers": [
+      "Płock",
+      "Gniezno",
+      "Kruszwica",
+      "Łęczyca"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Mysia Wieża w Kruszwicy nad Gopłem to pozostałość zamku, z którym ludowa tradycja łączy Popiela."
+  },
+  {
+    "id": "myth_i049",
+    "question": "Czym według warszawskiej legendy pokonano Bazyliszka?",
+    "answers": [
+      "Mieczem",
+      "Lustrem",
+      "Wodą święconą",
+      "Ogniem"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Bazyliszek zabijał wzrokiem, więc zginął od własnego spojrzenia odbitego w lustrze."
+  },
+  {
+    "id": "myth_i050",
+    "question": "Od imienia którego rzymskiego boga o dwóch twarzach pochodzi nazwa stycznia w wielu językach?",
+    "answers": [
+      "Marsa",
+      "Jowisza",
+      "Janusa",
+      "Saturna"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Janus był bogiem początków i przejść, stąd łacińskie Ianuarius i angielskie January."
+  },
+  {
+    "id": "mil_i001",
+    "question": "W którym roku bracia Wright wykonali pierwszy lot samolotem z napędem?",
+    "answers": [
+      "1903",
+      "1911",
+      "1889",
+      "1919"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "17 grudnia 1903 roku Orville Wright przeleciał 12 sekund w Kitty Hawk."
+  },
+  {
+    "id": "mil_i002",
+    "question": "Czym wyróżniał się pasażerski samolot Concorde?",
+    "answers": [
+      "Latał szybciej niż dźwięk",
+      "Był najdłuższy na świecie",
+      "Miał sześć silników",
+      "Startował pionowo"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Concorde przelatywał Atlantyk w około 3,5 godziny z prędkością ponad dwukrotnie większą od dźwięku."
+  },
+  {
+    "id": "mil_i003",
+    "question": "Jaki przydomek zyskał Boeing 747?",
+    "answers": [
+      "Jumbo Jet",
+      "Big Bird",
+      "Sky King",
+      "Super Star"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Boeing 747 to „Jumbo Jet”, pierwszy szerokokadłubowy samolot pasażerski."
+  },
+  {
+    "id": "mil_i004",
+    "question": "Jaki kod IATA ma Lotnisko Chopina w Warszawie?",
+    "answers": [
+      "WAW",
+      "WRS",
+      "WAR",
+      "WSW"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kod WAW pojawia się na bagażach podróżnych lecących do Warszawy."
+  },
+  {
+    "id": "mil_i005",
+    "question": "W której słynnej bitwie powietrznej z 1940 roku wsławił się Dywizjon 303?",
+    "answers": [
+      "W bitwie o Midway",
+      "W Bitwie o Anglię",
+      "W bitwie o Atlantyk",
+      "W bitwie pod Kurskiem"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Polscy piloci Dywizjonu 303 należeli do najskuteczniejszych w Bitwie o Anglię."
+  },
+  {
+    "id": "mil_i006",
+    "question": "Czym był ORP Orzeł?",
+    "answers": [
+      "Niszczycielem",
+      "Krążownikiem",
+      "Pancernikiem",
+      "Okrętem podwodnym"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "ORP Orzeł był polskim okrętem podwodnym, który w 1939 roku uciekł z internowania w Tallinnie."
+  },
+  {
+    "id": "mil_i007",
+    "question": "Jaki kolor ma w rzeczywistości tak zwana „czarna skrzynka” w samolocie?",
+    "answers": [
+      "Pomarańczowy",
+      "Biały",
+      "Czarny",
+      "Srebrny"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Rejestratory lotu maluje się na jaskrawy pomarańczowy kolor, by łatwiej je odnaleźć."
+  },
+  {
+    "id": "mil_i008",
+    "question": "Jak nazywa się kabina pilotów w samolocie?",
+    "answers": [
+      "Kokpit",
+      "Hangar",
+      "Luk",
+      "Kambuz"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kokpit to miejsce, z którego piloci sterują samolotem."
+  },
+  {
+    "id": "mil_i009",
+    "question": "Podczas której wojny po raz pierwszy użyto czołgów?",
+    "answers": [
+      "I wojny światowej",
+      "II wojny światowej",
+      "Wojny krymskiej",
+      "Wojny secesyjnej"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Brytyjczycy wprowadzili czołgi do walki w 1916 roku nad Sommą."
+  },
+  {
+    "id": "mil_i010",
+    "question": "Jak nazywa się samolot przystosowany do startu i lądowania na wodzie?",
+    "answers": [
+      "Wiatrakowiec",
+      "Hydroplan",
+      "Szybowiec",
+      "Motolotnia"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hydroplany mają pływaki lub kadłub w kształcie łodzi."
+  },
+  {
+    "id": "mil_i011",
+    "question": "Jak nazywa się okręt, z którego pokładu startują i lądują samoloty?",
+    "answers": [
+      "Kuter",
+      "Lotniskowiec",
+      "Krążownik",
+      "Trałowiec"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Lotniskowiec to pływające lotnisko z pokładem startowym."
+  },
+  {
+    "id": "mil_i012",
+    "question": "Który polski niszczyciel jest okrętem-muzeum w Gdyni?",
+    "answers": [
+      "ORP Burza",
+      "ORP Wicher",
+      "ORP Błyskawica",
+      "ORP Grom"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "ORP Błyskawica od 1976 roku jest muzeum zacumowanym przy Skwerze Kościuszki w Gdyni."
+  },
+  {
+    "id": "mil_i013",
+    "question": "Ile silników ma klasyczny Boeing 747?",
+    "answers": [
+      "2",
+      "6",
+      "4",
+      "3"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Czterosilnikowy 747 przez dekady był symbolem dalekich lotów."
+  },
+  {
+    "id": "mil_i014",
+    "question": "Jak miał na imię czołg z serialu „Czterej pancerni i pies”?",
+    "answers": [
+      "Tygrys",
+      "Rudy",
+      "Szarik",
+      "Grom"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Czołg T-34 o numerze 102 nosił imię Rudy, a Szarik to pies załogi."
+  },
+  {
+    "id": "mil_i015",
+    "question": "Jak nazywa się jednostka, która podaje prędkość samolotu w odniesieniu do prędkości dźwięku?",
+    "answers": [
+      "Węzeł",
+      "Bofort",
+      "Mach",
+      "Kelwin"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mach 1 oznacza prędkość równą prędkości dźwięku."
+  },
+  {
+    "id": "mil_i016",
+    "question": "Który artysta renesansu szkicował maszynę latającą przypominającą śmigłowiec?",
+    "answers": [
+      "Rafael",
+      "Leonardo da Vinci",
+      "Albrecht Dürer",
+      "Michał Anioł"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Śruba powietrzna Leonarda da Vinci uznawana jest za prekursora śmigłowca."
+  },
+  {
+    "id": "mil_i017",
+    "question": "Jak nazywa się bezzałogowy statek powietrzny sterowany zdalnie?",
+    "answers": [
+      "Paralotnia",
+      "Szybowiec",
+      "Sterowiec",
+      "Dron"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Drony nie mają pilota na pokładzie i są sterowane zdalnie lub autonomicznie."
+  },
+  {
+    "id": "mil_i018",
+    "question": "Z jakiego kraju pochodził słynny myśliwiec Spitfire?",
+    "answers": [
+      "Z Niemiec",
+      "Z USA",
+      "Z Francji",
+      "Z Wielkiej Brytanii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Supermarine Spitfire to brytyjska ikona lotnictwa z czasów II wojny światowej."
+  },
+  {
+    "id": "mil_i019",
+    "question": "Co oznacza wołanie „Mayday” w komunikacji lotniczej?",
+    "answers": [
+      "Gotowość do startu",
+      "Zgodę na lądowanie",
+      "Koniec lotu",
+      "Wezwanie pomocy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Mayday” pochodzi od francuskiego „m'aidez” – „pomóżcie mi”."
+  },
+  {
+    "id": "mil_i020",
+    "question": "Który europejski koncern produkuje samoloty z rodziny A320?",
+    "answers": [
+      "Bombardier",
+      "Embraer",
+      "Boeing",
+      "Airbus"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Litera „A” w oznaczeniu modeli wskazuje na Airbusa."
+  },
+  {
+    "id": "mil_i021",
+    "question": "Jakim samolotem latali głównie piloci Dywizjonu 303 w Bitwie o Anglię?",
+    "answers": [
+      "Supermarine Spitfire",
+      "Hawker Hurricane",
+      "PZL P.11",
+      "Messerschmitt Bf 109"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W 1940 roku Dywizjon 303 walczył na myśliwcach Hawker Hurricane."
+  },
+  {
+    "id": "mil_i022",
+    "question": "Imię którego bohatera nosił Dywizjon 303?",
+    "answers": [
+      "Kazimierza Pułaskiego",
+      "Józefa Piłsudskiego",
+      "Józefa Poniatowskiego",
+      "Tadeusza Kościuszki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pełna nazwa to 303 Dywizjon Myśliwski Warszawski im. Tadeusza Kościuszki."
+  },
+  {
+    "id": "mil_i023",
+    "question": "Jak rozwija się skrót PZL, znany z polskich samolotów?",
+    "answers": [
+      "Państwowe Zakłady Lotnicze",
+      "Polskie Zakłady Lotnicze",
+      "Polska Żegluga Lotnicza",
+      "Państwowy Związek Lotników"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "PZL powstały w 1928 roku i budowały m.in. myśliwce PZL P.11."
+  },
+  {
+    "id": "mil_i024",
+    "question": "Jak nazywał się pierwszy samolot braci Wright?",
+    "answers": [
+      "Eagle",
+      "Spirit",
+      "Flyer",
+      "Comet"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wright Flyer wykonał pierwsze kontrolowane loty w grudniu 1903 roku."
+  },
+  {
+    "id": "mil_i025",
+    "question": "Kto w 1927 roku jako pierwszy przeleciał samotnie bez lądowania przez Atlantyk?",
+    "answers": [
+      "Howard Hughes",
+      "Louis Blériot",
+      "Charles Lindbergh",
+      "Chuck Yeager"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Lindbergh przeleciał z Nowego Jorku do Paryża samolotem Spirit of St. Louis."
+  },
+  {
+    "id": "mil_i026",
+    "question": "Która pilotka zaginęła nad Pacyfikiem w 1937 roku podczas lotu dookoła świata?",
+    "answers": [
+      "Bessie Coleman",
+      "Amelia Earhart",
+      "Jacqueline Cochran",
+      "Harriet Quimby"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zaginięcie Amelii Earhart do dziś pozostaje jedną z największych zagadek lotnictwa."
+  },
+  {
+    "id": "mil_i027",
+    "question": "Jaki kod IATA ma paryskie lotnisko Charles de Gaulle?",
+    "answers": [
+      "CGP",
+      "PCD",
+      "PAR",
+      "CDG"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Kod CDG pochodzi od inicjałów patrona lotniska – Charles'a de Gaulle'a."
+  },
+  {
+    "id": "mil_i028",
+    "question": "Katastrofa którego sterowca w 1937 roku zakończyła erę pasażerskich sterowców?",
+    "answers": [
+      "Hindenburg",
+      "Norge",
+      "Graf Zeppelin",
+      "Italia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wypełniony wodorem Hindenburg spłonął podczas lądowania w Lakehurst w USA."
+  },
+  {
+    "id": "mil_i029",
+    "question": "Którzy polscy lotnicy wygrali międzynarodowe zawody Challenge 1932?",
+    "answers": [
+      "Skarżyński i Orliński",
+      "Zumbach i Urbanowicz",
+      "Bajan i Pokrzywka",
+      "Żwirko i Wigura"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Franciszek Żwirko i Stanisław Wigura zwyciężyli na samolocie RWD-6."
+  },
+  {
+    "id": "mil_i030",
+    "question": "Które linie lotnicze obsługiwały regularne loty Concorde’a?",
+    "answers": [
+      "Alitalia i Iberia",
+      "British Airways i Air France",
+      "Pan Am i TWA",
+      "Lufthansa i KLM"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Concorde powstał we współpracy brytyjsko-francuskiej i latał w barwach tych dwóch przewoźników."
+  },
+  {
+    "id": "mil_i031",
+    "question": "W którym roku Concorde zakończył loty pasażerskie?",
+    "answers": [
+      "2000",
+      "2008",
+      "2003",
+      "1995"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ostatnie rejsowe loty Concorde’a odbyły się w 2003 roku."
+  },
+  {
+    "id": "mil_i032",
+    "question": "Co wynaleźli bracia Montgolfier?",
+    "answers": [
+      "Szybowiec",
+      "Spadochron",
+      "Balon na ogrzane powietrze",
+      "Śmigło"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W 1783 roku balon braci Montgolfier wzniósł pierwszych ludzi w powietrze."
+  },
+  {
+    "id": "mil_i033",
+    "question": "Który samolot pasażerski ma dwa pełne pokłady na całej długości kadłuba?",
+    "answers": [
+      "Boeing 777",
+      "Airbus A350",
+      "Boeing 747",
+      "Airbus A380"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Boeing 747 ma tylko częściowy górny pokład, a A380 – dwa pełne."
+  },
+  {
+    "id": "mil_i034",
+    "question": "Z jakiego portu uciekł ORP Orzeł we wrześniu 1939 roku?",
+    "answers": [
+      "Z Kłajpedy",
+      "Z Tallinna",
+      "Z Helsinek",
+      "Z Rygi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Internowany w Estonii Orzeł wymknął się z Tallinna i dotarł do Wielkiej Brytanii."
+  },
+  {
+    "id": "mil_i035",
+    "question": "Który konstruktor uznawany jest za ojca nowoczesnego śmigłowca?",
+    "answers": [
+      "Igor Sikorski",
+      "Anthony Fokker",
+      "Hugo Junkers",
+      "William Boeing"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Sikorski w 1939 roku oblatał VS-300 – pierwszy praktyczny śmigłowiec z jednym wirnikiem nośnym."
+  },
+  {
+    "id": "mil_i036",
+    "question": "Jaki kod IATA ma lotnisko Kraków-Balice?",
+    "answers": [
+      "KRA",
+      "KRK",
+      "CRA",
+      "KKW"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Lotnisko im. Jana Pawła II w Balicach ma kod KRK."
+  },
+  {
+    "id": "mil_i037",
+    "question": "Od nazwiska którego konstruktora pochodzi nazwa sterowców „zeppelin”?",
+    "answers": [
+      "Ottona Lilienthala",
+      "Hugona Junkersa",
+      "Ferdinanda von Zeppelina",
+      "Gottlieba Daimlera"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Sztywne sterowce nazwano od nazwiska ich twórcy, niemieckiego hrabiego Ferdinanda von Zeppelina."
+  },
+  {
+    "id": "mil_i038",
+    "question": "Co upamiętnia obchodzone 15 sierpnia Święto Wojska Polskiego?",
+    "answers": [
+      "Bitwę Warszawską",
+      "Bitwę pod Grunwaldem",
+      "Odsiecz wiedeńską",
+      "Bitwę o Monte Cassino"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "15 sierpnia 1920 roku to kulminacja Bitwy Warszawskiej, zwanej Cudem nad Wisłą."
+  },
+  {
+    "id": "mil_i039",
+    "question": "Jak nazywa się przyrząd pokazujący pilotowi wysokość lotu?",
+    "answers": [
+      "Wysokościomierz",
+      "Busola",
+      "Wariometr",
+      "Prędkościomierz"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wysokościomierz barometryczny mierzy wysokość na podstawie ciśnienia powietrza."
+  },
+  {
+    "id": "mil_i040",
+    "question": "Który słynny samolot transportowy nosi przydomek Hercules?",
+    "answers": [
+      "Airbus A400M",
+      "Lockheed C-130",
+      "Antonow An-12",
+      "Boeing C-17"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Czterosilnikowy C-130 Hercules lata od lat 50. XX wieku i używało go wiele armii świata."
+  },
+  {
+    "id": "mil_i041",
+    "question": "Od nazwisk których konstruktorów pochodzi skrót RWD?",
+    "answers": [
+      "Rudlicki, Wróblewski, Dąbrowski",
+      "Ryszard, Witold, Dominik",
+      "Rogalski, Wigura, Drzewiecki",
+      "Rogalski, Wiśniewski, Dąbek"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Stanisław Rogalski, Stanisław Wigura i Jerzy Drzewiecki stworzyli serię samolotów RWD."
+  },
+  {
+    "id": "mil_i042",
+    "question": "Jaką nazwę nosił polski bombowiec PZL.37 z lat 30. XX wieku?",
+    "answers": [
+      "Wilga",
+      "Łoś",
+      "Jastrząb",
+      "Sokół"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "PZL.37 Łoś był jednym z najnowocześniejszych bombowców średnich w 1939 roku."
+  },
+  {
+    "id": "mil_i043",
+    "question": "W którym roku odbył się pierwszy lot Boeinga 747?",
+    "answers": [
+      "1959",
+      "1982",
+      "1969",
+      "1976"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Prototyp Jumbo Jeta wzbił się w powietrze 9 lutego 1969 roku."
+  },
+  {
+    "id": "mil_i044",
+    "question": "Kto jako pierwszy przeleciał samolotem nad kanałem La Manche w 1909 roku?",
+    "answers": [
+      "Alberto Santos-Dumont",
+      "Glenn Curtiss",
+      "Louis Blériot",
+      "Roland Garros"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Blériot przeleciał z Calais do Dover w około 37 minut."
+  },
+  {
+    "id": "mil_i045",
+    "question": "Jak nazywał się największy samolot transportowy świata, Antonow An-225?",
+    "answers": [
+      "Rusłan",
+      "Mrija",
+      "Atlant",
+      "Kondor"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jedyny ukończony An-225 Mrija został zniszczony w 2022 roku pod Kijowem."
+  },
+  {
+    "id": "mil_i046",
+    "question": "Kto w 1947 roku jako pierwszy oficjalnie przekroczył barierę dźwięku w locie poziomym?",
+    "answers": [
+      "Charles Lindbergh",
+      "John Glenn",
+      "Neil Armstrong",
+      "Chuck Yeager"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Yeager dokonał tego na rakietowym samolocie Bell X-1."
+  },
+  {
+    "id": "mil_i047",
+    "question": "Jaki kod IATA ma lotnisko w Gdańsku?",
+    "answers": [
+      "GDA",
+      "GDK",
+      "GNS",
+      "GDN"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Port Lotniczy Gdańsk im. Lecha Wałęsy oznaczony jest kodem GDN."
+  },
+  {
+    "id": "mil_i048",
+    "question": "Który czeski pilot latał w polskim Dywizjonie 303 w Bitwie o Anglię?",
+    "answers": [
+      "Alois Vašátko",
+      "František Fajtl",
+      "Karel Kuttelwascher",
+      "Josef František"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Josef František, wcześniej pilot lotnictwa polskiego, był jednym z najbardziej znanych lotników Dywizjonu 303."
+  },
+  {
+    "id": "mil_i049",
+    "question": "Jak nazywał się polski czołg lekki produkowany przed II wojną światową?",
+    "answers": [
+      "M4 Sherman",
+      "T-34",
+      "7TP",
+      "Pantera"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Czołg 7TP powstał na bazie brytyjskiego Vickersa i miał silnik wysokoprężny."
+  },
+  {
+    "id": "mil_i050",
+    "question": "Jaki polski myśliwiec był podstawowym samolotem obrony we wrześniu 1939 roku?",
+    "answers": [
+      "PZL P.11",
+      "PZL-104 Wilga",
+      "PZL.37 Łoś",
+      "RWD-6"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Charakterystyczne skrzydło typu mewa w PZL P.11 zaprojektował Zygmunt Puławski."
+  }
+]

@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "sci_l001",
+    "question": "Dlaczego niebo w pogodny dzień jest niebieskie?",
+    "answers": [
+      "Bo odbijają się w nim morza i oceany",
+      "Bo tlen ma niebieski kolor",
+      "Bo atmosfera najsilniej rozprasza światło niebieskie",
+      "Bo ozon pochłania światło czerwone"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Krótkie fale światła niebieskiego są znacznie silniej rozpraszane przez cząsteczki powietrza (rozpraszanie Rayleigha)."
+  },
+  {
+    "id": "sci_l002",
+    "question": "W jakiej temperaturze wrze woda na poziomie morza?",
+    "answers": [
+      "90 °C",
+      "110 °C",
+      "100 °C",
+      "120 °C"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pod normalnym ciśnieniem atmosferycznym woda wrze w temperaturze 100 °C."
+  },
+  {
+    "id": "sci_l003",
+    "question": "Jak nazywa się przejście ciała stałego bezpośrednio w gaz, z pominięciem cieczy?",
+    "answers": [
+      "Resublimacja",
+      "Sublimacja",
+      "Kondensacja",
+      "Krzepnięcie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sublimacji ulega np. suchy lód, który od razu zamienia się w gaz."
+  },
+  {
+    "id": "sci_l004",
+    "question": "Którego gazu jest najwięcej w powietrzu, którym oddychamy?",
+    "answers": [
+      "Tlenu",
+      "Azotu",
+      "Dwutlenku węgla",
+      "Argonu"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Azot stanowi około 78% powietrza, a tlen około 21%."
+  },
+  {
+    "id": "sci_l005",
+    "question": "Jaki symbol chemiczny ma srebro?",
+    "answers": [
+      "Si",
+      "Sr",
+      "Ag",
+      "Sb"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Symbol Ag pochodzi od łacińskiej nazwy srebra – argentum."
+  },
+  {
+    "id": "sci_l006",
+    "question": "Jaki gaz po wdechu sprawia, że głos brzmi śmiesznie, jak u kaczora Donalda?",
+    "answers": [
+      "Neon",
+      "Argon",
+      "Hel",
+      "Azot"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W helu dźwięk rozchodzi się szybciej niż w powietrzu, przez co zmienia się barwa głosu."
+  },
+  {
+    "id": "sci_l007",
+    "question": "Kto sformułował prawo powszechnego ciążenia?",
+    "answers": [
+      "Isaac Newton",
+      "Galileusz",
+      "Johannes Kepler",
+      "Albert Einstein"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Newton opisał prawo powszechnego ciążenia w dziele „Principia” z 1687 roku."
+  },
+  {
+    "id": "sci_l008",
+    "question": "Jaki słynny wzór kojarzymy z Albertem Einsteinem?",
+    "answers": [
+      "F = ma",
+      "E = mc²",
+      "a² + b² = c²",
+      "pV = nRT"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wzór E = mc² opisuje równoważność masy i energii."
+  },
+  {
+    "id": "sci_l009",
+    "question": "Za co Albert Einstein otrzymał Nagrodę Nobla?",
+    "answers": [
+      "Za wyjaśnienie efektu fotoelektrycznego",
+      "Za teorię względności",
+      "Za odkrycie elektronu",
+      "Za budowę bomby atomowej"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Nobla z fizyki za 1921 rok Einstein dostał za wyjaśnienie zjawiska fotoelektrycznego, a nie za teorię względności."
+  },
+  {
+    "id": "sci_l010",
+    "question": "Który pierwiastek ma symbol chemiczny „Pb”?",
+    "answers": [
+      "Platyna",
+      "Pallad",
+      "Fosfor",
+      "Ołów"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Symbol Pb pochodzi od łacińskiej nazwy ołowiu – plumbum."
+  },
+  {
+    "id": "sci_l011",
+    "question": "Jak nazywa się główne dzieło Mikołaja Kopernika?",
+    "answers": [
+      "„Harmonia świata”",
+      "„O obrotach sfer niebieskich”",
+      "„Dialog o dwóch systemach”",
+      "„Zasady matematyczne filozofii przyrody”"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Dzieło „De revolutionibus orbium coelestium” ukazało się w 1543 roku."
+  },
+  {
+    "id": "sci_l012",
+    "question": "Jaki pierwiastek, nazwany od łacińskiego słowa „promień”, odkryli małżonkowie Curie?",
+    "answers": [
+      "Rad",
+      "Uran",
+      "Tor",
+      "Rod"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa radu pochodzi od łacińskiego „radius” – promień, bo pierwiastek silnie promieniuje."
+  },
+  {
+    "id": "sci_l013",
+    "question": "W jakim mieście urodziła się Maria Skłodowska-Curie?",
+    "answers": [
+      "W Krakowie",
+      "W Paryżu",
+      "W Warszawie",
+      "We Lwowie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Maria Skłodowska urodziła się w 1867 roku w Warszawie."
+  },
+  {
+    "id": "sci_l014",
+    "question": "Kto stworzył układ okresowy pierwiastków?",
+    "answers": [
+      "Dmitrij Mendelejew",
+      "Antoine Lavoisier",
+      "John Dalton",
+      "Niels Bohr"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Mendelejew przedstawił swój układ okresowy w 1869 roku."
+  },
+  {
+    "id": "sci_l015",
+    "question": "W jakiej jednostce mierzy się natężenie prądu elektrycznego?",
+    "answers": [
+      "W woltach",
+      "W omach",
+      "W watach",
+      "W amperach"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Amper to jednostka natężenia prądu, a wolt – napięcia."
+  },
+  {
+    "id": "sci_l016",
+    "question": "W jakiej jednostce podaje się moc urządzeń elektrycznych?",
+    "answers": [
+      "W woltach",
+      "W watach",
+      "W amperach",
+      "W dżulach"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Moc wyraża się w watach – stąd np. „czajnik 2000 W”."
+  },
+  {
+    "id": "sci_l017",
+    "question": "Czym jest chemicznie sól kuchenna?",
+    "answers": [
+      "Węglanem wapnia",
+      "Siarczanem magnezu",
+      "Azotanem potasu",
+      "Chlorkiem sodu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Sól kuchenna to chlorek sodu o wzorze NaCl."
+  },
+  {
+    "id": "sci_l018",
+    "question": "Jak chemicznie nazywa się soda oczyszczona?",
+    "answers": [
+      "Chlorek sodu",
+      "Wodorotlenek sodu",
+      "Węglan wapnia",
+      "Wodorowęglan sodu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Soda oczyszczona to wodorowęglan sodu (NaHCO₃)."
+  },
+  {
+    "id": "sci_l019",
+    "question": "Z czym musi reagować żelazo, żeby zardzewieć?",
+    "answers": [
+      "Z azotem",
+      "Z helem",
+      "Z tlenem i wodą",
+      "Tylko ze światłem"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Rdza powstaje, gdy żelazo utlenia się w obecności tlenu i wilgoci."
+  },
+  {
+    "id": "sci_l020",
+    "question": "Jaki kolor ma zewnętrzny (górny) pas zwykłej tęczy?",
+    "answers": [
+      "Fioletowy",
+      "Niebieski",
+      "Zielony",
+      "Czerwony"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W tęczy głównej czerwień jest na zewnątrz łuku, a fiolet od wewnątrz."
+  },
+  {
+    "id": "sci_l021",
+    "question": "Dlaczego najpierw widzimy błyskawicę, a dopiero potem słyszymy grzmot?",
+    "answers": [
+      "Grzmot powstaje później niż błysk",
+      "Ucho reaguje wolniej niż oko",
+      "Chmury zatrzymują dźwięk",
+      "Światło jest szybsze od dźwięku"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Światło dociera niemal natychmiast, a dźwięk pokonuje ok. 1 km w 3 sekundy."
+  },
+  {
+    "id": "sci_l022",
+    "question": "Ile w przybliżeniu wynosi prędkość dźwięku w powietrzu?",
+    "answers": [
+      "Ok. 30 m/s",
+      "Ok. 3000 m/s",
+      "Ok. 340 m/s",
+      "Ok. 300 000 km/s"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W temperaturze pokojowej dźwięk w powietrzu biegnie z prędkością ok. 340 m/s."
+  },
+  {
+    "id": "sci_l023",
+    "question": "Jak nazywa się przyrząd do mierzenia ciśnienia atmosferycznego?",
+    "answers": [
+      "Termometr",
+      "Higrometr",
+      "Barometr",
+      "Anemometr"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Barometr mierzy ciśnienie, a jego spadek często zapowiada niepogodę."
+  },
+  {
+    "id": "sci_l024",
+    "question": "Co mierzy anemometr?",
+    "answers": [
+      "Prędkość wiatru",
+      "Wilgotność powietrza",
+      "Ilość opadów",
+      "Ciśnienie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Anemometr to wiatromierz – często ma kręcące się czaszki."
+  },
+  {
+    "id": "sci_l025",
+    "question": "Jak nazywa się skala służąca do określania siły wiatru?",
+    "answers": [
+      "Skala Beauforta",
+      "Skala Richtera",
+      "Skala Mohsa",
+      "Skala Kelvina"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Skala Beauforta ma stopnie od 0 (cisza) do 12 (huragan)."
+  },
+  {
+    "id": "sci_l026",
+    "question": "Którą skalą tradycyjnie określa się siłę (magnitudę) trzęsień ziemi?",
+    "answers": [
+      "Skalą Mohsa",
+      "Skalą Beauforta",
+      "Skalą Kelvina",
+      "Skalą Richtera"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Skalę magnitudy trzęsień ziemi opracował Charles Richter w 1935 roku."
+  },
+  {
+    "id": "sci_l027",
+    "question": "Jak nazywa się roztopiona skała, która wypłynęła z wulkanu na powierzchnię?",
+    "answers": [
+      "Magma",
+      "Bazalt",
+      "Pumeks",
+      "Lawa"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pod ziemią stopiona skała to magma, a po wydostaniu się na powierzchnię nazywamy ją lawą."
+  },
+  {
+    "id": "sci_l028",
+    "question": "Jak nazywa się naciek zwisający ze stropu jaskini?",
+    "answers": [
+      "Stalagmit",
+      "Stalagnat",
+      "Kalcyt",
+      "Stalaktyt"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Stalaktyt zwisa ze stropu, stalagmit rośnie od dna, a gdy się połączą, tworzą stalagnat."
+  },
+  {
+    "id": "sci_l029",
+    "question": "Jak nazywa się gorące źródło, które co jakiś czas wyrzuca w górę słup wody i pary?",
+    "answers": [
+      "Krater",
+      "Fumarola",
+      "Wodospad",
+      "Gejzer"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Najsłynniejsze gejzery znajdują się na Islandii i w Parku Yellowstone."
+  },
+  {
+    "id": "sci_l030",
+    "question": "Ile w przybliżeniu wynosi zero absolutne w stopniach Celsjusza?",
+    "answers": [
+      "Ok. −273 °C",
+      "Ok. −100 °C",
+      "Ok. −173 °C",
+      "Ok. −459 °C"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Zero absolutne to −273,15 °C, czyli 0 kelwinów."
+  },
+  {
+    "id": "sci_l031",
+    "question": "Jak nazywa się potężna chmura burzowa, z której biją pioruny?",
+    "answers": [
+      "Cirrus",
+      "Cumulonimbus",
+      "Stratus",
+      "Altocumulus"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Cumulonimbus to wysoka chmura kłębiasta, z którą wiążą się burze, ulewy i grad."
+  },
+  {
+    "id": "sci_l032",
+    "question": "Jak nazywa się kropelki wody osadzające się rano na trawie?",
+    "answers": [
+      "Szron",
+      "Szadź",
+      "Mżawka",
+      "Rosa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rosa powstaje, gdy para wodna skrapla się na wychłodzonych powierzchniach."
+  },
+  {
+    "id": "sci_l033",
+    "question": "Który uczony miał zawołać „Eureka!”, odkrywając prawo wyporu?",
+    "answers": [
+      "Archimedes",
+      "Pitagoras",
+      "Euklides",
+      "Arystoteles"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Według legendy Archimedes wpadł na prawo wyporu podczas kąpieli."
+  },
+  {
+    "id": "sci_l034",
+    "question": "Jak nazywa się skamieniała żywica drzew, nazywana „złotem Bałtyku”?",
+    "answers": [
+      "Bursztyn",
+      "Kwarc",
+      "Agat",
+      "Malachit"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Bursztyn to skamieniała żywica sprzed milionów lat – czasem z zatopionymi owadami."
+  },
+  {
+    "id": "sci_l035",
+    "question": "Kto odkrył prawa dziedziczenia, krzyżując groch?",
+    "answers": [
+      "Karol Darwin",
+      "Grzegorz Mendel",
+      "Ludwik Pasteur",
+      "Karol Linneusz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mendel, zakonnik z Brna, uważany jest za ojca genetyki."
+  },
+  {
+    "id": "sci_l036",
+    "question": "Który polski uczony wraz z Karolem Olszewskim jako pierwszy skroplił tlen i azot?",
+    "answers": [
+      "Ignacy Łukasiewicz",
+      "Zygmunt Wróblewski",
+      "Jan Czochralski",
+      "Kazimierz Funk"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Dokonali tego w Krakowie w 1883 roku."
+  },
+  {
+    "id": "sci_l038",
+    "question": "Z czym kojarzy się nazwisko Jana Czochralskiego?",
+    "answers": [
+      "Z pasteryzacją",
+      "Z datowaniem węglem",
+      "Z destylacją ropy",
+      "Z metodą hodowli monokryształów"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Metodą Czochralskiego otrzymuje się kryształy krzemu, z których powstają procesory."
+  },
+  {
+    "id": "sci_l039",
+    "question": "Co spadnie szybciej w próżni: piórko czy młotek?",
+    "answers": [
+      "Młotek",
+      "Spadną jednocześnie",
+      "Piórko",
+      "Zależy od kształtu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bez oporu powietrza wszystkie ciała spadają z tym samym przyspieszeniem."
+  },
+  {
+    "id": "sci_l040",
+    "question": "Z jakiego pierwiastka zbudowane są zarówno diament, jak i grafit?",
+    "answers": [
+      "Z krzemu",
+      "Z wapnia",
+      "Z boru",
+      "Z węgla"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Diament i grafit to dwie odmiany węgla różniące się ułożeniem atomów."
+  },
+  {
+    "id": "sci_l041",
+    "question": "Który metal najlepiej przewodzi prąd elektryczny?",
+    "answers": [
+      "Miedź",
+      "Złoto",
+      "Aluminium",
+      "Srebro"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Srebro jest najlepszym przewodnikiem, ale w kablach stosuje się tańszą miedź."
+  },
+  {
+    "id": "sci_l042",
+    "question": "Stopem miedzi z jakim metalem jest brąz?",
+    "answers": [
+      "Z żelazem",
+      "Z ołowiem",
+      "Z cyną",
+      "Ze srebrem"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Brąz to stop miedzi z cyną – od niego wzięła nazwę epoka brązu."
+  },
+  {
+    "id": "sci_l043",
+    "question": "Jak nazywa się dźwięk odbity od przeszkody, który wraca do nas?",
+    "answers": [
+      "Rezonans",
+      "Echo",
+      "Interferencja",
+      "Dyfrakcja"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Echo słychać np. w górach, gdy dźwięk odbija się od zboczy."
+  },
+  {
+    "id": "sci_l044",
+    "question": "Dlaczego lód pływa po wodzie?",
+    "answers": [
+      "Zawiera pęcherzyki powietrza",
+      "Ma mniejszą gęstość niż woda",
+      "Jest zimniejszy od wody",
+      "Ma większą gęstość niż woda"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Woda zamarzając zwiększa objętość, więc lód ma mniejszą gęstość niż woda w stanie ciekłym."
+  },
+  {
+    "id": "sci_l045",
+    "question": "Jak nazywa się ciepły, porywisty wiatr wiejący w Tatrach?",
+    "answers": [
+      "Bryza",
+      "Halny",
+      "Monsun",
+      "Pasat"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Halny to wiatr typu fen, który wieje z gór w doliny."
+  },
+  {
+    "id": "sci_l046",
+    "question": "Który gaz w stratosferze chroni nas przed promieniowaniem UV?",
+    "answers": [
+      "Azot",
+      "Argon",
+      "Hel",
+      "Ozon"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Warstwa ozonowa pochłania większość szkodliwego promieniowania ultrafioletowego."
+  },
+  {
+    "id": "sci_l047",
+    "question": "Kto odkrył promieniowanie X, nazywane od jego nazwiska?",
+    "answers": [
+      "Henri Becquerel",
+      "Ernest Rutherford",
+      "Wilhelm Röntgen",
+      "Piotr Curie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Röntgen odkrył promienie X w 1895 roku i otrzymał za to pierwszego Nobla z fizyki."
+  },
+  {
+    "id": "sci_l048",
+    "question": "Który pierwiastek ma w układzie okresowym numer 1?",
+    "answers": [
+      "Hel",
+      "Lit",
+      "Tlen",
+      "Wodór"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Wodór ma najprostszą budowę: jeden proton i jeden elektron."
+  },
+  {
+    "id": "sci_l049",
+    "question": "Dlaczego łyżeczka w szklance wody wygląda na złamaną?",
+    "answers": [
+      "Przez odbicie światła",
+      "Przez rozszerzalność cieplną",
+      "Przez polaryzację światła",
+      "Przez załamanie światła"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Światło zmienia kierunek, przechodząc z wody do powietrza – to zjawisko refrakcji."
+  },
+  {
+    "id": "sci_l050",
+    "question": "Jaki ładunek elektryczny ma elektron?",
+    "answers": [
+      "Dodatni",
+      "Ujemny",
+      "Obojętny",
+      "Zmienny"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Elektron ma ładunek ujemny, a proton – dodatni."
+  },
+  {
+    "id": "lit_l001",
+    "question": "Kto napisał „Quo vadis”?",
+    "answers": [
+      "Bolesław Prus",
+      "Henryk Sienkiewicz",
+      "Stefan Żeromski",
+      "Władysław Reymont"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Akcja „Quo vadis” toczy się w Rzymie za panowania Nerona."
+  },
+  {
+    "id": "lit_l002",
+    "question": "Który bohater „Ogniem i mieczem” przedarł się z oblężonego Zbaraża po pomoc?",
+    "answers": [
+      "Andrzej Kmicic",
+      "Michał Wołodyjowski",
+      "Longinus Podbipięta",
+      "Jan Skrzetuski"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Skrzetuski przedostał się przez obóz kozacki do króla; Podbipięta zginął, próbując tego samego."
+  },
+  {
+    "id": "lit_l003",
+    "question": "Kto napisał „Dziady”?",
+    "answers": [
+      "Juliusz Słowacki",
+      "Adam Mickiewicz",
+      "Zygmunt Krasiński",
+      "Cyprian Kamil Norwid"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Dziady” to dramat Mickiewicza, którego części powstawały w latach 1820–1832."
+  },
+  {
+    "id": "lit_l004",
+    "question": "Kto napisał „Balladynę”?",
+    "answers": [
+      "Adam Mickiewicz",
+      "Aleksander Fredro",
+      "Juliusz Słowacki",
+      "Zygmunt Krasiński"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Słowacki napisał „Balladynę” w 1834 roku, a wydał ją w 1839."
+  },
+  {
+    "id": "lit_l005",
+    "question": "Kto jest autorem komedii „Zemsta”?",
+    "answers": [
+      "Aleksander Fredro",
+      "Juliusz Słowacki",
+      "Stanisław Wyspiański",
+      "Jan Kochanowski"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W „Zemście” Fredro opisał spór Cześnika z Rejentem o mur graniczny."
+  },
+  {
+    "id": "lit_l006",
+    "question": "Kto napisał dramat „Wesele”?",
+    "answers": [
+      "Stefan Żeromski",
+      "Stanisław Wyspiański",
+      "Aleksander Fredro",
+      "Witkacy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Wesele” powstało po weselu Lucjana Rydla w Bronowicach w 1900 roku."
+  },
+  {
+    "id": "lit_l007",
+    "question": "Po śmierci której córki Jan Kochanowski napisał „Treny”?",
+    "answers": [
+      "Urszulki",
+      "Jadwigi",
+      "Zosi",
+      "Marysi"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Cykl „Trenów” poświęcony jest zmarłej w dzieciństwie Urszulce."
+  },
+  {
+    "id": "lit_l008",
+    "question": "Kto napisał „Przedwiośnie”?",
+    "answers": [
+      "Bolesław Prus",
+      "Władysław Reymont",
+      "Stefan Żeromski",
+      "Eliza Orzeszkowa"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Bohaterem „Przedwiośnia” jest Cezary Baryka, który słyszy od ojca o „szklanych domach”."
+  },
+  {
+    "id": "lit_l009",
+    "question": "W kim zakochany był Stanisław Wokulski z „Lalki”?",
+    "answers": [
+      "W Oleńce Billewiczównie",
+      "W Izabeli Łęckiej",
+      "W Justynie Orzelskiej",
+      "W Helenie Kurcewiczównie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nieodwzajemniona miłość do Izabeli Łęckiej jest osią „Lalki” Prusa."
+  },
+  {
+    "id": "lit_l010",
+    "question": "Z kim zaręcza się Tadeusz na zakończenie „Pana Tadeusza”?",
+    "answers": [
+      "Z Zosią",
+      "Z Oleńką",
+      "Z Jagną",
+      "Z Marysią"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Zaręczyny Tadeusza i Zosi wieńczą epopeję Mickiewicza."
+  },
+  {
+    "id": "lit_l011",
+    "question": "Kto jest autorem „Kamieni na szaniec”?",
+    "answers": [
+      "Tadeusz Borowski",
+      "Miron Białoszewski",
+      "Aleksander Kamiński",
+      "Gustaw Herling-Grudziński"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Książka opowiada o Rudym, Alku i Zośce z Szarych Szeregów."
+  },
+  {
+    "id": "lit_l012",
+    "question": "Kto jest autorem „Sklepów cynamonowych”?",
+    "answers": [
+      "Witold Gombrowicz",
+      "Jarosław Iwaszkiewicz",
+      "Bruno Schulz",
+      "Julian Tuwim"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bruno Schulz był pisarzem i grafikiem z Drohobycza."
+  },
+  {
+    "id": "lit_l013",
+    "question": "Kto napisał wiersz „Lokomotywa”?",
+    "answers": [
+      "Jan Brzechwa",
+      "Maria Konopnicka",
+      "Ludwik Jerzy Kern",
+      "Julian Tuwim"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Stoi na stacji lokomotywa…” – to początek wiersza Tuwima."
+  },
+  {
+    "id": "lit_l014",
+    "question": "Kto napisał „Akademię pana Kleksa”?",
+    "answers": [
+      "Julian Tuwim",
+      "Kornel Makuszyński",
+      "Stanisław Lem",
+      "Jan Brzechwa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Powieść Brzechwy ukazała się w 1946 roku."
+  },
+  {
+    "id": "lit_l015",
+    "question": "Do jakiego miasteczka wędrował Koziołek Matołek?",
+    "answers": [
+      "Do Pcimia",
+      "Do Wąchocka",
+      "Do Sandomierza",
+      "Do Pacanowa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„W Pacanowie kozy kują” – stąd cel podróży Koziołka Matołka."
+  },
+  {
+    "id": "lit_l016",
+    "question": "Z jakiego dramatu pochodzą słowa „Być albo nie być”?",
+    "answers": [
+      "„Makbet”",
+      "„Hamlet”",
+      "„Król Lear”",
+      "„Otello”"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "To początek słynnego monologu Hamleta, księcia Danii."
+  },
+  {
+    "id": "lit_l017",
+    "question": "W jakim mieście toczy się akcja „Romea i Julii”?",
+    "answers": [
+      "W Weronie",
+      "W Wenecji",
+      "We Florencji",
+      "W Mediolanie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szekspir umieścił historię kochanków z rodów Montekich i Kapuletów w Weronie."
+  },
+  {
+    "id": "lit_l018",
+    "question": "Z czym walczył Don Kichot, biorąc je za olbrzymów?",
+    "answers": [
+      "Z wiatrakami",
+      "Z latarniami",
+      "Z wieżami kościołów",
+      "Ze stogami siana"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Stąd powiedzenie „walczyć z wiatrakami”."
+  },
+  {
+    "id": "lit_l019",
+    "question": "Kto napisał „Zbrodnię i karę”?",
+    "answers": [
+      "Lew Tołstoj",
+      "Fiodor Dostojewski",
+      "Antoni Czechow",
+      "Aleksander Puszkin"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bohaterem powieści jest student Rodion Raskolnikow."
+  },
+  {
+    "id": "lit_l020",
+    "question": "Kto napisał powieść „Rok 1984”?",
+    "answers": [
+      "George Orwell",
+      "Aldous Huxley",
+      "Ray Bradbury",
+      "Herbert George Wells"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Z tej książki pochodzi „Wielki Brat” i hasło „Wielki Brat patrzy”."
+  },
+  {
+    "id": "lit_l021",
+    "question": "Który detektyw mieszkał przy Baker Street 221B?",
+    "answers": [
+      "Sherlock Holmes",
+      "Herkules Poirot",
+      "Philip Marlowe",
+      "Komisarz Maigret"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Londyńskie mieszkanie Holmesa opisał Arthur Conan Doyle."
+  },
+  {
+    "id": "lit_l022",
+    "question": "Kto napisał „Boską komedię”?",
+    "answers": [
+      "Francesco Petrarka",
+      "Giovanni Boccaccio",
+      "Dante Alighieri",
+      "Homer"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Poemat Dantego składa się z trzech części: Piekła, Czyśćca i Raju."
+  },
+  {
+    "id": "lit_l023",
+    "question": "Kto oprowadza Dantego po piekle w „Boskiej komedii”?",
+    "answers": [
+      "Homer",
+      "Beatrycze",
+      "Wergiliusz",
+      "Owidiusz"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Rzymski poeta Wergiliusz prowadzi Dantego przez Piekło i Czyściec."
+  },
+  {
+    "id": "lit_l024",
+    "question": "Jak nazywa się kapitan łodzi podwodnej Nautilus z powieści Juliusza Verne’a?",
+    "answers": [
+      "Kapitan Hak",
+      "Kapitan Ahab",
+      "Kapitan Nemo",
+      "Kapitan Flint"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kapitan Nemo jest bohaterem „Dwudziestu tysięcy mil podmorskiej żeglugi”."
+  },
+  {
+    "id": "lit_l025",
+    "question": "Kto jest autorem słów „Polacy nie gęsi, iż swój język mają”?",
+    "answers": [
+      "Jan Kochanowski",
+      "Adam Mickiewicz",
+      "Mikołaj Rej",
+      "Ignacy Krasicki"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Rej, nazywany ojcem literatury polskiej, pisał po polsku zamiast po łacinie."
+  },
+  {
+    "id": "lit_l026",
+    "question": "Kto napisał „Zniewolony umysł”?",
+    "answers": [
+      "Zbigniew Herbert",
+      "Czesław Miłosz",
+      "Leszek Kołakowski",
+      "Tadeusz Różewicz"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Esej Miłosza z 1953 roku opisuje uległość intelektualistów wobec totalitaryzmu."
+  },
+  {
+    "id": "lit_l027",
+    "question": "Bohaterem cyklu wierszy którego poety jest Pan Cogito?",
+    "answers": [
+      "Czesława Miłosza",
+      "Zbigniewa Herberta",
+      "Wisławy Szymborskiej",
+      "Tadeusza Różewicza"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Tom „Pan Cogito” Herbert wydał w 1974 roku."
+  },
+  {
+    "id": "art_l001",
+    "question": "W którym muzeum wisi „Mona Lisa”?",
+    "answers": [
+      "W Luwrze",
+      "W Prado",
+      "W Galerii Uffizi",
+      "W Ermitażu"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Obraz Leonarda da Vinci znajduje się w paryskim Luwrze."
+  },
+  {
+    "id": "art_l002",
+    "question": "Kto namalował słynną serię obrazów „Słoneczniki”?",
+    "answers": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Paul Gauguin",
+      "Paul Cézanne"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Najsłynniejsze wersje „Słoneczników” w wazonie Van Gogh namalował w Arles."
+  },
+  {
+    "id": "art_l003",
+    "question": "Kto namalował freski na sklepieniu Kaplicy Sykstyńskiej?",
+    "answers": [
+      "Rafael Santi",
+      "Leonardo da Vinci",
+      "Michał Anioł",
+      "Sandro Botticelli"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Michał Anioł malował sklepienie w latach 1508–1512, m.in. scenę „Stworzenia Adama”."
+  },
+  {
+    "id": "art_l004",
+    "question": "Kto namalował obraz z rozpływającymi się zegarami („Trwałość pamięci”)?",
+    "answers": [
+      "René Magritte",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Joan Miró"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "To jedno z najsłynniejszych dzieł surrealisty Salvadora Dalego."
+  },
+  {
+    "id": "art_l005",
+    "question": "Kto namalował „Dziewczynę z perłą”?",
+    "answers": [
+      "Rembrandt",
+      "Peter Paul Rubens",
+      "Jan Vermeer",
+      "Antoon van Dyck"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Obraz Vermeera bywa nazywany „Moną Lisą Północy”."
+  },
+  {
+    "id": "art_l006",
+    "question": "Kto namalował „Straż nocną”?",
+    "answers": [
+      "Rembrandt",
+      "Jan Vermeer",
+      "Frans Hals",
+      "Peter Paul Rubens"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Obraz Rembrandta wisi w Rijksmuseum w Amsterdamie."
+  },
+  {
+    "id": "art_l007",
+    "question": "Kto namalował „Hołd pruski”?",
+    "answers": [
+      "Wojciech Kossak",
+      "Artur Grottger",
+      "Jan Matejko",
+      "Jacek Malczewski"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Matejko ukazał hołd Albrechta Hohenzollerna złożony Zygmuntowi Staremu w 1525 roku."
+  },
+  {
+    "id": "art_l008",
+    "question": "Który obraz Matejki przedstawia zamyślonego błazna podczas balu?",
+    "answers": [
+      "„Stańczyk”",
+      "„Rejtan”",
+      "„Kazanie Skargi”",
+      "„Batory pod Pskowem”"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stańczyk siedzi smutny, gdy na dworze trwa bal, a przyszła wieść o utracie Smoleńska."
+  },
+  {
+    "id": "art_l009",
+    "question": "W jakim mieście można dziś oglądać „Panoramę Racławicką”?",
+    "answers": [
+      "W Krakowie",
+      "W Warszawie",
+      "W Poznaniu",
+      "We Wrocławiu"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Panoramę namalowali Jan Styka i Wojciech Kossak; od 1985 roku jest wystawiana we Wrocławiu."
+  },
+  {
+    "id": "art_l010",
+    "question": "Kto namalował „Czwórkę” – pędzący zaprzęg czterech koni?",
+    "answers": [
+      "Wojciech Kossak",
+      "Aleksander Gierymski",
+      "Józef Chełmoński",
+      "Julian Fałat"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "„Czwórka” Chełmońskiego z 1881 roku należy do najsłynniejszych polskich obrazów."
+  },
+  {
+    "id": "art_l011",
+    "question": "Kto zaprojektował barcelońską bazylikę Sagrada Família?",
+    "answers": [
+      "Le Corbusier",
+      "Santiago Calatrava",
+      "Antoni Gaudí",
+      "Gian Lorenzo Bernini"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Gaudí pracował nad świątynią od 1883 roku aż do śmierci w 1926 roku."
+  },
+  {
+    "id": "art_l012",
+    "question": "W jakim stylu zbudowano katedrę Notre-Dame w Paryżu?",
+    "answers": [
+      "Barokowym",
+      "Gotyckim",
+      "Romańskim",
+      "Klasycystycznym"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Notre-Dame to jeden z najsłynniejszych przykładów architektury gotyckiej."
+  },
+  {
+    "id": "art_l013",
+    "question": "Jak nazywa się najsłynniejszy dzwon na Wawelu?",
+    "answers": [
+      "Kazimierz",
+      "Zygmunt",
+      "Bolesław",
+      "Jagiełło"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Dzwon Zygmunt ufundował król Zygmunt Stary w 1520 roku."
+  },
+  {
+    "id": "art_l014",
+    "question": "Z wieży którego kościoła co godzinę grany jest hejnał krakowski?",
+    "answers": [
+      "Katedry Wawelskiej",
+      "Kościoła Franciszkanów",
+      "Kościoła św. Anny",
+      "Kościoła Mariackiego"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hejnał urywa się w połowie – na pamiątkę trębacza trafionego strzałą."
+  },
+  {
+    "id": "art_l015",
+    "question": "Który warszawski pałac nazywany jest „polskim Wersalem”?",
+    "answers": [
+      "Pałac na Wyspie",
+      "Belweder",
+      "Pałac Kultury i Nauki",
+      "Pałac w Wilanowie"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wilanów był rezydencją króla Jana III Sobieskiego."
+  },
+  {
+    "id": "art_l016",
+    "question": "Kto skomponował operę „Straszny dwór”?",
+    "answers": [
+      "Stanisław Moniuszko",
+      "Fryderyk Chopin",
+      "Karol Szymanowski",
+      "Krzysztof Penderecki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Moniuszko nazywany jest ojcem polskiej opery narodowej."
+  },
+  {
+    "id": "art_l017",
+    "question": "Jak nazywa się słynny teatr operowy w Mediolanie?",
+    "answers": [
+      "La Scala",
+      "Covent Garden",
+      "Metropolitan Opera",
+      "Teatr Bolszoj"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Teatro alla Scala działa od 1778 roku."
+  },
+  {
+    "id": "art_l018",
+    "question": "Kto napisał dramat „Tango”?",
+    "answers": [
+      "Tadeusz Różewicz",
+      "Sławomir Mrożek",
+      "Witold Gombrowicz",
+      "Witkacy"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Tango” z 1964 roku to najsłynniejszy dramat Mrożka."
+  },
+  {
+    "id": "cult_l001",
+    "question": "Co tradycyjnie zostawia się na wigilijnym stole dla niespodziewanego gościa?",
+    "answers": [
+      "Dodatkowy prezent",
+      "Otwarte okno",
+      "Wolne nakrycie",
+      "Zapaloną latarnię"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dodatkowe nakrycie czeka na zbłąkanego wędrowca lub nieobecnych bliskich."
+  },
+  {
+    "id": "cult_l002",
+    "question": "Jak nazywa się koszyczek z pokarmami święcony w Wielką Sobotę?",
+    "answers": [
+      "Rękawka",
+      "Święconka",
+      "Emaus",
+      "Siuda Baba"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Do święconki wkłada się m.in. jajka, chleb, sól i kiełbasę."
+  },
+  {
+    "id": "cult_l003",
+    "question": "Jaka postać na drewnianym koniku harcuje po Krakowie w oktawie Bożego Ciała?",
+    "answers": [
+      "Lajkonik",
+      "Smok Wawelski",
+      "Pan Twardowski",
+      "Hejnalista"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Lajkonik w stroju tatarskim prowadzi pochód ze Zwierzyńca na Rynek Główny."
+  },
+  {
+    "id": "cult_l004",
+    "question": "Którego dnia obchodzimy uroczystość Wszystkich Świętych?",
+    "answers": [
+      "1 listopada",
+      "2 listopada",
+      "11 listopada",
+      "31 października"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "1 listopada to Wszystkich Świętych, a 2 listopada – Zaduszki."
+  },
+  {
+    "id": "cult_l005",
+    "question": "Którego dnia przypada święto Trzech Króli?",
+    "answers": [
+      "1 stycznia",
+      "2 lutego",
+      "24 grudnia",
+      "6 stycznia"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Uroczystość Objawienia Pańskiego, czyli Trzech Króli, przypada 6 stycznia."
+  }
+]

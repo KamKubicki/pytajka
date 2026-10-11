@@ -1,6 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
-const { gameSessions, gameQuestions, selectFreshQuestions } = require('./game');
-const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings } = require('./validation');
+const { gameSessions } = require('./game');
+const { validateSessionId, validatePlayerName, validateAvatar, validateAnswer, validateGameSettings, validateCategoryKey, validatePlayerId, validateSabotageType } = require('./validation');
 
 function initializeSocket(server) {
   const io = require('socket.io')(server, {
@@ -8,14 +8,20 @@ function initializeSocket(server) {
       origin: function (origin, callback) {
         if (!origin) return callback(null, true);
         
-        // Allow localhost with any port for development
-        if (/^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
+        // Allow localhost with any port for development (HTTP and HTTPS)
+        if (/^https?:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
           return callback(null, true);
         }
         
-        // Allow local network IPs with development ports
-        if (/^http:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
-            /^http:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin)) {
+        // Allow local network IPs with development ports (HTTP and HTTPS)
+        if (/^https?:\/\/192\.168\.\d+\.\d+:\d+$/.test(origin) || 
+            /^https?:\/\/10\.\d+\.\d+\.\d+:\d+$/.test(origin) ||
+            /^https?:\/\/172\.(1[6-9]|2\d|3[01])\.\d+\.\d+:\d+$/.test(origin)) {
+          return callback(null, true);
+        }
+        
+        // Allow localhost without port (for same-origin requests)
+        if (/^https?:\/\/(localhost|127\.0\.0\.1)$/.test(origin)) {
           return callback(null, true);
         }
         
@@ -29,32 +35,40 @@ function initializeSocket(server) {
     pingInterval: 25000
   });
 
-  // Rate limiting for socket connections
+  // Rate limiting for socket connections - track requests and last activity
   const socketRequestCounts = new Map();
   const SOCKET_RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
   const SOCKET_RATE_LIMIT_MAX_REQUESTS = 50; // 50 requests per minute per socket
+  const SOCKET_CLEANUP_TIMEOUT = 10 * 60 * 1000; // Clean up sockets after 10 minutes of inactivity
+  const SOCKET_CLEANUP_WINDOW = 5 * 60 * 1000; // 5 minutes for cleanup check
 
   io.on('connection', (socket) => {
     console.log('User connected:', socket.id);
     
-    // Initialize rate limiting for this socket
-    socketRequestCounts.set(socket.id, []);
+    // Initialize rate limiting for this socket with lastActivity timestamp
+    socketRequestCounts.set(socket.id, { requests: [], lastActivity: Date.now() });
     
     // Rate limiting middleware for socket events
     const rateLimitCheck = (eventName) => {
       const now = Date.now();
-      const requests = socketRequestCounts.get(socket.id) || [];
+      let socketData = socketRequestCounts.get(socket.id);
+      if (!socketData) {
+        // 🔧 Entry may have been removed by periodic cleanup - recreate instead of blocking the socket forever
+        socketData = { requests: [], lastActivity: now };
+        socketRequestCounts.set(socket.id, socketData);
+      }
       
-      // Remove old requests outside the window
-      const validRequests = requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
+      const requests = socketData.requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
       
-      if (validRequests.length >= SOCKET_RATE_LIMIT_MAX_REQUESTS) {
+      if (requests.length >= SOCKET_RATE_LIMIT_MAX_REQUESTS) {
         socket.emit('rate-limit-exceeded', { message: 'Too many requests' });
         return false;
       }
       
-      validRequests.push(now);
-      socketRequestCounts.set(socket.id, validRequests);
+      requests.push(now);
+      socketData.requests = requests;
+      socketData.lastActivity = now;
+      socketRequestCounts.set(socket.id, socketData);
       return true;
     };
 
@@ -71,6 +85,11 @@ function initializeSocket(server) {
           session.updateActivity();
           socket.join(validatedSessionId);
           socket.emit('host-joined', { sessionId: validatedSessionId, session: session });
+          // 🗳️ TV reconnect during category vote
+          if (session.vote && session.vote.active) {
+            socket.emit('category-vote-start', session.getVoteStartPayload());
+            socket.emit('category-vote-update', session.getVoteUpdatePayload());
+          }
         } else {
           socket.emit('join-error', { message: 'Session not found' });
         }
@@ -83,7 +102,7 @@ function initializeSocket(server) {
       if (!rateLimitCheck('player-join')) return;
       
       try {
-        const { sessionId, playerName, avatar } = data;
+        const { sessionId, playerName, avatar, previousPlayerId } = data;
         const validatedSessionId = validateSessionId(sessionId);
         const validatedPlayerName = validatePlayerName(playerName);
         const validatedAvatar = validateAvatar(avatar);
@@ -92,6 +111,49 @@ function initializeSocket(server) {
         
         if (!session) {
           socket.emit('join-error', { message: 'Session not found' });
+          return;
+        }
+        
+        // 🔄 Reconnect: known previousPlayerId, or same name as a disconnected player
+        // (or any same-name player once the game runs - old socket may not have timed out yet) -> reattach, score kept
+        const byPreviousId = typeof previousPlayerId === 'string' ? session.players.get(previousPlayerId) : null;
+        const byName = Array.from(session.players.values())
+          .find(p => p.name.toLowerCase() === validatedPlayerName.toLowerCase());
+        const existingPlayer = byPreviousId ||
+          (byName && (byName.connected === false || session.status !== 'lobby') ? byName : null);
+        if (existingPlayer) {
+          session.players.set(existingPlayer.id, {
+            ...existingPlayer,
+            avatar: validatedAvatar,
+            socketId: socket.id,
+            connected: true
+          });
+          session.updateActivity();
+          socket.join(validatedSessionId);
+          socket.playerId = existingPlayer.id;
+          socket.sessionId = validatedSessionId;
+          console.log(`🔄 Player ${existingPlayer.name} reconnected to session ${validatedSessionId}`);
+          
+          socket.emit('player-joined', { playerId: existingPlayer.id, sessionId: validatedSessionId });
+          if (session.status === 'playing') {
+            socket.emit('game-started');
+            // 🗳️ Reconnect during category vote -> resend vote with remaining time
+            if (session.vote && session.vote.active) {
+              socket.emit('category-vote-start', session.getVoteStartPayload());
+            }
+          }
+          // 🃏 Resend hand + still-blocking sabotages of the current question
+          socket.emit('sabotage-cards', { cards: session.getSabotageCards(existingPlayer.id) });
+          const blocking = session.getBlockingSabotages(existingPlayer.id);
+          if (blocking.length > 0) {
+            socket.emit('sabotage-incoming', { sabotages: blocking });
+          }
+          io.to(validatedSessionId).emit('player-list-updated', {
+            players: session.getPlayersArray()
+          });
+          if (session.vote && session.vote.active) {
+            io.to(validatedSessionId).emit('category-vote-update', session.getVoteUpdatePayload());
+          }
           return;
         }
         
@@ -127,6 +189,7 @@ function initializeSocket(server) {
         socket.sessionId = validatedSessionId;
         
         socket.emit('player-joined', { playerId, sessionId: validatedSessionId });
+        socket.emit('sabotage-cards', { cards: session.getSabotageCards(playerId) });
         
         io.to(validatedSessionId).emit('player-list-updated', {
           players: session.getPlayersArray()
@@ -155,6 +218,12 @@ function initializeSocket(server) {
           return;
         }
         
+        // 🔒 Prevent double start (double click / re-emit) -> parallel question loops
+        if (session.status !== 'lobby') {
+          socket.emit('error', { message: 'Game already started' });
+          return;
+        }
+        
         if (session.players.size === 0) {
           socket.emit('error', { message: 'Cannot start game without players' });
           return;
@@ -163,18 +232,20 @@ function initializeSocket(server) {
         if (validatedSettings) {
           session.rounds = validatedSettings.rounds || session.rounds;
           session.questionsPerRound = validatedSettings.questionsPerRound || session.questionsPerRound;
-          session.totalQuestions = session.rounds * session.questionsPerRound;
-          
-          // Use fresh questions for new game settings
-          session.shuffledQuestions = selectFreshQuestions(session.totalQuestions);
+        }
+        // Reset per-game state (clamped to available questions); questions are picked per round after the vote
+        session.pickQuestions();
+        if (session.totalQuestions === 0) {
+          socket.emit('error', { message: 'Brak pytań w bazie' });
+          return;
         }
 
         session.status = 'playing';
         session.updateActivity();
         io.to(validatedSessionId).emit('game-started');
         
-        setTimeout(() => {
-          session.startQuestion(io);
+        session.schedule(() => {
+          session.startCategoryVote(io);
         }, 2000);
       } catch (error) {
         socket.emit('error', { message: error.message });
@@ -200,6 +271,12 @@ function initializeSocket(server) {
           return;
         }
         
+        // 🔒 Late answers (after time is up / during results) must not re-trigger endQuestion
+        if (!session.questionActive) {
+          socket.emit('error', { message: 'Question is not active' });
+          return;
+        }
+        
         if (!session.players.has(playerId)) {
           socket.emit('error', { message: 'Player not found in session' });
           return;
@@ -218,18 +295,77 @@ function initializeSocket(server) {
           timestamp: answerTimestamp
         });
         
+        // 🔒 Do not reveal the chosen answer before question-ended
         io.to(validatedSessionId).emit('player-answer-realtime', {
           playerId,
-          answer: validatedAnswer,
           totalAnswers: session.playerAnswers.size,
-          totalPlayers: session.players.size
+          totalPlayers: session.getConnectedPlayerCount()
         });
         
-        if (session.playerAnswers.size >= session.players.size) {
-          if (session.timer) {
-            clearTimeout(session.timer);
-            session.endQuestion(io);
-          }
+        session.checkAllAnswered(io);
+      } catch (error) {
+        socket.emit('error', { message: error.message });
+      }
+    });
+
+    socket.on('category-vote', (data) => {
+      if (!rateLimitCheck('category-vote')) return;
+      
+      try {
+        const { sessionId, playerId, categoryKey } = data || {};
+        const validatedSessionId = validateSessionId(sessionId);
+        const validatedPlayerId = validatePlayerId(playerId);
+        const validatedKey = validateCategoryKey(categoryKey);
+        // 🔒 A socket may only vote for its own player
+        if (socket.playerId !== validatedPlayerId || socket.sessionId !== validatedSessionId) {
+          socket.emit('error', { message: 'Player not found in session' });
+          return;
+        }
+        const session = gameSessions.get(validatedSessionId);
+        
+        if (!session) {
+          socket.emit('error', { message: 'Session not found' });
+          return;
+        }
+        
+        if (session.status !== 'playing') {
+          socket.emit('error', { message: 'Game is not active' });
+          return;
+        }
+        
+        const errorMessage = session.castVote(io, validatedPlayerId, validatedKey);
+        if (errorMessage) {
+          socket.emit('error', { message: errorMessage });
+        }
+      } catch (error) {
+        socket.emit('error', { message: error.message });
+      }
+    });
+
+    socket.on('sabotage-use', (data) => {
+      if (!rateLimitCheck('sabotage-use')) return;
+
+      try {
+        const { sessionId, playerId, targetPlayerId, type } = data || {};
+        const validatedSessionId = validateSessionId(sessionId);
+        const validatedPlayerId = validatePlayerId(playerId);
+        const validatedTargetId = validatePlayerId(targetPlayerId);
+        const validatedType = validateSabotageType(type);
+        // 🔒 A socket may only use its own cards
+        if (socket.playerId !== validatedPlayerId || socket.sessionId !== validatedSessionId) {
+          socket.emit('error', { message: 'Nie możesz użyć cudzej karty' });
+          return;
+        }
+        const session = gameSessions.get(validatedSessionId);
+
+        if (!session) {
+          socket.emit('error', { message: 'Nie znaleziono sesji' });
+          return;
+        }
+
+        const errorMessage = session.useSabotage(io, validatedPlayerId, validatedTargetId, validatedType);
+        if (errorMessage) {
+          socket.emit('error', { message: errorMessage });
         }
       } catch (error) {
         socket.emit('error', { message: error.message });
@@ -244,8 +380,17 @@ function initializeSocket(server) {
       
       if (socket.sessionId && socket.playerId) {
         const session = gameSessions.get(socket.sessionId);
-        if (session) {
-          session.removePlayer(socket.playerId);
+        const player = session && session.players.get(socket.playerId);
+        // Ignore if this socket was already replaced by a reconnect
+        if (session && player && player.socketId === socket.id) {
+          if (session.status === 'lobby') {
+            session.removePlayer(socket.playerId);
+          } else {
+            // 🔌 Keep player + score so the phone can rejoin with the same name
+            session.markPlayerDisconnected(socket.playerId);
+            session.checkAllAnswered(io);
+            session.checkAllVoted(io);
+          }
           session.updateActivity();
           
           // If host disconnects, notify players
@@ -272,15 +417,25 @@ function initializeSocket(server) {
   // Clean up socket rate limiting data every 5 minutes
   setInterval(() => {
     const now = Date.now();
-    socketRequestCounts.forEach((requests, socketId) => {
-      const validRequests = requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
-      if (validRequests.length === 0) {
+    
+    socketRequestCounts.forEach((socketData, socketId) => {
+      const timeSinceActivity = now - socketData.lastActivity;
+      
+      // Remove old requests outside the window
+      const validRequests = socketData.requests.filter(timestamp => now - timestamp < SOCKET_RATE_LIMIT_WINDOW);
+      
+      // Clean up if no valid requests OR socket has been inactive for too long
+      if (validRequests.length === 0 || timeSinceActivity > SOCKET_CLEANUP_TIMEOUT) {
         socketRequestCounts.delete(socketId);
+        if (timeSinceActivity > SOCKET_CLEANUP_TIMEOUT) {
+          console.log(`Cleaned up stale socket rate limit data: ${socketId} (inactive for ${Math.round(timeSinceActivity/60000)} min)`);
+        }
       } else {
-        socketRequestCounts.set(socketId, validRequests);
+        socketData.requests = validRequests;
+        socketRequestCounts.set(socketId, socketData);
       }
     });
-  }, 5 * 60 * 1000);
+  }, SOCKET_CLEANUP_WINDOW);
 
   return io;
 }

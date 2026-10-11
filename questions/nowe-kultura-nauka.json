@@ -1,0 +1,847 @@
+[
+  {
+    "id": "lit_n001",
+    "question": "Jakimi słowami zaczyna się „Pan Tadeusz”?",
+    "answers": [
+      "Polsko, ojczyzno moja!",
+      "Litwo! Ojczyzno moja!",
+      "Ojczyzno, matko moja!",
+      "Witaj, ziemio ojczysta!"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Inwokacja „Pana Tadeusza” zaczyna się od słów „Litwo! Ojczyzno moja! ty jesteś jak zdrowie”."
+  },
+  {
+    "id": "lit_n002",
+    "question": "Jak nazywa się gadający kot w „Mistrzu i Małgorzacie”?",
+    "answers": [
+      "Behemot",
+      "Azazello",
+      "Woland",
+      "Korowiow"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Behemot to ogromny czarny kot z orszaku Wolanda w powieści Michaiła Bułhakowa."
+  },
+  {
+    "id": "lit_n003",
+    "question": "Za jaką powieść Władysław Reymont otrzymał Nagrodę Nobla?",
+    "answers": [
+      "„Ziemia obiecana”",
+      "„Lalka”",
+      "„Przedwiośnie”",
+      "„Chłopi”"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Reymont dostał Nobla w 1924 roku za epopeję chłopską „Chłopi”."
+  },
+  {
+    "id": "lit_n004",
+    "question": "Jak naprawdę nazywał się Bolesław Prus?",
+    "answers": [
+      "Henryk Goldszmit",
+      "Leszek Serafinowicz",
+      "Aleksander Głowacki",
+      "Stanisław Wokulski"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bolesław Prus to pseudonim Aleksandra Głowackiego; Henryk Goldszmit to Janusz Korczak."
+  },
+  {
+    "id": "lit_n005",
+    "question": "W jakim mieście toczy się główna akcja „Lalki” Bolesława Prusa?",
+    "answers": [
+      "W Krakowie",
+      "W Warszawie",
+      "We Lwowie",
+      "W Łodzi"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Stanisław Wokulski prowadził sklep w Warszawie przy Krakowskim Przedmieściu."
+  },
+  {
+    "id": "lit_n006",
+    "question": "Kto jest autorem powieści „Ziemia obiecana” o fabrykantach z Łodzi?",
+    "answers": [
+      "Władysław Reymont",
+      "Bolesław Prus",
+      "Stefan Żeromski",
+      "Eliza Orzeszkowa"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Ziemię obiecaną” napisał Władysław Reymont, a na ekran przeniósł ją Andrzej Wajda."
+  },
+  {
+    "id": "lit_n007",
+    "question": "Kto stworzył postać wiedźmina Geralta z Rivii?",
+    "answers": [
+      "Stanisław Lem",
+      "Jacek Dukaj",
+      "Jarosław Grzędowicz",
+      "Andrzej Sapkowski"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pierwsze opowiadanie o wiedźminie Andrzej Sapkowski opublikował w 1986 roku."
+  },
+  {
+    "id": "lit_n008",
+    "question": "Kto napisał „Małego Księcia”?",
+    "answers": [
+      "Jules Verne",
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Albert Camus"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Antoine de Saint-Exupéry był pisarzem i pilotem, sam też zilustrował „Małego Księcia”."
+  },
+  {
+    "id": "lit_n009",
+    "question": "Z ilu ksiąg składa się „Pan Tadeusz”?",
+    "answers": [
+      "10",
+      "12",
+      "8",
+      "24"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "„Pan Tadeusz” ma dwanaście ksiąg."
+  },
+  {
+    "id": "lit_n010",
+    "question": "Kto napisał powieść „Solaris”?",
+    "answers": [
+      "Stanisław Lem",
+      "Andrzej Sapkowski",
+      "Janusz Zajdel",
+      "Ray Bradbury"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Solaris” Stanisława Lema ukazała się w 1961 roku i była kilka razy ekranizowana."
+  },
+  {
+    "id": "lit_n011",
+    "question": "W którym roku Wisława Szymborska otrzymała Nagrodę Nobla?",
+    "answers": [
+      "1980",
+      "1992",
+      "2000",
+      "1996"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Szymborska dostała Nobla w 1996 roku; Czesław Miłosz otrzymał go w 1980."
+  },
+  {
+    "id": "lit_n012",
+    "question": "Jak nazywa się kapitan, który ściga wieloryba w „Moby Dicku”?",
+    "answers": [
+      "Nemo",
+      "Hak",
+      "Ahab",
+      "Flint"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kapitan Ahab z powieści Hermana Melville'a ściga białego wieloryba Moby Dicka."
+  },
+  {
+    "id": "lit_n013",
+    "question": "W co zamienia się Gregor Samsa w „Przemianie” Franza Kafki?",
+    "answers": [
+      "W kota",
+      "W wielkiego owada",
+      "W psa",
+      "W ptaka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Na początku „Przemiany” Gregor Samsa budzi się jako ogromny robak."
+  },
+  {
+    "id": "cult_n001",
+    "question": "Jak nazywa się zwyczaj polewania się wodą w Poniedziałek Wielkanocny?",
+    "answers": [
+      "Śmigus-dyngus",
+      "Andrzejki",
+      "Topienie Marzanny",
+      "Sobótka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lany poniedziałek, czyli śmigus-dyngus, to tradycja wielkanocna."
+  },
+  {
+    "id": "cult_n002",
+    "question": "Jak nazywa się słomiana kukła, którą topi się na powitanie wiosny?",
+    "answers": [
+      "Baba Jaga",
+      "Kikimora",
+      "Rusałka",
+      "Marzanna"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Topienie Marzanny to zwyczaj żegnania zimy, zwykle w pierwszy dzień wiosny."
+  },
+  {
+    "id": "cult_n003",
+    "question": "Jakiego wieczoru tradycyjnie leje się wosk przez dziurkę od klucza?",
+    "answers": [
+      "W mikołajki",
+      "W zaduszki",
+      "W andrzejki",
+      "W tłusty czwartek"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wróżby andrzejkowe odbywają się wieczorem 29 listopada, w wigilię św. Andrzeja."
+  },
+  {
+    "id": "cult_n004",
+    "question": "Ile potraw tradycyjnie powinno znaleźć się na wigilijnym stole?",
+    "answers": [
+      "7",
+      "12",
+      "9",
+      "10"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Według tradycji wigilijnych potraw powinno być dwanaście, tyle ile apostołów."
+  },
+  {
+    "id": "cult_n005",
+    "question": "Która nazwa ptaka jest zapisana poprawnie?",
+    "answers": [
+      "Gżegżółka",
+      "Grzegrzółka",
+      "Gżegrzółka",
+      "Grzegżółka"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Poprawnie piszemy „gżegżółka” – to ludowa nazwa kukułki."
+  },
+  {
+    "id": "cult_n006",
+    "question": "Z jakiego mleka tradycyjnie robi się oscypek?",
+    "answers": [
+      "Z krowiego",
+      "Z koziego",
+      "Z bawolego",
+      "Z owczego"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Oscypek to wędzony ser z mleka owczego, czasem z niewielkim dodatkiem krowiego."
+  },
+  {
+    "id": "cult_n007",
+    "question": "Jak nazywa się zupa na zakwasie z mąki żytniej?",
+    "answers": [
+      "Barszcz",
+      "Kapuśniak",
+      "Żurek",
+      "Grochówka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Żurek gotuje się na zakwasie z mąki żytniej."
+  },
+  {
+    "id": "cult_n008",
+    "question": "Rogal świętomarciński to przysmak z którego miasta?",
+    "answers": [
+      "Z Krakowa",
+      "Z Poznania",
+      "Z Gdańska",
+      "Z Wrocławia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Rogale świętomarcińskie jada się w Poznaniu 11 listopada, w dzień św. Marcina."
+  },
+  {
+    "id": "cult_n009",
+    "question": "Z jakiego przysmaku słynie Toruń?",
+    "answers": [
+      "Z pierników",
+      "Z obwarzanków",
+      "Z krówek",
+      "Z oscypków"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Toruńskie pierniki wypieka się od średniowiecza."
+  },
+  {
+    "id": "cult_n010",
+    "question": "Jak nazywa się ludowe święto w najkrótszą noc w roku?",
+    "answers": [
+      "Dziady",
+      "Zaduszki",
+      "Andrzejki",
+      "Noc Kupały (sobótka)"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Noc Kupały, czyli sobótkę, świętowano w okolicach letniego przesilenia."
+  },
+  {
+    "id": "art_n001",
+    "question": "Kto namalował „Bitwę pod Grunwaldem”?",
+    "answers": [
+      "Józef Chełmoński",
+      "Jacek Malczewski",
+      "Jan Matejko",
+      "Juliusz Kossak"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jan Matejko skończył „Bitwę pod Grunwaldem” w 1878 roku."
+  },
+  {
+    "id": "art_n002",
+    "question": "Kto namalował „Damę z gronostajem”?",
+    "answers": [
+      "Rafael Santi",
+      "Leonardo da Vinci",
+      "Sandro Botticelli",
+      "Tycjan"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Dama z gronostajem” Leonarda da Vinci to jeden z najcenniejszych obrazów w Polsce."
+  },
+  {
+    "id": "art_n003",
+    "question": "W którym mieście można zobaczyć „Damę z gronostajem”?",
+    "answers": [
+      "W Krakowie",
+      "W Warszawie",
+      "We Wrocławiu",
+      "W Gdańsku"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Obraz wisi w Muzeum Czartoryskich w Krakowie."
+  },
+  {
+    "id": "art_n004",
+    "question": "Kto wyrzeźbił słynnego marmurowego „Dawida” we Florencji?",
+    "answers": [
+      "Donatello",
+      "Leonardo da Vinci",
+      "Bernini",
+      "Michał Anioł"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Michał Anioł wyrzeźbił „Dawida” w latach 1501–1504."
+  },
+  {
+    "id": "art_n005",
+    "question": "W jakiej miejscowości urodził się Fryderyk Chopin?",
+    "answers": [
+      "W Warszawie",
+      "W Dusznikach-Zdroju",
+      "W Żelazowej Woli",
+      "W Krakowie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Chopin urodził się w 1810 roku w Żelazowej Woli pod Sochaczewem."
+  },
+  {
+    "id": "art_n006",
+    "question": "Gdzie znajduje się serce Fryderyka Chopina?",
+    "answers": [
+      "Na cmentarzu Père-Lachaise w Paryżu",
+      "W kościele Świętego Krzyża w Warszawie",
+      "W katedrze na Wawelu",
+      "W Żelazowej Woli"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Ciało Chopina pochowano w Paryżu, a jego serce przewieziono do kościoła Świętego Krzyża w Warszawie."
+  },
+  {
+    "id": "art_n007",
+    "question": "Kto namalował „Krzyk”?",
+    "answers": [
+      "Edvard Munch",
+      "Vincent van Gogh",
+      "Gustav Klimt",
+      "Egon Schiele"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Krzyk” namalował Norweg Edvard Munch, a jego najsłynniejsza wersja powstała w 1893 roku."
+  },
+  {
+    "id": "art_n008",
+    "question": "Kto namalował „Szał uniesień”?",
+    "answers": [
+      "Jacek Malczewski",
+      "Józef Chełmoński",
+      "Stanisław Wyspiański",
+      "Władysław Podkowiński"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "„Szał uniesień” Podkowińskiego wywołał skandal, a malarz pociął potem obraz nożem."
+  },
+  {
+    "id": "art_n009",
+    "question": "Kto zaprojektował witraż „Bóg Ojciec – Stań się” w kościele Franciszkanów w Krakowie?",
+    "answers": [
+      "Józef Mehoffer",
+      "Jan Matejko",
+      "Stanisław Wyspiański",
+      "Olga Boznańska"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Ten słynny witraż w kościele Franciszkanów zaprojektował Stanisław Wyspiański."
+  },
+  {
+    "id": "sci_n001",
+    "question": "Który pierwiastek Maria Skłodowska-Curie nazwała na cześć Polski?",
+    "answers": [
+      "Rad",
+      "Polon",
+      "Pluton",
+      "Prazeodym"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Polon (Po), odkryty w 1898 roku, nazwano na cześć Polski, której wtedy nie było na mapie."
+  },
+  {
+    "id": "sci_n002",
+    "question": "Ile Nagród Nobla zdobyła Maria Skłodowska-Curie?",
+    "answers": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Dostała Nobla z fizyki w 1903 roku i z chemii w 1911."
+  },
+  {
+    "id": "sci_n003",
+    "question": "Kto ogłosił, że to Ziemia krąży wokół Słońca?",
+    "answers": [
+      "Galileusz",
+      "Johannes Kepler",
+      "Isaac Newton",
+      "Mikołaj Kopernik"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kopernik opisał teorię heliocentryczną w dziele „O obrotach sfer niebieskich” z 1543 roku."
+  },
+  {
+    "id": "sci_n004",
+    "question": "Którego pierwiastka jest najwięcej we Wszechświecie?",
+    "answers": [
+      "Helu",
+      "Tlenu",
+      "Wodoru",
+      "Węgla"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wodór stanowi około trzech czwartych masy zwykłej materii we Wszechświecie."
+  },
+  {
+    "id": "sci_n005",
+    "question": "Przy jakiej temperaturze skale Celsjusza i Fahrenheita pokazują tę samą liczbę?",
+    "answers": [
+      "0",
+      "−40",
+      "−273",
+      "100"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "−40°C to dokładnie −40°F."
+  },
+  {
+    "id": "sci_n006",
+    "question": "Który pierwiastek ma symbol „Fe”?",
+    "answers": [
+      "Żelazo",
+      "Fluor",
+      "Fosfor",
+      "Frans"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Symbol Fe pochodzi od łacińskiej nazwy żelaza – ferrum."
+  },
+  {
+    "id": "sci_n007",
+    "question": "Który pierwiastek ma symbol „K”?",
+    "answers": [
+      "Wapń",
+      "Krzem",
+      "Kobalt",
+      "Potas"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Symbol K pochodzi od łacińskiej nazwy potasu – kalium."
+  },
+  {
+    "id": "sci_n008",
+    "question": "Który naturalny minerał jest najtwardszy?",
+    "answers": [
+      "Kwarc",
+      "Topaz",
+      "Diament",
+      "Korund"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Diament ma twardość 10 w skali Mohsa, czyli najwyższą."
+  },
+  {
+    "id": "sci_n009",
+    "question": "Ile mniej więcej leci światło ze Słońca do Ziemi?",
+    "answers": [
+      "Około 8 sekund",
+      "Około 8 minut",
+      "Około godziny",
+      "Około doby"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Światło słoneczne dociera do Ziemi w około 8 minut i 20 sekund."
+  },
+  {
+    "id": "sci_n010",
+    "question": "Na której planecie doba trwa dłużej niż rok?",
+    "answers": [
+      "Na Wenus",
+      "Na Marsie",
+      "Na Jowiszu",
+      "Na Merkurym"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Wenus obraca się wokół osi przez około 243 ziemskie dni, a Słońce okrąża w około 225."
+  },
+  {
+    "id": "sci_n011",
+    "question": "Który metal w temperaturze pokojowej jest cieczą?",
+    "answers": [
+      "Ołów",
+      "Cyna",
+      "Glin",
+      "Rtęć"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rtęć topnieje w temperaturze około −39°C, więc w pokoju jest płynna."
+  },
+  {
+    "id": "sci_n012",
+    "question": "Kto odkrył penicylinę?",
+    "answers": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Alexander Fleming",
+      "Edward Jenner"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Alexander Fleming odkrył penicylinę w 1928 roku."
+  },
+  {
+    "id": "sci_n013",
+    "question": "Co mierzy się w hercach?",
+    "answers": [
+      "Moc",
+      "Częstotliwość",
+      "Napięcie",
+      "Ciśnienie"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Herc (Hz) to jednostka częstotliwości – jedno drgnięcie na sekundę."
+  },
+  {
+    "id": "nat_n001",
+    "question": "Ile nóg ma owad?",
+    "answers": [
+      "6",
+      "8",
+      "4",
+      "10"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Owady mają trzy pary odnóży, czyli sześć nóg."
+  },
+  {
+    "id": "nat_n002",
+    "question": "Który z tych ssaków naprawdę lata, a nie tylko szybuje?",
+    "answers": [
+      "Polatucha",
+      "Lotopałanka",
+      "Lotokot",
+      "Nietoperz"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nietoperze to jedyne ssaki zdolne do aktywnego lotu, a pozostałe tylko szybują."
+  },
+  {
+    "id": "nat_n003",
+    "question": "Jakie zwierzę jest największym ssakiem lądowym?",
+    "answers": [
+      "Nosorożec biały",
+      "Hipopotam",
+      "Słoń afrykański",
+      "Żyrafa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Słoń afrykański sawannowy może ważyć nawet ponad 6 ton."
+  },
+  {
+    "id": "nat_n004",
+    "question": "Jaki kolor ma skóra niedźwiedzia polarnego?",
+    "answers": [
+      "Biały",
+      "Czarny",
+      "Różowy",
+      "Szary"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Pod białym futrem niedźwiedź polarny ma czarną skórę, która lepiej pochłania ciepło."
+  },
+  {
+    "id": "nat_n005",
+    "question": "Ile oczu ma większość pająków?",
+    "answers": [
+      "8",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Większość pająków ma osiem oczu, choć u niektórych gatunków jest ich mniej."
+  },
+  {
+    "id": "nat_n006",
+    "question": "Jak nazywa się najcięższy ssak lądowy Europy?",
+    "answers": [
+      "Łoś",
+      "Niedźwiedź brunatny",
+      "Jeleń szlachetny",
+      "Żubr"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Samce żubra ważą nawet ponad 800 kg."
+  },
+  {
+    "id": "nat_n007",
+    "question": "Jak nazywa się nielot, który jest symbolem Nowej Zelandii?",
+    "answers": [
+      "Emu",
+      "Struś",
+      "Kiwi",
+      "Kazuar"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kiwi to nielot z Nowej Zelandii, a Nowozelandczycy nazywają siebie „Kiwis”."
+  },
+  {
+    "id": "nat_n008",
+    "question": "Do jakiej gromady zwierząt należy wieloryb?",
+    "answers": [
+      "Do ryb",
+      "Do ssaków",
+      "Do płazów",
+      "Do gadów"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wieloryby oddychają powietrzem i karmią młode mlekiem, więc są ssakami."
+  },
+  {
+    "id": "nat_n009",
+    "question": "Ile skrzydeł ma pszczoła miodna?",
+    "answers": [
+      "4",
+      "2",
+      "6",
+      "8"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pszczoła ma dwie pary skrzydeł, które w locie łączą się haczykami."
+  },
+  {
+    "id": "tech_n001",
+    "question": "Kto w 1876 roku opatentował telefon?",
+    "answers": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Samuel Morse",
+      "Alexander Graham Bell"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Alexander Graham Bell dostał patent na telefon w 1876 roku."
+  },
+  {
+    "id": "tech_n002",
+    "question": "Co oznacza skrót „USB”?",
+    "answers": [
+      "Unified System Board",
+      "Ultra Speed Bridge",
+      "Universal Serial Bus",
+      "Universal Storage Box"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "USB, czyli Universal Serial Bus, to uniwersalna magistrala szeregowa."
+  },
+  {
+    "id": "tech_n003",
+    "question": "Ile bitów ma jeden bajt?",
+    "answers": [
+      "4",
+      "8",
+      "10",
+      "16"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Bajt składa się z ośmiu bitów."
+  },
+  {
+    "id": "tech_n004",
+    "question": "Z jakiego kraju pochodzi firma Nokia?",
+    "answers": [
+      "Z Finlandii",
+      "Ze Szwecji",
+      "Z Norwegii",
+      "Z Danii"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nokia to fińska firma, nazwana od miasta Nokia w Finlandii."
+  },
+  {
+    "id": "tech_n005",
+    "question": "Skąd wzięła się nazwa języka programowania Python?",
+    "answers": [
+      "Od węża pytona",
+      "Od nazwiska twórcy",
+      "Od mitu greckiego",
+      "Od grupy komików Monty Python"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Guido van Rossum nazwał język na cześć brytyjskiej grupy komików Monty Python."
+  },
+  {
+    "id": "food_n001",
+    "question": "Z jakiej rośliny robi się tequilę?",
+    "answers": [
+      "Z kaktusa",
+      "Z trzciny cukrowej",
+      "Z agawy",
+      "Z kukurydzy"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Tequilę robi się z niebieskiej agawy, która nie jest kaktusem."
+  },
+  {
+    "id": "food_n002",
+    "question": "Z jakiego kontynentu pochodzą ziemniaki?",
+    "answers": [
+      "Z Europy",
+      "Z Ameryki Południowej",
+      "Z Azji",
+      "Z Afryki"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ziemniaki udomowiono w Andach, a do Europy trafiły w XVI wieku."
+  },
+  {
+    "id": "food_n003",
+    "question": "Z jakiej części rośliny pozyskuje się szafran?",
+    "answers": [
+      "Ze znamion słupka krokusa",
+      "Z korzenia imbiru",
+      "Z kory cynamonowca",
+      "Z nasion maku"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szafran to wysuszone znamiona słupka szafranu uprawnego, czyli krokusa."
+  },
+  {
+    "id": "food_n004",
+    "question": "Który z tych owoców jest botanicznie jagodą?",
+    "answers": [
+      "Truskawka",
+      "Malina",
+      "Jeżyna",
+      "Banan"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Banan jest botanicznie jagodą, a truskawka, malina i jeżyna nie są."
+  },
+  {
+    "id": "food_n005",
+    "question": "Z jakiego kraju pochodzi kawowiec arabski?",
+    "answers": [
+      "Z Brazylii",
+      "Z Kolumbii",
+      "Z Etiopii",
+      "Z Jemenu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kawowiec arabski pochodzi z Etiopii, a potem uprawiano go w Jemenie."
+  },
+  {
+    "id": "food_n006",
+    "question": "Z czego robi się czekoladę?",
+    "answers": [
+      "Z ziaren kawy",
+      "Z ziaren kakaowca",
+      "Z orzechów laskowych",
+      "Z ziaren chleba świętojańskiego"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Czekoladę robi się z fermentowanych i prażonych ziaren kakaowca."
+  }
+]

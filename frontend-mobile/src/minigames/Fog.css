@@ -1,0 +1,168 @@
+.mg-fog {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding:
+    calc(var(--safe-t, 0px) + 12px)
+    calc(var(--safe-r, 0px) + 12px)
+    calc(var(--safe-b, 0px) + 12px)
+    calc(var(--safe-l, 0px) + 12px);
+  overflow: hidden;
+  background:
+    radial-gradient(120% 60% at 50% -10%, rgba(169, 177, 214, 0.22), transparent 60%),
+    var(--bg-0, #050818);
+  color: var(--text, #F4F6FF);
+  font-family: var(--font-body, system-ui, sans-serif);
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.mg-fog__head {
+  flex: none;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 6px 10px;
+}
+
+.mg-fog__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display, system-ui, sans-serif);
+  font-weight: 800;
+  font-size: clamp(20px, 6vw, 26px);
+  line-height: 1.1;
+}
+
+.mg-fog__icon {
+  font-size: 1.15em;
+}
+
+.mg-fog__hint {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 0;
+  color: var(--text-dim, #A9B1D6);
+  font-size: 15px;
+}
+
+.mg-fog__bar {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.mg-fog__bar-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent, #29E7FF), var(--good, #2EC27E));
+  transition: width 0.2s ease-out;
+}
+
+.mg-fog__pct {
+  grid-column: 2;
+  grid-row: 1;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--accent, #29E7FF);
+}
+
+.mg-fog__area {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  border-radius: var(--r-lg, 22px);
+  overflow: hidden;
+  touch-action: none;
+  border: 1px solid var(--line-strong, rgba(255, 255, 255, 0.24));
+}
+
+.mg-fog__answers {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  background: var(--bg-1, #0A1030);
+}
+
+.mg-fog__ans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 0;
+  padding: 10px 8px;
+  border-radius: var(--r-md, 16px);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: clamp(14px, 4.2vw, 18px);
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+.mg-fog__ans--a { background: var(--ans-a, #E63946); }
+.mg-fog__ans--b { background: var(--ans-b, #2A9DF4); }
+.mg-fog__ans--c { background: var(--ans-c, #F4B400); color: #1a1a1a; }
+.mg-fog__ans--d { background: var(--ans-d, #2EC27E); }
+
+.mg-fog__letter {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.22);
+  font-family: var(--font-display, system-ui, sans-serif);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.mg-fog__text {
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* answers stay hidden until the fog canvas has been painted */
+.mg-fog__area:not(.is-ready) .mg-fog__answers {
+  visibility: hidden;
+}
+
+.mg-fog__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  touch-action: none;
+  cursor: crosshair;
+  transition: opacity 0.4s ease-out;
+}
+
+.mg-fog__canvas.is-done {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mg-fog__canvas,
+  .mg-fog__bar-fill {
+    transition: none;
+  }
+}

@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "med_j001",
+    "question": "Która kość jest najdłuższa w ciele człowieka?",
+    "answers": [
+      "Kość udowa",
+      "Kość piszczelowa",
+      "Kość ramienna",
+      "Kość strzałkowa"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kość udowa to najdłuższa i jedna z najmocniejszych kości szkieletu."
+  },
+  {
+    "id": "med_j002",
+    "question": "Jaki narząd jest największym narządem człowieka?",
+    "answers": [
+      "Skóra",
+      "Wątroba",
+      "Płuca",
+      "Jelito cienkie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Skóra dorosłego człowieka ma powierzchnię około 1,5–2 m² i jest jego największym narządem."
+  },
+  {
+    "id": "med_j003",
+    "question": "Ile jam ma serce człowieka (przedsionki i komory łącznie)?",
+    "answers": [
+      "4",
+      "2",
+      "3",
+      "6"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Serce ma dwa przedsionki i dwie komory."
+  },
+  {
+    "id": "med_j004",
+    "question": "Która witamina powstaje w skórze pod wpływem słońca?",
+    "answers": [
+      "Witamina D",
+      "Witamina A",
+      "Witamina C",
+      "Witamina K"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Promieniowanie UVB uruchamia w skórze syntezę witaminy D."
+  },
+  {
+    "id": "med_j005",
+    "question": "Jak potocznie nazywa się ścięgno piętowe?",
+    "answers": [
+      "Ścięgno Herkulesa",
+      "Ścięgno Achillesa",
+      "Ścięgno Hektora",
+      "Ścięgno Odyseusza"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa nawiązuje do mitycznego Achillesa, którego jedynym słabym punktem była pięta."
+  },
+  {
+    "id": "med_j006",
+    "question": "Jak nazywa się barwnik nadający kolor skórze i włosom?",
+    "answers": [
+      "Hemoglobina",
+      "Keratyna",
+      "Kolagen",
+      "Melanina"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Melaninę wytwarzają komórki skóry zwane melanocytami."
+  },
+  {
+    "id": "med_j007",
+    "question": "Jaka jest średnia prawidłowa temperatura ciała zdrowego człowieka?",
+    "answers": [
+      "Około 36,6 °C",
+      "Około 35,0 °C",
+      "Około 37,8 °C",
+      "Około 38,5 °C"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Typowa temperatura ciała mieści się w okolicach 36,6 °C, a powyżej 38 °C mówimy o gorączce."
+  },
+  {
+    "id": "med_j008",
+    "question": "Jak nazywa się otwór w środku tęczówki oka?",
+    "answers": [
+      "Źrenica",
+      "Siatkówka",
+      "Rogówka",
+      "Soczewka"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Źrenica zwęża się i rozszerza, regulując ilość światła wpadającego do oka."
+  },
+  {
+    "id": "med_j009",
+    "question": "Jak nazywa się zaburzenie, przy którym myli się kolory czerwony i zielony?",
+    "answers": [
+      "Daltonizm",
+      "Astygmatyzm",
+      "Krótkowzroczność",
+      "Zez"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Nazwa pochodzi od chemika Johna Daltona, który sam miał to zaburzenie i je opisał."
+  },
+  {
+    "id": "med_j010",
+    "question": "Kogo nazywa się „ojcem medycyny”?",
+    "answers": [
+      "Galena",
+      "Hipokratesa",
+      "Arystotelesa",
+      "Awicennę"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Od greckiego lekarza Hipokratesa wywodzi się tradycja przysięgi lekarskiej."
+  },
+  {
+    "id": "med_j011",
+    "question": "Kto w 1895 roku odkrył promieniowanie X?",
+    "answers": [
+      "Maria Skłodowska-Curie",
+      "Wilhelm Röntgen",
+      "Nikola Tesla",
+      "Thomas Edison"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Za odkrycie promieni X Röntgen otrzymał pierwszą w historii Nagrodę Nobla z fizyki."
+  },
+  {
+    "id": "med_j013",
+    "question": "Jaki numer ma w Polsce pogotowie ratunkowe (obok 112)?",
+    "answers": [
+      "997",
+      "998",
+      "999",
+      "986"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "999 to numer pogotowia, 998 – straży pożarnej, a 997 – policji."
+  },
+  {
+    "id": "med_j014",
+    "question": "Jaki numer alarmowy działa we wszystkich krajach Unii Europejskiej?",
+    "answers": [
+      "911",
+      "112",
+      "999",
+      "100"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "112 to jednolity europejski numer alarmowy."
+  },
+  {
+    "id": "med_j015",
+    "question": "W jakiej pozycji układa się nieprzytomnego, ale oddychającego poszkodowanego?",
+    "answers": [
+      "Na brzuchu",
+      "Na siedząco",
+      "W bocznej ustalonej",
+      "Na plecach z uniesionymi nogami"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pozycja boczna ustalona chroni drogi oddechowe przed zachłyśnięciem."
+  },
+  {
+    "id": "med_j016",
+    "question": "Laktoza to cukier naturalnie występujący w…?",
+    "answers": [
+      "Owocach",
+      "Mleku",
+      "Miodzie",
+      "Ziarnach zbóż"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Laktoza to cukier mleczny, a jej nietolerancja to częsta dolegliwość."
+  },
+  {
+    "id": "med_j017",
+    "question": "W którym zbożu występuje gluten?",
+    "answers": [
+      "W ryżu",
+      "W kukurydzy",
+      "W gryce",
+      "W pszenicy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Gluten to białko obecne w pszenicy, życie i jęczmieniu."
+  },
+  {
+    "id": "med_j018",
+    "question": "Jaki hormon wydzielają nadnercza w sytuacji stresu i zagrożenia?",
+    "answers": [
+      "Melatoninę",
+      "Insulinę",
+      "Oksytocynę",
+      "Adrenalinę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Adrenalina przygotowuje organizm do reakcji „walcz albo uciekaj”."
+  },
+  {
+    "id": "med_j019",
+    "question": "Choroby jakiego narządu leczy pulmonolog?",
+    "answers": [
+      "Nerek",
+      "Serca",
+      "Skóry",
+      "Płuc"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Nazwa pochodzi od łacińskiego słowa pulmo, czyli płuco."
+  },
+  {
+    "id": "med_j020",
+    "question": "Na co działają antybiotyki?",
+    "answers": [
+      "Na wirusy",
+      "Na alergeny",
+      "Na toksyny",
+      "Na bakterie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Antybiotyki zwalczają bakterie i nie pomagają na infekcje wirusowe, takie jak grypa."
+  },
+  {
+    "id": "med_j021",
+    "question": "Jak nazywa się najmniejsza kość człowieka, ukryta w uchu środkowym?",
+    "answers": [
+      "Kowadełko",
+      "Strzemiączko",
+      "Młoteczek",
+      "Kość gnykowa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Strzemiączko w uchu środkowym ma zaledwie około 3 mm długości."
+  },
+  {
+    "id": "med_j022",
+    "question": "Niedobór której witaminy powoduje szkorbut?",
+    "answers": [
+      "Witaminy D",
+      "Witaminy B12",
+      "Witaminy E",
+      "Witaminy C"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szkorbut dziesiątkował dawniej marynarzy, którzy podczas rejsów nie jedli świeżych owoców i warzyw."
+  },
+  {
+    "id": "med_j023",
+    "question": "Która witamina jest niezbędna do prawidłowego krzepnięcia krwi?",
+    "answers": [
+      "Witamina K",
+      "Witamina A",
+      "Witamina E",
+      "Witamina B6"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Witamina K jest potrzebna do wytwarzania czynników krzepnięcia krwi."
+  },
+  {
+    "id": "med_j024",
+    "question": "Niedobór której witaminy powoduje tzw. kurzą ślepotę?",
+    "answers": [
+      "Witaminy C",
+      "Witaminy D",
+      "Witaminy A",
+      "Witaminy K"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Witamina A jest potrzebna do widzenia o zmroku."
+  },
+  {
+    "id": "med_j025",
+    "question": "Za jaki zmysł, oprócz słuchu, odpowiada ucho wewnętrzne?",
+    "answers": [
+      "Za smak",
+      "Za węch",
+      "Za równowagę",
+      "Za dotyk"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W uchu wewnętrznym znajduje się błędnik, czyli narząd równowagi."
+  },
+  {
+    "id": "med_j026",
+    "question": "Jak nazywa się piąty podstawowy smak, obok słodkiego, słonego, kwaśnego i gorzkiego?",
+    "answers": [
+      "Ostry",
+      "Umami",
+      "Cierpki",
+      "Metaliczny"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Umami to smak glutaminianów, opisany przez japońskiego chemika Kikunae Ikedę."
+  },
+  {
+    "id": "med_j027",
+    "question": "Gdzie u dorosłego człowieka powstają krwinki?",
+    "answers": [
+      "W wątrobie",
+      "W śledzionie",
+      "W sercu",
+      "W szpiku kostnym"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Krwinki wytwarza czerwony szpik kostny, m.in. w mostku, kręgach i miednicy."
+  },
+  {
+    "id": "med_j028",
+    "question": "W której części płuc zachodzi wymiana tlenu i dwutlenku węgla?",
+    "answers": [
+      "W pęcherzykach płucnych",
+      "W oskrzelach",
+      "W tchawicy",
+      "W krtani"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Płuca mają setki milionów pęcherzyków, przez których ścianki przenikają gazy."
+  },
+  {
+    "id": "med_j029",
+    "question": "Czkawka to mimowolne skurcze którego mięśnia?",
+    "answers": [
+      "Mięśnia sercowego",
+      "Mięśnia prostego brzucha",
+      "Mięśnia piersiowego",
+      "Przepony"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Nagły skurcz przepony i zamknięcie głośni dają charakterystyczne „hyk”."
+  },
+  {
+    "id": "med_j030",
+    "question": "Kto opracował pierwszą szczepionkę przeciw ospie prawdziwej?",
+    "answers": [
+      "Louis Pasteur",
+      "Edward Jenner",
+      "Robert Koch",
+      "Joseph Lister"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jenner w 1796 roku wykorzystał do szczepienia krowiankę – stąd słowo „wakcynacja”, od łacińskiego vacca, czyli krowa."
+  },
+  {
+    "id": "med_j031",
+    "question": "Bakterię wywołującą jaką chorobę odkrył Robert Koch w 1882 roku?",
+    "answers": [
+      "Dżumę",
+      "Malarię",
+      "Gruźlicę",
+      "Grypę"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Prątki gruźlicy nazywa się do dziś prątkami Kocha."
+  },
+  {
+    "id": "med_j032",
+    "question": "Który polski kardiochirurg przeprowadził w 1985 roku pierwszy udany przeszczep serca w Polsce?",
+    "answers": [
+      "Wiktor Dega",
+      "Ludwik Hirszfeld",
+      "Zbigniew Religa",
+      "Jan Moll"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Religa dokonał tego w Zabrzu, a jego historię pokazuje film „Bogowie”."
+  },
+  {
+    "id": "med_j033",
+    "question": "Jaki jest stosunek uciśnięć klatki piersiowej do oddechów ratowniczych w RKO u dorosłego?",
+    "answers": [
+      "15:2",
+      "15:1",
+      "5:1",
+      "30:2"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Wytyczne resuscytacji zalecają 30 uciśnięć na przemian z 2 oddechami."
+  },
+  {
+    "id": "med_j034",
+    "question": "Z jaką częstotliwością uciska się klatkę piersiową podczas RKO?",
+    "answers": [
+      "60–80 razy na minutę",
+      "100–120 razy na minutę",
+      "140–160 razy na minutę",
+      "30–50 razy na minutę"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Tempo 100–120 uciśnięć na minutę odpowiada np. rytmowi piosenki „Stayin' Alive”."
+  },
+  {
+    "id": "med_j035",
+    "question": "Czym jest urządzenie AED, spotykane na dworcach i w galeriach?",
+    "answers": [
+      "Automatyczny defibrylator zewnętrzny",
+      "Aparat do badania EKG",
+      "Apteczka do ewakuacji",
+      "Aparat do pomiaru ciśnienia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "AED sam analizuje rytm serca i głosowo prowadzi ratownika krok po kroku."
+  },
+  {
+    "id": "med_j036",
+    "question": "W której fazie snu śnimy najbardziej wyraziście, a oczy szybko się poruszają?",
+    "answers": [
+      "NREM",
+      "REM",
+      "Alfa",
+      "Delta"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Skrót REM pochodzi od angielskiego rapid eye movement, czyli szybkie ruchy gałek ocznych."
+  },
+  {
+    "id": "med_j037",
+    "question": "Jaki hormon, nazywany hormonem snu, wydziela się głównie w ciemności?",
+    "answers": [
+      "Adrenalina",
+      "Kortyzol",
+      "Melatonina",
+      "Insulina"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Melatonina jest wydzielana przez szyszynkę i reguluje rytm dobowy."
+  },
+  {
+    "id": "med_j038",
+    "question": "Ząb mądrości to który z kolei ząb trzonowy?",
+    "answers": [
+      "Trzeci",
+      "Pierwszy",
+      "Drugi",
+      "Czwarty"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ząb mądrości to trzeci trzonowiec, zwany potocznie „ósemką”."
+  },
+  {
+    "id": "med_j039",
+    "question": "Które naczynia krwionośne prowadzą krew od serca?",
+    "answers": [
+      "Tętnice",
+      "Żyły",
+      "Naczynia limfatyczne",
+      "Żyły wrotne"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tętnice prowadzą krew od serca, a żyły z powrotem do serca."
+  },
+  {
+    "id": "med_j040",
+    "question": "Jak inaczej nazywa się okulista?",
+    "answers": [
+      "Laryngolog",
+      "Oftalmolog",
+      "Dermatolog",
+      "Ortopeda"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa pochodzi od greckiego słowa ophthalmos, czyli oko."
+  },
+  {
+    "id": "med_j041",
+    "question": "Niedobór której witaminy wywołuje chorobę beri-beri?",
+    "answers": [
+      "C",
+      "D",
+      "B1",
+      "A"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Beri-beri wywołuje niedobór tiaminy, czyli witaminy B1, częsty dawniej przy diecie opartej na łuskanym ryżu."
+  },
+  {
+    "id": "med_j042",
+    "question": "Które komórki siatkówki odpowiadają za widzenie barw?",
+    "answers": [
+      "Pręciki",
+      "Czopki",
+      "Melanocyty",
+      "Erytrocyty"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Czopki widzą barwy, a pręciki odpowiadają za widzenie przy słabym świetle."
+  },
+  {
+    "id": "med_j043",
+    "question": "Ile kręgów szyjnych ma człowiek?",
+    "answers": [
+      "5",
+      "9",
+      "7",
+      "12"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Człowiek ma 7 kręgów szyjnych – dokładnie tyle samo co żyrafa."
+  },
+  {
+    "id": "med_j044",
+    "question": "Kto przeprowadził pierwszy na świecie przeszczep serca u człowieka (1967)?",
+    "answers": [
+      "Zbigniew Religa",
+      "Michael DeBakey",
+      "Christiaan Barnard",
+      "Denton Cooley"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Barnard dokonał przeszczepu w Kapsztadzie w grudniu 1967 roku."
+  },
+  {
+    "id": "med_j045",
+    "question": "Polski uczony Ludwik Hirszfeld współtworzył oznaczenia czego?",
+    "answers": [
+      "Witamin",
+      "Grup krwi",
+      "Pierwiastków",
+      "Szczepionek"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Hirszfeld i Emil von Dungern wprowadzili oznaczenia A i B, z których wyrósł układ AB0."
+  },
+  {
+    "id": "med_j046",
+    "question": "Na jaką głębokość uciska się klatkę piersiową dorosłego podczas RKO?",
+    "answers": [
+      "1–2 cm",
+      "2–3 cm",
+      "8–10 cm",
+      "5–6 cm"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wytyczne zalecają uciskanie mostka na głębokość 5–6 cm."
+  },
+  {
+    "id": "med_j047",
+    "question": "Ile mniej więcej trwa jeden pełny cykl snu (fazy NREM i REM)?",
+    "answers": [
+      "Około 20 minut",
+      "Około 30 minut",
+      "Około 4 godzin",
+      "Około 90 minut"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "W ciągu nocy przechodzimy zwykle przez 4–6 cykli snu trwających po około 90 minut."
+  },
+  {
+    "id": "med_j048",
+    "question": "Ile średnio żyje czerwona krwinka?",
+    "answers": [
+      "Około 7 dni",
+      "Około 30 dni",
+      "Około 2 lat",
+      "Około 120 dni"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zużyte czerwone krwinki są usuwane głównie przez śledzionę i wątrobę."
+  },
+  {
+    "id": "med_j049",
+    "question": "Polski wirusolog Hilary Koprowski opracował pierwszą doustną szczepionkę przeciw…?",
+    "answers": [
+      "Odrze",
+      "Ospie",
+      "Polio",
+      "Grypie"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Koprowski przetestował żywą doustną szczepionkę przeciw polio w 1950 roku."
+  },
+  {
+    "id": "med_j050",
+    "question": "Jak liczba kości noworodka ma się do liczby kości dorosłego?",
+    "answers": [
+      "Jest większa",
+      "Jest mniejsza",
+      "Jest taka sama",
+      "Jest dwa razy mniejsza"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Noworodek ma około 300 kości, które z wiekiem częściowo się zrastają."
+  },
+  {
+    "id": "brand_j001",
+    "question": "IKEA to firma założona w którym kraju?",
+    "answers": [
+      "W Norwegii",
+      "W Danii",
+      "W Szwecji",
+      "W Finlandii"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "IKEA powstała w 1943 roku w Szwecji, a jej nazwę tworzą inicjały założyciela i nazwy miejsc z jego dzieciństwa."
+  },
+  {
+    "id": "brand_j002",
+    "question": "Od czego pochodzi nazwa marki Nike?",
+    "answers": [
+      "Od rzymskiego boga wojny",
+      "Od nazwy góry w Grecji",
+      "Od imienia psa założyciela",
+      "Od greckiej bogini zwycięstwa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Nike to w mitologii greckiej uskrzydlona bogini zwycięstwa."
+  },
+  {
+    "id": "brand_j003",
+    "question": "Jak nazywa się logo McDonald's w kształcie litery M?",
+    "answers": [
+      "Złota Brama",
+      "Żółte Mosty",
+      "Złote Wzgórza",
+      "Złote Łuki"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Golden Arches nawiązują do łuków, które zdobiły pierwsze restauracje sieci."
+  },
+  {
+    "id": "brand_j004",
+    "question": "Czyja podobizna widnieje w logo KFC?",
+    "answers": [
+      "Kapitana Morgana",
+      "Pułkownika Sandersa",
+      "Wujka Sama",
+      "Generała Custera"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Harland Sanders, założyciel KFC, nosił honorowy tytuł pułkownika z Kentucky."
+  },
+  {
+    "id": "brand_j005",
+    "question": "Dokończ slogan: „Red Bull doda ci…”",
+    "answers": [
+      "energii",
+      "mocy",
+      "odwagi",
+      "skrzydeł"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Red Bull doda ci skrzydeł” to jeden z najbardziej rozpoznawalnych sloganów reklamowych."
+  },
+  {
+    "id": "brand_j006",
+    "question": "W którym kraju wymyślono Nutellę?",
+    "answers": [
+      "W Szwajcarii",
+      "W Belgii",
+      "We Francji",
+      "We Włoszech"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Nutellę stworzyła włoska firma Ferrero z miasta Alba w Piemoncie."
+  },
+  {
+    "id": "brand_j007",
+    "question": "Jakiego koloru jest krowa z reklam czekolady Milka?",
+    "answers": [
+      "Różowa",
+      "Niebieska",
+      "Biało-czarna",
+      "Fioletowa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Liliowa krowa jest symbolem Milki od lat 70. XX wieku."
+  },
+  {
+    "id": "brand_j008",
+    "question": "Co przedstawia logo koncernu Shell?",
+    "answers": [
+      "Słońce",
+      "Kroplę ropy",
+      "Żółwia",
+      "Muszlę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Shell to po angielsku muszla – nazwa nawiązuje do handlu muszlami prowadzonego przez rodzinę założyciela."
+  },
+  {
+    "id": "brand_j009",
+    "question": "Jakie zwierzę jest w logo marki Lacoste?",
+    "answers": [
+      "Jaszczurka",
+      "Kameleon",
+      "Krokodyl",
+      "Legwan"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Założyciel marki, tenisista René Lacoste, miał przydomek „Krokodyl”."
+  },
+  {
+    "id": "brand_j010",
+    "question": "W którym mieście powstała firma E. Wedel?",
+    "answers": [
+      "W Krakowie",
+      "W Warszawie",
+      "W Poznaniu",
+      "W Łodzi"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Karol Wedel otworzył swoją cukiernię w Warszawie w 1851 roku."
+  },
+  {
+    "id": "brand_j011",
+    "question": "W którym mieście ma siedzibę firma Wawel, producent Kasztanek i Michałków?",
+    "answers": [
+      "W Warszawie",
+      "W Krakowie",
+      "W Gdańsku",
+      "We Wrocławiu"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nazwa firmy pochodzi od krakowskiego Wzgórza Wawelskiego."
+  },
+  {
+    "id": "brand_j012",
+    "question": "Czym przede wszystkim handluje polska sieć CCC?",
+    "answers": [
+      "Elektroniką",
+      "Meblami",
+      "Obuwiem",
+      "Kosmetykami"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "CCC to polska sieć sklepów obuwniczych z Polkowic."
+  },
+  {
+    "id": "brand_j013",
+    "question": "Jak w Polsce nazywa się łysy siłacz z reklam płynu do czyszczenia?",
+    "answers": [
+      "Pan Czyścioch",
+      "Kapitan Clean",
+      "Mr. Proper",
+      "Mistrz Piany"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "W USA ta sama postać występuje jako Mr. Clean."
+  },
+  {
+    "id": "brand_j014",
+    "question": "Jakie zwierzę jest maskotką baterii Duracell?",
+    "answers": [
+      "Miś",
+      "Kot",
+      "Pies",
+      "Królik"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Różowy króliczek Duracell w reklamach wytrzymuje dłużej niż inne zabawki na bateriach."
+  },
+  {
+    "id": "brand_j015",
+    "question": "Jak brzmi słynny slogan marki Nike?",
+    "answers": [
+      "Impossible Is Nothing",
+      "Just Do It",
+      "Think Different",
+      "I'm Lovin' It"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Hasło „Just Do It” Nike używa od 1988 roku."
+  },
+  {
+    "id": "brand_j016",
+    "question": "Której sieci restauracji hasłem jest „I'm Lovin' It”?",
+    "answers": [
+      "Burger King",
+      "KFC",
+      "McDonald's",
+      "Subway"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kampania „I'm Lovin' It” wystartowała w 2003 roku."
+  },
+  {
+    "id": "brand_j017",
+    "question": "Który batonik reklamuje się hasłem „Have a break, have a…”?",
+    "answers": [
+      "Twix",
+      "Snickers",
+      "Mars",
+      "KitKat"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Hasło „Have a break, have a KitKat” towarzyszy marce od lat 50. XX wieku."
+  },
+  {
+    "id": "brand_j018",
+    "question": "Co przedstawia logo zegarków Rolex?",
+    "answers": [
+      "Lwa",
+      "Gwiazdę",
+      "Kotwicę",
+      "Koronę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pięcioramienna korona symbolizuje prestiż marki Rolex."
+  },
+  {
+    "id": "brand_j019",
+    "question": "Logo domu mody Chanel to dwie splecione litery…?",
+    "answers": [
+      "G",
+      "C",
+      "L",
+      "D"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Splecione litery CC to inicjały Coco Chanel."
+  },
+  {
+    "id": "brand_j020",
+    "question": "Z jakim kolorem kojarzone są pudełka jubilera Tiffany & Co.?",
+    "answers": [
+      "Z błękitem",
+      "Z czerwienią",
+      "Ze złotem",
+      "Z czernią"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Charakterystyczny odcień nazywa się „Tiffany Blue”."
+  },
+  {
+    "id": "brand_j021",
+    "question": "Jak nazywał się założyciel IKEA?",
+    "answers": [
+      "Alfred Nobel",
+      "Ingvar Kamprad",
+      "Anders Celsius",
+      "Karol Linneusz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Litery I i K w nazwie IKEA to inicjały Ingvara Kamprada."
+  },
+  {
+    "id": "brand_j022",
+    "question": "Co oznacza duńskie wyrażenie „leg godt”, od którego pochodzi nazwa LEGO?",
+    "answers": [
+      "Baw się dobrze",
+      "Klocek po klocku",
+      "Buduj razem",
+      "Małe cegiełki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwę LEGO wymyślił w 1934 roku duński stolarz Ole Kirk Christiansen."
+  },
+  {
+    "id": "brand_j023",
+    "question": "Kim byli dla siebie założyciele Adidasa i Pumy?",
+    "answers": [
+      "Ojcem i synem",
+      "Kuzynami",
+      "Braćmi",
+      "Szwagrami"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Bracia Adolf i Rudolf Dasslerowie pokłócili się i każdy założył własną firmę."
+  },
+  {
+    "id": "brand_j024",
+    "question": "Od czego pochodzi nazwa Adidas?",
+    "answers": [
+      "Od imienia i nazwiska założyciela",
+      "Od skrótu „All Day I Dream About Sport”",
+      "Od nazwy greckiego herosa",
+      "Od nazwy niemieckiej rzeki"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwa powstała z połączenia „Adi” (zdrobnienie od Adolf) i „Das” od nazwiska Dassler."
+  },
+  {
+    "id": "brand_j025",
+    "question": "Jaki zawód wykonywał John Pemberton, twórca Coca-Coli?",
+    "answers": [
+      "Cukiernik",
+      "Barman",
+      "Farmaceuta",
+      "Chemik w browarze"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pemberton stworzył Coca-Colę w Atlancie w 1886 roku, początkowo jako napój leczniczy."
+  },
+  {
+    "id": "brand_j026",
+    "question": "Z jakiego kraju pochodzi firma Red Bull?",
+    "answers": [
+      "Z Niemiec",
+      "Ze Szwajcarii",
+      "Z Austrii",
+      "Z USA"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Austriak Dietrich Mateschitz wzorował się na tajskim napoju Krating Daeng."
+  },
+  {
+    "id": "brand_j027",
+    "question": "Postać z jakiej powieści dała nazwę sieci Starbucks?",
+    "answers": [
+      "„Wyspa skarbów”",
+      "„Robinson Crusoe”",
+      "„Dwadzieścia tysięcy mil podmorskiej żeglugi”",
+      "„Moby Dick”"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Starbuck to pierwszy oficer statku Pequod z powieści Hermana Melville'a."
+  },
+  {
+    "id": "brand_j028",
+    "question": "Która firma w 1936 roku wprowadziła na rynek Ptasie Mleczko?",
+    "answers": [
+      "Wawel",
+      "E. Wedel",
+      "Goplana",
+      "Solidarność"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ptasie Mleczko stworzył Jan Wedel, syn Emila i wnuk założyciela firmy."
+  },
+  {
+    "id": "brand_j029",
+    "question": "Co przedstawia logo piwa Żywiec?",
+    "answers": [
+      "Górala z ciupagą",
+      "Zamek na wzgórzu",
+      "Tańczącą parę",
+      "Koronę"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Para w strojach krakowskich tańczy na etykiecie Żywca od dziesięcioleci."
+  },
+  {
+    "id": "brand_j030",
+    "question": "Jaka polska firma z Gdańska stworzyła markę odzieżową Reserved?",
+    "answers": [
+      "LPP",
+      "CCC",
+      "Vistula",
+      "Wittchen"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "LPP założyli w 1991 roku Marek Piechocki i Jerzy Lubianiec, a Reserved ruszył w 1999 roku."
+  },
+  {
+    "id": "brand_j031",
+    "question": "Z wydobycia jakiego metalu słynie polski koncern KGHM?",
+    "answers": [
+      "Miedzi",
+      "Żelaza",
+      "Cynku",
+      "Aluminium"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "KGHM wydobywa miedź i srebro w Zagłębiu Miedziowym na Dolnym Śląsku."
+  },
+  {
+    "id": "brand_j032",
+    "question": "Jak nazywa się przewodnik przyznający restauracjom gwiazdki, wydawany przez producenta opon?",
+    "answers": [
+      "Przewodnik Michelin",
+      "Przewodnik Goodyear",
+      "Przewodnik Pirelli",
+      "Przewodnik Bridgestone"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Bracia Michelin wydali pierwszy przewodnik w 1900 roku, by zachęcić ludzi do podróży samochodem."
+  },
+  {
+    "id": "brand_j033",
+    "question": "Która marka reklamuje się hasłem „Impossible Is Nothing”?",
+    "answers": [
+      "Nike",
+      "Puma",
+      "Adidas",
+      "Reebok"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kampania Adidasa z tym hasłem wystartowała w 2004 roku."
+  },
+  {
+    "id": "brand_j034",
+    "question": "Która marka kosmetyków używa hasła „Bo jesteś tego warta”?",
+    "answers": [
+      "Garnier",
+      "L'Oréal",
+      "Nivea",
+      "Maybelline"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Słynne „Because I'm worth it” powstało w 1971 roku."
+  },
+  {
+    "id": "brand_j035",
+    "question": "Z którą marką kojarzymy reklamy kończące się słowem „Bezcenne”?",
+    "answers": [
+      "Mastercard",
+      "Visa",
+      "American Express",
+      "PayPal"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kampania „Priceless” opowiada o rzeczach, których nie można kupić."
+  },
+  {
+    "id": "brand_j036",
+    "question": "Który batonik reklamował się hasłem „You're not you when you're hungry”?",
+    "answers": [
+      "Mars",
+      "Snickers",
+      "Twix",
+      "Bounty"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W reklamach głodni bohaterowie zmieniali się w kogoś innego, aż zjedli Snickersa."
+  },
+  {
+    "id": "brand_j037",
+    "question": "Z czego słyną kapsle napojów Tymbark?",
+    "answers": [
+      "Ze zdrapek z nagrodami",
+      "Ze świecenia w ciemności",
+      "Z haseł pod kapslem",
+      "Z owocowego zapachu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Krótkie, zabawne hasła pod kapslami Tymbarku stały się kultowe."
+  },
+  {
+    "id": "brand_j038",
+    "question": "W którym roku otwarto pierwszą restaurację McDonald's w Polsce?",
+    "answers": [
+      "W 1989",
+      "W 1996",
+      "W 2000",
+      "W 1992"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pierwszy polski McDonald's ruszył w czerwcu 1992 roku w Warszawie przy ul. Marszałkowskiej."
+  },
+  {
+    "id": "brand_j039",
+    "question": "Co przedstawia logo firmy Nestlé?",
+    "answers": [
+      "Gniazdo z ptakami",
+      "Kubek mleka",
+      "Krowę na łące",
+      "Wschodzące słońce"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Nazwisko Nestlé w dialekcie szwajcarskim oznacza „małe gniazdo”."
+  },
+  {
+    "id": "brand_j040",
+    "question": "Co pływa w butelce wódki Żubrówka?",
+    "answers": [
+      "Źdźbło trawy żubrowej",
+      "Gałązka jałowca",
+      "Liść mięty",
+      "Łodyga tataraku"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Trawa żubrowa rośnie m.in. w Puszczy Białowieskiej i nadaje wódce charakterystyczny aromat."
+  },
+  {
+    "id": "brand_j041",
+    "question": "W jakim niemieckim miasteczku mają siedziby zarówno Adidas, jak i Puma?",
+    "answers": [
+      "Herzogenaurach",
+      "Wolfsburg",
+      "Ingolstadt",
+      "Heidelberg"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Skłóceni bracia Dasslerowie założyli konkurencyjne firmy w tym samym bawarskim miasteczku."
+  },
+  {
+    "id": "brand_j042",
+    "question": "Jak nazywa się ludzik z opon, maskotka firmy Michelin?",
+    "answers": [
+      "Michel",
+      "Bibendum",
+      "Gumiś",
+      "Tyrus"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Bibendum, zwany też Bibem, jest jedną z najstarszych maskotek – pojawił się w 1898 roku."
+  },
+  {
+    "id": "brand_j043",
+    "question": "Jak początkowo nazywał się napój znany dziś jako Pepsi?",
+    "answers": [
+      "Cola Max",
+      "Pep Up",
+      "Brad's Drink",
+      "Bradham Soda"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Farmaceuta Caleb Bradham nazwał napój od swojego nazwiska, a w 1898 roku zmienił nazwę na Pepsi-Cola."
+  },
+  {
+    "id": "brand_j044",
+    "question": "Od czego pochodzi nazwa firmy Haribo?",
+    "answers": [
+      "Hans Riegel Bonn",
+      "Harte Riegel Bonbons",
+      "Happy Rainbow Bears",
+      "Harry Richter Bremen"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Nazwa łączy pierwsze sylaby imienia i nazwiska założyciela oraz miasta, w którym w 1920 roku powstała firma."
+  },
+  {
+    "id": "brand_j045",
+    "question": "W jakim mieście powstała polska marka kosmetyczna Inglot?",
+    "answers": [
+      "W Rzeszowie",
+      "W Przemyślu",
+      "W Lublinie",
+      "W Kielcach"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Wojciech Inglot założył firmę w Przemyślu w 1983 roku."
+  },
+  {
+    "id": "brand_j046",
+    "question": "Jaki ród założył w 1856 roku browar w Żywcu?",
+    "answers": [
+      "Radziwiłłowie",
+      "Potoccy",
+      "Czartoryscy",
+      "Habsburgowie"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Browar Arcyksiążęcy w Żywcu założył arcyksiążę Albrecht Fryderyk Habsburg."
+  },
+  {
+    "id": "brand_j047",
+    "question": "Czyj podpis stał się logo marki E. Wedel?",
+    "answers": [
+      "Karola Wedla",
+      "Jana Wedla",
+      "Fryderyka Chopina",
+      "Emila Wedla"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Logotyp firmy to podpis Emila Wedla, syna założyciela Karola."
+  },
+  {
+    "id": "brand_j048",
+    "question": "W którym roku Levi Strauss i Jacob Davis opatentowali dżinsy wzmacniane nitami?",
+    "answers": [
+      "W 1812",
+      "W 1873",
+      "W 1923",
+      "W 1950"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Datę patentu z 1873 roku uznaje się za narodziny dżinsów."
+  },
+  {
+    "id": "brand_j049",
+    "question": "Który znak uznaje się za pierwszy zarejestrowany znak towarowy w Wielkiej Brytanii (1876)?",
+    "answers": [
+      "Czerwony trójkąt piwa Bass",
+      "Muszla Shell",
+      "Złote Łuki McDonald's",
+      "Gwiazda Heinekena"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Browar Bass zarejestrował swój czerwony trójkąt jako znak nr 1 zaraz po wejściu w życie nowej ustawy."
+  },
+  {
+    "id": "brand_j050",
+    "question": "Jak nazywali się bracia, którzy założyli sieć sklepów Aldi?",
+    "answers": [
+      "Dassler",
+      "Grimm",
+      "Albrecht",
+      "Schwarz"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Karl i Theo Albrechtowie rozwinęli rodzinny sklep z Essen w sieć Aldi, czyli Albrecht Diskont."
+  }
+]
