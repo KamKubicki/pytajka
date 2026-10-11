@@ -10,7 +10,7 @@
     ],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Rzut rożny przyznaje się, gdy obrońcy wybiją piłkę za własną linię końcową."
+    "explanation": "Rzut rożny przyznaje się, gdy piłka po ostatnim kontakcie z obrońcą opuści boisko przez jego linię końcową."
   },
   {
     "id": "foot_r002",
@@ -58,7 +58,7 @@
       "Złote Korki",
       "Złoty Gwizdek",
       "Złota Piłka",
-      "Złoty But"
+      "Złota Rękawica"
     ],
     "correct": 2,
     "difficulty": "easy",
@@ -75,7 +75,7 @@
     ],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Messi triumfował z Barceloną w Lidze Mistrzów w latach 2006, 2009, 2011 i 2015."
+    "explanation": "Barcelona z Messim w składzie wygrała Ligę Mistrzów w latach 2006, 2009, 2011 i 2015."
   },
   {
     "id": "foot_r007",
@@ -244,7 +244,7 @@
     ],
     "correct": 0,
     "difficulty": "medium",
-    "explanation": "Holendrzy z Johanem Cruyffem dochodzili do finału mundialu w 1974 i 1978 roku."
+    "explanation": "Holendrzy dochodzili do finału mundialu w 1974 roku (z Johanem Cruyffem) i w 1978 roku."
   },
   {
     "id": "foot_r020",
@@ -712,7 +712,7 @@
     ],
     "correct": 0,
     "difficulty": "easy",
-    "explanation": "Zielony robocik towarzyszy Androidowi od jego debiutu w 2008 roku."
+    "explanation": "Zielony robocik został zaprezentowany razem z Androidem w 2007 roku."
   },
   {
     "id": "it_r006",
@@ -855,7 +855,7 @@
     ],
     "correct": 0,
     "difficulty": "medium",
-    "explanation": "Pierwsza strona internetowa ruszyła w 1991 roku."
+    "explanation": "Sieć WWW została publicznie udostępniona w 1991 roku."
   },
   {
     "id": "it_r017",
@@ -1271,7 +1271,7 @@
     ],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Toyota to japoński koncern z miasta Toyota w prefekturze Aichi."
+    "explanation": "Japońskie miasto Toyota przyjęło nazwę na cześć koncernu w 1959 roku."
   },
   {
     "id": "moto_r014",
@@ -1479,7 +1479,7 @@
     ],
     "correct": 1,
     "difficulty": "hard",
-    "explanation": "Veyron jako pierwsze seryjne auto przekroczył 400 km/h."
+    "explanation": "Veyron jako pierwszy seryjny samochód przekroczył 400 km/h."
   },
   {
     "id": "moto_r030",
@@ -1800,7 +1800,7 @@
       "W Uzbekistanie",
       "W Mongolii",
       "W Kazachstanie",
-      "W Rosji"
+      "W Turkmenistanie"
     ],
     "correct": 2,
     "difficulty": "medium",
