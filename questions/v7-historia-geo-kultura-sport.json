@@ -348,7 +348,7 @@
     ],
     "correct": 3,
     "difficulty": "easy",
-    "explanation": "John F. Kennedy zginął 22 listopada 1963 roku podczas przejazdu kolumną samochodów przez Dallas."
+    "explanation": "John F. Kennedy zginął 22 listopada 1963 roku podczas przejazdu w kolumnie samochodów przez Dallas."
   },
   {
     "id": "hist_world_p003",
@@ -638,7 +638,7 @@
   },
   {
     "id": "hist_world_p025",
-    "question": "Jak nazywał się ostatni władca imperium Inków, stracony przez Pizarra w 1533 roku?",
+    "question": "Jak nazywał się władca Inków, którego Francisco Pizarro pojmał i stracił w 1533 roku?",
     "answers": [
       "Atahualpa",
       "Montezuma",
@@ -660,7 +660,7 @@
     ],
     "correct": 3,
     "difficulty": "easy",
-    "explanation": "Wisła ma ok. 1047 km i w całości płynie przez Polskę."
+    "explanation": "Wisła ma ponad 1000 km długości i w całości płynie przez Polskę."
   },
   {
     "id": "geo_p002",
@@ -693,8 +693,8 @@
     "question": "Które miasto ze względu na przemysł włókienniczy nazywano „polskim Manchesterem”?",
     "answers": [
       "Katowice",
-      "Bielsko-Biała",
-      "Białystok",
+      "Kielce",
+      "Rzeszów",
       "Łódź"
     ],
     "correct": 3,
@@ -751,7 +751,7 @@
     ],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Festiwal w Opolu odbywa się w amfiteatrze tysiąclecia."
+    "explanation": "Festiwal w Opolu odbywa się w Amfiteatrze Tysiąclecia."
   },
   {
     "id": "geo_p009",
@@ -1124,11 +1124,11 @@
       "Mount Whitney",
       "Mount Logan",
       "Pico de Orizaba",
-      "Denali"
+      "Denali (Mount McKinley)"
     ],
     "correct": 3,
     "difficulty": "medium",
-    "explanation": "Denali na Alasce, dawniej nazywany Mount McKinley, ma ok. 6190 m n.p.m."
+    "explanation": "Szczyt na Alasce, znany pod dwiema nazwami, ma ok. 6190 m n.p.m."
   },
   {
     "id": "geo_world_p013",
@@ -1184,12 +1184,12 @@
   },
   {
     "id": "geo_world_p017",
-    "question": "Na którym kontynencie leży najwięcej państw?",
+    "question": "Który kontynent liczy najwięcej państw?",
     "answers": [
-      "W Europie",
-      "W Azji",
-      "W Afryce",
-      "W Ameryce Południowej"
+      "Europa",
+      "Azja",
+      "Afryka",
+      "Ameryka Południowa"
     ],
     "correct": 2,
     "difficulty": "medium",
@@ -1279,7 +1279,7 @@
     "answers": [
       "Gibraltarska",
       "Messyńska",
-      "Bosfor",
+      "Duńska",
       "Kaletańska"
     ],
     "correct": 3,
@@ -1566,7 +1566,7 @@
       "Pisanka",
       "Makatka",
       "Wycinanka",
-      "Pająk"
+      "Kilim"
     ],
     "correct": 2,
     "difficulty": "easy",
@@ -1824,7 +1824,7 @@
     "question": "Ile wynosi maksymalny brejk w snookerze?",
     "answers": [
       "100",
-      "155",
+      "167",
       "180",
       "147"
     ],
@@ -1943,7 +1943,7 @@
       "1,5 km",
       "5 km",
       "10 km",
-      "Ok. 3,8 km"
+      "3,8 km"
     ],
     "correct": 3,
     "difficulty": "hard",
