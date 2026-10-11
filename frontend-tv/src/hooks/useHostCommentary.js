@@ -34,6 +34,30 @@ const pickRandom = (list) => list[Math.floor(Math.random() * list.length)];
 const sabFromKey = (e) => String(e.fromName || '').trim().toLowerCase();
 const sabToKey = (e) => String(e.targetName || '').trim().toLowerCase();
 
+// one-shot animations (Host.jsx draws them): how long each one holds the stage and how important
+// it is – a weaker action never cuts a stronger one short, it waits in a one-slot queue instead
+const ACTIONS = {
+  wave: { ms: 2400, rank: 2 },
+  point: { ms: 2100, rank: 2 },
+  watch: { ms: 2800, rank: 3 },
+  drumroll: { ms: 2600, rank: 3 },
+  flip: { ms: 1700, rank: 4 },
+  boom: { ms: 3600, rank: 4 },
+  zero: { ms: 3600, rank: 5 }, // the reveal verdict beats a running sabotage gag
+  confetti: { ms: 3600, rank: 5 },
+  wink: { ms: 2300, rank: 4 },
+  wake: { ms: 950, rank: 6 },
+  'm-glasses': { ms: 1900, rank: 0 },
+  'm-stache': { ms: 2200, rank: 0 },
+  'm-look': { ms: 2600, rank: 0 },
+  'm-stretch': { ms: 2500, rank: 0 }
+};
+const MICRO_IDLES = ['m-glasses', 'm-stache', 'm-look', 'm-stretch'];
+const MICRO_GAP = [10000, 20000];
+const SLEEP_AFTER = 24000; // lobby silence (no bubble, no event) before the host dozes off
+const DANCE_VARIANTS = 3;
+const PENDING_TTL = 4000; // a queued gag older than this is no longer relevant
+
 const speechSupported = () =>
   typeof window !== 'undefined' && 'speechSynthesis' in window && typeof window.SpeechSynthesisUtterance === 'function';
 
@@ -69,6 +93,10 @@ function useHostCommentary({ settings, sound }) {
   const [bubble, setBubble] = useState(null); // { id, text, emotion }
   const [speaking, setSpeaking] = useState(false);
   const [entranceKey, setEntranceKey] = useState(0);
+  const [act, setAct] = useState(null); // { name, id, seq } – current one-shot animation
+  const [asleep, setAsleep] = useState(false);
+  const [danceVariant, setDanceVariant] = useState(0);
+  const [debugAmbient, setDebugAmbient] = useState(null); // DEV only (window.__host.ambient)
 
   const ctxRef = useRef(ctx);
   ctxRef.current = ctx;
@@ -138,6 +166,120 @@ function useHostCommentary({ settings, sound }) {
     flapListenersRef.current.add(fn);
     return () => flapListenersRef.current.delete(fn);
   }, []);
+
+  // ---------------------------------------------------------------- animations
+  const actRef = useRef(null); // mirrors `act` + its rank / end time
+  const actTimerRef = useRef(null);
+  const actPendingRef = useRef(null); // one waiting action { name, at } – stale ones are dropped
+  const actIdRef = useRef(0);
+  const asleepRef = useRef(false);
+  const lastActivityRef = useRef(Date.now());
+  const nextMicroRef = useRef(Date.now() + rand(...MICRO_GAP));
+
+  const queuePending = (name, ms) => {
+    // one waiting slot: a fresher or stronger gag replaces a weaker / stale one, never the reverse
+    const p = actPendingRef.current;
+    const rank = (ACTIONS[name] || { rank: 1 }).rank;
+    if (p && Date.now() - p.at < PENDING_TTL && (ACTIONS[p.name] || { rank: 1 }).rank >= rank) return;
+    actPendingRef.current = { name, ms, at: Date.now() };
+  };
+
+  const startAct = useCallback((name, ms) => {
+    clearTimeout(actTimerRef.current);
+    const id = ++actIdRef.current;
+    const meta = ACTIONS[name] || { ms: ms || 2000, rank: 1 };
+    const dur = ms || meta.ms;
+    const prev = actRef.current;
+    actRef.current = { name, id, rank: meta.rank, until: Date.now() + dur };
+    // the same animation again gets a new `seq` – Host.jsx re-keys the figure so the keyframes restart
+    setAct(a => ({ name, id, seq: prev && prev.name === name ? (a?.seq || 0) + 1 : a?.seq || 0 }));
+    actTimerRef.current = setTimeout(() => {
+      if (!aliveRef.current || actRef.current?.id !== id) return;
+      actRef.current = null;
+      const next = actPendingRef.current;
+      actPendingRef.current = null;
+      if (next && Date.now() - next.at < PENDING_TTL) startAct(next.name, next.ms);
+      else setAct(a => (a ? { name: null, id: 0, seq: a.seq } : a));
+    }, dur);
+  }, []);
+
+  /** Play a one-shot animation. `passive` ones (micro-idles) do not count as activity. */
+  const play = useCallback((name, { passive = false, ms } = {}) => {
+    if (!aliveRef.current) return;
+    if (!passive) lastActivityRef.current = Date.now();
+    if (asleepRef.current) {
+      // the host was dozing: startle first, then do the thing
+      asleepRef.current = false;
+      setAsleep(false);
+      actPendingRef.current = name === 'wake' ? null : { name, ms, at: Date.now() };
+      startAct('wake');
+      return;
+    }
+    if (name === 'wake') return;
+    const cur = actRef.current;
+    const rank = (ACTIONS[name] || { rank: 1 }).rank;
+    if (cur && cur.until > Date.now() && (cur.rank > rank || (cur.rank === rank && rank >= 4 && cur.name !== name))) {
+      // a stronger gag is running (or a second reveal gag): wait for it
+      if (!passive) queuePending(name, ms);
+      return;
+    }
+    startAct(name, ms);
+  }, [startAct]);
+
+  // a real line wakes the host up; idle chatter (fillers) he mumbles in his sleep
+  useEffect(() => {
+    if (!bubble) return;
+    if (currentRef.current?.priority === P_FILLER) return;
+    lastActivityRef.current = Date.now();
+    if (asleepRef.current) play('wake');
+  }, [bubble, play]);
+
+  // dozing off in a quiet lobby + random micro-idles
+  useEffect(() => {
+    const t = setInterval(() => {
+      if (!aliveRef.current) return;
+      const c = ctxRef.current;
+      const now = Date.now();
+      const busy = !!currentRef.current || !!actRef.current;
+      // a real line or gag keeps him awake (fillers and micro-idles do not)
+      if ((currentRef.current && currentRef.current.priority > P_FILLER) || actRef.current?.rank > 0) {
+        lastActivityRef.current = Math.max(lastActivityRef.current, now - 4000);
+      }
+      if (asleepRef.current) return;
+      if (c.gameState === 'lobby' && !busy && !queueRef.current.length && now - lastActivityRef.current > SLEEP_AFTER) {
+        asleepRef.current = true;
+        setAsleep(true);
+        return;
+      }
+      if (now < nextMicroRef.current) return;
+      nextMicroRef.current = now + rand(...MICRO_GAP);
+      if (busy) return;
+      const thinking = c.gameState === 'question' && !c.showCorrectAnswer;
+      if (thinking || c.gameState === 'finished' || c.gameState === 'category-vote') return;
+      play(pickRandom(MICRO_IDLES), { passive: true });
+    }, 1000);
+    return () => clearInterval(t);
+  }, [play]);
+
+  useEffect(() => () => {
+    clearTimeout(actTimerRef.current);
+    actRef.current = null;
+    actPendingRef.current = null;
+  }, []);
+
+  // DEV only: window.__host.play('boom') etc. for checking the animations by hand
+  useEffect(() => {
+    if (!import.meta.env.DEV || typeof window === 'undefined') return undefined;
+    window.__host = {
+      actions: Object.keys(ACTIONS),
+      ambients: ['bounce', 'popcorn', 'sleep', 'dance0', 'dance1', 'dance2'],
+      ambient: (name) => setDebugAmbient(name || null),
+      play: (name, ms) => play(name, { ms }),
+      sleep: () => { asleepRef.current = true; setAsleep(true); },
+      dance: (v) => setDanceVariant(((Number(v) || 0) % DANCE_VARIANTS + DANCE_VARIANTS) % DANCE_VARIANTS)
+    };
+    return () => { delete window.__host; };
+  }, [play]);
 
   // ---------------------------------------------------------------- queue
   const pumpRef = useRef(() => {});
@@ -316,15 +458,17 @@ function useHostCommentary({ settings, sound }) {
     if (gameState === 'lobby') {
       const fresh = list.filter(p => !knownIdsRef.current.has(p.id));
       if (fresh.length) {
+        play('wave');
         say('join', { name: fresh[fresh.length - 1].name }, {
           priority: P_NORMAL, phase: 'lobby', ttl: 7000, chance: list.length > 8 ? 0.5 : 0.9
         });
       }
     }
     list.forEach(p => knownIdsRef.current.add(p.id));
-  }, [players, gameState, say]);
+  }, [players, gameState, say, play]);
 
   const lastQRef = useRef(null);
+  const drumRef = useRef(null); // question that already got its pre-reveal drumroll
   const hurryRef = useRef(null);
   const revealRef = useRef(null);
   const streaksRef = useRef(new Map()); // id -> { hit, miss }
@@ -342,12 +486,17 @@ function useHostCommentary({ settings, sound }) {
     const c = ctxRef.current;
 
     if (prev === 'lobby' && gameState !== 'lobby') setEntranceKey(k => k + 1);
+    lastActivityRef.current = Date.now();
+    if (asleepRef.current) play('wake');
+    if (gameState === 'round-end') play('drumroll');
+    if (gameState === 'finished') setDanceVariant(Math.floor(Math.random() * DANCE_VARIANTS));
     if (gameState === 'lobby' || gameState === 'starting') {
       // new game (or a fresh session after a backend restart) – forget the old one
       streaksRef.current = new Map();
       leaderRef.current = null;
       revealRef.current = null;
       lastQRef.current = null;
+      drumRef.current = null;
       hurryRef.current = null;
       sabHistoryRef.current = [];
       sabWindowRef.current = [];
@@ -388,7 +537,7 @@ function useHostCommentary({ settings, sound }) {
         }
       }
     }
-  }, [gameState, say]);
+  }, [gameState, say, play]);
 
   // new question (sometimes)
   useEffect(() => {
@@ -397,13 +546,14 @@ function useHostCommentary({ settings, sound }) {
     lastQRef.current = qKey;
     const m = ctxRef.current.questionMeta || {};
     const phase = `q:${qKey}`;
+    play('point');
     if (m.totalQuestions > 1 && m.questionNumber === m.totalQuestions) {
       say('lastQuestion', {}, { priority: P_NORMAL, phase, ttl: 4000 });
     } else if (m.questionInRound !== 1) {
       // the first question of a round follows the category comment - keep quiet then
       say('newQuestion', { n: m.questionNumber || '' }, { priority: P_LOW, phase, ttl: 3000, chance: 0.3 });
     }
-  }, [gameState, qKey, showCorrectAnswer, say]);
+  }, [gameState, qKey, showCorrectAnswer, say, play]);
 
   // last 5 seconds – hurry up
   useEffect(() => {
@@ -415,13 +565,22 @@ function useHostCommentary({ settings, sound }) {
     const done = c.answeredIds instanceof Set ? c.answeredIds : new Set();
     const waiting = connected.filter(p => !done.has(p.id));
     if (!waiting.length) return;
+    play('watch');
     const phase = `q:${qKey}`;
     if (waiting.length <= 2 && connected.length >= 3 && Math.random() < 0.6) {
       say('hurryName', { name: waiting[Math.floor(Math.random() * waiting.length)].name }, { priority: P_HIGH, phase, ttl: 3000, chance: 0.8 });
     } else {
       say('hurry', {}, { priority: P_HIGH, phase, ttl: 3000, chance: 0.6 });
     }
-  }, [gameState, showCorrectAnswer, qKey, timer, say]);
+  }, [gameState, showCorrectAnswer, qKey, timer, say, play]);
+
+  // drumroll right before the answer is revealed
+  useEffect(() => {
+    if (gameState !== 'question' || showCorrectAnswer || !qKey || timer !== 2) return;
+    if (drumRef.current === qKey) return;
+    drumRef.current = qKey;
+    play('drumroll');
+  }, [gameState, showCorrectAnswer, qKey, timer, play]);
 
   // reveal: nobody / everybody / only one / fastest + leader change + streaks
   useEffect(() => {
@@ -500,6 +659,14 @@ function useHostCommentary({ settings, sound }) {
       sabLine = ['sabFailed', { target: v.name, name: sabMap.get(v.id).fromName }, 0.8];
     }
 
+    // one gag for the reveal (a second one may follow): 0 pts sign / confetti / somersault / wink
+    const gags = [];
+    if (hits.length === 0) gags.push('zero');
+    else if (hits.length === n && n >= 2) gags.push('confetti');
+    if (leaderChange) gags.push('flip');
+    if (survivors.length || candidates.some(cnd => cnd[0] === 'fastest')) gags.push('wink');
+    gags.slice(0, 2).forEach(g => play(g));
+
     const [first, second] = candidates;
     if (first) {
       const chance = special || first[0] === 'streak' || first[0] === 'leaderChange' ? 1 : 0.7;
@@ -510,7 +677,7 @@ function useHostCommentary({ settings, sound }) {
     } else if (second && (special || second[0] !== 'mixed')) {
       say(second[0], second[1], { priority: P_NORMAL, phase, ttl: 16000, chance: 0.75 });
     }
-  }, [showCorrectAnswer, qKey, say]);
+  }, [showCorrectAnswer, qKey, say, play]);
 
   // sabotage card played: revenge > same victim again > per-card joke / general attack line
   useEffect(() => {
@@ -518,6 +685,7 @@ function useHostCommentary({ settings, sound }) {
     const fresh = feed.filter(e => e && e.id > sabSeenRef.current);
     if (!fresh.length) return;
     sabSeenRef.current = fresh[fresh.length - 1].id;
+    play('boom');
     const commentFrom = Math.max(0, fresh.length - 2); // a burst of cards gets at most two lines
     fresh.forEach((e, i) => {
       const from = sabFromKey(e);
@@ -537,7 +705,7 @@ function useHostCommentary({ settings, sound }) {
       else pool = SABOTAGE_POOLS[e.type] && Math.random() < 0.6 ? SABOTAGE_POOLS[e.type] : 'sabAttack';
       say(pool, vars, { priority: P_HIGH, ttl: 6500 });
     });
-  }, [sabotageFeed, say]);
+  }, [sabotageFeed, say, play]);
 
   // random interjections in silence
   useEffect(() => {
@@ -568,7 +736,16 @@ function useHostCommentary({ settings, sound }) {
   else if (gameState === 'round-end') baseEmotion = 'happy';
   const emotion = bubble?.emotion || baseEmotion;
 
-  return { bubble, emotion, speaking, entranceKey, subscribeFlap };
+  // looping "background" animation of the current phase; a one-shot action plays over it
+  let ambient = debugAmbient;
+  if (ambient) { /* forced from the DEV console */ } else if (asleep) ambient = 'sleep';
+  else if (gameState === 'lobby') ambient = 'bounce';
+  else if (gameState === 'category-vote') ambient = 'popcorn';
+  else if (gameState === 'finished') ambient = `dance${danceVariant}`;
+  const action = act?.name || null;
+  const actionSeq = act?.seq || 0;
+
+  return { bubble, emotion, speaking, entranceKey, subscribeFlap, action, actionSeq, ambient };
 }
 
 export default useHostCommentary;
