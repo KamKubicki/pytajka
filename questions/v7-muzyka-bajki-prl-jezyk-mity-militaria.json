@@ -367,14 +367,14 @@
     "id": "kids_t004",
     "question": "Jak ma na imię drewniany pajacyk, któremu rósł nos, gdy kłamał?",
     "answers": [
-      "Gepetto",
+      "Geppetto",
       "Pinokio",
       "Kajtuś",
       "Piotruś"
     ],
     "correct": 1,
     "difficulty": "easy",
-    "explanation": "Pinokio to bohater powieści Carla Collodiego, wystrugany przez Gepetta."
+    "explanation": "Pinokio to bohater powieści Carla Collodiego, wystrugany przez Geppetta."
   },
   {
     "id": "kids_t005",
@@ -491,7 +491,7 @@
     ],
     "correct": 2,
     "difficulty": "medium",
-    "explanation": "Plastuś był ludzikiem z plasteliny, który mieszkał w piórniku Toli."
+    "explanation": "Plastuś był ludzikiem z plasteliny, który mieszkał w piórniku Tosi."
   },
   {
     "id": "kids_t014",
@@ -504,7 +504,7 @@
     ],
     "correct": 3,
     "difficulty": "medium",
-    "explanation": "Baśń Konopnickiej ukazała się na początku XX wieku."
+    "explanation": "Baśń Konopnickiej ukazała się w 1896 roku."
   },
   {
     "id": "kids_t015",
@@ -708,7 +708,7 @@
       "Domowe Przedszkole",
       "Ciuchcia",
       "Teleranek",
-      "Budzik"
+      "Wieczorynka"
     ],
     "correct": 2,
     "difficulty": "easy",
@@ -1058,7 +1058,7 @@
     "answers": [
       "napewno",
       "na pewno",
-      "na pewnó",
+      "na-pewno",
       "napewnó"
     ],
     "correct": 1,
@@ -1522,7 +1522,7 @@
   },
   {
     "id": "myth_t018",
-    "question": "Kim z zawodu był według legendy Piast, protoplasta dynastii Piastów?",
+    "question": "Kim z zawodu był według popularnej tradycji Piast, protoplasta dynastii Piastów?",
     "answers": [
       "Kowalem",
       "Rybakiem",
@@ -1693,7 +1693,7 @@
     "id": "mil_t006",
     "question": "Z jakiego kraju pochodziły okręty podwodne zwane U-Bootami?",
     "answers": [
-      "Z Austrii",
+      "Z Włoch",
       "Z Niemiec",
       "Z Wielkiej Brytanii",
       "Z Rosji"
@@ -1765,7 +1765,7 @@
     ],
     "correct": 0,
     "difficulty": "medium",
-    "explanation": "Biało-Czerwone Iskry to najstarszy polski zespół akrobacji lotniczej."
+    "explanation": "Biało-Czerwone Iskry to najstarszy wciąż działający polski zespół akrobacyjny."
   },
   {
     "id": "mil_t012",
@@ -1785,8 +1785,8 @@
     "question": "Który niemiecki myśliwiec z II wojny światowej zbudowano w największej liczbie?",
     "answers": [
       "Focke-Wulf Fw 190",
-      "Junkers Ju 87",
-      "Heinkel He 111",
+      "Messerschmitt Bf 110",
+      "Messerschmitt Me 163",
       "Messerschmitt Bf 109"
     ],
     "correct": 3,
@@ -1888,10 +1888,10 @@
     "id": "mil_t021",
     "question": "Który niemiecki samolot był pierwszym odrzutowym myśliwcem użytym bojowo na dużą skalę?",
     "answers": [
-      "Focke-Wulf Fw 190",
-      "Supermarine Spitfire",
+      "Heinkel He 162",
+      "Heinkel He 280",
       "Messerschmitt Me 262",
-      "P-51 Mustang"
+      "Arado Ar 234"
     ],
     "correct": 2,
     "difficulty": "hard",
@@ -1925,11 +1925,11 @@
   },
   {
     "id": "mil_t024",
-    "question": "Który amerykański samolot zwiadowczy jest najszybszym załogowym samolotem z silnikami odrzutowymi?",
+    "question": "Który amerykański samolot jest najszybszym załogowym samolotem z silnikami odrzutowymi?",
     "answers": [
-      "U-2 Dragon Lady",
-      "F-117 Nighthawk",
-      "MiG-25",
+      "XB-70 Valkyrie",
+      "F-15 Eagle",
+      "F-104 Starfighter",
       "SR-71 Blackbird"
     ],
     "correct": 3,
