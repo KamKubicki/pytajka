@@ -876,6 +876,26 @@ img {
 
 .answer:disabled { cursor: default; }
 
+/* Ghost-tap guard: for a short moment after the answers unlock they are
+   visibly "not yet" (dim, slightly lowered) and ignore taps, then slide in. */
+.answers .answer { touch-action: manipulation; -webkit-user-select: none; user-select: none; }
+.answers.is-arming .answer {
+  opacity: 0.45;
+  filter: saturate(0.5);
+  transform: translateY(10px) scale(0.97);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.answers.is-armed .answer:not(.is-selected):not(.is-dimmed) {
+  animation: answer-arm 0.28s ease-out backwards;
+}
+.answers.is-armed .answer:nth-child(2) { animation-delay: 0.03s; }
+.answers.is-armed .answer:nth-child(3) { animation-delay: 0.06s; }
+.answers.is-armed .answer:nth-child(4) { animation-delay: 0.09s; }
+@keyframes answer-arm {
+  from { opacity: 0.45; filter: saturate(0.5); transform: translateY(10px) scale(0.97); }
+  to { opacity: 1; filter: none; transform: none; }
+}
+
 @keyframes pop {
   40% { transform: scale(1.06); }
 }
@@ -1729,6 +1749,41 @@ img {
   min-height: 0;
   overflow: hidden;
   transform: translateZ(0);
+}
+
+/* Minigame beaten: "Odblokowane!" stays a moment, and a shield on top of the
+   whole overlay swallows every tap so nothing reaches the answers below. */
+.sab-overlay__done {
+  position: absolute;
+  inset: 0;
+  z-index: 10000; /* above the minigames (their layers go up to 9000) */
+  display: grid;
+  place-items: center;
+  padding: var(--pad);
+  background: rgba(10, 40, 25, 0.55);
+  animation: fade-in 0.15s ease;
+}
+.sab-overlay__done-badge {
+  padding: 14px 22px;
+  border-radius: 999px;
+  background: var(--good);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.15rem, 6vw, 1.6rem);
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 0 30px rgba(46, 194, 126, 0.55);
+  animation: pop 0.4s ease;
+}
+.sab-overlay__shield {
+  position: absolute;
+  inset: 0;
+  z-index: 100;
+  background: transparent;
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 @keyframes wobble {
