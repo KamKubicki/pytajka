@@ -448,7 +448,7 @@ const HostFigure = memo(function HostFigure({ emotion, talking, mouthRef, action
 const TYPE_MS = 28;
 
 function Host({ settings, sound }) {
-  const { bubble, emotion, speaking, entranceKey, subscribeFlap, action, ambient } = useHostCommentary({ settings, sound });
+  const { bubble, emotion, speaking, entranceKey, subscribeFlap, action, actionSeq, ambient } = useHostCommentary({ settings, sound });
   const [typedState, setTyped] = useState({ id: null, n: 0 });
   const [shownBubble, setShownBubble] = useState(null); // keeps text during the exit animation
   const mouthRef = useRef(null);
@@ -486,10 +486,12 @@ function Host({ settings, sound }) {
   const text = current?.text || '';
   const visible = bubble ? text.slice(0, typed) : text;
 
-  // a one-shot action plays over the looping ambient animation of the phase; the action's
-  // needs win (e.g. popcorn hides the right arm, a wave during popcorn brings its own arm)
+  // a one-shot action plays over the looping ambient animation of the phase. The ambient keeps
+  // animating its arms/stage (so its l / wide needs stay), but its props and right-arm swap
+  // (popcorn) give way to the action's own arm.
   const actMeta = ACT_META[action] || {};
-  const ambMeta = action ? {} : ACT_META[ambient] || {};
+  const ambFull = ACT_META[ambient] || {};
+  const ambMeta = action ? { l: ambFull.l, wide: ambFull.wide } : ambFull;
   const figureClass = [
     'host-figure',
     `emo-${emotion}`,
@@ -519,7 +521,8 @@ function Host({ settings, sound }) {
         )}
       </div>
       <div className="host-figure-wrap" key={`figure-${entranceKey}`}>
-        <div className={figureClass}>
+        {/* re-keyed when the same action plays again back to back, so its keyframes restart */}
+        <div className={figureClass} key={`act-${actionSeq}`}>
           <HostFigure emotion={emotion} talking={talking} mouthRef={mouthRef} action={action || ambient} />
         </div>
       </div>

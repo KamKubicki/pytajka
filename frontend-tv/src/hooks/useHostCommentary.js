@@ -93,7 +93,7 @@ function useHostCommentary({ settings, sound }) {
   const [bubble, setBubble] = useState(null); // { id, text, emotion }
   const [speaking, setSpeaking] = useState(false);
   const [entranceKey, setEntranceKey] = useState(0);
-  const [act, setAct] = useState(null); // { name, id } – current one-shot animation
+  const [act, setAct] = useState(null); // { name, id, seq } – current one-shot animation
   const [asleep, setAsleep] = useState(false);
   const [danceVariant, setDanceVariant] = useState(0);
   const [debugAmbient, setDebugAmbient] = useState(null); // DEV only (window.__host.ambient)
@@ -176,6 +176,14 @@ function useHostCommentary({ settings, sound }) {
   const lastActivityRef = useRef(Date.now());
   const nextMicroRef = useRef(Date.now() + rand(...MICRO_GAP));
 
+  const queuePending = (name, ms) => {
+    // one waiting slot: a fresher or stronger gag replaces a weaker / stale one, never the reverse
+    const p = actPendingRef.current;
+    const rank = (ACTIONS[name] || { rank: 1 }).rank;
+    if (p && Date.now() - p.at < PENDING_TTL && (ACTIONS[p.name] || { rank: 1 }).rank >= rank) return;
+    actPendingRef.current = { name, ms, at: Date.now() };
+  };
+
   const startAct = useCallback((name, ms) => {
     clearTimeout(actTimerRef.current);
     const id = ++actIdRef.current;
@@ -183,24 +191,16 @@ function useHostCommentary({ settings, sound }) {
     const dur = ms || meta.ms;
     const prev = actRef.current;
     actRef.current = { name, id, rank: meta.rank, until: Date.now() + dur };
-    if (prev && prev.name === name) {
-      // same animation again: drop the class for a frame so the CSS keyframes restart
-      setAct(null);
-      actTimerRef.current = setTimeout(() => {
-        if (aliveRef.current && actRef.current?.id === id) setAct({ name, id });
-      }, 40);
-    } else {
-      setAct({ name, id });
-    }
-    const end = () => {
+    // the same animation again gets a new `seq` – Host.jsx re-keys the figure so the keyframes restart
+    setAct(a => ({ name, id, seq: prev && prev.name === name ? (a?.seq || 0) + 1 : a?.seq || 0 }));
+    actTimerRef.current = setTimeout(() => {
       if (!aliveRef.current || actRef.current?.id !== id) return;
       actRef.current = null;
       const next = actPendingRef.current;
       actPendingRef.current = null;
-      if (next && Date.now() - next.at < PENDING_TTL) startAct(next.name);
-      else setAct(null);
-    };
-    setTimeout(end, dur + (prev && prev.name === name ? 40 : 0));
+      if (next && Date.now() - next.at < PENDING_TTL) startAct(next.name, next.ms);
+      else setAct(a => (a ? { name: null, id: 0, seq: a.seq } : a));
+    }, dur);
   }, []);
 
   /** Play a one-shot animation. `passive` ones (micro-idles) do not count as activity. */
@@ -211,27 +211,25 @@ function useHostCommentary({ settings, sound }) {
       // the host was dozing: startle first, then do the thing
       asleepRef.current = false;
       setAsleep(false);
-      actPendingRef.current = name === 'wake' ? null : { name, at: Date.now() };
+      actPendingRef.current = name === 'wake' ? null : { name, ms, at: Date.now() };
       startAct('wake');
       return;
     }
     if (name === 'wake') return;
     const cur = actRef.current;
     const rank = (ACTIONS[name] || { rank: 1 }).rank;
-    if (cur && cur.until > Date.now() && cur.rank > rank) {
-      if (!passive) actPendingRef.current = { name, at: Date.now() };
-      return;
-    }
-    if (cur && cur.until > Date.now() && cur.rank === rank && rank >= 4 && cur.name !== name) {
-      actPendingRef.current = { name, at: Date.now() }; // two reveal gags: one after the other
+    if (cur && cur.until > Date.now() && (cur.rank > rank || (cur.rank === rank && rank >= 4 && cur.name !== name))) {
+      // a stronger gag is running (or a second reveal gag): wait for it
+      if (!passive) queuePending(name, ms);
       return;
     }
     startAct(name, ms);
   }, [startAct]);
 
-  // any bubble wakes the host up (he talks in his sleep otherwise)
+  // a real line wakes the host up; idle chatter (fillers) he mumbles in his sleep
   useEffect(() => {
     if (!bubble) return;
+    if (currentRef.current?.priority === P_FILLER) return;
     lastActivityRef.current = Date.now();
     if (asleepRef.current) play('wake');
   }, [bubble, play]);
@@ -243,8 +241,10 @@ function useHostCommentary({ settings, sound }) {
       const c = ctxRef.current;
       const now = Date.now();
       const busy = !!currentRef.current || !!actRef.current;
-      // a bubble or a real gag keeps him awake (a micro-idle does not – he may doze off right after)
-      if (currentRef.current || actRef.current?.rank > 0) lastActivityRef.current = Math.max(lastActivityRef.current, now - 4000);
+      // a real line or gag keeps him awake (fillers and micro-idles do not)
+      if ((currentRef.current && currentRef.current.priority > P_FILLER) || actRef.current?.rank > 0) {
+        lastActivityRef.current = Math.max(lastActivityRef.current, now - 4000);
+      }
       if (asleepRef.current) return;
       if (c.gameState === 'lobby' && !busy && !queueRef.current.length && now - lastActivityRef.current > SLEEP_AFTER) {
         asleepRef.current = true;
@@ -468,6 +468,7 @@ function useHostCommentary({ settings, sound }) {
   }, [players, gameState, say, play]);
 
   const lastQRef = useRef(null);
+  const drumRef = useRef(null); // question that already got its pre-reveal drumroll
   const hurryRef = useRef(null);
   const revealRef = useRef(null);
   const streaksRef = useRef(new Map()); // id -> { hit, miss }
@@ -495,6 +496,7 @@ function useHostCommentary({ settings, sound }) {
       leaderRef.current = null;
       revealRef.current = null;
       lastQRef.current = null;
+      drumRef.current = null;
       hurryRef.current = null;
       sabHistoryRef.current = [];
       sabWindowRef.current = [];
@@ -573,7 +575,6 @@ function useHostCommentary({ settings, sound }) {
   }, [gameState, showCorrectAnswer, qKey, timer, say, play]);
 
   // drumroll right before the answer is revealed
-  const drumRef = useRef(null);
   useEffect(() => {
     if (gameState !== 'question' || showCorrectAnswer || !qKey || timer !== 2) return;
     if (drumRef.current === qKey) return;
@@ -742,8 +743,9 @@ function useHostCommentary({ settings, sound }) {
   else if (gameState === 'category-vote') ambient = 'popcorn';
   else if (gameState === 'finished') ambient = `dance${danceVariant}`;
   const action = act?.name || null;
+  const actionSeq = act?.seq || 0;
 
-  return { bubble, emotion, speaking, entranceKey, subscribeFlap, action, ambient };
+  return { bubble, emotion, speaking, entranceKey, subscribeFlap, action, actionSeq, ambient };
 }
 
 export default useHostCommentary;
