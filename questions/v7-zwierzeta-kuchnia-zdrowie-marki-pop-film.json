@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "zoo_s001",
+    "question": "Jak nazywa się samica jelenia?",
+    "answers": [
+      "Łania",
+      "Kotka",
+      "Locha",
+      "Wadera"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Samica jelenia to łania, a jego młode to cielę."
+  },
+  {
+    "id": "zoo_s002",
+    "question": "Ile odnóży, wliczając szczypce, ma homar?",
+    "answers": [
+      "12",
+      "10",
+      "8",
+      "6"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Homar należy do dziesięcionogów – ma 10 odnóży, w tym parę z wielkimi szczypcami."
+  },
+  {
+    "id": "zoo_s003",
+    "question": "Które zwierzę żywi się niemal wyłącznie liśćmi eukaliptusa i śpi nawet 20 godzin na dobę?",
+    "answers": [
+      "Wombat",
+      "Kangur",
+      "Koala",
+      "Leniwiec"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Liście eukaliptusa dają mało energii, więc koale większość doby przesypiają."
+  },
+  {
+    "id": "zoo_s004",
+    "question": "Ile garbów ma dromader?",
+    "answers": [
+      "Żadnego",
+      "Dwa",
+      "Trzy",
+      "Jeden"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dromader, czyli wielbłąd jednogarbny, ma jeden garb, a baktrian dwa."
+  },
+  {
+    "id": "zoo_s005",
+    "question": "Które zwierzęta są najbliższymi żyjącymi krewnymi hipopotamów?",
+    "answers": [
+      "Walenie",
+      "Słonie",
+      "Świnie",
+      "Nosorożce"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Badania genetyczne pokazały, że hipopotamy są najbliżej spokrewnione z wielorybami i delfinami."
+  },
+  {
+    "id": "zoo_s006",
+    "question": "Jakiego koloru jest język żyrafy?",
+    "answers": [
+      "Żółty",
+      "Ciemnofioletowy",
+      "Zielony",
+      "Różowy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ciemny barwnik prawdopodobnie chroni długi język żyrafy przed poparzeniem słonecznym."
+  },
+  {
+    "id": "zoo_s007",
+    "question": "Ile kręgów szyjnych ma żyrafa?",
+    "answers": [
+      "14",
+      "32",
+      "7",
+      "21"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Żyrafa ma tyle samo kręgów szyjnych co człowiek – siedem, tylko bardzo długich."
+  },
+  {
+    "id": "zoo_s008",
+    "question": "Który ptak biega najszybciej?",
+    "answers": [
+      "Nandu",
+      "Kazuar",
+      "Emu",
+      "Struś"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Struś potrafi biec z prędkością około 70 km/h."
+  },
+  {
+    "id": "zoo_s009",
+    "question": "Jak nazywa się zdolność organizmów, np. świetlików, do wytwarzania światła?",
+    "answers": [
+      "Bioluminescencja",
+      "Termoregulacja",
+      "Fotoperiodyzm",
+      "Fotosynteza"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Bioluminescencja to światło powstające w reakcji chemicznej w ciele organizmu."
+  },
+  {
+    "id": "zoo_s010",
+    "question": "Dzięki czemu nietoperze orientują się w ciemności?",
+    "answers": [
+      "Polu magnetycznemu Ziemi",
+      "Echolokacji",
+      "Wyczuwaniu ciepła",
+      "Bardzo dobremu wzrokowi"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nietoperze wysyłają dźwięki i odczytują powracające echo."
+  },
+  {
+    "id": "zoo_s011",
+    "question": "Który ptak ma największą rozpiętość skrzydeł?",
+    "answers": [
+      "Orzeł przedni",
+      "Bocian biały",
+      "Albatros wędrowny",
+      "Kondor andyjski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Skrzydła albatrosa wędrownego mogą mieć rozpiętość ponad 3 metrów."
+  },
+  {
+    "id": "zoo_s012",
+    "question": "Na jakim kontynencie żyją pingwiny cesarskie?",
+    "answers": [
+      "W Ameryce Południowej",
+      "W Australii",
+      "W Afryce",
+      "Na Antarktydzie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pingwiny cesarskie występują wyłącznie na Antarktydzie i na otaczającym ją lodzie."
+  },
+  {
+    "id": "zoo_s013",
+    "question": "Jak nazywa się największy żyjący gryzoń?",
+    "answers": [
+      "Kapibara",
+      "Nutria",
+      "Świnka morska",
+      "Bóbr"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kapibara z Ameryki Południowej może ważyć ponad 60 kg."
+  },
+  {
+    "id": "zoo_s014",
+    "question": "Jak nazywa się samiec sarny?",
+    "answers": [
+      "Odyniec",
+      "Kozioł",
+      "Basior",
+      "Byk"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Samiec sarny to kozioł (rogacz), a odyniec i basior to samce dzika i wilka."
+  },
+  {
+    "id": "zoo_s015",
+    "question": "Jak myśliwi nazywają samicę łosia?",
+    "answers": [
+      "Łania",
+      "Wadera",
+      "Klępa",
+      "Locha"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Samica łosia to klępa, a łania to samica jelenia."
+  },
+  {
+    "id": "zoo_s016",
+    "question": "Które komary kłują ludzi i piją krew?",
+    "answers": [
+      "Samce i samice",
+      "Tylko larwy",
+      "Tylko samce",
+      "Tylko samice"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Krew jest potrzebna samicom do rozwoju jaj, a samce żywią się nektarem."
+  },
+  {
+    "id": "zoo_s017",
+    "question": "Które zwierzę ma najgęstsze futro na świecie?",
+    "answers": [
+      "Kalan",
+      "Niedźwiedź polarny",
+      "Lis polarny",
+      "Piżmowół"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Kalan, czyli wydra morska, ma nawet ok. 150 tysięcy włosów na centymetr kwadratowy skóry."
+  },
+  {
+    "id": "zoo_s018",
+    "question": "Do jakiej gromady zwierząt należy żółw?",
+    "answers": [
+      "Do ssaków",
+      "Do gadów",
+      "Do płazów",
+      "Do ryb"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Żółwie to gady – mają łuski i składają jaja na lądzie."
+  },
+  {
+    "id": "zoo_s019",
+    "question": "Który owad „tańczy”, by pokazać innym, gdzie jest pożywienie?",
+    "answers": [
+      "Motyl",
+      "Konik polny",
+      "Pszczoła miodna",
+      "Mrówka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Taniec pszczół informuje robotnice o kierunku i odległości do kwiatów."
+  },
+  {
+    "id": "zoo_s020",
+    "question": "Która ryba potrafi razić prądem o napięciu kilkuset woltów?",
+    "answers": [
+      "Rekin młot",
+      "Pirania",
+      "Murena",
+      "Węgorz elektryczny"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Węgorz elektryczny potrafi wytworzyć wyładowanie nawet ok. 600 V."
+  },
+  {
+    "id": "zoo_s021",
+    "question": "Jak nazywa się zrzucanie starej skóry przez węże?",
+    "answers": [
+      "Linienie",
+      "Metamorfoza",
+      "Przepoczwarzenie",
+      "Pierzenie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Węże linieją, bo ich skóra nie rośnie razem z nimi."
+  },
+  {
+    "id": "zoo_s022",
+    "question": "Ile komór ma serce krokodyla?",
+    "answers": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Krokodyle jako jedyne gady mają serce czterokomorowe, jak ptaki i ssaki."
+  },
+  {
+    "id": "zoo_s023",
+    "question": "Jak nazywa się największa żyjąca jaszczurka?",
+    "answers": [
+      "Kameleon",
+      "Legwan zielony",
+      "Waran z Komodo",
+      "Gekon"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Waran z Komodo dorasta do około 3 metrów długości."
+  },
+  {
+    "id": "zoo_s024",
+    "question": "Który owad w dorosłej postaci żyje często zaledwie jeden dzień?",
+    "answers": [
+      "Ważka",
+      "Biedronka",
+      "Mrówka",
+      "Jętka"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Dorosłe jętki nie mają nawet sprawnego aparatu gębowego – żyją tylko po to, by się rozmnożyć."
+  },
+  {
+    "id": "zoo_s025",
+    "question": "Które zwierzę śpi, wyłączając naraz tylko jedną półkulę mózgu?",
+    "answers": [
+      "Delfin",
+      "Koń",
+      "Żyrafa",
+      "Kot"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Delfiny śpią jedną półkulą, by nie przestać oddychać i pilnować otoczenia."
+  },
+  {
+    "id": "food_s001",
+    "question": "Z jakiego kraju pochodzą tacos?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Meksyku",
+      "Z Argentyny",
+      "Z Kuby"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Tacos to meksykańskie tortille kukurydziane z nadzieniem."
+  },
+  {
+    "id": "food_s002",
+    "question": "Co oznacza określenie „al dente” w odniesieniu do makaronu?",
+    "answers": [
+      "Rozgotowany",
+      "Podany na zimno",
+      "Lekko twardy, „na ząb”",
+      "Smażony na maśle"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Po włosku „al dente” znaczy „na ząb” – makaron stawia lekki opór przy gryzieniu."
+  },
+  {
+    "id": "food_s003",
+    "question": "Jaki ser jest podstawą kremu do tiramisu?",
+    "answers": [
+      "Gorgonzola",
+      "Parmezan",
+      "Ricotta",
+      "Mascarpone"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Krem do tiramisu przygotowuje się z mascarpone, żółtek i cukru."
+  },
+  {
+    "id": "food_s004",
+    "question": "Jak nazywa się hiszpański chłodnik z pomidorów?",
+    "answers": [
+      "Gazpacho",
+      "Bouillabaisse",
+      "Minestrone",
+      "Ramen"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Gazpacho to zupa z Andaluzji podawana na zimno."
+  },
+  {
+    "id": "food_s005",
+    "question": "Z mleka jakich zwierząt robi się mozzarellę di bufala?",
+    "answers": [
+      "Wielbłądzic",
+      "Bawolic",
+      "Owiec",
+      "Kóz"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mozzarella di bufala powstaje z mleka bawolic domowych."
+  },
+  {
+    "id": "food_s006",
+    "question": "Jakie warzywo, obok ziemniaków, jest podstawą zimnej zupy vichyssoise?",
+    "answers": [
+      "Marchew",
+      "Seler",
+      "Por",
+      "Kalafior"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Vichyssoise to kremowa zupa z porów i ziemniaków podawana na zimno."
+  },
+  {
+    "id": "food_s007",
+    "question": "Jak nazywa się japońska zupa na bazie pasty z fermentowanej soi?",
+    "answers": [
+      "Tom yum",
+      "Gulasz",
+      "Harira",
+      "Miso"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zupa miso to stały element japońskiego śniadania."
+  },
+  {
+    "id": "food_s008",
+    "question": "Jak nazywa się odmiana śliwki, z której tradycyjnie robi się polskie powidła?",
+    "answers": [
+      "Węgierka",
+      "Lutówka",
+      "Antonówka",
+      "Konferencja"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Węgierki są słodkie i mięsiste, idealne do długiego smażenia; antonówka to jabłko, konferencja – gruszka, a lutówka – wiśnia."
+  },
+  {
+    "id": "food_s009",
+    "question": "Jaki owoc nazywany jest „królem owoców” i słynie z mocnego zapachu?",
+    "answers": [
+      "Papaja",
+      "Durian",
+      "Liczi",
+      "Mango"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Durian pachnie tak intensywnie, że w wielu miejscach Azji nie wolno go wnosić do hoteli i metra."
+  },
+  {
+    "id": "food_s010",
+    "question": "Z czego robi się marcepan?",
+    "answers": [
+      "Z kokosa",
+      "Z pistacji",
+      "Z migdałów",
+      "Z orzechów laskowych"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Marcepan to masa ze zmielonych migdałów i cukru."
+  },
+  {
+    "id": "food_s011",
+    "question": "Z czego głównie składa się majonez?",
+    "answers": [
+      "Ze śmietany i musztardy",
+      "Z masła i białek",
+      "Z mleka i mąki",
+      "Z oleju i żółtek"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Majonez to emulsja oleju i żółtek z dodatkiem kwasu, np. octu lub soku z cytryny."
+  },
+  {
+    "id": "food_s012",
+    "question": "Jak nazywa się włoskie danie z ryżu powoli gotowanego z bulionem?",
+    "answers": [
+      "Risotto",
+      "Gnocchi",
+      "Paella",
+      "Pilaw"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Do risotto używa się ryżu, np. arborio, który puszcza skrobię i daje kremową konsystencję."
+  },
+  {
+    "id": "food_s013",
+    "question": "Z jakiego kraju pochodzi ser gouda?",
+    "answers": [
+      "Z Danii",
+      "Z Holandii",
+      "Z Belgii",
+      "Ze Szwajcarii"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa sera pochodzi od holenderskiego miasta Gouda."
+  },
+  {
+    "id": "food_s014",
+    "question": "Z jakiego mleka robi się ser Roquefort?",
+    "answers": [
+      "Z krowiego",
+      "Z koziego",
+      "Z owczego",
+      "Z bawolego"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Roquefort to francuski ser pleśniowy z mleka owczego, dojrzewający w jaskiniach."
+  },
+  {
+    "id": "food_s015",
+    "question": "Jak nazywa się pasta z mielonego sezamu?",
+    "answers": [
+      "Harissa",
+      "Ajwar",
+      "Pesto",
+      "Tahini"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Tahini to pasta sezamowa, ważny składnik m.in. hummusu."
+  },
+  {
+    "id": "food_s016",
+    "question": "Jak nazywa się włoski deser ze śmietanki ściętej żelatyną?",
+    "answers": [
+      "Panna cotta",
+      "Tiramisu",
+      "Cannoli",
+      "Semifreddo"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Panna cotta znaczy po włosku „gotowana śmietanka”."
+  },
+  {
+    "id": "food_s017",
+    "question": "Z jakiego kraju pochodzą cienkie naleśniki crêpes?",
+    "answers": [
+      "Z Belgii",
+      "Z Francji",
+      "Z Włoch",
+      "Z Hiszpanii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Crêpes wywodzą się z francuskiej Bretanii."
+  },
+  {
+    "id": "food_s018",
+    "question": "Na czym polega gotowanie metodą sous-vide?",
+    "answers": [
+      "Na wędzeniu na zimno",
+      "Na pieczeniu na kamieniu",
+      "Na gotowaniu w woreczku w kąpieli wodnej",
+      "Na smażeniu w głębokim tłuszczu"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Próżniowo zapakowane jedzenie gotuje się długo w wodzie o stałej, niskiej temperaturze."
+  },
+  {
+    "id": "food_s019",
+    "question": "Jak nazywa się reakcja chemiczna, dzięki której smażone mięso brązowieje i nabiera aromatu?",
+    "answers": [
+      "Fermentacja",
+      "Elektroliza",
+      "Hydroliza",
+      "Reakcja Maillarda"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "W reakcji Maillarda cukry reagują z aminokwasami pod wpływem wysokiej temperatury."
+  },
+  {
+    "id": "food_s020",
+    "question": "Jak nazywa się słynna suszona szynka z okolic Parmy?",
+    "answers": [
+      "Prosciutto di Parma",
+      "Mortadela",
+      "Jamón serrano",
+      "Salami"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Prosciutto di Parma to szynka długo dojrzewająca w okolicach Parmy."
+  },
+  {
+    "id": "food_s021",
+    "question": "Z jakiego zboża robi się kaszę jaglaną?",
+    "answers": [
+      "Z owsa",
+      "Z prosa",
+      "Z gryki",
+      "Z jęczmienia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kasza jaglana to obłuszczone ziarna prosa."
+  },
+  {
+    "id": "food_s022",
+    "question": "Jak dawniej nazywano owoc kiwi?",
+    "answers": [
+      "Śliwka japońska",
+      "Jabłko indyjskie",
+      "Agrest chiński",
+      "Pomarańcza syjamska"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Nowozelandczycy zmienili nazwę „agrest chiński” na kiwi, by lepiej sprzedawać owoc za granicą."
+  },
+  {
+    "id": "food_s023",
+    "question": "Jak nazywa się technika krojenia warzyw w cienkie słupki przypominające zapałki?",
+    "answers": [
+      "Brunoise",
+      "Concassé",
+      "Chiffonade",
+      "Julienne"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Brunoise to drobna kostka, a chiffonade – cienkie paski liści."
+  },
+  {
+    "id": "food_s024",
+    "question": "Czym jest focaccia?",
+    "answers": [
+      "Włoskim płaskim chlebem",
+      "Hiszpańską kiełbasą",
+      "Francuskim serem",
+      "Greckim ciastem"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Focaccia to płaski włoski chleb z oliwą, często z rozmarynem."
+  },
+  {
+    "id": "food_s025",
+    "question": "Jakie warzywo jest podstawą leczo?",
+    "answers": [
+      "Szpinak",
+      "Papryka",
+      "Brokuł",
+      "Kalafior"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Leczo to węgierski gulasz warzywny z papryki, pomidorów i cebuli."
+  },
+  {
+    "id": "med_s001",
+    "question": "Ile zębów mlecznych ma dziecko?",
+    "answers": [
+      "16",
+      "32",
+      "20",
+      "24"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pełne uzębienie mleczne to 20 zębów, które później zastępują zęby stałe."
+  },
+  {
+    "id": "med_s002",
+    "question": "Jak nazywa się największy mięsień w ciele człowieka?",
+    "answers": [
+      "Mięsień sercowy",
+      "Mięsień dwugłowy ramienia",
+      "Mięsień naramienny",
+      "Mięsień pośladkowy wielki"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Mięsień pośladkowy wielki pozwala nam stać prosto i wchodzić po schodach."
+  },
+  {
+    "id": "med_s003",
+    "question": "Która część mózgu odpowiada za koordynację ruchów i równowagę?",
+    "answers": [
+      "Móżdżek",
+      "Hipokamp",
+      "Rdzeń kręgowy",
+      "Przysadka"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Móżdżek leży z tyłu czaszki i dba o płynność ruchów."
+  },
+  {
+    "id": "med_s004",
+    "question": "W której części ciała znajduje się kość strzałkowa?",
+    "answers": [
+      "W miednicy",
+      "W podudziu",
+      "W czaszce",
+      "W przedramieniu"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kość strzałkowa leży w podudziu, obok kości piszczelowej."
+  },
+  {
+    "id": "med_s005",
+    "question": "Jak nazywa się kość dolnej szczęki?",
+    "answers": [
+      "Kość gnykowa",
+      "Kość klinowa",
+      "Żuchwa",
+      "Kość jarzmowa"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Żuchwa jako jedyna kość twarzy porusza się, gdy jemy i mówimy."
+  },
+  {
+    "id": "med_s006",
+    "question": "Który lekarz zajmuje się chorobami skóry?",
+    "answers": [
+      "Kardiolog",
+      "Urolog",
+      "Neurolog",
+      "Dermatolog"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dermatolog leczy skórę, włosy i paznokcie."
+  },
+  {
+    "id": "med_s007",
+    "question": "Jak nazywa się białko, z którego zbudowane są włosy i paznokcie?",
+    "answers": [
+      "Keratyna",
+      "Insulina",
+      "Kolagen",
+      "Hemoglobina"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Keratyna to twarde, włókniste białko występujące też w rogach i piórach zwierząt."
+  },
+  {
+    "id": "med_s008",
+    "question": "Ile par żeber ma zwykle człowiek?",
+    "answers": [
+      "16",
+      "12",
+      "14",
+      "10"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Człowiek ma zwykle 12 par żeber, czyli 24 żebra."
+  },
+  {
+    "id": "med_s009",
+    "question": "Jak nazywa się płyn, który „smaruje” stawy?",
+    "answers": [
+      "Limfa",
+      "Żółć",
+      "Maź stawowa",
+      "Osocze"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Maź stawowa zmniejsza tarcie i odżywia chrząstkę stawową."
+  },
+  {
+    "id": "med_s010",
+    "question": "Który narząd wytwarza żółć?",
+    "answers": [
+      "Śledziona",
+      "Trzustka",
+      "Pęcherzyk żółciowy",
+      "Wątroba"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Żółć powstaje w wątrobie, a pęcherzyk żółciowy tylko ją magazynuje."
+  },
+  {
+    "id": "med_s011",
+    "question": "Jak nazywa się choroba, w której organizm nie wytwarza insuliny lub źle na nią reaguje?",
+    "answers": [
+      "Cukrzyca",
+      "Anemia",
+      "Astma",
+      "Dna moczanowa"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Przy cukrzycy poziom glukozy we krwi jest zbyt wysoki."
+  },
+  {
+    "id": "med_s012",
+    "question": "Jakie badanie rejestruje elektryczną pracę serca?",
+    "answers": [
+      "EEG",
+      "EKG",
+      "USG",
+      "RTG"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "EKG to elektrokardiogram, a EEG bada aktywność mózgu."
+  },
+  {
+    "id": "med_s013",
+    "question": "W zapisie ciśnienia krwi 120/80 liczba 120 oznacza ciśnienie…?",
+    "answers": [
+      "Rozkurczowe",
+      "Żylne",
+      "Skurczowe",
+      "Śródczaszkowe"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pierwsza liczba to ciśnienie w chwili skurczu serca, druga – podczas jego rozkurczu."
+  },
+  {
+    "id": "med_s014",
+    "question": "Jak fachowo nazywa się „kość ogonowa” człowieka?",
+    "answers": [
+      "Kość łonowa",
+      "Kość biodrowa",
+      "Kość krzyżowa",
+      "Kość guziczna"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kość guziczna to szczątkowa pozostałość ogona na końcu kręgosłupa."
+  },
+  {
+    "id": "med_s015",
+    "question": "Jaka jest najtwardsza substancja w ludzkim ciele?",
+    "answers": [
+      "Szkliwo zębów",
+      "Paznokieć",
+      "Chrząstka",
+      "Kość udowa"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Szkliwo składa się w około 96% z minerałów, głównie hydroksyapatytu."
+  },
+  {
+    "id": "med_s016",
+    "question": "Jak nazywa się barwna część oka otaczająca źrenicę?",
+    "answers": [
+      "Rogówka",
+      "Tęczówka",
+      "Soczewka",
+      "Siatkówka"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "To od barwnika w tęczówce zależy kolor naszych oczu."
+  },
+  {
+    "id": "med_s017",
+    "question": "Ile mniej więcej waży mózg dorosłego człowieka?",
+    "answers": [
+      "Ok. 3 kg",
+      "Ok. 0,5 kg",
+      "Ok. 1,4 kg",
+      "Ok. 5 kg"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Mózg waży ok. 1,3–1,4 kg, czyli około 2% masy ciała."
+  },
+  {
+    "id": "med_s018",
+    "question": "Przy którym odcinku jelita znajduje się wyrostek robaczkowy?",
+    "answers": [
+      "Przy odbytnicy",
+      "Przy jelicie czczym",
+      "Przy dwunastnicy",
+      "Przy jelicie ślepym"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Wyrostek robaczkowy odchodzi od jelita ślepego, początkowej części jelita grubego."
+  },
+  {
+    "id": "med_s019",
+    "question": "Jak nazywa się lekarz specjalizujący się w leczeniu dzieci?",
+    "answers": [
+      "Pediatra",
+      "Ortopeda",
+      "Geriatra",
+      "Internista"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Pediatra leczy dzieci, a geriatra – osoby starsze."
+  },
+  {
+    "id": "med_s020",
+    "question": "Który gruczoł potrzebuje jodu do wytwarzania hormonów?",
+    "answers": [
+      "Przysadka",
+      "Tarczyca",
+      "Szyszynka",
+      "Grasica"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jod jest składnikiem hormonów tarczycy, dlatego dodaje się go do soli."
+  },
+  {
+    "id": "med_s021",
+    "question": "Wirus jakiej choroby wieku dziecięcego może po latach wywołać półpasiec?",
+    "answers": [
+      "Różyczki",
+      "Świnki",
+      "Ospy wietrznej",
+      "Odry"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wirus ospy wietrznej ukrywa się w nerwach i może się uaktywnić jako półpasiec."
+  },
+  {
+    "id": "med_s022",
+    "question": "Ile mniej więcej oddechów na minutę wykonuje dorosły w spoczynku?",
+    "answers": [
+      "4–6",
+      "70–80",
+      "40–50",
+      "12–20"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Prawidłowy spoczynkowy oddech dorosłego to ok. 12–20 razy na minutę."
+  },
+  {
+    "id": "med_s023",
+    "question": "Który nerw jest najdłuższy i najgrubszy w ciele człowieka?",
+    "answers": [
+      "Nerw kulszowy",
+      "Nerw wzrokowy",
+      "Nerw twarzowy",
+      "Nerw trójdzielny"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Nerw kulszowy biegnie od dolnej części kręgosłupa aż do stopy."
+  },
+  {
+    "id": "med_s024",
+    "question": "Z ilu kości składa się dłoń razem z nadgarstkiem?",
+    "answers": [
+      "35",
+      "27",
+      "42",
+      "19"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Ręka to 8 kości nadgarstka, 5 śródręcza i 14 paliczków."
+  },
+  {
+    "id": "med_s025",
+    "question": "Jak nazywa się lęk przed pająkami?",
+    "answers": [
+      "Klaustrofobia",
+      "Akrofobia",
+      "Arachnofobia",
+      "Agorafobia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nazwa pochodzi od greckiego „arachne”, czyli pająk."
+  },
+  {
+    "id": "brand_s001",
+    "question": "Jakiego koloru jest tło klasycznego logo Coca-Coli?",
+    "answers": [
+      "Niebieskie",
+      "Żółte",
+      "Zielone",
+      "Czerwone"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Białe pisane litery na czerwonym tle to jeden z najbardziej rozpoznawalnych znaków świata."
+  },
+  {
+    "id": "brand_s002",
+    "question": "Co jest charakterystyczne dla jabłka w logo Apple?",
+    "answers": [
+      "Jest nadgryzione",
+      "Ma dwa liście",
+      "Ma robaka",
+      "Jest przekrojone"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Logo Apple to jabłko z wyraźnym ugryzieniem z prawej strony."
+  },
+  {
+    "id": "brand_s003",
+    "question": "Jakiego typu sklepy prowadzi sieć Rossmann?",
+    "answers": [
+      "Sklepy z elektroniką",
+      "Drogerie",
+      "Księgarnie",
+      "Stacje paliw"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Rossmann to niemiecka sieć drogerii, bardzo popularna także w Polsce."
+  },
+  {
+    "id": "brand_s004",
+    "question": "Z jakich słodyczy słynie firma Haribo?",
+    "answers": [
+      "Z lizaków",
+      "Z gum do żucia",
+      "Z żelków",
+      "Z czekolad"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Najsłynniejszym produktem Haribo są żelki w kształcie misiów."
+  },
+  {
+    "id": "brand_s005",
+    "question": "Która marka sprzedaje buty z linii Air Jordan?",
+    "answers": [
+      "Puma",
+      "Reebok",
+      "Adidas",
+      "Nike"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pierwsze Air Jordany Nike wypuściło w 1985 roku dla Michaela Jordana."
+  },
+  {
+    "id": "brand_s006",
+    "question": "Kto jest przedstawiony w logo Starbucks?",
+    "answers": [
+      "Syrena",
+      "Rybak",
+      "Królowa",
+      "Anioł"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Logo Starbucks przedstawia dwuogoniastą syrenę."
+  },
+  {
+    "id": "brand_s007",
+    "question": "Od czego wzięła nazwę firma Amazon?",
+    "answers": [
+      "Od gatunku papugi",
+      "Od rzeki Amazonki",
+      "Od nazwy miasta",
+      "Od imienia założyciela"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jeff Bezos wybrał nazwę największej pod względem przepływu rzeki świata, by kojarzyła się z ogromem."
+  },
+  {
+    "id": "brand_s008",
+    "question": "Która firma stworzyła konsolę PlayStation?",
+    "answers": [
+      "Sega",
+      "Nintendo",
+      "Sony",
+      "Microsoft"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pierwsze PlayStation zadebiutowało w Japonii w 1994 roku."
+  },
+  {
+    "id": "brand_s009",
+    "question": "Jak nazywa się klaun, maskotka McDonald's?",
+    "answers": [
+      "Krusty",
+      "Pennywise",
+      "Bozo",
+      "Ronald McDonald"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ronald McDonald pojawił się w reklamach na początku lat 60."
+  },
+  {
+    "id": "brand_s010",
+    "question": "Która firma produkuje lalki Barbie?",
+    "answers": [
+      "Mattel",
+      "LEGO",
+      "Hasbro",
+      "Playmobil"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Barbie zadebiutowała w 1959 roku jako produkt firmy Mattel."
+  },
+  {
+    "id": "brand_s011",
+    "question": "Która marka słynie z dżinsów model 501?",
+    "answers": [
+      "Lee",
+      "Levi's",
+      "Wrangler",
+      "Diesel"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Levi's 501 to jeden z najbardziej znanych krojów dżinsów na świecie."
+  },
+  {
+    "id": "brand_s012",
+    "question": "Z jakiego kraju pochodzi piwo Heineken?",
+    "answers": [
+      "Z Danii",
+      "Z Niemiec",
+      "Z Holandii",
+      "Z Belgii"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Gerard Adriaan Heineken kupił browar w Amsterdamie w 1864 roku."
+  },
+  {
+    "id": "brand_s013",
+    "question": "Jak nazywał się duński stolarz, który założył firmę LEGO?",
+    "answers": [
+      "Hans Christian Andersen",
+      "Niels Bohr",
+      "Ingvar Kamprad",
+      "Ole Kirk Christiansen"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Ole Kirk Christiansen zaczynał w 1932 roku od drewnianych zabawek."
+  },
+  {
+    "id": "brand_s014",
+    "question": "Jaka firma z Cieszyna wprowadziła na rynek wafelek Prince Polo?",
+    "answers": [
+      "Olza",
+      "Wawel",
+      "E. Wedel",
+      "Goplana"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Prince Polo produkowano od 1955 roku w cieszyńskiej fabryce Olza."
+  },
+  {
+    "id": "brand_s015",
+    "question": "Z jakiego kraju pochodzi czekolada Lindt?",
+    "answers": [
+      "Z Francji",
+      "Ze Szwajcarii",
+      "Z Austrii",
+      "Z Belgii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Lindt & Sprüngli to szwajcarski producent czekolady z siedzibą w Kilchbergu pod Zurychem."
+  },
+  {
+    "id": "brand_s016",
+    "question": "Płatki jakiej marki reklamuje tygrys Tony?",
+    "answers": [
+      "Nestlé",
+      "Danone",
+      "Kellogg's",
+      "Quaker"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Tygrys Tony to maskotka płatków Frosties firmy Kellogg's od lat 50."
+  },
+  {
+    "id": "brand_s017",
+    "question": "Od czego pochodzi nazwa IKEA?",
+    "answers": [
+      "Od imienia żony założyciela",
+      "Od szwedzkiego słowa „dom”",
+      "Od nazwy wyspy",
+      "Od inicjałów założyciela i nazw miejsc z jego dzieciństwa"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "IKEA to Ingvar Kamprad, Elmtaryd (farma) i Agunnaryd (wieś)."
+  },
+  {
+    "id": "brand_s018",
+    "question": "Z jakiego kraju pochodzi sieć sklepów Lidl?",
+    "answers": [
+      "Z Niemiec",
+      "Z Austrii",
+      "Z Francji",
+      "Z Holandii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Lidl należy do niemieckiej Schwarz Gruppe z Neckarsulm."
+  },
+  {
+    "id": "brand_s019",
+    "question": "Z jakiego kraju pochodzi grupa Jerónimo Martins, właściciel Biedronki?",
+    "answers": [
+      "Z Hiszpanii",
+      "Z Portugalii",
+      "Z Niemiec",
+      "Z Francji"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jerónimo Martins to portugalska grupa handlowa założona w Lizbonie w 1792 roku."
+  },
+  {
+    "id": "brand_s020",
+    "question": "Jak brzmi rozwinięcie nazwy firmy 3M?",
+    "answers": [
+      "Metal, Machines, Media",
+      "Modern Material Makers",
+      "Minnesota Mining and Manufacturing",
+      "Michigan Motor Manufacturing"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "3M zaczynało w 1902 roku od wydobycia minerałów w Minnesocie, a dziś słynie m.in. z karteczek Post-it."
+  },
+  {
+    "id": "brand_s021",
+    "question": "Z czego słynie polska firma Fakro z Nowego Sącza?",
+    "answers": [
+      "Z opon",
+      "Z rowerów",
+      "Z mebli",
+      "Z okien dachowych"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Fakro to jeden z największych producentów okien dachowych na świecie."
+  },
+  {
+    "id": "brand_s022",
+    "question": "Co produkuje bydgoska firma Pesa?",
+    "answers": [
+      "Pociągi i tramwaje",
+      "Ciągniki",
+      "Statki",
+      "Samoloty"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pesa buduje pojazdy szynowe, m.in. tramwaje Swing."
+  },
+  {
+    "id": "brand_s023",
+    "question": "Jakiego koloru jest logo Allegro?",
+    "answers": [
+      "Niebieskie",
+      "Pomarańczowe",
+      "Zielone",
+      "Fioletowe"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Pomarańczowy to firmowy kolor Allegro, największej polskiej platformy zakupowej."
+  },
+  {
+    "id": "brand_s024",
+    "question": "Ile pasków ma klasyczny znak Adidasa?",
+    "answers": [
+      "Pięć",
+      "Dwa",
+      "Trzy",
+      "Cztery"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Adidas nazywany jest „marką z trzema paskami”."
+  },
+  {
+    "id": "brand_s025",
+    "question": "Jak nazywa się marka lodów z czerwonym sercem w logo, znana w Polsce m.in. z Magnum i Cornetto?",
+    "answers": [
+      "Grycan",
+      "Koral",
+      "Zielona Budka",
+      "Algida"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Algida to polska nazwa międzynarodowej marki lodów z sercem w logo, która w innych krajach występuje m.in. jako Wall's i Langnese."
+  },
+  {
+    "id": "ent_s001",
+    "question": "Jaka gra z polem pełnym ukrytych min była od lat 90. dołączana do Windowsa?",
+    "answers": [
+      "Saper",
+      "Pong",
+      "Snake",
+      "Tetris"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W Saperze liczby podpowiadają, ile min kryje się w sąsiednich polach."
+  },
+  {
+    "id": "ent_s002",
+    "question": "Z jakim gorylem walczy Mario w automatowej grze z 1981 roku?",
+    "answers": [
+      "Diddy Kong",
+      "Donkey Kong",
+      "Bowser",
+      "King Kong"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W „Donkey Kongu” Mario, nazywany wtedy Jumpmanem, ratował dziewczynę z rąk goryla."
+  },
+  {
+    "id": "ent_s003",
+    "question": "Ile pól ma szachownica?",
+    "answers": [
+      "81",
+      "100",
+      "64",
+      "49"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Szachownica ma 8 rzędów po 8 pól."
+  },
+  {
+    "id": "ent_s004",
+    "question": "Jak nazywa się arcywróg jeża Sonica?",
+    "answers": [
+      "Wario",
+      "Bowser",
+      "Ganon",
+      "Doktor Eggman"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Doktor Eggman, znany też jako Robotnik, zamienia zwierzęta w roboty."
+  },
+  {
+    "id": "ent_s005",
+    "question": "Jak ma na imię Wojowniczy Żółw Ninja w niebieskiej opasce?",
+    "answers": [
+      "Leonardo",
+      "Raphael",
+      "Donatello",
+      "Michelangelo"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Leonardo walczy dwoma mieczami katana i jest przywódcą żółwi."
+  },
+  {
+    "id": "ent_s006",
+    "question": "Ile kart liczy standardowa talia bez jokerów?",
+    "answers": [
+      "54",
+      "52",
+      "48",
+      "32"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Talia ma 4 kolory po 13 kart."
+  },
+  {
+    "id": "ent_s007",
+    "question": "W jakim mieście mieszkają Simpsonowie?",
+    "answers": [
+      "W Bedrock",
+      "W South Park",
+      "W Springfield",
+      "W Quahog"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Springfield to miasto Homera, Marge, Barta, Lisy i Maggie."
+  },
+  {
+    "id": "ent_s008",
+    "question": "Jak nazywa się najwyższy układ w pokerze?",
+    "answers": [
+      "Kolor",
+      "Full",
+      "Kareta",
+      "Poker królewski"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Poker królewski to as, król, dama, walet i dziesiątka w jednym kolorze."
+  },
+  {
+    "id": "ent_s009",
+    "question": "W jakiej grze karcianej celem jest zebrać 21 punktów, nie przekraczając tej liczby?",
+    "answers": [
+      "W oczko",
+      "W wojnę",
+      "W makao",
+      "W remika"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Oczko to polska odmiana gry znanej w kasynach jako blackjack."
+  },
+  {
+    "id": "ent_s010",
+    "question": "Jak nazywa się gra polegająca na wyciąganiu klocków z wieży tak, by się nie zawaliła?",
+    "answers": [
+      "Bierki",
+      "Jenga",
+      "Domino",
+      "Scrabble"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Wyciągnięte klocki w Jendze kładzie się na szczycie wieży."
+  },
+  {
+    "id": "ent_s011",
+    "question": "Z jakiego kraju pochodzi Ernő Rubik, twórca słynnej kostki?",
+    "answers": [
+      "Z Austrii",
+      "Z Rumunii",
+      "Z Węgier",
+      "Z Czech"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Węgierski architekt wymyślił kostkę w 1974 roku."
+  },
+  {
+    "id": "ent_s012",
+    "question": "Ile kolorów ma klasyczna kostka Rubika?",
+    "answers": [
+      "8",
+      "4",
+      "9",
+      "6"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Każda z sześciu ścianek kostki ma inny kolor."
+  },
+  {
+    "id": "ent_s013",
+    "question": "Która gra z trybem battle royale słynie z budowania ścian i ramp w trakcie walki?",
+    "answers": [
+      "Fortnite",
+      "Call of Duty: Warzone",
+      "Apex Legends",
+      "PUBG"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "W Fortnite gracze w kilka sekund stawiają osłony z zebranych materiałów."
+  },
+  {
+    "id": "ent_s014",
+    "question": "Jak nazywa się kraina, w której mieszka księżniczka Peach z gier o Mario?",
+    "answers": [
+      "Tamriel",
+      "Grzybowe Królestwo",
+      "Hyrule",
+      "Azeroth"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Mushroom Kingdom, czyli Grzybowe Królestwo, zamieszkują m.in. Toady."
+  },
+  {
+    "id": "ent_s015",
+    "question": "W jakim świecie toczy się akcja gry „World of Warcraft”?",
+    "answers": [
+      "W Śródziemiu",
+      "W Tamriel",
+      "W Azeroth",
+      "W Hyrule"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Azeroth to świat serii Warcraft studia Blizzard."
+  },
+  {
+    "id": "ent_s016",
+    "question": "Kto jest głównym bohaterem gry „Half-Life”?",
+    "answers": [
+      "Master Chief",
+      "Marcus Fenix",
+      "Duke Nukem",
+      "Gordon Freeman"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Gordon Freeman to milczący naukowiec z łomem w ręku."
+  },
+  {
+    "id": "ent_s017",
+    "question": "Jak nazywa się smok, którego pokonanie kończy główną przygodę w Minecrafcie?",
+    "answers": [
+      "Ender Dragon",
+      "Diablo",
+      "Ganon",
+      "Bowser"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Ender Dragon czeka na graczy w wymiarze Kresu (End)."
+  },
+  {
+    "id": "ent_s018",
+    "question": "Ile kart dostaje każdy gracz na początku gry w UNO?",
+    "answers": [
+      "5",
+      "7",
+      "10",
+      "6"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Według zasad UNO każdy gracz zaczyna z siedmioma kartami."
+  },
+  {
+    "id": "ent_s019",
+    "question": "Który Pokémon ma numer 1 w Pokédeksie?",
+    "answers": [
+      "Charmander",
+      "Pikachu",
+      "Bulbasaur",
+      "Mew"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Bulbasaur otwiera Pokédex, a Pikachu ma numer 25."
+  },
+  {
+    "id": "ent_s020",
+    "question": "W której grze gracze szukają ukrytego „impostora” na statku kosmicznym?",
+    "answers": [
+      "Fortnite",
+      "Roblox",
+      "Fall Guys",
+      "Among Us"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Impostor w Among Us sabotuje statek i eliminuje załogę."
+  },
+  {
+    "id": "ent_s021",
+    "question": "Jak nazywa się ruch w szachach, w którym król i wieża ruszają się jednocześnie?",
+    "answers": [
+      "Roszada",
+      "Pat",
+      "Bicie w przelocie",
+      "Gambit"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Roszada to jedyny ruch, w którym przesuwa się dwie figury naraz."
+  },
+  {
+    "id": "ent_s022",
+    "question": "Gdzie mieszka SpongeBob Kanciastoporty?",
+    "answers": [
+      "W beczce",
+      "W ananasie",
+      "W kokosie",
+      "W muszli"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "SpongeBob mieszka w ananasie na dnie oceanu, w Bikini Dolnym."
+  },
+  {
+    "id": "ent_s023",
+    "question": "Kto stworzył Myszkę Miki?",
+    "answers": [
+      "Stan Lee",
+      "Matt Groening",
+      "Walt Disney",
+      "Charles Schulz"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Myszka Miki zadebiutowała w 1928 roku w filmie „Parowiec Willie”."
+  },
+  {
+    "id": "ent_s024",
+    "question": "Iloma kośćmi rzuca się w grze w kości zwanej Generałem?",
+    "answers": [
+      "Czterema",
+      "Trzema",
+      "Sześcioma",
+      "Pięcioma"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W Generała (Yahtzee) gra się pięcioma kośćmi, rzucając do trzech razy w turze."
+  },
+  {
+    "id": "ent_s025",
+    "question": "W którym roku zadebiutowała gra „Pac-Man”?",
+    "answers": [
+      "W 1980",
+      "W 1975",
+      "W 1990",
+      "W 1985"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Pac-Man trafił na japońskie automaty w 1980 roku."
+  },
+  {
+    "id": "film_s001",
+    "question": "Kto wyreżyserował film „Szczęki”?",
+    "answers": [
+      "Ridley Scott",
+      "Steven Spielberg",
+      "George Lucas",
+      "Francis Ford Coppola"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "„Szczęki” z 1975 roku uznaje się za pierwszy wakacyjny blockbuster."
+  },
+  {
+    "id": "film_s002",
+    "question": "Na jakiej wyspie leży park dinozaurów z filmu „Park Jurajski” z 1993 roku?",
+    "answers": [
+      "Amity",
+      "Wyspa Czaszki",
+      "Isla Nublar",
+      "Hawaje"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Fikcyjna Isla Nublar leży u wybrzeży Kostaryki."
+  },
+  {
+    "id": "film_s003",
+    "question": "Jak ma na imię żona Shreka?",
+    "answers": [
+      "Bella",
+      "Roszpunka",
+      "Aurora",
+      "Fiona"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Księżniczka Fiona po zachodzie słońca zamieniała się w ogrzycę."
+  },
+  {
+    "id": "film_s004",
+    "question": "Jak ma na imię bałwanek z filmu „Kraina lodu”?",
+    "answers": [
+      "Olaf",
+      "Hans",
+      "Sven",
+      "Kristoff"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Olaf to bałwanek, który marzy o lecie; Sven to renifer."
+  },
+  {
+    "id": "film_s005",
+    "question": "Kto zagrał Hannibala Lectera w filmie „Milczenie owiec”?",
+    "answers": [
+      "Jack Nicholson",
+      "Anthony Hopkins",
+      "Al Pacino",
+      "Robert De Niro"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Anthony Hopkins zdobył za tę rolę Oscara, choć był na ekranie zaledwie kilkanaście minut."
+  },
+  {
+    "id": "film_s006",
+    "question": "Który hobbit niesie Jedyny Pierścień do Mordoru we „Władcy Pierścieni”?",
+    "answers": [
+      "Merry",
+      "Pippin",
+      "Frodo",
+      "Bilbo"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Frodo Baggins dostał Pierścień od swojego wuja Bilba."
+  },
+  {
+    "id": "film_s007",
+    "question": "Kto zagrał Jokera w filmie „Mroczny Rycerz” z 2008 roku?",
+    "answers": [
+      "Joaquin Phoenix",
+      "Jared Leto",
+      "Jack Nicholson",
+      "Heath Ledger"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Heath Ledger zdobył za tę rolę pośmiertnego Oscara."
+  },
+  {
+    "id": "film_s008",
+    "question": "Kto zagrał kapitana Jacka Sparrowa w „Piratach z Karaibów”?",
+    "answers": [
+      "Johnny Depp",
+      "Brad Pitt",
+      "Orlando Bloom",
+      "Keanu Reeves"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Johnny Depp wzorował się podobno na Keicie Richardsie z The Rolling Stones."
+  },
+  {
+    "id": "film_s009",
+    "question": "Jak wabi się kot, który przeżywa na statku Nostromo w filmie „Obcy – 8. pasażer Nostromo”?",
+    "answers": [
+      "Tom",
+      "Jones",
+      "Salem",
+      "Garfield"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Rudy kot Jones ucieka razem z Ripley ostatnią kapsułą ratunkową."
+  },
+  {
+    "id": "film_s010",
+    "question": "Kto zagrał Indianę Jonesa?",
+    "answers": [
+      "Mel Gibson",
+      "Tom Cruise",
+      "Harrison Ford",
+      "Kevin Costner"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Harrison Ford zagrał też Hana Solo w „Gwiezdnych wojnach”."
+  },
+  {
+    "id": "film_s011",
+    "question": "Kto zagrał Rocky’ego Balboę?",
+    "answers": [
+      "Bruce Willis",
+      "Dolph Lundgren",
+      "Arnold Schwarzenegger",
+      "Sylvester Stallone"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Stallone sam napisał też scenariusz do pierwszego „Rocky’ego”."
+  },
+  {
+    "id": "film_s012",
+    "question": "W jakim mieście toczy się akcja serialu „Seks w wielkim mieście”?",
+    "answers": [
+      "W Nowym Jorku",
+      "W Los Angeles",
+      "W Chicago",
+      "W Miami"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Carrie Bradshaw i przyjaciółki mieszkają na Manhattanie."
+  },
+  {
+    "id": "film_s013",
+    "question": "W jakim mieście toczy się akcja serialu „Ojciec Mateusz”?",
+    "answers": [
+      "W Zamościu",
+      "W Sandomierzu",
+      "W Kazimierzu Dolnym",
+      "W Płocku"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ksiądz-detektyw grany przez Artura Żmijewskiego rozwiązuje zagadki w Sandomierzu."
+  },
+  {
+    "id": "film_s014",
+    "question": "Na jakim księżycu toczy się akcja filmu „Avatar”?",
+    "answers": [
+      "Na Arrakis",
+      "Na Solaris",
+      "Na Pandorze",
+      "Na Endorze"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Pandora to zielony księżyc zamieszkany przez niebieskich Na’vi."
+  },
+  {
+    "id": "film_s015",
+    "question": "Przez jaki mebel dzieci trafiają do Narnii w „Lwie, czarownicy i starej szafie”?",
+    "answers": [
+      "Przez lustro",
+      "Przez komodę",
+      "Przez kominek",
+      "Przez szafę"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Łucja jako pierwsza przechodzi przez szafę do zaśnieżonej Narnii."
+  },
+  {
+    "id": "film_s016",
+    "question": "Kto wyreżyserował cykl filmów „Dekalog”?",
+    "answers": [
+      "Krzysztof Kieślowski",
+      "Roman Polański",
+      "Krzysztof Zanussi",
+      "Andrzej Wajda"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "„Dekalog” to dziesięć filmów inspirowanych dziesięcioma przykazaniami."
+  },
+  {
+    "id": "film_s017",
+    "question": "Kto zagrał Jamesa Bonda w pierwszym filmie serii, „Doktor No” z 1962 roku?",
+    "answers": [
+      "Pierce Brosnan",
+      "Sean Connery",
+      "Daniel Craig",
+      "Roger Moore"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sean Connery zagrał Bonda w sześciu oficjalnych filmach serii."
+  },
+  {
+    "id": "film_s018",
+    "question": "Jak ma na imię Soprano, główny bohater serialu „Rodzina Soprano”?",
+    "answers": [
+      "Vito",
+      "Michael",
+      "Tony",
+      "Paulie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Tony Soprano to mafioso z New Jersey, który chodzi na terapię."
+  },
+  {
+    "id": "film_s019",
+    "question": "Kto zagrał Jamesa Bonda w filmie „Casino Royale” z 2006 roku?",
+    "answers": [
+      "Timothy Dalton",
+      "Pierce Brosnan",
+      "Roger Moore",
+      "Daniel Craig"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "„Casino Royale” był pierwszym z pięciu filmów z Craigiem jako agentem 007."
+  },
+  {
+    "id": "film_s020",
+    "question": "Kto zagrał Kargula w filmie „Sami swoi”?",
+    "answers": [
+      "Władysław Hańcza",
+      "Zdzisław Maklakiewicz",
+      "Wacław Kowalski",
+      "Franciszek Pieczka"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Wacław Kowalski grał jego sąsiada i rywala – Kazimierza Pawlaka."
+  },
+  {
+    "id": "film_s021",
+    "question": "Jak nazywa się hotel w filmie „Lśnienie”?",
+    "answers": [
+      "Grand Budapest",
+      "Overlook",
+      "California",
+      "Bates Motel"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jack Torrance z rodziną spędza zimę w odciętym od świata hotelu Overlook."
+  },
+  {
+    "id": "film_s022",
+    "question": "Z jakiej sagi pochodzą słowa „Niech Moc będzie z tobą”?",
+    "answers": [
+      "„Diuna”",
+      "„Star Trek”",
+      "„Gwiezdne wojny”",
+      "„Matrix”"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "To pozdrowienie rycerzy Jedi w „Gwiezdnych wojnach”."
+  },
+  {
+    "id": "film_s023",
+    "question": "Jak nazywa się szkoła, do której trafia Wednesday Addams w serialu Netflixa?",
+    "answers": [
+      "Hawkins",
+      "Hogwart",
+      "Riverdale",
+      "Nevermore"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Akademia Nevermore to szkoła dla wyrzutków o niezwykłych zdolnościach."
+  },
+  {
+    "id": "film_s024",
+    "question": "Z jakiego kraju pochodzi serial „Squid Game”?",
+    "answers": [
+      "Z Korei Południowej",
+      "Z Japonii",
+      "Z Chin",
+      "Z Tajlandii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Squid Game” (2021) to koreański serial, który stał się światowym hitem Netflixa."
+  },
+  {
+    "id": "film_s025",
+    "question": "Kto wyreżyserował „Diunę” z 2021 roku?",
+    "answers": [
+      "Christopher Nolan",
+      "Denis Villeneuve",
+      "Ridley Scott",
+      "David Lynch"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "David Lynch nakręcił wcześniejszą wersję w 1984 roku, a w 2021 film zrobił Villeneuve."
+  }
+]
