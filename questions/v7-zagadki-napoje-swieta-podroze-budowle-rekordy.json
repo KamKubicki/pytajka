@@ -1014,19 +1014,6 @@
     "explanation": "Kreta to największa grecka wyspa i jeden z najpopularniejszych kierunków wakacyjnych."
   },
   {
-    "id": "travel_u004",
-    "question": "Do którego kraju należą Wyspy Kanaryjskie?",
-    "answers": [
-      "Do Portugalii",
-      "Do Maroka",
-      "Do Włoch",
-      "Do Hiszpanii"
-    ],
-    "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Wyspy Kanaryjskie leżą u wybrzeży Afryki, ale są częścią Hiszpanii."
-  },
-  {
     "id": "travel_u005",
     "question": "Jak nazywa się strefa sklepów bezcłowych na lotnisku?",
     "answers": [
@@ -1064,19 +1051,6 @@
     "correct": 1,
     "difficulty": "easy",
     "explanation": "Palma de Mallorca to stolica Majorki i całych Balearów."
-  },
-  {
-    "id": "travel_u008",
-    "question": "Do którego kraju należy wyspa Bali?",
-    "answers": [
-      "Do Indonezji",
-      "Do Malezji",
-      "Do Tajlandii",
-      "Do Filipin"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Bali to jedna z ponad 17 tysięcy wysp Indonezji."
   },
   {
     "id": "travel_u009",
@@ -1625,19 +1599,6 @@
     "explanation": "Falujące, tytanowe muzeum Gehry'ego otwarto w 1997 roku."
   },
   {
-    "id": "rec_u001",
-    "question": "Jak nazywała się owca, pierwszy ssak sklonowany z komórki dorosłego osobnika?",
-    "answers": [
-      "Molly",
-      "Dolly",
-      "Polly",
-      "Daisy"
-    ],
-    "correct": 1,
-    "difficulty": "easy",
-    "explanation": "Owca Dolly urodziła się w 1996 roku w Szkocji."
-  },
-  {
     "id": "rec_u002",
     "question": "Ile metrów ma jedno okrążenie standardowej bieżni lekkoatletycznej?",
     "answers": [
@@ -1703,58 +1664,6 @@
     "explanation": "Na igrzyskach olimpijskich pływacy ścigają się na basenie 50-metrowym."
   },
   {
-    "id": "rec_u007",
-    "question": "Ile kręgli ustawia się na torze w klasycznym bowlingu?",
-    "answers": [
-      "12",
-      "10",
-      "9",
-      "6"
-    ],
-    "correct": 1,
-    "difficulty": "easy",
-    "explanation": "W bowlingu kręgle stoją w trójkącie w czterech rzędach: 1, 2, 3 i 4."
-  },
-  {
-    "id": "rec_u008",
-    "question": "Z ilu kart składa się standardowa talia do brydża, bez jokerów?",
-    "answers": [
-      "56",
-      "54",
-      "48",
-      "52"
-    ],
-    "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Talia ma cztery kolory po 13 kart, czyli 52 karty."
-  },
-  {
-    "id": "rec_u009",
-    "question": "Ile pól ma szachownica?",
-    "answers": [
-      "100",
-      "49",
-      "81",
-      "64"
-    ],
-    "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Szachownica ma 8 rzędów po 8 pól, czyli 64 pola."
-  },
-  {
-    "id": "rec_u010",
-    "question": "Ile dołków ma standardowe pole golfowe?",
-    "answers": [
-      "9",
-      "18",
-      "12",
-      "24"
-    ],
-    "correct": 1,
-    "difficulty": "easy",
-    "explanation": "Pełna runda golfa to 18 dołków."
-  },
-  {
     "id": "rec_u011",
     "question": "Którzy Polacy jako pierwsi na świecie zdobyli Mount Everest zimą?",
     "answers": [
@@ -1818,19 +1727,6 @@
     "correct": 1,
     "difficulty": "medium",
     "explanation": "Inżynier Neil Papworth wysłał z komputera na telefon życzenia świąteczne."
-  },
-  {
-    "id": "rec_u016",
-    "question": "Na jakiej wysokości zawieszona jest obręcz kosza do koszykówki?",
-    "answers": [
-      "3,50 m",
-      "2,75 m",
-      "3,25 m",
-      "3,05 m"
-    ],
-    "correct": 3,
-    "difficulty": "medium",
-    "explanation": "Obręcz wisi na wysokości 10 stóp, czyli 3,05 metra."
   },
   {
     "id": "rec_u017",

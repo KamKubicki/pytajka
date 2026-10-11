@@ -1,18 +1,5 @@
 [
   {
-    "id": "money_v001",
-    "question": "Jaki pseudonim nosi tajemniczy twórca bitcoina?",
-    "answers": [
-      "Satoshi Nakamoto",
-      "Vitalik Buterin",
-      "Hal Finney",
-      "Nick Szabo"
-    ],
-    "correct": 0,
-    "difficulty": "easy",
-    "explanation": "Prawdziwa tożsamość autora publikacji o bitcoinie z 2008 roku do dziś pozostaje nieznana."
-  },
-  {
     "id": "money_v002",
     "question": "Jak nazywa się najmniejsza jednostka bitcoina, czyli jego stumilionowa część?",
     "answers": [
@@ -1077,19 +1064,6 @@
     "correct": 2,
     "difficulty": "easy",
     "explanation": "Święty Patryk miał tłumaczyć na trójlistnej koniczynie tajemnicę Trójcy Świętej."
-  },
-  {
-    "id": "plant_v014",
-    "question": "Jaki kwiat w PRL tradycyjnie wręczano kobietom 8 marca?",
-    "answers": [
-      "Tulipan",
-      "Róża",
-      "Frezja",
-      "Goździk"
-    ],
-    "correct": 3,
-    "difficulty": "easy",
-    "explanation": "Goździk z rajstopami lub kawą to klasyczny prezent z okazji Dnia Kobiet."
   },
   {
     "id": "plant_v015",

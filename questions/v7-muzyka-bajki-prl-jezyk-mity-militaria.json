@@ -1807,19 +1807,6 @@
     "explanation": "Bombowiec nurkujący Ju 87 słynął z wyjących syren podczas ataku."
   },
   {
-    "id": "mil_t015",
-    "question": "Jak nazywał się bombowiec B-29, który zrzucił bombę atomową na Hiroszimę?",
-    "answers": [
-      "Memphis Belle",
-      "Bockscar",
-      "Enola Gay",
-      "Spirit of St. Louis"
-    ],
-    "correct": 2,
-    "difficulty": "medium",
-    "explanation": "Pilot Paul Tibbets nazwał samolot imieniem swojej matki."
-  },
-  {
     "id": "mil_t016",
     "question": "Który koncern zaprojektował japoński myśliwiec A6M „Zero”?",
     "answers": [

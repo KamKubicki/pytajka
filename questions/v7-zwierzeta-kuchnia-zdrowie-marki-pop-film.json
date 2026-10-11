@@ -1690,19 +1690,6 @@
     "explanation": "Anthony Hopkins zdobył za tę rolę Oscara, choć był na ekranie zaledwie kilkanaście minut."
   },
   {
-    "id": "film_s006",
-    "question": "Który hobbit niesie Jedyny Pierścień do Mordoru we „Władcy Pierścieni”?",
-    "answers": [
-      "Merry",
-      "Pippin",
-      "Frodo",
-      "Bilbo"
-    ],
-    "correct": 2,
-    "difficulty": "easy",
-    "explanation": "Frodo Baggins dostał Pierścień od Bilba, krewnego, który go adoptował."
-  },
-  {
     "id": "film_s007",
     "question": "Kto zagrał Jokera w filmie „Mroczny Rycerz” z 2008 roku?",
     "answers": [
