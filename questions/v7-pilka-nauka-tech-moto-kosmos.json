@@ -1,0 +1,1887 @@
+[
+  {
+    "id": "foot_r001",
+    "question": "Jak nazywa się rzut wykonywany z narożnika boiska?",
+    "answers": [
+      "Rzut wolny",
+      "Rzut rożny",
+      "Rzut z autu",
+      "Rzut sędziowski"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Rzut rożny przyznaje się, gdy obrońcy wybiją piłkę za własną linię końcową."
+  },
+  {
+    "id": "foot_r002",
+    "question": "Kto wygrał pierwszy w historii mundial rozegrany w Afryce, w RPA w 2010 roku?",
+    "answers": [
+      "Niemcy",
+      "Brazylia",
+      "Hiszpania",
+      "Holandia"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Hiszpania pokonała w finale Holandię 1:0 po golu Andrésa Iniesty w dogrywce."
+  },
+  {
+    "id": "foot_r003",
+    "question": "Jak nazywa się plastikowa trąbka, której buczenie towarzyszyło mundialowi 2010 w RPA?",
+    "answers": [
+      "Fanfara",
+      "Kazoo",
+      "Wuwuzela",
+      "Szofar"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wuwuzele grały na trybunach przez cały turniej, ku rozpaczy komentatorów."
+  },
+  {
+    "id": "foot_r004",
+    "question": "Ile żółtych kartek w jednym meczu oznacza dla piłkarza czerwoną kartkę?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Druga żółta kartka w tym samym meczu oznacza czerwoną i zejście z boiska."
+  },
+  {
+    "id": "foot_r005",
+    "question": "Jak nazywa się nagroda dla najlepszego piłkarza roku przyznawana przez magazyn „France Football”?",
+    "answers": [
+      "Złote Korki",
+      "Złoty Gwizdek",
+      "Złota Piłka",
+      "Złoty But"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Złota Piłka (Ballon d'Or) przyznawana jest od 1956 roku."
+  },
+  {
+    "id": "foot_r006",
+    "question": "Z którym klubem Lionel Messi czterokrotnie wygrał Ligę Mistrzów?",
+    "answers": [
+      "Paris Saint-Germain",
+      "FC Barcelona",
+      "Real Madryt",
+      "Manchester City"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Messi triumfował z Barceloną w Lidze Mistrzów w latach 2006, 2009, 2011 i 2015."
+  },
+  {
+    "id": "foot_r007",
+    "question": "Jak nazywa się stadion Realu Madryt?",
+    "answers": [
+      "Santiago Bernabéu",
+      "Metropolitano",
+      "Vicente Calderón",
+      "Mestalla"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Stadion nosi imię wieloletniego prezesa klubu Santiago Bernabéu."
+  },
+  {
+    "id": "foot_r008",
+    "question": "Mecze których klubów nazywa się „El Clásico”?",
+    "answers": [
+      "Barcelona – Espanyol",
+      "Sevilla – Betis",
+      "Real Madryt – FC Barcelona",
+      "Atlético – Real Madryt"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "El Clásico to rywalizacja dwóch największych klubów Hiszpanii."
+  },
+  {
+    "id": "foot_r009",
+    "question": "Ile minut trwa jedna połowa meczu piłkarskiego (bez doliczonego czasu)?",
+    "answers": [
+      "40",
+      "45",
+      "50",
+      "30"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Mecz trwa 2 × 45 minut plus czas doliczony przez sędziego."
+  },
+  {
+    "id": "foot_r010",
+    "question": "Który polski bramkarz zdobył z Liverpoolem Ligę Mistrzów w 2005 roku po słynnym finale w Stambule?",
+    "answers": [
+      "Jerzy Dudek",
+      "Tomasz Kuszczak",
+      "Łukasz Fabiański",
+      "Artur Boruc"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Liverpool odrobił straty z 0:3, a Dudek obronił m.in. karnego Szewczenki."
+  },
+  {
+    "id": "foot_r011",
+    "question": "Kto strzelił w dogrywce jedynego gola finału mundialu 2014 dla Niemiec?",
+    "answers": [
+      "Thomas Müller",
+      "Miroslav Klose",
+      "Mario Götze",
+      "André Schürrle"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Götze trafił w 113. minucie finału z Argentyną na Maracanie."
+  },
+  {
+    "id": "foot_r012",
+    "question": "Która reprezentacja sensacyjnie wygrała Euro 2004 w Portugalii?",
+    "answers": [
+      "Holandia",
+      "Czechy",
+      "Dania",
+      "Grecja"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Grecy dwukrotnie pokonali gospodarzy, w tym 1:0 w finale."
+  },
+  {
+    "id": "foot_r013",
+    "question": "Który klub sensacyjnie został mistrzem Anglii w sezonie 2015/16, choć bukmacherzy dawali mu kurs 5000:1?",
+    "answers": [
+      "Southampton",
+      "Leicester City",
+      "West Ham United",
+      "Everton"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Leicester prowadzony przez Claudia Ranieriego zdobył pierwsze mistrzostwo w historii klubu."
+  },
+  {
+    "id": "foot_r014",
+    "question": "Który piłkarz zdobył Złotą Piłkę w 2018 roku, przerywając dekadę dominacji Messiego i Ronaldo?",
+    "answers": [
+      "Kylian Mbappé",
+      "Antoine Griezmann",
+      "Mohamed Salah",
+      "Luka Modrić"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Chorwat doprowadził wcześniej swoją reprezentację do finału mundialu 2018."
+  },
+  {
+    "id": "foot_r015",
+    "question": "Do którego klubu Lionel Messi przeszedł z Barcelony w 2021 roku?",
+    "answers": [
+      "Paris Saint-Germain",
+      "Juventus",
+      "Inter Miami",
+      "Manchester City"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Barcelona nie mogła przedłużyć z nim umowy z powodu problemów finansowych."
+  },
+  {
+    "id": "foot_r016",
+    "question": "Który angielski stadion nazywany jest „Teatrem Marzeń”?",
+    "answers": [
+      "Wembley",
+      "Anfield",
+      "Old Trafford",
+      "Stamford Bridge"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "To dom Manchesteru United, a przydomek nadał mu Bobby Charlton."
+  },
+  {
+    "id": "foot_r017",
+    "question": "Który kraj był gospodarzem i zwycięzcą mundialu w 1966 roku?",
+    "answers": [
+      "RFN",
+      "Anglia",
+      "Brazylia",
+      "Włochy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W finale na Wembley Anglia pokonała RFN 4:2 po dogrywce."
+  },
+  {
+    "id": "foot_r018",
+    "question": "W którym roku reprezentacja Polski po raz pierwszy zagrała w finałach mistrzostw Europy?",
+    "answers": [
+      "1996",
+      "1976",
+      "2008",
+      "2012"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Polska zadebiutowała na Euro 2008 w Austrii i Szwajcarii, ale odpadła po fazie grupowej."
+  },
+  {
+    "id": "foot_r019",
+    "question": "Jak nazywano grającą „futbol totalny” reprezentację Holandii z lat 70.?",
+    "answers": [
+      "Mechaniczna Pomarańcza",
+      "Pomarańczowa Fala",
+      "Tulipanowa Armia",
+      "Latający Holendrzy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Holendrzy z Johanem Cruyffem dochodzili do finału mundialu w 1974 i 1978 roku."
+  },
+  {
+    "id": "foot_r020",
+    "question": "W którym klubie Cristiano Ronaldo rozpoczął zawodową karierę?",
+    "answers": [
+      "Benfica Lizbona",
+      "Sporting Lizbona",
+      "Boavista",
+      "FC Porto"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Ze Sportingu w 2003 roku kupił go Manchester United."
+  },
+  {
+    "id": "foot_r021",
+    "question": "Na którym mundialu po raz pierwszy pokazywano żółte i czerwone kartki?",
+    "answers": [
+      "1966 w Anglii",
+      "1982 w Hiszpanii",
+      "1958 w Szwecji",
+      "1970 w Meksyku"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Kartki wymyślił sędzia Ken Aston, inspirując się sygnalizacją świetlną."
+  },
+  {
+    "id": "foot_r022",
+    "question": "Ile goli strzelił Francuz Just Fontaine na mundialu 1958, ustanawiając rekord jednego turnieju?",
+    "answers": [
+      "15",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Fontaine zdobył 13 bramek w zaledwie sześciu meczach."
+  },
+  {
+    "id": "foot_r023",
+    "question": "Który polski klub zagrał w finale Pucharu Zdobywców Pucharów w 1970 roku?",
+    "answers": [
+      "Wisła Kraków",
+      "Ruch Chorzów",
+      "Legia Warszawa",
+      "Górnik Zabrze"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Górnik z Włodzimierzem Lubańskim przegrał w Wiedniu z Manchesterem City 1:2."
+  },
+  {
+    "id": "foot_r024",
+    "question": "Kto był selekcjonerem reprezentacji Polski na Euro 2008?",
+    "answers": [
+      "Jerzy Engel",
+      "Paweł Janas",
+      "Franciszek Smuda",
+      "Leo Beenhakker"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Holender jako pierwszy wprowadził Polskę do finałów mistrzostw Europy."
+  },
+  {
+    "id": "foot_r025",
+    "question": "Który Brazylijczyk z AC Milan zdobył Złotą Piłkę w 2007 roku?",
+    "answers": [
+      "Ronaldo",
+      "Ronaldinho",
+      "Kaká",
+      "Cafu"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "W tym samym roku Kaká wygrał z Milanem Ligę Mistrzów."
+  },
+  {
+    "id": "sci_r001",
+    "question": "Który pierwiastek ma symbol chemiczny „Na”?",
+    "answers": [
+      "Azot",
+      "Nikiel",
+      "Sód",
+      "Neon"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Symbol pochodzi od łacińskiej nazwy natrium."
+  },
+  {
+    "id": "sci_r002",
+    "question": "Jaki wzór chemiczny ma dwutlenek węgla?",
+    "answers": [
+      "C₂O",
+      "H₂CO₃",
+      "CO₂",
+      "CO"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Cząsteczka składa się z jednego atomu węgla i dwóch atomów tlenu."
+  },
+  {
+    "id": "sci_r003",
+    "question": "Jak nazywała się owca – pierwszy ssak sklonowany z komórki dorosłego osobnika?",
+    "answers": [
+      "Polly",
+      "Dolly",
+      "Shaun",
+      "Molly"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Dolly urodziła się w 1996 roku w Szkocji."
+  },
+  {
+    "id": "sci_r004",
+    "question": "Kto sformułował teorię ewolucji poprzez dobór naturalny?",
+    "answers": [
+      "Grzegorz Mendel",
+      "Ludwik Pasteur",
+      "Jean-Baptiste Lamarck",
+      "Karol Darwin"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Darwin opisał ją w dziele „O powstawaniu gatunków” z 1859 roku."
+  },
+  {
+    "id": "sci_r005",
+    "question": "W jakiej jednostce mierzy się siłę?",
+    "answers": [
+      "W paskalach",
+      "W dżulach",
+      "W niutonach",
+      "W watach"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Jednostka nosi imię Isaaca Newtona."
+  },
+  {
+    "id": "sci_r006",
+    "question": "Która cząstka w jądrze atomu nie ma ładunku elektrycznego?",
+    "answers": [
+      "Neutron",
+      "Pozyton",
+      "Proton",
+      "Elektron"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Neutron odkrył w 1932 roku James Chadwick."
+  },
+  {
+    "id": "sci_r007",
+    "question": "Jakie pH ma czysta woda w temperaturze pokojowej?",
+    "answers": [
+      "7",
+      "14",
+      "0",
+      "5"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "pH 7 oznacza odczyn obojętny – ani kwaśny, ani zasadowy."
+  },
+  {
+    "id": "sci_r008",
+    "question": "Jak nazywa się przejście gazu w ciecz, np. pary wodnej na zimnej szybie?",
+    "answers": [
+      "Sublimacja",
+      "Parowanie",
+      "Krzepnięcie",
+      "Skraplanie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Skraplanie, czyli kondensacja, to odwrotność parowania."
+  },
+  {
+    "id": "sci_r009",
+    "question": "Który gaz szlachetny świeci na czerwono-pomarańczowo w reklamach świetlnych?",
+    "answers": [
+      "Ksenon",
+      "Argon",
+      "Hel",
+      "Neon"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Od niego potocznie nazywa się wszystkie świecące reklamy „neonami”."
+  },
+  {
+    "id": "sci_r010",
+    "question": "Do czego służy sejsmograf?",
+    "answers": [
+      "Do pomiaru ciśnienia",
+      "Do rejestrowania drgań ziemi",
+      "Do pomiaru wilgotności powietrza",
+      "Do pomiaru promieniowania"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Sejsmografy zapisują m.in. fale wywołane trzęsieniami ziemi."
+  },
+  {
+    "id": "sci_r011",
+    "question": "Który narząd wytwarza insulinę?",
+    "answers": [
+      "Trzustka",
+      "Śledziona",
+      "Nerki",
+      "Wątroba"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Insulinę produkują komórki beta wysp trzustkowych."
+  },
+  {
+    "id": "sci_r012",
+    "question": "W jakiej jednostce układu SI mierzy się ciśnienie?",
+    "answers": [
+      "W paskalach",
+      "W kandelach",
+      "W dżulach",
+      "W niutonach"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Jednostka nosi imię francuskiego uczonego Blaise'a Pascala."
+  },
+  {
+    "id": "sci_r013",
+    "question": "Który pierwiastek ma symbol chemiczny „W”?",
+    "answers": [
+      "Wapń",
+      "Wodór",
+      "Wolfram",
+      "Wanad"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wolfram ma najwyższą temperaturę topnienia spośród metali."
+  },
+  {
+    "id": "sci_r014",
+    "question": "Ile w przybliżeniu wynosi przyspieszenie ziemskie?",
+    "answers": [
+      "3,71 m/s²",
+      "24,8 m/s²",
+      "9,81 m/s²",
+      "1,62 m/s²"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Prędkość swobodnie spadającego ciała rośnie co sekundę o ok. 9,81 m/s."
+  },
+  {
+    "id": "sci_r015",
+    "question": "Jak nazywa się zjawisko, przez które syrena nadjeżdżającej karetki brzmi wyżej, a odjeżdżającej niżej?",
+    "answers": [
+      "Efekt cieplarniany",
+      "Efekt Dopplera",
+      "Efekt Coriolisa",
+      "Efekt motyla"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zmiana wysokości dźwięku wynika z ruchu źródła względem słuchacza."
+  },
+  {
+    "id": "sci_r016",
+    "question": "W jakiej jednostce mierzy się opór elektryczny?",
+    "answers": [
+      "W woltach",
+      "W omach",
+      "W amperach",
+      "W faradach"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Jednostka nosi imię niemieckiego fizyka Georga Ohma."
+  },
+  {
+    "id": "sci_r017",
+    "question": "Na jakim statku Karol Darwin odbył słynną podróż dookoła świata?",
+    "answers": [
+      "Endeavour",
+      "Bounty",
+      "Beagle",
+      "Victoria"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Rejs okrętu HMS Beagle trwał prawie pięć lat (1831–1836)."
+  },
+  {
+    "id": "sci_r018",
+    "question": "Kto w 1953 roku opisał strukturę podwójnej helisy DNA?",
+    "answers": [
+      "Watson i Crick",
+      "Bohr i Rutherford",
+      "Pasteur i Koch",
+      "Mendel i Darwin"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Kluczowe były zdjęcia rentgenowskie wykonane przez Rosalind Franklin."
+  },
+  {
+    "id": "sci_r019",
+    "question": "Jaki kwas wytwarza ludzki żołądek?",
+    "answers": [
+      "Siarkowy",
+      "Solny",
+      "Cytrynowy",
+      "Octowy"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kwas solny pomaga trawić pokarm i zabija wiele bakterii."
+  },
+  {
+    "id": "sci_r020",
+    "question": "Jak nazywa się rozszczepienie białego światła na kolory, np. w pryzmacie?",
+    "answers": [
+      "Polaryzacja",
+      "Interferencja",
+      "Dyfrakcja",
+      "Dyspersja"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Każdy kolor załamuje się w szkle pod nieco innym kątem."
+  },
+  {
+    "id": "sci_r021",
+    "question": "Który metal jest najlżejszy?",
+    "answers": [
+      "Glin",
+      "Sód",
+      "Magnez",
+      "Lit"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Lit ma gęstość mniej więcej o połowę mniejszą niż woda."
+  },
+  {
+    "id": "sci_r022",
+    "question": "Którego pierwiastka jest najwięcej w skorupie ziemskiej?",
+    "answers": [
+      "Krzemu",
+      "Glinu",
+      "Żelaza",
+      "Tlenu"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Tlen stanowi niemal połowę masy skorupy ziemskiej, głównie w krzemianach."
+  },
+  {
+    "id": "sci_r023",
+    "question": "Który fizyk sformułował zasadę nieoznaczoności?",
+    "answers": [
+      "Niels Bohr",
+      "Erwin Schrödinger",
+      "Max Planck",
+      "Werner Heisenberg"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Nie da się jednocześnie dokładnie zmierzyć położenia i pędu cząstki."
+  },
+  {
+    "id": "sci_r024",
+    "question": "Kto w 1897 roku odkrył elektron?",
+    "answers": [
+      "Joseph John Thomson",
+      "Ernest Rutherford",
+      "James Chadwick",
+      "Niels Bohr"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Thomson wykazał, że promienie katodowe to strumień ujemnie naładowanych cząstek."
+  },
+  {
+    "id": "sci_r025",
+    "question": "Ile w przybliżeniu wynosi liczba Avogadro?",
+    "answers": [
+      "3,14 × 10²³",
+      "9,81 × 10²³",
+      "1,6 × 10¹⁹",
+      "6,02 × 10²³"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Tyle cząstek zawiera jeden mol substancji."
+  },
+  {
+    "id": "it_r001",
+    "question": "W którym roku Steve Jobs zaprezentował pierwszego iPhone'a?",
+    "answers": [
+      "2007",
+      "2009",
+      "2005",
+      "2010"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Premiera odbyła się w styczniu 2007 roku na konferencji Macworld."
+  },
+  {
+    "id": "it_r002",
+    "question": "Jaki skrót klawiszowy w Windows wkleja skopiowany tekst?",
+    "answers": [
+      "Ctrl+V",
+      "Ctrl+P",
+      "Ctrl+W",
+      "Ctrl+X"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Ctrl+C kopiuje, Ctrl+X wycina, a Ctrl+V wkleja."
+  },
+  {
+    "id": "it_r003",
+    "question": "Jak nazywa się chatbot firmy OpenAI udostępniony publicznie w listopadzie 2022 roku?",
+    "answers": [
+      "Bard",
+      "ChatGPT",
+      "Copilot",
+      "Gemini"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "ChatGPT stał się jedną z najszybciej rosnących aplikacji w historii."
+  },
+  {
+    "id": "it_r004",
+    "question": "Jak nazywał się animowany spinacz – asystent w pakiecie Microsoft Office?",
+    "answers": [
+      "Cortana",
+      "Sparky",
+      "Clippy",
+      "Kiri"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Spinacz pojawił się w Office 97 i stał się internetowym memem."
+  },
+  {
+    "id": "it_r005",
+    "question": "Jaka zielona postać jest maskotką systemu Android?",
+    "answers": [
+      "Robot",
+      "Kosmita z czułkami",
+      "Dinozaur",
+      "Żaba"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zielony robocik towarzyszy Androidowi od jego debiutu w 2008 roku."
+  },
+  {
+    "id": "it_r006",
+    "question": "Jakie zwierzę biega w ukrytej grze w Chrome, gdy nie ma połączenia z internetem?",
+    "answers": [
+      "Lis",
+      "Królik",
+      "Dinozaur",
+      "Kot"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Tyranozaur przeskakuje kaktusy po wciśnięciu spacji."
+  },
+  {
+    "id": "it_r007",
+    "question": "Smartfony z serii Galaxy to produkt której firmy?",
+    "answers": [
+      "Huawei",
+      "Sony",
+      "Xiaomi",
+      "Samsung"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pierwszy Galaxy S zadebiutował w 2010 roku."
+  },
+  {
+    "id": "it_r008",
+    "question": "Który model Nokii z 2000 roku zasłynął jako „niezniszczalny”?",
+    "answers": [
+      "Nokia 6210",
+      "Nokia 8800",
+      "Nokia 7110",
+      "Nokia 3310"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Wytrzymałość i bateria działająca kilka dni zrobiły z niego bohatera memów."
+  },
+  {
+    "id": "it_r009",
+    "question": "Jak nazywa się asystent głosowy firmy Amazon?",
+    "answers": [
+      "Alexa",
+      "Siri",
+      "Cortana",
+      "Bixby"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Alexa działa m.in. w inteligentnych głośnikach z serii Echo."
+  },
+  {
+    "id": "it_r010",
+    "question": "Jak nazywa się program Microsoftu do tworzenia prezentacji?",
+    "answers": [
+      "Excel",
+      "PowerPoint",
+      "Access",
+      "Outlook"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "PowerPoint wchodzi w skład pakietu Microsoft Office."
+  },
+  {
+    "id": "it_r011",
+    "question": "Co oznacza skrót „AI”?",
+    "answers": [
+      "Analog Input",
+      "Artificial Intelligence",
+      "Automatic Interface",
+      "Advanced Internet"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Po polsku to sztuczna inteligencja (SI)."
+  },
+  {
+    "id": "it_r012",
+    "question": "Jak nazywa się najmniejsza jednostka informacji w informatyce?",
+    "answers": [
+      "Bit",
+      "Bajt",
+      "Herc",
+      "Piksel"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Bit przyjmuje tylko jedną z dwóch wartości: 0 albo 1."
+  },
+  {
+    "id": "it_r013",
+    "question": "Jak rozwinąć skrót „GPU”, czyli procesor karty graficznej?",
+    "answers": [
+      "Graphic Program Utility",
+      "General Power Unit",
+      "Graphics Processing Unit",
+      "Global Processing Unit"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "GPU świetnie radzi sobie z równoległymi obliczeniami, dlatego używa się go też do AI."
+  },
+  {
+    "id": "it_r014",
+    "question": "Kto kupił Twittera w 2022 roku za ok. 44 mld dolarów?",
+    "answers": [
+      "Bill Gates",
+      "Elon Musk",
+      "Mark Zuckerberg",
+      "Jeff Bezos"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Rok później Musk zmienił nazwę serwisu na X."
+  },
+  {
+    "id": "it_r015",
+    "question": "Ile wynosi pojemność klasycznej dyskietki 3,5 cala?",
+    "answers": [
+      "700 MB",
+      "4,7 GB",
+      "128 KB",
+      "1,44 MB"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Ikona dyskietki do dziś oznacza „zapisz” w wielu programach."
+  },
+  {
+    "id": "it_r016",
+    "question": "Kto stworzył sieć WWW, pracując w ośrodku CERN?",
+    "answers": [
+      "Tim Berners-Lee",
+      "Bill Gates",
+      "Vint Cerf",
+      "Linus Torvalds"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Pierwsza strona internetowa ruszyła w 1991 roku."
+  },
+  {
+    "id": "it_r017",
+    "question": "Jak nazywała się sieć komputerowa z 1969 roku, uważana za przodka internetu?",
+    "answers": [
+      "USENET",
+      "ARPANET",
+      "TELNET",
+      "INTRANET"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Projekt finansowała agencja ARPA Departamentu Obrony USA."
+  },
+  {
+    "id": "it_r018",
+    "question": "Kto stworzył język programowania Python?",
+    "answers": [
+      "James Gosling",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Guido van Rossum"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pierwsza wersja Pythona ukazała się w 1991 roku."
+  },
+  {
+    "id": "it_r019",
+    "question": "Jaki system kontroli wersji stworzył w 2005 roku Linus Torvalds?",
+    "answers": [
+      "Git",
+      "CVS",
+      "Mercurial",
+      "SVN"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Git powstał na potrzeby rozwoju jądra Linux."
+  },
+  {
+    "id": "it_r020",
+    "question": "Jaka firma kupiła serwis LinkedIn w 2016 roku?",
+    "answers": [
+      "Microsoft",
+      "Facebook",
+      "Oracle",
+      "Google"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Transakcja opiewała na ok. 26 mld dolarów."
+  },
+  {
+    "id": "it_r021",
+    "question": "Pod jakim pseudonimem podpisał się twórca Bitcoina?",
+    "answers": [
+      "Hiro Tanaka",
+      "Vitalik Buterin",
+      "Kenji Watanabe",
+      "Satoshi Nakamoto"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Pod tym pseudonimem w 2008 roku opublikowano dokument opisujący Bitcoina."
+  },
+  {
+    "id": "it_r022",
+    "question": "Co w 2010 roku kupił programista Laszlo Hanyecz za 10 000 bitcoinów?",
+    "answers": [
+      "Bilet lotniczy",
+      "Dwie pizze",
+      "Laptop",
+      "Używany samochód"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Rocznicę tej transakcji, 22 maja, obchodzi się jako Bitcoin Pizza Day."
+  },
+  {
+    "id": "it_r023",
+    "question": "Który system Microsoftu jako pierwszy miał przycisk Start?",
+    "answers": [
+      "Windows 95",
+      "Windows 98",
+      "Windows NT 3.51",
+      "Windows 3.1"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Premierę reklamowano piosenką „Start Me Up” zespołu The Rolling Stones."
+  },
+  {
+    "id": "it_r024",
+    "question": "Czym zajmował się Netflix na początku działalności?",
+    "answers": [
+      "Sprzedażą telewizorów",
+      "Wypożyczaniem płyt DVD pocztą",
+      "Produkcją seriali",
+      "Prowadzeniem kin"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Firma powstała w 1997 roku, a streaming uruchomiła dopiero w 2007."
+  },
+  {
+    "id": "it_r025",
+    "question": "Co oznacza błąd HTTP o kodzie 500?",
+    "answers": [
+      "Brak uprawnień",
+      "Nie znaleziono strony",
+      "Wewnętrzny błąd serwera",
+      "Przekierowanie"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kody 5xx oznaczają problem po stronie serwera, a nie przeglądarki."
+  },
+  {
+    "id": "it_r026",
+    "question": "Ile pikseli w poziomie ma obraz w rozdzielczości Full HD?",
+    "answers": [
+      "3840",
+      "1920",
+      "2560",
+      "1280"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Full HD to 1920 × 1080 pikseli."
+  },
+  {
+    "id": "it_r027",
+    "question": "W „wojnie przeglądarek” lat 90. Internet Explorer wyparł z rynku przeglądarkę…",
+    "answers": [
+      "Google Chrome",
+      "Opera",
+      "Safari",
+      "Netscape Navigator"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Microsoft dołączał Internet Explorera za darmo do systemu Windows."
+  },
+  {
+    "id": "it_r028",
+    "question": "Jak nazywał się kultowy komputer domowy firmy Commodore z 1982 roku?",
+    "answers": [
+      "Atari 800XL",
+      "ZX Spectrum",
+      "Commodore 64",
+      "Amiga 500"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "C64 to jeden z najlepiej sprzedających się modeli komputerów w historii."
+  },
+  {
+    "id": "it_r029",
+    "question": "Co oznacza „GPT” w nazwie ChatGPT?",
+    "answers": [
+      "Global Predictive Text",
+      "Generated Personal Tutor",
+      "General Purpose Technology",
+      "Generative Pre-trained Transformer"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Transformer to architektura sieci neuronowej opisana przez badaczy Google w 2017 roku."
+  },
+  {
+    "id": "it_r030",
+    "question": "Jak nazywa się język programowania, którego pierwszą wersję Brendan Eich napisał w 10 dni?",
+    "answers": [
+      "PHP",
+      "Java",
+      "Ruby",
+      "JavaScript"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Powstał w 1995 roku dla przeglądarki Netscape."
+  },
+  {
+    "id": "it_r031",
+    "question": "Ile bitów ma adres IPv4?",
+    "answers": [
+      "32",
+      "64",
+      "16",
+      "128"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Daje to ok. 4,3 mld adresów, dlatego wprowadzono 128-bitowe IPv6."
+  },
+  {
+    "id": "it_r032",
+    "question": "Jaki port domyślnie wykorzystuje protokół HTTPS?",
+    "answers": [
+      "80",
+      "21",
+      "8080",
+      "443"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Zwykły HTTP domyślnie korzysta z portu 80."
+  },
+  {
+    "id": "it_r033",
+    "question": "Jaka firma wyprodukowała komputer ZX Spectrum?",
+    "answers": [
+      "Atari",
+      "Commodore",
+      "Sinclair Research",
+      "Acorn"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Spectrum z 1982 roku był bardzo popularny w Wielkiej Brytanii i w Polsce."
+  },
+  {
+    "id": "it_r034",
+    "question": "Co mówi prawo Moore'a?",
+    "answers": [
+      "Prędkość internetu rośnie co roku dziesięciokrotnie",
+      "Liczba tranzystorów w układach podwaja się co ok. 2 lata",
+      "Ceny komputerów spadają o połowę co miesiąc",
+      "Każdy program ma przynajmniej jeden błąd"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Sformułował je współzałożyciel Intela Gordon Moore."
+  },
+  {
+    "id": "it_r035",
+    "question": "Jak nazywał się komunikator Microsoftu, który w 2013 roku zastąpiono Skype'em?",
+    "answers": [
+      "ICQ",
+      "MSN Messenger",
+      "Yahoo! Messenger",
+      "AIM"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Komunikator działał od 1999 roku, w ostatnich latach jako Windows Live Messenger."
+  },
+  {
+    "id": "moto_r001",
+    "question": "Jakim samochodem jeździł Jaś Fasola (Mr. Bean)?",
+    "answers": [
+      "Citroën 2CV",
+      "Volkswagen Garbus",
+      "Fiat 500",
+      "Mini"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Zielone Mini z czarną maską Jaś zamykał na kłódkę."
+  },
+  {
+    "id": "moto_r002",
+    "question": "Jak nazywa się główny bohater animacji Pixara „Auta”?",
+    "answers": [
+      "Złomek",
+      "Zygzak McQueen",
+      "Doc Hudson",
+      "Sally"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "To czerwona wyścigówka z numerem 95."
+  },
+  {
+    "id": "moto_r003",
+    "question": "Z jakiego kraju pochodził legendarny kierowca Formuły 1 Ayrton Senna?",
+    "answers": [
+      "Z Brazylii",
+      "Z Portugalii",
+      "Z Argentyny",
+      "Z Hiszpanii"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Senna zdobył trzy tytuły mistrza świata: w 1988, 1990 i 1991 roku."
+  },
+  {
+    "id": "moto_r004",
+    "question": "Jak miał na imię założyciel marki Ferrari?",
+    "answers": [
+      "Enzo",
+      "Giovanni",
+      "Alfieri",
+      "Ferruccio"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Enzo Ferrari wcześniej był kierowcą wyścigowym Alfy Romeo."
+  },
+  {
+    "id": "moto_r005",
+    "question": "W jakim kolorze tradycyjnie ścigają się bolidy Ferrari?",
+    "answers": [
+      "W srebrnym",
+      "W zielonym",
+      "W niebieskim",
+      "W czerwonym"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rosso corsa to dawny narodowy kolor wyścigowy Włoch."
+  },
+  {
+    "id": "moto_r006",
+    "question": "Co oznacza skrót „SUV”?",
+    "answers": [
+      "Sport Utility Vehicle",
+      "Special Use Van",
+      "Safe Utility Vehicle",
+      "Super Urban Vehicle"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "To auto łączące cechy osobówki i terenówki."
+  },
+  {
+    "id": "moto_r007",
+    "question": "Która firma oponiarska ma maskotkę – ludzika z opon o imieniu Bibendum?",
+    "answers": [
+      "Michelin",
+      "Bridgestone",
+      "Goodyear",
+      "Pirelli"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Bibendum powstał w 1898 roku i jest jedną z najstarszych maskotek reklamowych."
+  },
+  {
+    "id": "moto_r008",
+    "question": "W którym państwie odbywa się uliczne Grand Prix Formuły 1 z trasą obok kasyna w Monte Carlo?",
+    "answers": [
+      "W Hiszpanii",
+      "We Włoszech",
+      "W Monako",
+      "We Francji"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wyścig w Monako rozgrywany jest na wąskich ulicach księstwa."
+  },
+  {
+    "id": "moto_r009",
+    "question": "Co oznacza litera „V” w oznaczeniu silnika V8?",
+    "answers": [
+      "Liczbę zaworów",
+      "Napęd wodorowy",
+      "Ułożenie cylindrów w kształcie litery V",
+      "Wersję wyczynową"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Dwa rzędy po cztery cylindry ustawione są względem siebie pod kątem."
+  },
+  {
+    "id": "moto_r010",
+    "question": "Gdzie znajdował się silnik w Fiacie 126p?",
+    "answers": [
+      "Pod siedzeniem kierowcy",
+      "Z przodu",
+      "Pośrodku, za fotelami",
+      "Z tyłu"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dlatego niewielki bagażnik malucha mieścił się z przodu."
+  },
+  {
+    "id": "moto_r011",
+    "question": "Jak nazywa się napęd na cztery koła w samochodach Audi?",
+    "answers": [
+      "quattro",
+      "xDrive",
+      "4MATIC",
+      "4Motion"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Napęd quattro zrewolucjonizował rajdy na początku lat 80."
+  },
+  {
+    "id": "moto_r012",
+    "question": "Który kierowca zdobył w 2021 roku pierwszy tytuł mistrza świata F1 po dramatycznym finale w Abu Zabi?",
+    "answers": [
+      "Max Verstappen",
+      "Charles Leclerc",
+      "Valtteri Bottas",
+      "Lewis Hamilton"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "O tytule zadecydowało wyprzedzanie na ostatnim okrążeniu sezonu."
+  },
+  {
+    "id": "moto_r013",
+    "question": "Corolla, Yaris i Land Cruiser to modele której marki?",
+    "answers": [
+      "Mazda",
+      "Toyota",
+      "Nissan",
+      "Honda"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Toyota to japoński koncern z miasta Toyota w prefekturze Aichi."
+  },
+  {
+    "id": "moto_r014",
+    "question": "Jak nazywa się furgonetka bohaterów kreskówki „Scooby-Doo”?",
+    "answers": [
+      "Wehikuł Tajemnic",
+      "Ecto-1",
+      "Generał Lee",
+      "Bumblebee"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Kolorowy van wozi Scooby'ego i paczkę przyjaciół na kolejne śledztwa."
+  },
+  {
+    "id": "moto_r015",
+    "question": "Jakie zwierzę widnieje w logo Abartha, sportowej marki związanej z Fiatem?",
+    "answers": [
+      "Skorpion",
+      "Pająk",
+      "Wąż",
+      "Byk"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Założyciel Karl Abarth urodził się pod znakiem Skorpiona."
+  },
+  {
+    "id": "moto_r016",
+    "question": "Jaki samochód Jamesa Bonda w filmie „Szpieg, który mnie kochał” zamieniał się w łódź podwodną?",
+    "answers": [
+      "Aston Martin DB5",
+      "Jaguar E-Type",
+      "Lotus Esprit",
+      "BMW Z3"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Biały Lotus Esprit wjeżdżał prosto do morza i płynął pod wodą."
+  },
+  {
+    "id": "moto_r017",
+    "question": "Jaki muscle car z 1970 roku jest najbardziej kojarzony z Dominikiem Toretto z „Szybkich i wściekłych”?",
+    "answers": [
+      "Chevrolet Camaro",
+      "Dodge Charger",
+      "Pontiac GTO",
+      "Ford Mustang"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Czarny Charger z wystającym nad maską kompresorem to znak rozpoznawczy Toretta."
+  },
+  {
+    "id": "moto_r018",
+    "question": "Co oznacza skrót „GT” w nazwach sportowych aut?",
+    "answers": [
+      "Gas Turbo",
+      "Gran Turismo",
+      "Grand Track",
+      "Great Torque"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "To samochody stworzone do szybkiej i wygodnej jazdy na długich dystansach."
+  },
+  {
+    "id": "moto_r019",
+    "question": "Jaki model Toyoty z 1997 roku był pierwszą masowo produkowaną hybrydą?",
+    "answers": [
+      "Camry",
+      "Prius",
+      "Yaris",
+      "Auris"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Nazwa Prius po łacinie oznacza „wcześniejszy”."
+  },
+  {
+    "id": "moto_r020",
+    "question": "Jak nazywał się pierwszy model Tesli, produkowany od 2008 roku?",
+    "answers": [
+      "Roadster",
+      "Model T",
+      "Model S",
+      "Cybertruck"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Elektryczny Roadster był zbudowany na bazie Lotusa Elise."
+  },
+  {
+    "id": "moto_r021",
+    "question": "Herb którego miasta znajduje się w logo Porsche?",
+    "answers": [
+      "Monachium",
+      "Berlina",
+      "Stuttgartu",
+      "Wolfsburga"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Czarny koń na złotym tle pochodzi z herbu Stuttgartu."
+  },
+  {
+    "id": "moto_r022",
+    "question": "Jak nazywa się sportowy oddział Mercedesa, którego znaczek nosi m.in. model C 63?",
+    "answers": [
+      "RS",
+      "AMG",
+      "ST",
+      "M"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "AMG zaczynało w 1967 roku jako niezależna firma tuningowa."
+  },
+  {
+    "id": "moto_r023",
+    "question": "Jak rozwinąć skrót FSM, czyli fabryki, która produkowała Fiata 126p?",
+    "answers": [
+      "Fabryka Silników Motocyklowych",
+      "Fabryka Samochodów Małolitrażowych",
+      "Fabryka Samochodów Miejskich",
+      "Fabryka Samochodów Mazowieckich"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zakłady FSM działały w Bielsku-Białej i Tychach."
+  },
+  {
+    "id": "moto_r024",
+    "question": "Jak nazywano w Polsce Audi 100 C3 z powodu opływowego kształtu?",
+    "answers": [
+      "Rekin",
+      "Beczka",
+      "Cygaro",
+      "Okularnik"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Audi 100 C3 miało rekordowo niski jak na swoje czasy opór powietrza."
+  },
+  {
+    "id": "moto_r025",
+    "question": "Który kierowca w 2020 roku wyrównał rekord siedmiu tytułów mistrza świata F1 Michaela Schumachera?",
+    "answers": [
+      "Lewis Hamilton",
+      "Fernando Alonso",
+      "Sebastian Vettel",
+      "Nico Rosberg"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Hamilton zdobył siódmy tytuł w barwach Mercedesa."
+  },
+  {
+    "id": "moto_r026",
+    "question": "Jaki przydomek miały srebrne wyścigówki Mercedesa w latach 30.?",
+    "answers": [
+      "Stalowe Rumaki",
+      "Srebrne Strzały",
+      "Białe Błyskawice",
+      "Srebrne Pociski"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Według legendy zdarto z nich białą farbę, by zmieścić się w limicie wagi."
+  },
+  {
+    "id": "moto_r027",
+    "question": "W którym roku Robert Kubica uległ wypadkowi rajdowemu, który przerwał jego karierę w F1?",
+    "answers": [
+      "2010",
+      "2011",
+      "2008",
+      "2013"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kubica rozbił się podczas rajdu Ronde di Andora we Włoszech."
+  },
+  {
+    "id": "moto_r028",
+    "question": "Kto w 1888 roku opatentował praktyczną oponę pneumatyczną?",
+    "answers": [
+      "Harvey Firestone",
+      "André Michelin",
+      "Charles Goodyear",
+      "John Boyd Dunlop"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Szkocki weterynarz zrobił ją do rowerka swojego syna."
+  },
+  {
+    "id": "moto_r029",
+    "question": "Ile koni mechanicznych miał Bugatti Veyron 16.4 z 2005 roku?",
+    "answers": [
+      "750 KM",
+      "1001 KM",
+      "1500 KM",
+      "888 KM"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Veyron jako pierwsze seryjne auto przekroczył 400 km/h."
+  },
+  {
+    "id": "moto_r030",
+    "question": "Od produkcji czego zaczynała firma, z której wyrosła Mazda?",
+    "answers": [
+      "Maszyn do szycia",
+      "Porcelany",
+      "Korka",
+      "Rowerów"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Firma nazywała się Toyo Cork Kogyo."
+  },
+  {
+    "id": "moto_r031",
+    "question": "W jakim mieście nad Wołgą od 1970 roku produkowano Łady?",
+    "answers": [
+      "W Niżnym Nowogrodzie",
+      "W Togliatti",
+      "W Kazaniu",
+      "W Samarze"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Miasto nazwano na cześć włoskiego komunisty Palmira Togliattiego."
+  },
+  {
+    "id": "moto_r032",
+    "question": "Czym jest AdBlue, dolewane do nowoczesnych diesli?",
+    "answers": [
+      "Chłodziwem turbosprężarki",
+      "Dodatkiem uszlachetniającym olej napędowy",
+      "Wodnym roztworem mocznika",
+      "Płynem do spryskiwaczy"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "W katalizatorze SCR rozkłada tlenki azotu na azot i wodę."
+  },
+  {
+    "id": "moto_r033",
+    "question": "Jakie stworzenie widniało w logo Saaba?",
+    "answers": [
+      "Orzeł",
+      "Lew",
+      "Smok",
+      "Gryf"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Gryf w koronie pochodził z herbu szwedzkiej prowincji Skania."
+  },
+  {
+    "id": "moto_r034",
+    "question": "Jak nazywa się zjawisko, gdy w zakręcie auto „ucieka” przodem na zewnątrz łuku?",
+    "answers": [
+      "Nadsterowność",
+      "Podsterowność",
+      "Shimmy",
+      "Aquaplaning"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Przy nadsterowności na zewnątrz zakrętu wyrzuca z kolei tył auta."
+  },
+  {
+    "id": "moto_r035",
+    "question": "Do czego służy sonda lambda w samochodzie?",
+    "answers": [
+      "Mierzy poziom oleju",
+      "Mierzy ciśnienie w oponach",
+      "Steruje światłami",
+      "Mierzy zawartość tlenu w spalinach"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Na tej podstawie sterownik dobiera skład mieszanki paliwowo-powietrznej."
+  },
+  {
+    "id": "space_r001",
+    "question": "W którym roku Jurij Gagarin jako pierwszy człowiek poleciał w kosmos?",
+    "answers": [
+      "1969",
+      "1957",
+      "1961",
+      "1965"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Lot 12 kwietnia 1961 roku trwał 108 minut."
+  },
+  {
+    "id": "space_r002",
+    "question": "Jak w skrócie nazywa się Europejska Agencja Kosmiczna?",
+    "answers": [
+      "NASA",
+      "Roskosmos",
+      "JAXA",
+      "ESA"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "ESA ma siedzibę w Paryżu, a Polska jest jej członkiem od 2012 roku."
+  },
+  {
+    "id": "space_r003",
+    "question": "Jak nazywa się faza Księżyca, w której w ogóle go nie widać?",
+    "answers": [
+      "Nów",
+      "Pełnia",
+      "Pierwsza kwadra",
+      "Ostatnia kwadra"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W czasie nowiu Księżyc jest zwrócony do nas nieoświetloną stroną."
+  },
+  {
+    "id": "space_r004",
+    "question": "Jak nazywa się świetlne zjawisko na niebie, widoczne zwłaszcza w okolicach biegunów?",
+    "answers": [
+      "Ognie świętego Elma",
+      "Fatamorgana",
+      "Halo",
+      "Zorza polarna"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Powstaje, gdy cząstki wiatru słonecznego pobudzają gazy w atmosferze."
+  },
+  {
+    "id": "space_r005",
+    "question": "Którą planetę nazywa się Gwiazdą Poranną lub Wieczorną?",
+    "answers": [
+      "Mars",
+      "Jowisz",
+      "Wenus",
+      "Saturn"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Po Księżycu to najjaśniejszy naturalny obiekt nocnego nieba."
+  },
+  {
+    "id": "space_r006",
+    "question": "Jak nazywa się teleskop kosmiczny wystrzelony w grudniu 2021 roku, następca Hubble'a?",
+    "answers": [
+      "Teleskop Spitzera",
+      "Teleskop Jamesa Webba",
+      "Teleskop Keplera",
+      "Teleskop Herschela"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Webb obserwuje Wszechświat głównie w podczerwieni."
+  },
+  {
+    "id": "space_r007",
+    "question": "Jak nazywał się amerykański program, w ramach którego ludzie lądowali na Księżycu?",
+    "answers": [
+      "Apollo",
+      "Wostok",
+      "Gemini",
+      "Mercury"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W latach 1969–1972 odbyło się sześć udanych lądowań."
+  },
+  {
+    "id": "space_r008",
+    "question": "Ile czasu zajmuje Ziemi jeden pełny obieg wokół Słońca?",
+    "answers": [
+      "Około 30 dni",
+      "Około 88 dni",
+      "Około 365 dni",
+      "Około 24 godzin"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Nadwyżka ok. 6 godzin rocznie to powód, dla którego mamy lata przestępne."
+  },
+  {
+    "id": "space_r009",
+    "question": "Z czego głównie zbudowane są komety?",
+    "answers": [
+      "Z lodu i pyłu",
+      "Z żelaza",
+      "Z gorącej plazmy",
+      "Z granitu"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Komety nazywa się czasem „brudnymi śnieżkami”."
+  },
+  {
+    "id": "space_r010",
+    "question": "Jak nazywa się firma kosmiczna założona przez Elona Muska?",
+    "answers": [
+      "Virgin Galactic",
+      "Blue Origin",
+      "SpaceX",
+      "Rocket Lab"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Musk założył SpaceX w 2002 roku."
+  },
+  {
+    "id": "space_r011",
+    "question": "Ile mniej więcej trwa pełny cykl faz Księżyca?",
+    "answers": [
+      "Ok. 29,5 dnia",
+      "Ok. 14 dni",
+      "Ok. 7 dni",
+      "Ok. 365 dni"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Od tego cyklu wywodzi się pojęcie miesiąca."
+  },
+  {
+    "id": "space_r012",
+    "question": "Ilu ludzi chodziło po Księżycu w ramach programu Apollo?",
+    "answers": [
+      "12",
+      "6",
+      "24",
+      "2"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dwunastu astronautów z sześciu misji – ostatni był Eugene Cernan w 1972 roku."
+  },
+  {
+    "id": "space_r013",
+    "question": "Który astronauta Apollo 11 został na orbicie Księżyca, gdy koledzy lądowali?",
+    "answers": [
+      "Buzz Aldrin",
+      "Jim Lovell",
+      "John Glenn",
+      "Michael Collins"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Collins pilotował moduł dowodzenia Columbia."
+  },
+  {
+    "id": "space_r014",
+    "question": "Jak daleko średnio jest od Ziemi do Księżyca?",
+    "answers": [
+      "Ok. 38 tys. km",
+      "Ok. 3,8 mln km",
+      "Ok. 150 mln km",
+      "Ok. 384 tys. km"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Światło pokonuje tę odległość w nieco ponad sekundę."
+  },
+  {
+    "id": "space_r015",
+    "question": "Która gwiazda, nie licząc Słońca, jest najbliżej Ziemi?",
+    "answers": [
+      "Syriusz",
+      "Wega",
+      "Betelgeza",
+      "Proxima Centauri"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Proxima leży ok. 4,2 roku świetlnego od nas."
+  },
+  {
+    "id": "space_r016",
+    "question": "Jak nazywa się łazik NASA, który wylądował na Marsie w 2021 roku z małym helikopterem na pokładzie?",
+    "answers": [
+      "Opportunity",
+      "Perseverance",
+      "Spirit",
+      "Curiosity"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Helikopter Ingenuity jako pierwszy wykonał lot z napędem na innej planecie."
+  },
+  {
+    "id": "space_r017",
+    "question": "Na jakiej wysokości umownie zaczyna się kosmos według linii Kármána?",
+    "answers": [
+      "400 km",
+      "50 km",
+      "100 km",
+      "10 km"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Linia nosi imię węgiersko-amerykańskiego fizyka Theodore'a von Kármána."
+  },
+  {
+    "id": "space_r018",
+    "question": "Ile mniej więcej trwa jedno okrążenie Ziemi przez Międzynarodową Stację Kosmiczną?",
+    "answers": [
+      "Ok. 24 godzin",
+      "Ok. 10 minut",
+      "Ok. 12 godzin",
+      "Ok. 90 minut"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Załoga ISS ogląda ok. 16 wschodów Słońca na dobę."
+  },
+  {
+    "id": "space_r019",
+    "question": "W jakim kraju leży kosmodrom Bajkonur?",
+    "answers": [
+      "W Uzbekistanie",
+      "W Mongolii",
+      "W Kazachstanie",
+      "W Rosji"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "To stąd w 1961 roku wystartował Jurij Gagarin."
+  },
+  {
+    "id": "space_r020",
+    "question": "Który astronom odkrył, że planety krążą wokół Słońca po elipsach?",
+    "answers": [
+      "Galileusz",
+      "Edmund Halley",
+      "Johannes Kepler",
+      "Tycho Brahe"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Kepler opisał ruch planet w trzech prawach nazwanych jego nazwiskiem."
+  },
+  {
+    "id": "space_r021",
+    "question": "Jak nazywał się lądownik księżycowy misji Apollo 11?",
+    "answers": [
+      "Falcon",
+      "Columbia",
+      "Snoopy",
+      "Eagle"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Stąd słynne zdanie „The Eagle has landed” – „Orzeł wylądował”."
+  },
+  {
+    "id": "space_r022",
+    "question": "Jak nazywała się pierwsza w historii stacja kosmiczna, wystrzelona w 1971 roku?",
+    "answers": [
+      "Tiangong-1",
+      "Mir",
+      "Salut 1",
+      "Skylab"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Radziecka stacja Salut 1 krążyła po orbicie niecałe pół roku."
+  },
+  {
+    "id": "space_r023",
+    "question": "Jak nazywa się gigantyczny system kanionów na Marsie?",
+    "answers": [
+      "Mare Tranquillitatis",
+      "Olympus Mons",
+      "Valles Marineris",
+      "Hellas Planitia"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Kaniony ciągną się na ok. 4000 km i miejscami mają 7 km głębokości."
+  },
+  {
+    "id": "space_r024",
+    "question": "Ile w przybliżeniu trwa doba słoneczna na Marsie?",
+    "answers": [
+      "Ok. 24 h 40 min",
+      "Ok. 10 h",
+      "Ok. 58 dni",
+      "Ok. 37 h"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Marsjańską dobę nazywa się „sol”."
+  },
+  {
+    "id": "space_r025",
+    "question": "Ile mniej więcej lat ma Układ Słoneczny?",
+    "answers": [
+      "Ok. 13,8 mld",
+      "Ok. 4,6 mld",
+      "Ok. 46 mld",
+      "Ok. 460 mln"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Dla porównania wiek Wszechświata szacuje się na ok. 13,8 mld lat."
+  }
+]
