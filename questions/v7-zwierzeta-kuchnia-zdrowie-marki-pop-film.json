@@ -14,7 +14,7 @@
   },
   {
     "id": "zoo_s002",
-    "question": "Ile odnóży, wliczając szczypce, ma homar?",
+    "question": "Ile nóg, wliczając te ze szczypcami, ma homar?",
     "answers": [
       "12",
       "10",
@@ -435,7 +435,7 @@
       "Papaja",
       "Durian",
       "Liczi",
-      "Mango"
+      "Pitaja"
     ],
     "correct": 1,
     "difficulty": "medium",
@@ -681,7 +681,7 @@
     "answers": [
       "Móżdżek",
       "Hipokamp",
-      "Rdzeń kręgowy",
+      "Podwzgórze",
       "Przysadka"
     ],
     "correct": 0,
@@ -976,16 +976,16 @@
   },
   {
     "id": "brand_s001",
-    "question": "Jakiego koloru jest tło klasycznego logo Coca-Coli?",
+    "question": "Jaki kolor dominuje na puszkach i w reklamach Coca-Coli?",
     "answers": [
-      "Niebieskie",
-      "Żółte",
-      "Zielone",
-      "Czerwone"
+      "Niebieski",
+      "Żółty",
+      "Zielony",
+      "Czerwony"
     ],
     "correct": 3,
     "difficulty": "easy",
-    "explanation": "Białe pisane litery na czerwonym tle to jeden z najbardziej rozpoznawalnych znaków świata."
+    "explanation": "Czerwień to firmowy kolor Coca-Coli, kojarzony z marką na całym świecie."
   },
   {
     "id": "brand_s002",
@@ -1136,7 +1136,7 @@
     "answers": [
       "Hans Christian Andersen",
       "Niels Bohr",
-      "Ingvar Kamprad",
+      "Mads Mikkelsen",
       "Ole Kirk Christiansen"
     ],
     "correct": 3,
@@ -1193,7 +1193,7 @@
     ],
     "correct": 3,
     "difficulty": "hard",
-    "explanation": "IKEA to Ingvar Kamprad, Elmtaryd (farma) i Agunnaryd (wieś)."
+    "explanation": "Pierwsze dwie litery to inicjały założyciela, a kolejne – farma Elmtaryd i wieś Agunnaryd."
   },
   {
     "id": "brand_s018",
@@ -1297,7 +1297,7 @@
     ],
     "correct": 3,
     "difficulty": "medium",
-    "explanation": "Algida to polska nazwa międzynarodowej marki lodów z sercem w logo, która w innych krajach występuje m.in. jako Wall's i Langnese."
+    "explanation": "Lody z sercem w logo w Polsce i we Włoszech sprzedawane są jako Algida, a w innych krajach m.in. jako Wall's i Langnese."
   },
   {
     "id": "ent_s001",
@@ -1700,7 +1700,7 @@
     ],
     "correct": 2,
     "difficulty": "easy",
-    "explanation": "Frodo Baggins dostał Pierścień od swojego wuja Bilba."
+    "explanation": "Frodo Baggins dostał Pierścień od Bilba, krewnego, który go adoptował."
   },
   {
     "id": "film_s007",
