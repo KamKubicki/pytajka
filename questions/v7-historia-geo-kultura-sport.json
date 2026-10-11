@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "hist_p001",
+    "question": "Kto został Naczelnikiem Państwa po odzyskaniu przez Polskę niepodległości w 1918 roku?",
+    "answers": [
+      "Roman Dmowski",
+      "Ignacy Daszyński",
+      "Józef Piłsudski",
+      "Wincenty Witos"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Józef Piłsudski pełnił funkcję Naczelnika Państwa w latach 1918–1922."
+  },
+  {
+    "id": "hist_p002",
+    "question": "Jak potocznie nazywa się zwycięską Bitwę Warszawską z sierpnia 1920 roku?",
+    "answers": [
+      "Cud nad Wisłą",
+      "Cud nad Odrą",
+      "Bitwa narodów",
+      "Wiktoria wiedeńska"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Zwycięstwo nad Armią Czerwoną pod Warszawą w 1920 roku przeszło do historii jako „Cud nad Wisłą”."
+  },
+  {
+    "id": "hist_p003",
+    "question": "W którym roku wybuchło powstanie listopadowe?",
+    "answers": [
+      "1863",
+      "1846",
+      "1794",
+      "1830"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Powstanie listopadowe wybuchło w nocy z 29 na 30 listopada 1830 roku."
+  },
+  {
+    "id": "hist_p004",
+    "question": "Kto w 1807 roku utworzył Księstwo Warszawskie?",
+    "answers": [
+      "Car Aleksander I",
+      "Napoleon Bonaparte",
+      "Fryderyk Wilhelm III",
+      "Józef Poniatowski"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Księstwo Warszawskie powstało z woli Napoleona na mocy pokoju w Tylży w 1807 roku."
+  },
+  {
+    "id": "hist_p005",
+    "question": "Który przywódca „Solidarności” otrzymał Pokojową Nagrodę Nobla w 1983 roku?",
+    "answers": [
+      "Jacek Kuroń",
+      "Lech Wałęsa",
+      "Bronisław Geremek",
+      "Adam Michnik"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Lech Wałęsa dostał Pokojowego Nobla w 1983 roku, a nagrodę odebrała w jego imieniu żona Danuta."
+  },
+  {
+    "id": "hist_p006",
+    "question": "Jak nazywał się kapelan „Solidarności”, zamordowany przez funkcjonariuszy SB w 1984 roku?",
+    "answers": [
+      "Józef Tischner",
+      "Jan Twardowski",
+      "Henryk Jankowski",
+      "Jerzy Popiełuszko"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Ks. Jerzy Popiełuszko został porwany i zamordowany przez funkcjonariuszy SB w październiku 1984 roku."
+  },
+  {
+    "id": "hist_p007",
+    "question": "Który przywódca PRL zwrócił się do strajkujących stoczniowców z pytaniem „Pomożecie?”?",
+    "answers": [
+      "Edward Gierek",
+      "Władysław Gomułka",
+      "Bolesław Bierut",
+      "Wojciech Jaruzelski"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Edward Gierek zadał to pytanie na spotkaniu ze stoczniowcami w styczniu 1971 roku."
+  },
+  {
+    "id": "hist_p008",
+    "question": "Jaki przydomek nosił koronowany w 1320 roku Władysław, słynący z niskiego wzrostu?",
+    "answers": [
+      "Laskonogi",
+      "Herman",
+      "Łokietek",
+      "Warneńczyk"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Władysław Łokietek zawdzięczał przydomek niskiemu wzrostowi – łokieć to dawna miara długości."
+  },
+  {
+    "id": "hist_p009",
+    "question": "Jak nazywała się dynastia, która po unii w Krewie panowała w Polsce od 1386 roku?",
+    "answers": [
+      "Wazowie",
+      "Wettynowie",
+      "Przemyślidzi",
+      "Jagiellonowie"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Dynastię Jagiellonów zapoczątkował Władysław Jagiełło, koronowany w 1386 roku."
+  },
+  {
+    "id": "hist_p010",
+    "question": "Jak miała na imię czeska księżniczka, żona Mieszka I?",
+    "answers": [
+      "Rycheza",
+      "Dobrawa",
+      "Jadwiga",
+      "Emnilda"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Ślub Mieszka I z czeską Dobrawą poprzedził chrzest Polski w 966 roku."
+  },
+  {
+    "id": "hist_p011",
+    "question": "Którą siedzibę zaatakowali spiskowcy w noc listopadową 1830 roku, chcąc pojmać wielkiego księcia Konstantego?",
+    "answers": [
+      "Wawel",
+      "Pałac Saski",
+      "Belweder",
+      "Zamek Ujazdowski"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Atak na Belweder rozpoczął powstanie listopadowe, ale wielki książę Konstanty zdołał uciec."
+  },
+  {
+    "id": "hist_p012",
+    "question": "Ile było powstań śląskich w latach 1919–1921?",
+    "answers": [
+      "Trzy",
+      "Dwa",
+      "Cztery",
+      "Pięć"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Trzy powstania śląskie wybuchły w latach 1919, 1920 i 1921."
+  },
+  {
+    "id": "hist_p013",
+    "question": "Które powstanie, wybuchłe w grudniu 1918 roku, zakończyło się zwycięstwem Polaków?",
+    "answers": [
+      "Powstanie krakowskie",
+      "Powstanie listopadowe",
+      "Powstanie wielkopolskie",
+      "Powstanie styczniowe"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Powstanie wielkopolskie, rozpoczęte 27 grudnia 1918 roku, przyłączyło Wielkopolskę do Polski."
+  },
+  {
+    "id": "hist_p014",
+    "question": "Które miasto w latach 1815–1846 było „wolnym miastem” pod opieką trzech zaborców?",
+    "answers": [
+      "Kraków",
+      "Gdańsk",
+      "Toruń",
+      "Lwów"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Rzeczpospolita Krakowska istniała od kongresu wiedeńskiego do 1846 roku, gdy wcielono ją do Austrii."
+  },
+  {
+    "id": "hist_p015",
+    "question": "Jak nazywano zbrojny bunt szlachty przeciw królowi, np. ten Zebrzydowskiego z 1606 roku?",
+    "answers": [
+      "Sejmik",
+      "Elekcja",
+      "Wiec",
+      "Rokosz"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Rokosz był legalnym w oczach szlachty zbrojnym wystąpieniem przeciw królowi."
+  },
+  {
+    "id": "hist_p016",
+    "question": "Jak nazywa się największa bitwa polskiej wojny obronnej we wrześniu 1939 roku?",
+    "answers": [
+      "Bitwa pod Kockiem",
+      "Bitwa nad Bzurą",
+      "Bitwa pod Mokrą",
+      "Bitwa o Wiznę"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Bitwa nad Bzurą była największym starciem kampanii wrześniowej."
+  },
+  {
+    "id": "hist_p017",
+    "question": "Który prezydent Warszawy kierował cywilną obroną stolicy we wrześniu 1939 roku?",
+    "answers": [
+      "Sokrates Starynkiewicz",
+      "Stefan Starzyński",
+      "Stefan Wiechecki",
+      "Władysław Sikorski"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Stefan Starzyński przez radio podtrzymywał na duchu mieszkańców oblężonej Warszawy."
+  },
+  {
+    "id": "hist_p018",
+    "question": "Jak nazywa się akcja Szarych Szeregów z 1943 roku, w której odbito Janka Bytnara „Rudego”?",
+    "answers": [
+      "Akcja Burza",
+      "Akcja Kutschera",
+      "Akcja Wisła",
+      "Akcja pod Arsenałem"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Akcja pod Arsenałem odbyła się 26 marca 1943 roku i została opisana w „Kamieniach na szaniec”."
+  },
+  {
+    "id": "hist_p019",
+    "question": "W którym mieście w czerwcu 1956 roku wybuchł pierwszy wielki robotniczy bunt w PRL?",
+    "answers": [
+      "W Poznaniu",
+      "W Radomiu",
+      "W Gdańsku",
+      "W Łodzi"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Poznański Czerwiec 1956 roku zaczął się od protestu robotników zakładów Cegielskiego."
+  },
+  {
+    "id": "hist_p020",
+    "question": "Kto był ostatnim królem Polski z dynastii Jagiellonów w linii męskiej?",
+    "answers": [
+      "Zygmunt I Stary",
+      "Aleksander Jagiellończyk",
+      "Zygmunt II August",
+      "Kazimierz Jagiellończyk"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zygmunt II August zmarł bezpotomnie w 1572 roku, kończąc męską linię Jagiellonów."
+  },
+  {
+    "id": "hist_p021",
+    "question": "Która bitwa z 1920 roku uchodzi za największą bitwę kawalerii XX wieku?",
+    "answers": [
+      "Bitwa pod Mokrą",
+      "Bitwa pod Kockiem",
+      "Bitwa nad Bzurą",
+      "Bitwa pod Komarowem"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Pod Komarowem 31 sierpnia 1920 roku polska jazda rozbiła 1. Armię Konną Budionnego."
+  },
+  {
+    "id": "hist_p022",
+    "question": "Kto dowodził obroną Wizny w 1939 roku, nazywaną „polskimi Termopilami”?",
+    "answers": [
+      "Henryk Sucharski",
+      "Władysław Raginis",
+      "Franciszek Kleeberg",
+      "Tadeusz Kutrzeba"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Kpt. Władysław Raginis z garstką żołnierzy przez trzy dni bronił się przed przeważającymi siłami Niemców."
+  },
+  {
+    "id": "hist_p023",
+    "question": "Jak nazywał się plan ogólnokrajowej akcji zbrojnej Armii Krajowej z 1944 roku?",
+    "answers": [
+      "Wachlarz",
+      "Overlord",
+      "Burza",
+      "Barbarossa"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Akcja „Burza” zakładała wystąpienia AK przeciw Niemcom tuż przed wkroczeniem Armii Czerwonej."
+  },
+  {
+    "id": "hist_p024",
+    "question": "Kto był komendantem Żydowskiej Organizacji Bojowej w powstaniu w getcie warszawskim?",
+    "answers": [
+      "Mordechaj Anielewicz",
+      "Janusz Korczak",
+      "Adam Czerniaków",
+      "Emanuel Ringelblum"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Mordechaj Anielewicz poległ w bunkrze przy ul. Miłej 18 w maju 1943 roku."
+  },
+  {
+    "id": "hist_p025",
+    "question": "Jak nazywała się pierwsza polska gazeta, wydawana od 1661 roku?",
+    "answers": [
+      "Monitor",
+      "Kurier Warszawski",
+      "Merkuriusz Polski",
+      "Gazeta Warszawska"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "„Merkuriusz Polski Ordynaryjny” zaczął się ukazywać w Krakowie w 1661 roku."
+  },
+  {
+    "id": "hist_world_p001",
+    "question": "Kto był premierem Wielkiej Brytanii przez większość II wojny światowej?",
+    "answers": [
+      "Winston Churchill",
+      "Neville Chamberlain",
+      "Clement Attlee",
+      "Margaret Thatcher"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Winston Churchill objął urząd premiera w maju 1940 roku i sprawował go do 1945 roku."
+  },
+  {
+    "id": "hist_world_p002",
+    "question": "Który prezydent USA został zastrzelony w Dallas w 1963 roku?",
+    "answers": [
+      "Richard Nixon",
+      "Lyndon B. Johnson",
+      "Dwight Eisenhower",
+      "John F. Kennedy"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "John F. Kennedy zginął 22 listopada 1963 roku podczas przejazdu kolumną samochodów przez Dallas."
+  },
+  {
+    "id": "hist_world_p003",
+    "question": "Który prezydent USA został zastrzelony w teatrze w 1865 roku?",
+    "answers": [
+      "Thomas Jefferson",
+      "Abraham Lincoln",
+      "Ulysses Grant",
+      "Andrew Jackson"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Abraham Lincoln został postrzelony w Teatrze Forda w Waszyngtonie kilka dni po zakończeniu wojny secesyjnej."
+  },
+  {
+    "id": "hist_world_p004",
+    "question": "Kto był ostatnim przywódcą Związku Radzieckiego?",
+    "answers": [
+      "Borys Jelcyn",
+      "Michaił Gorbaczow",
+      "Leonid Breżniew",
+      "Nikita Chruszczow"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Michaił Gorbaczow ustąpił z urzędu prezydenta ZSRR w grudniu 1991 roku."
+  },
+  {
+    "id": "hist_world_p005",
+    "question": "Jak nazywa się kryzys z 1962 roku, gdy świat stanął na krawędzi wojny jądrowej?",
+    "answers": [
+      "Kryzys sueski",
+      "Kryzys berliński",
+      "Kryzys koreański",
+      "Kryzys kubański"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Kryzys kubański wybuchł po rozmieszczeniu na Kubie radzieckich rakiet z głowicami jądrowymi."
+  },
+  {
+    "id": "hist_world_p006",
+    "question": "Która francuska bohaterka spłonęła na stosie w Rouen w 1431 roku?",
+    "answers": [
+      "Joanna d’Arc",
+      "Maria Antonina",
+      "Katarzyna Medycejska",
+      "Eleonora Akwitańska"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Joanna d’Arc, zwana Dziewicą Orleańską, została skazana na śmierć w procesie o herezję."
+  },
+  {
+    "id": "hist_world_p007",
+    "question": "Kto stał na czele bolszewików podczas rewolucji październikowej w 1917 roku?",
+    "answers": [
+      "Józef Stalin",
+      "Mikołaj II",
+      "Włodzimierz Lenin",
+      "Aleksander Kiereński"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Włodzimierz Lenin przewodził bolszewikom, którzy przejęli władzę w Piotrogrodzie."
+  },
+  {
+    "id": "hist_world_p008",
+    "question": "Pod którą przełęczą 300 Spartan broniło się przed Persami w 480 roku p.n.e.?",
+    "answers": [
+      "Maraton",
+      "Salamina",
+      "Plateje",
+      "Termopile"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Król Leonidas ze swoimi Spartanami bronił przełęczy Termopile przed armią Kserksesa."
+  },
+  {
+    "id": "hist_world_p009",
+    "question": "Który cesarz rzymski według legendy grał na lirze, gdy płonął Rzym?",
+    "answers": [
+      "Kaligula",
+      "Neron",
+      "Trajan",
+      "Marek Aureliusz"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Legenda o Neronie śpiewającym podczas wielkiego pożaru Rzymu w 64 roku jest prawdopodobnie wymysłem jego przeciwników."
+  },
+  {
+    "id": "hist_world_p010",
+    "question": "Kto przewodził walce Indii o niepodległość metodą pokojowego oporu?",
+    "answers": [
+      "Dżawaharlal Nehru",
+      "Indira Gandhi",
+      "Mahatma Gandhi",
+      "Muhammad Ali Jinnah"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Mahatma Gandhi propagował walkę bez przemocy, m.in. słynny Marsz Solny w 1930 roku."
+  },
+  {
+    "id": "hist_world_p011",
+    "question": "W którym roku formalnie rozpadł się Związek Radziecki?",
+    "answers": [
+      "1991",
+      "1989",
+      "1993",
+      "1985"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "ZSRR przestał istnieć w grudniu 1991 roku."
+  },
+  {
+    "id": "hist_world_p012",
+    "question": "Kto był pierwszym kanclerzem zjednoczonej Rzeszy Niemieckiej w 1871 roku?",
+    "answers": [
+      "Wilhelm I",
+      "Fryderyk Wielki",
+      "Otto von Bismarck",
+      "Klemens von Metternich"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Otto von Bismarck, zwany „Żelaznym Kanclerzem”, doprowadził do zjednoczenia Niemiec."
+  },
+  {
+    "id": "hist_world_p013",
+    "question": "Jak nazywa się wojna toczona w latach 1950–1953 na Półwyspie Koreańskim?",
+    "answers": [
+      "Wojna koreańska",
+      "Wojna wietnamska",
+      "Wojna sześciodniowa",
+      "Wojna o Falklandy"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wojna koreańska zakończyła się rozejmem, a nie traktatem pokojowym."
+  },
+  {
+    "id": "hist_world_p014",
+    "question": "W którym mieście na Krymie przywódcy Wielkiej Trójki spotkali się w lutym 1945 roku?",
+    "answers": [
+      "W Poczdamie",
+      "W Teheranie",
+      "W Sewastopolu",
+      "W Jałcie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Na konferencji jałtańskiej Roosevelt, Churchill i Stalin ustalili m.in. powojenne granice Polski."
+  },
+  {
+    "id": "hist_world_p015",
+    "question": "Jak nazywał się brytyjski liniowiec storpedowany przez niemiecki okręt podwodny w 1915 roku?",
+    "answers": [
+      "Titanic",
+      "Lusitania",
+      "Queen Mary",
+      "Britannic"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Zatonięcie Lusitanii, na której zginęło wielu Amerykanów, zwróciło opinię publiczną USA przeciw Niemcom."
+  },
+  {
+    "id": "hist_world_p016",
+    "question": "Którego greckiego dziejopisa nazywa się „ojcem historii”?",
+    "answers": [
+      "Tukidydesa",
+      "Herodota",
+      "Homera",
+      "Platona"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Tak nazwał Herodota z Halikarnasu już Cyceron."
+  },
+  {
+    "id": "hist_world_p017",
+    "question": "Na której wyspie zmarł zesłany po Waterloo Napoleon?",
+    "answers": [
+      "Na Elbie",
+      "Na Korsyce",
+      "Na Malcie",
+      "Na Wyspie Świętej Heleny"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Na Elbę Napoleon trafił w 1814 roku, a po Waterloo zesłano go na odległą Wyspę Świętej Heleny."
+  },
+  {
+    "id": "hist_world_p018",
+    "question": "Jak nazywa się wojna toczona w Europie w latach 1618–1648?",
+    "answers": [
+      "Wojna trzydziestoletnia",
+      "Wojna stuletnia",
+      "Wojna siedmioletnia",
+      "Wojna północna"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wojnę trzydziestoletnią zakończył pokój westfalski w 1648 roku."
+  },
+  {
+    "id": "hist_world_p019",
+    "question": "Który król Francji został zgilotynowany w 1793 roku?",
+    "answers": [
+      "Ludwik XIV",
+      "Ludwik XV",
+      "Ludwik XVI",
+      "Karol X"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Ludwik XVI został stracony w czasie rewolucji francuskiej, a kilka miesięcy później jego żona Maria Antonina."
+  },
+  {
+    "id": "hist_world_p020",
+    "question": "Jak alianci zaopatrywali Berlin Zachodni podczas radzieckiej blokady w latach 1948–1949?",
+    "answers": [
+      "Tunelem pod miastem",
+      "Statkami po Sprewie",
+      "Konwojami kolejowymi",
+      "Mostem powietrznym"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W ramach mostu powietrznego samoloty dostarczyły do Berlina ponad 2 mln ton zaopatrzenia."
+  },
+  {
+    "id": "hist_world_p021",
+    "question": "Jak nazywał się samolot, który zrzucił bombę atomową na Hiroszimę?",
+    "answers": [
+      "Bockscar",
+      "Enola Gay",
+      "Memphis Belle",
+      "Spirit of St. Louis"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Bombowiec B-29 „Enola Gay” nazwano imieniem matki pilota, płk. Paula Tibbetsa."
+  },
+  {
+    "id": "hist_world_p022",
+    "question": "W którym roku krzyżowcy zdobyli Jerozolimę podczas I wyprawy krzyżowej?",
+    "answers": [
+      "1066",
+      "1187",
+      "1099",
+      "1204"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Jerozolima padła w lipcu 1099 roku, co zapoczątkowało Królestwo Jerozolimskie."
+  },
+  {
+    "id": "hist_world_p023",
+    "question": "Który cesarz w 313 roku wydał edykt mediolański, dający chrześcijanom swobodę wyznania?",
+    "answers": [
+      "Konstantyn Wielki",
+      "Dioklecjan",
+      "Neron",
+      "Hadrian"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Edykt mediolański Konstantyn ogłosił razem z Licyniuszem."
+  },
+  {
+    "id": "hist_world_p024",
+    "question": "Kto ogłosił w 1948 roku powstanie Izraela i został jego pierwszym premierem?",
+    "answers": [
+      "Golda Meir",
+      "Menachem Begin",
+      "Dawid Ben Gurion",
+      "Icchak Rabin"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Dawid Ben Gurion, urodzony w Płońsku, odczytał deklarację niepodległości Izraela 14 maja 1948 roku."
+  },
+  {
+    "id": "hist_world_p025",
+    "question": "Jak nazywał się ostatni władca imperium Inków, stracony przez Pizarra w 1533 roku?",
+    "answers": [
+      "Atahualpa",
+      "Montezuma",
+      "Pachacutec",
+      "Cuauhtémoc"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Atahualpa zapłacił Hiszpanom ogromny okup w złocie, a mimo to został stracony."
+  },
+  {
+    "id": "geo_p001",
+    "question": "Która rzeka jest najdłuższa w Polsce?",
+    "answers": [
+      "Odra",
+      "Warta",
+      "Bug",
+      "Wisła"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Wisła ma ok. 1047 km i w całości płynie przez Polskę."
+  },
+  {
+    "id": "geo_p002",
+    "question": "Stolicą którego województwa są Kielce?",
+    "answers": [
+      "Łódzkiego",
+      "Świętokrzyskiego",
+      "Małopolskiego",
+      "Lubelskiego"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Kielce leżą u stóp Gór Świętokrzyskich, od których nazwę wzięło województwo."
+  },
+  {
+    "id": "geo_p003",
+    "question": "Które województwo jest największe pod względem powierzchni?",
+    "answers": [
+      "Wielkopolskie",
+      "Mazowieckie",
+      "Lubelskie",
+      "Warmińsko-mazurskie"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Mazowieckie zajmuje ponad 35 tys. km², czyli ponad jedną dziewiątą powierzchni Polski."
+  },
+  {
+    "id": "geo_p004",
+    "question": "Które miasto ze względu na przemysł włókienniczy nazywano „polskim Manchesterem”?",
+    "answers": [
+      "Katowice",
+      "Bielsko-Biała",
+      "Białystok",
+      "Łódź"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Łódź wyrosła w XIX wieku na potęgę przemysłu włókienniczego, jak angielski Manchester."
+  },
+  {
+    "id": "geo_p005",
+    "question": "Nad jaką rzeką leży Poznań?",
+    "answers": [
+      "Nad Wartą",
+      "Nad Notecią",
+      "Nad Prosną",
+      "Nad Odrą"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Warta przepływa przez centrum Poznania, a Ostrów Tumski leży na jej wyspie."
+  },
+  {
+    "id": "geo_p006",
+    "question": "Jaki szczyt nad Zakopanem przypomina sylwetkę śpiącego rycerza?",
+    "answers": [
+      "Kasprowy Wierch",
+      "Rysy",
+      "Giewont",
+      "Gubałówka"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Według legendy Giewont to śpiący rycerz, który obudzi się, gdy Polska będzie w potrzebie."
+  },
+  {
+    "id": "geo_p007",
+    "question": "W którym województwie leży Bieszczadzki Park Narodowy?",
+    "answers": [
+      "W małopolskim",
+      "W lubelskim",
+      "W śląskim",
+      "W podkarpackim"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Bieszczady leżą w południowo-wschodnim krańcu Polski, w województwie podkarpackim."
+  },
+  {
+    "id": "geo_p008",
+    "question": "W którym mieście od 1963 roku odbywa się Krajowy Festiwal Piosenki Polskiej?",
+    "answers": [
+      "W Sopocie",
+      "W Opolu",
+      "W Kołobrzegu",
+      "W Zielonej Górze"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Festiwal w Opolu odbywa się w amfiteatrze tysiąclecia."
+  },
+  {
+    "id": "geo_p009",
+    "question": "W pobliżu którego miasta znajduje się Muzeum Auschwitz-Birkenau?",
+    "answers": [
+      "Bielska-Białej",
+      "Tarnowa",
+      "Oświęcimia",
+      "Częstochowy"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Niemiecki obóz Auschwitz założono na przedmieściach Oświęcimia w 1940 roku."
+  },
+  {
+    "id": "geo_p010",
+    "question": "Które z tych państw NIE graniczy z Polską?",
+    "answers": [
+      "Łotwa",
+      "Litwa",
+      "Słowacja",
+      "Białoruś"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Łotwę od Polski oddziela Litwa."
+  },
+  {
+    "id": "geo_p011",
+    "question": "Jak nazywa się kraina z Kartuzami i Kościerzyną, z własnym językiem regionalnym?",
+    "answers": [
+      "Kurpie",
+      "Warmia",
+      "Kaszuby",
+      "Kociewie"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Język kaszubski jest jedynym w Polsce prawnie uznanym językiem regionalnym."
+  },
+  {
+    "id": "geo_p012",
+    "question": "Które województwo jest najmniejsze pod względem powierzchni?",
+    "answers": [
+      "Opolskie",
+      "Lubuskie",
+      "Świętokrzyskie",
+      "Podlaskie"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Województwo opolskie zajmuje niewiele ponad 9 tys. km²."
+  },
+  {
+    "id": "geo_p013",
+    "question": "Na której wyspie leży centrum Świnoujścia z promenadą i plażą?",
+    "answers": [
+      "Na Wolinie",
+      "Na Karsiborze",
+      "Na Helu",
+      "Na Uznamie"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Świnoujście leży na kilkudziesięciu wyspach, ale ścisłe centrum znajduje się na Uznamie."
+  },
+  {
+    "id": "geo_p014",
+    "question": "Które miasto wojewódzkie leży najdalej na zachód?",
+    "answers": [
+      "Zielona Góra",
+      "Szczecin",
+      "Gorzów Wielkopolski",
+      "Wrocław"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Szczecin leży tuż przy granicy z Niemcami, na zachód od Odry."
+  },
+  {
+    "id": "geo_p015",
+    "question": "Które miasto dało nazwę XIX-wiecznemu kanałowi łączącemu dorzecza Wisły i Niemna?",
+    "answers": [
+      "Elbląg",
+      "Augustów",
+      "Bydgoszcz",
+      "Gliwice"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Kanał Augustowski zbudowano w latach 1824–1839 jako drogę wodną omijającą Prusy."
+  },
+  {
+    "id": "geo_p016",
+    "question": "Na którym szczycie Gór Świętokrzyskich stoi klasztor Święty Krzyż?",
+    "answers": [
+      "Na Łysicy",
+      "Na Chełmowej Górze",
+      "Na Radostowej",
+      "Na Łysej Górze"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Klasztor na Łysej Górze (Łyścu) przechowuje relikwie Krzyża Świętego, od których nazwę wzięły góry."
+  },
+  {
+    "id": "geo_p017",
+    "question": "Która rzeka przepływa przez Bydgoszcz i uchodzi tam do Wisły?",
+    "answers": [
+      "Brda",
+      "Drwęca",
+      "Noteć",
+      "Wda"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Brda uchodzi do Wisły w granicach Bydgoszczy."
+  },
+  {
+    "id": "geo_p018",
+    "question": "W którym parku narodowym stoi wapienna skała Maczuga Herkulesa?",
+    "answers": [
+      "W Tatrzańskim",
+      "W Karkonoskim",
+      "W Ojcowskim",
+      "W Pienińskim"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Maczuga Herkulesa stoi w Dolinie Prądnika, niedaleko zamku w Pieskowej Skale."
+  },
+  {
+    "id": "geo_p019",
+    "question": "Które miasto, poprzecinane Odrą i jej kanałami, nazywane jest „miastem stu mostów”?",
+    "answers": [
+      "Gdańsk",
+      "Szczecin",
+      "Opole",
+      "Wrocław"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "We Wrocławiu jest ponad sto mostów i kładek."
+  },
+  {
+    "id": "geo_p020",
+    "question": "Nad jaką rzeką leży gdańskie Długie Pobrzeże z żurawiem?",
+    "answers": [
+      "Nad Radunią",
+      "Nad Motławą",
+      "Nad Wisłą Śmiałą",
+      "Nad Nogatem"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Średniowieczny żuraw portowy stoi nad Motławą, w sercu Głównego Miasta."
+  },
+  {
+    "id": "geo_p021",
+    "question": "Nad którym zbiornikiem zaporowym na Dunajcu stoi zamek w Niedzicy?",
+    "answers": [
+      "Nad Jeziorem Rożnowskim",
+      "Nad Jeziorem Solińskim",
+      "Nad Jeziorem Czorsztyńskim",
+      "Nad Jeziorem Żywieckim"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Zamek w Niedzicy i ruiny zamku w Czorsztynie spoglądają na siebie z dwóch brzegów zbiornika."
+  },
+  {
+    "id": "geo_p022",
+    "question": "Nad jaką rzeką leży Lublin?",
+    "answers": [
+      "Nad Bystrzycą",
+      "Nad Wieprzem",
+      "Nad Sanem",
+      "Nad Bugiem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Bystrzyca przepływa przez Lublin i zasila Zalew Zemborzycki."
+  },
+  {
+    "id": "geo_p023",
+    "question": "Które jezioro jest drugim co do powierzchni jeziorem w Polsce?",
+    "answers": [
+      "Niegocin",
+      "Hańcza",
+      "Mamry",
+      "Jeziorak"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Mamry ustępują powierzchnią tylko Śniardwom."
+  },
+  {
+    "id": "geo_p024",
+    "question": "W której miejscowości leży najdalej na wschód wysunięty punkt Polski?",
+    "answers": [
+      "W Zosinie",
+      "W Terespolu",
+      "W Krynkach",
+      "W Wołosatem"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Zosin leży nad Bugiem w gminie Horodło, w województwie lubelskim."
+  },
+  {
+    "id": "geo_p025",
+    "question": "Jak nazywa się najwyższy szczyt Beskidu Śląskiego?",
+    "answers": [
+      "Barania Góra",
+      "Czantoria",
+      "Równica",
+      "Skrzyczne"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Skrzyczne ma 1257 m n.p.m. i góruje nad Szczyrkiem."
+  },
+  {
+    "id": "geo_world_p001",
+    "question": "Jaka jest stolica Argentyny?",
+    "answers": [
+      "Santiago",
+      "Buenos Aires",
+      "Montevideo",
+      "Córdoba"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Buenos Aires leży nad estuarium La Platy."
+  },
+  {
+    "id": "geo_world_p002",
+    "question": "Jak nazywa się wulkan, najwyższy szczyt Japonii?",
+    "answers": [
+      "Kilimandżaro",
+      "Fudżi",
+      "Etna",
+      "Mauna Kea"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Góra Fudżi ma 3776 m n.p.m. i jest symbolem Japonii."
+  },
+  {
+    "id": "geo_world_p003",
+    "question": "Flaga którego państwa przedstawia czerwone koło na białym tle?",
+    "answers": [
+      "Korei Południowej",
+      "Chin",
+      "Wietnamu",
+      "Japonii"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Japońska flaga Hinomaru symbolizuje wschodzące słońce."
+  },
+  {
+    "id": "geo_world_p004",
+    "question": "Jakie morze leży między Półwyspem Apenińskim a Bałkanami?",
+    "answers": [
+      "Adriatyckie",
+      "Egejskie",
+      "Czarne",
+      "Tyrreńskie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Nad Adriatykiem leżą m.in. Włochy, Słowenia, Chorwacja, Czarnogóra i Albania."
+  },
+  {
+    "id": "geo_world_p005",
+    "question": "Który kanał łączy Morze Śródziemne z Morzem Czerwonym?",
+    "answers": [
+      "Panamski",
+      "Kiloński",
+      "Sueski",
+      "Koryncki"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Kanał Sueski w Egipcie otwarto w 1869 roku."
+  },
+  {
+    "id": "geo_world_p006",
+    "question": "Do którego państwa należy wyspa Bali?",
+    "answers": [
+      "Do Tajlandii",
+      "Do Filipin",
+      "Do Malezji",
+      "Do Indonezji"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Bali to jedna z ponad 17 tysięcy wysp Indonezji."
+  },
+  {
+    "id": "geo_world_p007",
+    "question": "W którym kraju leży przylądek Nordkapp i słynne fiordy?",
+    "answers": [
+      "W Szwecji",
+      "W Norwegii",
+      "W Finlandii",
+      "W Islandii"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Nordkapp to klif na wyspie Magerøya w północnej Norwegii."
+  },
+  {
+    "id": "geo_world_p008",
+    "question": "Na którym półwyspie leżą Hiszpania i Portugalia?",
+    "answers": [
+      "Na Apenińskim",
+      "Na Bałkańskim",
+      "Na Pirenejskim",
+      "Na Skandynawskim"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Półwysep Pirenejski bywa też nazywany Iberyjskim."
+  },
+  {
+    "id": "geo_world_p009",
+    "question": "Do którego państwa należą Wyspy Kanaryjskie?",
+    "answers": [
+      "Do Hiszpanii",
+      "Do Portugalii",
+      "Do Maroka",
+      "Do Francji"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Wyspy Kanaryjskie, choć leżą u wybrzeży Afryki, są wspólnotą autonomiczną Hiszpanii."
+  },
+  {
+    "id": "geo_world_p010",
+    "question": "W której części Wielkiej Brytanii leży jezioro Loch Ness?",
+    "answers": [
+      "W Walii",
+      "W Anglii",
+      "W Szkocji",
+      "W Irlandii Północnej"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Loch Ness leży w szkockich Highlands i słynie z legendy o potworze Nessie."
+  },
+  {
+    "id": "geo_world_p011",
+    "question": "Jaka jest stolica Wietnamu?",
+    "answers": [
+      "Hanoi",
+      "Ho Chi Minh",
+      "Phnom Penh",
+      "Wientian"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Stolicą jest Hanoi, choć największym miastem kraju jest Ho Chi Minh, dawny Sajgon."
+  },
+  {
+    "id": "geo_world_p012",
+    "question": "Jak nazywa się najwyższy szczyt Ameryki Północnej?",
+    "answers": [
+      "Mount Whitney",
+      "Mount Logan",
+      "Pico de Orizaba",
+      "Denali"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Denali na Alasce, dawniej nazywany Mount McKinley, ma ok. 6190 m n.p.m."
+  },
+  {
+    "id": "geo_world_p013",
+    "question": "Jak nazywa się pustynia w Chile, jedno z najsuchszych miejsc na Ziemi?",
+    "answers": [
+      "Gobi",
+      "Atakama",
+      "Kalahari",
+      "Namib"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W niektórych częściach Atakamy deszczu nie notowano od dziesięcioleci."
+  },
+  {
+    "id": "geo_world_p014",
+    "question": "Które z tych państw ma flagę z czerwonym pasem na górze i białym na dole?",
+    "answers": [
+      "Polska",
+      "Monako",
+      "Austria",
+      "Łotwa"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Flaga Monako wygląda jak odwrócona flaga Polski."
+  },
+  {
+    "id": "geo_world_p015",
+    "question": "Jak nazywa się najdłuższe pasmo górskie na lądach Ziemi?",
+    "answers": [
+      "Himalaje",
+      "Góry Skaliste",
+      "Ural",
+      "Andy"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Andy ciągną się wzdłuż Ameryki Południowej na długości ok. 7 tys. km."
+  },
+  {
+    "id": "geo_world_p016",
+    "question": "Która rzeka przepływa przez najwięcej państw na świecie?",
+    "answers": [
+      "Dunaj",
+      "Nil",
+      "Ren",
+      "Amazonka"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Dunaj płynie przez 10 państw, od Niemiec po Ukrainę."
+  },
+  {
+    "id": "geo_world_p017",
+    "question": "Na którym kontynencie leży najwięcej państw?",
+    "answers": [
+      "W Europie",
+      "W Azji",
+      "W Afryce",
+      "W Ameryce Południowej"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Afryka liczy 54 państwa uznawane przez ONZ."
+  },
+  {
+    "id": "geo_world_p018",
+    "question": "Jak nazywa się najwyższy szczyt Kaukazu?",
+    "answers": [
+      "Kazbek",
+      "Ararat",
+      "Mont Blanc",
+      "Elbrus"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Elbrus to wygasły wulkan o wysokości 5642 m n.p.m."
+  },
+  {
+    "id": "geo_world_p019",
+    "question": "Jaka jest największa wyspa Morza Śródziemnego?",
+    "answers": [
+      "Sardynia",
+      "Sycylia",
+      "Cypr",
+      "Korsyka"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Sycylia ma ok. 25 tys. km² i słynie z wulkanu Etna."
+  },
+  {
+    "id": "geo_world_p020",
+    "question": "Które państwo, obok Watykanu, jest w całości otoczone przez Włochy?",
+    "answers": [
+      "Monako",
+      "Andora",
+      "San Marino",
+      "Malta"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "San Marino leży na stokach góry Titano i uchodzi za najstarszą republikę świata."
+  },
+  {
+    "id": "geo_world_p021",
+    "question": "Jak nazywa się stolica Nigerii?",
+    "answers": [
+      "Abudża",
+      "Lagos",
+      "Akra",
+      "Nairobi"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Abudżę zbudowano od podstaw, a stolicę przeniesiono tam z Lagos w 1991 roku."
+  },
+  {
+    "id": "geo_world_p022",
+    "question": "Nad jaką rzeką leży Waszyngton, stolica USA?",
+    "answers": [
+      "Nad Hudsonem",
+      "Nad Missisipi",
+      "Nad Potomakiem",
+      "Nad Delaware"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Potomak oddziela Waszyngton od stanu Wirginia."
+  },
+  {
+    "id": "geo_world_p023",
+    "question": "Stolicą którego państwa jest Dakar?",
+    "answers": [
+      "Senegalu",
+      "Mali",
+      "Ghany",
+      "Kenii"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Dakar leży na najdalej na zachód wysuniętym krańcu kontynentalnej Afryki."
+  },
+  {
+    "id": "geo_world_p024",
+    "question": "Jak nazywa się cieśnina oddzielająca Wielką Brytanię od Francji w najwęższym miejscu?",
+    "answers": [
+      "Gibraltarska",
+      "Messyńska",
+      "Bosfor",
+      "Kaletańska"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Cieśnina Kaletańska, zwana przez Anglików Dover, ma tylko ok. 33 km szerokości."
+  },
+  {
+    "id": "geo_world_p025",
+    "question": "Jaka jest stolica Pakistanu?",
+    "answers": [
+      "Karaczi",
+      "Islamabad",
+      "Lahaur",
+      "Kabul"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Islamabad zbudowano jako nową stolicę w latach 60. XX wieku, zastępując Karaczi."
+  },
+  {
+    "id": "lit_p001",
+    "question": "Która bohaterka „Krzyżaków” umiera po uwięzieniu przez Krzyżaków?",
+    "answers": [
+      "Jagienka",
+      "Danusia",
+      "Oleńka",
+      "Zosia"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Danusia Jurandówna, ukochana Zbyszka z Bogdańca, umiera po uwolnieniu z krzyżackiej niewoli."
+  },
+  {
+    "id": "lit_p002",
+    "question": "Kto napisał powieść „Nad Niemnem”?",
+    "answers": [
+      "Maria Konopnicka",
+      "Gabriela Zapolska",
+      "Maria Dąbrowska",
+      "Eliza Orzeszkowa"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "„Nad Niemnem” Elizy Orzeszkowej ukazało się w 1888 roku."
+  },
+  {
+    "id": "lit_p003",
+    "question": "Którego bohatera Trylogii Sienkiewicza nazywano „małym rycerzem”?",
+    "answers": [
+      "Michała Wołodyjowskiego",
+      "Andrzeja Kmicica",
+      "Jana Skrzetuskiego",
+      "Longinusa Podbipiętę"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "„Mały rycerz” był niewysoki, ale uchodził za najlepszego szermierza Rzeczypospolitej."
+  },
+  {
+    "id": "lit_p004",
+    "question": "Jak nazywa się otyły, przebiegły szlachcic-gawędziarz z Trylogii Sienkiewicza?",
+    "answers": [
+      "Longinus Podbipięta",
+      "Bohun",
+      "Onufry Zagłoba",
+      "Rzędzian"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Pan Zagłoba słynie z przechwałek, sprytu i zamiłowania do miodu pitnego."
+  },
+  {
+    "id": "lit_p005",
+    "question": "Kto napisał powieść „Ferdydurke”?",
+    "answers": [
+      "Bruno Schulz",
+      "Stanisław Ignacy Witkiewicz",
+      "Tadeusz Konwicki",
+      "Witold Gombrowicz"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Z „Ferdydurke” Gombrowicza pochodzą słynne pojęcia „gęba” i „pupa”."
+  },
+  {
+    "id": "lit_p006",
+    "question": "Która pisarka jest autorką „Granicy” i „Medalionów”?",
+    "answers": [
+      "Eliza Orzeszkowa",
+      "Zofia Nałkowska",
+      "Maria Kuncewiczowa",
+      "Wisława Szymborska"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "„Medaliony” Nałkowska napisała po pracy w komisji badającej zbrodnie niemieckie."
+  },
+  {
+    "id": "lit_p007",
+    "question": "Który hobbit niesie Jedyny Pierścień do Mordoru we „Władcy Pierścieni”?",
+    "answers": [
+      "Bilbo",
+      "Pippin",
+      "Frodo",
+      "Merry"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Frodo Baggins wyrusza w drogę, by zniszczyć Pierścień w ogniach Góry Przeznaczenia."
+  },
+  {
+    "id": "lit_p008",
+    "question": "Kto napisał „Wojnę i pokój”?",
+    "answers": [
+      "Lew Tołstoj",
+      "Fiodor Dostojewski",
+      "Antoni Czechow",
+      "Aleksander Puszkin"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Akcja epopei Tołstoja toczy się w czasie wojen napoleońskich."
+  },
+  {
+    "id": "lit_p009",
+    "question": "Kto napisał powieść „Imię róży”?",
+    "answers": [
+      "Italo Calvino",
+      "Alberto Moravia",
+      "Umberto Eco",
+      "Dante Alighieri"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Akcja „Imienia róży” rozgrywa się w średniowiecznym opactwie, gdzie giną kolejni mnisi."
+  },
+  {
+    "id": "lit_p010",
+    "question": "Kto napisał „Inny świat”, relację z sowieckiego łagru?",
+    "answers": [
+      "Gustaw Herling-Grudziński",
+      "Aleksander Sołżenicyn",
+      "Józef Czapski",
+      "Sławomir Rawicz"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Herling-Grudziński opisał w „Innym świecie” swoje przeżycia z łagru w Jercewie."
+  },
+  {
+    "id": "lit_p011",
+    "question": "Która polska noblistka napisała „Księgi Jakubowe”?",
+    "answers": [
+      "Wisława Szymborska",
+      "Dorota Masłowska",
+      "Hanna Krall",
+      "Olga Tokarczuk"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Olga Tokarczuk otrzymała Literackiego Nobla za rok 2018."
+  },
+  {
+    "id": "art_p001",
+    "question": "Kto namalował „Ostatnią wieczerzę” w mediolańskim klasztorze?",
+    "answers": [
+      "Michał Anioł",
+      "Leonardo da Vinci",
+      "Rafael Santi",
+      "Tycjan"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Fresk Leonarda zdobi refektarz klasztoru Santa Maria delle Grazie w Mediolanie."
+  },
+  {
+    "id": "art_p002",
+    "question": "Kto namalował „Guernikę”, obraz o zbombardowanym hiszpańskim mieście?",
+    "answers": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Joan Miró",
+      "Francisco Goya"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "Picasso namalował „Guernikę” w 1937 roku po nalocie Legionu Condor."
+  },
+  {
+    "id": "art_p003",
+    "question": "Kto namalował słynne obrazy puszek zupy Campbell’s?",
+    "answers": [
+      "Roy Lichtenstein",
+      "Jackson Pollock",
+      "Keith Haring",
+      "Andy Warhol"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Puszki zupy Campbell’s to ikona pop-artu Andy’ego Warhola."
+  },
+  {
+    "id": "art_p004",
+    "question": "Kto namalował „Narodziny Wenus”?",
+    "answers": [
+      "Sandro Botticelli",
+      "Tycjan",
+      "Caravaggio",
+      "Rafael Santi"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Obraz Botticellego z boginią na muszli wisi w galerii Uffizi we Florencji."
+  },
+  {
+    "id": "art_p005",
+    "question": "Kto wyrzeźbił „Myśliciela”?",
+    "answers": [
+      "Michał Anioł",
+      "Antonio Canova",
+      "Auguste Rodin",
+      "Donatello"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "„Myśliciel” Rodina był pierwotnie częścią „Bramy piekieł”."
+  },
+  {
+    "id": "art_p006",
+    "question": "Kto namalował „Pocałunek”, słynny ze złotych ornamentów?",
+    "answers": [
+      "Egon Schiele",
+      "Alfons Mucha",
+      "Edvard Munch",
+      "Gustav Klimt"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Obraz Klimta można oglądać w wiedeńskim Belwederze."
+  },
+  {
+    "id": "art_p007",
+    "question": "Który polski malarz słynął z obrazów z faunami i chimerami, np. „Błędnego koła”?",
+    "answers": [
+      "Józef Mehoffer",
+      "Jacek Malczewski",
+      "Wojciech Kossak",
+      "Józef Brandt"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Jacek Malczewski to czołowy przedstawiciel symbolizmu w polskim malarstwie."
+  },
+  {
+    "id": "art_p008",
+    "question": "Kto namalował obraz „3 maja 1808”, przedstawiający rozstrzeliwanie madryckich powstańców?",
+    "answers": [
+      "Diego Velázquez",
+      "El Greco",
+      "Francisco Goya",
+      "Eugène Delacroix"
+    ],
+    "correct": 2,
+    "difficulty": "hard",
+    "explanation": "Goya upamiętnił w tym obrazie egzekucje Hiszpanów przez wojska napoleońskie."
+  },
+  {
+    "id": "cult_p001",
+    "question": "Który taniec narodowy tradycyjnie otwiera studniówkę?",
+    "answers": [
+      "Polonez",
+      "Mazur",
+      "Krakowiak",
+      "Oberek"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Poloneza tańczy się w parach, uroczystym korowodem."
+  },
+  {
+    "id": "cult_p002",
+    "question": "Jak nazywa się ludowa ozdoba wycinana nożycami z kolorowego papieru, typowa dla Łowicza i Kurpiów?",
+    "answers": [
+      "Pisanka",
+      "Makatka",
+      "Wycinanka",
+      "Pająk"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Wycinanki łowickie i kurpiowskie to rozpoznawalne symbole polskiej sztuki ludowej."
+  },
+  {
+    "id": "cult_p003",
+    "question": "Tradycja szopek z którego miasta trafiła na listę niematerialnego dziedzictwa UNESCO?",
+    "answers": [
+      "Z Krakowa",
+      "Z Gdańska",
+      "Z Torunia",
+      "Z Wrocławia"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Szopkarstwo krakowskie wpisano na listę UNESCO w 2018 roku."
+  },
+  {
+    "id": "cult_p004",
+    "question": "Jak nazywa się nagroda literacka przyznawana od 1997 roku za najlepszą polską książkę roku?",
+    "answers": [
+      "Orły",
+      "Paszport Polityki",
+      "Złote Lwy",
+      "Nike"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Statuetkę Nagrody Literackiej Nike zaprojektował Gustaw Zemła."
+  },
+  {
+    "id": "cult_p005",
+    "question": "Z czego słynie wieś Zalipie koło Tarnowa?",
+    "answers": [
+      "Z koronek klockowych",
+      "Z domów malowanych w kwiaty",
+      "Z rzeźb z soli",
+      "Z drewnianych kościołów"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Mieszkanki Zalipia od ponad stu lat malują w kwiaty ściany domów, studnie, a nawet psie budy."
+  },
+  {
+    "id": "cult_p006",
+    "question": "Jak nazywa się ludowy instrument z workiem ze skóry i piszczałkami?",
+    "answers": [
+      "Ligawka",
+      "Dudy",
+      "Złóbcoki",
+      "Okaryna"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Dudy grają dzięki powietrzu wtłaczanemu do skórzanego worka."
+  },
+  {
+    "id": "sport_p001",
+    "question": "Ile punktów daje w koszykówce celny rzut zza linii 6,75 m?",
+    "answers": [
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Rzut zza łuku za 6,75 m daje trzy punkty."
+  },
+  {
+    "id": "sport_p002",
+    "question": "Ilu zawodników jednej drużyny, łącznie z bramkarzem, gra jednocześnie na boisku w piłce ręcznej?",
+    "answers": [
+      "7",
+      "6",
+      "8",
+      "11"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "W piłce ręcznej każda drużyna ma na boisku sześciu graczy w polu i bramkarza."
+  },
+  {
+    "id": "sport_p003",
+    "question": "Jaki kolor ma koszulka lidera klasyfikacji generalnej Tour de France?",
+    "answers": [
+      "Różowy",
+      "Zielony",
+      "Żółty",
+      "Czerwony"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Żółta koszulka nawiązuje do koloru papieru gazety „L’Auto”, organizatora wyścigu."
+  },
+  {
+    "id": "sport_p004",
+    "question": "Ile dołków ma standardowe pole golfowe?",
+    "answers": [
+      "9",
+      "12",
+      "24",
+      "18"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "Pełna runda golfa obejmuje 18 dołków."
+  },
+  {
+    "id": "sport_p005",
+    "question": "Ile kręgli ustawia się na torze w klasycznym bowlingu?",
+    "answers": [
+      "9",
+      "10",
+      "8",
+      "12"
+    ],
+    "correct": 1,
+    "difficulty": "easy",
+    "explanation": "W bowlingu dziesięć kręgli ustawia się w trójkąt."
+  },
+  {
+    "id": "sport_p006",
+    "question": "W jakim sporcie walczy się o Puchar Stanleya?",
+    "answers": [
+      "W koszykówce",
+      "W baseballu",
+      "W hokeju na lodzie",
+      "W futbolu amerykańskim"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Puchar Stanleya to trofeum dla zwycięzcy ligi NHL."
+  },
+  {
+    "id": "sport_p007",
+    "question": "W jakim sporcie rozgrywa się finał Super Bowl?",
+    "answers": [
+      "W futbolu amerykańskim",
+      "W rugby",
+      "W baseballu",
+      "W hokeju na lodzie"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Super Bowl to finał ligi NFL i jedno z najchętniej oglądanych wydarzeń telewizyjnych w USA."
+  },
+  {
+    "id": "sport_p008",
+    "question": "Jaką długość ma pływalnia olimpijska?",
+    "answers": [
+      "25 m",
+      "33 m",
+      "50 m",
+      "100 m"
+    ],
+    "correct": 2,
+    "difficulty": "easy",
+    "explanation": "Olimpijskie konkurencje pływackie rozgrywa się na basenie 50-metrowym."
+  },
+  {
+    "id": "sport_p009",
+    "question": "Który pływak zdobył osiem złotych medali na igrzyskach w Pekinie w 2008 roku?",
+    "answers": [
+      "Michael Phelps",
+      "Ryan Lochte",
+      "Ian Thorpe",
+      "Mark Spitz"
+    ],
+    "correct": 0,
+    "difficulty": "easy",
+    "explanation": "Phelps pobił w Pekinie rekord Marka Spitza, który w 1972 roku zdobył siedem złotych medali."
+  },
+  {
+    "id": "sport_p010",
+    "question": "Jak nazywa się dyscyplina łącząca bieg na nartach ze strzelaniem?",
+    "answers": [
+      "Kombinacja norweska",
+      "Skeleton",
+      "Pentathlon",
+      "Biathlon"
+    ],
+    "correct": 3,
+    "difficulty": "easy",
+    "explanation": "W biathlonie za każde pudło biegnie się karną rundę albo dostaje doliczony czas."
+  },
+  {
+    "id": "sport_p011",
+    "question": "Jak w golfie nazywa się wynik o jedno uderzenie lepszy od normy dołka?",
+    "answers": [
+      "Eagle",
+      "Birdie",
+      "Bogey",
+      "Albatros"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Birdie to po angielsku „ptaszek”."
+  },
+  {
+    "id": "sport_p012",
+    "question": "Ile minut trwa jedna kwarta meczu w lidze NBA?",
+    "answers": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "W NBA kwarta trwa 12 minut, a w rozgrywkach FIBA 10 minut."
+  },
+  {
+    "id": "sport_p013",
+    "question": "Ilu zawodników startuje w jednym biegu żużlowym?",
+    "answers": [
+      "2",
+      "6",
+      "8",
+      "4"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "W biegu żużlowym startuje czterech zawodników, po dwóch z każdej drużyny."
+  },
+  {
+    "id": "sport_p014",
+    "question": "Który Polak został indywidualnym mistrzem świata na żużlu w 2010 roku?",
+    "answers": [
+      "Tomasz Gollob",
+      "Jarosław Hampel",
+      "Janusz Kołodziej",
+      "Jerzy Szczakiel"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Tomasz Gollob zdobył tytuł w cyklu Grand Prix w wieku 39 lat."
+  },
+  {
+    "id": "sport_p015",
+    "question": "Jak nazywa się zawodnik baseballu, który rzuca piłkę do pałkarza?",
+    "answers": [
+      "Łapacz",
+      "Wybijający",
+      "Miotacz",
+      "Rozgrywający"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Miotacz (pitcher) stoi na lekko wzniesionym kopczyku w środku pola."
+  },
+  {
+    "id": "sport_p016",
+    "question": "Ile wynosi maksymalny brejk w snookerze?",
+    "answers": [
+      "100",
+      "155",
+      "180",
+      "147"
+    ],
+    "correct": 3,
+    "difficulty": "medium",
+    "explanation": "Maksymalny brejk to 15 czerwonych bil, każda z czarną, i wszystkie bile kolorowe."
+  },
+  {
+    "id": "sport_p017",
+    "question": "Która bila w snookerze jest warta najwięcej punktów?",
+    "answers": [
+      "Różowa",
+      "Czarna",
+      "Niebieska",
+      "Czerwona"
+    ],
+    "correct": 1,
+    "difficulty": "medium",
+    "explanation": "Czarna bila jest warta 7 punktów."
+  },
+  {
+    "id": "sport_p018",
+    "question": "Na jakiej wysokości zawieszona jest obręcz kosza do koszykówki?",
+    "answers": [
+      "2,85 m",
+      "3,25 m",
+      "3,05 m",
+      "3,50 m"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "Wysokość 10 stóp, czyli 3,05 m, obowiązuje od czasów Jamesa Naismitha."
+  },
+  {
+    "id": "sport_p019",
+    "question": "Jak w tenisie nazywa się uderzenie piłki, zanim odbije się od kortu?",
+    "answers": [
+      "Wolej",
+      "Lob",
+      "Slajs",
+      "Return"
+    ],
+    "correct": 0,
+    "difficulty": "medium",
+    "explanation": "Wolej gra się zwykle przy siatce."
+  },
+  {
+    "id": "sport_p020",
+    "question": "Która z tych broni NIE jest używana w szermierce olimpijskiej?",
+    "answers": [
+      "Floret",
+      "Szpada",
+      "Katana",
+      "Szabla"
+    ],
+    "correct": 2,
+    "difficulty": "medium",
+    "explanation": "W szermierce olimpijskiej walczy się na floret, szpadę i szablę."
+  },
+  {
+    "id": "sport_p021",
+    "question": "W jakiej dyscyplinie Renata Mauer zdobyła dwa złote medale olimpijskie?",
+    "answers": [
+      "W strzelectwie",
+      "W łucznictwie",
+      "W szermierce",
+      "W kajakarstwie"
+    ],
+    "correct": 0,
+    "difficulty": "hard",
+    "explanation": "Renata Mauer wygrywała w strzelaniu z karabinu w Atlancie w 1996 i Sydney w 2000 roku."
+  },
+  {
+    "id": "sport_p022",
+    "question": "Który Polak dotarł do półfinału Wimbledonu w 2013 roku?",
+    "answers": [
+      "Łukasz Kubot",
+      "Wojciech Fibak",
+      "Michał Przysiężny",
+      "Jerzy Janowicz"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Janowicz pokonał w ćwierćfinale Łukasza Kubota, a w półfinale przegrał z Andym Murrayem."
+  },
+  {
+    "id": "sport_p023",
+    "question": "Ile metrów ma jedno okrążenie standardowego toru w łyżwiarstwie szybkim?",
+    "answers": [
+      "333 m",
+      "400 m",
+      "250 m",
+      "500 m"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Długi tor do łyżwiarstwa szybkiego to owal o długości 400 m, taki jak bieżnia lekkoatletyczna."
+  },
+  {
+    "id": "sport_p024",
+    "question": "Ile waży kula w pchnięciu kulą mężczyzn?",
+    "answers": [
+      "5 kg",
+      "7,26 kg",
+      "6 kg",
+      "8,5 kg"
+    ],
+    "correct": 1,
+    "difficulty": "hard",
+    "explanation": "Męska kula waży 7,26 kg (16 funtów), a kobieca 4 kg."
+  },
+  {
+    "id": "sport_p025",
+    "question": "Ile wynosi dystans pływania w pełnym triathlonie Ironman?",
+    "answers": [
+      "1,5 km",
+      "5 km",
+      "10 km",
+      "Ok. 3,8 km"
+    ],
+    "correct": 3,
+    "difficulty": "hard",
+    "explanation": "Ironman to ok. 3,8 km pływania, 180 km jazdy na rowerze i maraton."
+  }
+]
